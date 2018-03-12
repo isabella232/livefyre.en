@@ -151,19 +151,20 @@ Whether you’re looking to implement custom function with Livefyre provided end
 
 A list of browsers and devices supported by the Livefyre App suite. Livefyre supports the following devices, operating systems and browsers.
 
-| Browser     | Core Apps | Storify 2 | Studio  | ModQ    |
-| :---------- | :-------: | :-------: | :-----: | :-----: |
-| Chrome      | &#8984;   |   [x]   |  [x]  |  [x]  |
-| Edge        |  &tick  |  &#x2713  | &#x2713 | &#x2713 |
-| IE 11       |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
-| Firefox 14+ |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
-| Safari 7+   |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
+| Browser     | Core Apps | Storify 2 | Studio | ModQ |
+| :---------- | :-------: | :-------: | :----: | :--: |
+| Chrome      |     Y     |     Y     |   Y    |  Y   |
+| Edge        |     Y     |     Y     |   Y    |  Y   |
+| IE 11       |     Y     |     Y     |   Y    |  Y   |
+| Firefox 14+ |     Y     |     Y     |   Y    |  Y   |
+| Safari 7+   |     Y     |     Y     |   Y    |  Y   |
  	 	 	 	 
-Devices	 	 	 	 
-Android Browser 2.3+	Limited	Limited	N/A	Limited
-Google Chrome on Android 4.1+	Limited	Limited	N/A	Limited
-iOS previous versions (iPhone 4S+ / iPad 2+)	Limited	Limited	N/A	Limited
-iOS current version (iPhone 4S+ / iPad 2+)	✓	✓	N/A	✓
+| Device                                       | Core Apps | Storify 2 | Studio | ModQ    |
+| :------------------------------------------- | :-------: | :-------: | :----: | :-----: |
+| Android Browser 2.3+                         |  Limited  |  Limited  |  n/a   | Limited |
+| Google Chrome on Android 4.1+                |  Limited  |  Limited  |  n/a   | Limited |
+| iOS previous versions (iPhone 4S+ / iPad 2+) |  Limited  |  Limited  |  n/a   | Limited |
+| iOS current versions (iPhone 4S+ / iPad 2+)  |     Y     |     Y     |  n/a   |    Y    |
 
 [!NOTE]
 
