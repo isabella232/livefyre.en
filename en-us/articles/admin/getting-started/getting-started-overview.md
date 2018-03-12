@@ -30,7 +30,10 @@ When you get started with Livefyre, you will:
 + Decide whether you want to use visualization Apps, conversation Apps, or both.
     + Visualization Apps are Apps that display content visually, including Carousel, Filmstrip, Media Wall, and Mosaic.
     + Conversation Apps are Apps that engage a site visitor in writing content that other site visitors can read, including Comments, Chat, and Reviews.
-+ Decide if you will need authentication. If you already have a user management system (for example, Janrain, Giya), you can integrate it with Livefyre. If you don't, you can use Livefyre Identity, a built-in, lightweight user management system. For more about integrating authentication, see Identity: Identity Integration.
++ Decide if you will need authentication. 
+    + If you already have a user management system (for example, Janrain, Giya), you can integrate it with Livefyre. 
+    + If you don't, you can use Livefyre Identity, a built-in, lightweight user management system. 
+    + For more about integrating authentication, see Identity: Identity Integration.
 
 ## Implementation Process
 
