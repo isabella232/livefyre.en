@@ -151,13 +151,13 @@ Whether you’re looking to implement custom function with Livefyre provided end
 
 A list of browsers and devices supported by the Livefyre App suite. Livefyre supports the following devices, operating systems and browsers.
 
- 	Core Apps	Storify 2	Studio	ModQ
-Desktop Browsers	 	 	 	 
-Chrome	✓	✓	✓	✓
-Edge	✓	✓	✓	✓
-IE 11	✓	✓	✓	✓
-Firefox 14+	✓	✓	✓	✓
-Safari 7.x	✓	✓	✓	✓
+| Browser     | Core Apps | Storify 2 | Studio  | ModQ    |
+| :---------- | :-------: | :-------: | :-----: | :-----: |
+| Chrome      |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
+| Edge        |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
+| IE 11       |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
+| Firefox 14+ |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
+| Safari 7+   |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
  	 	 	 	 
 Devices	 	 	 	 
 Android Browser 2.3+	Limited	Limited	N/A	Limited
