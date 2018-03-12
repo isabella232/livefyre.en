@@ -153,7 +153,7 @@ A list of browsers and devices supported by the Livefyre App suite. Livefyre sup
 
 | Browser     | Core Apps | Storify 2 | Studio  | ModQ    |
 | :---------- | :-------: | :-------: | :-----: | :-----: |
-| Chrome      |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
+| Chrome      |    [x]    |    [x]    |   [x]   |   [x]   |
 | Edge        |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
 | IE 11       |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
 | Firefox 14+ |  &#x2713  |  &#x2713  | &#x2713 | &#x2713 |
