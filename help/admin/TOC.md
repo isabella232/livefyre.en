@@ -1,9 +1,9 @@
 ---
 
-product: solution name
-cloud: experience cloud
+product: Livefyre
+cloud: Experience Cloud
 audience: admin
-user-guide: user guide name
+user-guide: Livefyre Admin Guide
 
 ---
 
