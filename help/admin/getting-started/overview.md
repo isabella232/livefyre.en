@@ -1,24 +1,22 @@
 ---
 
-title: 
-description: 
-SEO title: 
-SEO description: 
-author: 
-doc type: technical doc
-archetype: administrator
-machine translation: y
-business unit: digital-experience
-cloud: experience-cloud
-solution: Livefyre
-guide: Admin
-guide topic: Getting Started
-guide subtopic 1: 
-guide subtopic 2: 
+title: Get Started
+description: Get started with Livefyre
+seo-title: free text
+seo-description: free text
+short-title: free text
+doc-type: article
+author: name
+index: yes
+translate: yes
+version:
+private-feature-pack:
+beta:
+redirect:
 
 ---
 
-# Getting Started
+# Get Started with Livefyre
 
 Learn how to get started by building a fully working Livefyre App. Build off that App to handle basic authentication, social sharing, and event tracking.
 
@@ -118,11 +116,8 @@ Customers with multiple domains can share user accounts across all domains, usin
 
 Configuration settings can apply to sites, networks and Collections (referred to as conversation in the illustration above).
 
-[!NOTE]
-
-Some settings are available only at the network level (such as email notification preferences, email from address, and email custom logos). If you’d like these settings to be different for each domain, you must use multiple networks.
-
-[!END]
+> [!NOTE]
+> Some settings are available only at the network level (such as email notification preferences, email from address, and email custom logos). If you’d like these settings to be different for each domain, you must use multiple networks.
 
 ## Understanding Sites
 
@@ -130,11 +125,8 @@ A site is an arbitrary grouping of articles. The grouping is useful as it allows
 
 If you would like some moderators to only see certain Collections, these Collections may be set up as a separate Livefyre site.
 
-[!NOTE]
-
-There is no limit to the number of sites you may have under your custom network.
-
-[!END]
+> [!NOTE]
+> There is no limit to the number of sites you may have under your custom network.
 
 ## App Sequence Diagram
 
@@ -169,14 +161,9 @@ A list of browsers and devices supported by the Livefyre App suite. Livefyre sup
 | iOS previous versions (iPhone 4S+ / iPad 2+) |  Limited  |  Limited  |  n/a   | Limited |
 | iOS current versions (iPhone 4S+ / iPad 2+)  |     Y     |     Y     |  n/a   |    Y    |
 
-[!NOTE]
+> [!NOTE]
+> While Livefyre will strive to maintain existing functionality, new products and features may not be entirely supported on browsers listed here with Limited support.
 
-While Livefyre will strive to maintain existing functionality, new products and features may not be entirely supported on browsers listed here with Limited support.
+> [!IMPORTANT]
+> Due to the end of support from Microsoft, Livefyre is not supported on Internet Explorer versions before Internet Explorer 11.
 
-[!END]
-
-[!IMPORTANT]
-
-Due to the end of support from Microsoft, Livefyre is not supported on Internet Explorer versions before Internet Explorer 11.
-
-[!END]
