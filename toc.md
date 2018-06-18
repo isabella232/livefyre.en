@@ -340,4 +340,4 @@ Livefyre ToC
         - February 15, 2018
         - February 1, 2018
         - January 18, 2018
-        - 2017 Release Notes (lets archive this) 
+        - 2017 Release Notes (lets archive this.. or put all of them on one page)
