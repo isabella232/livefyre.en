@@ -2,79 +2,78 @@ Livefyre ToC
 
 * Announcements
 * Access Training Videos
-* Product
-    + Apps
-        - Create an App
-        - Carousel
-            * Carousel Features
-            * Create a Carousel Using Studio
-            * Customize a Carousel Using Studio
-            * Localize a Carousel
-        - Chat
-            * Chat Customizations
-            * Chat Features
-        - Comments
-            * Comments Features
-            * Comments Customizations
-            * Comments Integration
-        - Feature Card
-            * Feature Card Customizations
-        - Filmstrip
-            * Filmstrip Features
-            * Filmstrip Customizations
-        - Live Blog
-            * Live Blog Features
-            * Live Blog Customizations
-        - Map
-            * Map Features
-            * Map Customizations
-            * Map Integration
-        - Media Wall
-            * Media Wall Features
-            * Media Wall Customizations
-            * Media Wall Integration
-        - Mosaic
-            * Mosaic Features
-            * Mosaic Customizations
-        - Polls
-            * Add a Poll to a Comments or Live Blog App
-            * Add Images to a Poll
-            * Polls Customizations
-        - Reviews
-            * Creating a Reviews App
-            * Post a Review
-        - Sidenotes
-            * Sidenotes Features
-            * Sidenotes Customizations
-            * Best Practicies for Sidenotes
-        - Storify 2
-            * Configuration Options
-            * Storify Settings
-            * Use Google AMP with Storify 2
-            * Create a Story
-                + Add Social Content
-                + Add Text
-            * Preview a Story
-            * Publish a Story
-            * Review History
-            * Working with Multiple Editors on the Same Story
-            * Use Streams to Add Social Content to your Story
-            * Pin a Post to Storify 2
-            * Navigation Guide
-                + Add a Navigation Guide to a Storify 2
-                + Add a Title to the Navigation Guide
-                + Add Posts to the Navigation Guide
-                + Set the Number of Posts in the Navigation Guide
-                + Make the Navigation Guide Sticky
-                + Move the Navigation Guide
-        - Trending
-            * Trending Features
-            * Trending Customizations
-            * Trending Integration
-        - Upload Button
-            * Upload Button Customizations
-            * Upload Button Text Strings
-    + App Features
+* Product: Apps
+    - Create an App
+    - Carousel
+        * Carousel Features
+        * Create a Carousel Using Studio
+        * Customize a Carousel Using Studio
+        * Localize a Carousel
+    - Chat
+        * Chat Customizations
+        * Chat Features
+    - Comments
+        * Comments Features
+        * Comments Customizations
+        * Comments Integration
+    - Feature Card
+        * Feature Card Customizations
+    - Filmstrip
+        * Filmstrip Features
+        * Filmstrip Customizations
+    - Live Blog
+        * Live Blog Features
+        * Live Blog Customizations
+    - Map
+        * Map Features
+        * Map Customizations
+        * Map Integration
+    - Media Wall
+        * Media Wall Features
+        * Media Wall Customizations
+        * Media Wall Integration
+    - Mosaic
+        * Mosaic Features
+        * Mosaic Customizations
+    - Polls
+        * Add a Poll to a Comments or Live Blog App
+        * Add Images to a Poll
+        * Polls Customizations
+    - Reviews
+        * Creating a Reviews App
+        * Post a Review
+    - Sidenotes
+        * Sidenotes Features
+        * Sidenotes Customizations
+        * Best Practicies for Sidenotes
+    - Storify 2
+        * Configuration Options
+        * Storify Settings
+        * Use Google AMP with Storify 2
+        * Create a Story
+        * Add Social Content
+        * Add Text
+        * Preview a Story
+        * Publish a Story
+        * Review History
+        * Working with Multiple Editors on the Same Story
+        * Use Streams to Add Social Content to your Story
+        * Pin a Post to Storify 2
+        * Navigation Guide
+        * Add a Navigation Guide to a Storify 2
+        * Add a Title to the Navigation Guide
+        * Add Posts to the Navigation Guide
+        * Set the Number of Posts in the Navigation Guide
+        * Make the Navigation Guide Sticky
+        * Move the Navigation Guide
+    - Trending
+        * Trending Features
+        * Trending Customizations
+        * Trending Integration
+    - Upload Button
+        * Upload Button Customizations
+        * Upload Button Text Strings
+    + Product: App Features
         - Accessibility Features
         - Authentication Features
         - Content Behavior Features
