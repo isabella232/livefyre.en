@@ -63,7 +63,7 @@ Livefyre assigns a unique identifier to every Collection you create. Livefyre as
    <tr> 
     <td> tags </td> 
     <td> String (optional) </td> 
-    <td> <p>A comma-separated list of single keywords or phrases. Search Collections by tags using Studio. </p> <p>Note:  Tags cannot contain spaces. Use underscores if you wish a space to appear in the UI. </p> </td> 
+    <td> <p>A comma-separated list of single keywords or phrases. Search Collections by tags using Studio.</p> <p>Note:  Tags cannot contain spaces. Use underscores if you wish a space to appear in the UI. </p> </td> 
    </tr> 
    <tr> 
     <td> extensions </td> 

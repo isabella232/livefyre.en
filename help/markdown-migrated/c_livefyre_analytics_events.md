@@ -67,7 +67,7 @@ The following Livefyre events to map to custom events to use in reports using th
    </tr> 
    <tr> 
     <td>Post</td> 
-    <td>Any time a user posts a comment or a piece of content including ex: top level post, replies, reviews, media wall uploads </td> 
+    <td>Any time a user posts a comment or a piece of content including ex: top level post, replies, reviews, media wall uploads</td> 
    </tr> 
    <tr> 
     <td>Posted</td> 
@@ -87,7 +87,7 @@ The following Livefyre events to map to custom events to use in reports using th
    </tr> 
    <tr> 
     <td>Livefyre_Unlike</td> 
-    <td>Any time a user unlikes a livefyre like </td> 
+    <td>Any time a user unlikes a livefyre like</td> 
    </tr> 
    <tr> 
     <td>ShareOnPost</td> 
@@ -110,11 +110,11 @@ The following Livefyre events to map to custom events to use in reports using th
     <td>When Share to URL text area is selected/copied.</td> 
    </tr> 
    <tr> 
-    <td>ExpandReplies </td> 
+    <td>ExpandReplies</td> 
     <td>When a user clicks on the + or Expand link to view all replies on a top level post</td> 
    </tr> 
    <tr> 
-    <td>CollapseReplies </td> 
+    <td>CollapseReplies</td> 
     <td>When a user clicks on the - or Collapse link to view all replies on a top level post</td> 
    </tr> 
    <tr> 
@@ -138,12 +138,12 @@ The following Livefyre events to map to custom events to use in reports using th
     <td>When a user flags content as off topic</td> 
    </tr> 
    <tr> 
-    <td>FlagCancel </td> 
+    <td>FlagCancel</td> 
     <td>Any time a user clicks X or "cancel" when submitting a flag</td> 
    </tr> 
    <tr> 
     <td>FollowCollection</td> 
-    <td>Any time a conversation is followed ("I'm interested" in Reviews) </td> 
+    <td>Any time a conversation is followed ("I'm interested" in Reviews)</td> 
    </tr> 
    <tr> 
     <td>UnfollowCollection</td> 
@@ -151,7 +151,7 @@ The following Livefyre events to map to custom events to use in reports using th
    </tr> 
    <tr> 
     <td>RequestMore</td> 
-    <td>Any time a user loaded more content in an app (needs to be for high velocity too) </td> 
+    <td>Any time a user loaded more content in an app (needs to be for high velocity too)</td> 
    </tr> 
    <tr> 
     <td>ModalView</td> 
@@ -180,7 +180,7 @@ The following Livefyre events to map to custom events to use in reports using th
 The following is a list of conversion variables (eVars) that Livefyre provides.
 
 <table id="table_dvm_pkd_4cb"> 
- <title>Conversion Variables (eVars) </title> 
+ <title>Conversion Variables (eVars)</title> 
  <tgroup cols="2"> 
   <colspec colnum="1" colname="col1" /> 
   <colspec colnum="2" colname="col2" /> 

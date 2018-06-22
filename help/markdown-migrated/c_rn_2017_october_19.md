@@ -24,7 +24,7 @@ title: October 19, 2017
    <tr> 
     <td>Bug</td> 
     <td>Settings</td> 
-    <td>Changing the color in "Brand Color" setting in Studio Settings now works as designed. </td> 
+    <td>Changing the color in "Brand Color" setting in Studio Settings now works as designed.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

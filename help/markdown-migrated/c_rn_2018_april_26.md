@@ -45,7 +45,7 @@ The issues in the following tables were resolved in this release.
    <tr> 
     <td>Enhancement</td> 
     <td>Streams</td> 
-    <td>Updated the streaming mechanism that allows content to stream from Facebook to comply with a back-end change created by Facebook. </td> 
+    <td>Updated the streaming mechanism that allows content to stream from Facebook to comply with a back-end change created by Facebook.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -55,7 +55,7 @@ The issues in the following tables were resolved in this release.
    <tr> 
     <td>Enhancement</td> 
     <td>UGC Commerce</td> 
-    <td>Fixed an issue where the UGC Commerce flag was set to "off" by default, instead of "on." </td> 
+    <td>Fixed an issue where the UGC Commerce flag was set to "off" by default, instead of "on."</td> 
    </tr> 
   </tbody> 
  </tgroup> 
@@ -85,7 +85,7 @@ The issues in the following tables were resolved in this release.
    <tr> 
     <td>Enhancement</td> 
     <td>Studio</td> 
-    <td>Added the ability to see suggested words when typing in tag names. </td> 
+    <td>Added the ability to see suggested words when typing in tag names.</td> 
    </tr> 
   </tbody> 
  </tgroup> 

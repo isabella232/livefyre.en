@@ -31,7 +31,7 @@ To create a Facebook app for use with Livefyre Identity:
 >* Set `uicontrol Web OAuth Login` to `uicontrol Yes`.
 >* Set `uicontrol Use Strict Mode for Redirect URIs` to `uicontrol Yes`.
 >* Set `uicontrol Enforce HTTPS for Web OAuth Login` to `uicontrol Yes`.
->* Under `uicontrol Valid OAuth redirect URLs`, add the URL`codeph  https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` (where `codeph {networkName}` is your Livefyre-provided network name).
+>* Under `uicontrol Valid OAuth redirect URLs`, add the URL`codeph https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` (where `codeph {networkName}` is your Livefyre-provided network name).
 >   
 >   
 >1. Under `uicontrol App Review`:

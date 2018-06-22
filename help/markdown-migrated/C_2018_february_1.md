@@ -30,7 +30,7 @@ title: February 1, 2018
    <tr> 
     <td>Enhancement</td> 
     <td>Streams</td> 
-    <td>Created a new functionality to filter streams by Smart Tags. </td> 
+    <td>Created a new functionality to filter streams by Smart Tags.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -68,17 +68,17 @@ title: February 1, 2018
    <tr> 
     <td>Enhancement</td> 
     <td>App Content</td> 
-    <td>Added the ability to tag more than one piece of content at a time in App Content. </td> 
+    <td>Added the ability to tag more than one piece of content at a time in App Content.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Apps</td> 
-    <td>Added a new Designer toggle to enable/disable a custom Call-to-Action Button in Mosaic, Filmstrip, Media Wall, Feature Card, and Carousel. </td> 
+    <td>Added a new Designer toggle to enable/disable a custom Call-to-Action Button in Mosaic, Filmstrip, Media Wall, Feature Card, and Carousel.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Comments</td> 
-    <td>Added the ability to put new audio file formats in Comments and using an Upload Button. </td> 
+    <td>Added the ability to put new audio file formats in Comments and using an Upload Button.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

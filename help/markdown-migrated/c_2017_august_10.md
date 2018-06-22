@@ -57,7 +57,7 @@ title: August 10, 2017
    <tr> 
     <td>Bug</td> 
     <td>Comments</td> 
-    <td>Fixed a bug in Comments to enable .mov or .mpg to be uploaded successfully. </td> 
+    <td>Fixed a bug in Comments to enable .mov or .mpg to be uploaded successfully.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

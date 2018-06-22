@@ -24,7 +24,7 @@ title: September 14, 2017
    <tr> 
     <td>Bug</td> 
     <td>Studio</td> 
-    <td> Fixed a bug that prevented rights status updates from displaying immediately without a page refresh.</td> 
+    <td>Fixed a bug that prevented rights status updates from displaying immediately without a page refresh.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 

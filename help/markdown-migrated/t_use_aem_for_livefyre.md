@@ -169,7 +169,7 @@ The default authentication integration may not be perfect for every site. To bes
 >1. Using CRXDE Lite, copy `codeph /libs/social/integrations/livefyre/components/authorizablecomponent/authclientlib` to `codeph /apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib`
 >   
 >   
->1. Edit and save`codeph  /apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib/auth.js` to implement a Livefyre Auth Delegate that meets your needs.
+>1. Edit and save`codeph /apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib/auth.js` to implement a Livefyre Auth Delegate that meets your needs.
 >   For more information on customizing an Auth Delegate, see Identity Integration on answers.livefyre.com.
 >   
 >   For more on AEM Clientlibs, see Using Client-Side Libraries on docs.adobe.com.
@@ -203,7 +203,7 @@ To add Livefyre components to your page, the page must inherit a Livefyre Cloud 
 >1. <!-- t_enable_the_livefyre_cloud_service_for_a_page.dita -->
 Create a new page or edit an existing page. For more information on how to create and edit a page, see Authoring Pages on docs.adobe.com
 >   
->1. Choose **Open Properties **to open the **Page Properties** dialog.
+>1. Choose **Open Properties**to open the **Page Properties** dialog.
 >   
 >1. Click **Cloud Services**.
 >   
@@ -215,7 +215,7 @@ Create a new page or edit an existing page. For more information on how to creat
 >   
 >1. Enter Design Mode for the page to allow placement of Livefyre Components on the page. For more on how to use Design Mode for a page in AEM, see Configuring Components in Design Mode on docs.adobe.com.
 >   
->1. In the **Edit****dialog **window, scroll down in the **Allowed Components** section to find **Livefyre**. You can enable all components in the category, or any combination of individual components. for more information on how to enable or disable components in AEM, see Configuring Components in Design Mode on docs.adobe.com.
+>1. In the **Edit****dialog**window, scroll down in the **Allowed Components** section to find **Livefyre**. You can enable all components in the category, or any combination of individual components. for more information on how to enable or disable components in AEM, see Configuring Components in Design Mode on docs.adobe.com.
 >   
 >   
 

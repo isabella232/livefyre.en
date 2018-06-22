@@ -32,7 +32,7 @@ The following tables list the Production and UAT Release Notes for the July 20, 
    <tr> 
     <td>Enhancement</td> 
     <td>All</td> 
-    <td> <p>Introducing Livefyre's new UGC Commerce initiative. This includes the ability to: </p> 
+    <td> <p>Introducing Livefyre's new UGC Commerce initiative. This includes the ability to:</p> 
      <ul id="ul_lkr_5hd_k1b"> 
       <li>Add a conversion button to Mosaic and Media Wall.</li> 
       <li>UI enhancements to Mosaic, Media Wall and the content modal for both apps.</li> 
@@ -54,7 +54,7 @@ The following tables list the Production and UAT Release Notes for the July 20, 
    <tr> 
     <td>Bug</td> 
     <td>Media Wall</td> 
-    <td>Fixed a bug in Media Wall that was preventing the share button to work appropriately in Firefox. </td> 
+    <td>Fixed a bug in Media Wall that was preventing the share button to work appropriately in Firefox.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 

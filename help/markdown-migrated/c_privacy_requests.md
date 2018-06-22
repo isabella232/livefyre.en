@@ -53,7 +53,7 @@ To search for and find a user and generate a report of their content:
             * Allowed values: 5-16 numerical characters
           
         * `uicontrol Generic Author`.
-            * Identifies an account by a Livefyre Author ID (JID). Use this option for content sourced through RSS, Tumblr, or URLs. To find this ID, search for content attributed to the Author in **App Content** or **Asset Library**, and then select an item. The ID is available in **App Content** under **Info** or in the **Asset Library** under **Author **in the **Details** section
+            * Identifies an account by a Livefyre Author ID (JID). Use this option for content sourced through RSS, Tumblr, or URLs. To find this ID, search for content attributed to the Author in **App Content** or **Asset Library**, and then select an item. The ID is available in **App Content** under **Info** or in the **Asset Library** under **Author**in the **Details** section
             * Allowed Values: Alpha-numeric string up to 255 characters
           ![](images/privacypage3.png)
       

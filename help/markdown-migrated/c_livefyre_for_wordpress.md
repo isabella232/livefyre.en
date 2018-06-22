@@ -56,9 +56,9 @@ Select the Environment checkbox to specify that the credentials entered be used 
 
 Once enabled, click on an App in the sidebar menu to settings options for the App. Available options vary by App, and may include the following.
 
-* **Settings: **Allows you to control the types of pages for which the App will be enabled, and provides a link to a description of the configuration options available for the App. Configuration options are available for all Livefyre Apps, and are set using the ConvConfig object. Add the listed script to your theme’s header, and pass in options as a comma separated array.
-* **Status: **Lists conflicting plugins and setting status for the App, if available.
-* **Shortcode: **Some Livefyre Apps (Comments, Live Blog and Chat) can be applied with shortcodes to give users more flexibility with where they can produce Livefyre products. To use them, follow the structure on the settings page pertaining to that particular app.
+* **Settings:**Allows you to control the types of pages for which the App will be enabled, and provides a link to a description of the configuration options available for the App. Configuration options are available for all Livefyre Apps, and are set using the ConvConfig object. Add the listed script to your theme’s header, and pass in options as a comma separated array.
+* **Status:**Lists conflicting plugins and setting status for the App, if available.
+* **Shortcode:**Some Livefyre Apps (Comments, Live Blog and Chat) can be applied with shortcodes to give users more flexibility with where they can produce Livefyre products. To use them, follow the structure on the settings page pertaining to that particular app.
 **Customizations**
 
 The Livefyre Apps Plugin for WordPress can be customized in two ways: through Collection customizations and string customizations.
@@ -120,8 +120,8 @@ Use the **post** and **page** checkboxes to select the types of posts for which 
 
 **Comments Status**
 
-* **Conflicting Plugins: **Lists enabled plugins that have been known to cause issues with Comments.
-* **Allow Comments/Chat Status: **Lists posts and pages that have **Allow Comments** disabled. Comments will not appear on these posts/pages.
+* **Conflicting Plugins:**Lists enabled plugins that have been known to cause issues with Comments.
+* **Allow Comments/Chat Status:**Lists posts and pages that have **Allow Comments** disabled. Comments will not appear on these posts/pages.
 
 
 **Comments Shortcode**
@@ -153,8 +153,8 @@ Use the `uicontrol  post` and `uicontrol  page` checkboxes to select the types o
 
 **Chat Status**
 
-* **Conflicting Plugins: **Lists enabled plugins that have been known to cause issues with Chat.
-* **Allow Comments/Chat Status: **Lists posts and pages that have ‘Allow Comments’ turned off. Chat will not appear on these posts/pages.
+* **Conflicting Plugins:**Lists enabled plugins that have been known to cause issues with Chat.
+* **Allow Comments/Chat Status:**Lists posts and pages that have ‘Allow Comments’ turned off. Chat will not appear on these posts/pages.
 **Chat Shortcode**
 
 While Chat will automatically replace your default WordPress Comments, you may also add it directly within your content using a shortcode.
@@ -175,7 +175,7 @@ Chat streams are separated by the Article ID, and, if not specified, Livefyre wi
 
 Enabling Live Blog allows you to include Live Blogs on your site. Use the Live Blog page to review configuration and shortcode options.
 
-**Note: **Unlike Chat or Comments, Live Blog may be enabled only by using a shortcode.
+**Note:**Unlike Chat or Comments, Live Blog may be enabled only by using a shortcode.
 
 **Live Blog Settings**
 

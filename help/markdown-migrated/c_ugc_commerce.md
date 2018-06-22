@@ -118,7 +118,7 @@ Upload products to use with your Call-to-Action Button to add products to associ
    <tr>
     <td><span class="codeph">price</span></td>
     <td>String</td>
-    <td>Value of the product in dollars. For example, '23.36.' </td>
+    <td>Value of the product in dollars. For example, '23.36.'</td>
    </tr>
    <tr>
     <td><span class="codeph">sku</span></td>

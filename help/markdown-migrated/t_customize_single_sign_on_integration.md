@@ -14,7 +14,7 @@ The default authentication integration may not be perfect for every site. To bes
 >1. Using CRXDE Lite, copy `codeph /libs/social/integrations/livefyre/components/authorizablecomponent/authclientlib` to `codeph /apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib`
 >   
 >   
->1. Edit and save`codeph  /apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib/auth.js` to implement a Livefyre Auth Delegate that meets your needs.
+>1. Edit and save`codeph /apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib/auth.js` to implement a Livefyre Auth Delegate that meets your needs.
 >   For more information on customizing an Auth Delegate, see Identity Integration on answers.livefyre.com.
 >   
 >   For more on AEM Clientlibs, see Using Client-Side Libraries on docs.adobe.com.

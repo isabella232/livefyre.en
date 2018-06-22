@@ -113,7 +113,7 @@ Before the content from a Stream is published to an App, Livefyre performs the f
 ## Post-to-App Moderation Workflow {#section_fwn_w4d_t1b}
 
 ![](images/post_to_app_workflow.png)
-Before the content from an App post  is published to an App, Livefyre performs the following checks to determine what to do with the content:
+Before the content from an App post is published to an App, Livefyre performs the following checks to determine what to do with the content:
 
 1. If the SAFE filter flags the content as drop, Livefyre drops the content.
 1. If SAFE does not flag the content as drop, Livefyre checks to see if premoderation is on. If premoderation is on, Livefyre marks the content as pending. If you set up ModQ rules, then Livefyre sends the content to ModQ as pending. If not, the content remains in a pending status in App Content in the Library.

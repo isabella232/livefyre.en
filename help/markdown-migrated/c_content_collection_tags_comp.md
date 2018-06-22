@@ -120,7 +120,7 @@ Only publicly viewable content is embeddable. If you attempt to embed a piece of
       <li>https://maps.google.com/maps?*</li> 
       <li>https://maps.google.com/?*</li> 
       <li>https://maps.google.com/maps/ms?*</li> 
-      <li> <b>Note: </b>URL must begin with “http” and not “https.”</li> 
+      <li> <b>Note:</b>URL must begin with “http” and not “https.”</li> 
      </ul> </td> 
    </tr> 
    <tr> 
@@ -193,7 +193,7 @@ Only publicly viewable content is embeddable. If you attempt to embed a piece of
    </tr> 
    <tr> 
     <td></td> 
-    <td> <p> <b>Ow.ly </b> </p> <p>(Hootsuite’s Content Uploading Service)</p> </td> 
+    <td> <p> <b>Ow.ly</b> </p> <p>(Hootsuite’s Content Uploading Service)</p> </td> 
     <td> 
      <ul id="ul_tth_m4x_vy"> 
       <li>https://ow.ly/i/*</li> 

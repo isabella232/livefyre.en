@@ -29,7 +29,7 @@ title: November 2, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>App Content</td> 
-    <td> Customers now have the ability to playback uploaded Audio files from "App Content."</td> 
+    <td>Customers now have the ability to playback uploaded Audio files from "App Content."</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
@@ -72,12 +72,12 @@ title: November 2, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Feature Card</td> 
-    <td>The Feature Card App has the all the commerce functionality enabled. </td> 
+    <td>The Feature Card App has the all the commerce functionality enabled.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Filmstrip</td> 
-    <td>We have added resizing options for Filmstrip so that the user can have more control on how the images look in the App. </td> 
+    <td>We have added resizing options for Filmstrip so that the user can have more control on how the images look in the App.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
@@ -92,7 +92,7 @@ title: November 2, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Settings</td> 
-    <td>Customers can now visit our privacy policy and Adobe's terms of service in a footer in Settings. </td> 
+    <td>Customers can now visit our privacy policy and Adobe's terms of service in a footer in Settings.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

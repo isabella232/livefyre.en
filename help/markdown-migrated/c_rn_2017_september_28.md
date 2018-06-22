@@ -52,7 +52,7 @@ title: September 28, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Library</td> 
-    <td>Files uploaded into the library by a customer will be automatically rights granted. This is a helpful feature when the users have turned on the "require rights granted" filter in their apps. </td> 
+    <td>Files uploaded into the library by a customer will be automatically rights granted. This is a helpful feature when the users have turned on the "require rights granted" filter in their apps.</td> 
    </tr> 
   </tbody> 
  </tgroup> 

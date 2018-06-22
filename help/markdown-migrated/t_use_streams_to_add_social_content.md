@@ -20,7 +20,7 @@ Use a Stream in a Story to:
 * Prepare Streams in advance and quickly access their content while drafting your Story.
 * View a real-time feed of social media content right from the Content Pane.
 * Manually select pieces of content from the Stream and drag and drop them where it makes sense in your Story.
-* Choose when to publish posts with streamed content&nbsp;as a Story unfolds.
+* Choose when to publish posts with streamed content as a Story unfolds.
 Before you use Streams to add social content to your Story, you must create a stream. To point a stream to a story:
 
 >1. Create a stream.

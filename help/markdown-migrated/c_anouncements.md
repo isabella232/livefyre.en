@@ -64,7 +64,7 @@ After a full system analysis, here are the capabilities impacted by the API depr
   *
   **User search and streams workflow—June 14, 2018**
   
-  While you can still search by hashtag and keyword, the ability to search personal Instagram accounts has been eliminated. As an alternative, Livefyre will build functionality that enables you to search and stream content from business accounts. If you use Livefyre to search and stream your own organization’s Instagram content, be sure to[ upgrade](https://help.instagram.com/502981923235522?helpref=search&sr=2&query=change%20personal%20account%20to%20business%20account) to a business account to take advantage of this functionality.
+  While you can still search by hashtag and keyword, the ability to search personal Instagram accounts has been eliminated. As an alternative, Livefyre will build functionality that enables you to search and stream content from business accounts. If you use Livefyre to search and stream your own organization’s Instagram content, be sure to[upgrade](https://help.instagram.com/502981923235522?helpref=search&sr=2&query=change%20personal%20account%20to%20business%20account) to a business account to take advantage of this functionality.
   
   
 ****

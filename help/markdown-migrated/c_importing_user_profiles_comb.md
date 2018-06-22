@@ -32,7 +32,7 @@ The User Profile [JSON schema](https://json-schema.org/) is described in this Li
 
 If you choose to import users from your existing user profile system, required fields include:
 
-* **id: **your system’s user ID. It must match [a-zA-Z0-9-_])
+* **id:**your system’s user ID. It must match [a-zA-Z0-9-_])
 * **display_name**:user’s display name or pseudonym which will be displayed on your public-facing site.
 * **email**: required for Livefyre’s email notifications, this address is not visible on your public-facing site.
 Use Livefyre’s Ping for Pull to update user fields after import. Ping Livefyre when one of your users updates their profile, then Livefyre will Pull down the requested user’s updated profile.

@@ -22,7 +22,7 @@ The following rights statuses are available from Library Assets, App Content, Mo
 
 * `uicontrol Granted`. When the author grants you the right to reuse their content, the status of the asset changes to `uicontrol Granted`.
   *
-  `uicontrol Expired`. Livefyre monitors the Instagram and Twitter stream for the author’s reply for 14 days. After 14 days, the request expires, the rights request status changes to`uicontrol  Expired`, and you can send a second request or remove the item from your Library.
+  `uicontrol Expired`. Livefyre monitors the Instagram and Twitter stream for the author’s reply for 14 days. After 14 days, the request expires, the rights request status changes to`uicontrol Expired`, and you can send a second request or remove the item from your Library.
   
   
   *

@@ -88,7 +88,7 @@ title: January 18, 2018
    <tr> 
     <td>Enhancement</td> 
     <td>Streams</td> 
-    <td>Customers can now use the logical operators ( ANY, ALL, NOT) to create detailed smart-tag filters in streams that curate much more accurate content. For example if I use the hashtag #himalyas I can select to show only images that include "snowy" "mountains". </td> 
+    <td>Customers can now use the logical operators ( ANY, ALL, NOT) to create detailed smart-tag filters in streams that curate much more accurate content. For example if I use the hashtag #himalyas I can select to show only images that include "snowy" "mountains".</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

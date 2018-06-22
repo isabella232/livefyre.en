@@ -13,7 +13,7 @@ You can use Facebook Page Rules to stream publicly posted content from Facebook 
 To create Facebook Page Rules to pull content from Facebook pages into your App or Folder, you can filter by:
 
 * `uicontrol Facebook Page`
-    * Enter the `uicontrol Name` for the Page. Enter only the trailing text for the URL. **For example: **To add content from https://facebook.com/KellysSuperFunFanPage, type *KellysSuperFunFanPage* in the `uicontrol Name` field.
+    * Enter the `uicontrol Name` for the Page. Enter only the trailing text for the URL. **For example:**To add content from https://facebook.com/KellysSuperFunFanPage, type *KellysSuperFunFanPage* in the `uicontrol Name` field.
     * Switch `uicontrol Include Facebook Comments for each post` on if you wish to include user comments to Page posts.
     * Switch `uicontrol Only Show Author Posts` on if you wish to exclude posts from other users.
   

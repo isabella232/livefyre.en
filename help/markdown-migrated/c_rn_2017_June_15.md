@@ -29,7 +29,7 @@ title: June 15, 2017
    <tr> 
     <td>Bug</td> 
     <td>Carousel</td> 
-    <td>Fixed a bug in Carousel to allow native Livefyre content (images uploaded directly to Studio) to appear in the app appropriately. </td> 
+    <td>Fixed a bug in Carousel to allow native Livefyre content (images uploaded directly to Studio) to appear in the app appropriately.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
@@ -43,7 +43,7 @@ title: June 15, 2017
    </tr> 
    <tr> 
     <td>Enhancement</td> 
-    <td>Library </td> 
+    <td>Library</td> 
     <td>Fixed a bug to allow all uploaded media in tweets to be captured by the Media Required filter.</td> 
    </tr> 
    <tr> 
@@ -54,7 +54,7 @@ title: June 15, 2017
    <tr> 
     <td>Bug</td> 
     <td>Sidenotes</td> 
-    <td>Enhanced Sidesnotes to support front-end moderation. This means moderators logged into the app on the front-end will be able to approve or delete content. </td> 
+    <td>Enhanced Sidesnotes to support front-end moderation. This means moderators logged into the app on the front-end will be able to approve or delete content.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -112,7 +112,7 @@ title: June 15, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Social Sync</td> 
-    <td>Deprecated Twitter Social Sync. </td> 
+    <td>Deprecated Twitter Social Sync.</td> 
    </tr> 
   </tbody> 
  </tgroup> 

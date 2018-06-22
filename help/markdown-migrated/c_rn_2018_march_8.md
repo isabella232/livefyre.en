@@ -12,7 +12,7 @@ title: March 8, 2018
 
 The following features are new in the production version of this release:
 
-* **Deleting Apps. **Added the ability to delete Apps in Studio so users can better manage the App list. Deleting an App removes it from the table, but it does not remove the App from your site. The App will keep receiving content from a stream if it is configured to do so.
+* **Deleting Apps.**Added the ability to delete Apps in Studio so users can better manage the App list. Deleting an App removes it from the table, but it does not remove the App from your site. The App will keep receiving content from a stream if it is configured to do so.
 ## Issues {#section_ehw_ndt_wcb}
 
 The issues in the following tables were resolved in this release.
@@ -34,7 +34,7 @@ The issues in the following tables were resolved in this release.
    <tr> 
     <td>Bug</td> 
     <td>Polls</td> 
-    <td>Changed Polls to use HTTPS exclusively. Previously, Polls were still allowed to be used with HTTP. </td> 
+    <td>Changed Polls to use HTTPS exclusively. Previously, Polls were still allowed to be used with HTTP.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -64,7 +64,7 @@ The issues in the following tables were resolved in this release.
     <td>Filmstrip</td> 
     <td>Updated the following accessibility features for Filmstrip: 
      <ul id="ul_z43_lzp_cdb"> 
-      <li>Left/right arrows corrected from<span class="codeph"> &lt;div&gt; </span>to <span class="codeph">&lt;button&gt;</span></li> 
+      <li>Left/right arrows corrected from<span class="codeph">&lt;div&gt;</span>to <span class="codeph">&lt;button&gt;</span></li> 
       <li>Preview image element changed from a less-descriptive ARIA label of, "Open attached photo," to a label that reads the name of the platform and the post text.</li> 
      </ul></td> 
    </tr> 
@@ -78,14 +78,14 @@ The issues in the following tables were resolved in this release.
     <td>Media Wall</td> 
     <td>Improved Media Wall accessibility in the following ways: 
      <ul id="ul_rzf_5zp_cdb"> 
-      <li>Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup. </li> 
+      <li>Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup.</li> 
       <li>Load More button can be tabbed to and triggered using the keyboard Enter key.</li> 
      </ul></td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
     <td>Rights Management</td> 
-    <td>Fixed an error where you couldn't see the rights request modal after rights for an Instagram asset were granted. </td> 
+    <td>Fixed an error where you couldn't see the rights request modal after rights for an Instagram asset were granted.</td> 
    </tr> 
   </tbody> 
  </tgroup> 

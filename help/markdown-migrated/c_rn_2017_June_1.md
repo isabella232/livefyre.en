@@ -29,7 +29,7 @@ title: June 1, 2017
    <tr> 
     <td>Bug</td> 
     <td>Mosaic</td> 
-    <td>Fixed a bug in Mosaic that was preventing newly created Mosaic's from loading after a page refresh. </td> 
+    <td>Fixed a bug in Mosaic that was preventing newly created Mosaic's from loading after a page refresh.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -39,7 +39,7 @@ title: June 1, 2017
    <tr> 
     <td>Bug</td> 
     <td>Storify 2</td> 
-    <td>Updated the sorting labels in Storify 2 to match the expected behavior. "Oldest to newest" and "Newest to oldest" will now say "First to last" and "Last to first". The sort order is based on the order dictated in Storify 2's Editor, not publish date. </td> 
+    <td>Updated the sorting labels in Storify 2 to match the expected behavior. "Oldest to newest" and "Newest to oldest" will now say "First to last" and "Last to first". The sort order is based on the order dictated in Storify 2's Editor, not publish date.</td> 
    </tr> 
   </tbody> 
  </tgroup> 
@@ -72,7 +72,7 @@ title: June 1, 2017
    <tr> 
     <td>Bug</td> 
     <td>Sidenotes</td> 
-    <td>Enhanced Sidesnotes to support front-end moderation. This means moderators logged into the app on the front-end will be able to approve or delete content. </td> 
+    <td>Enhanced Sidesnotes to support front-end moderation. This means moderators logged into the app on the front-end will be able to approve or delete content.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

@@ -42,7 +42,7 @@ Allows you to customize styling for the post’s author avatar, author name, and
     <td>The author’s avatar image.</td> 
    </tr> 
    <tr> 
-    <td> .s-timestamp</td> 
+    <td>.s-timestamp</td> 
     <td>The timestamp for the date content was posted.</td> 
    </tr> 
   </tbody> 
@@ -138,7 +138,7 @@ Allows you to customize styling for the post’s story elements.
     <td>Container for the entire Story element</td> 
    </tr> 
    <tr> 
-    <td> .s-post</td> 
+    <td>.s-post</td> 
     <td>The post container</td> 
    </tr> 
    <tr> 

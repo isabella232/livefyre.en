@@ -33,13 +33,13 @@ title: June 29, 2017
    </tr> 
    <tr> 
     <td>Bug</td> 
-    <td>Reviews </td> 
-    <td>Fixed a bug in Reviews that was preventing some images to load correctly due to HTTPS errors. </td> 
+    <td>Reviews</td> 
+    <td>Fixed a bug in Reviews that was preventing some images to load correctly due to HTTPS errors.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Social Sync</td> 
-    <td>Deprecated Twitter Social Sync. </td> 
+    <td>Deprecated Twitter Social Sync.</td> 
    </tr> 
   </tbody> 
  </tgroup> 
@@ -62,7 +62,7 @@ title: June 29, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>All</td> 
-    <td> <p>Introducing Livefyre's new UGC Commerce initiative. This includes the ability to: </p> 
+    <td> <p>Introducing Livefyre's new UGC Commerce initiative. This includes the ability to:</p> 
      <ul id="ul_lkr_5hd_k1b"> 
       <li>Add a conversion button to Mosaic and Media Wall</li> 
       <li>UI enhancements to Mosaic, Media Wall and the content modal for both apps</li> 
@@ -93,8 +93,8 @@ title: June 29, 2017
    </tr> 
    <tr> 
     <td>Bug</td> 
-    <td>Media Wall </td> 
-    <td>Fixed a bug in Media Wall that was preventing the share button to work appropriately in Firefox. </td> 
+    <td>Media Wall</td> 
+    <td>Fixed a bug in Media Wall that was preventing the share button to work appropriately in Firefox.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 

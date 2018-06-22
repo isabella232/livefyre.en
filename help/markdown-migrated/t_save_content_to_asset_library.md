@@ -13,6 +13,6 @@ title: Save Content to Asset Library
 >       
 >       `uicontrol Add to Folder`
 >   
->1. Click`uicontrol  … (More Actions) &gt; Advanced` to add the item to your Library, add tags, and Request reuse rights, or publish the item to an App.
+>1. Click`uicontrol … (More Actions) &gt; Advanced` to add the item to your Library, add tags, and Request reuse rights, or publish the item to an App.
 >   
 >   

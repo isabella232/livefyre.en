@@ -40,17 +40,17 @@ title: November 16, 2017
    <tr> 
     <td>Bug</td> 
     <td>Comments</td> 
-    <td>Fixed inaccurate comment counts in comments apps. </td> 
+    <td>Fixed inaccurate comment counts in comments apps.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Feature Card</td> 
-    <td>The Feature Card App has the all the commerce functionality enabled. </td> 
+    <td>The Feature Card App has the all the commerce functionality enabled.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Filmstrip</td> 
-    <td>We have added resizing options for Filmstrip so that the user can have more control on how the images look in the App. </td> 
+    <td>We have added resizing options for Filmstrip so that the user can have more control on how the images look in the App.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -85,17 +85,17 @@ title: November 16, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Library</td> 
-    <td>We have updated our "relevance" Ranking algorithm when a user searches for smart tags, so when a user toggles the "relevance" sort in library search, the new ranking algorithm is engaged. This new ranking algorithm takes into consideration, smart tag precision scores, number of stars assigned by user and age of the document. The objective is to make the tag search experience more accurate for the user. </td> 
+    <td>We have updated our "relevance" Ranking algorithm when a user searches for smart tags, so when a user toggles the "relevance" sort in library search, the new ranking algorithm is engaged. This new ranking algorithm takes into consideration, smart tag precision scores, number of stars assigned by user and age of the document. The objective is to make the tag search experience more accurate for the user.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Library</td> 
-    <td>When a customer saves an asset to the library, Livefyre employs Adobe Sensei machine learning technology to add tags that describe what is in the image of the asset automatically. This enables the user to search for those tags in the system. </td> 
+    <td>When a customer saves an asset to the library, Livefyre employs Adobe Sensei machine learning technology to add tags that describe what is in the image of the asset automatically. This enables the user to search for those tags in the system.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Library</td> 
-    <td>When a customer saves an image based asset to the library, Livefyre will now automatically tag it using Adobe AI technology, extracting features, categories and aesthetic properties from the system. This allows the user to search the library by what is inside of the images, not just the text. </td> 
+    <td>When a customer saves an image based asset to the library, Livefyre will now automatically tag it using Adobe AI technology, extracting features, categories and aesthetic properties from the system. This allows the user to search the library by what is inside of the images, not just the text.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -110,12 +110,12 @@ title: November 16, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Settings</td> 
-    <td>Customers can now visit our privacy policy and Adobe's terms of service in a footer in Settings. </td> 
+    <td>Customers can now visit our privacy policy and Adobe's terms of service in a footer in Settings.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Streams</td> 
-    <td>Fixed a bug for pre-moderation of email based stream rules. </td> 
+    <td>Fixed a bug for pre-moderation of email based stream rules.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
@@ -148,12 +148,12 @@ title: November 16, 2017
    <tr> 
     <td>Bug</td> 
     <td>App Manager</td> 
-    <td>Fixed an issue with the App tag search in App Manager. </td> 
+    <td>Fixed an issue with the App tag search in App Manager.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
     <td>Library</td> 
-    <td>Fixed an issue that prevented adding stars for multiple pieces of content at a time in the Asset Library. </td> 
+    <td>Fixed an issue that prevented adding stars for multiple pieces of content at a time in the Asset Library.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

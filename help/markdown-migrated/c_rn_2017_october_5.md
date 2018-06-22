@@ -24,7 +24,7 @@ title: October 5, 2017
    <tr> 
     <td>Bug</td> 
     <td>Livefyre Identity</td> 
-    <td>Customers using Livefyre identity to login were experiencing issues seeing or updating their avatars when posting to commenting apps. This has been fixed now, as avatars are now visible and available for updating. </td> 
+    <td>Customers using Livefyre identity to login were experiencing issues seeing or updating their avatars when posting to commenting apps. This has been fixed now, as avatars are now visible and available for updating.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -67,7 +67,7 @@ title: October 5, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Library</td> 
-    <td>Files uploaded into the library by a customer will be automatically rights granted. This is a helpful feature when the users have turned on the "require rights granted" filter in their apps. </td> 
+    <td>Files uploaded into the library by a customer will be automatically rights granted. This is a helpful feature when the users have turned on the "require rights granted" filter in their apps.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
@@ -102,7 +102,7 @@ title: October 5, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>UGC Commerce</td> 
-    <td>Customers can now manually upload a google product catalogue into Livefyre studio using a JSON file export. This enables the customer to pair UGC with products from that catalogue and visualize them in our commerce enabled apps. </td> 
+    <td>Customers can now manually upload a google product catalogue into Livefyre studio using a JSON file export. This enables the customer to pair UGC with products from that catalogue and visualize them in our commerce enabled apps.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 

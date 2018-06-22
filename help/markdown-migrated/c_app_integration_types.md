@@ -22,7 +22,7 @@ When you implement Livefyre Apps, the style of implementation depends on your us
     <th class="entry">Type</th> 
     <th class="entry">Development Requirement</th> 
     <th class="entry">Features</th> 
-    <th class="entry">Pros </th> 
+    <th class="entry">Pros</th> 
     <th class="entry">Limitations</th> 
    </tr> 
   </thead> 
@@ -63,7 +63,7 @@ When you implement Livefyre Apps, the style of implementation depends on your us
      </ul> </td> 
     <td> 
      <ul id="ul_urm_ztk_rbb"> 
-      <li>Need a developer up front. </li> 
+      <li>Need a developer up front.</li> 
      </ul> </td> 
    </tr> 
    <tr> 

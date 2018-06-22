@@ -192,7 +192,7 @@ Stings available for author and individual content information.
    <tr> 
     <td></td> 
     <td> datetimeMonths </td> 
-    <td> <i>An array. Default = </i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] </td> 
+    <td> <i>An array. Default =</i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] </td> 
    </tr> 
    <tr> 
     <td></td> 

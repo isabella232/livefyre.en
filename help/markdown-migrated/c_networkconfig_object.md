@@ -25,7 +25,7 @@ The `codeph NetworkConfig` object is a JSON object containing the following para
   <tbody> 
    <tr> 
     <td><span class="varname">authDelegate</span></td> 
-    <td>Object (required) </td> 
+    <td>Object (required)</td> 
     <td>Used to customize the authentication system for custom network users.</td> 
    </tr> 
    <tr> 
@@ -35,12 +35,12 @@ The `codeph NetworkConfig` object is a JSON object containing the following para
    </tr> 
    <tr> 
     <td><span class="varname">attachmentDelegate</span></td> 
-    <td>Object (optional) </td> 
+    <td>Object (optional)</td> 
     <td>Used to specify the types of media attachments visible in the App stream. For more information, see Restricting Media.</td> 
    </tr> 
    <tr> 
     <td><span class="varname">strings</span></td> 
-    <td>Object (optional) </td> 
+    <td>Object (optional)</td> 
     <td>Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see String Customizations.</td> 
    </tr> 
   </tbody> 

@@ -14,8 +14,7 @@ The title for the Collection.
 ```
 Collection collection = site.buildCommentsCollection(title, articleId, url);
 ```
-## NodeJS
-      Example {#section_xkd_gds_rz}
+## NodeJS       Example {#section_xkd_gds_rz}
 
 ```
 var collection = site.buildCommentsCollection(title, articleId, url); 

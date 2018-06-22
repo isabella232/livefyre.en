@@ -41,7 +41,7 @@ If you requested this, please click the following link to choose a new password:
 
 ## Verification Email {#section_ak5_xhs_p1b}
 
-You can send an email verifying the email address of a user. To send verification emails, you must turn on the option in **Integration Settings **&gt; **Livefyre Identity**.
+You can send an email verifying the email address of a user. To send verification emails, you must turn on the option in **Integration Settings**&gt; **Livefyre Identity**.
 
 The verification email looks like this:
 
@@ -66,7 +66,7 @@ The *&lt;customer name&gt;* Team
 You can send an email to a user to verify the email address they use to sign up for an account. To send a verification email:
 
 1. In Studio, click on the gear icon to modify network settings.
-1. Click **Integration Settings **&gt; **Livefyre Identity.**
+1. Click **Integration Settings**&gt; **Livefyre Identity.**
 1. Navigate to **Login Types**.
 1. Click **Require Email Verification** to send an email to users that verifies the email address they use to sign up for an account.
 1. Navigate to **Network Email** to configure the **Logo for Email**, the email address to use as the from address (**Email From**), and the display name to use for the from email address (**Email Display Name**).
@@ -101,7 +101,7 @@ The *&lt;customer name&gt;* Team
 You can send a welcome email to a user after they sign up for an account. Studio sends this email after it sends a verification email, if you set up a verification email. To send a welcome email:
 
 1. In Studio, click on the gear icon to modify network settings.
-1. Click **Integration Settings &gt; ****Livefyre**** Identity****.**
+1. Click **Integration Settings &gt;****Livefyre****Identity****.**
 1. Navigate to **Email Setting****s**.
 1. Click **Send Welcome Emails To New Users** to enable sending emails.
-1. Navigate to **Network ****Email** to configure the **L****ogo**** for Email**, the email address to use as the from address (**Email From**), and the display name to use for the from email address (**Email Display Name**).
+1. Navigate to **Network****Email** to configure the **L****ogo****for Email**, the email address to use as the from address (**Email From**), and the display name to use for the from email address (**Email Display Name**).

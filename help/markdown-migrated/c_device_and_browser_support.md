@@ -49,10 +49,10 @@ Livefyre supports the following devices, operating systems and browsers.
    </tr> 
    <tr> 
     <td>IE 11</td> 
-    <td> ✓</td> 
     <td>✓</td> 
     <td>✓</td> 
-    <td> ✓</td> 
+    <td>✓</td> 
+    <td>✓</td> 
    </tr> 
    <tr> 
     <td>Firefox 14+</td> 
@@ -99,7 +99,7 @@ Livefyre supports the following devices, operating systems and browsers.
    <tr> 
     <td>iOS previous versions (iPhone 4S+ / iPad 2+)</td> 
     <td>Limited</td> 
-    <td> Limited</td> 
+    <td>Limited</td> 
     <td>N/A</td> 
     <td>Limited</td> 
    </tr> 

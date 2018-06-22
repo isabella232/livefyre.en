@@ -50,9 +50,9 @@ Please name and structure your files meaningfully. For example:
 
 When importing, content must be split into two types:
 
-**Recent Comments (or Interactive Comments): **include the most recent content posted prior to your launch date. (The exact time period for “Recent Comments” will be specified in your Livefyre contract.) Imported comments will look and behave as if posted after integration. Recent content is active and interactive.
+**Recent Comments (or Interactive Comments):**include the most recent content posted prior to your launch date. (The exact time period for “Recent Comments” will be specified in your Livefyre contract.) Imported comments will look and behave as if posted after integration. Recent content is active and interactive.
 
-**Legacy Comments (or Archived Comments): **include content posted previous to the specified cut-off point for your Recent Comments import. These comments will display in the stream, and may be styled to indicate that they are “archived” comments, but they will not be available in Studio, and will not support user interaction. Legacy content is archival, and not interactive.
+**Legacy Comments (or Archived Comments):**include content posted previous to the specified cut-off point for your Recent Comments import. These comments will display in the stream, and may be styled to indicate that they are “archived” comments, but they will not be available in Studio, and will not support user interaction. Legacy content is archival, and not interactive.
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ The User Profile [ JSON schema ](https://json-schema.org/) is described in this 
 
 If you choose to import users from your existing user profile system, required fields include:
 
-* **id: **your system’s user ID. It must match [a-zA-Z0-9-_])
+* **id:**your system’s user ID. It must match [a-zA-Z0-9-_])
 * **display_name**:user’s display name or pseudonym which will be displayed on your public-facing site.
 * **email**: required for Livefyre’s email notifications, this address is not visible on your public-facing site.
 Use Livefyre’s Ping for Pull to update user fields after import. Ping Livefyre when one of your users updates their profile, then Livefyre will Pull down the requested user’s updated profile.
@@ -223,28 +223,28 @@ A successful import must adhere to the following standards:
   
   
 * **Do not use HTML entities in Collection Titles:** HTML entities like &lt;b&gt;, &lt;i&gt;, &lt;strong&gt;, and &lt;em&gt; must be removed from the Collection title. If included, they will be represented literally in the displayed Collection title in Studio.
-* **Do not encode angle brackets in HTML tags: **The left and right angle bracket characters ( &lt; &gt; ) of HTML tags in body_html should not be encoded. If encoded, these tags will have no meaning and will be displayed literally in Studio.
+* **Do not encode angle brackets in HTML tags:**The left and right angle bracket characters ( &lt; &gt; ) of HTML tags in body_html should not be encoded. If encoded, these tags will have no meaning and will be displayed literally in Studio.
   *
-  **Escape quotations in tags: **Quotation marks in HTML tags must be backslash escaped.
+  **Escape quotations in tags:**Quotation marks in HTML tags must be backslash escaped.
   
   For example: &lt;a href=”https://www.baseart.fr/doc/sacguccifrance.php”&gt;gucci jeans&lt;a&gt;
   
   
-* **Do not add extra attributes from anchor tags: **Additional attributes like rel=”nofollow” and rel=”bookmark” are not permitted. The additional invalid attributes will be stripped out during the import, and the anchor tag will be imported without them.
+* **Do not add extra attributes from anchor tags:**Additional attributes like rel=”nofollow” and rel=”bookmark” are not permitted. The additional invalid attributes will be stripped out during the import, and the anchor tag will be imported without them.
 **Threaded Content**
 
 To maintain threading in your imported content, adhere to the following rules:
 
   *
-  **Comment ordering: **To preserve comment threading, parent content must be imported before child/reply content. Specifically, the top level ID of a comment must exist before a child comment references it as parent. An easy way to accomplish this is to list comments from oldest to newest date of creation.
+  **Comment ordering:**To preserve comment threading, parent content must be imported before child/reply content. Specifically, the top level ID of a comment must exist before a child comment references it as parent. An easy way to accomplish this is to list comments from oldest to newest date of creation.
   
-  **Note: **Livefyre doesn’t keep a record of parent IDs after running a sample import. Parent IDs must be included in the delta file.
+  **Note:**Livefyre doesn’t keep a record of parent IDs after running a sample import. Parent IDs must be included in the delta file.
   
   
-* **Threading with moderated comments: **To maintain threading in your reply structures, set the parent_id for every reply comment.
-* **Deleted or Moderated comments: **There are two options for comments that have been deleted or moderated and have child replies:
+* **Threading with moderated comments:**To maintain threading in your reply structures, set the parent_id for every reply comment.
+* **Deleted or Moderated comments:**There are two options for comments that have been deleted or moderated and have child replies:
       *
-      **Import all comments: **Import all comments and replace the text of deleted or moderated comments with a standardized message.
+      **Import all comments:**Import all comments and replace the text of deleted or moderated comments with a standardized message.
       
       For example, if your original content structure follows this format:
       
@@ -266,7 +266,7 @@ To maintain threading in your imported content, adhere to the following rules:
       
       
       *
-      **Import approved comments only: **Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
+      **Import approved comments only:**Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
       
       For example, if content follows this format:
       
@@ -288,7 +288,7 @@ To maintain threading in your imported content, adhere to the following rules:
   
 **Special Characters**
 
-* **Encode non-ASCII special characters: **All non-ASCII special characters must be encoded, preferably with Python style encoding. For example, replace smartquotes (also known as typographer’s quotes ’ ) with u2019. (Do not escape the backslash; Livefyre requires the single backslash.)
+* **Encode non-ASCII special characters:**All non-ASCII special characters must be encoded, preferably with Python style encoding. For example, replace smartquotes (also known as typographer’s quotes ’ ) with u2019. (Do not escape the backslash; Livefyre requires the single backslash.)
 ## Available Content Parameters {#section_p4c_qtt_b1b}
 
 The following parameters are used in the Content import process.

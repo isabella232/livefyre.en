@@ -117,9 +117,9 @@ Strings available for the Review and Rating user interface.
    <tr> 
     <td></td> 
     <td> ratingValues </td> 
-    <td> <i>An array. Default = </i>[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]; 
+    <td> <i>An array. Default =</i>[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]; 
      <ul id="ul_krv_snl_wz"> 
-      <li><b>Note: </b>Values in the array must be duplicated to assign both the left and the right half of each star the same name.</li> 
+      <li><b>Note:</b>Values in the array must be duplicated to assign both the left and the right half of each star the same name.</li> 
      </ul> </td> 
    </tr> 
    <tr> 
@@ -129,12 +129,12 @@ Strings available for the Review and Rating user interface.
    <tr> 
     <td></td> 
     <td> ratingSubpartPlaceholders </td> 
-    <td> <i>An array. Default = </i>[] </td> 
+    <td> <i>An array. Default =</i>[] </td> 
    </tr> 
    <tr> 
     <td></td> 
     <td> ratingSubpartTitles </td> 
-    <td> <i>An array. Default = </i>[] </td> 
+    <td> <i>An array. Default =</i>[] </td> 
    </tr> 
    <tr> 
     <td></td> 
@@ -853,7 +853,7 @@ Stings available for author and individual content information.
    <tr> 
     <td></td> 
     <td> datetimeMonths </td> 
-    <td> <i>An array. Default = </i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] </td> 
+    <td> <i>An array. Default =</i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ] </td> 
    </tr> 
    <tr> 
     <td></td> 

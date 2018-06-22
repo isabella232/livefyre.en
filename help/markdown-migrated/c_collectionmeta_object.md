@@ -68,7 +68,7 @@ The `codeph  CollectionMeta` object may also contain the following optional para
    <tr> 
     <td> <span class="varname"> tags </span> </td> 
     <td> (optional) string </td> 
-    <td> A comma-separated list of single keywords or phrases. Search Collections by tags within Studio or with the search API. <b>Note: </b>While tags added through Studio may contain spaces, tags entered through the API cannot. Use underscores to define tags that will display spaces in the UI. (For example: use Monday_Quarterback to display Monday Quarterback in Studio.) </td> 
+    <td> A comma-separated list of single keywords or phrases. Search Collections by tags within Studio or with the search API. <b>Note:</b>While tags added through Studio may contain spaces, tags entered through the API cannot. Use underscores to define tags that will display spaces in the UI. (For example: use Monday_Quarterback to display Monday Quarterback in Studio.) </td> 
    </tr> 
   </tbody> 
  </tgroup> 

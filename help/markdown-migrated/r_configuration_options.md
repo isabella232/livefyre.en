@@ -19,7 +19,7 @@ The object contains the following parameters:
   <tbody> 
    <tr> 
     <td>authDelegate</td> 
-    <td>(required) object </td> 
+    <td>(required) object</td> 
     <td>New or old style initialized authentication delegate.</td> 
    </tr> 
    <tr> 
@@ -29,22 +29,22 @@ The object contains the following parameters:
    </tr> 
    <tr> 
     <td>customIcon</td> 
-    <td>(optional) string </td> 
+    <td>(optional) string</td> 
     <td>Sets the URL of a custom launcher icon. Defaults to Livefyre bubble.</td> 
    </tr> 
    <tr> 
     <td>customStyles</td> 
-    <td>(optional) object </td> 
+    <td>(optional) object</td> 
     <td>Adds custom styles to change the look and feel of Sidenotes. For more information, see Custom Styles.</td> 
    </tr> 
    <tr> 
     <td>disableStream</td> 
-    <td>(optional) Boolean </td> 
+    <td>(optional) Boolean</td> 
     <td>If true, disables real-time streaming in this Sidenotes instance (not in other comment streams). Default is false.</td> 
    </tr> 
    <tr> 
     <td>environment</td> 
-    <td>(optional) string </td> 
+    <td>(optional) string</td> 
     <td>Specifies the Livefyre UAT environment. The only possible value is t402.livefyre.com. For production this parameter must be removed.</td> 
    </tr> 
    <tr> 
@@ -59,7 +59,7 @@ The object contains the following parameters:
    </tr> 
    <tr> 
     <td>numSidenotesEl</td> 
-    <td>(optional) object, string, or array </td> 
+    <td>(optional) object, string, or array</td> 
     <td> <p>Specifies which element the Sidenotes count widget will decorate. (This widget shows the number of sidenotes on the page and information about Sidenotes.)</p> <p>If the string selector matches more than one element, the first will be chosen. (Uses CSS3 DOM selector spec.)</p> </td> 
    </tr> 
    <tr> 
@@ -69,7 +69,7 @@ The object contains the following parameters:
    </tr> 
    <tr> 
     <td>selectors</td> 
-    <td>(required) object, string, or array </td> 
+    <td>(required) object, string, or array</td> 
     <td> <p>Specifies the elements on which launcher icons should appear. (Uses CSS3 DOM selector spec.)</p> <p>If object, includes an “includes” section and an “excludes” section that will apply the CSS selector for any matching includes, and remove any elements matching the excludes. If string, will include any matching elements on the page. If array, lists the elements to include.</p> </td> 
    </tr> 
    <tr> 

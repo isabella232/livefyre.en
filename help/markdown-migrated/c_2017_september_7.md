@@ -87,12 +87,12 @@ title: September 7, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Comments</td> 
-    <td>Customers can now set the maximum length for comments as part of their network configuration. </td> 
+    <td>Customers can now set the maximum length for comments as part of their network configuration.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Film Strip</td> 
-    <td>Film strip is a brand new visualization app, primarily designed to showcase UGC in e-commerce scenarios, such as product pages or transactional websites. Film Strip horizontally aligns UGC to be displayed as a camera roll, one piece at the time. End users can navigate Film Strip by clicking the side arrows to scroll through the content available. </td> 
+    <td>Film strip is a brand new visualization app, primarily designed to showcase UGC in e-commerce scenarios, such as product pages or transactional websites. Film Strip horizontally aligns UGC to be displayed as a camera roll, one piece at the time. End users can navigate Film Strip by clicking the side arrows to scroll through the content available.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
@@ -107,12 +107,12 @@ title: September 7, 2017
    <tr> 
     <td>Bug</td> 
     <td>Mobile</td> 
-    <td>This bug corrects an issue on how nested replies rendered in Mobile when avatars were disabled, they did not use to nest, but this fix corrects it. </td> 
+    <td>This bug corrects an issue on how nested replies rendered in Mobile when avatars were disabled, they did not use to nest, but this fix corrects it.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Mosaic</td> 
-    <td>This is a new configuration that enables customers to specify the number of cards to be displayed in the Mosaic visualization app. </td> 
+    <td>This is a new configuration that enables customers to specify the number of cards to be displayed in the Mosaic visualization app.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

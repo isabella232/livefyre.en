@@ -47,7 +47,7 @@ Livefyre.require(['auth', 'lfep-auth-delegate#0'],function (auth, LFEPAuthDelega
 ```
 >[!NOTE]
 >
->LFEP creates a Janrain Engage App on your behalf that allows visitors on your site to use social authentication to sign in and interact with content.*** {Your Janrain Engage App Name} ***will be provided to you by your Livefyre Technical Account Manager.
+>LFEP creates a Janrain Engage App on your behalf that allows visitors on your site to use social authentication to sign in and interact with content.***{Your Janrain Engage App Name}***will be provided to you by your Livefyre Technical Account Manager.
 ## Step 4: Add your domain to the Janrain whitelist {#section_rrh_s1h_21b}
 
 To complete your Enterprise Profiles integration, you must add your Livefyre Enterprise Profiles domain name (for example: &lt;site&gt;.ep.livefyre.com) to the Janrain Application Settings &gt; Domain Whitelist. For more information, see the [ Janrain documentation ](http://developers.janrain.com/reference/janrain-dashboard/social-login/).

@@ -50,7 +50,7 @@ To add the Livefyre Android SDK to your project in Android Studio:
 1. Browse and select the StreamHub-Android-SDK.
 Android Studio may request that you convert the SDK to gradle version; if this occurs, select `uicontrol  next` then `uicontrol  finish`.
 
-Go to ***project folder* &gt; *app folder *&gt; build.gradle** file under dependencies to add the the following dependency:
+Go to ***project folder* &gt; *app folder*&gt; build.gradle** file under dependencies to add the the following dependency:
 
 ```
 dependencies { compile project(':streamHubAndroidSDK') } 

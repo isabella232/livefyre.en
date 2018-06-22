@@ -18,17 +18,17 @@ Dashboards may be filtered by site, date, and activity. Use the Network pulldown
 This page describes:
 
 
-* Selecting a [ Date Range](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#DateRange) for your dashboard
-* [ Showing / Hiding Available Activities](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ShowHideActivities)
-* [ Exporting Dashboard Data](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ExportDashboardData)
-* [ The Collections Dashboard](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#CollectionsDashboard)
-* [ The Moderation Dashboard](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ModerationDashboard)
-* [ The Users Dashboard](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#UsersDashboard)
+* Selecting a [Date Range](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#DateRange) for your dashboard
+* [Showing / Hiding Available Activities](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ShowHideActivities)
+* [Exporting Dashboard Data](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ExportDashboardData)
+* [The Collections Dashboard](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#CollectionsDashboard)
+* [The Moderation Dashboard](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ModerationDashboard)
+* [The Users Dashboard](https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#UsersDashboard)
 
 
 >[!NOTE]
 >
->Analytics currently support activities originating from Livefyre Core Apps and Moderation. Most activities included within these dashboards are also available through[ Livefyre JavaScript Events](https://answers.livefyre.com/developers/reference/app-customizations/javascript-events/), which may be used to power your own custom or third-party analytics tool.
+>Analytics currently support activities originating from Livefyre Core Apps and Moderation. Most activities included within these dashboards are also available through[Livefyre JavaScript Events](https://answers.livefyre.com/developers/reference/app-customizations/javascript-events/), which may be used to power your own custom or third-party analytics tool.
 
 
 >## Date Range {#concept_798C438120E643B6BE262C9997DC87C4}
@@ -41,13 +41,13 @@ Quick Dates:
 
 
 * **Today:** Displays data from midnight the morning of the current day, until the last complete hour before this moment.
-* ** Yesterday:** Displays the previous 24 hours' data.
-* ** 7 days:** Displays the previous 7 days' data, not including today.
-* ** 30 days:** Displays the previous 30 days' data, not including today.
-* ** This Week:** Displays data from midnight the morning of last Sunday, until the last complete hour before this moment.
-* ** This Month:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment.
-* ** Last Week:** Displays last week's data.
-* ** Last Month:** Displays last month's data.
+* **Yesterday:** Displays the previous 24 hours' data.
+* **7 days:** Displays the previous 7 days' data, not including today.
+* **30 days:** Displays the previous 30 days' data, not including today.
+* **This Week:** Displays data from midnight the morning of last Sunday, until the last complete hour before this moment.
+* **This Month:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment.
+* **Last Week:** Displays last week's data.
+* **Last Month:** Displays last month's data.
 
 
 >## Showing/Hiding Activities {#concept_022D9851CBCE4A2FB80D0AE52A23744D}
@@ -64,13 +64,13 @@ Activities are actions that users take on your site, including commenting, flagg
 Available activities vary by dashboard type and export, and may include:
 
 
-* ** Posts:** Displays data from midnight the morning of the current day, until the last complete hour before this moment.
-* ** Replies:** Displays the previous 24 hours' data.
-* ** Likes:** Displays the previous 7 days' data, not including today.
-* ** Unlikes:** Displays the previous 30 days' data, not including today.
+* **Posts:** Displays data from midnight the morning of the current day, until the last complete hour before this moment.
+* **Replies:** Displays the previous 24 hours' data.
+* **Likes:** Displays the previous 7 days' data, not including today.
+* **Unlikes:** Displays the previous 30 days' data, not including today.
 * **Contains Media:** Displays data from midnight the morning of last Sunday, until the last complete hour before this moment.
-* ** Post has photo upload:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment.
-* ** Post has link:** Displays last week's data.
+* **Post has photo upload:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment.
+* **Post has link:** Displays last week's data.
 * **Post has @mentions:** Displays last month's data.
 * **Approved:** Displays last month's data.
 * **Bozo'd:** Displays last month's data.

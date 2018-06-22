@@ -27,7 +27,7 @@ Changed the value of the evars.appType javascript and generator.name to new valu
   </thead> 
   <tbody> 
    <tr> 
-    <td>blog-component </td> 
+    <td>blog-component</td> 
     <td>Live Blog</td> 
    </tr> 
    <tr> 
@@ -43,7 +43,7 @@ Changed the value of the evars.appType javascript and generator.name to new valu
     <td>Chat</td> 
    </tr> 
    <tr> 
-    <td>comment-component </td> 
+    <td>comment-component</td> 
     <td>Comments</td> 
    </tr> 
    <tr> 
@@ -59,7 +59,7 @@ Changed the value of the evars.appType javascript and generator.name to new valu
     <td>Upload Button</td> 
    </tr> 
    <tr> 
-    <td>mosaic-component </td> 
+    <td>mosaic-component</td> 
     <td>Mosaic</td> 
    </tr> 
    <tr> 
@@ -95,7 +95,7 @@ The issues in the following tables were resolved in this release.
    <tr> 
     <td>Bug</td> 
     <td>Library/Search</td> 
-    <td>Fixed an issue where Instagram videos didn't display properly in Social Search or App Content. </td> 
+    <td>Fixed an issue where Instagram videos didn't display properly in Social Search or App Content.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 

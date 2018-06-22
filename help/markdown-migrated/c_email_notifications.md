@@ -48,7 +48,7 @@ Livefyre offers two email frequency options:
 * Hourly Digest
 **Immediately**
 
-Emails sent immediately display the post’s text, article title, author’s username, and a **Reply** link which takes the user to the content on the page. These emails also include an **unsubscribe** link in the footer, allowing users to unsubscribe from email notifications for that Collection. Clicking **unsubscribe **will take them to a confirmation page letting them know that they have been unsubscribed from the Collection.
+Emails sent immediately display the post’s text, article title, author’s username, and a **Reply** link which takes the user to the content on the page. These emails also include an **unsubscribe** link in the footer, allowing users to unsubscribe from email notifications for that Collection. Clicking **unsubscribe**will take them to a confirmation page letting them know that they have been unsubscribed from the Collection.
 
 **Hourly Digest**
 
@@ -59,11 +59,11 @@ Emails sent in an hourly digest display all content, replies to content, and lik
 >In conversations without new content for more than several hours, users with hourly digest enabled will receive notice immediately upon a new content post.
 **Moderator Email Options**
 
-Moderators can opt in to receive emails for content posted in a Collection they are following, and for comments flagged Spam or Offensive in a Collection they are moderating. **Note: **No emails will be sent when users flag a comment with Disagree or Off-Topic, as these categories are not deemed important for moderator notification.
+Moderators can opt in to receive emails for content posted in a Collection they are following, and for comments flagged Spam or Offensive in a Collection they are moderating. **Note:**No emails will be sent when users flag a comment with Disagree or Off-Topic, as these categories are not deemed important for moderator notification.
 
 The moderator_comments and moderator_flags fields should also be added to your moderator user profile settings page database schema to allow your moderators to update the frequency of their email notifications, and opt out if they wish. Livefyre recommends that you set these two moderator email notification fields to **never**. Options include **never** (default), **immediately**, and **often**.
 
-**Moderator Email (flagged content): **
+**Moderator Email (flagged content):**
 
 When content is flagged in a moderated Collection, the email sent to the moderator will display the content that was flagged, the username who flagged the content, and a link back to the content page.
 

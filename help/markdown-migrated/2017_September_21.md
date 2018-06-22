@@ -24,22 +24,22 @@ title: September 21, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Comments</td> 
-    <td>Customers can now set the maximum length for Comments as part of their network configuration. </td> 
+    <td>Customers can now set the maximum length for Comments as part of their network configuration.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
     <td>Mobile App</td> 
-    <td>This bug corrects an issue on how nested replies rendered in Mobile when avatars were disabled. </td> 
+    <td>This bug corrects an issue on how nested replies rendered in Mobile when avatars were disabled.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
     <td>Mosaic</td> 
-    <td>Fixed a production bug that made Mosaic display Grey Boxes in IE11 in UGC. </td> 
+    <td>Fixed a production bug that made Mosaic display Grey Boxes in IE11 in UGC.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 
     <td>Mosaic</td> 
-    <td>Customers can now specify the number of cards to be displayed in the Mosaic visualization app. </td> 
+    <td>Customers can now specify the number of cards to be displayed in the Mosaic visualization app.</td> 
    </tr> 
    <tr> 
     <td>Bug</td> 
@@ -77,7 +77,7 @@ title: September 21, 2017
    <tr> 
     <td>Enhancement</td> 
     <td>Filmstrip</td> 
-    <td>In the Filmstrip App there is a "New" banner that flags new content in the App so that end-users can quickly identify fresh content. </td> 
+    <td>In the Filmstrip App there is a "New" banner that flags new content in the App so that end-users can quickly identify fresh content.</td> 
    </tr> 
    <tr> 
     <td>Enhancement</td> 

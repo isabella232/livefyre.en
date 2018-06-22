@@ -53,7 +53,7 @@ To create the token, use your preferred language library to pass in the followin
    </tr> 
    <tr> 
     <td>expires</td> 
-    <td>Integer (required) </td> 
+    <td>Integer (required)</td> 
     <td>When the token should expire from now (in seconds).<b>Note:</b> This value can also be passed as a float. The JSON web token produced will store this value in UNIX epoch time.</td> 
    </tr> 
    <tr> 

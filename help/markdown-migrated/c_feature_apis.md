@@ -18,7 +18,7 @@ Livefyre offers both Feature and Unfeature APIs.
 ```
 POST: https://{networkName}.quill.fyre.co/api/v3.0/collection/&lt;collectionId&gt;/feature/&lt;commentId&gt;/?lftoken=&lt;base64userToken&gt;
 ```
-​Enter the user token for your selected moderator.
+Enter the user token for your selected moderator.
 
 **Post Data**
 

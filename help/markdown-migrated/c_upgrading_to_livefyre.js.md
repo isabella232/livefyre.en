@@ -48,10 +48,10 @@ Adding Livefyre.js to your site will not break existing implementations, and can
 
 Upgrading to `codeph  Livefyre.js` and `codeph  Livefyre.require` also allows for version pinning, greater code clarity, and a lower integration bar for multiple Apps on the page.
 
-* **Version Pinning: **Semantic Versioning allows you to pin to major, minor, or patch releases, allowing you to decide when you’re going to upgrade your Livefyre code. This preserves any customizations you might have made, as well as allowing you to avoid unnecessary upgrades.
-* **Code Clarity: **The `codeph  Livefyre.require` model follows a much more modular design than the previous model, with clearly designated class structure.
-* **App Access: **All new Livefyre Apps will use `codeph  Livefyre.js`. Many existing Apps, including Media Wall with Auth, Maps, Feed, Sidenotes, and Trending, already require the new `codeph  Livefyre.js`.
-* **Ease of App Installation: **With `codeph  Livefyre.require` installed, adding new applications to the page is as easy as including them in the initial require load.
+* **Version Pinning:**Semantic Versioning allows you to pin to major, minor, or patch releases, allowing you to decide when you’re going to upgrade your Livefyre code. This preserves any customizations you might have made, as well as allowing you to avoid unnecessary upgrades.
+* **Code Clarity:**The `codeph  Livefyre.require` model follows a much more modular design than the previous model, with clearly designated class structure.
+* **App Access:**All new Livefyre Apps will use `codeph  Livefyre.js`. Many existing Apps, including Media Wall with Auth, Maps, Feed, Sidenotes, and Trending, already require the new `codeph  Livefyre.js`.
+* **Ease of App Installation:**With `codeph  Livefyre.require` installed, adding new applications to the page is as easy as including them in the initial require load.
 ## More lightweight authentication, with easier integration {#section_fkr_sgh_xz}
 
 Using the new Livefyre.js (rather than the older system of livefyre.js) allows you to authenticate across multiple Apps on a page with only a single instance of auth. Livefyre.js Auth provides a centralized authentication integration for all Livefyre Apps across your site, allowing you to add authentication for all Apps on a page with a single call.

@@ -50,7 +50,7 @@ The following user roles and listed access privileges are available within Studi
     * Create and edit Streams that point to Apps
     * Add assets directly to Apps using Social Search
   
-* **Content Manager: **
+* **Content Manager:**
     * View and moderate content using the App Content page
     * Add and edit Tags, Flags, Notes, and Rights Requests for Content
   

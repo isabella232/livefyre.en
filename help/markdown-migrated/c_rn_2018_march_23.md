@@ -18,7 +18,7 @@ The following features are new in the production version of this release:
        1.
        Add the following URL to `uicontrol Valid OAuth redirect URIs` field in Client OAuth Settings. Replace `codeph &lt;networkname&gt;` with your correct network name:
        
-       `codeph  https://identity.livefyre.com/&lt;networkname&gt;/api/v1.0/public/profile/social/complete/facebook_fyre`
+       `codeph https://identity.livefyre.com/&lt;networkname&gt;/api/v1.0/public/profile/social/complete/facebook_fyre`
     1. Switch `uicontrol Use Strict Mode for Redirect URI` to `uicontrol Yes`.
   
   *

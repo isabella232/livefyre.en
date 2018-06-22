@@ -59,7 +59,7 @@
    <tr> 
     <td></td> 
     <td><span class="codeph">datetimeMonths</span></td> 
-    <td><i>An array. Default = </i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]</td> 
+    <td><i>An array. Default =</i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]</td> 
    </tr> 
    <tr> 
     <td></td> 

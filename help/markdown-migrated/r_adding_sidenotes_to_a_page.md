@@ -51,8 +51,7 @@ Clicking on the widget will display a popover with a short explanation of Sideno
 
 Both the explanation and the example text are configurable using custom strings ( `codeph  questionExplanation` and `codeph  questionMockText`, respectively). The appearance of the count widget and the popover may also be configured using custom styles ( `codeph  numSidenotes` and `codeph  numSidenotesPopover`, respectively).
 
-## Adding Multiple Sidenotes Collections to a Single
-        Page {#section_pjl_ptv_sy}
+## Adding Multiple Sidenotes Collections to a Single         Page {#section_pjl_ptv_sy}
 
 Livefyre allows you to add multiple Sidenotes Collections to a single page. For example, if the page includes three news stories, you may wish to include three separate iterations of the Sidenotes App. To do this, you must define a separate`codeph  ConvConfig` object for each instance of Sidenotes you wish to build. For example:
 ```

@@ -53,7 +53,7 @@ title: August 3, 2017
    </tr> 
    <tr> 
     <td>Bug</td> 
-    <td>Reviews </td> 
+    <td>Reviews</td> 
     <td>Fixed a bug in Reviews to ensure media loads via HTTPS in all implementations.</td> 
    </tr> 
    <tr> 

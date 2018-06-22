@@ -90,8 +90,7 @@ Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you t
    
 1. Click `uicontrol  Save Code`.
 1. Click `uicontrol  Save Rule`.
-## Step 5: Create a Direct Call Rule to Construct the Adobe Analytics Mapping
-        Configuration for Livefyre {#section_gvp_b1g_pdb}
+## Step 5: Create a Direct Call Rule to Construct the Adobe Analytics Mapping         Configuration for Livefyre {#section_gvp_b1g_pdb}
 
 There are other ways to implement Livefyre with DTM by using custom events, Adobe Analytics UI fields within DTM, and data elements. This document uses custom Javascript to accomplish the same effect.
 

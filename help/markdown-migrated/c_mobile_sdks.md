@@ -93,4 +93,4 @@ The HTTP APIs are the group of endpoints that allows you to create conversations
 
 >[!NOTE] {importance="high"}
 >
->**Do NOT **create user authentication tokens within the mobile client, because this would require that you expose your Livefyre secret network key within an unsecured app. For a more robust and secure solution, see the User Authentication Tokens section.
+>**Do NOT**create user authentication tokens within the mobile client, because this would require that you expose your Livefyre secret network key within an unsecured app. For a more robust and secure solution, see the User Authentication Tokens section.

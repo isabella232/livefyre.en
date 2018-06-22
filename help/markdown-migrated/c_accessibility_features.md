@@ -46,7 +46,7 @@ Apps and Livefyre features that are accessible:
 * [Chat](c_chat_app.md#c_chat_app)
 * [](c_filmstrip_app.md#concept_jpc_n2j_jbb)
 * [Live Blog](c_liveblog_app.md#c_liveblog_app)
-* [Livefyre Identity ](c_about_identity_integration.md#t_about_identity_integration)
+* [Livefyre Identity](c_about_identity_integration.md#t_about_identity_integration)
 * [Media Wall](c_media_wall_app.md#c_media_wall_app)
 * [Mosaic](c_mosaic_app.md#c_mosaic_app)
 * [Polls](c_polls_app.md#c_polls_app)

@@ -86,8 +86,7 @@ Mosaic does not display text-only content. Mosaic displays images and videos onl
 
 Mosaic works best with a collection that constantly has new content. If your App has less than 25 pieces of content, you will see gray boxes to make up the additional spots. Fill the Mosaic up with more content to prevent the gray boxes from displaying. Plan to put at least 32 pieces of content in the App for it to display as designed.
 
-## Why does some of my content not show up on my site even though the content displays
-          in Studio? {#section_upr_hlj_yy}
+## Why does some of my content not show up on my site even though the content displays           in Studio? {#section_upr_hlj_yy}
 
 Mosaic displays content in a perfect grid. If you have 25 pieces of content, your container width must fit five pieces of content for all 25 pieces of content to appear: five across and five down.
 

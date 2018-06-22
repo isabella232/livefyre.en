@@ -48,8 +48,7 @@ Supported content sources:
 * Tumblr
 * Livefyre
 * Weibo
-## How does a site visitor see content in a Carousel? Can I stream content into a
-          Carousel? {#section_jvs_mnt_wy}
+## How does a site visitor see content in a Carousel? Can I stream content into a           Carousel? {#section_jvs_mnt_wy}
 
 A site visitor sees content populated into a Carousel from Studio from a Studio Stream or Social Search. If new content is published to the App while a site visitor is on the page, the site visitor must refresh the page to see the updated content. New published content appears in the App after up to 5 minutes.
 

@@ -11,10 +11,10 @@ title: Using Studio to Connect Your Social Apps to Your Livefyre Implementation
 
 The Login Modal allows you to customize the information your users will see when logging into your apps. You can customize the modal window.
 
-* **Logo: **Upload a logo for use in your login modals.
-* **Font Family: **Select a font to match your branding.
-* **Brand Color: **Enter a hex color to be used for specific text within the modal.
-* **Terms &amp; Conditions URL: **Enter the URL for your company’s Terms and Conditions page. This field is required for use with Livefyre Identity.
+* **Logo:**Upload a logo for use in your login modals.
+* **Font Family:**Select a font to match your branding.
+* **Brand Color:**Enter a hex color to be used for specific text within the modal.
+* **Terms &amp; Conditions URL:**Enter the URL for your company’s Terms and Conditions page. This field is required for use with Livefyre Identity.
 ## Translating Livefyre Identity {#section_xxt_z52_3z}
 
 You can create and modify translation sets for text strings in Livefyre Identity.

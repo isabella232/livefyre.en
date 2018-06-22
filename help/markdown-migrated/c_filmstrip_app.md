@@ -70,8 +70,7 @@ New content automatically streams into the Filmstrip App on the left and pushes 
 
 Filmstrip does not display text-only content. Filmstrip displays only images and videos.
 
-## Why does some of my content not show up on my site even though the content displays in
-        Studio? {#section_upr_hlj_yy}
+## Why does some of my content not show up on my site even though the content displays in         Studio? {#section_upr_hlj_yy}
 
 Filmstrip displays content in a horizontal strip of five by default. The number of tiles depends on the size of the container in which the App displays and the tile size you choose in the App Designer. Livefyre recommends you add at least five to ten pieces of content in your Filmstrip App to provide an adequate number of tiles with content and allow users to scroll through to find more.
 
