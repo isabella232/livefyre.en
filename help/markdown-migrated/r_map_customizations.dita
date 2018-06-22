@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_map_customizations">
+  <title>Map Customizations</title>
+  <shortdesc>Change the size, width, and interaction options of the Map app.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_kff_cbg_sy">
+      <p>The following options are available from the Map app:</p>
+      <ul id="ul_mxs_wzf_sy">
+        <li>
+          <p><uicontrol>Cluster number</uicontrol></p>
+          <p>Sets the color for the numbers listed above each content cluster in the App.</p>
+        </li>
+        <li>
+          <p><uicontrol>Show zoom controls</uicontrol></p>
+          <p>Allows users to control the zoom level of your Map.</p>
+        </li>
+        <li>
+          <p><uicontrol>Allow panning</uicontrol></p>
+          <p>Enables panning for your Map, allowing users to drag and reposition the map.</p>
+        </li>
+        <li>
+          <p><uicontrol>Enable content modal</uicontrol></p>
+          <p>Allows users to click on a piece of content to open it in a popup window.</p>
+        </li>
+        <li>
+          <p><uicontrol>Enable clustering</uicontrol></p>
+          <p>Creates clickable groups of content, scaled to user zoom.</p>
+        </li>
+        <li>
+          <p><uicontrol>Embedded height / Embedded width</uicontrol></p>
+          <p>Allows you to set the pixel size at which the Map will be embedded on your site.
+            (Optional.)</p>
+          <note>If your web developers have defined a <uicontrol>height</uicontrol> for your Map on
+            the page, these values will be overridden, and your Map will follow responsive design
+            sizing conventions. If they have not defined a height, these values will be used, and
+            your Map will be placed at a set size (non-responsive design). If these fields are left
+            blank, the value will default to 600px wide by 400px high, and the Map will not be
+            responsive.</note>
+        </li>
+        <li>
+          <p><uicontrol>Location</uicontrol></p>
+          <p>Enter the location around which you wish your map to be centered. Use the slider
+            beneath the preview map to define the zoom.</p>
+        </li>
+      </ul>
+      <p>You can customize the Map app using:</p>
+      <ul id="ul_qwx_rzf_sy">
+        <li><uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>. See Customizing Apps for details on the standard
+            <uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>.</li>
+        <li>Integration tools. See Map for more on how to customize Apps using Integration
+          Tools.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

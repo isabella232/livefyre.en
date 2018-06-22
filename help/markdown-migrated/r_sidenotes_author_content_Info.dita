@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_sidenotes_author_content_Info">
+  <title>Author/Content Info</title>
+  <shortdesc>Stings available for author and individual content information.</shortdesc>
+  <refbody>
+    <section id="section_rcc_ybw_sy">
+      <table id="table_kz2_ybw_sy">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1"/>
+          <colspec colnum="2" colname="col2"/>
+          <colspec colnum="3" colname="col3"/>
+          <thead>
+            <row>
+              <entry>Element</entry>
+              <entry>Key</entry>
+              <entry>Default Text</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry/>
+              <entry><codeph>commentModeratorTag</codeph></entry>
+              <entry>Mod</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>commentPendingTag</codeph></entry>
+              <entry>Pending</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>commentReadMoreLink</codeph></entry>
+              <entry>Read More</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>commentReplyLink</codeph></entry>
+              <entry>See {number} replies</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>commentReplyLinkSing</codeph></entry>
+              <entry>See reply</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>commentVoteCount</codeph></entry>
+              <entry>votes</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>commentVoteCountSing</codeph></entry>
+              <entry>vote</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>datetimeMinutePrefix</codeph></entry>
+              <entry>m</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>datetimeMonths</codeph></entry>
+              <entry><i>An array. Default = </i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’,
+                ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>questionExplanation</codeph></entry>
+              <entry>You can now read and write comments directly on sentences, paragraphs, images
+                and quotes.&lt;br>&lt;br>&lt;span class=”lf-highlight-text”>Highlight text&lt;/span>
+                and click the &lt;span class=”fycon-write”>&lt;/span> icon or click the &lt;span
+                class=”fycon-action-view”>&lt;/span> icon at the end of each paragraph.</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>questionMockText</codeph></entry>
+              <entry>What is “familiarly known” is not properly known, just for the reason that it
+                is “familiar”.</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry><codeph>questionTitle</codeph></entry>
+              <entry>What is a Sidenote?</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

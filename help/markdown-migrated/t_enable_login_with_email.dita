@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enable_login_with_email">
+    <title>Enable Login with Email</title>
+    <shortdesc>Allow users to use their email addresses to log in and interact with Apps on your
+        site.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To enable login using a Livefyre native account:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Navigate to <uicontrol>Integration Settings</uicontrol> in Livefyre
+                    Studio.</cmd>
+            </step>
+            <step>
+                <cmd>Switch the <uicontrol>Enable Login with Email</uicontrol> toggle to
+                        <uicontrol>On</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

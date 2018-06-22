@@ -1,0 +1,299 @@
+</table>
+<p><br /></p>
+<table class="wrapped relative-table" style="width: 100.0%;">
+    <colgroup>
+        <col style="width: 4.40594%;" />
+        <col style="width: 2.57426%;" />
+        <col style="width: 7.52475%;" />
+        <col style="width: 14.703%;" />
+        <col style="width: 8.31683%;" />
+        <col style="width: 16.2871%;" />
+        <col style="width: 2.9703%;" />
+        <col style="width: 4.85149%;" />
+        <col style="width: 28.1683%;" />
+        <col style="width: 3.56436%;" />
+        <col style="width: 3.66337%;" />
+        <col style="width: 2.9703%;" />
+    </colgroup>
+    <tbody>
+        <tr>
+            <th>Status</th>
+            <th>First Go-Live</th>
+            <th>Component</th>
+            <th>Location</th>
+            <th>base Name</th>
+            <th>prod Name</th>
+            <th colspan="1">stage Name</th>
+            <th colspan="1">stub Destination</th>
+            <th>final Destination</th>
+            <th>English only</th>
+            <th>Target URL &amp; Content Owner</th>
+            <th>Notes</th>
+        </tr>
+        <tr>
+            <td>Requested 8/31</td>
+            <td>TBD</td>
+            <td>studio</td>
+            <td>http://studio.livefyre.com">studio.livefyre.com home page</td>
+            <td>fyr_help_en</td>
+            <td>http://www.adobe.com/go/fyr_help_en">http://www.adobe.com/go/fyr_help_en</td>
+            <td
+                colspan="1">n/a</td>
+                <td colspan="1">n/a</td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/">https://marketing.adobe.com/resources/help/en_US/livefyre/</td>
+                <td>no</td>
+                <td>Gibron</td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td><span>Requested 8/31</span></td>
+            <td><span>TBD</span></td>
+            <td><span>studio, answers.livefyre.com</span></td>
+            <td>
+                <p>http://studio.livefyre.com/">studio.livefyre.com<span> home page</span></p>
+                <p><span>http://answers.livefyre.com/announcements/">http://answers.livefyre.com/announcements/</span></p>
+            </td>
+            <td>fyr_announcements_en</td>
+            <td>http://www.adobe.com/go/fyr_announcements_en</td>
+            <td
+                colspan="1">n/a</td>
+                <td colspan="1">n/a</td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_anouncements.html</td>
+                <td><br /></td>
+                <td><span>Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td>Requested 9/1</td>
+            <td><span>TBD</span></td>
+            <td><span>studio</span></td>
+            <td>studio.livefyre.com login page</td>
+            <td>fyr_pp_en</td>
+            <td>http://www.adobe.com/go/fyr_pp_en</td>
+            <td
+                colspan="1">n/a</td>
+                <td colspan="1">n/a</td>
+                <td>http://www.adobe.com/privacy/policy.html#info-amc</td>
+                <td><br /></td>
+                <td><span>Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td>Requested 9/1</td>
+            <td><span>TBD</span></td>
+            <td><span>studio</span></td>
+            <td>studio.livefyre.com login page</td>
+            <td>fyr_tou_en</td>
+            <td>http://www.adobe.com/go/fyr_tou_en</td>
+            <td
+                colspan="1">n/a</td>
+                <td colspan="1">n/a</td>
+                <td>https://marketing.adobe.com/resources/help/en_US/terms.html</td>
+                <td><br /></td>
+                <td><span>Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td>Requested 9/12/17, Live 9/13/17</td>
+            <td>TBD</td>
+            <td>answers.livefyre.com</td>
+            <td>http://answers.livefyre.com/developers/</td>
+            <td>fyr_dev_en</td>
+            <td>www.adobe.com/go/<span>fyr_dev_en</span><span>&nbsp;</span></td>
+            <td
+                colspan="1"><span>n/a</span></td>
+                <td colspan="1"><span>n/a</span></td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_developer_docs.html</td>
+                <td><br /></td>
+                <td>Hannah/ Gibron</td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td><span>Requested 9/12/17, Live 9/13/17</span></td>
+            <td><span>TBD</span></td>
+            <td><span>answers.livefyre.com</span></td>
+            <td>
+                <p>http://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/</p>
+            </td>
+            <td>fyr_aem_en</td>
+            <td>www.adobe.com/go/<span>fyr_aem_en</span><span>&nbsp;</span></td>
+            <td
+                colspan="1"><span>n/a</span></td>
+                <td colspan="1"><span>n/a</span></td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/t_use_aem_for_livefyre.html</td>
+                <td><br /></td>
+                <td><span>Hannah/ Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td><span>Requested 9/12/17, Live 9/13/17</span></td>
+            <td><span>TBD</span></td>
+            <td><span>answers.livefyre.com</span></td>
+            <td>
+                <p>http://answers.livefyre.com/product/app-gallery-for-lec/</p>
+            </td>
+            <td>fyr_apps_en</td>
+            <td>www.adobe.com/go/<span>fyr_apps_en</span><span>&nbsp;</span></td>
+            <td
+                colspan="1"><span>n/a</span></td>
+                <td colspan="1"><span>n/a</span></td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_about_apps.html</td>
+                <td><br /></td>
+                <td><span>Hannah/ Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td><span>Requested 9/12/17, Live 9/13/17</span></td>
+            <td><span>TBD</span></td>
+            <td><span>answers.livefyre.com</span></td>
+            <td>
+                <p>http://answers.livefyre.com/product/features-2/</p>
+            </td>
+            <td>fyr_features_en</td>
+            <td>www.adobe.com/go/<span>fyr_features_en</span><span>&nbsp;</span></td>
+            <td
+                colspan="1"><span>n/a</span></td>
+                <td colspan="1"><span>n/a</span></td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_features_livefyre.html</td>
+                <td><br /></td>
+                <td><span>Hannah/ Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td><span>Requested 9/12/17, Live 9/13/17</span></td>
+            <td><span>TBD</span></td>
+            <td><span>answers.livefyre.com</span></td>
+            <td>
+                <p>http://answers.livefyre.com/product/studio-v2/</p>
+            </td>
+            <td>fyr_prod_en</td>
+            <td>www.adobe.com/go/<span>fyr_prod_en</span><span>&nbsp;</span></td>
+            <td
+                colspan="1"><span>n/a</span></td>
+                <td colspan="1"><span>n/a</span></td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_product.html</td>
+                <td><br /></td>
+                <td><span>Hannah/ Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td><span>Requested 9/12/17, Live 9/13/17</span></td>
+            <td><span>TBD</span></td>
+            <td><span>answers.livefyre.com</span></td>
+            <td>
+                <p>http://answers.livefyre.com/product/storify-2/</p>
+            </td>
+            <td>fyr_storify2_en</td>
+            <td>www.adobe.com/go/<span>fyr_storify2_en</span><span>&nbsp;</span></td>
+            <td
+                colspan="1"><span>n/a</span></td>
+                <td colspan="1"><span>n/a</span></td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_storify2.html</td>
+                <td><br /></td>
+                <td><span>Hannah/ Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td><span>Requested 9/12/17, Live 9/13/17</span></td>
+            <td><span>TBD</span></td>
+            <td><span>http://answers.livefyre.com">answers.livefyre.com</span></td>
+            <td>http://answers.livefyre.com/product/livefyre-mobile-app/</td>
+            <td>fyr_mobile_en</td>
+            <td>www.adobe.com/go/<span>fyr_mobile_en</span><span>&nbsp;</span></td>
+            <td
+                colspan="1"><span>n/a</span></td>
+                <td colspan="1"><span>n/a</span></td>
+                <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_livefyre_mobile_app.html</td>
+                <td><br /></td>
+                <td><span>Hannah/ Gibron</span></td>
+                <td><br /></td>
+        </tr>
+        <tr>
+            <td>
+                <p>Requested 10/3/2017, Live 10/4/2017</p>
+            </td>
+            <td>TBD</td>
+            <td>studio</td>
+            <td>http://docs.livefyre.com/product/studio/content/rights-management/</td>
+            <td>fyr_stud_rm</td>
+            <td>www.adobe.com/go/fyr_stud_rm</td>
+            <td colspan="1">n/a</td>
+            <td colspan="1">n/a</td>
+            <td>https://marketing.adobe.com/resources/help/en_US/livefyre/c_settings.html</td>
+            <td><br /></td>
+            <td>Matt D/ Hannah</td>
+            <td><br /></td>
+        </tr>
+        <tr>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td colspan="1"><br /></td>
+            <td colspan="1"><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+        </tr>
+        <tr>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td colspan="1"><br /></td>
+            <td colspan="1"><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+        </tr>
+        <tr>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td colspan="1"><br /></td>
+            <td colspan="1"><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+        </tr>
+        <tr>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td colspan="1"><br /></td>
+            <td colspan="1"><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+        </tr>
+        <tr>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td colspan="1"><br /></td>
+            <td colspan="1"><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+        </tr>
+    </tbody>
+</table>
+<p><br /></p>

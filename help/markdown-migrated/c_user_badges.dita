@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_user_badges">
+ <title>User Badges</title>
+ <shortdesc>Use CSS with User Tags to create User Badges for members of your community.</shortdesc>
+ <conbody>
+  <p>User Badges are custom styling features, which allow you to style Livefyre content posted by
+   specific user types (such as moderators, editors, or any other User Group you wish to define) to
+   Livefyre Chat, Comments, Reviews, or Live Blog Apps. This allows you to highlight this content to
+   your users.</p>
+    <p>Apps that use this feature:</p>
+    <ul id="ul_qzp_ccj_h1b">
+      <li><xref href="c_chat_app.dita#c_chat_app">Chat</xref></li>
+      <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+      <li><xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref></li>
+      <li><xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref></li>
+    </ul>
+ </conbody>
+</concept>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_comments_app">
+    <title>Comments</title>
+    <shortdesc>Embed real-time comments into your App.</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody>
+      <p>Comments replaces your default comments with real-time conversations. Our social
+        integration features make it easy to capture all the conversations going on about your posts
+        across Twitter and Facebook, and pull user’s friends into the conversation.</p>
+      <p>Mashable uses Comments to increase user participation in their discussions. Features
+        including rich media upload, social sharing, listener count and single sign-on help to make
+        contributing to the conversation easy and fun.</p>
+      <image href="images/CommentsMashable.png" id="image_qkl_zrc_ccb" />
+      <draft-comment author="ind14750" otherprops="merge">c_comments_app.dita</draft-comment>
+    </conbody>
+  </concept>
+</dita>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_map_integration">
+ <title>Map Integration</title>
+ <shortdesc>Plot user content to an interactive map.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+ <conbody>
+        <p>On this page:</p>
+        <ul id="ul_pk2_ld2_kcb">
+            <li>
+                <xref href="#c_map_integration/section_w2m_db2_d1b" format="dita"/>
+            </li>
+            <li>
+                <xref href="#c_map_integration/section_jc5_gxb_c1b" format="dita"/>
+            </li>
+        </ul>
+  <p>Map allows you to stream geotagged content onto a world map, allowing you to locate the social
+   buzz around breaking news or a live event. All applicable content will be displayed, including
+   text, comments, photos, and Tweets.</p>
+  <note>Maps are powered by <xref href="http://www.openstreetmap.org/copyright" format="html"
+    scope="external">©OpenStreetMap</xref>, which provides the data Livefyre uses to render its
+   Maps.</note>
+  <section id="section_w2m_db2_d1b">
+   <title>Integration</title>
+   <p>The quickest way to use Map is to use the built version hosted on Livefyre’s CDN.</p>
+   <p>First, add <xref href="https://github.com/Livefyre/Livefyre.js" format="html" scope="external"
+     >Livefyre.js</xref> to your page.</p>
+   <codeblock>&lt;script src="http://cdn.livefyre.com/Livefyre.js">&lt;/script>
+</codeblock>
+   <p>Then, position the element in which the Map App will appear.</p>
+   <codeblock>&lt;div id="map" style="height: 500px;">&lt;/div></codeblock>
+   <p>Finally, use Livefyre.require to construct the Map, and get a Collection to pipe in from
+    streamhub-sdk. Keep in mind that Map can show only Content with geotagged metadata. Twitter and
+    Instagram Curate support this feature. To ensure best performance, include a geolocation filter
+    on all of your Curate Rules for the Collection.</p>
+   <codeblock>
+&lt;script>
+Livefyre.require(['streamhub-map#1', 'streamhub-sdk#2'],
+function (Map, SDK) {
+    var map = new Map({
+        el: document.getElementById('map')
+    });
+    var collection = new SDK.Collection({
+        network: 'strategy-prod.fyre.co',
+        siteId: 340628,
+        articleId: 'custom-1389845009515'
+    });
+    collection.pipe(map);
+});
+&lt;/script></codeblock>
+   <p>Check out this <xref href="http://codepen.io/cheung31/pen/wkmbF" format="html"
+     scope="external">live example</xref>.</p>
+  </section>
+  <section id="section_jc5_gxb_c1b">
+   <title>Configuration</title>
+   <p><codeph>initial</codeph></p>
+   <p>The initial number of items to load from the Collection and display on the map. After this
+    number are loaded, users may click a button to show more. (Optional. Defaults to 50.)</p>
+   <codeblock>
+var map = new Map({
+    el: document.getElementById('map'),
+    initial: 100
+});</codeblock>
+   <p><codeph>leafletMapOptions</codeph></p>
+   <p>Options to pass to the underlying <xref href="http://leafletjs.com/" format="html"
+     scope="external">Leaflet</xref> map, which Map uses for rendering. Use this option to set <xref
+     href="http://leafletjs.com/reference.html#map-options" format="html" scope="external">Leaflet
+     Map Options</xref>, including the initial centerpoint of the map, and initial and maximum zoom
+    levels. (Optional.)</p>
+   <codeblock>
+var map = new Map({
+    el: document.getElementById('map'),
+    leafletMapOptions: {
+        center: [37.774, -122.4],
+        zoom: 15
+    }
+});</codeblock>
+  </section>
+ </conbody>
+</concept>

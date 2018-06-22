@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_network_methods">
+ <title>Network Methods</title>
+ <shortdesc>A description of the Network class methods.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The following methods are available for the Network object:</p>
+  <ul id="ul_tqb_z5r_rz">
+   <li>
+    <xref href="#r_setssl_method" format="dita">setSSL Network Method</xref>
+   </li>
+   <li>
+    <xref href="#r_buildlivefyretoken_method" format="dita">buildLivefyreToken Network Method</xref>
+   </li>
+   <li>
+    <xref href="#r_builduserauthtoken_method" format="dita">buildUserAuthToken Network Method</xref>
+   </li>
+   <li>
+    <xref href="#validatelivefyretoken_method" format="dita">validateLivefyreToken Network
+     Method</xref>
+   </li>
+   <li>
+    <xref href="#r_setusersyncurl_method" format="dita">setUserSyncUrl Network Method</xref>
+   </li>
+   <li>
+    <xref href="#r_syncuser_method" format="dita">syncUser Network Method</xref>
+   </li>
+   <li>
+    <xref href="#r_geturn_method" format="dita">getUrn Network Method</xref>
+   </li>
+   <li>
+    <xref href="#r_geturnforuser_method" format="dita">getUrnForUser Network Method</xref>
+   </li>
+   <li>
+    <xref href="#r_getnetworkname_method" format="dita">getNetworkName Network Method</xref>
+   </li>
+   <li>
+    <xref href="#r_getsite_method" format="dita">getSite Network Method</xref>
+   </li>
+  </ul>
+  <p>Each of these methods is available for the following code types:</p>
+  <ul id="ul_ifs_fvr_rz">
+   <li>Java</li>
+   <li>NodeJS</li>
+   <li>PHP</li>
+   <li>Python</li>
+   <li>Ruby</li>
+  </ul>
+ </conbody>
+</concept>

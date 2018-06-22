@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_javascript_events_for_visualization_apps">
+ <title>Javascript Events for Visualization Apps</title>
+ <shortdesc>The events available to which you can bind JavaScript for Visualization Apps (for
+  example, Media Wall).</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The following table displays the App events for Visualization Apps. An X denotes that the event
+   is available for the App, N/A indicates that the event does not apply to the App, and no marking
+   means that the event is unavailable for that App:</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_nzg_s25_wbb">
+   <title>Visualization App Events</title>
+   <tgroup cols="8">
+    <colspec colname="c1" colnum="1" colwidth="1.03*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.03*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.03*"/>
+    <colspec colname="c4" colnum="4" colwidth="1.06*"/>
+    <colspec colname="c5" colnum="5" colwidth="1*"/>
+    <colspec colname="c6" colnum="6" colwidth="1.04*"/>
+    <colspec colname="c7" colnum="7" colwidth="1.03*"/>
+    <colspec colname="c8" colnum="8" colwidth="1.1*"/>
+    <thead>
+     <row>
+      <entry>Events</entry>
+      <entry>Media Wall</entry>
+      <entry>Mosaic</entry>
+      <entry>Map</entry>
+      <entry>Single Card</entry>
+      <entry>Carousel</entry>
+      <entry>Post Button</entry>
+      <entry>FilmStrip</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Init</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Load</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>View</entry>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>Post</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Posted</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Twitter Reply</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Twitter Like</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>LF like</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>LF Unlike</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Share On Post</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Share Button</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Share Twitter</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Share Facebook</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Share URL</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>ExpandReplies</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Collapse replies</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Flag Button</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Flag</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Flag Cancel</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Follow</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Unfollow</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>RequestMore</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>ModalView</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Twitter Retweet</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Post button click</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>X</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Comment count updated</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>User logged in</entry>
+      <entry/>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>User logged out</entry>
+      <entry/>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Comment featured</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Comment unfeatured</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Comment voted</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Poll selection</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Trending item selected</entry>
+      <entry>N/A</entry>
+      <entry/>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>Network ID</entry>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry>N/A</entry>
+     </row>
+     <row>
+      <entry>App ID</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Context ID</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>App Type</entry>
+      <entry>X</entry>
+      <entry/>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+     </row>
+     <row>
+      <entry>Content Type</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry>X</entry>
+      <entry/>
+     </row>
+     <row>
+      <entry>Published date to App</entry>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>Logged in to end-user App</entry>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

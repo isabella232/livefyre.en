@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_sidenotes_bookmarklet">
+ <!--HRK 4/7/17 - DRAFT!-->
+ <title>Sidenotes Bookmarklet</title>
+ <shortdesc>Sidenotes can be loaded on to (almost) any existing page. </shortdesc>
+ <conbody>
+  <p>To demo Sidenotes use the bookmarklet below:</p>
+  <p>Sidenotes
+   Bookmarklet<!--HRK 4/7/17 - This needs to link to the Sidenotes Bookmarklet or put the code here. The link does not work on the website as of today.--></p>
+  <p>Simply copy the bookmarklet into your bookmarks, then click the link to load Sidenotes. You
+   will be prompted to enter selectors that will be used to decorate Sidenotes on the current
+   page.</p>
+ </conbody>
+</concept>

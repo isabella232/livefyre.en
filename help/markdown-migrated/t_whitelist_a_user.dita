@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_whitelist_a_user">
+    <title>Whitelist a User</title>
+    <shortdesc>Whitelist a user to allow them to post directly to Apps without being
+        moderatated.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Whitelisting Users allows them to post directly to your Apps. Content posted by
+                whitelisted users will not pass through Livefyre’s SAFE, profanity, or premoderation
+                filters, and will be automatically approved and added to the App.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>+Add</uicontrol> for <uicontrol>Whitelists</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>A popup will appear that allows you to whitelist the user for the entire
+                    network, or for a specific site. (Use the CTR or Command key to select multiple
+                    sites.)</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Whitelist </uicontrol>to complete the process.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

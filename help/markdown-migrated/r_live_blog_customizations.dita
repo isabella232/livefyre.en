@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_live_blog_customizations">
+  <title>Live Blog Customizations</title>
+  <shortdesc>Customize the style and the way comments display on your live blog.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_e2s_qyf_sy">
+      <p>Use Live Blog to post real-time updates to ongoing stories, transforming your site into an
+        engaging live news source. </p>
+      <ul id="ul_e1q_syf_sy">
+        <li>
+          <p><uicontrol>Number of comments to load</uicontrol></p>
+          <p>Enter the number of comments to display upon initial load. You may enter between 1 and
+            50.</p>
+        </li>
+        <li>
+          <p><uicontrol>Comments appear in cards</uicontrol></p>
+          <p>If enabled, posts will be displayed with a surrounding box, and the background color
+            dictated by the <b>Theme</b> selection applied.</p>
+        </li>
+        <li>
+          <p><uicontrol>Nest levels for replies</uicontrol></p>
+          <p>Defines the number of nest levels displayed for replies (2 or 3).</p>
+        </li>
+        <li>
+          <p><uicontrol>Expand media</uicontrol></p>
+          <p>If enabled, media attachments will be displayed as fully expanded media inline in the
+            stream. If disabled, media is displayed as links only.</p>
+        </li>
+        <li>
+          <p><uicontrol>Number of listeners</uicontrol></p>
+          <p>If enabled, the number of users active on the page will be displayed.</p>
+        </li>
+        <li>
+          <p><uicontrol>User tags</uicontrol></p>
+          <p>If enabled, user tags will be displayed with posted content.</p>
+        </li>
+        <li>
+          <p><uicontrol>User avatars</uicontrol></p>
+          <p>If enabled, user avatars will be displayed with posted content.</p>
+        </li>
+        <li>
+          <p><uicontrol>Users can reply to posts</uicontrol></p>
+          <p>If enabled, users may reply to Live Blog posts.</p>
+        </li>
+        <li>
+          <p><uicontrol>Users may upload photos</uicontrol></p>
+          <p>If enabled users may upload photos.</p>
+        </li>
+        <li>
+          <p><uicontrol>Users may share comments</uicontrol></p>
+          <p>If enabled, users may share posted content to Twitter, Facebook, or LinkedIn. For more
+            information on enabling sharing, see Settings > Integration Settings > Social
+            Sharing.</p>
+        </li>
+      </ul>
+      <p>You can customize Live Blog using:</p>
+      <ul id="ul_yzc_zxf_sy">
+        <li><uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>. See Customizing Apps for details on the standard
+            <uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>.</li>
+        <li>Integration tools. See Live Blog for more on how to customize Apps using Integration
+          Tools.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

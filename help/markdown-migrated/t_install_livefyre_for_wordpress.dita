@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_install_livefyre_for_wordpress">
+    <title>Install Livefyre for WordPress</title>
+    <shortdesc/>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Search for the <uicontrol>Livefyre Apps</uicontrol> plugin in
+                    WordPress.org.</cmd>
+            </step>
+            <step>
+                <cmd>Follow the WordPress instructions to install the plugin.</cmd>
+            </step>
+            <step>
+                <cmd>Deactivate all previous Livefyre plugins (Livefyre Comments, Livefyre
+                    Sidenotes).</cmd>
+            </step>
+            <step>
+                <cmd>Activate the <uicontrol>Livefyre Apps</uicontrol> plugin.</cmd>
+            </step>
+            <step>
+                <cmd>From the WordPress navigation panel, go to <uicontrol>Livefyre Apps >
+                        General</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>From the top right pane, select <uicontrol>Environment Type >
+                        Enterprise</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter your Site information (<uicontrol>Livefyre Access
+                    Details</uicontrol>).</cmd>
+            </step>
+            <step>
+                <cmd>Use the <uicontrol>Livefyre App Management</uicontrol> panel to enable the Apps
+                    you wish to include on your site.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

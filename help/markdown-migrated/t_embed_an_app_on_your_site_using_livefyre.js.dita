@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="embed_an_app_on_your_site_using_livefyre.js">
+    <title>Embed an App on your Site using Livefyre.js</title>
+    <shortdesc>Add Livefyre Apps to your web pages using the Livefyre.js embed code
+        structure.</shortdesc>
+    <taskbody>
+        <context>This documentation is intended for a technical audience.
+                <!--HRK 4/14/15 link to nontechnical documentation here--><p>This section describes
+                the code structure that you’ll need to include in your page template to embed
+                Livefyre Apps on your site.</p>Comments
+            Example<!--HRK 4/14/17 add example here?--></context>
+        <steps>
+            <step>
+                <cmd>Create an .html file with a Livefyre placeholder.</cmd>
+                <info>
+                    <p>Create a new .html file in the text editor of your choice. Create a
+                        placeholder Livefyre &lt;div>element in which the App will be embedded.</p>
+                    <codeblock>&lt;html>
+   &lt;head> &lt;/head>
+   &lt;body>
+      &lt;div id='livefyre'> &lt;/div>
+   &lt;/body>
+&lt;/html></codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Include the Livefyre.js Library.</cmd>
+                <info>
+                    <p>Then, include the Livefyre JS Library. Place the following reference in a
+                        &lt;script> element in your &lt;head> element. Then, open your page in a
+                        browser and use your browser’s web inspector to confirm that Livefyre is
+                        loaded.</p>
+                    <codeblock>&lt;head>
+   &lt;script src='@{livefyre_js}'>&lt;/script>
+&lt;/head>
+</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Construct the Livefyre App.</cmd>
+                <info>
+                    <p>Use Livefyre.require to construct both Core and SDK Apps by passing in the
+                        Livefyre package(s) you plan to use.</p>
+                </info>
+                <substeps id="substeps_flb_cyp_4z">
+                    <substep>
+                        <cmd>Build a Core App.</cmd>
+                        <info>
+                            <p>To build a Core App (Comments, Live Blog, or Chat), use the following
+                                structure:</p>
+                            <codeblock>Livefyre.require(['fyre.conv#@{fyre_conv_version_prod}'], function(Conv) {
+     new Conv(networkConfig, [convConfig], function(widget) {}); 
+}); 
+</codeblock>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Build an SDK App.</cmd>
+                        <info>
+                            <p>To build an SDK App such as Media Wall or Feed, use the following
+                                structure:</p>
+                            <codeblock>
+Livefyre.require(['app#{version_number}'],
+   function (App, SDK) {
+      var app = new App({
+      el: document.getElementById('app'),
+   });
+   var collection = new SDK.Collection({
+      network: "labs.fyre.co",
+      environment: "livefyre.com",
+      siteId: "315833",
+      articleId: 'livefyre-tweets'
+   });
+   collection.pipe(feed);
+});
+</codeblock>
+                            <p>See App Integrations for more information on specific Apps. It is
+                                recommended that you pin to the latest major version of the package
+                                (which can be found through <xref
+                                    href="https://cdn.livefyre.com/packages.html" format="html"
+                                    scope="external">Livefyre.require</xref>), to avoid unexpected
+                                broken integrations.</p>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+        <postreq id="postreq_xzv_sxp_4z">Add authentication to your site to enable your users to
+            post comments.</postreq>
+    </taskbody>
+</task>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_geturn_method">
+  <title>getUrn Network Method</title>
+  <shortdesc>This method returns the URN for this network.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_nyl_ycs_rz">
+      <title>Java Example</title>
+      <codeblock>network.getUrn();
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>"urn:livefyre:network=example.fyre.co"
+</codeblock>
+    </section>
+    <section id="section_xkd_gds_rz">
+      <title>NodeJS Example</title>
+      <codeblock>network.getUrn();
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>"urn:livefyre:network=example.fyre.co"
+</codeblock>
+    </section>
+    <section id="section_ghf_gds_rz">
+      <title>PHP Example</title>
+      <codeblock>$network->getUrn();
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>"urn:livefyre:network=example.fyre.co"
+</codeblock>
+    </section>
+    <section id="section_dwg_gds_rz">
+      <title>Python Example</title>
+      <codeblock>
+network.urn
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>"urn:livefyre:network=example.fyre.co"
+</codeblock>
+    </section>
+    <section id="section_enh_gds_rz">
+      <title>Ruby Example</title>
+      <codeblock>network.urn
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>"urn:livefyre:network=example.fyre.co"
+</codeblock>
+    </section>
+  </refbody>
+</reference>

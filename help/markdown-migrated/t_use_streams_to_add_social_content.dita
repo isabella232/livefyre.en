@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_use_streams_to_add_social_content">
+    <title>Use Streams to Add Social Content to your Story</title>
+    <shortdesc>Point a stream to a Storify 2 story.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <note>You cannot edit the Streams a story uses from the Storify 2 App.</note>
+            <p>When SAFE Rules are enabled in Network Settings, streamed content will be filtered
+                through SAFE. Unsafe content will be prevented from displaying in the Streams
+                Tab.</p>
+            <p>To edit or turn a stream off, go to the Streams section of the Livefyre Engagement
+                Cloud. See Managing Streams for more information on how to edit, delete, and turn
+                off Streams.</p>
+            <p>Use a Stream in a Story to:</p>
+            <ul id="ul_bkj_hlx_qy">
+                <li>Prepare Streams in advance and quickly access their content while drafting your
+                    Story.</li>
+                <li>View a real-time feed of social media content right from the Content Pane.</li>
+                <li>Manually select pieces of content from the Stream and drag and drop them where
+                    it makes sense in your Story.</li>
+                <li>Choose when to publish posts with streamed content as a Story unfolds.</li>
+            </ul>
+            <p>Before you use Streams to add social content to your Story, you must create a stream.
+                To point a stream to a story:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create a stream.</cmd>
+            </step>
+            <step>
+                <cmd>Apply the stream to a new or existing Storify 2 App.</cmd>
+            </step>
+            <step>
+                <cmd>View the streams that a Story uses by clicking on the Streams icon on the
+                    Editing Panel.</cmd>
+            </step>
+            <step>
+                <cmd>Click and drag elements from the Stream tab to add them to your story.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the content you insert from Streams the same way you edit other content in
+                    your Story.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

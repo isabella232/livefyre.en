@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_reference">
+    <title>Reference: Tokens and Policies</title>
+    <shortdesc>This reference section contains detailed descriptions of Livefyre’s tokens and
+      policies.</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody>
+      <draft-comment author="ind14750" otherprops="merge">c_reference.dita</draft-comment>
+      <ul id="ul_m1z_vtp_2cb">
+        <li>
+          <xref href="#c_creating_livefyre_tokens_c_" format="dita" />
+          <ul id="ul_pf1_4hx_2cb">
+            <li>
+              <xref href="#c_creating_livefyre_tokens_c_/section_c15_fnh_xz" format="dita" />
+            </li>
+            <li>
+              <xref href="#c_creating_livefyre_tokens_c_/section_dzt_4mh_xz" format="dita" />
+            </li>
+            <li>
+              <xref href="#c_creating_livefyre_tokens_c_/section_g1d_43h_xz" format="dita" />
+            </li>
+          </ul>
+        </li>
+        <li>
+          <xref href="#c_referral_tracking" format="dita" />
+        </li>
+        <li>
+          <xref href="#c_twitter_display_requirements" format="dita" />
+        </li>
+        <li>
+          <xref href="#concept_ayk_hkh_qbb" format="dita" />
+        </li>
+      </ul>
+    </conbody>
+  </concept>
+</dita>

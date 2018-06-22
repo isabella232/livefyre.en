@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_validatelivefyretoken_network_method">
+    <title>validateLivefyreToken Network Method</title>
+    <shortdesc> Checks to see if a Livefyre token is still valid for this network. Returns a
+        Boolean.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <table>
+        
+            
+              <tgroup cols="3">
+                  <thead>
+                      <row>
+                          <entry>Variable</entry>
+                          <entry>Type</entry>
+                          <entry>Description</entry>
+                      </row>
+                  </thead>
+                  <tbody>
+                      <row>
+                          <entry>
+                              <varname>lfToken</varname>
+                          </entry>
+                          <entry>String</entry>
+                          <entry>The Livefyre token to validate.</entry>
+                      </row>
+                  </tbody>
+              </tgroup>
+        </table>
+               
+   
+            <section id="section_nyl_ycs_rz">
+                <title>Java Example</title>
+                <codeblock>network.validateLivefyreToken(lfToken);
+</codeblock>
+                <p>Sample output: </p>
+                <codeblock>
+true
+</codeblock>
+            </section>
+            <section id="section_xkd_gds_rz">
+                <title>NodeJS Example</title>
+                <codeblock>network.validateLivefyreToken(lfToken);
+</codeblock>
+                <p>Sample output: </p>
+                <codeblock>
+true
+</codeblock>
+            </section>
+            <section id="section_ghf_gds_rz">
+                <title>PHP Example</title>
+                <codeblock>$network-&gt;validateLivefyreToken(lfToken);
+</codeblock>
+                <p>Sample output: </p>
+                <codeblock>
+true
+</codeblock>
+            </section>
+            <section id="section_dwg_gds_rz">
+                <title>Python Example</title>
+                <codeblock>network.validate_livefyre_token(lfToken)
+</codeblock>
+                <p>Sample output: </p>
+                <codeblock>
+true
+</codeblock>
+            </section>
+            <section id="section_enh_gds_rz">
+                <title>Ruby Example</title>
+                <codeblock>network.validate_livefyre_token(lfToken)
+</codeblock>
+                <p>Sample output: </p>
+                <codeblock>
+true
+</codeblock>
+            </section>
+       
+    </conbody>
+</concept>

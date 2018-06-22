@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="concept_isg_4jt_bbb">
+  <title>Create an App</title>
+  <shortdesc>To add an App to your site, you must first create an App in Livefyre Studio.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>On this page:</p>
+    <ul id="ul_dxy_w3n_3cb">
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_eyp_ykt_bbb" format="dita" />
+      </li>
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_lvj_xlt_bbb" format="dita" />
+      </li>
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_cpf_cmt_bbb" format="dita" />
+      </li>
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_eyy_4mt_bbb" format="dita" />
+      </li>
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_df1_smt_bbb" format="dita" />
+      </li>
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_jsk_vmt_bbb" format="dita" />
+      </li>
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_rxx_xmt_bbb" format="dita" />
+      </li>
+      <li>
+        <xref href="#concept_isg_4jt_bbb/section_w3h_1nt_bbb" format="dita" />
+      </li>
+      <li><xref href="#concept_isg_4jt_bbb/section_zyx_zyx_xcb" format="dita"/></li>
+    </ul>
+    <p>To create a new App:</p>
+    <ol id="ol_gxl_x1z_vcb">
+      <li>
+        <p>Click <uicontrol>+New App</uicontrol> from the Apps page, and select an App type from the
+          pulldown menu.</p>
+      </li>
+      <li>
+        <p>The <uicontrol>New App</uicontrol> dialog box appears. Enter an <uicontrol>App
+            Title</uicontrol>, select a <uicontrol>Site</uicontrol>, and click
+            <uicontrol>Create</uicontrol> to open the App Overview page.</p>
+      </li>
+    </ol>
+    <p>The App Summary page provides 4 tabs:</p>
+    <ul id="ul_eqw_2sw_xy">
+      <li>
+        <uicontrol>App Summary:</uicontrol> provides an overview of the App’s content and status, and
+    provides tools to access the App on its site and generate its embed code.</li>
+      <li>
+        <uicontrol>Designer:</uicontrol> allows you to select design options for the App, including
+    fonts, color schemes, and App specific configuration options.</li>
+      <li>
+        <uicontrol>Streams:</uicontrol> lists all Stream sources for the App’s content. Click the
+    Stream’s title to open the Stream Details page, from which it may be edited.</li>
+      <li>
+        <uicontrol>Settings:</uicontrol> allows you to select App specific settings, including rules
+        for adding content to the App, and the types of content to display. Click the
+          <uicontrol>Settings</uicontrol> tab to override the Network and Site Settings for the
+        App.</li>
+    </ul>
+    <section id="section_eyp_ykt_bbb">
+      <title>Apps List</title>
+      <p>The Apps list page provides access to all of your existing Livefyre Apps.</p>
+      <p>The Apps list page displays the following information:</p>
+      <ul id="ul_pyx_fww_xy">
+        <li>
+          <uicontrol>Title: </uicontrol>lists your App’s title, and includes an icon indicating the
+     App type.</li>
+        <li>
+          <uicontrol>Site: </uicontrol>lists the App’s location, by site.</li>
+        <li>
+          <uicontrol>Content Count: </uicontrol>lists the number of pieces of content published to the
+     App.</li>
+        <li>
+          <uicontrol>Date Modified: </uicontrol>lists the last time the App was changed in App
+     Designer.</li>
+        <li>
+          <uicontrol>Embed Code (&lt;/&gt;): </uicontrol>click the icon to generate the embed code for
+     your App.</li>
+      </ul>
+    </section>
+    <section id="section_lvj_xlt_bbb">
+      <title>App Customization</title>
+      <p>You can use the App Designer tab to select <uicontrol>Style</uicontrol> and
+          <uicontrol>Configuration</uicontrol> options to customize your Apps. </p>
+      <p><uicontrol>Style</uicontrol> options are consistent across all App types;
+          <uicontrol>Configuration</uicontrol> options vary by App. The bottom of the
+          <uicontrol>Style</uicontrol> and <uicontrol>Configuration</uicontrol> pane lists the
+        Livefyre App version for your App. </p>
+      <p><b>Select Style Options</b></p>
+      <p>Style Apps to fit your site’s branding. Use the <uicontrol>Style</uicontrol> options to
+        select the App’s color and font styles.</p>
+      <ul id="ul_bnm_33j_yy">
+        <li><uicontrol>Theme</uicontrol>. Select <uicontrol>Light</uicontrol> or
+            <uicontrol>Dark</uicontrol> to define the background color for your displayed content.
+          Changes made to this setting will be immediately reflected in the preview to the right.
+          This setting controls background, content text, user handle, timestamp, share button, and
+          social icon color selection for the App.</li>
+        <li><uicontrol>Brand color</uicontrol>. Select a color for your App. This color will be used
+          for hashtags, URLs, usernames, @mentions, bar charts, and other App-specific components,
+          as displayed in the preview pane to the right.</li>
+        <li><uicontrol>Font family</uicontrol>. Select a font for user generated content in your
+          App. Selecting Georgia or Times New Roman will assign that font to content, and Helvetica
+          Neue to usernames and display names. Selecting Helvetica, Verdana, or Trebuchet will
+          assign those fonts to content, usernames, and display names.</li>
+        <li><uicontrol>Font size</uicontrol>. Select a default font size. This setting will affect
+          all user generated content and titles displayed in the App.</li>
+      </ul>
+    </section>
+    <section id="section_iwb_4bz_vcb">
+      <title>Updating Apps</title>
+      <p>If a newer version of the App exists, an <uicontrol>Update </uicontrol>button displays.</p>
+      <p>Click the button to update to the newest release version. Refresh your App to use all
+        available feature enhancements and bug fixes. Once updated, preview changes made to your App
+        (if any), then accept or reject the update.</p>
+    </section>
+    <section id="section_cpf_cmt_bbb">
+      <title>Add a Call-to-action Button to an App </title>
+      <p>Add a Call-to-action button to drive conversion from UGC.</p>
+      <p>To add a Call-to-action button to an App:</p>
+      <ol id="ol_nbn_fmt_bbb">
+        <li>Create a Mosaic or Media Wall App.<p>For information on the customizations available in a
+      Mosaic or Media wall, see <xref href="r_mosaic_customizations.dita#r_mosaic_customizations">Mosaic Customizations</xref> or <xref href="r_media_wall_customizations.dita#r_media_wall_customizations">Media Wall
+       Customizations</xref>.</p></li>
+        <li>Open the Designer for the App.</li>
+        <li>Scroll to the <uicontrol>Call-to-Action Button</uicontrol> section in the Designer.</li>
+        <li>Switch <uicontrol>Call-to-Action Button</uicontrol> to <uicontrol>on</uicontrol>.</li>
+        <li>Configure the Call-to-Action button options.</li>
+      </ol>
+    </section>
+    <section id="section_eyy_4mt_bbb">
+      <title>App Previews</title>
+      <p>App Designer allows you to preview your App in multiple delivery formats, and with your own or
+    sample data displayed.</p>
+      <p>Select <uicontrol>Exit Preview</uicontrol> to return to design mode.</p>
+      <p>Preview Mode offers the following options:</p>
+      <ul id="ul_tkl_msw_xy">
+        <li>
+          <uicontrol>Preview Options</uicontrol>: Use the pulldown menu to select a preview format
+          (mobile, tablet, or desktop) and whether to show <uicontrol>Sample Data</uicontrol> or the
+          App’s Stream data.</li>
+        <li>
+          <note>If you deselect <uicontrol>Sample Data</uicontrol>, and no Stream is enabled for the
+            App, no content displays in Preview Mode.</note>
+        </li>
+        <li>
+          <p>
+            <uicontrol>Share</uicontrol>: Opens the App in a new browser tab, and generates a URL,
+            which may be used to allow friends, colleagues, or non-Studio users to review your App,
+            and test it in different browsers and devices.</p>
+          <note>Any content posted to a review version of your App will be added to the App. If you
+            do not wish this content to appear in your published App, you must delete it before
+            clicking <b>Publish</b>.</note>
+        </li>
+        <li>
+          <uicontrol>Exit Preview:</uicontrol> Returns you to edit mode.</li>
+      </ul>
+      <note>Preview mode is fully interactive, allowing you to test the user experience for your
+        App. If you enable <uicontrol>Allow user posts</uicontrol>, users with the preview link can
+        click the <uicontrol>What’s on your mind</uicontrol> button and post content to your test
+        version. Studio lists content as posted.</note>
+    </section>
+    <section id="section_df1_smt_bbb">
+      <title>App Publishing</title>
+      <p>App Designer automatically saves your App after you make a change. You can use
+          <uicontrol>Publish</uicontrol> to generate an embed code, or to update any previously
+        published versions of this App with the current version.</p>
+      <note>Clicking <uicontrol>Publish</uicontrol> generates an embed code for the App, and updates
+    all existing instances of the App if previously published.</note>
+    </section>
+    <section id="section_jsk_vmt_bbb">
+      <title>Review App History</title>
+      <p>App Designer automatically saves your App after you make a change and generates a new
+        version for each change. You can use <uicontrol>History</uicontrol> to open a panel listing
+        all versions of your App. Listed versions will show each version’s editor and its age.</p>
+      <p>To review App history:</p>
+      <ol id="ol_w3m_ncz_vcb">
+        <li>Click on a version to select it.</li>
+        <li>Refresh the preview display.</li>
+        <li>Click <uicontrol>Restore Version</uicontrol> to clone the selected version and work from
+          it.</li>
+        <li>Click the back button in <uicontrol>Version History</uicontrol> to revert to your
+          working draft. </li>
+        <li>Click <uicontrol>Share</uicontrol> to generate a URL for the preview.</li>
+      </ol>
+      <note>You can not edit an App while the <uicontrol>Version History</uicontrol> pane is
+        open.</note>
+      <p>If another editor makes changes while your browser window is open, Livefyre issues a
+        warning message when you try to edit the App, asking if you wish to return to your (older)
+        draft version. (This prevents multiple simultaneous editors from accidentally ignoring each
+        other’s changes.) Click <uicontrol>Update to Latest</uicontrol> to begin working from the
+        latest version. Click <uicontrol>Overwrite</uicontrol> to return to your (older) working
+        state, increment the version number from the most recent, and continue working.</p>
+    </section>
+    <section id="section_rxx_xmt_bbb">
+      <title>App Summary Tab</title>
+      <p>Use the App Summary tab to manage information for individual Apps. </p>
+      <p>The App Summary tab allows you to:</p>
+      <ul id="ul_u1r_3ww_xy">
+        <li>
+          <uicontrol>See on Site:</uicontrol> Opens the App on your site.</li>
+        <li>
+          <p>
+            <uicontrol>Embed code:</uicontrol> Available only for published Apps, provides a clickable
+      link to generate the embed code for any published App.</p>
+          <note>Use this embed code to add Polls to your Comments or Live Blog App. For more information,
+      see Custom Interactions &gt; Custom HTML.</note>
+        </li>
+        <li>
+          <uicontrol>View Content:</uicontrol> Opens the Content page, which lists all content
+     published to your App.</li>
+        <li>
+          <uicontrol>Moderate:</uicontrol> Opens ModQ, listing all content awaiting moderation for the
+     App.</li>
+        <li>
+          <uicontrol>Developer Info:</uicontrol> provides the App’s Collection ID, Article ID, and
+     Site ID.</li>
+      </ul>
+    </section>
+    <section id="section_w3h_1nt_bbb">
+      <title>Embed an App on your Site Using Studio</title>
+      <p>Generate the Embed Code.</p>
+      <p>When an App is published, Livefyre generates and displays an embed code, which may be used to
+    embed the App on any page in your Network. To regenerate the HTML snippet used to embed your App
+    on a page:</p>
+      <ol id="ol_d3p_bnt_bbb">
+        <li>From the App Overview screen, click the <uicontrol>&lt;/&gt; Embed Code</uicontrol>
+     button.</li>
+        <li>
+          <p>From the <uicontrol>Embed Code</uicontrol> panel that opens, copy and paste the HTML code
+      snippet displayed into your web page.</p>
+          <p>For Apps requiring user authentication, your integration for user auth must be complete and
+      located on the page before adding the embed code.</p>
+        </li>
+      </ol>
+    </section>
+    <section id="section_zyx_zyx_xcb">
+      <title>Delete an App</title>
+      <p>You can delete an App from the Apps list in Livefyre Studio. When you delete the App from
+        Studio, the App is hidden from view, it does not delete or stop:</p>
+      <ul id="ul_tp4_4dh_2db">
+        <li>The App from continuing to work on a site.</li>
+        <li>Associated streams.</li>
+        <li>Associated collections in Livefyre.</li>
+      </ul>
+      <p>To delete an App:</p>
+      <ol id="ol_fzd_cfy_xcb">
+        <li>Click <uicontrol>Apps</uicontrol>.</li>
+        <li>Click on the ellipsis to the right of the name of the App to delete.</li>
+        <li> Click <uicontrol>Delete App</uicontrol> to delete the App.</li>
+      </ol>
+    </section>
+  </conbody>
+</concept>

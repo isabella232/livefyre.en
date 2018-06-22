@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_users_switching_networks">
+ <title>Users Switching Networks</title>
+ <shortdesc>You can manage multiple networks from a single Studio account. </shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <note>This is not common.</note>
+  <p>The <uicontrol>Account</uicontrol> pulldown menu lists all user names associated with the
+   Studio account to which you are currently logged in and the networks with which they are
+   associated. Use this pulldown to select the network you wish to manage.</p>
+  <note>While most users will have permissions for only a single network, some Studio users may own
+   or moderate multiple sites. The Studio account allows them to log in with a single username and
+   password, then switch between multiple site access levels.</note>
+  <image href="images/UsersChangeAccount-285x300.png" id="image_ang_jgr_vdb"/>
+ </conbody>
+</concept>

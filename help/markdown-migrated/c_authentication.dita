@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="c_authentication">
+  <title>Authentication Features</title>
+  <shortdesc>You can choose whether and how your site visitors to log in to your apps.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>Set up authentication using livefyre.js. For more information, see <xref href="t_embed_an_app_on_your_site_using_livefyre.js.dita#embed_an_app_on_your_site_using_livefyre.js">Add Authentication to an App using Livefyre.js</xref></p>
+    <p>Apps that use this feature:</p>
+    <ul id="ul_gfv_bhb_h1b">
+      <li>
+        <xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref>
+      </li>
+      <li>
+        <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+      </li>
+      <li>
+        <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+      </li>
+      <li>
+        <xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref>
+      </li>
+      <li>
+        <xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref>
+      </li>
+      <li>
+        <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+      </li>
+      <li>
+        <xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref>
+      </li>
+      <li>
+        <xref href="c_storify2.dita#c_storify2">Storify 2</xref>
+      </li>
+      <li>
+        <xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref>
+      </li>
+    </ul>
+  </conbody>
+</concept>

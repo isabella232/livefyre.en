@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_carousel_using_studio">
+    <title>Create a Carousel Using Studio</title>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>You can create all Apps in Livefyre Studio the same way. See Creating Apps for
+                details on how to create a Carousel App in Studio using the standard process.</p>
+        </context>
+    </taskbody>
+</task>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_publish_an_app_lf">
+    <title>Publish an App</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>App Designer will automatically save your App after any change is made to its
+                configuration options. Click <uicontrol>Publish</uicontrol> to generate an embed
+                code, or to update any previously published versions of this App with the current
+                version.</p>
+            <note>Clicking <uicontrol>Publish</uicontrol> generates an embed code for the App, and
+                updates all existing instances of the App if previously published.</note>
+        </context>
+    </taskbody>
+</task>

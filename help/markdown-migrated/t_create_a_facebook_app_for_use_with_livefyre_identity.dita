@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_a_facebook_app_for_use_with_livefyre_identity">
+    <title>Create a Facebook App for Use with Livefyre Identity</title>
+    <shortdesc>You can use Livefyre Identity with Facebook to allow users to use their Facebook
+        logins to interact with Apps on your site.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To allow your users to log in with their Facebook credentials, Livefyre requires the
+                following Facebook app information:</p>
+            <ul id="ul_xyl_yyf_gz">
+                <li>App ID</li>
+                <li>App Secret</li>
+            </ul>
+            <p>To create a Facebook app for use with Livefyre Identity:</p>
+        </context>
+        <steps id="steps_h3w_5n3_jbb">
+            <step>
+                <cmd>Go to <xref href="https://developers.facebook.com/apps" format="html"
+                        scope="external">https://developers.facebook.com/apps</xref>.</cmd>
+            </step>
+            <step>
+                <cmd>Log into your Facebook developer account.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add New App</uicontrol> or select an existing App for use with
+                    Livefyre Identity.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Settings</uicontrol>, then <uicontrol>Basic</uicontrol>. Enter
+                    a <uicontrol>Contact Email</uicontrol> address, <uicontrol>Display
+                        Name</uicontrol>, <uicontrol>Privacy Policy URL</uicontrol>, and
+                        <uicontrol>Terms of Service URL</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the plus sign (<uicontrol>+</uicontrol>) next to
+                        <uicontrol>Products</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click on <uicontrol>Set Up</uicontrol> under <uicontrol>Facebook
+                        Login</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Settings</uicontrol> and set up the following:</cmd>
+                <info>
+                    <ul id="ul_zyl_yyf_gz">
+                        <li>Set <uicontrol>Client OAuth Login</uicontrol> to
+                                <uicontrol>Yes</uicontrol>.</li>
+                        <li>Set <uicontrol>Web OAuth Login</uicontrol> to
+                            <uicontrol>Yes</uicontrol>.</li>
+                        <li>Set <uicontrol>Use Strict Mode for Redirect URIs</uicontrol> to
+                                <uicontrol>Yes</uicontrol>.</li>
+                        <li>Set <uicontrol>Enforce HTTPS for Web OAuth Login</uicontrol> to
+                                <uicontrol>Yes</uicontrol>.</li>
+                        <li>Under <uicontrol>Valid OAuth redirect URLs</uicontrol>, add the
+                                URL<codeph>
+                                https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre</codeph>
+                            (where <codeph>{networkName}</codeph> is your Livefyre-provided network
+                            name).</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Under <uicontrol>App Review</uicontrol>:</cmd>
+                <info>
+                    <ul id="ul_dcb_qyr_hdb">
+                        <li>Make the App public.</li>
+                        <li>Ensure that the <uicontrol>Approved Items</uicontrol> for
+                                <uicontrol>Login Permissions</uicontrol> include
+                                <codeph>email</codeph>, <codeph>public_profile</codeph>, and
+                                <codeph>user_friends</codeph>.</li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+        <result id="result_xsr_ydf_3z">When complete, the Facebook developer’s Dashboard page will
+            list your App ID and App Secret for use in Studio’s Integration Settings.</result>
+    </taskbody>
+</task>

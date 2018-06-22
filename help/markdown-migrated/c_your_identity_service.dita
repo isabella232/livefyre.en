@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_your_identity_service">
+ <title>Your Identity Service</title>
+ <shortdesc>Integrate Livefyre with your custom identity service.</shortdesc>
+ <conbody>
+  <p>Use this section to learn how to integrate Livefyre JS auth with your user management system
+   and keep it synced with Livefyre.</p>
+  <ul id="ul_jkr_y3g_gz">
+   <li>Build an Authentication Delegate</li>
+   <li>Implementing SSO</li>
+   <li>Sync with Livefyre using Ping for Pull</li>
+  </ul>
+ </conbody>
+</concept>

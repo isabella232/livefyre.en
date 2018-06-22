@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Identity Integration</title>
+ <topicref href="c_about_identity_integration.dita" format="dita" scope="local"
+  navtitle="About Identity Integration">
+  <topicref href="c_authorization_package.dita" format="dita" scope="local"
+   navtitle="Authorization Package"/>
+  <topicref href="c_building_an_auth_delegate.dita" format="dita" scope="local"
+   navtitle="Building an Auth Delegate"/>
+  <topicref href="c_posting_user_permissions_to_external_systems.dita" format="dita" scope="local"
+   navtitle="Posting User Permissions to External Systems"/>
+  <topicref href="c_livefyre_identity.dita" format="dita" scope="local" navtitle="Livefyre Identity">
+   <topicref href="t_enable_livefyre_identity.dita" format="dita" scope="local"
+    navtitle="Enable Livefyre Identity"/>
+   <topicref href="t_create_your_social_apps.dita" format="dita" scope="local"
+    navtitle="Create Social Apps">
+    <topicref href="t_create_a_facebook_app_for_use_with_livefyre_identity.dita" format="dita"
+     scope="local" navtitle="Create a Facebook App for Use with Livefyre Identity"/>
+    <topicref href="t_create_a_google_project_for_use_with_livefyre_identity.dita" format="dita"
+     scope="local" navtitle="Create a Google Project for Use with Livefyre Identity"/>
+    <topicref href="t_create_a_twitter_app_for_use_with_livefyre_identity.dita" format="dita"
+     scope="local" navtitle="Create a Twitter App for Use with Livefyre Identity"/>
+    <topicref href="t_create_a_yahoo_app_for_use_with_livefyre_identity.dita" format="dita"
+     scope="local" navtitle="Create a Yahoo App for Use with Livefyre Identity"/>
+    <topicref href="t_create_a_microsoft_live_id_app_for_use_with_livefyre_identity.dita"
+     format="dita" scope="local"
+     navtitle="Create a Microsoft Live ID for Use with Livefyre Identity"/>
+    <topicref href="t_create_a_linkedin_app_for_use_with_livefyre_identity.dita" format="dita"
+     scope="local" navtitle="Create a LinkedIn App for Use with Livefyre Identity"/>
+   </topicref>
+   <topicref href="t_using_studio_to_connect_your_social_apps_to_your_livefyre_implementation.dita"
+    format="dita" scope="local"
+    navtitle="Using Studio to Connect your Social Apps to your Livefyre Implementation"/>
+   <topicref href="t_add_livefyre.js_to_the_page.dita" format="dita" scope="local"
+    navtitle="Add Livefyre.js to the Page"/>
+   <topicref href="t_initialize_livefyre_identity.dita" format="dita" scope="local"
+    navtitle="Initialize Livefyre Identity"/>
+  </topicref>
+  <topicref href="c_your_identity_service.dita" format="dita" scope="local"
+   navtitle="Your Identity Service">
+   <topicref href="c_building_an_auth_delegate.dita" format="dita" scope="local"
+    navtitle="Building an AuthDelegate"/>
+   <topicref href="c_implementing_sso.dita" format="dita" scope="local" navtitle="Implementing SSO">
+    <topicref href="c_debugging_auth.dita" format="dita" scope="local" navtitle="Debugging Auth"/>
+   </topicref>
+   <topicref href="t_sync_with_livefyre_using_ping_for_pull.dita" format="dita" scope="local"
+    navtitle="Sync with Livefyre Using Ping for Pull">
+    <topicref href="t_build_the_pull_endpoint.dita" format="dita" scope="local"
+     navtitle="Build the Pull Endpoint"/>
+    <topicref href="t_register_the_endpoint_with_studio.dita" format="dita" scope="local"
+     navtitle="Register the Endpoint with Studio"/>
+    <topicref href="t_build_the_ping.dita" format="dita" scope="local" navtitle="Build the Ping"/>
+    <topicref href="t_pull_request_structure.dita" format="dita" scope="local"
+     navtitle="Pull Request Structure"/>
+    <topicref href="r_build_the_ping_for_pull_response.dita" format="dita" scope="local"
+     navtitle="Build the Ping for Pull Response"/>
+   </topicref>
+  </topicref>
+  <topicref href="c_janrain_capture_backplane.dita" format="dita" scope="local"
+   navtitle="Janrain Capture Backplane"/>
+ </topicref>
+</map>

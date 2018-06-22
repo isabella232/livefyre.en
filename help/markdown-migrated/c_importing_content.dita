@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_importing_content">
+ <title>Importing Content</title>
+ <shortdesc>Importing Chat and Comment data into Livefyre.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+    <p>On this page:</p>
+    <ul id="ul_obg_23n_3cb">
+      <li>
+        <xref href="#c_importing_content/section_vhm_vtt_b1b" format="dita"/>
+      </li>
+      <li>
+        <xref href="#c_importing_content/section_p4c_qtt_b1b" format="dita"/>
+      </li>
+      <li>
+        <xref href="#c_importing_content/section_ufj_jkn_b1b" format="dita"/>
+      </li>
+    </ul>
+    <p>Import legacy content after your user profile data import is complete to allow Livefyre to
+      link content to its author appropriately.</p>
+    <section id="section_vhm_vtt_b1b">
+      <title>Content Data Formatting</title>
+      <p>To begin the import process, you must prepare your import data. Livefyre’s import system
+        expects a specific file format of line-delimited JSON Blobs, with each file representing a
+        site on your network, and each line within the file representing an individual Collection on
+        that site.</p>
+      <p>The Content <xref href="http://json-schema.org/" format="html" scope="external">JSON
+          schema</xref> is described in this Livefyre <xref
+          href="https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json"
+          format="html" scope="external">GitHub gist</xref>. Validators can be found in the language
+        of your choice from the json-schema.org > <xref
+          href="http://json-schema.org/implementations.html" format="html" scope="external"
+          >Implementations</xref> page.</p>
+      <p><b>File Format Standards</b></p>
+      <p>A successful import must adhere to the following standards:</p>
+      <ul id="ul_rz4_ncl_wz">
+        <li>Individual files may not contain multiple sites. Please create one file per site.</li>
+        <li>Each line must be valid JSON, but the files do not need to be valid JSON. Do not include
+          commas after each line.</li>
+        <li>All Comments in a given Collection must appear in full on a single line. Do not include
+          any literal endlines other than a single one at the end of each (Collection) Blob.</li>
+        <li>Files must be UTF-8 formatted.</li>
+        <li>Timestamps must be <xref href="https://en.wikipedia.org/wiki/ISO_8601" format="html"
+            scope="external">ISO-8601 compliant</xref>.</li>
+        <li>URLs must be fully qualified. They must include http:// or https:// and domains must
+          include the trailing /. For example:<ul id="ul_sz4_ncl_wz">
+            <li>https://web.livefyre.com/ or http://web.livefyre.com/index.html</li>
+          </ul></li>
+        <li>The top level id field must be unique to the content. (This id is often the CMS’s unique
+          ID, but may also be the content’s URL, post number, or other identifying string. If using
+          the content URL as the unique identifier, it is a best practice to MD5 or otherwise hash
+          the identifier to meet field length restrictions.)</li>
+        <li>To streamline the import process, do not import Collections that do not yet include
+          comments. After implementation, Livefyre will automatically create a Collection with 0
+          comments the first time your App is loaded on the page.</li>
+        <li>If not importing User Profiles, omit the author_id field from the Blob (unless you are
+          preparing files for Livefyre’s archive import).</li>
+      </ul>
+      <p><b>HTML Standards</b>
+      </p>
+      <ul id="ul_tz4_ncl_wz">
+        <li><b>Allowed HTML tags and attributes in comment bodies:</b><ul id="ul_uz4_ncl_wz">
+            <li>Tags: a, span, label, p, br, strong, em, u, blockquote, ul, li, ol, pre, body, b,
+              i</li>
+            <li>Attributes: href, target</li>
+          </ul><p><b>Line breaks:</b> Line breaks in comments must be represented as &lt;p>&lt;/p>
+            and &lt;br> tags. n will not be accepted. Wrapping the entire comment in surrounding
+            &lt;p>&lt;/p> tags is not required.</p></li>
+        <li><b>Do not use HTML entities in Collection Titles:</b> HTML entities like &lt;b>, &lt;i>,
+          &lt;strong>, and &lt;em> must be removed from the Collection title. If included, they will
+          be represented literally in the displayed Collection title in Studio.</li>
+        <li><b>Do not encode angle brackets in HTML tags: </b>The left and right angle bracket
+          characters ( &lt; > ) of HTML tags in body_html should not be encoded. If encoded, these
+          tags will have no meaning and will be displayed literally in Studio.</li>
+        <li>
+          <p><b>Escape quotations in tags: </b>Quotation marks in HTML tags must be backslash
+            escaped.</p>
+          <p>For example: &lt;a href=”http://www.baseart.fr/doc/sacguccifrance.php”>gucci
+            jeans&lt;a></p>
+        </li>
+        <li><b>Do not add extra attributes from anchor tags: </b>Additional attributes like
+          rel=”nofollow” and rel=”bookmark” are not permitted. The additional invalid attributes
+          will be stripped out during the import, and the anchor tag will be imported without
+          them.</li>
+      </ul>
+      <p><b>Threaded Content</b></p>
+      <p>To maintain threading in your imported content, adhere to the following rules:</p>
+      <ul id="ul_vz4_ncl_wz">
+        <li>
+          <p><b>Comment ordering: </b>To preserve comment threading, parent content must be imported
+            before child/reply content. Specifically, the top level ID of a comment must exist
+            before a child comment references it as parent. An easy way to accomplish this is to
+            list comments from oldest to newest date of creation.</p>
+          <p><b>Note: </b>Livefyre doesn’t keep a record of parent IDs after running a sample
+            import. Parent IDs must be included in the delta file.</p>
+        </li>
+        <li><b>Threading with moderated comments: </b>To maintain threading in your reply
+          structures, set the parent_id for every reply comment.</li>
+        <li><b>Deleted or Moderated comments: </b>There are two options for comments that have been
+          deleted or moderated and have child replies:<ul id="ul_wz4_ncl_wz">
+            <li>
+              <p><b>Import all comments: </b>Import all comments and replace the text of deleted or
+                moderated comments with a standardized message.</p>
+              <p>For example, if your original content structure follows this format:</p>
+              <p>– A</p>
+              <p>— B (deleted/moderated)</p>
+              <p>— C</p>
+              <p>—- DStructure the import file to replace the deleted content with a message:</p>
+              <p>– A</p>
+              <p>— B (replace body_html text. For example: “This comment has been deleted or
+                moderated.”)</p>
+              <p>— C</p>
+              <p>—- D</p>
+            </li>
+            <li>
+              <p><b>Import approved comments only: </b>Include only approved (non-moderated)
+                comments and comments from users that have not been banned in the import. To
+                preserve threading, replies to removed comments must specify the parent of the
+                removed comment’s ID as the parent_id.</p>
+              <p>For example, if content follows this format:</p>
+              <p>– A</p>
+              <p>— B (deleted/moderated)</p>
+              <p>— C</p>
+              <p>—- D Structure your import file to set the top level comment as the parent to the
+                removed content’s child:</p>
+              <p>– A</p>
+              <p>— C (set parent_id to ID of A)</p>
+              <p>— D</p>
+            </li>
+          </ul></li>
+      </ul>
+      <p><b>Special Characters</b></p>
+      <ul id="ul_xz4_ncl_wz">
+        <li><b>Encode non-ASCII special characters: </b>All non-ASCII special characters must be
+          encoded, preferably with Python style encoding. For example, replace smartquotes (also
+          known as typographer’s quotes ’ ) with u2019. (Do not escape the backslash; Livefyre
+          requires the single backslash.)</li>
+      </ul>
+    </section>
+    <section id="section_p4c_qtt_b1b">
+      <title>Available Content Parameters</title>
+      <p>The following parameters are used in the Content import process.</p>
+      <p><b>Required</b></p>
+      <dl>
+        <dlentry>
+          <dt>source:</dt>
+          <dd><b>(required) string </b>The site on which the comment originated.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>title:</dt>
+          <dd><b>(required) string </b>The title for the Collection to which the comment was
+            posted.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>created:</dt>
+          <dd><b>(required) timestamp </b>The ISO-8601 compliant timestamp for the moment the
+            Collection in which the comment was posted was created. For example:
+            “2010-07-05T23:01:15Z”</dd>
+        </dlentry>
+        <dlentry>
+          <dt>id (source):</dt>
+          <dd><b>(required) string </b>The article ID you chose to uniquely identify a Collection
+            within your Site, encoded using Base64. This parameter is limited to 150
+            characters.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>id (comments):</dt>
+          <dd><b>(required) string </b>Your system’s internal content identifier, used by the
+            importer to relate children using their <codeph>parent_id</codeph>.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>imported_display_name:</dt>
+          <dd><b>(required) string </b>The name to display next to content. (Unicode characters may
+            be used.)</dd>
+        </dlentry>
+        <dlentry>
+          <dt>author_id:</dt>
+          <dd><b>(required) string </b>The unique ID of the content’s author. (Unicode characters
+            cannot be used for this parameter.)</dd>
+        </dlentry>
+        <dlentry>
+          <dt>body_html:</dt>
+          <dd><b>(required) string </b>The text string for the Comment. Only &lt;p> and &lt;a> tags,
+            and the href attribute are allowed.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>created:</dt>
+          <dd><b>(required) timestamp </b>The ISO-8601 compliant timestamp for the Comment’s
+            creation. For example: “2010-07-05T23:01:15Z”</dd>
+        </dlentry>
+      </dl>
+      <p><b>Optional fields</b></p>
+      <dl>
+        <dlentry>
+          <dt>imported_email:</dt>
+          <dd><b>(optional) string </b>Used for gravatars, and not displayed publicly.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>imported_url:</dt>
+          <dd><b>(optional) string </b>A user provided website.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>parent_id:</dt>
+          <dd><b>(optional) string </b>Provide the parent ID for the comment to which this comment
+            is a reply. Parent comments must appear before their children.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>likes:</dt>
+          <dd><b>(optional) array </b>An array of user IDs of users who have ‘liked’ the
+            comment.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>tags:</dt>
+          <dd><b>(optional) array </b>Use tags to assign users to user groups. Tags may include 1-63
+            alphanumeric and underscore characters.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>allow_comments:</dt>
+          <dd><b>(optional) Boolean </b>Set to <codeph>false</codeph> if you do not wish to allow
+            new comments on the conversation. May be <codeph>true</codeph> or
+            <codeph>false</codeph>.</dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="section_ufj_jkn_b1b">
+      <title>Example Comment Format</title>
+      <note><codeph>parent_id</codeph> and <codeph>id</codeph> must be strings in your import
+        file.</note>
+      <codeblock>
+{
+   "source": "http://www.somepartner.com/homepage/check-out-this-sneezing-panda.html",
+   "title": "Check out this sneezing panda!",
+   "created": "2010-07-05T23:07:15Z",
+   "id": "3042469",
+ 
+   "comments": [
+      {
+         "id": "99770519",
+         "imported_display_name": "chris",
+         "author_id": "99999",
+         "body_html": "&lt;p>OMG I love how cute the video is!&lt;/p>",
+         "created": "2010-07-05T23:01:15Z"
+      },
+      {
+         "id": "99770520",
+         "body_html": "&lt;p>OMG I love how cute the video is!&lt;/p>",
+         "created": "2010-07-05T23:01:15Z",
+         "author_id": "999999",
+         "imported_display_name": "chris",
+         "imported_email": "chris@livefyre.com",
+         "imported_url": "http://livefyre.com",
+         "parent_id": "99770519",
+         "likes": ["999998", "999990"]
+      }
+   ],
+ 
+   "tags": ["blog_post","news","sports"],
+   "allow_comments": true
+}</codeblock>
+    </section>
+  </conbody>
+</concept>

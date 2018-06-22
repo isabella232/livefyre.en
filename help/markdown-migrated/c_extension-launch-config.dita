@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_extension-launch-config">
+    <title>Configure the Adobe Livefyre Extension</title>
+    <shortdesc>Use this reference for information about configuring the Adobe Livefyre extension and
+        the options available when using this extension to build a rule.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>Launch</keyword>
+                <keyword>extension</keyword>
+                <keyword>Livefyre</keyword>
+                <keyword>rule</keyword>
+            </keywords>
+            <othermeta name="solution" content="Analytics,Marketing Cloud,Launch"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>If the Adobe Livefyre Launch extension is not yet installed, open your property, then
+            click <uicontrol>Extensions > Catalog</uicontrol>, hover over the Livefyre extension,
+            and click <uicontrol>Install</uicontrol>.</p>
+        <p>To configure the extension:</p>
+        <ol id="ol_g4h_3lb_xdb">
+            <li>Open the <uicontrol>Extensions</uicontrol> tab</li>
+            <li>Hover over the extension</li>
+            <li>Click <uicontrol>Configure</uicontrol>.</li>
+        </ol>
+        <image href="images/launch_lf_extension.png" id="image_qwx_qv1_sdb"/>
+        <p>To use the Adobe Livefyre Launch extension, you must have:</p>
+        <ul id="ul_nkc_gxz_rdb">
+            <li>Livefyre license</li>
+            <li>networkId</li>
+        </ul>
+        <p><b>Settings</b></p>
+        <p><uicontrol>Livefyre network</uicontrol>. Enter your <codeph>networkId</codeph> in the
+            Network in the form: <userinput>network.fyre.co</userinput>. This enables other sections
+            within the extension to process properly.</p>
+        <p><uicontrol>Exclude specific paths.</uicontrol> Enter the name of any paths you want to
+            exclude from using the Livefyre extension. </p>
+        <p>Set up a rule for Livefyre.</p>
+        <ol id="ol_a5f_c4b_xdb">
+            <li>In the Adobe Launch Livefyre extension, click <b>Rules</b>.</li>
+            <li>Add a new rule or click on an existing one to edit it. </li>
+            <li>Enter one or more events in the <b>If</b> portion of the rule. For a list of events
+                you can use, see Events.<p>Add the event that will kick off this rule workflow. This
+                    will cause the rule to run once the library is loaded on the page.</p><p>Load an
+                    app on a page with the Livefyre extension without Adobe Analytics.</p><p>Choose
+                        <uicontrol>Core > Library Loaded (Page Top)</uicontrol>.</p><draft-comment
+                    author="ind14750">Need to link to the events listed in this document. hrk
+                    5/21/18</draft-comment></li>
+            <li>Do not add any exceptions to the rule.</li>
+            <li>Add the page path condition to determine which page is being targeted:<ul
+                    id="ul_zgn_fkj_xdb">
+                    <li>Choose <uicontrol>Extension:</uicontrol>Core </li>
+                    <li>Choose <uicontrol>Condition Type:</uicontrol> Path And Query String.</li>
+                    <li>Add the path of the page where the App will be loaded in the
+                            <uicontrol>Path</uicontrol> field.</li>
+                </ul></li>
+            <li>Set up the Livefyre Load App action which will handle loading the App on the
+                page.</li>
+        </ol>
+        <p>Choose <uicontrol>Adobe Livefyre > Load App</uicontrol>.</p>
+        <p><b>EVENTS:</b></p>
+        <p>This section describes the event types available in the Livefyre extension.</p>
+        <p>The Livefyre extension provides the following events in the If portion of a rule:</p>
+        <ul id="ul_mpx_n1b_sdb">
+            <li><b>App Initialized.</b> When an App is included on a page.</li>
+            <li><b>App Loaded.</b> When an App was loaded on a page regardless of position.</li>
+            <li><b>All User Interactions.</b> A consolidation of all the events in the list that are
+                actions users perform.</li>
+            <li><b>Show Modal.</b> When user clicks to view Media Wall content in a larger modal
+                window.</li>
+            <li><b>Request More Content.</b> When user loads more content in an App. </li>
+            <li><b>Share Button Click.</b> Any time a user clicks on the share button on an App
+                card.</li>
+            <li><b>Twitter Retweet Click.</b> When a user clicks the Twitter Retweet button from an
+                App.</li>
+            <li><b>Share to Twitter.</b> When a user clicks the Twitter Like/Favorite button from an
+                App.</li>
+            <li><b>Share URL.</b> When Share to URL text area is selected/copied from an App.</li>
+            <li><b>Twitter Like Click.</b> When a user clicks the Twitter Like/Favorite button from
+                an App.</li>
+            <li><b>Twitter Reply Click.</b> When a user clicks the Twitter Reply button from an
+                App.</li>
+            <li><b>Share to Facebook.</b> When Share to Facebook is clicked from an App.</li>
+        </ul>
+        <p><b>ACTIONS:</b></p>
+        <p>The Livefyre extension provides the following actions in the Then portion of a rule:</p>
+        <p>App ID: The ID of the App to load. To get or create an App, navigate to the
+                <uicontrol>Apps</uicontrol> section in Livefyre. Here is the documentation for
+            managing Apps:
+            https://marketing.adobe.com/resources/help/en_US/livefyre/c_create_an_app.html. Once you
+            have created an App, navigate to the App and you will see App ID under the
+                <uicontrol>Developer Info</uicontrol> section on the right.</p>
+        <p>Selector: A CSS selector that chooses an element within the destination page where the
+            app will be loaded.</p>
+        <p>Use with new/existing embeds on a page</p>
+        <p>Supporting new/existing embeds is extremely easy. Once you add the Launch JavaScript to
+            the page, all embeds that currently exist will continue to work and new ones will be
+            able to be easily added.</p>
+        <p>Here is an example of an existing App embed:</p>
+        <codeblock>&lt;script type="text/javascript" src="https://cdn.livefyre.com/Livefyre.js">
+&lt;/script>&lt;div class="lf-app-embed" data-lf-app="ae260092-4239-43d9-b403-
+08b923136701/tagged/published" data-lf-env="qa" data-lf-read-only="">&lt;/div>
+&lt;script>Livefyre.require(["https://livefyre-cdn-
+qa.s3.amazonaws.com/libs/app-embed/v1.0.10/app-embed.min.js"], function 
+(appEmbed) {appEmbed.loadAll().done(function(embed) {embed = embed[0];if 
+(embed.el.onload &amp;&amp; embed.getConfig) 
+{embed.el.onload(embed.getConfig());}});});&lt;/script></codeblock>
+        <p>With the Livefyre Launch extension, this can be simplified to:</p>
+        <codeblock>&lt;div class="lf-app-embed" data-lf-app="ae260092-4239-43d9-b403-
+08b923136701/tagged/published" data-lf-env="prod" data-lf-read-only="">
+&lt;/div></codeblock>
+        <p>The Livefyre.js script is included in the extension. The Livefyre.js script can find all
+            of the embed elements on the page and instantiate the Apps for them.</p>
+        <p>For information on how to create an App in Adobe Livefyre, see <xref
+                href="c_create_an_app.dita#concept_isg_4jt_bbb"/>.</p>
+        <p>Enable an Adobe Analytics Tracking Rule</p>
+        <ol id="ol_omx_my3_xdb">
+            <li>Add an App to a page. For more on how to do this, see <xref
+                    href="c_create_an_app.dita#concept_isg_4jt_bbb"/>.</li>
+            <li>Choose or create a rule for your <uicontrol>Property</uicontrol> in the Adobe Launch
+                Livefyre extension to enable Adobe Analytics tracking. </li>
+            <li>Add an event that kicks off the rule workflow.</li>
+            <li>Choose <uicontrol>Adobe Analytics > Set Variables</uicontrol> to set up the Adobe
+                Analytics actions that happen after the events are fired. For more about how to set
+                up Adobe Analytics with DTM  and how to set up eVars and events, see
+                <!--LINK NEEDED! HRK 5/22/18-->.</li>
+            <li>Set the values to use for eVars and events to determine how you want the reports to
+                work. You can see a list of all of attributes within the event object
+                here.<!--Need link--></li>
+            <li>Set the Action to <uicontrol>Adobe Analytics > Send Beacon</uicontrol>.<p>Choose
+                        <codeph>s.tl()</codeph> to not treat each triggered action as a page view
+                    and incorrectly count page views in reports.</p></li>
+        </ol>
+        <p>Events:</p>
+        <p>Choose <uicontrol>Adobe Livefyre > All User Interactions</uicontrol> to track all user
+            interaction events in Adobe Analytics. </p>
+        <p>you don't have to set up all of the event types, but if you want more control, that is
+            definitely possible.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_building_server_side_tokens">
+ <title>Building Server Side Tokens</title>
+ <shortdesc>A guide for building collectionMeta and auth tokens.</shortdesc>
+ <conbody>
+  <p>Build the tokens that Livefyre uses to validate requests ensures that only you can make updates
+   to your Livefyre network:</p>
+  <ul id="ul_vfs_c1k_tz">
+   <li>
+    <p><b>CollectionMeta Token</b></p>
+    <p>Learn how to build a token to create new and display existing conversations.</p>
+   </li>
+   <li>
+    <p><b>Auth Token</b></p>
+    <p>Learn how to build a token for authenticating users, a necessary step in the integration
+     process if you’re not using Janrain Capture.</p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

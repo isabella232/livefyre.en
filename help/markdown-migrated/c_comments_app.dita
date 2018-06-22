@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_comments_app">
+ <title>Comments</title>
+ <shortdesc>Embed real-time comments into your App.</shortdesc>
+ <conbody>
+    <p>Comments replaces your default comments with real-time conversations. Our social integration
+      features make it easy to capture all the conversations going on about your posts across
+      Twitter and Facebook, and pull user’s friends into the conversation.</p>
+    <image href="images/CommentsMashable.png" id="image_bjn_5rc_ccb"/>
+    <image href="images/CommentsMobile-482x1024.png" id="image_qvb_vrc_ccb"/>
+  </conbody>
+</concept>

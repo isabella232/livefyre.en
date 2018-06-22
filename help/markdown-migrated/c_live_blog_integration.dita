@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_live_blog_integration">
+ <title>Live Blog Integration</title>
+ <shortdesc>Live Blog allows you to feature real-time updates and images from your site’s own
+  editors when covering a live event.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+  <section id="section_dqx_dmk_d1b">
+   <title>Integration</title>
+      <p>To embed a Live Blog App, follow the procedure for Integrating a Conversation App. See
+          <xref href="c_implement_a_conversation_app.dita#concept_zvy_c3c_tbb"/>. The following is
+        an example of what an embedded Live Blog App looks like.</p>
+   <p><b>Example:</b></p>
+   <codeblock>&lt;html>
+  &lt;head>
+    &lt;script src="//cdn.livefyre.com/Livefyre.js">
+    &lt;/script>
+  &lt;/head>
+&lt;body>
+    &lt;script type="text/javascript">
+    var networkConfig = {
+      network: "client-solutions.fyre.co"
+    };
+    var convConfig = {
+      siteId: '347674',
+      articleId: '1',
+      el: 'livefyre',
+      collectionMeta: 'eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6IlRpdGxlIDEiLCJ1cmwiOiJodHRwOlwvXC9kZXYubGl2ZWZ5cmUuY29tIiwidGFncyI6InRhZzEsdGFnMiIsImNoZWNrc3VtIjoiY2Q0YTJjYWJkMTIxOTkyM2FjZGJhMjExOWY2NmYwNTUiLCJhcnRpY2xlSWQiOiIxIn0.Dq-ghi9KYmEPmagvCS1NPyYDRMGBujm735QaTRb7E7k',
+      checksum: '6e2e4faf7b95f896260fe695eafb34ba'
+    };
+   
+    Livefyre.require(['fyre.conv#3'], function(Conv) {
+        new Conv(networkConfig, [convConfig], function(blogWidget) {});
+        auth.delegate({
+          login: function (callback) {
+            callback(null,{livefyre:'&lt;userauthtoken>'});
+          },
+        });
+    });
+ 
+    &lt;/script>
+    &lt;div id="livefyre">
+    &lt;/div>
+   &lt;/body>
+&lt;/html></codeblock>
+   <p>CollectionMeta is an encoded JSON object. In the above example, the JSON object takes the
+    following format before it’s JWT encoded:</p>
+   <codeblock>{
+"url": "http://dev.livefyre.com/articles/test.html", 
+"articleId": "1", 
+"type": "liveblog", 
+"title": "Title 1"
+}</codeblock>
+  </section>
+  <section id="section_e2h_qb2_d1b">
+   <title>Adding an Event Handler</title>
+   <p>To register event handlers, use the widget.on call within the App’s callback function.</p>
+   <p>For example:</p>
+   <codeblock>Livefyre.require(['fyre.conv#3'], function(Conv) {
+   new Conv(networkConfig, [convConfig], function(widget) {
+      widget.on('&lt;strong>&lt;eventName>&lt;/strong>', function (data) {
+         // Do something, perhaps using data
+      });
+   });
+});</codeblock>
+   <p>For more information, and for a list of available events, see Reference > <xref
+     href="https://answers.livefyre.com/developers/reference/app-customizations/javascript-events/"
+     format="html" scope="external">Javascript Events</xref>.</p>
+  </section>
+ </conbody>
+</concept>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_storify_settings">
+ <title>Storify Settings</title>
+ <shortdesc>Adjust settings for Storify 2 stories, such as tags, moderation, and allowed content. </shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <note>Most settings listed for Storify 2 Apps control options for Sidenotes, if enabled.</note>
+  <ul id="ul_nb3_l1x_qy">
+   <li>
+    <p><uicontrol>Tags</uicontrol></p>
+    <p>Use tags to more easily search for Apps in Studio.</p>
+   </li>
+   <li>
+    <p><uicontrol>Allow New Content </uicontrol></p>
+    <p>Allow new Sidenotes to be added to your Story.</p>
+   </li>
+   <li>
+    <p><uicontrol>Article URL </uicontrol></p>
+    <p>The URL to use for SocialSync and permalinks.</p>
+   </li>
+   <li>
+    <p><uicontrol>Premoderate Content </uicontrol></p>
+    <p>Require moderator approval before Sidenotes are made public.</p>
+   </li>
+   <li>
+    <p><uicontrol>Display Media </uicontrol></p>
+    <p>Display clickable thumbnails for photos and video.</p>
+   </li>
+   <li>
+    <p><uicontrol>Premoderate Media</uicontrol>
+    </p>
+    <p>Require moderator approval before Sidenotes' media content is made public.</p>
+   </li>
+   <li>
+    <p><uicontrol>Queue New Content </uicontrol></p>
+    <p>Disable live streaming and queue new content and replies.</p>
+   </li>
+   <li>
+    <p><uicontrol>Throttle Content</uicontrol>
+    </p>
+    <p>Intelligently reduce the number of Sidenotes posts displayed under high volume.</p>
+   </li>
+   <li>
+    <p><uicontrol>Allow Bulk Content </uicontrol></p>
+    <p>Allow multiple posts which include matching text.</p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

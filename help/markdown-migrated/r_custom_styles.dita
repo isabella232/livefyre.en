@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_custom_styles">
+  <title>Sidenotes Custom Styles</title>
+  <shortdesc>Custom styles are applied through an object injected into the Sidenotes
+    constructor.</shortdesc>
+  <refbody>
+    <section id="section_thp_wtv_sy">
+      <p> The “keys” are object keys which represent DOM elements, while “properties” are supported
+        CSS properties for the particular key. For example, to customize the style of the blockBtn
+        (which is the button that launches the Sidenotes popover), one would construct an object
+        such as:</p>
+      <codeblock>var styles = {
+   'blockBtn': {
+      'fontColor': '#555',
+      'fontSize': '18px'
+   }
+};
+new Livefyre.Sidenotes({
+   customStyles: styles,
+      ... 
+})</codeblock>
+      <table id="table_jjd_xtv_sy">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1"/>
+          <colspec colnum="2" colname="col2"/>
+          <colspec colnum="3" colname="col3"/>
+          <thead>
+            <row>
+              <entry><b>Key</b></entry>
+              <entry><b>Properties</b></entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><codeph>anonymousAvatar</codeph></entry>
+              <entry>‘height’, ‘width’</entry>
+              <entry>Anonymous avatar image, to left of text area editor.</entry>
+            </row>
+            <row>
+              <entry><codeph>blockBtn</codeph></entry>
+              <entry>‘fontColor’, ‘fontSize’, ‘left’, ‘position’, ‘right’, ‘top’</entry>
+              <entry>The “Launcher icon” placed next to elements specified as sidenote-able.</entry>
+            </row>
+            <row>
+              <entry><codeph>blockBtnActive</codeph></entry>
+              <entry>‘fontColor’, ‘fontSize’, ‘left’, ‘position’, ‘right’, ‘top’</entry>
+              <entry>Launcher icon when in an active state.</entry>
+            </row>
+            <row>
+              <entry><codeph>commentAvatar</codeph></entry>
+              <entry>‘height’, ‘width’</entry>
+              <entry>Avatar image to the left of top level notes.</entry>
+            </row>
+            <row>
+              <entry><codeph>commentBody</codeph></entry>
+              <entry>‘fontColor’, ‘fontFamily’, ‘fontSize’, ‘fontWeight’, ‘lineHeight’</entry>
+              <entry>Text body of threaded notes.</entry>
+            </row>
+            <row>
+              <entry><codeph>commentDisplayName</codeph></entry>
+              <entry>‘fontColor’, ‘fontFamily’, ‘fontSize’, ‘fontWeight’, ‘lineHeight’</entry>
+              <entry>Display name of user who has left a note.</entry>
+            </row>
+            <row>
+              <entry><codeph>commentDownvote</codeph></entry>
+              <entry>‘fontColor’, ‘fontSize’</entry>
+              <entry>Downvote button on a note.</entry>
+            </row>
+            <row>
+              <entry><codeph>commentReplyExpand</codeph></entry>
+              <entry>‘backgroundColor’, ‘borderColor’, ‘borderWidth’, ‘fontColor’, ‘fontFamily’,
+                ‘fontSize’, ‘fontWeight’, ‘lineHeight’</entry>
+              <entry>Button for expanding threads with a large number of replies.</entry>
+            </row>
+            <row>
+              <entry><codeph>commentTags</codeph></entry>
+              <entry>‘fontColor’, ‘fontFamily’, ‘fontSize’, ‘fontWeight’, ‘lineHeight’</entry>
+              <entry>Tags about a user on a note.</entry>
+            </row>
+            <row>
+              <entry><codeph>commentUpvote</codeph></entry>
+              <entry>‘fontColor’, ‘fontSize’</entry>
+              <entry>Upvote button on a note.</entry>
+            </row>
+            <row>
+              <entry><codeph>editorTextarea</codeph></entry>
+              <entry>‘height’, ‘width’, ‘fontColor’, ‘fontFamily’, ‘fontSize’, ‘fontWeight’,
+                ‘lineHeight’</entry>
+              <entry>Textarea input box for leaving notes.</entry>
+            </row>
+            <row>
+              <entry><codeph>mediaBlockBtn</codeph></entry>
+              <entry>‘fontColor’, ‘fontSize’, ‘left’, ‘position’, ‘right’, ‘top’</entry>
+              <entry>Media launcher icon when on top of a media item (img, video).</entry>
+            </row>
+            <row>
+              <entry><codeph>mediaBlockBtnActive</codeph></entry>
+              <entry>‘fontColor’, ‘fontSize’, ‘left’, ‘position’, ‘right’, ‘top’</entry>
+              <entry>Media launcher icon in an active state.</entry>
+            </row>
+            <row>
+              <entry><codeph>numSidenotes</codeph></entry>
+              <entry>‘fontColor’, ‘fontFamily’, ‘fontSize’, ‘fontWeight’, ‘lineHeight’,
+                ‘backgroundColor’, ‘borderColor’, ‘borderWidth’, ‘height’, ‘width’</entry>
+              <entry>Clickable button that shows the number of Sidenotes in the collection.</entry>
+            </row>
+            <row>
+              <entry><codeph>numSidenotesPopover</codeph></entry>
+              <entry>‘fontColor’, ‘fontFamily’, ‘fontSize’, ‘fontWeight’, ‘lineHeight’,
+                ‘backgroundColor’, ‘borderColor’, ‘borderWidth’, ‘height’, ‘width’</entry>
+              <entry>Popover with a brief explanation of Sidenotes for the user.</entry>
+            </row>
+            <row>
+              <entry><codeph>popover</codeph></entry>
+              <entry>‘backgroundColor’</entry>
+              <entry>Popover that is brought up when launcher icon invoked.</entry>
+            </row>
+            <row>
+              <entry><codeph>popoverArrowLeft</codeph></entry>
+              <entry>‘backgroundImage’, ‘height’, ‘left’, ‘right’, ‘top’, ‘width’</entry>
+              <entry>Left arrow element on the popover that points to the DOM element containing a
+                launcher icon.</entry>
+            </row>
+            <row>
+              <entry><codeph>popoverArrorRight</codeph></entry>
+              <entry>‘backgroundImage’, ‘height’, ‘left’, ‘right’, ‘top’, ‘width’</entry>
+              <entry>Right arrow element on the popover that points to the DOM element containing a
+                launcher icon.</entry>
+            </row>
+            <row>
+              <entry><codeph>popoverArrowTop</codeph></entry>
+              <entry>‘backgroundImage’, ‘height’, ‘left’, ‘right’, ‘top’, ‘width’</entry>
+              <entry>Top arrow element on the popover that points to the DOM element containing a
+                launcher icon.</entry>
+            </row>
+            <row>
+              <entry><codeph>replyAvatar</codeph></entry>
+              <entry>‘height’, ‘width’</entry>
+              <entry>Avatar image to the left of reply level notes.</entry>
+            </row>
+            <row>
+              <entry><codeph>streamPoweredBy</codeph></entry>
+              <entry>‘backgroundColor’, ‘borderColor’, ‘lineHeight’</entry>
+              <entry>“Powered by” footer on the popover.</entry>
+            </row>
+            <row>
+              <entry><codeph>streamQueueButton</codeph></entry>
+              <entry>‘backgroundColor’, ‘borderColor’, ‘borderWidth’, ‘fontColor’, ‘fontFamily’,
+                ‘fontSize’, ‘fontWeight’, ‘lineHeight’</entry>
+              <entry>Button to indicate when new notes stream into an open popover.</entry>
+            </row>
+            <row>
+              <entry><codeph>userAvatar</codeph></entry>
+              <entry>‘height’, ‘width’</entry>
+              <entry>Authenticated user’s avatar image, to the left of the text area editor.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

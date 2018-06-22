@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_android_sdk">
+ <title>Android SDK</title>
+ <shortdesc>Create Android Apps powered by Livefyre.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+    <p>On this page:</p>
+    <ul id="ul_zyq_sjn_3cb">
+      <li>
+        <xref href="#c_android_sdk/section_dtm_slv_zz" format="dita"/>
+      </li>
+      <li>
+        <xref href="#c_android_sdk/section_vpw_klv_zz" format="dita"/>
+      </li>
+      <li>
+        <xref href="#c_android_sdk/section_yfq_blv_zz" format="dita"/>
+      </li>
+    </ul>
+  <section>
+   <p>Use this library to integrate Livefyre services into your native Android app. The <xref
+     href="https://github.com/Livefyre/StreamHub-Android-SDK" format="html" scope="external"
+     >Livefyre StreamHub Android SDK</xref> provides a thin layer around our common API mechanisms,
+    based on the Gradle/Android Studio development environment.</p>
+   <p>Livefyre also provides a <xref href="https://github.com/Livefyre/StreamHub-iOS-Reviews-App"
+     format="html" scope="external">Reviews</xref> sample App, based on this SDK.</p>
+   <p>This Livefyre Android SDK can be used in both Eclipse and Android Studio.</p>
+   <note><p>Before installing the Livefyre Android SDK you must have the <xref
+      href="http://developer.android.com/sdk/index.html" format="html" scope="external">Android
+      SDK</xref> installed on your environment. You must also include some additional Android SDK
+     packages, as described in the Android Developer docs > .</p><xref
+     href="http://developer.android.com/sdk/installing/adding-packages.html" format="html"
+     scope="external">Adding SDK Packages</xref></note>
+   <p>Use the Android SDK Manager (available from the Android Studio or Eclipse toolbar) to install
+    all recommended packages. Be certain to also include the Android Support Repository.</p>
+  </section>
+  <section id="section_dtm_slv_zz">
+   <title>Eclipse</title>
+   <p>To add the Livefyre Android SDK to your project in Eclipse:</p>
+   <ol id="ol_nzq_v3v_zz">
+    <li>Get the latest <xref href="https://github.com/Livefyre/StreamHub-Android-SDK" format="html"
+      scope="external">StreamHub-Android-SDK</xref> from GitHub.</li>
+    <li>Start with an existing project or create a new one.</li>
+    <li>To import the StreamHub-Android-SDK into your workspace go to <uicontrol>File > Import >
+      General > Existing Project into Workspace</uicontrol>.</li>
+    <li>Browse and select the StreamHub-Android-SDK; it should now show in the package
+     explorer.</li>
+    <li>Right click on your project and select <uicontrol>Properties,</uicontrol> then the Android
+     tab.</li>
+    <li>Under the Library section, select <uicontrol>Add button,</uicontrol> then select
+     StreamHub-Android-SDK from the list of libraries.</li>
+    <li>Click on <uicontrol>Apply</uicontrol> and <uicontrol>OK</uicontrol>.</li>
+   </ol>
+  </section>
+  <section id="section_vpw_klv_zz">
+   <title>Android Studio</title>
+   <p>To add the Livefyre Android SDK to your project in Android Studio:</p>
+   <ol id="ol_ozq_v3v_zz">
+    <li>Get the latest <xref href="https://github.com/Livefyre/StreamHub-Android-SDK" format="html"
+      scope="external">StreamHub-Android-SDK</xref> from GitHub.</li>
+    <li>Start with an existing project or create a new one.</li>
+    <li>Right click on your project and select <uicontrol>Open Module Settings</uicontrol>.</li>
+    <li>Select the <uicontrol>+</uicontrol> button in the top left corner of the window.</li>
+    <li>Select <uicontrol>Import Existing Project.</uicontrol> (In new version of Android studio,
+     you can find <uicontrol>Import Existing Project</uicontrol> under <uicontrol>More
+      Modules</uicontrol>.)</li>
+    <li>Browse and select the StreamHub-Android-SDK.</li>
+   </ol>
+   <p>Android Studio may request that you convert the SDK to gradle version; if this occurs, select
+     <uicontrol>next</uicontrol> then <uicontrol>finish</uicontrol>.</p>
+   <p>Go to <b><i>project folder</i> > <i>app folder </i>> build.gradle</b> file under dependencies
+    to add the the following dependency:</p>
+   <codeblock>dependencies {   compile project(':streamHubAndroidSDK') }
+</codeblock>
+  </section>
+  <section>
+   <p>Make sure that the following line is in your <b><i>project folder</i> > settings.gradle</b>
+    file:</p>
+  </section>
+  <section>
+   <codeblock>
+include ':streamHubAndroidSDK'
+</codeblock>
+   <note>You can customize configurations from within Config.java.</note>
+  </section>
+  <section id="section_yfq_blv_zz">
+   <title>Clients</title>
+   <p>The StreamHub Android SDK exposes several client classes that can be used to request Livefyre
+    API endpoints:</p>
+   <dl>
+    <dlentry>
+     <dt>AdminClient</dt>
+     <dd>Exchange a user authentication token for user information, keys, and other metadata.</dd>
+    </dlentry>
+    <dlentry>
+     <dt>BootstrapClient</dt>
+     <dd>Get recent content and metadata about a particular Collection.</dd>
+    </dlentry>
+    <dlentry>
+     <dt>StreamClient</dt>
+     <dd>Poll a stream for a Collection to retrieve new, updated, and deleted content.</dd>
+    </dlentry>
+    <dlentry>
+     <dt>WriteClient</dt>
+     <dd>Post, flag, and like content in a Collection.</dd>
+    </dlentry>
+   </dl>
+  </section>
+ </conbody>
+</concept>

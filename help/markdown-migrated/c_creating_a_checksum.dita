@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_creating_a_checksum">
+ <title>Creating a Checksum</title>
+ <shortdesc>Create a checksum using the Livefyre libraries.</shortdesc>
+ <conbody>
+  <section id="section_pfr_lqj_tz">
+   <title>Java</title>
+   <codeblock>
+import com.livefyre.Livefyre;
+import com.livefyre.core.Network;
+import com.livefyre.core.Site;
+import com.livefyre.core.Collection;
+ 
+Network network = Livefyre.getNetwork("networkName", "networkKey");
+Site site = network.getSite("siteId", "siteKey");
+Collection collection = site.buildCommentsCollection("title", "articleId", "http://www.example.com");
+collection.getData().setTags("tags");
+ 
+String collectionMetaToken = collection.buildCollectionMetaToken();</codeblock>
+  </section>
+  <section id="section_hnx_jqj_tz">
+   <title>NodeJS</title>
+   <codeblock>var livefyre = require('livefyre');
+ 
+var network = livefyre.getNetwork('networkName', 'networkKey');
+var site = network.getSite('siteId', 'siteKey');
+var collection = site.buildCommentsCollection('title', 'articleId', 'http://www.example.com');
+collection.data.tags = 'tags';
+ 
+var collectionMetaToken = collection.buildCollectionMetaToken();</codeblock>
+  </section>
+  <section id="section_kmt_3qj_tz">
+   <title>PHP</title>
+   <codeblock>$network = Livefyre::getNetwork("networkName", "networkKey");
+$site = $network->getSite("siteId", "siteKey");
+$collection = $site->buildCommentsCollection("title", "articleId", "http://www.example.com");
+$collection->getData()->setTags("tags");
+ 
+$collectionMetaToken = $collection->buildCollectionMetaToken();
+</codeblock>
+  </section>
+  <section id="section_y55_gqj_tz">
+   <title>Python</title>
+   <codeblock>from livefyre import Livefyre
+ 
+network = Livefyre.get_network('networkName', 'networkKey')
+site = network.get_site('siteId', 'siteKey')
+collection = site.build_comments_collection('title', 'articleId', 'http://www.example.com')
+collection.data.tags = 'tags'
+ 
+collection_meta_token = collection.build_collection_meta_token()</codeblock>
+  </section>
+  <section id="section_a3y_ypj_tz">
+   <title>Ruby</title>
+   <codeblock>require 'livefyre'
+ 
+network = Livefyre.get_network('networkName', 'networkKey')
+site = network.get_site('siteId', 'siteKey')
+collection = site.build_comments_collection('title', 'articleId', 'http://www.example.com')
+collection.data.tags = 'tags'
+ 
+collection_meta_token = collection.build_collection_meta_token
+</codeblock>
+  </section>
+ </conbody>
+</concept>

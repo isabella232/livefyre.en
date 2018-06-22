@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_using_reviews">
+ <title>Using Reviews</title>
+ <shortdesc>Options available to your users with the Reviews Apps.</shortdesc>
+ <conbody>
+  <p>Reviews offers an intuitive user experience, which includes many standard Livefyre features.
+   This page describes end user features specific to the Reviews App.</p>
+  <section id="section_ozq_xlh_21b">
+   <title>Rating Helpfulness</title>
+   <p>Logged in users may decide if they found another user’s Review helpful or not by clicking on
+    Yes or No. Clicking <uicontrol>Yes</uicontrol> will increase the overall helpfulness ratio of a review (“1 of 2
+    found this helpful” will change to “2 of 3 found this helpful”) and clicking <uicontrol>No</uicontrol> will
+    decrease the overall helpfulness ratio (“1 of 2 found this helpful” will change to “1 of 3 found
+    this helpful”).</p>
+  </section>
+  <section id="section_tvb_1mh_21b">
+   <title>Sort Options</title>
+   <p>Reviews may be sorted by the following options:</p>
+   <ul id="ul_ehs_2wl_d1b">
+    <li>Most helpful (default)</li>
+    <li>Highest rated</li>
+    <li>Lowest rated</li>
+    <li>Newest</li>
+    <li>Oldest</li>
+   </ul>
+  </section>
+  <section id="section_yr2_bmh_21b">
+   <title>Review Queue</title>
+   <p>When a new review is posted while a user is on the page, it will be queued at the top of the
+    stream. Clicking on the New Reviews image will add all new reviews to the top of the stream,
+    regardless of sort order. Refreshing the page will reorder the reviews according to the
+    currently selected sort order.</p>
+   <p>Users writing reviews will always see their post immediately upon Save, and all moderation
+    state changes will be updated and visible in real-time for all sort orders.</p>
+  </section>
+  <section id="section_lzf_cmh_21b">
+   <title>Social Sharing</title>
+   <p>Reviews may be shared on social networks.</p>
+   <note>This feature is currently supported on the desktop version, and is not available on
+    mobile.</note>
+  </section>
+  <section id="section_bcx_dmh_21b">
+   <title>Mobile Options</title>
+   <p>On mobile, Reviews supports writing and posting reviews, selecting Helpful Yes or No and
+    changing the sort order.</p>
+  </section>
+ </conbody>
+</concept>

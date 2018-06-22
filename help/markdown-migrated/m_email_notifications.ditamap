@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Email Notifications</title>
+ <topicref href="c_email_notifications.dita"/>
+ <topicref href="t_set_up_network_email.dita"/>
+ <topicref href="t_add_emails_rules.dita"/>
+ <topicref href="c_emails_for_livefyre_identity.dita"/>
+</map>

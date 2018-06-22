@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_content_to_a_library">
+    <title>Add Content to a Library</title>
+    <shortdesc>Add content to the library to use in Apps at a later time.</shortdesc>
+    <taskbody>
+        <context><p>Studio allows you to add content to your Library from the Social Search tab and
+                from the All Assets tab. The Social Search tab allows you to search for content from
+                Twitter and Instagram. Use the folder view to search for content locally, or from
+                other content providers, including Flickr, Dropbox, your Google Drive, and any input
+                URL.</p><image
+                href="http://350.df9.mwp.accessdomain.com/wp-content/uploads/2015/09/AssetLibraryFilepicker-1024x516.png"
+                height="516" width="1024" id="image_q22_gtg_zz"/><p>To add content from within your
+                Asset Library:</p></context>
+        <steps>
+            <step>
+                <cmd>Select All Assets or a folder within the list.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Upload Asset</uicontrol> icon at the top of the
+                    page.</cmd>
+            </step>
+            <step>
+                <cmd>From the File picker window that opens, drag and drop files directly from your
+                    local machine, or select a source.</cmd>
+            </step>
+            <step>
+                <cmd>Log into your account.</cmd>
+            </step>
+            <step>
+                <cmd>Select the files to upload.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

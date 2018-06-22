@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_navigation_guide">
+ <title>Navigation Guide</title>
+ <shortdesc>The Navigation Guide provides your audience with a way to quickly identify and locate
+  key information in the Storify.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>A Navigation Guide can be added to your Storify 2 application to create a list of permalinked
+   posts in a prominent location next to your story. </p>
+  <p>To add a Navigation Guide to your Storify, turn it on in App Designer. Choose the number of
+   post highlights to display in the Navigation Guide and the location of the Navigation Guide. You
+   must create a header for each Storify post for it to display in the Navigation Guide.</p>
+  <p>Use the <uicontrol>Navigation Guide</uicontrol> toggle in the <uicontrol>App
+    Designer</uicontrol> to turn the Navigation Guide on or off. The Navigation Guide can take up to
+   5 minutes to display after you turn it on and for posts to display or stop displaying in the
+   guide. </p>
+  <p>Enter a title for the Navigation Guide.</p>
+  <p>Use the field <uicontrol>Max Number of Guide Posts</uicontrol> to set the maximum number of
+   posts to add to the Navigation Guide. The default number of posts is 10. If you choose less than
+   10, the Navigation Guide automatically adjusts the size to fit the space.</p>
+  <ul id="ul_edv_w2x_qy">
+   <li>If you pin a post, the pinned post will always be the first in the Navigation Guide.</li>
+   <li>Add a new post to the Navigation Guide by adding a header to a Storify 2 post and selecting
+    the Navigation Guide icon on the post.</li>
+   <li>When you add a new post to the Navigation Guide, the post fits into the existing Navigation
+    Guide structure in the order the posts appear in the story.</li>
+   <li>If you select more posts to display in the Navigation Guide than the Max Number of Guide
+    Posts, then the last post on the Navigation Guide list is removed.</li>
+  </ul>
+  <p>Use the field <uicontrol>Orientation</uicontrol> to determine the placement of the Navigation
+   Guide: top, left, or right.</p>
+  <ul id="ul_fdv_w2x_qy">
+   <li>Choose <uicontrol>top</uicontrol> orientation to place the Navigation Guide at the top of the
+    Storify 2. You will not see the Navigation Guide when you scroll down the page even if you turn
+    on the Stickiness field.</li>
+   <li>Choose <uicontrol>left</uicontrol> orientation to place the Navigation Guide in the left
+    sidebar inside the Storify 2. You will not see the Navigation Guide when you scroll down the
+    page unless you turn on the Stickiness field. If you turn on the Stickiness field, you will
+    always see the Navigation Guide to the left of the page while scrolling.</li>
+   <li>Choose the <uicontrol>right</uicontrol> orientation to place the Navigation Guide to the
+    right of the Storify 2. You will not see the Navigation Guide when you scroll down the page
+    unless you turn on the Stickiness field. If you turn on the Stickiness field, you will always
+    see the Navigation Guide to the right of the page while scrolling.</li>
+  </ul>
+  <p>Use the field <uicontrol>Stickiness</uicontrol> to keep the Navigation Guide sticking to the
+   top of the screen. Sticky means that the Navigation Guide stays at the top of the screen no
+   matter where you are on a page on which Storify 2 is embedded. </p>
+  <p>Use the field <uicontrol>App Embed</uicontrol> to determine the location of the Navigation
+   Guide to live inside the page container with the Storify or outside it.</p>
+ </conbody>
+</concept>

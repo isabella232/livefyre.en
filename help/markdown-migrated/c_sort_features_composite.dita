@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_sort_features">
+    <title>Sort Features</title>
+    <shortdesc>You can choose various sorting options depending on the App and what you want site
+      visitors to be able to do.</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody>
+      <p>On this page:</p>
+      <ul id="ul_ohg_fnz_fcb">
+        <li>
+          <xref href="#c_sort_features/section_elc_hfs_d1b" format="dita" />
+        </li>
+        <li>
+          <xref href="#c_sort_features/section_grr_hfs_d1b" format="dita" />
+        </li>
+        <li>
+          <xref href="#c_sort_features/section_t4s_hfs_d1b" format="dita" />
+        </li>
+        <li>
+          <xref href="#c_sort_features/section_cft_hfs_d1b" format="dita" />
+        </li>
+        <li>
+          <xref href="#c_hot_threads" format="dita" />
+        </li>
+      </ul>
+      <draft-comment author="ind14750" otherprops="merge">c_sort_features.dita</draft-comment>
+      <section id="section_elc_hfs_d1b">
+        <title>Sort by Rating</title>
+        <p>This feature is only available for Reviews. Sort content by number of stars or other
+          quality metric rating. </p>
+        <p>Apps that use this feature:</p>
+        <ul id="ul_a4r_nw4_h1b">
+          <li>
+            <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+          </li>
+        </ul>
+      </section>
+      <section id="section_grr_hfs_d1b">
+        <title>Sort by Helpfulness</title>
+        <p>This feature is only available for Reviews. Sort content by the number of site visitors
+          that found a piece of content helpful. </p>
+        <p>Apps that use this feature:</p>
+        <ul id="ul_grx_nw4_h1b">
+          <li>
+            <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+          </li>
+        </ul>
+      </section>
+      <section id="section_t4s_hfs_d1b">
+        <title>Sort by Newest to Oldest, First to Last</title>
+        <p>For the Comments App, you can choose to allow users to sort from the most recently
+          published content to least recently published content. </p>
+        <p>In Storify 2, site visitors can sort from the first post to the last post or from the
+          last post to the first post. Storify 2 posts appear in the order a moderator decides, not
+          based on published time.</p>
+        <p>Apps that use this feature:</p>
+        <ul id="ul_nth_4w4_h1b">
+          <li>
+            <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+          </li>
+          <li>
+            <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+          </li>
+          <li>
+            <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+          </li>
+          <li>
+            <xref href="c_storify2.dita#c_storify2">Storify 2</xref>
+          </li>
+        </ul>
+      </section>
+      <section id="section_cft_hfs_d1b">
+        <title>Top Comments</title>
+        <p>Top Comments lists the 25 most liked comments in the conversation. The <uicontrol>Top
+            Comments</uicontrol> view displays the 25 most liked comments in the Collection. If an
+          original post receives the most likes, the post, but not its replies, will be listed. If a
+          reply receives the most likes, its immediate parent, up to the top level post, will also
+          be displayed. This list is not real-time, and will update only when the page is refreshed
+          or another sort view (<uicontrol>Newest</uicontrol> or <uicontrol>Oldest</uicontrol>) is
+          selected.</p>
+        <p>If a user posts a comment from the comment editor while viewing the <uicontrol>Top
+            Comments</uicontrol> view, the user will be switched back to the
+            <uicontrol>Newest</uicontrol> view. If a user likes or replies to one of the Top
+          Comments, it will stream into the <uicontrol>Top Comments</uicontrol> view for the user to
+          see.</p>
+        <p>To optimize for performance, Livefyre caches data for up to 2 minutes. There may be a
+          slight lag in the most recent likes that appear.</p>
+        <p>If there are no comments in the Collection with likes, users will see the message
+            <uicontrol>There are not enough likes yet</uicontrol>, and a link to <uicontrol>See
+            what’s new</uicontrol>.</p>
+        <note>Top Comments and Hot Threads may not be included in the same Collection.</note>
+        <p>For information on enabling the Top Comments view, please see <uicontrol>Studio &gt; Network
+            Settings</uicontrol>.</p>
+        <p>Apps that use this feature:</p>
+        <ul id="ul_r2s_4w4_h1b">
+          <li>
+            <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+          </li>
+        </ul>
+      </section>
+    </conbody>
+    <concept id="c_hot_threads">
+      <title>Hot Threads</title>
+      <shortdesc>Displays the 25 most popular threads within the Collection, ordered by
+        popularity.</shortdesc>
+      <conbody>
+        <draft-comment author="ind14750" otherprops="merge">c_hot_threads.dita</draft-comment>
+        <p>The Hot Threads view displays the 25 most popular threads within the Collection, ordered
+          by popularity. This includes all content in the Collection, including manual posts,
+          content from SocialSync and content from Curate.</p>
+        <note>Hot Threads is available on Comments, but not Live Blog or Chat.</note>
+        <p>For more information on enabling the Hot Threads view, please see Studio &gt; Network
+          Settings.</p>
+        <section id="section_xhh_2dl_wy">
+          <title>Previews</title>
+          <p>Clicking <uicontrol>Hot Threads</uicontrol> at the top of the stream replaces the
+            contents of the Collection with previews of up to 25 threads with the highest
+            “popularity scores” from the Collection. A popularity score is calculated for each
+            thread using Livefyre’s proprietary and evolving algorithm. The preview displays a top
+            level comment, and up to 5 of the most popular replies, as well as the direct parent of
+            each of these top 5 replies.</p>
+          <p>If there are no threads in the stream with a popularity score, no comments will be
+            displayed, and users will see the message <uicontrol>There are not enough threads
+              yet</uicontrol> and a link to <uicontrol>See what’s new</uicontrol>.</p>
+          <p>The Hot Threads list is not real-time, and will update only when the page is refreshed
+            or another view (<uicontrol>Newest</uicontrol> or <uicontrol>Oldest</uicontrol>) is
+            selected. (If a comment is moderated and Bozo’d or trashed, it will be removed from the
+            list immediately.)</p>
+        </section>
+        <section id="section_zmf_ddl_wy">
+          <title>Breakout View</title>
+          <p>From the preview, click <uicontrol>Show entire Thread</uicontrol> to replace the Hot
+            Threads view with a breakout view of the thread in context, including every reply within
+            that thread. (No other threads are displayed in the breakout view.) Click <uicontrol>Hot
+              Threads</uicontrol> to return to the Hot Threads view.</p>
+          <p>Moderators can view all pending content in the breakout view and inline moderation is
+            available. Likes, replies, edits and moderation actions will continue to stream in
+            real-time in the breakout view.</p>
+        </section>
+        <section id="section_bmv_bdl_wy">
+          <title>Posting from the Hot Threads View</title>
+          <p>Posting a comment from the top comment box in the Hot Threads view will switch users
+            back to the Newest view.</p>
+          <p>Replies or Likes posted in the Hot Threads view will appear in the stream without
+            changing views. Sorting options and the comment notifier are not available in the Hot
+            Threads view.</p>
+          <p>To optimize for performance, Livefyre caches data for up to 2 minutes. There may be a
+            slight lag in the most recent Hot Threads that appear.</p>
+        </section>
+        <section id="section_blk_ccj_h1b">
+          <p>Apps that use this feature:</p>
+          <ul id="ul_qzp_ccj_h1b">
+            <li>
+              <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+            </li>
+          </ul>
+        </section>
+      </conbody>
+    </concept>
+  </concept>
+</dita>

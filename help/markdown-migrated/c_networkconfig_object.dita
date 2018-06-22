@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_networkconfig_object">
+ <title>NetworkConfig Object</title>
+ <shortdesc>The <codeph>NetworkConfig</codeph> object is a JSON object that customizes the
+  authentication system for network users.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The <codeph>NetworkConfig</codeph> object is a JSON object containing the following
+   parameters:</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_q4j_xx5_nz">
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Parameter</entry>
+      <entry>Type</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><varname>authDelegate</varname></entry>
+      <entry>Object (required) </entry>
+      <entry>Used to customize the authentication system for custom network users.</entry>
+     </row>
+     <row>
+      <entry><varname>network</varname></entry>
+      <entry>String (required)</entry>
+      <entry>A Livefyre-provided network name. For example: <i>yourname.fyre.co.</i></entry>
+     </row>
+     <row>
+      <entry><varname>attachmentDelegate</varname></entry>
+      <entry>Object (optional) </entry>
+      <entry>Used to specify the types of media attachments visible in the App stream. For more
+       information, see Restricting Media.</entry>
+     </row>
+     <row>
+      <entry><varname>strings</varname></entry>
+      <entry>Object (optional) </entry>
+      <entry>Used to customize text strings of the HTML elements in any of the Livefyre Core Apps.
+       For more information, see String Customizations.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

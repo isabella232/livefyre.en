@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="c_miscellaneous_features">
+  <title>Miscellaneous Features</title>
+  <shortdesc>Livefyre offers additional features for tracking data from site visitors and syncing
+  with social media networks.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <section id="section_w5y_kx4_h1b">
+      <title>Stream Content Trends</title>
+      <p>End users can view a list of the most active collections within a site.</p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_qzp_ccj_h1b">
+        <li>
+          <xref href="c_polls_app.dita#c_polls_app">Polls</xref>
+        </li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

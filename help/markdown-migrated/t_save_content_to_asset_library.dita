@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_save_content_to_asset_library">
+    <title>Save Content to Asset Library</title>
+    <shortdesc>Save content from the Social Search tab to save content for use in Apps.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>View content details for the asset.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>+Save</uicontrol> to save the item to the top level of your
+                    Asset Library. </cmd>
+                <stepresult>Once the item has been saved, the button will change to <uicontrol>Add
+                        to Folder</uicontrol>, allowing you to locate it within the Library, if
+                    desired.</stepresult>
+            </step>
+            <step>
+                <cmd>Click<uicontrol> … (More Actions) > Advanced</uicontrol> to add the item to
+                    your Library, add tags, and Request reuse rights, or publish the item to an
+                    App.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

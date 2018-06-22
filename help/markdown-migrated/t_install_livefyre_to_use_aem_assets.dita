@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_install_livefyre_to_use_aem_assets">
+    <title>Install Livefyre to use AEM Assets</title>
+    <shortdesc>Follow the steps to install  and use Livefyre with AEM Assets.</shortdesc>
+    <taskbody>
+        <context>
+            <p>For more information on AEM Assets see <!--hrk 4/18/17 need link-->Use Livefyre with
+                AEM Assets.</p>
+            <p>To install AEM Assets for use with Livefyre:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Contact your sales consultant or account manager for the bundle and the package
+                    for your version of AEM (6.2 GA or 6.3 GA only).</cmd>
+            </step>
+            <step>
+                <cmd>Install the Livefyre bundle for your version AEM.</cmd>
+            </step>
+            <step>
+                <cmd>Install the AEM Assets and Sites package for your version of AEM.</cmd>
+                <info>
+                    <note>You need to have an AEM Assets license to use AEM Assets with Livefyre.
+                        You must have a Livefyre license to use AEM Assets with Livefyre.</note>
+                </info>
+            </step>
+            <step>
+                <cmd>Download the package into Package Manager. Livefyre automatically installs when
+                    you install the bundle and package. To check that Livefyre is active, you can
+                    view the bundle in the system console. For more information on how to view the
+                    bundle in the system console, see Web Console on docs.adobe.com.</cmd>
+            </step>
+            <step>
+                <cmd>Replicate the package to your Publish instance by clicking <uicontrol>More >
+                        Replicate</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

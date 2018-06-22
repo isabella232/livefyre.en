@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_polls_customizations">
+  <title>Polls Customizations</title>
+  <shortdesc>Change the size, width, and interaction options of the Polls app.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_wlh_4wg_sy">
+      <ul id="ul_nlc_pwg_sy">
+        <li>
+          <p><uicontrol>Type</uicontrol></p>
+          <p>Select the type of Poll you wish to create. <uicontrol>Single image</uicontrol> allows
+            you to add an image for the Poll’s question. <uicontrol>Multiple image</uicontrol>
+            allows you to add an image for the Poll’s answers. <uicontrol>Text only</uicontrol>
+            creates a Poll without images.</p>
+        </li>
+        <li>
+          <p><uicontrol>Question</uicontrol> (required)</p>
+          <p>Enter the question that will be displayed for your Poll.</p>
+        </li>
+        <li>
+          <p><uicontrol>Choices</uicontrol> (2 minimum)</p>
+          <p>Enter the answers that will be displayed for your Poll.</p>
+        </li>
+        <li>
+          <p><uicontrol>Display total votes</uicontrol></p>
+          <p>If enabled, your Poll results will display the total number of votes submitted for each
+            option.</p>
+        </li>
+        <li>
+          <p><uicontrol>Users may share poll</uicontrol></p>
+          <p>If enabled, your Poll will include a link which users may share.</p>
+        </li>
+        <li>
+          <p><uicontrol>Link</uicontrol> (optional)</p>
+          <p>The link to display for your Poll.</p>
+        </li>
+        <li>
+          <p><uicontrol>Link title</uicontrol></p>
+          <p>The title to display with the link.</p>
+        </li>
+        <li>
+          <p><uicontrol>Show poll results</uicontrol></p>
+          <p>If enabled, viewers will be able to see Poll results. If disabled, voters will see only
+            a “Thank You” screen after completing the Poll.</p>
+        </li>
+        <li>
+          <p><uicontrol>Disclaimer</uicontrol> (optional)</p>
+          <p>An optional disclaimer to display with your Poll.</p>
+        </li>
+      </ul>
+      <p>You can customize Polls using:</p>
+      <ul id="ul_cl1_gng_sy">
+        <li><uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>. See Customizing Apps for details on the standard
+            <uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>.</li>
+        <li>Integration tools. See Polls for more on how to customize Apps using Integration
+          Tools.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

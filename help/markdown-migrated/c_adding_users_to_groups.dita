@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_adding_users_to_groups">
+ <title>Adding Users to Groups</title>
+ <shortdesc>Add a user tag to an account to add a User to a group.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>User Tags may be implemented for both proprietary and enterprise profile systems, and may be
+   added to accounts by several means:</p>
+  <ul id="ul_r3l_1pl_wz">
+   <li>Creating Owners and Moderators through Studio assigns the ‘Moderator’ User Tag to the
+    account.</li>
+   <li>Creating user groups, and adding users to them through Studio, automatically applies User
+    Tags with the name of the group to the selected users.</li>
+   <li>User Tags may be also applied directly to Accounts using the <xref
+     href="http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#add-user-tag"
+     format="html" scope="external">Add User Tag HTTP</xref> call, or Ping for Pull.</li>
+  </ul>
+  <note>Both API methods, the HTTP Add User Tag call and the Ping for Pull method, will overwrite
+   any tags previously assigned to the Account through other means. Therefore, please select one
+   method, and use it consistently throughout your process.</note>
+  <section id="section_qgq_nbw_xz">
+   <title>Add a user to a Group from the Users page in Studio</title>
+   <ul id="ul_s3l_1pl_wz">
+    <li>Click <uicontrol>Add Group</uicontrol> or the group label below any username to open the
+     groups menu.</li>
+    <li>Scroll through the list and find the group to which you wish to add the user. You can enter
+     a group name in the <uicontrol>Search</uicontrol> box at the top of the dropdown.</li>
+    <li>Click the checkbox next to the group(s) to which the user should be added, and hit
+     return.</li>
+   </ul>
+   <p>The user’s profile will display either the name of the group (if the user is only in one
+    group) or the number of groups to which the user belongs.</p>
+  </section>
+  <section id="section_kn3_gbw_xz">
+   <title>Add a user to a group using the Add User Tag call</title>
+   <p>Pass the user’s LFToken and your selected tag name in with the POST request</p>
+   <p>For example:</p>
+   <codeblock>
+curl -XPOST -d 'tag_name=tag&amp;lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAxLjIzn0.KoyXUVCavt-rdvkVXm2qzQTyMAOSp-crQA1uL1ht9WU' 'https://labs.quill.fyre.co/api/v3.0/author/system@labs.fyre.co/tag/'</codeblock>
+   <p>For more information, see API Reference > <xref
+     href="http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#add-user-tag"
+     format="html" scope="external">Add User Tag</xref>.</p>
+  </section>
+  <section id="section_kyj_11w_xz">
+   <title>Add a user to a Group using Ping for Pull</title>
+   <p>Use the tags array to assign users to user groups. (Tags may include 1-63 alphanumeric and
+    underscore characters.)</p>
+   <p>For example:</p>
+   <codeblock>
+"tags": ["moderator", "brand_advocate"],
+</codeblock>
+  </section>
+  <section id="section_uyn_scv_xz">
+   <title>Add a user to a Group using Remote Profiles</title>
+   <p>Add user tags to the Remote Profile, used to sync user data between your custom profile system
+    and Livefyre, for the specific users.</p>
+  </section>
+ </conbody>
+</concept>

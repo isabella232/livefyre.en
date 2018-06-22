@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_implementing_sso">
+ <title>Implementing SSO</title>
+ <shortdesc>To authenticate a user with Livefyre through a flow not triggered by a Livefyre App,
+  Livefyre recommends that you implement the <codeph>forEachAuthentication</codeph> method on your
+   <codeph>AuthDelegate</codeph> object.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+  <p>This will be invoked when the <codeph>authDelegate</codeph> is passed to
+    <codeph>auth.delegate</codeph>, and will be passed an authenticate function that can be passed
+   multiple times. This method provides an inversion of control for authentication events so that
+   your <codeph>AuthDelegateobject</codeph> can be self-contained without requiring a global
+   reference to auth.</p>
+  <codeblock>authDelegate.forEachAuthentication = function (authenticate) {
+ window.addEventListener('userAuthenticated', function(data) {
+  authenticate({livefyre: data.token});
+ });
+}</codeblock>
+  <p>Livefyre relies on user tokens to coordinate authentication. As a result, this token must be
+   returned by your identity service to authenticate a user with Livefyre. To learn how to create a
+   Livefyre user token, please see Building a User Authentication Token.</p>
+  <note>After a successful login, auth will create a session for the user, and will try to load a
+   user’s session upon page refresh and reload. <codeph>auth.logout()</codeph> will clear this
+   session. This means that it is not necessary to manage a user’s session independently of
+   authorization.</note>
+ </conbody>
+</concept>

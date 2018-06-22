@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_set_up_bans">
+    <title>Ban IP Addresses</title>
+    <shortdesc>You can ban IP addresses if a malicious user creates multiple accounts from the same
+        IP address.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><image href="images/Bans-1024x239.png" id="image_xd5_33r_vdb"/><p>If a banned user
+                begins to realize that no one is seeing their comments, they may decide to create a
+                new user account, with a different username and avatar, and begin posting
+                inappropriate or spam comments from this new, unbanned account. Your moderators may
+                recognize the content as the same user, and verify this assumption by checking the
+                IP address of the user posting the comments (from the Account Details
+            page).</p></context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>+ IP Address</uicontrol> in the Banned IPs panel.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the IP Address in the field. To Ban a range of IP addresses, enter the
+                    range in the format “192.168.0.1 – 192.168.0.10” (separate the  IP addresses by
+                    spaces and a dash all in quotes) and click <uicontrol>Save</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select an action from the pulldown menu (Trash, Premoderate, or Bozo
+                    content).</cmd>
+            </step>
+            <step>
+                <cmd>Click the checkmark to save.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

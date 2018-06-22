@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_livefyre_components_to_a_template">
+    <title>Add Livefyre Components to a Template</title>
+    <shortdesc/>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Access <uicontrol>CRXDE Lite</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to your template node.</cmd>
+            </step>
+            <step>
+                <cmd>Create a node in the location in which you want your Livefyre component. </cmd>
+                <info>For more information see <xref
+                        href="https://docs.adobe.com/docs/en/aem/6-3/develop/templates/page-templates-editable.html"
+                        format="html" scope="external">Page Templates - Editable</xref> in the AEM
+                    6.3 documentation.</info>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Create Node</uicontrol> window, enter the following
+                    information:</cmd>
+                <info>
+                    <ul id="ul_ksf_xhs_pz">
+                        <li><b>Name:</b> sling:resourceType</li>
+                        <li><b>Type:</b> nt:unstructured</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>In the Properties table, add one of the following values to the Value field,
+                    depending on which App you would like to add to the template:</cmd>
+                <info>
+                    <ul id="ul_lsf_xhs_pz">
+                        <li>To use the Card App:
+                            <b>social/integrations/livefyre/components/card</b></li>
+                        <li>To use the Carousel App:
+                                <b>social/integrations/livefyre/components/carousel</b></li>
+                        <li>To use the Chat App:
+                            <b>social/integrations/livefyre/components/chat</b></li>
+                        <li>To use the Comments App:
+                                <b>social/integrations/livefyre/components/comments</b></li>
+                        <li>To use the Feature Card App:
+                                <b>social/integrations/livefyre/components/card</b></li>
+                        <li>To use the Live Blog App:
+                                <b>social/integrations/livefyre/components/liveblog</b></li>
+                        <li>To use the Map App:
+                            <b>social/integrations/livefyre/components/map</b></li>
+                        <li>To use the Mosaic App:
+                                <b>social/integrations/livefyre/components/mosaic</b></li>
+                        <li>To use the Media Wall App:
+                                <b>social/integrations/livefyre/components/mediawall</b></li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

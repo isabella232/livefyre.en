@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_a_twitter_app_for_use_with_livefyre_identity">
+    <title>Create a Twitter App for Use with Livefyre Identity</title>
+    <shortdesc>You can use Livefyre Identity with Twitter to allow users to use their Twitter logins
+        to interact Apps on your site.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To enable Twitter login, Livefyre requires the following Twitter app information:</p>
+            <ul id="ul_gzl_yyf_gz">
+                <li>Consumer Key (API Key)</li>
+                <li>Consumer Secret (API Secret)</li>
+            </ul>
+            <p>To create a Twitter App for use with Livefyre Identity:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to <xref href="https://apps.twitter.com/" format="html" scope="external"
+                        >https://apps.twitter.com/</xref>, and sign into your Twitter account to
+                    create a new or select an existing app for use with Livefyre Identity.</cmd>
+            </step>
+            <step>
+                <cmd>From the Settings page for the app:</cmd>
+                <info>
+                    <ul id="ul_izl_yyf_gz">
+                        <li>Enter <uicontrol>Callback URL:</uicontrol>
+                            https://identity.livefyre.com/{networkName}.fyre.co (where
+                                <b>{networkName}</b> is your Livefyre provided network name. For
+                            example: <uicontrol>labs</uicontrol> in
+                                <uicontrol>labs.fyre.co</uicontrol>.)</li>
+                        <li>Deselect <uicontrol>Enable Callback Locking</uicontrol>.</li>
+                        <li>Select <uicontrol>Allow this application to be used to Sign in with
+                                Twitter</uicontrol>.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>From the <uicontrol>Permissions</uicontrol> tab, select <uicontrol>Access: Read
+                        only</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_lmn_bkf_3z">When complete, Twitter’s Application Management > Keys and
+            Access Tokens page will list the app’s Consumer Key (API Key) and Consumer Secret (API
+            Secret) for use in Studio’s Integration Settings page.</result>
+    </taskbody>
+</task>

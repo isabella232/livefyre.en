@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_rn_2017_march_9">
+ <title>March 30, 2017</title>
+ <shortdesc>Release Notes for the March 30, 2017 release.</shortdesc>
+ <conbody>
+  <table id="table_q3m_qxq_kz">
+   <title>Production Release</title>
+   <tgroup cols="3">
+    <colspec colnum="1" colname="col1"/>
+    <colspec colnum="2" colname="col2"/>
+    <colspec colnum="3" colname="col3"/>
+    <thead>
+     <row>
+      <entry>Issue Type</entry>
+      <entry>Component</entry>
+      <entry>Release Note</entry>
+     </row>
+    </thead>
+    <tbody>
+    
+     <row>
+      <entry>Bug</entry>
+      <entry>Social Search</entry>
+      <entry>Fixed a bug that prevented saved Youtube assets in Social Search from
+       publishing.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Social Sync</entry>
+      <entry>Deprecated Twitter Social Sync.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Storify 2</entry>
+      <entry>Added an enhancement to display the message "No results found" on Facebook Topic search
+       when no results are found.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Streams</entry>
+      <entry>Added Summary Rules for SAFE Rules to the bottom of a Twitter Stream page.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Streams</entry>
+      <entry>Added an enhancement to visibly disable the "verified user" checkbox on Twitter Stream
+       Rules when excluded authors are provided.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Streams</entry>
+      <entry>Fixed a bug to allow the usage of ANDing keywords and a Location filter in a Twitter
+       rule.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Studio</entry>
+      <entry>Fixed a bug that was preventing the "Feature Tag" to save correctly when
+       applied.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <table id="table_r3m_qxq_kz">
+   <title>UAT Release</title>
+   <tgroup cols="3">
+    <colspec colnum="1" colname="col1"/>
+    <colspec colnum="2" colname="col2"/>
+    <colspec colnum="3" colname="col3"/>
+    <thead>
+     <row>
+      <entry>Issue Type</entry>
+      <entry>Component</entry>
+      <entry>Release Note</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Bug</entry>
+      <entry>App Content</entry>
+      <entry>Changed the behavior of "More Info" such that if there are multiple Anonymous flag
+       events on a given piece of content, the earliest event is always shown.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Library</entry>
+      <entry>Fixed a bug that caused Library searches with hashtags to intermittently fail.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Maps</entry>
+      <entry>Fixed a bug in Maps to support a large number of content in clusters on iOS
+       devices.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Mosaic</entry>
+      <entry>Added the ability to configure Mosaic apps to click anywhere on a content card to open
+       the modal by animation type `none` in designer and `cardAnimation: 'off'`if instantiated
+       through the SDK.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Mosaic</entry>
+      <entry>Fixed a bug to allow users to successfully make changes to Mosaic apps in
+       Designer.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Rights Request</entry>
+      <entry>Added a new rights request status called "Request Failed" to highlight when rights
+       request messages fail to send.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Settings</entry>
+      <entry>Added the ability for customers to create Spam Moderation Rules in Settings.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Social Search</entry>
+      <entry>Fixed a bug that prevented VK.com posts from displaying via URL Social
+       Searches.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Social Search</entry>
+      <entry>When searching for Instagram content from Studio, if the search is due to an expired
+       Instagram API Token, the error message will now indicate as such.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Streams</entry>
+      <entry>Fixed a bug that caused an "App is not accepting new content" banner to falsely display
+       on top of Stream Rule pages.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Streams</entry>
+      <entry>Modified the default of newly created stream rules to Apply SAFE Rules when
+       applicable.</entry>
+     </row>
+     <row>
+      <entry>Enhancement</entry>
+      <entry>Streams (formerly, Curate Rules)</entry>
+      <entry>Removed the "Vines" only option from Twitter Stream/Curate rules, as Vines are now
+       displayed as Twitter videos.</entry>
+     </row>
+     <row>
+      <entry>Bug</entry>
+      <entry>Studio Shell</entry>
+      <entry>Fixed a bug so that Livefyre Studio will load if http:// was explicitly prepended to
+       the url.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

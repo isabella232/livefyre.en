@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_navigation_guide_to_storify2">
+    <title>Add a Navigation Guide to a Storify 2</title>
+    <shortdesc>Add a navigation guide to your Storify 2 application to create a list of permalinked
+        posts in a prominent location next to your story.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Open a Storify 2 story.</cmd>
+            </step>
+            <step>
+                <cmd>In the Storify 2 App Designer, switch on the <uicontrol>Navigation
+                        Guide</uicontrol> toggle.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

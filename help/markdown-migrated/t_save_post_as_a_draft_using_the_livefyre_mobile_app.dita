@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="t_save_post_as_a_draft_using_the_livefyre_mobile_app">
+  <title>Save Post as a Draft Using the Livefyre Mobile App</title>
+  <shortdesc>Save a post as a draft from your mobile device to publish it later or to have another
+        contributor review or add to content before it goes live.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Log in to the Livefyre mobile app.</cmd>
+      </step>
+      <step>
+        <cmd>Select a story.</cmd>
+      </step>
+      <step>
+        <cmd>Click on the camera icon to upload media.</cmd>
+      </step>
+      <step>
+        <cmd>Select media from your mobile device or use your camera to create new media to
+                    upload.</cmd>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Create Post</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Save Draft</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

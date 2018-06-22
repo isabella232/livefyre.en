@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_modq_keyboard_shortcuts">
+  <title>ModQ Keyboard Shortcuts</title>
+  <shortdesc>The following keyboard shortcuts are available to moderators in ModQ.</shortdesc>
+  <refbody>
+    <table id="table_bry_bmd_yy">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="col1"/>
+        <colspec colnum="2" colname="col2"/>
+        <colspec colnum="3" colname="col3"/>
+        <colspec colnum="4" colname="col4"/>
+        <thead>
+          <row>
+            <entry>Action</entry>
+            <entry>Description</entry>
+            <entry>Keyboard</entry>
+            <entry>Alternate</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Previous item</entry>
+            <entry>Select the item above the currently selected item</entry>
+            <entry>Up Arrow</entry>
+            <entry>K</entry>
+          </row>
+          <row>
+            <entry>Next item</entry>
+            <entry>Select the item below the currently selected item</entry>
+            <entry>Down Arrow</entry>
+            <entry>J</entry>
+          </row>
+          <row>
+            <entry>Approve content</entry>
+            <entry>Mark content as Approved</entry>
+            <entry>a</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Trash content</entry>
+            <entry>Mark content as Trashed</entry>
+            <entry>x</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Bozo content</entry>
+            <entry>Mark content as Bozo’d</entry>
+            <entry>b</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Top of queue</entry>
+            <entry>Jump to the first item at the top of the queue</entry>
+            <entry>l</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Mute or unmute flags</entry>
+            <entry>Mute or unmute flags from the selected user</entry>
+            <entry>Shift + M</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Ban user</entry>
+            <entry>Ban the selected user for that site only</entry>
+            <entry>Shift + B</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Whitelist user</entry>
+            <entry>Whitelist the selected user for that site only</entry>
+            <entry>Shift + W</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Clear site filter</entry>
+            <entry>Display all items in the network</entry>
+            <entry>Shift + Q</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

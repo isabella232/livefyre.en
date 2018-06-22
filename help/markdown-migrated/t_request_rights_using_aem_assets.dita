@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_request_rights_using_aem_assets">
+    <title>Request Rights Using AEM Assets </title>
+    <shortdesc>Request rights for assets you want to import from the UGC Library, Twitter, or
+        Instagram.</shortdesc>
+    <taskbody>
+        <context>
+            <p>You must select UGC to import into AEM Assets before you can request rights for those
+                assets. You can:</p>
+            <ul id="ul_azw_sms_pz">
+                <li>Send a message to the owners of multiple assets at a time by using
+                        <uicontrol>Bulk Message</uicontrol></li>
+                <li>Override the rights for multiple assets at once using <uicontrol>Bulk Attribute
+                        Content Rights</uicontrol></li>
+                <li>Choose whether you want to message the content owner or manually attribute
+                    content rights for each asset you selected using <uicontrol>Custom
+                        Actions</uicontrol>.</li>
+            </ul>
+            <note>If any content item previously had rights requested or granted in the Livefyre
+                platform, the status of the rights request will reflect appropriately for the
+                content item.</note>
+            <note>Overriding a rights request is stating that you own the content. Do not override a
+                rights request without verifying that you own the content.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd/>
+                <info>
+                    <p>Choose one of the following options under <uicontrol>Actions in
+                            Bulk</uicontrol>:</p>
+                    <ul id="ul_czw_sms_pz">
+                        <li><uicontrol>Bulk Message</uicontrol> to send a message to the owners of
+                            several assets at once</li>
+                        <li><uicontrol>Bulk Attribute Content Rights</uicontrol> to override the
+                            rights for multiple assets at once</li>
+                        <li><uicontrol>Custom Actions</uicontrol> to choose whether to message the
+                            asset owner or override the rights request for each, individual piece of
+                            content. If you choose <uicontrol>Custom Actions</uicontrol>, send a
+                            rights request message or modify the message for a rights request under
+                            individual assets.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Import</uicontrol>.</cmd>
+                <info>
+                    <p>You can see the status of a pending Rights Request for an asset in Livefyre
+                        Studio.</p>
+                    <note>If content is pending a rights request, the asset will not display in AEM
+                        Assets until rights are granted. The asset automatically appears in AEM
+                        Assets when a rights request is granted.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

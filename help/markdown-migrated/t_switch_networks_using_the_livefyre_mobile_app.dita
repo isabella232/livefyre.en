@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="t_switch_networks_using_the_livefyre_mobile_app">
+  <title>Switch Networks Using the Livefyre Mobile App</title>
+  <shortdesc>Switch networks using the Livefyre mobile app to post media to different networks
+        from anywhere.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Log in to the Livefyre mobile app.</cmd>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Menu &gt; Settings</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Select the network to use.</cmd>
+      </step>
+      <step>
+        <cmd>Select <uicontrol>Save</uicontrol>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

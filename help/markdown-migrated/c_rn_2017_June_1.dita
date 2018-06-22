@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_rn_2017_april_27">
+ <title>June 1, 2017</title>
+ <shortdesc>Release Notes for the June 1, 2017 release.</shortdesc>
+ <conbody>
+    <table id="table_ar4_fkh_c1b">
+      <title>Production Release</title>
+      <tgroup cols="3">
+        <colspec colnum="1" colname="col1"/>
+        <colspec colnum="2" colname="col2"/>
+        <colspec colnum="3" colname="col3"/>
+        <thead>
+          <row>
+            <entry><b>Issue Type</b></entry>
+            <entry><b>Component</b></entry>
+            <entry><b>Release Note</b></entry>
+          </row>
+        </thead>     <tbody>
+         
+          <row>
+            <entry>Enhancement</entry>
+            <entry>App Content</entry>
+            <entry>Added an enhancement to allow users in App Content to download native video files
+              that were uploaded to a Livefyre App and/or via the Upload Media API.</entry>
+          </row>
+          <row>
+            <entry>Bug</entry>
+            <entry>Mosaic</entry>
+            <entry>Fixed a bug in Mosaic that was preventing newly created Mosaic's from loading
+              after a page refresh. </entry>
+          </row>
+          <row>
+            <entry>Bug</entry>
+            <entry>Rights Management</entry>
+            <entry>Fixed a bug that caused Rights Management to break on newly
+              deleted/marked-as-private Instagram and Twitter content.</entry>
+          </row>
+          <row>
+            <entry>Bug</entry>
+            <entry>Storify 2</entry>
+            <entry>Updated the sorting labels in Storify 2 to match the expected behavior. "Oldest
+              to newest" and "Newest to oldest" will now say "First to last" and "Last to first".
+              The sort order is based on the order dictated in Storify 2's Editor, not publish date.
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+   <table id="table_qw3_1kh_c1b"> <title>UAT Release</title>
+      <tgroup cols="3">
+        <colspec colnum="1" colname="col1"/>
+        <colspec colnum="2" colname="col2"/>
+        <colspec colnum="3" colname="col3"/>
+        <thead>
+          <row>
+            <entry><b>Issue Type</b></entry>
+            <entry><b>Component</b></entry>
+            <entry><b>Release Note</b></entry>
+          </row>
+        </thead>  <tbody>
+        
+          <row>
+            <entry>Bug</entry>
+            <entry>Reviews</entry>
+            <entry>Fixed a bug in Reviews to ensure media loads via HTTPS in all
+              implementations.</entry>
+          </row>
+          <row>
+            <entry>Bug</entry>
+            <entry>Search</entry>
+            <entry>Fixed a bug that caused Instagram Location Search results to show
+              duplicates.</entry>
+          </row>
+          <row>
+            <entry>Bug</entry>
+            <entry>Sidenotes</entry>
+            <entry>Enhanced Sidesnotes to support front-end moderation. This means moderators logged
+              into the app on the front-end will be able to approve or delete content. </entry>
+          </row>
+          <row>
+            <entry>Bug</entry>
+            <entry>Stream Rules</entry>
+            <entry>Added an enhancement to Twitter Streams so that all map locations are listed in
+              the rule summary</entry>
+          </row>
+          <row>
+            <entry>Bug</entry>
+            <entry>Stream Rules</entry>
+            <entry>Fixed a bug that allowed a Twitter Stream user to exist in both the "is posted by
+              any of these authors" and "is not posted by any of these authors" fields at the same
+              time.</entry>
+          </row>
+          <row>
+            <entry>Enhancement</entry>
+            <entry>Stream Rules</entry>
+            <entry>Added the ability to filter Tweets by Language in Stream Rules</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

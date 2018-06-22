@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_moderate_streams">
+    <title>Restrict Content from Twitter Users</title>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>You can ban Twitter users from being pulled into your Apps. The <uicontrol>Network
+                    Settings > Streams</uicontrol> tab allows you to ban users from your Streams,
+                enter their Twitter username in the field provided and click
+                    <uicontrol>Add</uicontrol>.</p>
+            <p>Use the checkbox to Trash all of the listed user’s existing content, if desired. </p>
+            <note>Trashing existing content cannot be undone.</note>
+            <p><image
+                    href="https://answers.livefyre.com/wp-content/uploads/2015/11/SettingsStreams-1024x395.png"
+                    height="395" width="1024" id="image_jtl_b4k_yy"/></p>
+        </context>
+    </taskbody>
+</task>

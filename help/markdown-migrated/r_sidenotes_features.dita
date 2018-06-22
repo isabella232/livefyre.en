@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_sidenotes_features">
+  <title>Sidenotes Features</title>
+  <shortdesc>The Sidenotes App offers these features for your site.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_d1p_g4n_sy">
+      <ul id="ul_mfy_gng_sy">
+        <li>Respond to any part of a paragraph, by highlighting the text they wish to comment on,
+          then clicking the pencil icon to write their Sidenote.</li>
+        <li>Add Sidenotes to a paragraph, by clicking the Sidenotes icon that appears at the end of
+          the paragraph, and adding their comment.</li>
+        <li>Comment on an image, by clicking the Sidenotes icon at the corner of the image, and
+          adding their comment.</li>
+        <li>Share text to Facebook or Twitter, by selecting text, then clicking the Share to
+          Facebook or Share to Twitter icon. Sharing highlighted content allows users to edit the
+          text that will be shared, and sends a link to the original content with the share.</li>
+        <li>Read others’ comments, by clicking the Livefyre thought bubble that shows the number of
+          comments included for any part of the page.</li>
+        <li>Reply to existing Sidenotes.</li>
+        <li>Vote on the helpfulness of notes, and thereby push more helpful notes to the top of the
+          list of annotations.</li>
+        <li>Share specific Sidenotes to Facebook or Twitter by clicking the ellipses that appear
+          when hovering over the note.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

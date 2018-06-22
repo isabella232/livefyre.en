@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="install_livefyre_for_6.1_or_6.2">
+    <title>Install Livefyre for AEM 6.1 or AEM 6.2</title>
+    <shortdesc>Follow these steps to Install Livefyre for AEM 6.1 or 6.2 without AEM
+        Assets.</shortdesc>
+    <taskbody>
+        <context>
+            <p>For more information on downloading and installing AEM packages, see Downloading and
+                Installing Packages from Package Share on docs.adobe.com.</p>
+            <p>To install the Livefyre for AEM package for 6.1 or 6.2:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Search AEM Package Share for “Communities.”</cmd>
+            </step>
+            <step>
+                <cmd>Click on one of the following Communities Packages that contain the Livefyre
+                    package and automatically install Livefyre in AEM:</cmd>
+                <info>
+                    <ul id="ul_krz_ghs_pz">
+                        <li>If using AEM 6.2, install the latest <xref
+                                href="https://docs.adobe.com/docs/en/aem/6-2/deploy/communities.html#Latest%20Feature%20Pack"
+                                format="html" scope="external">AEM 6.2 Communities feature
+                                pack</xref></li>
+                        <li>If using AEM 6.1, install the latest <xref
+                                href="https://docs.adobe.com/docs/en/aem/6-1/deploy/communities.html#Latest%20Feature%20Pack"
+                                format="html" scope="external">AEM 6.1 Communities feature
+                                pack</xref></li>
+                        <li><b>Note:</b> You do not need to have a communities license to use AEM
+                            with Livefyre. You must have a Livefyre license to use AEM with
+                            Livefyre.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Download the feature pack into Package Manager. Livefyre automatically installs
+                    when you install Communities. To check that Livefyre is active, you can view the
+                    bundle in the system console. For more information on how to view the bundle in
+                    the system console, see Web Console on docs.adobe.com.</cmd>
+            </step>
+            <step>
+                <cmd>Replicate the package to your Publish instance by clicking <uicontrol>More >
+                        Replicate</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

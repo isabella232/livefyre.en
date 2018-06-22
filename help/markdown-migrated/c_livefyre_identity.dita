@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_livefyre_identity">
+ <title>Livefyre Identity</title>
+ <shortdesc>Working with Livefyre’s social user management system.</shortdesc>
+ <conbody>
+  <p>Skip this section if you use a custom or third-party user management system.</p>
+  <p>Users may log into your apps using their social media accounts or an email-based account
+   created exclusively for your site.</p>
+  <p>The Livefyre Identity package contains information necessary to delegate authentication.
+   (Therefore, an explicit auth delegate is not required for Livefyre identity.)</p>
+  <p>To add social sign on to your Livefyre integration:</p>
+  <ol id="ol_prm_tqw_jz">
+   <li>Create your social apps</li>
+   <li>Connect your apps to Livefyre</li>
+   <li>Add Livefyre.js to the page</li>
+   <li>Initialize Livefyre Identity</li>
+  </ol>
+  <note>This document lists Livefyre specific aspects for the social providers’ app creation
+   process. Livefyre is not responsible for any changes to their interface, nor can Livefyre provide
+   assistance with the creation of these apps, or their approval process. Please use available
+   Twitter, Facebook, Yahoo!, and Google developer information to create these apps, and navigate
+   their approval process (if necessary).</note>
+ </conbody>
+</concept>

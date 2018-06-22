@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_viewing_account_details">
+ <title>Viewing Account Details</title>
+ <shortdesc>Click on any user to view details about the account.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>On this page:</p>
+  <ul id="ul_lp4_zpf_kcb">
+   <li>
+    <xref href="#c_viewing_account_details/section_mpn_ttp_vz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_viewing_account_details/section_vk2_stp_vz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_viewing_account_details/section_yhn_rtp_vz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_viewing_account_details/section_l5b_5gr_vdb" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_viewing_account_details/section_kr4_ptp_vz" format="dita"/>
+   </li>
+  </ul>
+  <section id="section_mpn_ttp_vz"><title>Profile</title><p>The Profile page provides user account
+    information, including the date the account was created, the User ID and email address
+    associated with it, a list of all user activity for the account, and a list of any associated
+    User Tags, Bans, or Whitelists.</p><note>This information is available only to Studio
+    Administrators, Studio Managers, and User Managers. To block your users’ IP and email addresses
+    from this view, contact your Livefyre Technical Account Manager.</note><image
+    href="images/UsersProfile-1024x699.png" id="image_adl_ffr_vdb"/></section>
+  <section id="section_vk2_stp_vz">
+   <title>User Tags</title>
+   <p>Add User Tags to accounts both to more easily search for tagged users, and to stylistically
+    differentiate tagged users’ content from other’s on your site.</p>
+   <p>For more information on on using User Tags to style the user’s content differently than other
+    content on the site, see <uicontrol>App Customizations > Style User Group
+    Content</uicontrol>.</p>
+   <note>User Tags are not case sensitive, and may contain spaces.</note>
+  </section>
+  <section id="section_yhn_rtp_vz">
+   <title>Status</title>
+   <p>The Status section lists any Bans or Whitelists associated with the Account, and allows you to
+    add the account to any existing Network or Site Bans and Whitelists.</p>
+  </section>
+  <section id="section_l5b_5gr_vdb">
+   <title>Banning Users</title>
+   <p>If a user is posting inappropriate or spam comments on an article or across your site, you may
+    choose to ban the user from your network. Once banned, all content posted by the user will be
+    automatically set to the <i><b>Bozo</b></i> state, and will be visible only to the posting user.
+    Banned users are able to log into the stream, post comments, and view their content in the App.
+    Banned users will believe that they are still part of the conversation. However, no other user
+    on your site will be able to see this content.</p>
+   <p>Because their content is now Bozo’d, banned users may continue to post inappropriate content,
+    but it will no longer be visible to the rest of your community.</p>
+   <p>For more information, please see <uicontrol>Studio > App Content > Bozo
+    Content</uicontrol>.</p>
+  </section>
+  <section id="section_kr4_ptp_vz">
+   <title>Whitelisting Users</title>
+   <p>Whitelisting Users allows them to post directly to your Apps. Content posted by whitelisted
+    users will not pass through Livefyre’s SAFE, profanity, or premoderation filters, and will be
+    automatically approved and added to the App.</p>
+  </section>
+ </conbody>
+</concept>

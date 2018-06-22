@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_buildratingscollection_site_method">
+  <title>buildRatingsCollection Site Method</title>
+  <shortdesc>Returns a Collection object instantiated as a Ratings type. Run create_or_update() from
+    the Collection object to complete the build process.</shortdesc>
+  <refbody>
+    <properties id="properties_gq4_jyf_5y">
+      <prophead>
+        <proptypehd>Variable</proptypehd>
+        <propvaluehd>Type</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype><varname>title</varname></proptype>
+        <propvalue>String</propvalue>
+        <propdesc>
+          <p>The title for the Collection.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype><varname>articleId</varname></proptype>
+        <propvalue>String</propvalue>
+        <propdesc>A unique article ID you chose to identify a Collection within your
+          site.</propdesc>
+      </property>
+      <property>
+        <proptype><varname>url</varname></proptype>
+        <propvalue>String</propvalue>
+        <propdesc>The canonical absolute URL for this Collection.</propdesc>
+      </property>
+    </properties>
+    <section id="section_nyl_ycs_rz">
+      <title>Java Example</title>
+      <codeblock>Collection collection = site.buildRatingsCollection(title, articleId, url);
+</codeblock>
+    </section>
+    <section id="section_xkd_gds_rz">
+      <title>NodeJS Example</title>
+      <codeblock>var collection = site.buildRatingsCollection(title, articleId, url);
+</codeblock>
+    </section>
+    <section id="section_ghf_gds_rz">
+      <title>PHP Example</title>
+      <codeblock>$collection = site->buildRatingsCollection(title, articleId, url);
+</codeblock>
+    </section>
+    <section id="section_dwg_gds_rz">
+      <title>Python Example</title>
+      <codeblock>collection = site.build_ratings_collection(title, articleId, url)
+</codeblock>
+    </section>
+    <section id="section_enh_gds_rz">
+      <title>Ruby Example</title>
+      <codeblock>collection = site.build_ratings_collection(title, articleId, url)
+</codeblock>
+    </section>
+  </refbody>
+</reference>

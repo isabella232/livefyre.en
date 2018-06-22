@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_change_content_status_modq">
+    <title>Change Content Status in ModQ</title>
+    <shortdesc>Moderators can Trash, Bozo, Approve, or Approve &amp; Feature content from within
+        ModQ.</shortdesc>
+    <taskbody>
+        <context>
+            <p/>
+        </context>
+    </taskbody>
+</task>

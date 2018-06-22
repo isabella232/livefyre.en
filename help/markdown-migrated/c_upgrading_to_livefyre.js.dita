@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_upgrading_to_livefyre.js">
+ <title>Upgrading to Livefyre.js</title>
+ <shortdesc>Upgrading existing implementations from livefyre.js to Livefyre.js.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>On this page:</p>
+  <ul id="ul_gxy_trd_fcb">
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_vsw_fhh_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_zt3_1hh_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_fkr_sgh_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_tcb_m2h_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_mdy_k2h_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_uv1_jch_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_as5_fyg_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_g5b_fyg_xz" format="dita"/>
+   </li>
+   <li>
+    <xref href="#c_upgrading_to_livefyre.js/section_glz_cyg_xz" format="dita"/>
+   </li>
+  </ul>
+  <p><codeph>Livefyre.js</codeph>, and its public method <codeph>Livefyre.require</codeph>, provide
+   a new way to implement Livefyre in a modular fashion. By leveraging the JavaScript Module Loader
+    (<xref href="http://requirejs.org/" format="html" scope="external"
+   >http://requirejs.org/</xref>), Livefyre can import any of our most popular Apps with a simple,
+   human readable, version pinned, instance of the App.</p>
+  <p>Using <codeph>Livefyre.require</codeph> also simplifies the auth integration process. Using
+    <codeph>Livefyre.require </codeph>to load auth allows you to create a single auth for each page
+   on your site. Once enabled, all Apps on the page will share this common authentication.</p>
+  <ul id="ul_yht_mxg_xz">
+   <li>Check your Livefyre Library Status</li>
+   <li>Advantages</li>
+   <li>Implementation</li>
+   <li>Examples</li>
+  </ul>
+  <section id="section_vsw_fhh_xz">
+   <title>Check your Livefyre Library Status</title>
+   <p>Livefyre offers a simple bookmarklet test, allowing you to quickly and easily check your
+    current implementation status. Drag this button to your bookmark bar to enable this
+    functionality.</p>
+   <p>Livefyre.js Status</p>
+   <p>Once installed, <codeph>Livefyre.js</codeph> Status will appear as a bookmark in your
+    browser.</p>
+   <p>To test your Livefyre library status:</p>
+   <ul id="ul_zht_mxg_xz">
+    <li>Go to a page where Livefyre is integrated (Comments, Reviews, Maps, or other Livefyre
+     Apps).</li>
+    <li>Click on the bookmarklet.</li>
+    <li>A modal will appear displaying the status of your Livefyre library.</li>
+   </ul>
+   <p>If you find that your Livefyre Apps are using the old livefyre.js, please upgrade to the new
+    Livefyre.js using the following upgrade guide.</p>
+  </section>
+  <section id="section_zt3_1hh_xz">
+   <title>Advantages</title>
+   <p>Adding Livefyre.js to your site will not break existing implementations, and can be done
+    slowly, over time, and page by page. Moving toward this implementation provides several
+    advantages, including more streamlined auth integration, faster page loads, and an easier App
+    implementation process.</p>
+   <p>Upgrading to <codeph>Livefyre.js</codeph> and <codeph>Livefyre.require</codeph> also allows
+    for version pinning, greater code clarity, and a lower integration bar for multiple Apps on the
+    page.</p>
+   <ul id="ul_a3t_mxg_xz">
+    <li><b>Version Pinning: </b>Semantic Versioning allows you to pin to major, minor, or patch
+     releases, allowing you to decide when you’re going to upgrade your Livefyre code. This
+     preserves any customizations you might have made, as well as allowing you to avoid unnecessary
+     upgrades.</li>
+    <li><b>Code Clarity: </b>The <codeph>Livefyre.require</codeph> model follows a much more modular
+     design than the previous model, with clearly designated class structure.</li>
+    <li><b>App Access: </b>All new Livefyre Apps will use <codeph>Livefyre.js</codeph>. Many
+     existing Apps, including Media Wall with Auth, Maps, Feed, Sidenotes, and Trending, already
+     require the new <codeph>Livefyre.js</codeph>.</li>
+    <li><b>Ease of App Installation: </b>With <codeph>Livefyre.require</codeph> installed, adding
+     new applications to the page is as easy as including them in the initial require load.</li>
+   </ul>
+  </section>
+  <section id="section_fkr_sgh_xz">
+   <title>More lightweight authentication, with easier integration</title>
+   <p>Using the new Livefyre.js (rather than the older system of livefyre.js) allows you to
+    authenticate across multiple Apps on a page with only a single instance of auth. Livefyre.js
+    Auth provides a centralized authentication integration for all Livefyre Apps across your site,
+    allowing you to add authentication for all Apps on a page with a single call.</p>
+   <p>Add Auth to your site’s template (ie. any <b>global scope</b>) will allow it to cascade to all
+    pages on your site. Once your users have signed in, Auth will automatically broadcast the
+    current user’s information to all Apps on the page.</p>
+  </section>
+  <section id="section_tcb_m2h_xz">
+   <title>Faster page loads, with an increase in performance</title>
+   <p>Adding the <codeph>Livefyre.js</codeph> script to your page will embed a very small (~1 Kb)
+    file called the <codeph>Livefyre.js</codeph> scout, that will load the latest version of
+     <codeph>Livefyre.js</codeph> over the protocol with which your webpage has been accessed (HTTP
+    or HTTPS).</p>
+   <p><codeph>Livefyre.js</codeph> polls for newer versions less frequently than the previous
+    livefyre.js.</p>
+   <p>Because <codeph>Livefyre.require</codeph> pulls in only needed Apps (and not all Core Apps),
+    file footprints shrink dramatically. By including only the Livefyre.js file, you’ll be able to
+    hand pick Apps that will be downloaded and useable on the page.</p>
+  </section>
+  <section id="section_mdy_k2h_xz">
+   <title>Implementation</title>
+   <p><codeph>Livefyre.require </codeph>is a structural change only. Previous Apps, such as Comments
+    and Media Walls are still available. The only difference is they will now be loaded using the
+    Livefyre.require method.</p>
+   <p>Using <codeph>Livefyre.js</codeph>, all Apps are loaded onto the page using the following
+    pattern:</p>
+   <codeblock>Livefyre.require([‘module_name1#version’, ‘module_name2#version’] function(AppName1, AppName2) {
+   new AppName1(args);
+   new AppName2(args);
+});</codeblock>
+  </section>
+  <section id="section_uv1_jch_xz">
+   <title>Examples</title>
+   <p>These examples are included in this GitHub pull request: <xref
+     href="https://github.com/soldnermike/require-upgrade/pull/1" format="html" scope="external"
+     >https://github.com/soldnermike/require-upgrade/pull/1</xref>.</p>
+  </section>
+  <section id="section_as5_fyg_xz">
+   <title>Core Apps (Comments/Blog/Chat)</title>
+   <p>To add a Core App to your page, add <codeph>Livefyre.js</codeph> to the head element of the
+    page:</p>
+   <codeblock>&lt;head>
+   &lt;script src='//cdn.livefyre.com/Livefyre.js'>&lt;/script>
+&lt;/head>
+ 
+// Then use Livefyre.require to add the App:
+Livefyre.require(['fyre.conv#3'], function(Conv) {
+   new Conv(networkConfig, [convConfig], function(widget) {});
+});</codeblock>
+   <p>For an example, see <xref href="http://codepen.io/soldnermike/pen/PwqzpJ" format="html"
+     scope="external">http://codepen.io/soldnermike/pen/PwqzpJ</xref>.</p>
+  </section>
+  <section id="section_g5b_fyg_xz">
+   <title>SDK Apps</title>
+   <p>Livefyre SDK Apps have used <codeph>Livefyre.require</codeph> since their inception. Their
+    migration will not be described here.</p>
+  </section>
+  <section id="section_glz_cyg_xz">
+   <title>Authentication</title>
+   <p>Using <codeph>Livefyre.require </codeph>allows you to add auth a single time in a single
+    global space. Once on the page, all Apps will use the same code to authenticate.</p>
+   <p>To add authentication to your page, add <codeph>Livefyre.js</codeph> to the head element of
+    the page:</p>
+   <codeblock>&lt;head>
+   &lt;script src='//cdn.livefyre.com/Livefyre.js'>&lt;/script>
+&lt;/head> 
+ 
+// Then use Livefyre.require to add auth to the page: 
+Livefyre.require(['auth'], function (auth) {
+   // Do authy things... }); 
+ 
+//Finally, register the authDelegate:
+Livefyre.require(['auth'], function (auth) {
+   auth.delegate({
+      login: function (errback) {
+         errback(null, { livefyre: '&lt;userAuthToken>' });
+      }
+   });
+});</codeblock>
+   <p>For an example, see <xref href="http://codepen.io/soldnermike/pen/QwbEpB" format="html"
+     scope="external">http://codepen.io/soldnermike/pen/QwbEpB</xref>.</p>
+  </section>
+ </conbody>
+</concept>

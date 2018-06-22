@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_build_the_ping_for_pull_response">
+    <title>Build the Ping for Pull Response</title>
+    <shortdesc>Build the pull endpoint to receive and respond to requests for access to your user
+        identity system.</shortdesc>
+    <taskbody>
+        <context> </context>
+        <steps>
+            <step>
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_rn_2018_january_18">
+    <title>January 18, 2018</title>
+    <shortdesc>Release Notes for the January 18, 2018 release.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <table id="table_qty_nhy_4cb">
+            <title>Production Release</title>
+            <tgroup cols="3">
+                <colspec colnum="1" colname="col1"/>
+                <colspec colnum="2" colname="col2"/>
+                <colspec colnum="3" colname="col3"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <b>Issue Type</b>
+                        </entry>
+                        <entry>
+                            <b>Component</b>
+                        </entry>
+                        <entry>
+                            <b>Release Note</b>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Apps</entry>
+                        <entry>Fixed bug that prevented Avatars to be rendered correctly when a jpeg
+                            file was being used.</entry>
+                    </row>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>ModQ</entry>
+                        <entry>Fixed a bug for S1 customers to allow filtering by Collections in
+                            ModQ.</entry>
+                    </row>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Streams</entry>
+                        <entry>Fixed a bug that broke a stream rule when the language filter was set
+                            as "none."</entry>
+                    </row>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Streams</entry>
+                        <entry>Fixed a bug that prevented Youtube stream rules from being
+                            saved.</entry>
+                    </row>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Streams</entry>
+                        <entry>Fixes a bug where users could create wrongfully formatted geo entries
+                            in stream rules and save them, which would make the stream fail. Now,
+                            users can no longer save badly formatted geo tags.</entry>
+                    </row>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Studio</entry>
+                        <entry>Fixed an issue that prevented some users from logging into
+                            Livefyre.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table id="table_cr1_42y_4cb">
+            <title>UAT Release</title>
+            <tgroup cols="3">
+                <colspec colnum="1" colname="col1"/>
+                <colspec colnum="2" colname="col2"/>
+                <colspec colnum="3" colname="col3"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <b>Issue Type</b>
+                        </entry>
+                        <entry>
+                            <b>Component</b>
+                        </entry>
+                        <entry>
+                            <b>Release Note</b>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Library</entry>
+                        <entry>Security bug fix. All authentication calls are now made using the
+                            HTTPS protocol instead of HTTP.</entry>
+                    </row>
+                    <row>
+                        <entry>Enhancement</entry>
+                        <entry>Smart Tags</entry>
+                        <entry>Streamed content is now automatically smart tagged by Adobe Sensei as
+                            it is saved to a folder or published to an app.</entry>
+                    </row>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Streams</entry>
+                        <entry>Fixed an issue where Instagram stream rules did not recognize
+                            Japanese characters.</entry>
+                    </row>
+                    <row>
+                        <entry>Enhancement</entry>
+                        <entry>Streams</entry>
+                        <entry>Customers can now use the logical operators ( ANY, ALL, NOT) to
+                            create detailed smart-tag filters in streams that curate much more
+                            accurate content. For example if I use the hashtag #himalyas I can
+                            select to show only images that include "snowy" "mountains". </entry>
+                    </row>
+                    <row>
+                        <entry>Bug</entry>
+                        <entry>Studio</entry>
+                        <entry>Fix to a bug which showed special characters in names as
+                            HTML.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

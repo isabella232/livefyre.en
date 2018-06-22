@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_moderator_interface">
+  <title>Moderator Interface</title>
+  <shortdesc>Strings available to the user-authenticated moderator interface.</shortdesc>
+  <refbody>
+    <properties id="properties_mx5_vyf_5y">
+      <prophead>
+         <proptypehd>Element</proptypehd> <propvaluehd>Key</propvaluehd>
+      
+        <propdeschd>Default Text</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Confirmation messages from the More menu</proptype>
+        <propvalue>notificationApproved</propvalue>
+        <propdesc>Approved</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>notificationDeleted</propvalue>
+        <propdesc>Deleted</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>notificationFlagged</propvalue>
+        <propdesc>Flagged</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

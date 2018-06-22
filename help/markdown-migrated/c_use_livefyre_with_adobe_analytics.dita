@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_use_livefyre_with_adobe_analytics">
+ <title>Use Livefyre with Adobe Analytics And Dynamic Tag Manager (DTM)</title>
+ <shortdesc></shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+    <p>Set up Adobe Analytics and Dynamic Tag Manager (DTM) to collect data for Livefyre Apps.</p>
+  <section id="section_iks_kgd_4cb">
+   <title>Step 1: Set up Events in Adobe Analytics</title>
+   <p>Map Livefyre events to one or more Custom Success Events in Adobe Analytics Report Suite
+        Manager. </p>
+      <p> For more information on Report Suite Manager, see <xref
+          href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"
+          format="html" scope="external">Report Suite Manager</xref>.</p>
+   <ol id="ol_hdv_lfl_kcb">
+        <li>Log in to Adobe Analytics as an Administrator User.</li>
+    <li>Open Adobe Analytics Admin Report Suite Manager. </li>
+    <li>Create a new Report Suite or choose an existing one.</li>
+    <li>Edit the report suite by clicking on the report suite to modify, then navigate to
+      <uicontrol>Edit Settings > Conversion > Success Events</uicontrol>.</li>
+    <li>Map the Livefyre events to one or more Custom Success Events. For a list of events for
+          Livefyre, see <xref href="c_livefyre_analytics_events.dita#c_livefyre_analytics_events"
+          />.</li>
+   </ol>
+  </section>
+  <section>
+      <title>Step 2: Set up Conversion Variables</title>
+   <p>Map Livefyre conversion variables (eVars) to conversion variables in Adobe Analytics Admin
+        Report Suite Manager. Conversion variables act like a sorting function to determine how you
+        plan to identify data gathered from Livefyre events.</p>
+   <ol id="ol_zpy_2hd_4cb">
+    <li>In the Report Suite Manager click <uicontrol>Edit Settings > Conversion > Conversion
+      Variables</uicontrol>.</li>
+    <li>Choose the custom conversion variables (eVars) to use and map them to the Livefyre
+          conversion variables. For a list of custom conversion variables for Livefyre, see
+          Conversion Variables (eVars) under <xref
+            href="c_livefyre_analytics_events.dita#c_livefyre_analytics_events"/>. To map a Livefyre
+          conversion variable to a custom conversion variable:<ul id="ul_wcc_yck_4cb">
+            <li>Enable the conversion variable</li>
+            <li>Name the conversion variable</li>
+            <li>Give the conversion variable a type</li>
+          </ul></li>
+    <li>Save the custom conversion variables.</li>
+   </ol>
+  </section>
+  <section id="section_t15_2hd_4cb">
+   <title>Step 3: Use DTM to Add your Report Suite with Livefyre Events</title>
+   <p>Add Adobe Analytics to DTM to get Analytics working. To do this, create a new property and
+        tool and add the new report suite with Livefyre events to the property. For more information
+        on DTM, see <xref
+          href="https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html" format="html"
+          scope="external">DTM</xref>.</p>
+      <p>You do not need to perform this step if you already have a property or tool set up for the
+        report suite you set up with Livefyre events.<ol id="ol_ndf_jhd_4cb">
+          <li>In DTM, create or edit an existing property. </li>
+          <li>
+            <p>Create or edit an existing Adobe Analytics tool. </p>
+          </li>
+          <li>
+            <p>If an existing Adobe Analytics Tool does not exist, click the <uicontrol>Add a
+                Tool</uicontrol> button. </p>
+            <p>Set the following parameters for the tool:</p>
+            <ul id="ul_gbf_3qr_mcb">
+              <li>Set <uicontrol>Tool Type</uicontrol> to <uicontrol>Adobe
+                Analytics</uicontrol>.</li>
+              <li>Enable <uicontrol>Automatic Configuration</uicontrol></li>
+              <li>Enable <uicontrol>Authenticate via Marketing Cloud</uicontrol></li>
+            </ul>
+          </li>
+          <li>Add or confirm the name of the report suite with Livefyre events to the
+              <uicontrol>Report Suites</uicontrol> field. </li>
+        </ol></p>
+  </section>
+  <section id="section_jfj_j3d_4cb">
+   <title>Step 4: Set up a Page Load Rule to Set Up Analytics Handling</title>
+   <p>Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you to put custom
+    javascript in the rule that records the event when the page loads. </p>
+   <note>Do not use Event Based Rules or Direct Call Rules.</note>
+   <ol id="ol_tl2_yts_mcb">
+    <li>In DTM, select <uicontrol>Rules</uicontrol> tab.</li>
+    <li>Click <uicontrol>Page Load Rules</uicontrol>.</li>
+    <li>Click on the <uicontrol>Create New Rule</uicontrol> button. </li>
+        <li>Open the <uicontrol>Conditions</uicontrol> section by clicking on the
+            <uicontrol>Plus</uicontrol> button.</li>
+        <li>Trigger the rule. Choose <uicontrol>DOM Ready</uicontrol> or
+            <uicontrol>Onload</uicontrol> trigger types if you want to delay or implement the rule
+          asynchronously. </li>
+        <li>(Optional) Add additional parameters to limit the pages that display Livefyre Apps. For
+          more information about additional configuration options, see <xref
+            href="https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html"
+            format="html" scope="external">DTM</xref>. </li>
+    <li>Under <uicontrol>Javascript/ Third Party Tags</uicontrol>, click the
+            <uicontrol>Non-sequential </uicontrol> tab, then click <uicontrol>Add New
+            Script</uicontrol>.</li>
+        <li>Select <uicontrol>Sequential HTML</uicontrol> as the script type.</li>
+        <li>Add the following script into the code editor and click <uicontrol>Save
+          Code</uicontrol>. <p>The following script calls the <codeph>livefyre_analytics</codeph>
+            direct call rule after the Livefyre JavaScript loads. The following script example
+            checks every 400ms to see if <codeph>livefyre.analytics</codeph> is on the page. After
+            the page loads, livefyre.analytics sends out tracking
+          information.</p><codeblock>/**
+ * Poll for Livefyre.analytics object to exist since it gets loaded via the
+ * Livefyre.js JavaScript file. Depending on the timing, this could already
+ * exist or need a little time.
+ */
+function pollForAnalytics() { 
+  if (Livefyre.analytics) {
+    _satellite.track('livefyre_analytics');
+    return true;
+  }
+  setTimeout(pollForAnalytics, 400);
+}
+
+setTimeout(pollForAnalytics, 400);</codeblock></li>
+        <li>Click <uicontrol>Save Code</uicontrol>.</li>
+    <li>Click <uicontrol>Save Rule</uicontrol>.</li>
+   </ol>
+  </section>
+    <section id="section_gvp_b1g_pdb">
+      <title>Step 5: Create a Direct Call Rule to Construct the Adobe Analytics Mapping
+        Configuration for Livefyre</title>
+      <p> There are other ways to implement Livefyre with DTM by using custom events, Adobe
+        Analytics UI fields within DTM, and data elements. This document uses custom Javascript to
+        accomplish the same effect.</p>
+      <ol id="ol_ehd_f1g_pdb">
+        <li>In DTM select the <b>Rules</b> tab and then click on <b>Direct Call Rules</b>.</li>
+        <li>Click on the <b>Create New Rule</b> button.</li>
+        <li>Name the new rule <b>Livefyre Analytics</b></li>
+        <li>Expand the <b>conditions</b> configuration area</li>
+        <li>In the <b>String</b> field, enter <codeph>livefyre_analytics</codeph>.</li>
+        <li>Expand the Javascript / 3rd Party Tag section and click on the <b>Add New Script</b>
+          button.</li>
+        <li>Enter <b>Livefyre Analytics Config</b> into the <b>Tag Name</b> input box.</li>
+        <li>Select <b>Non-Sequential Javascript</b>.</li>
+        <li>Enter the following Livefyre configuration code into the code editor and click on the
+            <b>Save Code</b> button.
+          <codeblock>var s = _satellite.getToolsByType('sc')[0].getS();
+
+var evarMap = { 
+  appId: 'eVar81', 
+  appType: 'eVar82'
+};
+
+var eventMap = {
+  FlagCancel: 'event82', 
+  FlagClick: 'event82', 
+  FlagDisagree: 'event82', 
+  FlagOffensive: 'event82', 
+  FlagOffTopic: 'event82', 
+  FlagSpam: 'event82', 
+  Like: 'event82',
+  Load: 'event81', 
+  RequestMore: 'event82', 
+  ShareButtonClick: 'event82', 
+  ShareFacebook: 'event82', 
+  ShareOnPostClick: 'event82', 
+  ShareTwitter: 'event82', 
+  ShareURL: 'event82', 
+  SortStream: 'event82', 
+  TwitterLikeClick: 'event82',
+  TwitterReplyClick: 'event82', 
+  TwitterRetweetClick: 'event82', 
+  TwitterUserFollow: 'event82'
+};
+</codeblock><codeblock>function trackLivefyreEvent(data) { 
+  var event = eventMap[data.type];
+  console.log('Track:', data.type, event);
+  
+  if (!event) {
+    console.warn(data.type, 'is not mapped to an event in AA'); 
+    return;
+  }
+  var vars = ['events']; 
+  switch (event) {
+    case 'event82': s.eVar83 = data.type; 
+      vars.push('eVar83'); 
+      break;
+    default:
+  }
+  ['generator', 'evars'].forEach(function (type) { 
+    var obj = data[type];
+    for (var d in obj) {
+      if (obj.hasOwnProperty(d) &amp;&amp; evarMap[d]) { 
+        s[evarMap[d]] = obj[d]; 
+        vars.push(evarMap[d]);
+      }
+    }
+  });
+  s.linkTrackVars = vars.join(','); 
+  s.linkTrackEvents = event; 
+  s.events = event;
+  
+  console.log('linkTrackVars:', s.linkTrackVars); 
+  console.log('linkTrackEvents:', s.linkTrackEvents); 
+  console.log('events:', s.events);
+  s.tl();
+}
+
+/**
+ * Adds an analytics handler for all analytics events from Livefyre. For each
+ * event, it sets the data on a global object and then dispatches the event.
+ */
+function addAnalyticsHandler() { 
+  Livefyre.analytics.addHandler(function (events) {
+    (events || []).forEach(function (data) { 
+      console.log('Event handled:', data.type); 
+      trackLivefyreEvent(data);
+    });
+  });
+}
+addAnalyticsHandler();
+</codeblock></li>
+        <li>Click on <b>Save Rule</b>.</li>
+      </ol>
+    </section>
+    <section id="section_pxc_11t_ycb">
+      <title>Step 6: Approve changes for Page Load Rule</title>
+      <ol id="ol_jyz_11t_ycb">
+        <li>Go to <uicontrol>Approvals</uicontrol> tab.</li>
+        <li>Click <uicontrol>Approve</uicontrol>.</li>
+        <li>Click <uicontrol>Yes, approve</uicontrol> to confirm your approval.</li>
+        <li>Go to <uicontrol>Overview > Publish Queue</uicontrol>.</li>
+        <li>Select the Rule to publish.</li>
+        <li>Click <uicontrol>Publish Selected</uicontrol>.</li>
+        <li>Click <uicontrol>Publish</uicontrol> to confirm that you want to publish.</li>
+      </ol>
+    </section>
+  <section id="section_xkb_vft_mcb">
+   <title>Script</title>
+      <p>The following sample code maps the specific eVars to available Livefyre eVars. The Livefyre
+        conversion variable (<codeph>eVar</codeph>) name (for example, <codeph>appId</codeph>) maps
+        to the name you set up in the Report Suite Manager (for example, <codeph>eVar81</codeph>).
+        Change the <codeph>eVar</codeph> names in this script to the custom conversion variables
+        that were set up in <xref href="#c_use_livefyre_with_adobe_analytics/section_iks_kgd_4cb"
+          format="dita"/>.</p>
+      <codeblock>var s = _satellite.getToolsByType('sc')[0].getS();
+
+var evarMap = {
+  appId: 'eVar81',
+  appType: 'eVar82'
+};</codeblock>
+      <p>The following sample code maps the specific events you set up in the Report Suite Manager
+        with available Livefyre events. In this example, <codeph>event82</codeph> is set up as any
+        user interaction event without differentiating which kind of user interaction event (for
+        example, liking or sharing content). This is an efficient way to record all user interaction
+        information in a block. You can also map the events in the DTM Analytics UI with Data
+        Element referencing.</p>
+      <codeblock>var eventMap = {
+  FlagCancel: 'event82', 
+  FlagClick: 'event82', 
+  FlagDisagree: 'event82', 
+  FlagOffensive: 'event82', 
+  FlagOffTopic: 'event82', 
+  FlagSpam: 'event82', 
+  Like: 'event82',
+  Load: 'event81', 
+  RequestMore: 'event82', 
+  ShareButtonClick: 'event82', 
+  ShareFacebook: 'event82', 
+  ShareOnPostClick: 'event82', 
+  ShareTwitter: 'event82', 
+  ShareURL: 'event82', 
+  SortStream: 'event82', 
+  TwitterLikeClick: 'event82',
+  TwitterReplyClick: 'event82', 
+  TwitterRetweetClick: 'event82', 
+  TwitterUserFollow: 'event82'
+};</codeblock>
+      <p>The following sample states that if there isn't an event in this list, don't do anything.
+        You do not need to modify this section of code.</p>
+      <codeblock>function trackLivefyreEvent(data) { 
+  var event = eventMap[data.type];
+  console.log('Track:', data.type, event);
+  
+  if (!event) {
+    console.warn(data.type, 'is not mapped to an event in AA'); 
+    return;
+  }</codeblock>
+      <p>The following code differentiates the event types that <codeph>event82</codeph> records.
+        The conversion variable, <codeph>eVar83</codeph> records the type of user interaction, and
+        the script sets up <codeph>eVar83</codeph> to separate the user interaction data by type. So
+          <codeph>eVar83</codeph> allows you to break out the recorded data into specific types of
+        user interactions.</p>
+      <codeblock>  var vars = ['events']; 
+  switch (event) {
+    case 'event82': s.eVar83 = data.type; 
+      vars.push('eVar83'); 
+      break;
+    default:
+  }
+  
+  ['generator', 'evars'].forEach(function (type) { 
+    var obj = data[type];
+    for (var d in obj) {
+      if (obj.hasOwnProperty(d) &amp;&amp; evarMap[d]) { 
+        s[evarMap[d]] = obj[d]; 
+        vars.push(evarMap[d]);
+      }
+    }
+  });
+  
+  s.linkTrackVars = vars.join(','); 
+  s.linkTrackEvents = event; 
+  s.events = event;
+  
+  console.log('linkTrackVars:', s.linkTrackVars); 
+  console.log('linkTrackEvents:', s.linkTrackEvents); 
+  console.log('events:', s.events);
+  
+  s.tl();
+}</codeblock>
+   <p>The following code sample adds a handler to listen to all the events that happen. It uses the
+        page load rule on load, waits for events to exist, then sets up handler for all events from
+        the App and tracks them. You do not need to modify this code. </p>
+   <codeblock>/**
+ * Adds an analytics handler for all analytics events from Livefyre. For each
+ * event, it sets the data on a global object and then dispatches the event.
+ */
+function addAnalyticsHandler() {
+  Livefyre.analytics.addHandler(function (events) {
+    (events || []).forEach(function (data) {
+      console.log('Event handled:', data.type);
+      trackLivefyreEvent(data);
+    });
+  });
+}</codeblock>
+  </section>
+  <section>
+   <title>More Info</title>
+   <p>For more information on the topics discussed on this page, see:</p>
+   <ul id="ul_rpj_jls_mcb">
+    <li><xref
+            href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"
+            format="html" scope="external">Report Suite Manager</xref></li>
+        <li>
+          <p><xref href="https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html"
+              format="html" scope="external">DTM</xref></p>
+        </li>
+    <li><xref href="https://marketing.adobe.com/resources/help/en_US/dtm/rules.html" format="html"
+      scope="external">Rules</xref></li>
+    <li>
+     <p><xref href="c_reference_livefyre.js_comp.dita#topic_hcz_ppx_2cb"/></p>
+    </li>
+   </ul>
+  </section>
+ </conbody>
+</concept>

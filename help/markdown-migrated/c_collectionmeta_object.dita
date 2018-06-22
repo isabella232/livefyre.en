@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_collectionmeta_object">
+ <title>CollectionMeta Object</title>
+ <shortdesc>The <codeph>CollectionMeta</codeph> object is a JSON object that specifies metadata to
+  store within the Collection.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>
+   <codeph>CollectionMeta</codeph> is always encoded before being passed to Livefyre for security.
+   The encoded value is passed into the <codeph>ConvConfig</codeph> object shown above.</p>
+  <note>You must add server-side code to encode the <codeph>CollectionMeta</codeph> JSON object. See
+   <!--HRK 4/11/17 need links-->Building Server-side Tokens for more information.</note>
+  <table frame="all" rowsep="1" colsep="1" id="table_ibg_xc5_nz">
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Parameter</entry>
+      <entry>Type</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><varname>articleId</varname></entry>
+      <entry>String (required)</entry>
+      <entry>A unique ID for the Collection.</entry>
+     </row>
+     <row>
+      <entry><varname>title</varname></entry>
+      <entry>String (required) </entry>
+      <entry>
+       <p>The title you wish to apply to the Collection. This often corresponds to the title of the
+        page that displays the App.</p>
+       <p>For example: “Integration is So Much Fun!”</p>
+       <note>The max character length for the title is 255 characters. The title field does not
+        support HTML entities. Please encode special characters using UTF-8.</note>
+      </entry>
+     </row>
+     <row>
+      <entry><varname>url</varname></entry>
+      <entry>String (required)</entry>
+      <entry>
+       <p>The canonical absolute URL you wish to attach to this Collection. This URL will be used to
+        generate links back to the App from content shared on Facebook and Twitter, email
+        notifications, and Livefyre Studio.</p>
+       <note>Livefyre requires the use of a fully qualified domain name; the port number or a
+        callback to resolve the local setup is not required. If testing locally, be certain to use a
+        valid base URL domain. (For example: http://customer.com is valid, while
+        http://localhost:5995 is not.) Once you have set up your local webserver to accept a fully
+        qualified domain name, no callbacks or resolutions are needed, and local development can
+        proceed as expected.</note>
+      </entry>
+     </row>
+     <row>
+      <entry><varname>type</varname></entry>
+      <entry>String (required)</entry>
+      <entry>The Collection type. Must be <codeph>livechat</codeph>.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>The <codeph>CollectionMeta</codeph> object may also contain the following optional
+   parameter:</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_ixr_4d5_nz">
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Parameter</entry>
+      <entry>Type</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><varname>tags</varname></entry>
+      <entry>(optional) string</entry>
+      <entry>A comma-separated list of single keywords or phrases. Search Collections by tags within
+       Studio or with the search API.<b>Note: </b>While tags added through Studio may contain
+       spaces, tags entered through the API cannot. Use underscores to define tags that will display
+       spaces in the UI. (For example: use Monday_Quarterback to display Monday Quarterback in
+       Studio.) </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

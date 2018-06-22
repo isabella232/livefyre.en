@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_filter_search_by_tag">
+    <title>Filter Search by Collection or Content tag</title>
+    <shortdesc>Filter content searches in Studio by Collection tag.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Select <uicontrol>Tag</uicontrol> in the search dropdown of the
+                        <uicontrol>Collections</uicontrol> panel.</cmd>
+            </step>
+            <step>
+                <cmd>Entering the tag for your search or click on the <uicontrol>Tag</uicontrol>
+                    listed under a Collection.</cmd>
+                <stepresult>All Collections with the selected Tag will be displayed in the
+                    list.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

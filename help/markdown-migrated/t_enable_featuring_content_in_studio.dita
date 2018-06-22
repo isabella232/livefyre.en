@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enable_featuring_content_in_studio">
+    <title>Enable Featuring Content in Studio</title>
+    <shortdesc>To feature content, you must first enable the <uicontrol>Enable Featured
+            Comments</uicontrol> setting in Studio.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Go to <uicontrol>Studio > Settings > Network Settings > Default
+                        Settings</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Toggle the <uicontrol>Enable Featured Comments</uicontrol> setting to allow you
+                    to highlight recently featured comments above the editor.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

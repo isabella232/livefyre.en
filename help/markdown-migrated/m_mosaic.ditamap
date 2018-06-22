@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Mosaic</title>
+ <topicref href="c_mosaic.dita"/>
+ <topicref href="t_embed_a_mosaic.dita"/>
+</map>

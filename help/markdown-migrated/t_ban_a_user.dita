@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_ban_a_user">
+    <title>Ban a User</title>
+    <shortdesc>You can ban users inline from your Livefyre Apps, and users logged in through
+        Livefyre may be banned from Studio’s <uicontrol>Library > App Content</uicontrol> page. </shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><image href="images/UsersBan2-1024x409.png" id="image_pfd_tfr_vdb"/><p>To ban a
+                user from the Users page: </p></context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>+Add</uicontrol> for <uicontrol>Bans</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>A popup will appear that allows you to ban the user from the entire network, or
+                    from a specific site. (Use the CTR or Command key to select multiple
+                    sites.)</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Remove this user’s comments</uicontrol> to ban the user, Bozo
+                    any previous posts, and remove them from the stream. Leave this box unchecked to
+                    Bozo only future posts from the banned user.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Ban</uicontrol> to complete the process.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

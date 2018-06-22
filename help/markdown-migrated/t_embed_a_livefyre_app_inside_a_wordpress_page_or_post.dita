@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_embed_a_livefyre_app_inside_a_wordpress_page_or_post">
+    <title>Embed a Livefyre App Inside a Wordpress Page or Post</title>
+    <shortdesc/>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Create an App in Livefyre.</cmd>
+            </step>
+            <step>
+                <cmd>In Livefyre, click on the App to embed in your WordPress page or post.</cmd>
+            </step>
+            <step>
+                <cmd>Find the App ID of the App.</cmd>
+            </step>
+            <step>
+                <cmd>In WordPress, enter the following shortcode, replacing appID with the App
+                    ID:</cmd>
+                <info><codeph>[livefyre_designer app_id=”appID”]</codeph></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

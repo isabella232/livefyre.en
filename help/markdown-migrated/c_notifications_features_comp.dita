@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_notifications_features">
+    <title>Notifications Features</title>
+    <shortdesc>You can set up several different types of notifications for site visitors and
+      Livefyre Moderators to use to interact with the end user.</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody>
+      <draft-comment author="ind14750" otherprops="merge">c_notifications_features.dita</draft-comment>
+      <p>On this page:<ul id="ul_uyx_rff_kcb"><li><xref href="#c_comment_notifier" format="dita" /></li><li><xref href="#c_email_notifications" format="dita" /></li><li><xref href="#c_email_notifications/section_jxb_c5k_yy" format="dita" /></li><li><xref href="#t_set_up_network_email" format="dita" /></li></ul></p>
+    </conbody>
+    <concept id="c_comment_notifier">
+      <title>Comment Notifier</title>
+      <shortdesc>Allows you to enable a small popup on the page to notify users when a comment has
+        been added.</shortdesc>
+      <conbody>
+        <draft-comment author="ind14750" otherprops="merge">c_comment_notifier.dita</draft-comment>
+        <p>The Comment Notifier is a small popup at the bottom right of the page, that notifies
+          users on the page of new activity in the stream by displaying the first few words of the
+          comment with the Avatar for its author. (Notifiers are not available for Top Comments, Hot
+          Threads, or Queued Comments.)</p>
+        <section id="section_ut2_lvx_vy">
+          <title>Comment Notifier Features</title>
+          <p>The comment notifier increases user engagement by surfacing activity happening on the
+            page, no matter where on the page the user is currently engaged, encouraging them to
+            click on new comments, and respond.</p>
+          <p>The notifier includes a preview of the latest comment, and the user’s avatar to the
+            left of text. The total count of new comments is displayed in the toolbar underneath,
+            and this number increments with more posts in the stream. If there are 2 or more new
+            comments above or below the user’s current view of the stream, a scroll bar will appear
+            within the notifier, allowing the user to scroll and view snippets of all other new
+            comments.</p>
+          <p>Click the preview of a new comment to jump to the location of that comment in the
+            stream. Click the number of new comments to expand the pane to show a preview of each
+            unread comment.</p>
+          <p>The notifier disappears after all new comments have been viewed, and reappears when a
+            new comment appears above or below the user’s current view of the stream.</p>
+        </section>
+        <section id="section_cmy_cvx_vy">
+          <title>Hiding the Comment Notifier</title>
+          <p>Click the <uicontrol>x</uicontrol> in the right corner of the <uicontrol>New
+              Comments</uicontrol> bar to close the notifier for the page. Refresh the page, and the
+            notifier will reappear.</p>
+          <p>Hide the notifier widget across your entire network using CSS Customizations.</p>
+          <note>The comment notifier is not available on mobile devices.</note>
+        </section>
+        <section id="section_blk_ccj_h1b">
+          <p>Apps that use this feature:</p>
+          <ul id="ul_qzp_ccj_h1b">
+            <li>
+              <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+            </li>
+          </ul>
+        </section>
+      </conbody>
+    </concept>
+    <concept id="c_email_notifications">
+      <title>Email Notifications</title>
+      <shortdesc>Allow users to select their notification frequency and content.</shortdesc>
+      <conbody>
+        <draft-comment author="ind14750" otherprops="merge">c_email_notifications.dita</draft-comment>
+        <p>
+          <b>Enable email notifications for your users and moderators.</b>
+        </p>
+        <p>Livefyre Apps allow you to enable email notifications for your users and moderators,
+          based on specific actions. Notifications are based upon the time when content is posted to
+          the stream, allowing your users to remain engaged in conversations that they care about,
+          and to be notified when someone likes or replies to one of their comments.</p>
+        <p>Users and Moderators may opt in or out of email notification, and may set the frequency
+          with which emails are received. This section describes how to configure and customize
+          these email notifications.</p>
+        <ul id="ul_k1c_qzj_yy">
+          <li>User Email Options: available user notification options.</li>
+          <li>Moderator Email Options: available moderator notification options.</li>
+          <li>Livefyre Identity Emails Options: emails sent as part of Livefyre Identity. These
+            emails are only relevant for Livefyre Identity Customers. </li>
+          <li>Data Sync with Livefyre: maintaining preferences sync with Livefyre.</li>
+          <li>Customizing Emails: available email customizations.</li>
+        </ul>
+        <p>Use the Settings &gt; Integration Settings &gt; Email Notification Setup options to customize
+          email notifications for your network.</p>
+        <note>To ensure that your end users do not receive unintended mail, no email notifications
+          are sent from the Livefyre UAT environment.</note>
+        <p>
+          <b>User Email Options</b>
+        </p>
+        <p>Livefyre allows you to enable users to receive email notifications of site activity. Use
+          the Livefyre-provided User Profile integration settings to allow users to select their
+          preferences for notification schedules.</p>
+        <note>Emails are sent only for content posted manually into the stream, and not for content
+          pulled from SocialSync or Curate.</note>
+        <p>To allow users to set their notification preferences, include an Email Notification
+          section in the User Settings for your user profile system. Add the corresponding fields to
+          your user profile database schema, then manage your user settings using Ping for Pull.
+          (Work with your Technical Integration Manager to define default frequencies for your
+          network. If you are an Enterprise Profiles customer, pass your selected defaults to your
+          Livefyre delivery team for configuration in the Livefyre database.)</p>
+        <p>Users on your site can then follow a conversation and begin receiving email notifications
+          by clicking the <uicontrol>+Follow</uicontrol> button on the comment editor. Notification
+          preferences are defined at the Livefyre network level. Any user settings will apply to all
+          sites and conversations across your network.</p>
+        <p>
+          <b>Recommended Defaults</b>
+        </p>
+        <ul id="ul_l1c_qzj_yy">
+          <li>Someone comments in a conversation I’m following: <b>hourly digest</b></li>
+          <li>Someone likes one of my comments: <b>hourly digest</b></li>
+          <li>Someone replies to one of my comments: <b>immediately</b></li>
+          <li>Auto-follow conversations when I leave a comment: <b>off</b> (unchecked)</li>
+        </ul>
+        <p>
+          <b>Note</b>: Email notifications are based upon the time content is approved for
+          inclusion in the stream.</p>
+        <p>Livefyre offers two email frequency options:</p>
+        <ul id="ul_m1c_qzj_yy">
+          <li>Immediately</li>
+          <li>Hourly Digest</li>
+        </ul>
+        <p>
+          <b>Immediately</b>
+        </p>
+        <p>Emails sent immediately display the post’s text, article title, author’s username, and a
+            <b>Reply</b> link which takes the user to the content on the page. These emails also
+          include an <b>unsubscribe</b> link in the footer, allowing users to unsubscribe from email
+          notifications for that Collection. Clicking <b>unsubscribe </b>will take them to a
+          confirmation page letting them know that they have been unsubscribed from the
+          Collection.</p>
+        <p>
+          <b>Hourly Digest</b>
+        </p>
+        <p>Emails sent in an hourly digest display all content, replies to content, and likes on the
+          content within the last hour (or so) per Collection that the user is following. If the
+          user is following multiple Collections across your network, they will receive one digest
+          email for each Collection.</p>
+        <note>In conversations without new content for more than several hours, users with hourly
+          digest enabled will receive notice immediately upon a new content post.</note>
+        <p>
+          <b>Moderator Email Options</b>
+        </p>
+        <p>Moderators can opt in to receive emails for content posted in a Collection they are
+          following, and for comments flagged Spam or Offensive in a Collection they are moderating.
+            <b>Note: </b>No emails will be sent when users flag a comment with Disagree or
+          Off-Topic, as these categories are not deemed important for moderator notification.</p>
+        <p>The moderator_comments and moderator_flags fields should also be added to your moderator
+          user profile settings page database schema to allow your moderators to update the
+          frequency of their email notifications, and opt out if they wish. Livefyre recommends that
+          you set these two moderator email notification fields to <b>never</b>. Options include
+            <b>never</b> (default), <b>immediately</b>, and <b>often</b>.</p>
+        <p>
+          <b>Moderator Email (flagged content): </b>
+        </p>
+        <p>When content is flagged in a moderated Collection, the email sent to the moderator will
+          display the content that was flagged, the username who flagged the content, and a link
+          back to the content page.</p>
+        <p>When a user changes their email notification preferences on your site in your profile
+          system, sync the update to the Livefyre remote profile system using Livefyre’s Ping for
+          Pull.</p>
+        <p>
+          <b>Data Sync with Livefyre</b>
+        </p>
+        <section id="section_jxb_c5k_yy">
+          <title>Customizing Emails</title>
+          <p>Several fields in the email notification templates may be changed to fit your style and
+            brand.</p>
+          <ul id="ul_vnv_g5k_yy">
+            <li>
+              <p>
+                <uicontrol>From Email Address</uicontrol>
+              </p>
+              <p>The “from email address” for all email notifications may be customized to be
+                consistent with your brand. Livefyre recommends <b>noreply@customerdomain.com</b>,
+                replacing <b>customerdomain</b>with your domain name. (The default is
+                  <b>noreply@livefyre.com</b>.) Please pass your preferred “from email address” to
+                your Technical Integration Manager for configuration in the Livefyre database for
+                your network.</p>
+              <note>Leave this field blank to disable email notifications for your network</note>
+            </li>
+            <li>
+              <p>
+                <uicontrol>Email Logo</uicontrol>
+              </p>
+              <p>The logo displayed in email notifications may be customized to display your company
+                logo, rather than the default Livefyre logo, using the Branding tab of the
+                  <b>Network Settings</b> page of Studio. This customization is available only at
+                the network level, not the site level, and is available only for paid Livefyre
+                customers.</p>
+            </li>
+            <li>
+              <p>
+                <uicontrol>Custom Templates</uicontrol>
+              </p>
+              <p>It is possible to implement a fully customized email template if you wish. However,
+                this will require some development effort and may incur professional services costs.
+                Please contact your Account Manager for details.</p>
+            </li>
+          </ul>
+        </section>
+        <section id="section_blk_ccj_h1b">
+          <p>Apps that use this feature:</p>
+          <ul id="ul_qzp_ccj_h1b">
+            <li>
+              <xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref>
+            </li>
+            <li>
+              <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+            </li>
+            <li>
+              <xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref>
+            </li>
+            <li>
+              <xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref>
+            </li>
+            <li>
+              <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+            </li>
+          </ul>
+        </section>
+      </conbody>
+    </concept>
+    <task id="t_set_up_network_email">
+      <title>Set up Network Email</title>
+      <shortdesc>Customize available email notification fields.</shortdesc>
+      <taskbody>
+        <context id="context_bjz_4lk_mbb">
+          <draft-comment author="ind14750" otherprops="merge">t_set_up_network_email.dita</draft-comment>
+          <p>
+            <b>Email Notification Setup</b>
+          </p>
+          <ul id="ul_y4b_rrk_yy">
+            <li />
+            <li>
+              <b>Logo for Email: </b>select the file that will be used as the logo in customer
+              email notifications.</li>
+            <li>
+              <b>Email From: </b>enter the email address that will appear in the From field.
+                (<b>Note: </b>If this field is blank, no email notifications will be sent.)</li>
+            <li>
+              <b>Email Display Name: </b>enter the name that will appear in place of your email
+              address in comment email notifications.</li>
+          </ul>
+        </context>
+      </taskbody>
+    </task>
+  </concept>
+</dita>

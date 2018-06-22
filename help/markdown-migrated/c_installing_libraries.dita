@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_installing_libraries">
+    <title>Installation</title>
+    <shortdesc>Installing the libraries for Livefyre server-side tasks</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager"/>
+      </metadata>
+    </prolog>
+    <conbody>
+      <draft-comment author="ind14750" otherprops="merge">c_installing_libraries.dita</draft-comment>
+      <section id="section_yd3_3zk_rz">
+        <title>Java</title>
+        <p>To install the Java library, add this dependency to your project’s POM:</p>
+        <codeblock>&lt;dependency&gt;
+   &lt;groupId&gt;com.livefyre&lt;/groupId&gt;
+   &lt;artifactId&gt;livefyre&lt;/artifactId&gt;
+   &lt;version&gt;2.0.3&lt;/version&gt;
+&lt;/dependency&gt;</codeblock>
+        <p>The Java library has dependencies on the following modules:</p>
+        <codeblock>&lt;dependency&gt;
+   &lt;groupId&gt;com.sun.jersey&lt;/groupId&gt;
+   &lt;artifactId&gt;jersey-client&lt;/artifactId&gt;
+   &lt;version&gt;[1.18.1,)&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+   &lt;groupId&gt;com.google.code.gson&lt;/groupId&gt;
+   &lt;artifactId&gt;gson&lt;/artifactId&gt;
+   &lt;version&gt;[2.3,)&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+   &lt;groupId&gt;com.google.guava&lt;/groupId&gt;
+   &lt;artifactId&gt;guava&lt;/artifactId&gt;
+   &lt;version&gt;[18.0,)&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+   &lt;groupId&gt;org.apache.commons&lt;/groupId&gt;
+   &lt;artifactId&gt;commons-lang3&lt;/artifactId&gt;
+   &lt;version&gt;[3.0.1,)&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+   &lt;groupId&gt;org.bitbucket.b_c&lt;/groupId&gt;
+   &lt;artifactId&gt;jose4j&lt;/artifactId&gt;
+   &lt;version&gt;[0.4.1,)&lt;/version&gt;
+&lt;/dependency&gt;
+</codeblock>
+      </section>
+      <section id="section_rlh_qys_kbb">
+        <p>For more information, read the Java docs or see the source on <xref href="https://github.com/Livefyre/livefyre-java-utils" format="html" scope="external">GitHub</xref>.</p>
+      </section>
+      <section id="section_swj_pwq_rz">
+        <title>NodeJS</title>
+        <p>To install the NodeJS library, run this line:</p>
+        <codeblock>$ npm install livefyre
+</codeblock>
+        <p>The NodeJS library has dependencies on the following modules:</p>
+        <codeblock>"restler":"&gt;=3.2.0",
+"validator":"=3.5.0",
+"jsonwebtoken": "&gt;=5.0.0"
+</codeblock>
+        <p>For more information, read the NodeJs docs or see the source on <xref href="https://github.com/Livefyre/livefyre-nodejs-utils" format="html" scope="external">GitHub</xref>.</p>
+        <p>Links: <xref href="https://github.com/danwrong/restler" format="html" scope="external">Restler</xref>, <xref href="https://www.npmjs.org/package/validator" format="html" scope="external">Validator</xref>, <xref href="https://github.com/auth0/node-jsonwebtoken" format="html" scope="external">jsonwebtoken</xref>.</p>
+      </section>
+      <section id="section_txj_xwq_rz">
+        <title>PHP</title>
+        <p>To install the PHP library with Composer, add this to your composer.json:</p>
+        <codeblock>
+"require": {
+   "livefyre/livefyre-php-utils": "2.0.4"
+}</codeblock>
+        <p>Then install using:</p>
+        <codeblock>
+composer.phar install
+</codeblock>
+        <p>If you do <b>not</b> use Composer, obtain the latest version of the library using:</p>
+        <codeblock>git clone https://github.com/Livefyre/livefyre-php-utils
+</codeblock>
+        <p>To use the library, add the following to your PHP script:</p>
+        <codeblock>require_once("/path/to/livefyre-php-utils/src/Livefyre.php");
+</codeblock>
+        <p>The PHP library has dependencies on the following modules:</p>
+        <codeblock>"ext-json": "*",
+"rmccue/requests": "&gt;=1.0"
+"firebase/php-jwt": "&gt;=2.0"
+</codeblock>
+        <p>For more information, read the PHP docs or see the source on <xref href="https://github.com/Livefyre/livefyre-php-utils" format="html" scope="external">GitHub</xref>.</p>
+        <p>Links: <xref href="https://php.net/manual/en/book.json.php" format="html" scope="external">ext-json</xref>, <xref href="https://github.com/rmccue/Requests/" format="html" scope="external">Requests</xref>, <xref href="https://github.com/firebase/php-jwt/tree/v2.0.0" format="html" scope="external">PHP-JWT</xref></p>
+      </section>
+      <section id="section_irk_fxq_rz">
+        <title>Python</title>
+        <p>To install the Python library, run this line:</p>
+        <codeblock>$ pip install livefyre
+</codeblock>
+        <p></p>
+        <p>The Python library has dependencies on the following modules:</p>
+        <codeblock>PyJWT &gt;= 1.0.1 
+requests &gt;= 2.2.1 
+python-dateutil &gt;= 2.2 
+enum34 == 1.0 
+ordereddict == 1.1 if sys.version_info[:2] &lt; 2.7
+</codeblock>
+        <p>For more information, read the Python docs or see the source on <xref href="https://github.com/Livefyre/livefyre-python-utils" format="html" scope="external">GitHub</xref>.</p>
+        <p>Links: <xref href="https://github.com/progrium/pyjwt" format="html" scope="external">PyJWT</xref>, <xref href="https://github.com/kennethreitz/requests" format="html" scope="external">Requests</xref>, <xref href="https://pypi.python.org/pypi/python-dateutil" format="html" scope="external">Python-Dateutil</xref>, <xref href="https://pypi.python.org/pypi/enum34" format="html" scope="external">Enum34</xref>, <xref href="https://pypi.python.org/pypi/ordereddict" format="html" scope="external">OrderedDict</xref></p>
+      </section>
+      <section id="section_fv2_tzq_rz">
+        <title>Ruby</title>
+        <p>To install the Ruby library, add this line to your application’s Gemfile:</p>
+        <codeblock>
+gem 'livefyre'
+</codeblock>
+        <p>Or install it yourself:</p>
+        <codeblock>$ gem install livefyre
+</codeblock>
+        <p></p>
+        <p>The Ruby library has dependencies on the following modules:</p>
+        <codeblock>"jwt", '~&gt; 1.4', "&gt;= 1.4.1" 
+"rest-client", '~&gt; 1.8', "&gt;= 1.8.0" 
+"addressable", '~&gt; 2.3', "&gt;= 2.3.6"
+</codeblock>
+        <p>For more information, read the Ruby docs or see the source on <xref href="https://github.com/Livefyre/livefyre-ruby-utils" format="html" scope="external">GitHub</xref>.</p>
+        <p>Links: <xref href="https://github.com/firebase/php-jwt/tree/v2.0.0" format="html" scope="external">Ruby JWT</xref>, <xref href="https://github.com/rest-client/rest-client/" format="html" scope="external">REST
+            Client</xref>, <xref href="https://github.com/sporkmonger/addressable" format="html" scope="external">Addressable</xref></p>
+      </section>
+    </conbody>
+  </concept>
+</dita>

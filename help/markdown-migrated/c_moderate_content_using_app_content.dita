@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_moderate_content_using_app_content">
+    <title>Moderate Content using App Content</title>
+    <shortdesc>The App Content tab in your Library allows you to moderate content published across
+        your Apps. </shortdesc>
+    <conbody>
+        <section id="section_md5_sqm_zz"><title>Moderate Content</title><p>Use the App Content panel
+                to moderate listed content, by changing its status, changing the status of its
+                author, or adding a note. To moderate content, mouse over listed content to change
+                available markers, or use the <uicontrol>pulldown</uicontrol> menu to change status
+                for individual or multiple selected content.</p><image
+                href="images/PublishedActionsMenu-1024x402.png" id="image_rgf_xvm_rdb"/><p>In App
+                content you can:</p><ul id="ul_rr3_sxr_rdb">
+                <li>Tag Content. Select <uicontrol>Tag Content</uicontrol> to add tags to individual
+                    or multiple pieces of content simultaneously.</li>
+                <li>Ignore Flags. Select <uicontrol>Ignore Flags</uicontrol> to exclude selected
+                    content from the flagged search filter results. Selecting <uicontrol>Ignore
+                        Flags</uicontrol> for an item does not change its status; it simply removes
+                    it from the search results for this search filter going forward, for all Studio
+                    users.</li>
+                <li>Change Content Status. Click a piece of content, then use the
+                        <uicontrol>Actions</uicontrol> menu to change its status. (Use the Command
+                    or Control key to select multiple items, then use the menu to change the status
+                    for multiple pieces of content simultaneously.)<p>Options vary according to the
+                        current state of the listed content.</p><table id="table_fmz_34g_zz">
+                        <tgroup cols="2">
+                            <colspec colnum="1" colname="col1"/>
+                            <colspec colnum="2" colname="col2"/>
+                            <thead>
+                                <row>
+                                    <entry>Current State</entry>
+                                    <entry>May be Changed to</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>Approved</entry>
+                                    <entry>Pending, Trash, Bozo</entry>
+                                </row>
+                                <row>
+                                    <entry>Bozo</entry>
+                                    <entry>Approved, Pending, Trash</entry>
+                                </row>
+                                <row>
+                                    <entry>Trash</entry>
+                                    <entry>Approved, Pending, Bozo, Delete</entry>
+                                </row>
+                                <row>
+                                    <entry>Pending</entry>
+                                    <entry>Approved, Trash, Bozo</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table></li>
+                <li>Save as Assets. Select Save as Assets to open the Advanced Options dialog, from
+                    which you may save the selected item(s) to your Asset Library, Publish it to an
+                    App, or request reuse rights from its author.</li>
+            </ul></section>
+        <section id="section_i2s_nqm_zz"><title>Moderate Sidenotes Content</title><p>Working with
+                Sidenotes in the Content panel differs from working with other types of content in
+                several ways:</p><ul id="ul_gmz_34g_zz">
+                <li>The More Info, Replies, Flags &amp; Reports and Add a Note tabs are not
+                    available.</li>
+                <li>You cannot Tag Sidenotes content, or mark it as Featured.</li>
+            </ul><p>It also differs in that it displays not only the content to be moderated; it
+                also displays the text selected when the Sidenote was added, allowing you to
+                evaluate the content in context.</p><image href="images/SidenotesContent.png"
+                id="image_c1z_yvm_rdb"/><p>Click on the text box to expand it to include the
+                entirety of the quote selected by your user.</p><p>Sidenotes content moderation
+                allows both bulk changes, and individual status changes, as described
+            above.</p></section>
+        <section id="section_grw_mqm_zz">
+            <title>Moderate Livefyre Users</title>
+            <p>Mouse over the username for a Livefyre user to open a pulldown menu, allowing you to
+                    <uicontrol>Ban the User</uicontrol>, get <uicontrol>More Info</uicontrol>, or
+                view a list of their <uicontrol>Comments</uicontrol>. Clicking on this menu will
+                open the User’s info card in Studio’s <uicontrol>Users</uicontrol> page.</p>
+            <p>For more information on how to moderate users in the <uicontrol>Users</uicontrol>
+                page, see <xref href="t_moderate_users_modq.dita#t_moderate_users_modq"/>.</p>
+        </section>
+    </conbody>
+</concept>

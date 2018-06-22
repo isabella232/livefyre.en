@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_set_up_capture">
+    <title>Set Up a Janrain Capture App</title>
+    <shortdesc>Livefyre needs certain credentials from your Janrain Capture app. </shortdesc>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Set up the Janrain Capture app. </cmd>
+            </step>
+            <step>
+                <cmd>Enter the following information for Livefyre:
+                    <!--HRK 4/7/17: where and how do I set this up?--></cmd>
+                <info>
+                    <ul id="ul_ds1_czf_gz">
+                        <li>Access to your Janrain Capture instance.</li>
+                        <li>Access to your Janrain Engage dashboard.</li>
+                        <li>Your Capture settings and credentials.</li>
+                        <li>Your Engage credentials.</li>
+                        <li>Your identity URL.</li>
+                    </ul>
+                    <note>Livefyre receives data directly from the CNAME; therefore, this identity
+                        URL cannot be a CNAMEd record (a vanity URL CNAME) that resolves to the
+                        Janrain Capture’s actual CNAME.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

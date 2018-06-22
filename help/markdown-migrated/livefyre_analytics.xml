@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita> 
+  <topic id="topic_22D8FAE581CD440EA02B1595520F60C2"> 
+	 <title>Analytics</title> 
+	 <shortdesc>Analyze user, content, and moderator activity for your site. 
+	 </shortdesc> 
+	 <body> 
+		<p>Livefyre Analytics provides access to your network data in easy to
+		  read dashboards for Conversations, Moderation and User data. Use these
+		  dashboards to monitor activity and run quick analyses on your site(s). 
+		</p> 
+		<p>Dashboards may be filtered by site, date, and activity. Use the
+		  Network pulldown at the top left of the window to select a site to display.
+		  Once generated, click a column header to sort, or mouse over the graph for more
+		  specific information on any data point. 
+		</p> 
+		<p>This page describes: 
+		</p> 
+		<p> 
+		<ul id="ul_0AFF522901454B22A971D45A0DE2C2BB"> 
+		  <li id="li_2862DBDD662A46F28483D064E91BC5DE">Selecting a 
+			 <xref
+			  href="https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#DateRange">
+				Date Range</xref> for your dashboard 
+		  </li> 
+		  <li id="li_C64F2EF433604FA7946D37D26A85774F"> 
+			 <xref
+			  href="https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ShowHideActivities">
+				Showing / Hiding Available Activities</xref> 
+		  </li> 
+		  <li id="li_C2836F74EBAB45C6BCB22734D0B8A875"> 
+			 <xref
+			  href="https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ExportDashboardData">
+				Exporting Dashboard Data</xref> 
+		  </li> 
+		  <li id="li_B2B6C6F428204A859C06AEBD6656ACFA"> 
+			 <xref
+			  href="https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#CollectionsDashboard">
+				The Collections Dashboard</xref> 
+		  </li> 
+		  <li id="li_3CE09799D7E742988EDCB2673E32F704"> 
+			 <xref
+			  href="https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#ModerationDashboard">
+				The Moderation Dashboard</xref> 
+		  </li> 
+		  <li id="li_E6D133E2E09C4259A52EF5B0D866131B"> 
+			 <xref
+			  href="https://answers.livefyre.com/livefyre-studio-version-1/studio/analytics/#UsersDashboard">
+				The Users Dashboard</xref> 
+		  </li> 
+		</ul> 
+		</p> 
+		<p> 
+		  <note>Analytics currently support activities originating from Livefyre
+			 Core Apps and Moderation. Most activities included within these dashboards are
+			 also available through 
+			 <xref
+			  href="https://answers.livefyre.com/developers/reference/app-customizations/javascript-events/">
+				Livefyre JavaScript Events</xref>, which may be used to power your own custom
+			 or third-party analytics tool. 
+		  </note> 
+		</p> 
+	 </body> 
+	 <concept id="concept_798C438120E643B6BE262C9997DC87C4"> 
+		<title>Date Range</title> 
+		<conbody> 
+		  <p> Click the date pulldown to to select a range to display. Use the
+			 quick dates, or select a start and end date from the calendars provided. 
+		  </p> 
+		  <p><image href="images/analytics-date-range.png"
+			 id="image_0E51A35533364E31839D3F10BC98A7A6"></image> 
+		  </p> 
+		  <p>Quick Dates: 
+		  </p> 
+		  <p>
+		  <ul id="ul_02891AA303F84E548E117B07D3F7F16C">
+			 <li id="li_FD7F34A87CD24282B55A4E35DD0A6284"><b>Today:</b> Displays
+				data from midnight the morning of the current day, until the last complete hour
+				before this moment. 
+			 </li>
+			 <li id="li_9EAF353ED24D485DBE0834165439FE2C"><b> Yesterday:</b>
+				Displays the previous 24 hours' data. 
+			 </li>
+			 <li id="li_132EF30212A2417C9FD283D7F1B4790D"><b> 7 days:</b> Displays
+				the previous 7 days' data, not including today. 
+			 </li>
+			 <li id="li_7AFCB2F175C64A5FB4E0D17BAA2DCEA5"><b> 30 days:</b>
+				Displays the previous 30 days' data, not including today. 
+			 </li>
+			 <li id="li_A10BA9CA27DF4E86AD8BD024232AC33C"><b> This Week:</b>
+				Displays data from midnight the morning of last Sunday, until the last complete
+				hour before this moment.
+			 </li>
+			 <li id="li_7CD58FC981514A80A11BCC80B9DDBC33"><b> This Month:</b>
+				Displays data from midnight the morning of the first day of the current month,
+				until the last complete hour before this moment. 
+			 </li>
+			 <li id="li_1BA7D7DCA3BA4ABA9E6E59A4EAD965A8"><b> Last Week:</b>
+				Displays last week's data. 
+			 </li>
+			 <li id="li_A09726EC16004CC0B8E309EC5B1E9576"><b> Last Month:</b>
+				Displays last month's data. 
+			 </li>
+		  </ul>
+		  </p>
+		</conbody> 
+	 </concept>
+	 <concept id="concept_022D9851CBCE4A2FB80D0AE52A23744D"> 
+		<title>Showing/Hiding Activities</title> 
+		<conbody> 
+		  <p>Activities are actions that users take on your site, including
+			 commenting, flagging, sharing, and moderating. Use the 
+			 <b>Show/Hide Activities</b> pulldown to select activities you wish to
+			 be included in your dashboard. 
+		  </p> 
+		  <p> 
+			 <note>Selecting new events for the filter will re-render the page
+				without changing the URL. 
+			 </note> 
+		  </p> 
+		  <p><image href="images/analytics-show-hide-activities.png"
+			 id="image_78DC6C4E80D74322AF4E3A8DA100E30C"></image>
+		  </p>
+		  <p> Available activities vary by dashboard type and export, and may
+			 include:
+		  </p> 
+		  <p>
+		  <ul id="ul_A7C6ED2F2693466B8FC5EBBC6582C5ED">
+			 <li id="li_E48C72A8824A43D7B84C0BE4626C81E4"><b> Posts:</b> Displays
+				data from midnight the morning of the current day, until the last complete hour
+				before this moment. 
+			 </li>
+			 <li id="li_C87893C0324942D6A405428A4DACF5CA"><b> Replies:</b>
+				Displays the previous 24 hours' data.
+			 </li>
+			 <li id="li_C3D7DF56D7A44A00A0CBF75096C20B81"><b> Likes:</b> Displays
+				the previous 7 days' data, not including today.
+			 </li>
+			 <li id="li_7826C007C2D74755BA6BCDACA1F0B8EE"><b> Unlikes:</b>
+				Displays the previous 30 days' data, not including today. 
+			 </li>
+			 <li id="li_442A42187D7C4E5DB69941C9B9B90328"><b>Contains Media:</b>
+				Displays data from midnight the morning of last Sunday, until the last complete
+				hour before this moment. 
+			 </li>
+			 <li id="li_5E04B351598749318E343D5370B05A2C"><b> Post has photo
+				  upload:</b> Displays data from midnight the morning of the first day of the
+				current month, until the last complete hour before this moment. 
+			 </li>
+			 <li id="li_3F54C10A21DD4DDD870CF675CA2E7C98"><b> Post has link:</b>
+				Displays last week's data. 
+			 </li>
+			 <li id="li_552577FD3D2D43138BD6EE5092B8D956"><b>Post has
+				  @mentions:</b> Displays last month's data. 
+			 </li>
+			 <li id="li_ACD90420A06B4F41909A5719FCC23E52"><b>Approved:</b>
+				Displays last month's data. 
+			 </li>
+			 <li id="li_D53B846606AB4789ADD85D2BD245B36D"><b>Bozo'd:</b> Displays
+				last month's data. 
+			 </li>
+			 <li id="li_576B1A57A71743898E7B26A090539163"><b>Trashed:</b> Displays
+				last month's data. 
+			 </li>
+			 <li id="li_6DB56DFA3A2741C39F0043E95134B214"><b>Moderation Total:</b>
+				Displays last month's data. 
+			 </li>
+		  </ul>
+		  </p>
+		</conbody> 
+	 </concept>
+	 <concept id="concept_730DB61A9F894BE6BFB34E0E2A421ED3">
+		<title>Exporting Dashboard Data</title> 
+		<shortdesc><?xm-replace_text Short Description?>
+		</shortdesc>
+		<conbody>
+		  <p>Use the 
+			 <b>Export</b> pulldown menu to export your dashboard data as a CSV
+			 file.
+		  </p>
+		  <p> 
+		  <ul id="ul_39E30E8C97FC4DF5B9674ADBE2F7DE62"> 
+			 <li id="li_0C3ECCF63600487A8AFE4B5B9D7C8DE1">Daily Digest
+				(Collections only): exports the last complete week's daily tallies for each
+				Collection.
+			 </li> 
+			 <li id="li_56391836045F4880BAC84DF428B5B11C">Table Data: exports all
+				rolled-up Collections data (all columns and all rows in the current report).
+			 </li> 
+			 <li id="li_D8E90E0FDC9542359C2A778DE19A396C">Raw Data: exports all
+				individual events that were used to create the current rolled-up report.
+			 </li> 
+		  </ul> 
+		  </p>
+		  <p>
+			 <note>These reports may take a few minutes to export. All timestamps
+				are Unix time.
+			 </note>
+		  </p>
+		</conbody>
+	 </concept>
+	 <concept id="concept_228D8E5553784DB8BABF3819A5FF0345">
+		<title>Collections</title> 
+		<conbody>
+		  <p> The Collections dashboard lists user activity by Collection,
+			 allowing you to to determine your most (and least) engaging content. Each
+			 listed Collection includes a link to the page on which it can be found.
+		  </p>
+		  <p><image href="images/analytics-collections.png"
+			 id="image_B26C7421C0E14D38AC94EC1B3CBFC1A7"></image>
+		  </p>
+		</conbody>
+	 </concept>
+	 <concept id="concept_98689B1E804B43CEA21E3F456107CCD9">
+		<title>Moderation</title> 
+		<conbody>
+		  <p> The Moderation dashboard lists events by moderator, allowing you to
+			 evaluate their activity. Use this report to find your most active Moderators,
+			 and their most common moderation actions.
+		  </p>
+		  <p>
+			 <note>Automated Livefyre moderation activities will be listed for the
+				moderator name Livefyre System. 
+			 </note>
+		  </p>
+		  <p><image href="images/analytics-moderation.png"
+			 id="image_E6B018D1ED844F559AF12F42A587BD23"></image>
+		  </p>
+		</conbody>
+	 </concept>
+	 <concept id="concept_D1A83E31C7B5467F9C844CBF9A740E12">
+		<title>Users</title> 
+		<conbody>
+		  <p> The Users dashboard shows site activity by user, allowing you to
+			 analyze how individual users are interacting with your site. Use this dashboard
+			 to find your most active users across your site, and to evaluate the most
+			 popular site activities.
+		  </p>
+		  <p><image href="images/analytics-users.png"
+			 id="image_373D80774C02408EBCDFE51591C720E3"><?xm-replace_text Paragraph?></image>
+		  </p>
+		</conbody>
+	 </concept>
+  </topic> 
+</dita> 

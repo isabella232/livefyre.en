@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_integrate_livefyre_with_janrain_capture_or_backplane">
+    <title>Integrate Livefyre with Janrain Capture or Backplane</title>
+    <shortdesc>You can use Janrain Capture and Backplane with Livefyre Auth to allow users to engage
+        with your Livefyre Apps when they log in to your site.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Skip this section if you’re not using Janrain Capture.</p>
+            <p>Customers using Janrain Capture and Backplane can use Livefyre Auth for Single Sign
+                On (SSO), allowing users to immediately engage with your Livefyre Apps when they log
+                in to your site. To benefit from this built-in Capture/Backplane integration, you
+                must make configuration changes to both your Capture app and your Livefyre.js
+                integration.</p>
+            <p>For more information, see <xref
+                    href="http://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/"
+                    format="html" scope="external">Janrain’s Backplane documentation</xref>.</p>
+        </context>
+        <steps>
+            <!--HRK 4/6/17: these steps need to link to their respective tasks. -->
+            <step>
+                <cmd>Set Up Capture.</cmd>
+            </step>
+            <step>
+                <cmd importance="optional">Add Livefyre Defaults to your Capture App.</cmd>
+            </step>
+            <step>
+                <cmd>Build the AuthDelegate Object.</cmd>
+            </step>
+            <step>
+                <cmd>Sync to Livefyre with Ping for Pull.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

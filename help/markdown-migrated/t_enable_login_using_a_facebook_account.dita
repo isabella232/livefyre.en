@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="enable_login_using_a_facebook_account">
+    <title>Enable Login Using a Facebook Account</title>
+    <shortdesc>Connect your Facebook account to Livefyre to allow users to use their Facebook logins
+        to interact with Apps on your site.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To enable login using a Facebook account:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Switch the <uicontrol>Enable Login with Facebook</uicontrol> toggle to
+                    <uicontrol>ON</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Add your Facebook app’s <uicontrol>App ID</uicontrol> and <uicontrol>App
+                    Secret</uicontrol>.</cmd>
+                <info>
+                    <p>These values are listed in your Facebook developers dashboard for the app,
+                        available from <xref
+                            href="https://developers.facebook.com/apps/675503539257343/dashboard/"
+                            format="html" scope="external"
+                            >https://developers.facebook.com/apps/</xref>.</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

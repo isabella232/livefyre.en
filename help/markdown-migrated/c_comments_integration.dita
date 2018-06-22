@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_comments_integration">
+ <title>Comments Integration</title>
+ <shortdesc>Enable live commenting on your page.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+  <p>Comments allows you to replace your default commenting system with real-time conversations on
+   your page.</p>
+  
+      <ul id="ul_bdm_c5b_4z">
+        <li>Integration</li>
+        <li>NetworkConfig Object</li>
+        <li>ConvConfig Object</li>
+        <li>CollectionMeta Object</li>
+        <li>Adding an Event Handler</li>
+      </ul>
+      <!--HRK 4/12/17 Add the example or link here.-->
+    <section id="section_ktb_nv1_c1b">
+      <title>Adding an Event Handler</title>
+      <p>To register event handlers, use the widget.on call within the App’s callback function.</p>
+      <p>For example:</p>
+      <codeblock>Livefyre.require(['fyre.conv#3'], function(Conv) {
+   new Conv(networkConfig, [convConfig], function(widget) {
+      widget.on('&lt;strong>&lt;eventName>&lt;/strong>', function (data) {
+         // Do something, perhaps using data
+      });
+   });
+});
+</codeblock>
+      <ul id="ul_fdm_c5b_4z">
+        <li>Ads in Comments</li>
+      </ul>
+    </section>
+    <section id="section_fmm_ppj_tbb">
+      <title>Integration</title>
+      <p>To embed a Comments App, follow the procedure for Integrating a Conversation App. See <xref
+          href="c_implement_a_conversation_app.dita#concept_zvy_c3c_tbb"/>. The following is an
+        example of an embedded Comments App.</p>
+      <p>
+        <b>Example:</b>
+      </p>
+      <codeblock>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;script src="//cdn.livefyre.com/Livefyre.js"&gt;
+    &lt;/script&gt;
+  &lt;/head&gt;
+&lt;body&gt;
+    &lt;script type="text/javascript"&gt;
+    var networkConfig = {
+      network: 'domainName'
+    };
+    var convConfig = {
+      siteId: 'siteId',
+      articleId: 'articleId',
+      el: 'livefyre',
+      collectionMeta: 'collectionMeta',
+      checksum: 'checksum'
+    };
+   
+    Livefyre.require(['fyre.conv#3', 'auth'], function(Conv, auth) {
+        new Conv(networkConfig, [convConfig], function(commentsWidget) {});
+        auth.delegate({
+            login: function (callback) {
+                callback(null,{livefyre:'&lt;userauthtoken&gt;'});
+            },
+        });
+    });
+ 
+    &lt;/script&gt;
+    &lt;div id="livefyre"&gt;
+    &lt;/div&gt;
+   &lt;/body&gt;
+&lt;/html&gt;
+</codeblock>
+      <p>As noted in the Building <codeph>CollectionMeta</codeph> section,
+          <codeph>CollectionMeta</codeph> is an encoded JSON object. In the above example, the JSON
+        object takes the following format before it’s JWT encoded:</p>
+      <codeblock>{
+"url": "articleUrl", 
+"articleId": "articleId", 
+"type": "livecomments", 
+"title": "articleTitle"
+}</codeblock>
+    </section>
+ </conbody>
+</concept>

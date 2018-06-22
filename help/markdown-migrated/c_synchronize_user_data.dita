@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_synchronize_user_data">
+ <title>Synchronize User Data</title>
+ <shortdesc>Synchronize the user profile information between Livefyre and your identity
+  provider.</shortdesc>
+ <conbody>
+  <p>If you’re not using <xref
+    href="c_livefyre_enterprise_profiles.dita#c_livefyre_enterprise_profiles">Livefyre Enterprise
+    Profiles</xref>, you must synchronize your user profile information between Livefyre and your
+   Identity Provider. For more information, see:</p>
+  <ul id="ul_a55_4b1_21b">
+   <li><xref href="c_your_identity_service.dita#c_your_identity_service">Your Identity
+     Service</xref></li>
+   <li><xref href="c_janrain_capture_backplane.dita#c_janrain_capture_backplane">Janrain Capture
+     Integration</xref></li>
+  </ul>
+ </conbody>
+</concept>

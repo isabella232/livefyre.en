@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_moderation">
+ <title>SAFE Rules</title>
+ <shortdesc>The Livefyre Spam and Abuse Filtering Engine (SAFE), is a background process that
+  analyzes all incoming content, and is enabled for all Livefyre customers. </shortdesc>
+ <conbody>
+  <section id="section_m1m_dtx_vy">
+   <p>SAFE uses pattern rules as well as statistical models to detect spam, abuse, profanity, and
+    bulk (repetitive) posts. You will see it referenced from time to time in other Livefyre
+    products, notably the Content moderation tools and ModQ.</p>
+   <note>SAFE is English only, except for Bulk mailing classification. If you require support for
+    other languages, please contact your Strategic Account Manager.</note>
+  </section>
+  <section id="section_k34_4tx_vy">
+   <title>Studio Components using SAFE</title>
+   <p>Flags applied by SAFE can be used with the following Studio components:</p>
+   <ul id="ul_fm3_qhz_y1b">
+    <li>
+     <p>Rules</p>
+     <p>You can define SAFE rules to automatically flag content and define how flagged content
+      should be handled in the <uicontrol>Network Settings</uicontrol>. </p>
+     <p>For example, a site may set a very low tolerance for Profanity and define SAFE Rules that
+      set all content flagged as Profane to be Bozo’d. Other sites may define Rules which set
+      Profane content to be pre-moderated before entering the stream.</p>
+    </li>
+    <li>
+     <p>ModQ</p>
+     <p>You can moderate content flagged by SAFE rules, and other premoderation rules (for example,
+      SPAM, profanity, etc.), in the ModQ. </p>
+    </li>
+    <li>
+     <p>App Content in the Library</p>
+     <p>Content flagged by SAFE is listed in the App Content in the <uicontrol>Library</uicontrol>
+      tab. You can filter content by flags to moderate content.</p>
+    </li>
+   </ul>
+  </section>
+  <section id="section_pg5_ttx_vy">
+   <title>SAFE Filter Options </title>
+   <p>SAFE applies the following flags to filtered content and can be used to create rules and
+    moderate content from within Livefyre Studio.</p>
+   <ul id="ul_nrr_mq1_vy">
+    <li><uicontrol>Profanity List</uicontrol>: Profane content, as defined by a list of English
+     keywords, based on common use.<p>The Profanity Filter looks for profane language, based on a
+      tested word list. If detected, the content is flagged Profane.</p><note>Livefyre also provides
+      a second Profanity List filter, which you can customize at both the Site and Network levels.
+      Rules created with the Profanity List will take precedence over automated rules stemming from
+      the SAFE Profanity filter. For more information, please see the Profanity List section in the
+      Settings documentation.</note></li>
+    <li><uicontrol>Mild Profanity</uicontrol>: Words and phrases generally not acceptable in polite
+     conversations, but are usually acceptable in casual conversations. Generally, these words and
+     phrases are allowed on network television. </li>
+    <li><uicontrol>Strong Profanity</uicontrol>: Very strong language, such as expletives and
+     phrases not allowed on network television and used sparingly in R-rated movies and mature cable
+     TV shows. Generally these words are not used in polite or casual conversation and are said in
+     an impolite conversation with an intent to harm the listener.</li>
+    <li><uicontrol>SPAM</uicontrol>: Unsolicited, usually commercial content. It uses a statistical
+     model that relies on a variety of features (including comment content and URLs) to flag a piece
+     of content as SPAM. You can adjust spam thresholds to customize SPAM tagging rates for your
+     network or site, by request.</li>
+    <li><uicontrol>Mild Insult</uicontrol>: Insulting content, as defined by a list of keywords and
+     phrase patterns.</li>
+    <li><uicontrol>Strong Insult</uicontrol>: Insulting content, as defined by a list of keywords
+     and phrase patterns.</li>
+    <li><uicontrol>Hate Speech</uicontrol>: An insult based on ethnicity or religion, especially
+     when the target group affiliation is in a minority or protected.</li>
+    <li><uicontrol>ALL CAPS</uicontrol>: Text presented in all capital letters (read as
+     yelling).</li>
+    <!--BULK?  in stream rules; keeping it out until Jira ticket https://jira.corp.adobe.com/browse/FYR-3628 is resolved and we've figured out whether we are keeping bulk in stream rules or not. hrk 8/23/17-->
+    <li><uicontrol>Mild Threat</uicontrol>: A threat or insult that usually includes some kind of
+     mild profanity directed at another person. This option flags possible threats more often, but
+     also has a higher false-positive rate than <uicontrol>Strong Threat</uicontrol>. </li>
+    <li><uicontrol>Strong Threat</uicontrol>: A serious threat or insult that mentions actionable
+     bodily harm to one or more people, often with strong profanity. This option flags possible
+     threats less often, but also has a lower false-positive rate than <uicontrol>Mild
+      Threat</uicontrol>. </li>
+    <li><uicontrol>Probable Nudity</uicontrol>: An image that may have nudity in it. This option
+     flags nudity less often, but also has a lower false-positive rate than <uicontrol>Possible
+      Nudity</uicontrol>.</li>
+    <li><uicontrol>Possible Nudity</uicontrol>: An image that may have nudity in it. This option
+     flags nudity more often, but also has a higher false-positive rate than <uicontrol>Probable
+      Nudity</uicontrol>.</li>
+    <li><uicontrol>PII </uicontrol> (Personally-Identifiable Information): Information which can
+     identify the user. This can include an email address, physical address, social security number
+     (for US customers), credit card number, a password, or anything that can be used in fraud or to
+     gain someone’s identity.</li>
+    <li><uicontrol>Livefyre Recommends Trash</uicontrol>. Set the action that the system performs
+     when the automated Moderation Recommendation identifies content for rejection. <note>To turn on
+      Moderation Recommendations, contact your Adobe Livefyre support professional.</note></li>
+   </ul>
+  </section>
+  <section id="section_pjy_5tx_vy">
+   <title>Handling Content not caught by SAFE</title>
+   <p>There are several means available to effectively handle content not caught by this filter.
+    Options below are listed in the recommended order of process.</p>
+   <ol id="ol_v4j_yqc_hbb">
+    <li>As a moderator, remove the content from the stream.</li>
+    <li>Create a Flag Rule that says if a piece of content is flagged as Spam or Offensive by five
+     users, set it to Bozo.</li>
+    <li>Ban the user that is posting unwanted content, so all their content will go directly into
+     the Bozo state.</li>
+    <li>Add specific words that should always be filtered to your profanity list.</li>
+   </ol>
+   <note>If a moderator posts content that is caught by our Spam Filter, it is still flagged as
+    Spam, but is automatically Approved, and will not be set to Bozo.</note>
+   <p>If you notice trends or patterns of content not caught by SAFE, email your CSMs with the
+    Comment IDs and text.</p>
+  </section>
+  <section id="section_blk_ccj_h1b">
+   <p>Apps that use this feature:</p>
+   <ul id="ul_qzp_ccj_h1b">
+    <li><xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref></li>
+    <li><xref href="c_chat_app.dita#c_chat_app">Chat</xref></li>
+    <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+    <li><xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref></li>
+    <li><xref href="c_map_app.dita#c_map_app">Map</xref></li>
+    <li><xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref></li>
+    <li><xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref></li>
+    <li><xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref></li>
+    <li><xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref></li>
+    <li><xref href="c_storify2.dita#c_storify2">Storify 2</xref></li>
+    <li><xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref></li>
+   </ul>
+  </section>
+ </conbody>
+</concept>

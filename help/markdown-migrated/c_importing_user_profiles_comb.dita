@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita>
+  <concept id="c_importing_user_profiles">
+    <title>Importing User Profiles</title>
+    <shortdesc>Import your existing user profiles to Livefyre.</shortdesc>
+    <conbody>
+      <draft-comment author="ind14750" otherprops="merge"
+        >c_importing_user_profiles.dita</draft-comment>
+      <p>To associate users with their existing content in Livefyre, you must import user data from
+        your user management system before importing any legacy content. Only user accounts with
+        associated content need be imported. Any user accounts not imported before launch will be
+        automatically imported from your User Profile system into the Livefyre system upon first
+        login.</p>
+      <p>Importing user profile data follows the standards described for importing Comments, with a
+        few exceptions. For more information on Import Format and the Import Process, see Importing
+        Content.</p>
+      <section id="section_hbh_4h1_c1b">
+        <title>User Data Formatting</title>
+        <p>To begin the import process, you must prepare your import data. Livefyre’s import system
+          expects a specific file format of line-delimited JSON Blobs, with each file representing a
+          site on your network, and each line within the file representing an individual Collection
+          on that site.</p>
+        <p>Similar to Content import, User Profile files adhere to these rules:</p>
+        <ul id="ul_ksp_ccl_wz">
+          <li>Profile Blobs must appear on a single line and may not include any literal endlines
+            other than a single one at the end of each Blob.</li>
+          <li>The top level id field must be unique to the user.</li>
+          <li>The file must be UTF-8 formatted, all URLs must be fully qualified, user timestamps
+            must be ISO-8601 compliant.</li>
+        </ul>
+        <note>The files themselves are not valid JSON, but each line must be in JSON format.</note>
+        <p>The User Profile <xref href="https://json-schema.org/" format="html" scope="external">JSON
+            schema</xref> is described in this Livefyre <xref
+            href="https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/user_schema.json"
+            format="html" scope="external">GitHub gist</xref>. Validators can be found in the
+          language of your choice from the json-schema.org > <xref
+            href="https://json-schema.org/implementations.html" format="html" scope="external"
+            >Implementations</xref> page.</p>
+        <p>If you choose to import users from your existing user profile system, required fields
+          include:</p>
+        <ul id="ul_lsp_ccl_wz">
+          <li><b>id: </b>your system’s user ID. It must match [a-zA-Z0-9-_])</li>
+          <li><b>display_name</b>:user’s display name or pseudonym which will be displayed on your
+            public-facing site.</li>
+          <li><b>email</b>: required for Livefyre’s email notifications, this address is not visible
+            on your public-facing site.</li>
+        </ul>
+        <p>Use Livefyre’s Ping for Pull to update user fields after import. Ping Livefyre when one
+          of your users updates their profile, then Livefyre will Pull down the requested user’s
+          updated profile.</p>
+        <note>Provide user avatars only through Ping for Pull. You cannot import user
+          avatars.</note>
+      </section>
+      <section id="section_j3d_3h1_c1b">
+        <title>Available User Parameters</title>
+        <p>The following parameters are used in the User Profile import process.</p>
+        <p>
+          <b>Required fields</b></p>
+        <dl>
+          <dlentry>
+            <dt>id:</dt>
+            <dd><b>(required) string </b>The user ID of the user in your profile system. This must
+              be unique across all users in your Network, and must never change.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>display_name:</dt>
+            <dd><b>(required) string </b>The display name of the user. This will be rendered with
+              Livefyre Content posted by the user.</dd>
+          </dlentry>
+        </dl>
+        <p><b>Optional fields</b></p>
+        <dl>
+          <dlentry>
+            <dt>name:</dt>
+            <dd><b>(optional) object </b>Strings to define the user’s formatted, first, middle, and
+              last names.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>email:</dt>
+            <dd><b>(optional) string </b>User’s email address. Used to send email
+              notifications.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>tags:</dt>
+            <dd><b>(optional) array </b>Used to assign users to user groups. Tags may include 1-63
+              alphanumeric and underscore characters.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>profile_url:</dt>
+            <dd><b>(optional) string </b>URL to the user’s profile page on your site.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>settings_url:</dt>
+            <dd><b>(optional) string </b>URL to a page where users may configure the user’s profile
+              settings for your site.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>websites:</dt>
+            <dd><b>(optional) array </b>An array of user-submitted sites. Max = 2.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>location:</dt>
+            <dd><b>(optional) string </b>A user-submitted location.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>bio:</dt>
+            <dd><b>(optional) string </b>A user-submitted autobiography.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>autofollow_conversations:</dt>
+            <dd><b>(optional) Boolean </b>Defines whether a user wishes to automatically follow a
+              Collection after posting to it. When following a Collection, users receive email
+              notifications when other users participate. May be true or false. Defaults to
+              true.</dd>
+          </dlentry>
+          <dlentry>
+            <dt>email_notifications:</dt>
+            <dd><b>(optional) object </b>Defines the frequency of available Livefyre email
+              notifications. Different frequencies may be set for each notification type.By default,
+              no notifications will be sent.immediately issues notifications immediately upon the
+              listed event.often issues notifications in batches.never will not send email
+              notification for the activity.</dd>
+            <dd><b>comments: </b>Defines when notifications are sent when other users post content
+              into Collections that this user is following.<b>replies: </b>Defines when
+              notifications are sent when another user replies to this user’s content.<b>likes:
+              </b>Defines when notifications are sent when another user likes this user’s
+                content.<b>moderator_comments: </b>Defines when notifications are sent to moderators
+              when users post content to any Collection in the Network.<b>moderator_flags:
+              </b>Defines when notifications are sent to moderators when other users flag content in
+              any Collection in the Network.</dd>
+          </dlentry>
+        </dl>
+      </section>
+      <section id="section_stb_2n5_b1b">
+        <title>Example User Profile Format</title>
+        <note>The following example lists both required and optional user profile import
+          data.</note>
+        <codeblock>
+{
+    "id": "_u1",
+    "display_name": "John Smith",
+    "name": {
+        "formatted": "John Michael Smith",
+        "first": "John",
+        "middle": "Michael",
+        "last": "Smith"
+    },
+    "email": "mohnsmith@gmail.com",
+    "tags": ["subscriber", "power_user"],
+    "profile_url": "https://site.com/johnsmith",
+    "settings_url": "https://site.com/settings",
+    "websites": ["https://johnsmith.com/blog/"],
+    "location": "Washington D.C., USA",
+    "bio": "Bob Dole talks in the third person",
+    "email_notifications": {
+        "comments": "never",
+        "moderator_comments": "immediately",
+        "moderator_flags": "immediately",
+        "replies": "immediately",
+        "likes": "often"
+    },
+    "autofollow_conversations": true
+}</codeblock>
+      </section>
+    </conbody>
+  </concept>
+</dita>

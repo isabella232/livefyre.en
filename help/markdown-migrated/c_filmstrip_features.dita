@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_filmstrip_features">
+    <title>Filmstrip Features</title>
+    <shortdesc>Learn the features in a Filmstrip App.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The Filmstrip App has the following features:</p>
+        <ul id="ul_brf_wng_sy">
+            <li>Real-Time Streaming</li>
+            <li>SAFE Filter </li>
+            <li>Social Sharing</li>
+            <li>Media Expansion</li>
+            <li>Permalinks</li>
+            <li>CSS Styling</li>
+            <li>Twitter Action Buttons</li>
+            <li>Date and Timestamp</li>
+            <li>Default styling</li>
+            <li>UGC Commerce</li>
+        </ul>
+    </conbody>
+</concept>

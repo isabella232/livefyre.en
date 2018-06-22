@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_date_and_timestamp">
+ <title>Date and Timestamp</title>
+ <shortdesc/>
+ <conbody>
+  <p>Change the date and timestamp format to meet your needs.</p>
+  <p>By default, Livefyre Apps display a relative timestamp for posts to the stream (4 minutes ago,
+   5 hours ago, 8 days ago, 2 months ago).</p>
+  <p>You may customize the timestamp displayed using the Date and Timestamp Customization, which
+   allows you to select from a list of available formats.</p>
+ </conbody>
+</concept>

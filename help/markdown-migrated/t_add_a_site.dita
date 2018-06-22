@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_a_site">
+    <title>Add a Site to a Network</title>
+    <shortdesc>You can add new sites to your network for domains and subdomains that share the same
+        user profiles. </shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>You can add and display up to 1,200 sites in Studio. Sites are listed
+                alphabetically.</p>
+            <p>To add a new site to your network:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol>Network </uicontrol> item from the Studio menu bar to open
+                    the <uicontrol>Select Network or Site</uicontrol> panel.</cmd>
+            </step>
+            <step>
+                <cmd> Use the search field to search for sites, or click <uicontrol>Add new
+                        site</uicontrol> to add a new one. </cmd>
+                <info>
+                    <p>This panel lists all sites included within the selected network.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Enter a <uicontrol>Name</uicontrol> and <uicontrol>URL</uicontrol> in the
+                    fields provided, and click <uicontrol>Add Site</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

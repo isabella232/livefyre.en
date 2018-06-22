@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="c_enagement_features">
+  <title>Enagement Features</title>
+  <shortdesc>Engage your site visitors with features that keep them coming back to your site when
+    they discover your content.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>On this page:</p>
+    <ul id="ul_bgb_syz_fcb">
+      <li>
+        <xref href="#c_enagement_features/section_jdv_vcm_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_enagement_features/section_q4j_ycm_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_enagement_features/section_pmq_ycm_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_enagement_features/section_yw5_fdm_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_enagement_features/section_uzm_ldm_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_enagement_features/section_bw3_ndm_d1b" format="dita" />
+      </li>
+    </ul>
+    <section id="section_jdv_vcm_d1b">
+      <title>Custom Buttons</title>
+      <p>Custom action buttons, and the associated action, can be added to any user or piece of content
+    in any Livefyre App, alongside the existing Flag, Share, Delete buttons. Examples could be
+    enabling a user to hide content from another user, or to follow a user.</p>
+      <p>For technical information on adding custom action buttons, please see Adding Custom
+    Buttons.</p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_kcx_n4h_h1b">
+        <li>
+          <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+        </li>
+        <li>
+          <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+        </li>
+        <li>
+          <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_q4j_ycm_d1b">
+      <title>Like</title>
+      <p>Add the ability to "like" a comment or reply.<!--Is this correct?--></p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_yxk_v4h_h1b">
+        <li>
+          <xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref>
+        </li>
+        <li>
+          <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+        </li>
+        <li>
+          <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+        </li>
+        <li>
+          <xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref>
+        </li>
+        <li>
+          <xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref>
+        </li>
+        <li>
+          <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+        </li>
+        <li>
+          <xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref>
+        </li>
+        <li>
+          <xref href="c_storify2.dita#c_storify2">Storify 2</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_pmq_ycm_d1b">
+      <title>Media Expansion</title>
+      <p>The ability to view a piece of media in a larger modal window.</p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_qsc_y4h_h1b">
+        <li>
+          <xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref>
+        </li>
+        <li>
+          <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+        </li>
+        <li>
+          <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+        </li>
+        <li>
+          <xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref>
+        </li>
+        <li>
+          <xref href="c_map_app.dita#c_map_app">Map</xref>
+        </li>
+        <li>
+          <xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref>
+        </li>
+        <li>
+          <xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref>
+        </li>
+        <li>
+          <xref href="c_polls_app.dita#c_polls_app">Polls</xref>
+        </li>
+        <li>
+          <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+        </li>
+        <li>
+          <xref href="c_storify2.dita#c_storify2">Storify 2</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_yw5_fdm_d1b">
+      <title>Friend Mentions</title>
+      <p>@mention a user, or someone who has already posted content into the Collection.</p>
+      <p>To mention someone who has posted content into the Collection, users may click the
+     <uicontrol>@</uicontrol> mention button, or type @ into the editor to display a list of people
+    available for mention. The list will include all users who are following the conversation.
+    (Start typing a name to limit the list to matches for the input text.)</p>
+      <note>Users who are @replied do not receive notification of the post.</note>
+      <p>The friend tagging function is not available on mobile, and is not available on IE8 or
+    earlier.</p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_v5l_dph_h1b">
+        <li>
+          <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+        </li>
+        <li>
+          <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+        </li>
+        <li>
+          <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_uzm_ldm_d1b">
+      <title>Action Buttons</title>
+      <p>Create custom action buttons for content in an App.</p>
+      <p>Custom action buttons, and the associated action, can be added to any user or piece of content
+    in any Livefyre App, alongside the existing Flag, Share, Delete buttons. Examples could be
+    enabling a user to hide content from another user, or to follow a user. </p>
+    </section>
+    <section id="section_bw3_ndm_d1b">
+      <title>Follow Conversation</title>
+      <p>Allows users to receive email notifications when conversations they follow are changed.</p>
+      <p>Following a conversation allows users to receive email notifications, based on activity in the
+    conversation. Users click the <uicontrol>Follow</uicontrol> / <uicontrol>Unfollow</uicontrol>
+    button to set conversation-specific preferences, or use their <uicontrol>Profile
+     Settings</uicontrol> page to set a site-wide preference to follow conversations.</p>
+      <p>(The <uicontrol>Follow</uicontrol> function is not available on mobile.)</p>
+      <note>Emails will only be sent for manually posted content, not for content pulled into the
+    stream through SocialSync or Curate.</note>
+    </section>
+  </conbody>
+</concept>

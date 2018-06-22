@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Apps</title>
+ <topicref format="dita" scope="local" href="c_about_apps.dita" navtitle="Apps">
+  <topicref format="dita" scope="local" href="c_carousel_app.dita" navtitle="Carousel"/>
+  <topicref format="dita" scope="local" href="c_chat_app.dita" navtitle="Chat"/>
+  <topicref format="dita" scope="local" href="c_comments_app.dita" navtitle="Comments"/>
+  <topicref format="dita" scope="local" href="c_feature_card_app.dita" navtitle="Feature Card"/>
+  <topicref format="dita" scope="local" href="c_liveblog_app.dita" navtitle="Live Blog"/>
+  <topicref format="dita" scope="local" href="c_map_app.dita" navtitle="Map"/>
+  <topicref format="dita" scope="local" href="c_media_wall_app.dita" navtitle="Media Wall"/>
+  <topicref format="dita" scope="local" href="c_mosaic_app.dita" navtitle="Mosaic"/>
+  <topicref format="dita" scope="local" href="c_polls_app.dita" navtitle="Polls"/>
+  <topicref format="dita" scope="local" href="c_reviews_app.dita" navtitle="Reviews"/>
+  <topicref format="dita" scope="local" href="c_sidenotes_app.dita" navtitle="Sidenotes"/>
+  <topicref href="c_storify2.dita"/>
+  <topicref format="dita" scope="local" href="c_trending_app.dita" navtitle="Trending"/>
+  <topicref format="dita" scope="local" href="c_upload_button_app.dita" navtitle="Upload Button"/>
+ <!-- <topicref href="c_filmstrip_app.dita"/> -->
+ </topicref>
+</map>

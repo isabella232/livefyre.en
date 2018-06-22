@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_customize_chat">
+  <title>Chat Customizations</title>
+  <shortdesc>Customize Chat Apps to display content as a continuous stream of unthreaded chat,
+    allowing your audience to engage in real-time conversation around live events or
+    announcements.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_kjf_111_sy">
+      <p>These options are available from the Chat App:</p>
+      <ul id="ul_ddj_3yz_ry">
+        <li>
+          <p><uicontrol>Number of posts to load </uicontrol></p>
+          <p>Enter the number of posts to display upon initial load. You may enter between 1 and
+            50.</p>
+        </li>
+        <li>
+          <p><uicontrol>Posts appear in cards</uicontrol></p>
+          <p>If enabled, posts will be displayed with a surrounding box, and the background color
+            dictated by the <b>Theme</b> selection applied.</p>
+        </li>
+        <li>
+          <p><uicontrol>Preview media</uicontrol></p>
+          <p>If enabled, media attachments will be displayed as fully expanded media inline in the
+            stream. If disabled, media is displayed as links only.</p>
+        </li>
+        <li>
+          <p><uicontrol>Number of listeners</uicontrol></p>
+          <p>If enabled, the number of users active on the page will be displayed.</p>
+        </li>
+        <li>
+          <p><uicontrol>User tags</uicontrol></p>
+          <p>If enabled, user tags will be displayed with posted content.</p>
+        </li>
+        <li>
+          <p><uicontrol>User avatars</uicontrol></p>
+          <p>If enabled, user avatars will be displayed with posted content.</p>
+        </li>
+        <li>
+          <p><uicontrol>Users may share comments</uicontrol></p>
+          <p>If enabled, users may share posted comments to Twitter, Facebook, or LinkedIn. For more
+            information on enabling sharing, see Settings > Integration Settings > Social
+            Sharing.</p>
+        </li>
+        <li>
+          <p><uicontrol>Additional sort option</uicontrol></p>
+          <p>Allows you to offer sort options for your end users: <uicontrol>Most liked</uicontrol>
+            or <uicontrol>Most active</uicontrol>.</p>
+        </li>
+      </ul>
+      <p>You can customize Chat using:</p>
+      <ul id="ul_djm_3xz_ry">
+        <li><uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>. See Customizing Apps for details on the standard
+            <uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+          the <uicontrol>App Designer</uicontrol>.</li>
+        <li>Integration tools. See Chat for more on how to customize Chat using Integration
+          Tools.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

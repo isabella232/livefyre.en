@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_setusersyncurl_method">
+  <title>setUserSyncUrl Network Method</title>
+  <shortdesc>Informs Livefyre to update the network’s user sync URL to the one provided. Returns a
+    Boolean.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <properties id="properties_gq4_jyf_5y">
+      <prophead>
+        <proptypehd>Variable</proptypehd>
+        <propvaluehd>Type</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype><varname>urlTemplate</varname></proptype>
+        <propvalue>String</propvalue>
+        <propdesc>The URL to register with Livefyre for syncing user IDs. Requires “{id}” to be part
+          of the provided URL string</propdesc>
+      </property>
+    </properties>
+    <section id="section_nyl_ycs_rz">
+      <title>Java Example</title>
+      <codeblock>network.setUserSyncUrl(urlTemplate);
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>true</codeblock>
+    </section>
+    <section id="section_xkd_gds_rz">
+      <title>NodeJS Example</title>
+      <codeblock>network.setUserSyncUrl(urlTemplate);
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>true</codeblock>
+    </section>
+    <section id="section_ghf_gds_rz">
+      <title>PHP Example</title>
+      <codeblock>$network->setUserSyncUrl(urlTemplate);
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>true</codeblock>
+    </section>
+    <section id="section_dwg_gds_rz">
+      <title>Python Example</title>
+      <codeblock>network.set_user_sync_url(urlTemplate)
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>True</codeblock>
+    </section>
+    <section id="section_enh_gds_rz">
+      <title>Ruby Example</title>
+      <codeblock>network.set_user_sync_url(urlTemplate)
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>True</codeblock>
+    </section>
+  </refbody>
+</reference>

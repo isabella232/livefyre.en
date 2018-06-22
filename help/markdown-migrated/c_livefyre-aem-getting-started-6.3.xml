@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita> 
+  <topic id="topic_87456823DEBF4167ADE6BDCE74F4230D"> 
+	 <title>Getting Started</title> 
+	 <shortdesc> 
+	 </shortdesc> 
+	 <body> 
+		<p>To get started with Livefyre and AEM 6.2/6.3: 
+		</p> 
+		<p> 
+		<ol id="ol_8905436A1C6044D2A4FEAC8BA629B935"> 
+		  <li id="li_6FC6A3049F6643D9854E3A086F94FD16"><xref
+			 href="c_livefyre-aem.xml#task_B2552594101E448E9123C04AD579630D" format="dita"
+			 scope="local">Install Livefyre Package for AEM</xref> 
+		  </li> 
+		  <li id="li_E10EF9ABAA8F4C6DA605BEFB61067A02"><xref
+			 href="c_livefyre-aem.xml#task_1E4D0790C2B840149245D03A84F0B5D1" format="dita"
+			 scope="local">Configure AEM to Use Livefyre</xref> 
+		  </li> 
+		  <li id="li_3DE89834570D4A69914BC4784E8C5CB7"><xref
+			 href="c_livefyre-aem.xml#task_E918244666C24EE0932137373B0731EA" format="dita"
+			 scope="local">Customize Single Sign-on Integration</xref> 
+		  </li> 
+		</ol> 
+		</p> 
+	 </body> 
+  </topic> 
+  <task id="task_B2552594101E448E9123C04AD579630D"> 
+	 <title>Install Livefyre Package for AEM</title> 
+	 <shortdesc>Steps on how to install the latest Livefyre package that
+		integrates Livefyre with Adobe Experience Manager. 
+	 </shortdesc> 
+	 <taskbody> 
+		<context id="context_030D5BAB86874FA9B41636F2DB4CDF79"> 
+		  <p>To Install and use the latest Livefyre AEM package, you need Adobe
+			 Experience Manager 6.2 or 6.3. The latest version of AEM is recommended to make
+			 full use of features. 
+		  </p> 
+		  <p> 
+			 <note>AEM 6.3 comes with Livefyre feature package 1.1.19
+				pre-installed. This package only includes Livefyre integration with AEM Sites
+				and must be uninstalled before installing an updated package. With the latest
+				package, you can experience the full integration of Livefyre with AEM,
+				including Sites, Assets, and Commerce. If you are running AEM 6.2, no
+				pre-installed Livefyre package exists and you can skip to step 4. 
+			 </note> 
+		  </p> 
+		</context> 
+		<steps id="steps_8F4C92BB75B04F2EBF43C34F0B894FF2"> 
+		  <step id="step_685DEB82F3FE49FE902FAB08B085607C"> 
+			 <cmd>From the AEM homepage, click on the 
+				<uicontrol>Tools</uicontrol> icon on the left-hand rail. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_2B65372AAF9D43DA8DA91029A7E23CE8"> 
+			 <cmd>Navigate to 
+				<menucascade><uicontrol>Deployment</uicontrol><uicontrol>Packages</uicontrol></menucascade>.
+				
+			 </cmd> 
+		  </step> 
+		  <step id="step_24838EFA47FA468B9A76B3CC35A55212"> 
+			 <cmd>In the Package Manager, scroll until you see the pre-installed
+				Livefyre feature package. Click on the package title, then click 
+				<menucascade><uicontrol>More</uicontrol><uicontrol>Uninstall</uicontrol></menucascade>.
+				
+			 </cmd> 
+			 <info><image href="images/livefyre-aem2.png"
+				id="image_76AD1A28949F49D4924993DB4598CFC6"></image> 
+			 </info> 
+		  </step> 
+		  <step id="step_5AB9BE4372D64128A52AC9954D8A8F61"> 
+			 <cmd>Return to the AEM homepage, click on 
+				<uicontrol>Tools</uicontrol>, then navigate to 
+				<menucascade><uicontrol>Deployment</uicontrol><uicontrol>Package
+					 Share</uicontrol></menucascade>. 
+			 </cmd> 
+			 <stepresult>A list of feature packs and hotfixes available for
+				download displays. 
+			 </stepresult> 
+		  </step> 
+		  <step id="step_1203E98EB5524E2DB77FAFE7F1671FA0"> 
+			 <cmd>In the keyword search, search for "Livefyre", then select the
+				Livefyre feature pack corresponding to your AEM version. 
+			 </cmd> 
+			 <info><image href="images/livefyre-aem3.png"
+				id="image_54406D9EF76A475C9E5163A2707922CC"></image> 
+			 </info> 
+		  </step> 
+		  <step id="step_EE2FDDCDFD4B4B0AAFCECF11827B9D61"> 
+			 <cmd>On the feature pack information page, click 
+				<uicontrol>Download</uicontrol>, then read the Package License
+				Agreement and click 
+				<uicontrol>Accept</uicontrol>. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_D66EBE110DA04B37B3EE6CBA512D3E25"> 
+			 <cmd>Revert back to the Package Manager, locate the newly downloaded
+				package, and click 
+				<uicontrol>Install</uicontrol>. 
+			 </cmd> 
+			 <info><image href="images/livefyre-aem4.png"
+				id="image_60EE3E23359448EC96EB600F050B08E6"></image> 
+			 </info> 
+			 <stepresult>Your Livefyre-AEM package is now installed. Before you
+				can begin using the integration features, you must 
+				<xref
+				 href="c_livefyre-aem.xml#task_1E4D0790C2B840149245D03A84F0B5D1" format="dita"
+				 scope="local">Configure AEM to Use Livefyre</xref>. 
+				<p>For more information on packages, see 
+				  <xref
+					href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/package-manager.html"
+					format="html" scope="external">How to Work With Packages</xref>. 
+				</p> 
+			 </stepresult> 
+		  </step> 
+		</steps> 
+	 </taskbody> 
+  </task> 
+  <task id="task_1E4D0790C2B840149245D03A84F0B5D1"> 
+	 <title>Configure AEM to use Livefyre</title> 
+	 <shortdesc>Configure AEM to use your organization's Livefyre license
+		credentials, allowing communication between Livefyre and AEM. 
+	 </shortdesc> 
+	 <taskbody> 
+		<steps id="steps_CC5C5B113D8E4FD388BB4D5ED4A41B2A"> 
+		  <step id="step_4882905D2E9D4750B12112B68FA40D86"> 
+			 <cmd>From the AEM homepage, click on the 
+				<uicontrol>Tools</uicontrol> icon in the left-hand rail, then
+				navigate to 
+				<menucascade><uicontrol>Deployment</uicontrol><uicontrol>Cloud
+					 Services</uicontrol></menucascade>. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_1A267AA06A214197BDB4AF6309037082"> 
+			 <cmd>Scroll until you see Livefyre, then click on 
+				<uicontrol>Configure now</uicontrol> (or 
+				<uicontrol>Show Configurations</uicontrol>, then click the 
+				<uicontrol>+</uicontrol> sign). 
+			 </cmd> 
+		  </step> 
+		  <step id="step_5A4FF02A49D348648FEF215EAA422815"> 
+			 <cmd>Enter a title then click 
+				<uicontrol>Create</uicontrol>. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_DF36024C60054740A49911525D3C3302"> 
+			 <cmd>Enter your organization's Livefyre credentials, then click 
+				<uicontrol>OK</uicontrol>. 
+			 </cmd> 
+			 <info> 
+				<p><image href="images/configure-aem2.png"
+				  id="image_E3194FB8D5B64E089159CCD68AC87CB2"></image> 
+				</p> 
+				<p>To access this information, open Livefyre studio and navigate to
+				  
+				  <menucascade><uicontrol>Settings</uicontrol><uicontrol>Integration
+						Settings</uicontrol><uicontrol>Credentials</uicontrol></menucascade>. 
+				</p> 
+				<p>Your AEM instance is now configured to use Livefyre and you can
+				  use the integration features. 
+				</p> 
+				<p> 
+				  <note>If your AEM Publish and AEM Author instances do not share
+					 the same cryptographic key, you may need to repeat this process on any other
+					 instances. Network Key and Site Key are encrypted and therefore cannot be
+					 unencrypted by other instances. For more information, see 
+					 <xref
+					  href="https://helpx.adobe.com/experience-manager/6-3/communities/using/deploy-communities.html#ReplicatetheCryptoKey"
+					  format="html" scope="external">Replicate the Crypto Key</xref>. 
+				  </note> 
+				</p> 
+			 </info> 
+		  </step> 
+		</steps> 
+	 </taskbody> 
+  </task> 
+  <task id="task_E918244666C24EE0932137373B0731EA"> 
+	 <title>Customize Single Sign-on Integration</title> 
+	 <shortdesc> The Livefyre for AEM package includes an out-of-the-box
+		integration between AEM Communities profiles and Livefyre's SSO service. 
+	 </shortdesc> 
+	 <taskbody> 
+		<context id="context_E0A57E6D14764583962D2DD404387291"> 
+		  <p> When users log into your AEM site, they are also logged into
+			 Livefyre social components. When a logged-out user attempts to use a Livefyre
+			 component feature that requires authentication (like uploading a photo), the
+			 Livefyre component initiates user authentication. 
+		  </p> 
+		  <p> The default authentication integration may not be perfect for every
+			 site. To best match the authentication flow in your site templates, you can
+			 override the default Livefyre Authentication Delegate to meet your needs. Use
+			 these steps: 
+		  </p> 
+		</context> 
+		<steps id="steps_096285267A8C4577B97D647E0B3BAE1C"> 
+		  <step id="step_E43C4D84F5FA43D4A5C344BE2EB80BEC"> 
+			 <cmd>Using CRXDE Lite, copy 
+				<codeph>/libs/social/integrations/livefyre/components/authorizablecomponent/authclientlib</codeph>
+				to 
+				<codeph>/apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib</codeph>.
+				
+			 </cmd> 
+		  </step> 
+		  <step id="step_47034EA271834F9CAD77EFB003252296"> 
+			 <cmd>Edit and save 
+				<codeph>/apps/social/integrations/livefyre/components/authorizablecomponent/authclientlib/auth.js</codeph>
+				to implement a Livefyre Auth Delegate that meets your needs. 
+			 </cmd> 
+			 <info> 
+				<p>For more information on customizing an Auth Delegate, see 
+				  <xref
+				  href="https://answers.livefyre.com/developers/identity-integration/"
+				  format="https" scope="external">Identity Integration</xref>. 
+				</p> 
+				<p>For more information on AEM Clientlibs, see 
+				  <xref
+				  href="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html"
+				  format="html" scope="external">Using Client-Side Libraries</xref>. 
+				</p> 
+			 </info> 
+		  </step> 
+		</steps> 
+	 </taskbody> 
+  </task> 
+</dita> 

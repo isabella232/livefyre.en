@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_how_requesting_rights_works">
+ <title>Product: Requesting Rights</title>
+ <shortdesc>Learn how rights requests work. When you bring user-generated content (UGC) into a
+    Livefyre App, the content includes tacit permission for reuse. You must have the author's
+    permissing to use content from Twitter or Instagram.</shortdesc>
+ <conbody>
+  <p>The following rights statuses are available from Library Assets, App Content, ModQ, and AEM
+      Commerce:</p>
+  <ul id="ul_ukh_515_p1b">
+   <li><uicontrol>Granted</uicontrol>. When the author grants you the right to reuse their content,
+    the status of the asset changes to <uicontrol>Granted</uicontrol>.</li>
+   <li>
+    <p><uicontrol>Expired</uicontrol>. Livefyre monitors the Instagram and Twitter stream for the
+     author’s reply for 14 days. After 14 days, the request expires, the rights request status
+     changes to<uicontrol> Expired</uicontrol>, and you can send a second request or remove the item
+     from your Library.</p>
+   </li>
+   <li>
+    <p><uicontrol>Requested</uicontrol>. Request permission for content from the Library. You can do
+     this for one or more assets at a time. After you request permission, Livefyre sets the asset
+     status to <uicontrol>Requested</uicontrol>.</p>
+   </li>
+   <li><uicontrol>Needs Review</uicontrol>. If the author replies with a note that does not include
+        your #approvalHashtag, the status of the asset changes to <uicontrol>Needs
+          Review</uicontrol>.</li>
+   <li><uicontrol>Request Failed</uicontrol>. Request failed to be sent (due to expired token,
+        etc.). </li>
+   <li><uicontrol>Request Pending</uicontrol>. Queues the Rights Request so that not too many are
+        sent at one time.
+        <!--How many and what intervals?ADD INFO FROM NISH: So, lets say Twitter allows 500 requests per minute per account
+When a user makes bulk RR, we check for the current rate limit of the user account against the social provider and either make a right request or queue it
+so if user RR for 100 UGC, but he only has 50 more requests left. 50 will be RR while other will be sent to queue.
+Then a job runs every 5 mins, to check for queued RR and see if the rate limit is reset and cont
+" Tweets: 2,400 per day. The daily update limit is further broken down into smaller limits for semi-hourly intervals. Retweets are counted as Tweets."
+You can find same information for other social providers--></li>
+  </ul>
+ </conbody>
+</concept>

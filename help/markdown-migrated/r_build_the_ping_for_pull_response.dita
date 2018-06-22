@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_n3x_pzb_mz">
+  <title>Build the Ping for Pull Response</title>
+  <shortdesc>Build the Ping for Pull response to transmit updated user information to
+    Livefyre.</shortdesc>
+  <refbody>
+    <properties id="properties_rqx_qcc_mz" relcolwidth="1.0* 1.11* 1.41*">
+      <prophead>
+        <proptypehd>Type</proptypehd>
+        <propvaluehd>Property</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>String (required)</proptype>
+        <propvalue><parmname>id</parmname></propvalue>
+        <propdesc>The user ID of the user in your profile system. This must be unique across all
+          users in your Network, and must never change.</propdesc>
+      </property>
+      <property>
+        <proptype>String (required) </proptype>
+        <propvalue><parmname>display_name</parmname></propvalue>
+        <propdesc>The display name of the user. This will be rendered with Livefyre Content posted
+          by the user.</propdesc>
+      </property>
+      <property>
+        <proptype>Object (optional, but recommended)  </proptype>
+        <propvalue><parmname>name</parmname></propvalue>
+        <propdesc>Strings to define the user’s formatted, first, middle, and last names.</propdesc>
+      </property>
+      <property>
+        <proptype>String (optional, but recommended) </proptype>
+        <propvalue><parmname>email</parmname></propvalue>
+        <propdesc>User’s email address. Used to send email notifications.</propdesc>
+      </property>
+      <property>
+        <proptype>String (optional, but recommended) </proptype>
+        <propvalue><parmname>image_url</parmname></propvalue>
+        <propdesc>
+          <p>URL to an avatar to display for the user. Livefyre scales uploaded images to 100×100,
+            75×75, or 50×50 pixels, as appropriate. For best results, users should upload a square
+            image, at 100×100 pixels.To ensure the avatar image is updated in Livefyre, modify the
+            image_url for each image update so Ping for Pull detects that the image was changed. For
+            example, attach a timestamp to the filename or increment the image changes.</p>
+          <note>All URLs must be fully qualified and accessible.</note>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>String (optional, but recommended) </proptype>
+        <propvalue><parmname>profile_url</parmname></propvalue>
+        <propdesc>URL to the user’s profile page on your site.</propdesc>
+      </property>
+      <property>
+        <proptype>String (optional, but recommended) </proptype>
+        <propvalue><parmname>settings_url</parmname></propvalue>
+        <propdesc>URL to a page where users may configure the user’s profile settings for your
+          site.</propdesc>
+      </property>
+      <property>
+        <proptype>Array (optional, but recommended) </proptype>
+        <propvalue><parmname>tags </parmname></propvalue>
+        <propdesc>Used to assign users to user groups. Tags may include 1-63 alphanumeric and
+          underscore characters.</propdesc>
+      </property>
+      <property>
+        <proptype>Boolean (optional, but recommended) </proptype>
+        <propvalue><parmname>autofollow_conversations</parmname></propvalue>
+        <propdesc>Defines whether a user wishes to automatically follow a Collection after posting
+          to it. When following a Collection, users receive email notifications when other users
+          participate. May be true or false. Defaults to true.</propdesc>
+      </property>
+      <property>
+        <proptype>Object (optional, but recommended) </proptype>
+        <propvalue><parmname>email_notifications</parmname></propvalue>
+        <propdesc>
+          <p>Defines the frequency of available Livefyre email notifications. Different frequencies
+            may be set for each notification type. By default, no notifications will be sent.</p>
+          <ul id="ul_tyj_3jc_mz">
+            <li><codeph>immediately</codeph> issues notifications immediately upon the listed
+              event.</li>
+            <li><codeph>often</codeph> issues notifications in batches.</li>
+            <li><codeph>never</codeph> will not send email notification for the activity.</li>
+          </ul>
+          <ul id="ul_ovk_zdb_mz">
+            <li><b>comments:</b> Defines when notifications are sent when other users post content
+              into Collections that this user is following.</li>
+            <li><b>replies:</b> Defines when notifications are sent when another user replies to
+              this user’s content.</li>
+            <li><b>likes:</b> Defines when notifications are sent when another user likes this
+              user’s content.</li>
+            <li><b>moderator_comments:</b> Defines when notifications are sent to moderators when
+              users post content to any Collection in the Network.</li>
+            <li><b>moderator_flags:</b> Defines when notifications are sent to moderators when other
+              users flag content in any Collection in the Network.</li>
+          </ul>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>String (optional) </proptype>
+        <propvalue><parmname>location</parmname></propvalue>
+        <propdesc>A user-submitted location.</propdesc>
+      </property>
+      <property>
+        <proptype>String (optional) </proptype>
+        <propvalue><parmname>bio</parmname></propvalue>
+        <propdesc>A user-submitted autobiography.</propdesc>
+      </property>
+      <property>
+        <proptype>Array (optional) </proptype>
+        <propvalue><parmname>websites</parmname></propvalue>
+        <propdesc>An array of user-submitted sites. Max = 2.</propdesc>
+      </property>
+      <property>
+        <proptype>Object (optional) </proptype>
+        <propvalue><parmname>display_rules</parmname></propvalue>
+        <propdesc>
+          <p>Defines which profile properties are publicly visible to other users. Each available
+            parameter takes Boolean input true or false. Available parameters: </p>
+          <ul id="ul_tsh_32d_mz">
+            <li><codeph>bio</codeph></li>
+            <li><codeph>location</codeph></li>
+            <li><codeph>gender</codeph></li>
+            <li><codeph>nameimage</codeph></li>
+            <li><codeph>remote_profile_url</codeph></li>
+          </ul>
+        </propdesc>
+      </property>
+      <property>
+        <proptype> Boolean (optional)</proptype>
+        <propvalue><parmname>moderator</parmname></propvalue>
+        <propdesc>Defines whether the user has moderator privileges across the network.</propdesc>
+      </property>
+      <property>
+        <proptype>Boolean (optional) </proptype>
+        <propvalue><parmname>gravatar_disabled</parmname></propvalue>
+        <propdesc>Defines whether to disable Livefyre’s use of a gravatar if no
+            <codeph>image_url</codeph> is provided.</propdesc>
+      </property>
+    </properties>
+    <section id="section_uxt_3dd_mz">
+      <title>Example Response</title>
+      <codeblock>{
+ "id": "1234567890",
+ "display_name": "Bob Dole",
+ "name": {
+   "formatted": "Bob Joseph Dole",
+   "first": "Bob",
+   "middle": "Joseph",
+   "last": "Dole"
+ },
+   "email": "bob@dole.com",
+   "image_url": "http://dole.com/images/bob.jpg",
+   "profile_url": "http://site.com/bobdole",
+   "settings_url":"http://site.com/settings",
+   "tags": ["bob", "dole"],
+   "autofollow_conversations": "true",
+   "email_notifications": {
+      "comments": "never",
+      "replies": "immediately",
+      "likes": "often",
+      "moderator_comments": "immediately",
+      "moderator_flags": "immediately" 
+ },
+  "location": "Washington D.C., USA",
+  "bio": "Bob Dole speaks in the third person",
+  "websites": ["http://dole.com/blog/", "http://bobdolerocks.com"],
+  "display_rules": {
+      "bio": "false",
+      "location": "false",
+      "gender": "false",
+      "name": "false",
+      "image": "false",
+      "remote_profile_url": "false"
+  },
+  "moderator": "true",
+  "gravatar_disabled": "false"
+}</codeblock>
+    </section>
+  </refbody>
+</reference>

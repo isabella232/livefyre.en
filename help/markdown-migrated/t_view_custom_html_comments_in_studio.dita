@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_view_custom_html_comments_in_studio">
+    <title>View Custom HTML Comments in Studio</title>
+    <shortdesc>See comments added by custom HTML using this procedure.</shortdesc>
+    <taskbody>
+        <context>
+            <note>It is not possible to edit comments that contain HTML code or add custom HTML
+                attachments using Studio.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Studio displays a preview thumbnail for custom HTML displayed with a comment.
+                </cmd>
+            </step>
+            <step>
+                <cmd>Click on the thumbnail to display the full attachment.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

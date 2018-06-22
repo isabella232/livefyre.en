@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_collection_methods">
+ <title>Collection Class Methods</title>
+ <shortdesc>To update the data in the Collection, modify the contents of the Collection class object
+  methods.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>See the Site class methods to get instructions on creating a Collection object. The rest of the
+   page will assume that you have an instantiated Collection object in your session.</p>
+  <ul id="ul_tqb_z5r_rz">
+   <li>
+    <xref href="#r_createorupdate_collection_method" format="dita">createOrUpdate Collection
+     Method</xref>
+   </li>
+   <li>
+    <xref href="#r_buildcollectionmetatoken_collection_method" format="dita"
+     >buildCollectionMetaToken Collection Method</xref>
+   </li>
+   <li>
+    <xref href="#r_buildchecksum_collection_method" format="dita">buildChecksum Collection
+     Method</xref>
+   </li>
+   <li>
+    <xref href="#t_getcollectioncontent_collection_method" format="dita">getCollectionContent
+     Collection Method</xref>
+   </li>
+   <li>
+    <xref href="#r_geturn_collection_method" format="dita">getUrn Collection Method</xref>
+   </li>
+  </ul>
+  <p>Each of these methods is available for the following code types:</p>
+  <ul id="ul_ifs_fvr_rz">
+   <li>Java</li>
+   <li>NodeJS</li>
+   <li>PHP</li>
+   <li>Python</li>
+   <li>Ruby</li>
+  </ul>
+ </conbody>
+</concept>

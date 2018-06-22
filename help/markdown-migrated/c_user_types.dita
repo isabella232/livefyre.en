@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_user_types">
+ <title>User Roles and Permissions</title>
+ <shortdesc>Livefyre provides several user types with varying levels of permissions.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The following user roles and listed access privileges are available within Studio:</p>
+  <note>For all roles except the Administrator, users can only access Folders or Sites which are
+   public, or have been shared with them.</note>
+  <ul id="ul_ivs_fr2_5z">
+   <li>
+    <p><b>Studio Administrator</b></p>
+    <ul id="ul_bzg_vr2_5z">
+     <li>Access to all rights and permissions in Studio</li>
+     <li>Manage User Roles</li>
+     <li>View and edit Integration Settings</li>
+     <li>View and edit all public and private Folders, Apps, and Streams</li>
+    </ul>
+   </li>
+   <li>
+    <p><b>Studio Manager</b></p>
+    <ul id="ul_czg_vr2_5z">
+     <li>Create new Sites</li>
+     <li>Invite users to Studio</li>
+     <li>View and edit User Roles</li>
+     <li>Ban Browsers and IP Addresses</li>
+    </ul>
+   </li>
+   <li>
+    <p><b>Asset Manager</b></p>
+    <ul id="ul_dzg_vr2_5z">
+     <li>Add Assets to the Library using Social Search</li>
+     <li>Create and edit Streams which port to shared folders</li>
+     <li>Create and edit shared folders and the Assets in shared folders</li>
+    </ul>
+   </li>
+   <li>
+    <p><b>User Manager</b></p>
+    <ul id="ul_fzg_vr2_5z">
+     <li>View and edit end user Account details</li>
+     <li>Ban or Whitelist end users</li>
+    </ul>
+   </li>
+   <li><b>Data Manager:</b> grants access to use the Livefyre Analytics dashboard.</li>
+   <li>
+    <p><b>App Manager</b></p>
+    <ul id="ul_ezg_vr2_5z">
+     <li>Create and edit Apps</li>
+     <li>Create and edit Streams that point to Apps</li>
+     <li>Add assets directly to Apps using Social Search</li>
+    </ul>
+   </li>
+   <li><b>Content Manager: </b><ul id="ul_gzg_vr2_5z">
+     <li>View and moderate content using the App Content page</li>
+     <li>Add and edit Tags, Flags, Notes, and Rights Requests for Content</li>
+    </ul></li>
+   <li><b>Moderator:</b>
+    <ul id="ul_znt_1w2_5z">
+     <li>Access to ModQ </li>
+     <li>The right to moderate content</li>
+    </ul></li>
+  </ul>
+  <note>Site level user roles grant permission only to the selected site. Roles granted at this
+   level will have not have access to other sites or networks.</note>
+ </conbody>
+</concept>

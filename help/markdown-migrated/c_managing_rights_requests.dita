@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_managing_rights_requests">
+    <title>Managing Rights Requests</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>You can manage Rights Requests in the following ways:</p>
+        <ul id="ul_ynq_ghx_cbb">
+            <li>Request Rights from the Library. For more information on how to request rights from
+                the Library, see <xref
+                    href="c_how_requesting_rights_works.dita#c_how_requesting_rights_works"/>.</li>
+            <li>Request Rights from App Content. For more information on how to request rights from
+                the App Content, see <xref
+                    href="c_how_requesting_rights_works.dita#c_how_requesting_rights_works"/>.</li>
+            <li>Request Rights from ModQ. For more information on how to request rights from the
+                ModQ, see <xref
+                    href="c_how_requesting_rights_works.dita#c_how_requesting_rights_works"/></li>
+            <li>Request Rights from AEM Commerce. For more information on how to request rights from
+                AEM Commerce. See <xref
+                    href="t_request_rights_using_aem_assets.dita#t_request_rights_using_aem_assets"
+                />.</li>
+            <li>Search for content with a specific rights status in the Library or App Content to
+                follow-up on previous rights requests. For more on how to manage content with
+                previous rights requests, see <xref
+                    href="c_how_requesting_rights_works.dita#c_how_requesting_rights_works"/>. </li>
+            <li>View the rights request history for a piece of content. For more information on how
+                to view the history of rights requests for a piece of content, see <xref
+                    href="c_how_requesting_rights_works.dita#c_how_requesting_rights_works"/>.</li>
+            <li>
+                <p>Manually override the rights for one or more assets at a time. For more on how to
+                    manually grant rights, see <xref
+                        href="c_how_requesting_rights_works.dita#c_how_requesting_rights_works"
+                    />.</p>
+                <note>Overriding a rights request is stating that you own the content. Do not
+                    override a rights request without verifying that you own the content.</note>
+            </li>
+        </ul>
+    </conbody>
+</concept>

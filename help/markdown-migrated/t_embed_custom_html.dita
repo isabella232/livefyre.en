@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_embed_custom_html">
+    <title>Embed Custom HTML in Comments</title>
+    <shortdesc>Follow these steps to embed custom HTML on your site.</shortdesc>
+    <taskbody>
+        <context>To embed custom HTML:</context>
+        <steps>
+            <step>
+                <cmd>Click the HTML embed button ( &lt;/> ) on the comment editor box to launch the
+                    HTML editor box.  </cmd>
+                <info>This button is visible only to moderators and owners.</info>
+            </step>
+            <step>
+                <cmd>Paste your HTML code into the editor, and click <uicontrol>OK</uicontrol>. (A
+                    message will be displayed for any HTML validation errors.)</cmd>
+            </step>
+            <step>
+                <cmd>A preview of the output is displayed below the comment editor.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Post Comment</uicontrol> to display the output in the
+                    stream.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

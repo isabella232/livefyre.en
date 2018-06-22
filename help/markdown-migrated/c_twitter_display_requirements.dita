@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_twitter_display_requirements">
+ <title>Twitter Display Requirements</title>
+ <shortdesc>An overview of Twitter’s Display Requirements.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+  <p>Social media networks often require that their content be displayed to conform with their brand
+   standards. When using the Livefyre platform to re-present Twitter content you are at all times
+   responsible for compliance with their terms of use, including their display requirements. Please
+   be certain to read and understand their terms and conditions before displaying their content in
+   your Livefyre Apps.</p>
+  <p>For more information, please see <xref
+    href="https://about.twitter.com/company/display-requirements" format="html" scope="external"
+    >Twitter’s Display Requirements</xref> documentation.</p>
+  <p>Twitter mandates the following presentation requirements:</p>
+  <ul id="ul_gpr_3lg_xz">
+   <li>Online (web and mobile) display must include all of the following:<ul id="ul_hpr_3lg_xz">
+     <li>Twitter logo</li>
+     <li>Username, @handle, avatar</li>
+     <li>Unaltered Tweet text</li>
+     <li>Twitter actions (Reply, Retweet, Like)</li>
+     <li>Timestamp</li>
+    </ul></li>
+   <li>Passive display (broadcast, in-venue, digital out of home) must include at least the
+     following:<ul id="ul_ipr_3lg_xz">
+     <li>Twitter logo</li>
+     <li>Unaltered Tweet text (can remove the links if not contextually relevant)</li>
+     <li>Username and handle</li>
+    </ul></li>
+   <li>Tweets cannot be used near advertising or in a way that implies endorsement.</li>
+   <li>Tweets or Twitter content cannot be used in an ad unless you have express consent from the
+    user.</li>
+  </ul>
+ </conbody>
+</concept>

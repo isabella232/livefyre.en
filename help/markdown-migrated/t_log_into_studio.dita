@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_log_into_studio">
+    <title>Log into Studio</title>
+    <shortdesc>Once your network account is connected to your Studio account, you can access Studio
+        through your bookmarked links or through any Livefyre App. </shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>From an App, select <uicontrol>Studio</uicontrol> from your
+                        <uicontrol>Account</uicontrol> pulldown.</cmd>
+            </step>
+            <step>
+                <cmd>Livefyre redirects you to the Studio sign in page or to Studio if your session
+                    expired.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

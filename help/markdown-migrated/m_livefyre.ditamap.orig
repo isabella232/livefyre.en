@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Livefyre</title>
+ <topicref href="home.xml" navtitle="Livefyre Help" format="dita" scope="local"/>
+ <topicref href="c_anouncements.dita" navtitle="Announcements" format="dita" scope="local"/>
+ <topicref href="c_access_training_videos.dita" navtitle="Access Training Videos" format="dita" scope="local"/>
+ <topicref format="dita" scope="local" href="c_product.dita" navtitle="Product">
+  <topicref format="dita" scope="local" href="c_about_apps.dita" navtitle="Apps">
+   <topicref href="c_create_an_app.dita" navtitle="Create an App"/>
+   <topicref format="dita" scope="local" href="c_carousel_app.dita" navtitle="Carousel"/>
+   <topicref format="dita" scope="local" href="c_chat_app.dita" navtitle="Chat"/>
+   <topicref href="c_comments.dita" navtitle="Comments"/>
+   <topicref format="dita" scope="local" href="c_feature_card_app.dita" navtitle="Feature Card"/>
+   <topicref href="c_filmstrip_app.dita" navtitle="Filmstrip"/>
+   <topicref format="dita" scope="local" href="c_liveblog_app.dita" navtitle="Live Blog"/>
+   <topicref format="dita" scope="local" href="c_map_app.dita" navtitle="Map"/>
+   <topicref format="dita" scope="local" href="c_media_wall_app.dita" navtitle="Media Wall"/>
+   <topicref format="dita" scope="local" href="c_mosaic_app.dita" navtitle="Mosaic"/>
+   <topicref format="dita" scope="local" href="c_polls_app.dita" navtitle="Polls"/>
+   <topicref format="dita" scope="local" href="c_reviews_app.dita" navtitle="Reviews"/>
+   <topicref format="dita" scope="local" href="c_sidenotes_app.dita" navtitle="Sidenotes"/>
+   <topicref href="c_storify2.dita" navtitle="Storify 2">
+    <topicref href="c_configuration_options.dita" navtitle="Configuration Options"/>
+    <topicref href="c_storify_settings.dita" navtitle="Storify Settings"/>
+    <topicref href="t_use_google_amp_with_storify_2.dita" navtitle="Use Google AMP with Storify 2"/>
+    <topicref href="t_create_a_story.dita" navtitle="Create a Story">
+     <topicref href="t_add_social_content.dita" navtitle="Add Social Content"/>
+     <topicref href="t_add_local_content.dita" navtitle="Add Text"/>
+    </topicref>
+    <topicref href="t_preview_a_story.dita" navtitle="Preview a Story"/>
+    <topicref href="t_publish_a_story.dita" navtitle="Publish a Story"/>
+    <topicref href="t_review_storify2_history.dita" navtitle="Review History"/>
+    <topicref href="t_working_with_multiple_editors_on_same_story.dita" navtitle="Working with Multiple Editors on the Same Story"/>
+    <topicref href="t_use_streams_to_add_social_content.dita" navtitle="Use Streams to Add Social Content to your Story"/>
+    <topicref href="t_pin_posts_to_storify2.dita" navtitle="Pin a Post to Storify 2"/>
+    <topicref href="c_navigation_guide.dita" navtitle="Navigation Guide">
+     <topicref href="t_add_navigation_guide_to_storify2.dita" navtitle="Add a Navigation Guide to a Storify 2"/>
+     <topicref href="t_add_a_title_to_the_navigation_guide.dita" navtitle="Add a Title to the Navigation Guide"/>
+     <topicref href="t_add_posts_to_the_navigation_guide.dita" navtitle="Add Posts to the Navigation Guide"/>
+     <topicref href="t_set_the_number_of_posts_nav_guide.dita" navtitle="Set the Number of Posts in the Navigation Guide"/>
+     <topicref href="t_make_nav_guide_sticky.dita" navtitle="Make the Navigation Guide Sticky"/>
+     <topicref href="t_move_navigation_guide.dita" navtitle="Move the Navigation Guide"/>
+    </topicref>
+   </topicref>
+   <topicref format="dita" scope="local" href="c_trending_app.dita" navtitle="Trending"/>
+   <topicref format="dita" scope="local" href="c_upload_button_app.dita" navtitle="Upload Button"/>
+  </topicref>
+  <topicref format="dita" scope="local" href="c_features_livefyre.dita" navtitle="App Features">
+   <topicref href="c_accessibility_features.dita" navtitle="Accessibility Features"/>
+   <topicref href="c_authentication.dita" navtitle="Authentication Features"/>
+   <topicref href="c_content_behavior_features_comp.dita" navtitle="Content Behavior Features"/>
+   <topicref href="c_content_collection_tags_comp.dita" navtitle="Collection and Content Tags"/>
+   <topicref href="c_custom_html_comp.dita" navtitle="Custom HTML"/>
+   <topicref href="c_enagement_features.dita" navtitle="Enagement Features"/>
+   <topicref href="c_listener_count.dita" navtitle="Listener Count"/>
+   <topicref href="c_miscellaneous_features.dita" navtitle="Miscellaneous Features"/>
+   <topicref href="c_moderation_features_comp.dita" navtitle="Moderation Features"/>
+   <topicref href="c_notifications_features_comp.dita" navtitle="Notifications Features"/>
+   <topicref href="c_on_site_contribution_features.dita" navtitle="On-Site Contribution Features"/>
+   <topicref href="c_referral_tracking.dita" navtitle="Referral Tracking"/>
+   <topicref href="c_smart_tags.dita" navtitle="Smart Tags"/>
+   <topicref href="c_setting_up_social_sharing_comp.dita" navtitle="Social Sharing"/>
+   <topicref href="c_socialsync_comp.dita" navtitle="SocialSync"/>
+   <topicref href="c_sort_features_composite.dita" navtitle="Sort Features"/>
+   <topicref href="c_styling_features_comp.dita" navtitle="Styling Features"/>
+   <topicref href="c_custom_text_strings.dita" navtitle="Translation and Custom Text Strings"/>
+   <topicref href="c_ugc_commerce.dita" navtitle="UGC Commerce"/>
+  </topicref>
+  <topicref format="dita" scope="local" href="c_library.dita" navtitle="Library"/>
+  <topicref format="dita" scope="local" href="c_streams.dita" navtitle="Streams"/>
+  <topicref format="dita" scope="local" href="c_about_moderation.dita"
+   navtitle="Moderation and Filtering">
+   <topicref href="c_setting_up_moderation.dita"/>
+   <topicref href="t_moderate_streams.dita"/>
+   <topicref href="t_set_up_bans.dita"/>
+   <topicref href="c_profanity_filter.dita"/>
+   <topicref href="t_moderate_users_modq.dita"/>
+   <topicref href="c_assets.dita">
+    <topicref href="t_create_folders.dita"/>
+    <topicref href="t_manage_assets.dita"/>
+    <topicref href="t_manage_folders.dita"/>
+    <topicref href="t_publish_assets_to_apps.dita"/>
+    <topicref href="t_search_for_assets.dita"/>
+   </topicref>
+  </topicref>
+  <topicref href="c_modq.dita">
+   <topicref href="t_add_trashed_item_back_into_app.dita"/>
+   <topicref href="r_modq_keyboard_shortcuts.dita"/>
+  </topicref>
+  <topicref format="dita" scope="local" href="c_users.dita"
+   navtitle="Users: Managing Studio and Livefyre Network Users"/>
+  <topicref href="c_users_creating_accounts_with_studio_access.dita" navtitle="Users: Creating Accounts with Studio Access"/>
+  <topicref href="c_settings_rights_requests.dita" navtitle="Setting: Rights Requests"/>
+  <topicref href="c_settings.dita" navtitle="Settings: Set Up and Social Accounts"/>
+  <topicref href="c_translation_sets.dita" navtitle="Translation Sets"/>
+  <topicref href="c_livefyre_mobile_app.dita" navtitle="Livefyre Mobile App" format="dita" scope="local">
+   <topicref href="t_log_in_to_the_livefyre_mobile_app.dita" navtitle="Log in to the Livefyre Mobile App" format="dita" scope="local"/>
+   <topicref href="t_create_a_post_using_the_livefyre_mobile_app.dita" navtitle="Create a Post Using the Livefyre Mobile App" format="dita" scope="local"/>
+   <topicref href="t_delete_media_from_a_post_using_the_livefyre_mobile_app.dita" navtitle="Delete Media from a Post Using the Livefyre Mobile App" format="dita" scope="local"/>
+   <topicref href="t_save_post_as_a_draft_using_the_livefyre_mobile_app.dita" navtitle="Save Post as a Draft Using the Livefyre Mobile App" format="dita" scope="local"/>
+   <topicref href="t_upload_media_to_a_folder_using_the_livefyre_mobile_app.dita" navtitle="Upload Media to a Folder Using the Livefyre Mobile App" format="dita" scope="local"/>
+   <topicref href="t_switch_networks_using_the_livefyre_mobile_app.dita" navtitle="Switch Networks Using the Livefyre Mobile App" format="dita" scope="local"/>
+   <topicref href="t_publish_a_post_to_storify_2_using_the_livefyre_mobile_app.dita" navtitle="Publish a Post to Storify 2 Using the Livefyre Mobile App" format="dita" scope="local"/>
+  </topicref>
+  <topicref href="c_ssl_enforcement.dita" navtitle="SSL Enforcement"/>
+  <topicref href="c_gdpr_compliance.dita" navtitle="Privacy Requests (GDPR-Ready)"/>
+ </topicref>
+ <topicref format="dita" scope="local" href="c_developer_docs.dita" navtitle="Developer Docs">
+  <topicref format="dita" scope="local" href="c_getting_started.dita"
+   navtitle="Getting Started with Livefyre Integration">
+   <topicref href="c_implementation_process.dita"/>
+   <topicref href="c_app_integration_types.dita"/>
+   <topicref href="c_architecture.dita"/>
+   <topicref href="c_device_and_browser_support.dita"/>
+  </topicref>
+  <topicref format="dita" scope="local"
+   href="c_using_livefyre.js_to_create_customize_and_use_apps_on_your_site.dita"
+   navtitle="Embed an App">
+   <topicref href="c_add_authetication_to_an_app_using_livefyre.js.dita"/>
+   <topicref href="c_build_server_side_tokens.dita"/>
+   <topicref href="t_create_a_collectionmeta_token.dita"/>
+   <topicref href="c_collectionmeta_tokent.dita"/>
+   <topicref href="c_creating_a_checksum.dita"/>
+   <topicref href="c_user_auth_token.dita"/>
+  </topicref>
+  <topicref href="t_about_identity_integration.dita" navtitle="Identity: Identity Integration"/>
+  <topicref href="c_emails_for_livefyre_identity.dita" navtitle="Identity: Emails for Livefyre Identity"/>
+  <topicref href="c_livefyre_identity_comp.dita" navtitle="Identity: Livefyre Identity"/>
+  <topicref href="c_your_identity_service_comp.dita" navtitle="Identity: Your Identity Service"/>
+  <topicref href="c_janrain_capture_backplane_comp.dita" navtitle="Identity: Janrain Capture/Backplane"/>
+  <topicref href="c_importing_content_comp.dita" navtitle="Import User Profiles, Content, Ratings, and Reviews"/>
+  <topicref format="dita" scope="local" href="c_cms_plugins.dita" navtitle="Livefyre Plugin for WordPress"/>
+  <topicref format="dita" scope="local" href="c_installing_libraries.dita" navtitle="Libraries"/>
+  <topicref href="c_javascript_events_byapp.dita" navtitle="JavaScript Events"/>
+  <topicref href="c_livefyre_analytics.dita" navtitle="Livefyre Analytics">
+   <topicref href="c_use_livefyre_with_adobe_analytics.dita" navtitle="Use Livefyre with Adobe Analytics And Dynamic Tag Manager"/>
+   <topicref href="c_livefyre_analytics_events.dita" navtitle="Livefyre Analytics Events"/>
+  </topicref>
+  <topicref format="dita" scope="local" href="c_translation_sets.dita" navtitle="Translation Sets"/>
+  <topicref href="c_sdks.dita" navtitle="Mobile SDKs"/>
+  <topicref format="dita" scope="local" href="c_advanced_topics.dita" navtitle="Advanced Topics">
+   <topicref href="t_display_comment_count.dita" navtitle="Display Comment Count"/>
+   <topicref href="c_enabling_social_sharing.dita" navtitle="Enabling Social Sharing"/>
+   <topicref href="c_activity_stream.dita" navtitle="Activity Stream"/>
+   <topicref href="c_bootstrap_html.dita" navtitle="Bootstrap HTML"/>
+   <topicref href="c_change_collection.dita" navtitle="Change Collection"/>
+   <topicref href="c_multiple_collections.dita" navtitle="Multiple Collections"/>
+   <topicref href="c_switch_core_app_types.dita" navtitle="Switch Core App Types"/>
+   <topicref href="c_social_counter.dita" navtitle="Social Counter"/>
+  </topicref>
+  <topicref format="dita" scope="local" href="c_reference.dita" navtitle="Reference: Tokens and Policies"/>
+  <topicref href="c_reference_app_customizations_comp.dita" navtitle="Reference: App Customizations"/>
+  <topicref href="c_reference_livefyre.js_comp.dita" navtitle="Reference: Livefyre.js"/>
+  <topicref href="c_implement_a_conversation_app.dita" navtitle="Reference: Implement a Conversation App"/>
+<<<<<<< HEAD
+  <topicref href="c_reference_implement_a_visualization_app.dita" navtitle="Reference: How to Implement a Visualization App"/>
+  <topicref href="c_livefyre_aem_integration.dita"/>
+=======
+  <topicref href="c_reference_implement_a_visualization_app.dita" navtitle="Reference: Implement a Visualization App"/>
+>>>>>>> 75500771b997f0f7ff57768ed2c67a5c9c945ced
+ </topicref>
+ <topicref format="dita" scope="local" href="c_rn.dita" navtitle="Livefyre Release Notes">
+  <topicref format="dita" scope="local" href="c_previous_release_notes.dita" navtitle="Previous Release Notes"/>
+ </topicref>
+</map>

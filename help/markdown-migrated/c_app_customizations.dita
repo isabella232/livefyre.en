@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_app_customizations">
+ <title>App Customizations</title>
+ <shortdesc>Customize App display options to match your branding and style and add custom
+  functionality.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>Available for Chat, Comments, Live Blog, Reviews, and Sidenotes.</p>
+  <p>Livefyre offers several means by which you may change your Apps’ interaction and display
+   options to fit your style and engage your audience.</p>
+  <note>These customizations are available only for those Apps which depend upon user posts, and
+   which are configured using a ConvConfig object: Chat, Comments, Live Blog, Reviews, and
+   Sidenotes.</note>
+  <ul id="ul_grq_bph_xz">
+   <li>
+    <p><b>Change Display Options</b></p>
+    <p>Change display options for your Apps using CSS classes, localized text strings, and App
+     element and media restrictions.</p>
+   </li>
+   <li>
+    <p><b>Highlight Content</b></p>
+    <p>Use styling to feature and promote selected content or user groups.</p>
+   </li>
+   <li>
+    <p><b>Add Custom Buttons</b></p>
+    <p>Trigger custom actions when users interact with your Livefyre App.</p>
+   </li>
+   <li>
+    <p><b>Listen to App Events</b></p>
+    <p>Use available JavaScript events to further customize and track your user experience.</p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

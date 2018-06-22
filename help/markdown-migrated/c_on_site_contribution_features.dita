@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="c_on_site_contribution_features">
+  <title>On-Site Contribution Features</title>
+  <shortdesc>Choose how site visitors interact with Apps and in what ways they can interact with the
+  content.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>On this page:</p>
+    <ul id="ul_o14_jyz_fcb">
+      <li>
+        <xref href="#c_on_site_contribution_features/section_tdg_zsr_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_on_site_contribution_features/section_pwy_m2s_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_on_site_contribution_features/section_mlm_42s_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_on_site_contribution_features/section_vzs_t2s_d1b" format="dita" />
+      </li>
+      <li>
+        <xref href="#c_on_site_contribution_features/section_azw_dx4_h1b" format="dita" />
+      </li>
+    </ul>
+    <section id="section_tdg_zsr_d1b">
+      <title>Poll Contribution</title>
+      <p>You can add the ability for end users to vote in a poll. Embed the poll on a page for site
+    visitors to contribute and cast a vote. </p>
+      <p>You do not need to set up authentication to use this feature.</p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_fm2_2w4_h1b">
+        <li>
+          <xref href="c_polls_app.dita#c_polls_app">Polls</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_pwy_m2s_d1b">
+      <title>Text Upload</title>
+      <p>Site visitors can contribute to the App by writing text posts. This can be done using
+    conversation Apps or the Upload button for visualization Apps. </p>
+      <p>You must set up authentication to use this feature. </p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_ckn_2w4_h1b">
+        <li>
+          <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+        </li>
+        <li>
+          <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+        </li>
+        <li>
+          <xref href="c_polls_app.dita#c_polls_app">Polls</xref>
+        </li>
+        <li>
+          <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+        </li>
+        <li>
+          <xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref>
+        </li>
+        <li>
+          <xref href="c_storify2.dita#c_storify2">Storify 2</xref>
+        </li>
+        <li>
+          <xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_mlm_42s_d1b">
+      <title>Video Upload</title>
+      <p>Site visitors can contribute to the App by uploading videos. This can be done using
+    conversation apps or the "upload button" for visualization apps. Consult the documentation for
+    individual apps for more information on whether an app supports this feature. requires auth</p>
+      <p>You must set up authentication to use this feature. </p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_zwr_2w4_h1b">
+        <li>
+          <xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_vzs_t2s_d1b">
+      <title>Upload Button Compatible</title>
+      <p>You can choose to display an Upload button on your App that allows site visitors to upload
+    text or media to an app or your library.</p>
+      <p>Trending, Polls, and Storify 2 are not compatible with the Upload Button.</p>
+      <p>You must set up authentication to use this feature. </p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_yvy_2w4_h1b">
+        <li>
+          <xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref>
+        </li>
+        <li>
+          <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+        </li>
+        <li>
+          <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+        </li>
+        <li>
+          <xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref>
+        </li>
+        <li>
+          <xref href="c_map_app.dita#c_map_app">Map</xref>
+        </li>
+        <li>
+          <xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref>
+        </li>
+        <li>
+          <xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref>
+        </li>
+        <li>
+          <xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref>
+        </li>
+      </ul>
+    </section>
+    <section id="section_azw_dx4_h1b">
+      <title>User Results</title>
+      <p>View the number of times a user selected each answer in a poll.</p>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_qzp_ccj_h1b">
+        <li>
+          <xref href="c_polls_app.dita#c_polls_app">Polls</xref>
+        </li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

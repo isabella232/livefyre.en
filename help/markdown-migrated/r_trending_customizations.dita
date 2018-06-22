@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_trending_customizations">
+  <title>Trending Customizations</title>
+  <shortdesc>Change the size, width, and interaction options of the Map app.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <properties id="properties_gcq_vvm_5y">
+      <prophead>
+        <proptypehd>Element</proptypehd>
+        <propdeschd>Default Text</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Site</proptype>
+        <propdesc>Enter the site from which your Trends Apps will be selected.</propdesc>
+      </property>
+      <property>
+        <proptype>Filter by App Tag</proptype>
+        <propdesc>Enter an <uicontrol>App Tag</uicontrol> by which Trends will be filtered, if
+          desired. Use App Tags to define specific Apps you wish to include within Trends. You may
+          enter only one tag in this field.</propdesc>
+      </property>
+      <property>
+        <proptype>App count</proptype>
+        <propdesc>Enter the number of (most active) Apps to display.</propdesc>
+      </property>
+      <property>
+        <proptype>Include bar graph</proptype>
+        <propdesc>If enabled, your App will display bar graphs with the Apps list.</propdesc>
+      </property>
+      <property>
+        <proptype>App permalinks</proptype>
+        <propdesc>If enabled, clicking the title of an App will open it in a new tab.</propdesc>
+      </property>
+    </properties>
+    <section>
+      
+        <p>Trending Apps allow you to showcase the most active Apps across a given site by
+          displaying top Apps from most to least active, with a bar graph showing the relative
+          popularity for each App displayed.</p>
+      
+ 
+        <p>You can customize Comments using:</p>
+        <ul id="ul_xwz_hng_sy">
+          <li><uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all Apps in
+            the <uicontrol>App Designer</uicontrol>. See Customizing Apps for details on the
+            standard <uicontrol>Style</uicontrol> and <uicontrol>Config</uicontrol> options for all
+            Apps in the <uicontrol>App Designer</uicontrol>.</li>
+          <li>Integration tools. See Trending for more on how to customize Apps using Integration
+            Tools.</li>
+        </ul>
+      
+    </section>
+  </refbody>
+</reference>

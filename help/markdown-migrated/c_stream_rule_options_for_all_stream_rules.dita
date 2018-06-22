@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_stream_rule_options_for_all_stream_rules">
+ <title>Stream Rule Options for All Stream Rules</title>
+ <shortdesc>These options apply for any stream rules from all social networks or posting
+    methods.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+  <p>Search features for text and keyword fields:<ul id="ul_zgy_dk2_r1b">
+        <li>When you enter keywords, Livefyre automatically uses the Boolean operator <b>OR</b>when
+          for individual words. For example, to search for posts with either the word <i>cake</i> or
+            <i>recipe</i>, enter <i>cake</i>, then enter <i>recipe</i> in the
+            <uicontrol>keyword</uicontrol> field.</li>
+        <li>You can search for exact phrases by surrounding the exact phrase text in quotes. For
+          example, to search for the exact phrase <i>cake recipe</i>, enter <i>"cake recipe"</i> in
+          the <uicontrol>keyword</uicontrol> field.</li>
+        <li>You can combine the Boolean and exact phrase searches in one stream rule. For example,
+          you can search for <i>cake</i>, <i>recipe</i>, and <i>"cake recipe"</i> by entering each
+          phrase one at a time.</li>
+      </ul></p>
+    <p><uicontrol>Additional Filters</uicontrol>:</p>
+    <ul id="ul_nbs_qnf_p1b">
+      <li>
+        <uicontrol>Media</uicontrol>. Select one of the following:<ul id="ul_rvk_php_scb">
+          <li><uicontrol>All Content.</uicontrol> Allow any content.</li>
+          <li><uicontrol>Media Required.</uicontrol> Allow only content with images and videos. (For
+            Instagram and Facebook content, you can specify <uicontrol>Photos</uicontrol> or
+              <uicontrol>Videos</uicontrol> only).</li>
+        </ul></li>
+      <li><uicontrol>Language</uicontrol>. Choose the language to search in. English is the default
+        language.</li>
+      <li><uicontrol>Smart Tags</uicontrol>. Choose the tags to use to identify content. Livefyre
+        uses image recognition technology to identify photos with specific smart tags to make this
+        search more precise. Use the <uicontrol>ANY</uicontrol> modifier to filter content into the
+        stream using any tag or the <uicontrol>ALL</uicontrol> modifier to filter content into the
+        stream that uses all tags. Use the <uicontrol>Image contains none of these smart
+          tags</uicontrol> field to enter tags for photos containing content you do not want in the
+        stream. This filter option only works for content with images. This option does not work for
+        video or text content. </li>
+      <li>
+        <uicontrol>Products </uicontrol>. Add product tags to match the stream rule with products
+        from your product catalog.</li>
+      <li>
+        <uicontrol>Premoderate</uicontrol>. Select one of the following:<ul id="ul_ocr_pqf_p1b">
+          <li><uicontrol>On</uicontrol>. Premoderate all incoming rule content. You can view
+            premoderated content from the Streams section of ModQ. <uicontrol>On</uicontrol>
+            overrides the settings in App Settings.</li>
+          <li><uicontrol>Off</uicontrol>. Do not premoderate any incoming rule content.
+              <uicontrol>Off</uicontrol> overrides the settings in App Settings.</li>
+          <li><uicontrol>Inherited (Off)</uicontrol>. Use the premoderate settings from the site
+            (under <uicontrol>Site Settings</uicontrol>).</li>
+        </ul></li>
+      <li>
+        <uicontrol>SAFE Rules</uicontrol>. Select one of the following:<ul id="ul_pb3_jqf_p1b">
+          <li><uicontrol>Apply SAFE Rules</uicontrol>. Apply all SAFE Rules to this stream.</li>
+          <li><uicontrol>Apply SAFE Rules for:</uicontrol> Select one or more of the options to
+            apply SAFE Rules for this stream rule.</li>
+          <li><uicontrol>Disable SAFE Rules</uicontrol>. Do not apply any SAFE Rules to this
+            stream.</li>
+        </ul></li>
+    </ul>
+  <p>For Stream rule options specific to a social network or content type, see the following
+   documentation for the respective social network or content type:</p>
+  <ul id="ul_krl_nnf_p1b">
+   <li><xref href="c_facebook_rules.dita#c_facebook_rules">Facebook</xref></li>
+   <li><xref href="c_facebook_page_rules.dita#c_facebook_page_rules">Facebook Pages</xref></li>
+   <li><xref href="c_email_rules.dita#c_email_rules">Email</xref></li>
+   <li><xref href="c_instagram_rules.dita#c_instagram_rules">Instagram</xref></li>
+   <li><xref href="c_tumblr_rules.dita#c_tumblr_rules">Tumblr</xref></li>
+   <li><xref href="c_twitter_rules.dita#c_twitter_rules">Twitter</xref></li>
+   <li><xref href="c_youtube_rules.dita#c_youtube_rules">YouTube</xref></li>
+   <li><xref href="c_rss_rules_streams.dita#c_rss_rules_streams">RSS</xref></li>
+  </ul>
+ </conbody>
+</concept>

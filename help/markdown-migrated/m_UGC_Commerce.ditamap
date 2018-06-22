@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>UGC Commerce</title>
+ <topicref href="c_ugc_commerce.dita"/>
+ <topicref href="r_media_wall_customizations.dita"/>
+ <topicref href="c_mosaic_customizations.dita"/>
+ <topicref href="c_stream_rule_options_for_all_stream_rules.dita"/>
+ <topicref href="t_approve_content_from_modq.dita"/>
+</map>

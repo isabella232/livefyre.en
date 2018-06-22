@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_posting_user_permissions_to_external_systems">
+ <title>Posting User Permissions to External Systems (Optional)</title>
+ <shortdesc>Livefyre uses a PUSH interface to send an external system information about changes to
+  user permissions.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <table frame="all" rowsep="1" colsep="1" id="table_trz_nxf_gz">
+   <title>Types of Users in Livefyre Studio</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>User Type</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><b>owner</b></entry>
+      <entry>
+       <p>This user is an owner, and can both moderate content, and assign new moderators.</p>
+      </entry>
+     </row>
+     <row>
+      <entry><b>admin</b></entry>
+      <entry>
+       <p>This user is a moderator, and can moderate content.</p>
+      </entry>
+     </row>
+     <row>
+      <entry><b>member</b></entry>
+      <entry>
+       <p>This user is whitelisted. Posted content does not pass through spam or profanity filters,
+        and does not require approval in pre-moderated streams.</p>
+      </entry>
+     </row>
+     <row>
+      <entry><b>none</b></entry>
+      <entry>
+       <p>This user is a standard user, and has no special permissions.</p>
+      </entry>
+     </row>
+     <row>
+      <entry><b>outcast</b></entry>
+      <entry>
+       <p>This user has been banned from participating in any conversations.</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>To post user permissions to external systems, you must register a URL that receives permissions
+   data as POST requests.</p>
+  <p>For example:</p>
+  <codeblock>POST https://{networkName}.quill.fyre.co/?actor_token={token}&amp;push_affiliation_url={url}</codeblock>
+  <table frame="all" rowsep="1" colsep="1" id="table_cgn_xxf_gz">
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Parameter</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><b>networkName</b></entry>
+      <entry>
+       <p>Your Livefyre provided network name.</p>
+      </entry>
+     </row>
+     <row>
+      <entry><b>token</b></entry>
+      <entry>
+       <p>Valid system token.</p>
+      </entry>
+     </row>
+     <row>
+      <entry><b>url</b></entry>
+      <entry>
+       <p>URL to register.</p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>The URL registered should accept POSTs with the following data as content-type:
+   application/x-www-form-urlencoded.</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_obz_1yf_gz">
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Parameter</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><b>jid</b></entry>
+      <entry>
+       <p>JID of the user whose affiliation is changed. A JID is a string of the form
+        user_id@network.</p>
+      </entry>
+     </row>
+     <row>
+      <entry><b>affiliation</b></entry>
+      <entry>
+       <p>Name of the permissions assigned, which must be one of the following: <keyword>{admin |
+         member | none | outcast | owner}</keyword></p>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>For additional information on updating user affiliation settings, see the <xref
+    href="http://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post"
+    format="html" scope="external">Add User Affiliation API Reference</xref>.</p>
+ </conbody>
+</concept>

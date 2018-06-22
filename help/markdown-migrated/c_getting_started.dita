@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_getting_started">
+    <title>Developers: Getting Started with Livefyre Integration</title>
+    <shortdesc>Learn how to get started by building a fully working Livefyre App. Build off that App
+      to handle basic authentication, social sharing, and event tracking.</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody>
+      <draft-comment author="ind14750" otherprops="merge">c_getting_started.dita</draft-comment>
+      <p>When you get started with Livefyre, you will:</p>
+      <ul id="ul_ozj_ccx_qbb">
+        <li>Perform the <xref href="c_implementation_process.dita#c_implementation_process"/>.</li>
+        <li>Decide your use case for implementing Livefyre Apps. </li>
+        <li>
+          <p>Decide whether you want to use visualization Apps, conversation Apps, or both. </p>
+          <p>Visualization Apps are Apps that display content visually, including Carousel,
+            Filmstrip, Media Wall, and Mosaic.</p>
+          <p>Conversation Apps are Apps that engage a site visitor in writing content that other
+            site visitors can read, including Comments, Chat, and Reviews.</p>
+        </li>
+        <li>Decide if you will need authentication. If you already have a user management system
+          (for example, Janrain, Giya), you can integrate it with Livefyre. If you don't, you can
+          use Livefyre Identity, a built-in, lightweight user management system. For more about
+          integrating authentication, see <xref href="t_about_identity_integration.dita#t_about_identity_integration" />.</li>
+      </ul>
+    </conbody>
+  </concept>
+</dita>

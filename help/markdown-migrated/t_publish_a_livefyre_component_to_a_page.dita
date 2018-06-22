@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_publish_a_livefyre_component_to_a_page">
+    <title>Publish a Livefyre Component to a Page</title>
+    <shortdesc>Follow these steps to publish a Livefyre Component to a page in AEM.</shortdesc>
+    <taskbody>
+        <steps>
+            <!--hrk 4/17/17 need to add links to the tasks below.-->
+            <step>
+                <cmd>Configure AEM to use Livefyre.</cmd>
+            </step>
+            <step>
+                <cmd>Enable the Livefyre Cloud Service for a Page</cmd>
+            </step>
+            <step>
+                <cmd>Add a Livefyre Component to a page.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the App in Livefyre Studio to stream social content into the App.</cmd>
+            </step>
+            <step>
+                <cmd>Publish the AEM page to make the App available to your AEM site or community.
+                    For more information on how to publish pages using AEM, see Publishing Pages on
+                    docs.adobe.com.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

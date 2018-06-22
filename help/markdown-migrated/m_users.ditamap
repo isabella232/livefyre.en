@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Users</title>
+ <topicref format="dita" scope="local" href="c_users.dita" navtitle="Users">
+  <topicref format="dita" scope="local" href="t_search_for_users.dita" navtitle="Search for Users"/>
+  <topicref format="dita" scope="local" href="c_viewing_account_details.dita" navtitle="Viewing Account Details"/>
+  <topicref format="dita" scope="local" href="t_ban_a_user.dita" navtitle="Ban a User"/>
+  <topicref format="dita" scope="local" href="t_whitelist_a_user.dita" navtitle="Whitelist a User"/>
+  <topicref format="dita" scope="local" href="t_manage_studio_permissions_for_users.dita"
+   navtitle="Manage Studio Permissions for Users"/>
+  <topicref format="dita" scope="local" href="c_creating_user_accounts.dita" navtitle="Creating User Accounts">
+   <topicref format="dita" scope="local" href="c_user_types.dita" navtitle="User Roles and Permissions"/>
+   <topicref format="dita" scope="local" href="t_invite_a_user_to_create_a_studio_account.dita"
+    navtitle="Invite a User to Create a Studio Account"/>
+   <topicref format="dita" scope="local" href="t_accept_an_invitation_to_create_a_studio_account.dita"
+    navtitle="Accept an Invitation to Create a Studio Account"/>
+   <topicref format="dita" scope="local" href="t_log_into_studio.dita" navtitle="Log into Studio"/>
+   <topicref format="dita" scope="local" href="t_link_user_accounts.dita" navtitle="Link User Accounts"/>
+   <topicref format="dita" scope="local" href="t_set_up_network_email.dita" navtitle="Set Up Network Email"/>
+   <topicref format="dita" scope="local" href="c_users_switching_networks.dita" navtitle="Users Switching Networks"/>
+   <topicref format="dita" scope="local" href="t_set_up_user_sync.dita" navtitle="Set Up User Sync"/>
+  </topicref>
+ </topicref>
+</map>

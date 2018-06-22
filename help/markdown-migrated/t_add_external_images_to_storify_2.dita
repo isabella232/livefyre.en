@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_external_images_to_storify_2">
+    <title>Add External Links to a Storify 2</title>
+    <shortdesc>Insert a clickable link to any URL.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Highlight any text in the story to position your link.</cmd>
+            </step>
+            <step>
+                <cmd>Click the link button that appears in the text editor toolbar beneath the
+                    text.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the URL for the link.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Return</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

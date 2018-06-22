@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_rn_2017_february_9">
+ <title>February 9, 2017</title>
+ <shortdesc>Release Notes for the February 9, 2017 release.</shortdesc>
+ <conbody>
+  <section id="section_nv4_yry_wy">
+   <title>SocialSync for Twitter</title>
+   <p>SocialSync for Twitter has been a part of our core functionality for several years. However,
+    as our product has developed and grown over time, SocialSync for Twitter has become a
+    lower-value feature that is currently used by a very small portion of our customer base. To
+    improve the overall experience of Livefyre for our customers and focus development resources in
+    areas of greatest value, we will be discontinuing the SocialSync for Twitter feature on February
+    24. SocialSync for Facebook will be unaffected by this update. If you have any questions or
+    concerns about this update, please reach out to your Livefyre CSM. </p>
+  </section>
+  <section id="section_r24_1m2_wy">
+   <title>Production Release</title>
+   <table id="table_t4j_gxt_wy">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+     <thead>
+      <row>
+       <entry><b>Issue Type</b></entry>
+       <entry><b>Component</b></entry>
+       <entry><b>Release Note</b></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Bug</entry>
+       <entry>Media Wall</entry>
+       <entry>
+        <p>Fixed a bug that allows Facebook videos to play appropriately.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>ModQ</entry>
+       <entry>
+        <p>Fixed a bug that prevented Email Subjects from not displaying in Email Stream
+         Content.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Mosaic</entry>
+       <entry>
+        <p>Added additional accessibility support to Mosaic to allow users to shift tab between
+         content cards.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Reviews</entry>
+       <entry>
+        <p>Fixed a bug that was preventing rating edits to appear appropriately.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Social Search</entry>
+       <entry>
+        <p>Fixed a bug that caused the Show More button to be cut off on Twitter List Search
+         results.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Enhancement</entry>
+       <entry>Storify 2</entry>
+       <entry>
+        <p>Enhanced Storify 2 to support Copywrite Free content search. Copywrite Free searches
+         across Flickr, Noun Project, Kuler, Pixabay and Unsplash for copywrite free images.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Fixed a bug that prevented Tumblr stream rules from saving.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Fixed a bug that produced incorrect Generator Ids in the Collection JSON for RSS
+         Feeds.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Enhancement</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Made an adjustment to the setting of "Verified accounts only" option to be disabled by
+         default.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Enhancement</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Added a new feature to allow categories of content (via a Stream Rule) to be whitelisted
+         and bypass moderation.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Fixed a bug that caused "Premoderate" and "Media Premoderate" settings to carry over to a
+         newly created Stream rule.</p>
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+  <section id="section_dyx_yl2_wy">
+   <title>UAT Release</title>
+   <table id="table_u4j_gxt_wy">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+    <thead>
+     <row>
+      <entry><b>Issue Type</b></entry>
+      <entry><b>Component</b></entry>
+      <entry><b>Release Note</b></entry>
+     </row>
+    </thead>
+     <tbody>
+      <row>
+       <entry>Bug</entry>
+       <entry>Conversation Apps</entry>
+       <entry>
+        <p>Enhanced Conversation Apps to always link out to user profiles, even without a full auth
+         integration.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Mosaic</entry>
+       <entry>
+        <p>Fixed a bug that now serves all Twitter images via HTTPS.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Social Search</entry>
+       <entry>
+        <p>Fixed a bug that caused the green "saved" checkmark to not appear when saving assets in
+         Social Search and viewing assets in Library.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Social Search</entry>
+       <entry>
+        <p>Fixed a bug that prevented the "Conceal explicit images" option from functioning
+         properly.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Enhancement</entry>
+       <entry>Storify 2</entry>
+       <entry>
+        <p>Enhanced Storify 2 to support permalinks opening a modal (previously the app would scroll
+         to the post location on the page). In Storify 2's Designer, we have added a configuration
+         to toggle between Scroll and Modal permalink behavior. Modal permalink behavior will be
+         default behavior.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Enhancement</entry>
+       <entry>Storify 2</entry>
+       <entry>
+        <p>Enhanced the Storify 2 Google AMP integration to produce a smaller CSS file.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Enhanced content (images and videos) from Email Stream Rules to be available via
+         HTTPS.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Added a label for the Mile Radius Value in maps in Twitter Stream Rules.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Streams</entry>
+       <entry>
+        <p>Fixed a bug with Facebook and Facebook Page Steam Rules to pull in posts with multiple
+         media attachments appropriately.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Studio</entry>
+       <entry>
+        <p>Fixed a bug that caused multiple &amp;'s from getting appended to the URL when using
+         filters in Studio.</p>
+       </entry>
+      </row>
+      <row>
+       <entry>Bug</entry>
+       <entry>Studio</entry>
+       <entry>
+        <p>Fixed a bug that prevented certain checkboxes in Studio filters from allowing to be
+         unchecked.</p>
+       </entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+ </conbody>
+</concept>

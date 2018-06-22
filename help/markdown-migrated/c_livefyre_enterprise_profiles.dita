@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_livefyre_enterprise_profiles">
+ <title>Livefyre Enterprise Profiles</title>
+ <shortdesc>Work with Livefyre’s all-in-one user management system.</shortdesc>
+ <conbody>
+  <p>Skip this section if you use a custom or third-party user management system.</p>
+  <p>Livefyre Enterprise Profiles customers may use these instructions to integrate with Livefyre JS
+   Auth, and enable your community to more easily authenticate with Livefyre Apps.</p>
+  <p>You can see an example integration in action <xref href="http://codepen.io/zjj/pen/frhLv"
+    format="html" scope="external">here</xref>.</p>
+  <p>If you think Livefyre Enterprise Profiles may be a good fit for your community, please contact
+   your Livefyre Account Manager.</p>
+  <section id="section_n4k_g3s_p1b">
+   <title>Step 1: Add Livefyre.js</title>
+   <p>If you have never done so, add Livefyre.js to the &lt;head> element of your webpage or website
+    template. Livefyre.js is a small base library that other Livefyre components also use.
+    Livefyre.js provides a global window.Livefyre variable to your pages, and Livefyre.require,
+    which can be used to load other Livefyre packages on demand.</p>
+   <codeblock>&lt;script src="//cdn.livefyre.com/Livefyre.js">&lt;/script></codeblock>
+  </section>
+  <section id="section_aqr_h3s_p1b">
+   <title>Step 2: Add customprofile.js</title>
+   <p>Add the Livefyre Enterprise Profiles JavaScript library (a file specific to your installation
+    that ends with customprofile.js) to the &lt;head> element of your HTML document.</p>
+   <p>For example:</p>
+   <codeblock>&lt;script src="//client-solutions.ep.livefyre.com/media/Y2xpZW50LXNvbHV0aW9ucy5lcC5saXZlZnlyZS5jb20=/javascripts/customprofiles.js">&lt;/script></codeblock>
+   <note>
+    <p>Contact your Livefyre Technical Account Manager to acquire your specific customprofile.js
+     URL.</p>
+   </note>
+  </section>
+  <section id="section_eqb_t1h_21b">
+   <title>Step 3: Register an LFEP Auth Delegate</title>
+   <p>Livefyre.js Auth is Livefyre’s package for ensuring that all the social components on your
+    page can discover a single auth integration. Auth must be provided an AuthDelegate object that
+    knows how to perform authentication actions, like login and logout. Livefyre also provides an
+    lfep-auth-delegate package that will make an appropriate auth delegate for you.</p>
+   <p>To tell Auth to delegate these actions to LFEP, add the following to your webpage after
+    Livefyre.js:</p>
+   <codeblock>Livefyre.require(['auth', 'lfep-auth-delegate#0'],function (auth, LFEPAuthDelegate) { // create an LFEP Auth Delegate var authDelegate = new LFEPAuthDelegate({ engageOpts: { app: 'example.auth.fyre.co' } }); // Delegate AppKit Auth actions to LFEP auth.delegate(authDelegate);});</codeblock>
+   <note>LFEP creates a Janrain Engage App on your behalf that allows visitors on your site to use
+    social authentication to sign in and interact with content.<i><b> {Your Janrain Engage App Name}
+     </b></i>will be provided to you by your Livefyre Technical Account Manager.</note>
+  </section>
+  <section id="section_rrh_s1h_21b">
+   <title>Step 4: Add your domain to the Janrain whitelist</title>
+   <p>To complete your Enterprise Profiles integration, you must add your Livefyre Enterprise
+    Profiles domain name (for example: &lt;site>.ep.livefyre.com) to the Janrain Application
+    Settings > Domain Whitelist. For more information, see the <xref
+     href="http://developers.janrain.com/reference/janrain-dashboard/social-login/" format="html"
+     scope="external">Janrain documentation</xref>.</p>
+  </section>
+  <section id="section_ftq_wxg_21b">
+   <title>Step 5: Add Social Networks</title>
+   <p>To take advantage of social login from providers like Twitter and Facebook, you must add your
+    social network app keys through the Janrain Dashboard. Once this configuration is complete, you
+    can add them to your sign-in modal.</p>
+   <p>Your selected social network providers must be set up with app API tokens and keys for each
+    network. </p>
+   <ol id="ol_v5f_dxz_d1b">
+    <li>Go to the Providers area in the Janrain Engage Dashboard.</li>
+    <li>Click on the gear button for each social network to enter the credentials for that provider.
+     (The gray gears will turn lime green once each has been configured.)</li>
+    <li>When you’ve completed configurations, go to Widgets &amp; SDKs > Sign-ins and add your
+     configured providers to the modal.</li>
+   </ol>
+  </section>
+ </conbody>
+</concept>

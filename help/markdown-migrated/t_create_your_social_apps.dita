@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_your_social_apps">
+    <title>Create Your Social Apps</title>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To enable your users to log in using their credentials for these social
+                providers:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create Apps for use with Livefyre.</cmd>
+            </step>
+            <step>
+                <cmd>Log into the developer site for your selected providers.</cmd>
+            </step>
+            <step>
+                <cmd>Create the apps necessary to allow your users to log in using their social
+                    credentials.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

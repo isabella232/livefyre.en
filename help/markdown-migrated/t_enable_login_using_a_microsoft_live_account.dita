@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enable_login_using_a_microsoft_live_account">
+    <title>Enable Login Using a Microsoft Live Account</title>
+    <shortdesc>Connect your Microsoft Live ID account to Livefyre to allow users to use their
+        Microsoft Live ID logins to interact with Apps on your site.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To enable login using a Microsoft Live ID account:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>In <uicontrol>Livefyre > Integration Settings > Livefyre Identity > Microsoft
+                        Live</uicontrol>, switch the <uicontrol>Enable Microsoft Live
+                        Login</uicontrol> toggle to <uicontrol>On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the <uicontrol>Microsoft Live Client ID (Private Key)</uicontrol> and
+                        <uicontrol>Microsoft Live Client Secret (Password)</uicontrol>. </cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save Settings</uicontrol>.</cmd>
+                <info>The <uicontrol>Microsoft Live Client ID (Private Key)</uicontrol> and
+                        <uicontrol>Microsoft Live Client Secret (Password)</uicontrol> values are
+                    listed in the Microsoft Live ID app details page.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

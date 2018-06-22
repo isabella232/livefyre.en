@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_map_features">
+  <title>Map Features</title>
+  <shortdesc>The Map app offers these features for your site.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_bpw_1bg_sy">
+      <ul id="ul_pwx_rzf_sy">
+        <li>Content enters the map in real-time.</li>
+        <li>Content from the same area is clustered, and can be viewed in a Gallery modal.</li>
+        <li>Zoom into Map to focus on content from specific areas.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

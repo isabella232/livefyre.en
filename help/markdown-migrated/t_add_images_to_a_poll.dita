@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_images_to_a_poll">
+    <title>Add Images to a Poll</title>
+    <shortdesc>Add visual interest to your poll by adding images.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Click the icon to the right of your question or answers. </cmd>
+            </step>
+            <step>
+                <cmd>Drag and drop the image into the window provided or use Filepicker to select an
+                    image from Instagram, Flickr, Dropbox, or one of the other providers listed.
+                </cmd>
+            </step>
+            <step>
+                <cmd>Crop the image as desired.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save</uicontrol> to add the image to your Poll.</cmd>
+            </step>
+            <step>
+                <cmd>Hover over the image for the question or choice and click the icons displayed
+                    to crop, delete, or replace the image.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

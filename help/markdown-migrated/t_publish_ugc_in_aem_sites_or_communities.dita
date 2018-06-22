@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_publish_ugc_in_aem_sites_or_communities">
+    <title>Publish UGC in AEM Sites or Communities </title>
+    <shortdesc>Display UGC on your AEM site.</shortdesc>
+    <taskbody>
+        <context>
+            <p>You can use UGC in AEM Sites or Communities in one of two ways:</p>
+            <ul id="ul_yjx_xms_pz">
+                <li>To use the content with the Social Media information it came from (for example,
+                    to make a piece of Twitter content come with the data from Twitter as well as
+                    the Twitter logo), the content must be inside a Livefyre component on an AEM
+                        Site.<ul id="ul_zjx_xms_pz">
+                        <li>Note: Any UGC content published to a Livefyre component happens in real
+                            time and does not go through the AEM publish workflow.</li>
+                    </ul></li>
+                <li>To use the content as media only (for example, to use a photo by itself on your
+                    site with no information about where it came from, like Twitter or Instagram),
+                    use the asset in an image component on an AEM Site. Video or text-only content
+                    is not supported outside of the UGC context.</li>
+            </ul>
+        </context>
+    </taskbody>
+</task>

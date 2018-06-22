@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_embed_polls_in_comments">
+    <title>Embed Polls in Comments</title>
+    <shortdesc>Embed Polls in your Comment or Live Blog stream.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>From Studio’s App Manager page, click the <uicontrol>&lt;/></uicontrol> (embed)
+                    button to generate an embed code for the Poll. </cmd>
+            </step>
+            <step>
+                <cmd>Copy and paste the embed code into the <uicontrol>Add Custom HTML</uicontrol>
+                    field for the App.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

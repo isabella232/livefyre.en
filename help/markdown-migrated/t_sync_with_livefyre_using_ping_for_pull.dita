@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_sync_with_livefyre_using_ping_for_pull">
+    <title>Sync with Livefyre Using Ping for Pull</title>
+    <shortdesc>Use Ping for Pull to keep Livefyre in sync with your user management system. </shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            
+                <p>In general, you <i><b>Ping</b></i> Livefyre any time a user of your website/app
+                    updates their profile (display name, avatar, etc.), and Livefyre
+                        <i><b>Pulls</b></i> that user’s updated profile.</p>
+                <p><image
+                        href="http://answers.livefyre.com/wp-content/uploads/2014/09/Ping-for-Pull.png"
+                        height="354" width="545" id="image_skr_y3g_gz"/></p>
+                <p>Ping for Pull Sequence:</p>
+                <ol id="ol_tkr_y3g_gz">
+                    <li>Customer sends Ping request to Livefyre (including the User to be
+                    updated).</li>
+                    <li>Livefyre confirms receipt of Ping with HTTP 200/Success.</li>
+                    <li>Livefyre processes Pull request.</li>
+                    <li>Livefyre queues Pull request.</li>
+                    <li>Livefyre executes Pull request to endpoint to capture updated user
+                    info.</li>
+                    <li>Customer receives Pull response, and validates.</li>
+                    <li>Livefyre updates Remote Profiles with the external profile info included in
+                        the Pull endpoint.</li>
+                </ol>
+                <p>Ping Livefyre whenever a user updates their profile information. While Ping for
+                    Pull completion time can vary depending on network load, it will update user
+                    information in between 1 and 10 minutes. Updated profile changes will display
+                    first within Livefyre Studio > Users.</p>
+                <p>Updated Profile information will appear in your Livefyre Apps after two
+                    events:</p>
+                <ul id="ul_ukr_y3g_gz">
+                    <li>
+                        <p>A user logs out, then logs back into the App. Display name values in the
+                            userAuthToken take precedence over Ping for Pull updates. A user
+                            logout/login will refresh the token to update the session.</p>
+                        <p>To generate new userAuthTokens when profile information is updated, use
+                            the SSO authDelegate to log your user out then in again in the
+                            background.</p>
+                    </li>
+                    <li>A bootstrap update to the Collection will bring in the updated information
+                        (at most every 5-10 minutes).</li>
+                </ul>
+                <p>To implement Ping for Pull for your User Profile system:</p>
+            
+        </context>
+        <steps>
+            <step>
+                <cmd><xref href="#t_build_the_pull_endpoint" format="dita">Build the Pull
+                        endpoint.</xref></cmd>
+                <info>
+                    <note>The Livefyre library includes a syncUser method for keeping your user
+                        profiles up to date. Skip the next two steps if you use the Livefyre
+                        library.</note>
+                </info>
+            </step>
+            <step>
+                <cmd><xref href="#register_the_endpoint_with_studio" format="dita">Register the Pull
+                        endpoint in Studio.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref href="#t_build_the_ping" format="dita">Build the Ping</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref href="#reference_n3x_pzb_mz" format="dita">Build the Ping for Pull
+                        Response</xref></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

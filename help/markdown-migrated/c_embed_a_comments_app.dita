@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_embed_a_comments_app">
+ <title>Embed a Comments App</title>
+ <shortdesc>Embedding the Comments App follows the process for embedding a Core App.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+    <p>Embedding the Comments App follows the process for embedding a Core App described in <xref
+        href="t_embed_an_app_on_your_site_using_livefyre.js.dita#embed_an_app_on_your_site_using_livefyre.js"
+      /></p>
+    <p><b>Example:</b></p>
+    <codeblock>&lt;html>
+  &lt;head>
+    &lt;script src="//cdn.livefyre.com/Livefyre.js">
+    &lt;/script>
+  &lt;/head>
+&lt;body>
+    &lt;script type="text/javascript">
+    var networkConfig = {
+      network: 'domainName'
+    };
+    var convConfig = {
+      siteId: 'siteId',
+      articleId: 'articleId',
+      el: 'livefyre',
+      collectionMeta: 'collectionMeta',
+      checksum: 'checksum'
+    };
+   
+    Livefyre.require(['fyre.conv#3', 'auth'], function(Conv, auth) {
+        new Conv(networkConfig, [convConfig], function(commentsWidget) {});
+        auth.delegate({
+            login: function (callback) {
+                callback(null,{livefyre:'&lt;userauthtoken>'});
+            },
+        });
+    });
+ 
+    &lt;/script>
+    &lt;div id="livefyre">
+    &lt;/div>
+   &lt;/body>
+&lt;/html></codeblock>
+    <p>As noted in the Building CollectionMeta section, CollectionMeta is an encoded JSON object. In
+      the above example, the JSON object takes the following format before it’s JWT encoded:</p>
+    <codeblock>{
+"url": "articleUrl", 
+"articleId": "articleId", 
+"type": "livecomments", 
+"title": "articleTitle"
+}</codeblock>
+ </conbody>
+</concept>

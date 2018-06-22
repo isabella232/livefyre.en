@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_creating_reviews">
+ <title>Creating a Reviews App</title>
+ <shortdesc>Reviews offers a broad range of customizations, allowing you to create a Review App
+  which matches your needs and branding.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+    <section>On this page:<ul id="ul_imp_b2f_kcb">
+        <li>
+          <xref href="#c_creating_reviews/section_hs5_c4h_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_cqn_c4h_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_cnx_snh_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_xcm_4nh_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_ysz_lnh_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_hcm_jnh_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_tjf_hnh_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_yng_fnh_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_llh_2nh_21b" format="dita"/>
+        </li>
+        <li>
+          <xref href="#c_creating_reviews/section_xrh_wmh_21b" format="dita"/>
+        </li>
+      </ul></section>
+    <section id="section_hs5_c4h_21b">
+      <title>Ratings</title>
+      <p>Ratings are the numerical value your users assign to the Review. Every Review must include
+        a Rating, which is shown as a 5 star system by default. (While ratings are displayed as 0.5
+        – 5 in the App, Livefyre stores a ratio of X/100 in the backend, such that 1 star is 20/100,
+        and 2 stars is 40/100. This ratio is displayed when viewing the reviews within Studio.)</p>
+      <p>The Rating scale of 0.5 through 5 can be configured up to a rating of 100, with half
+        ratings also available.</p>
+      <p>For more information, see the maxRating field for the Reviews convConfig object.</p>
+    </section>
+    <section id="section_cqn_c4h_21b">
+      <title>Rating Icon Styling</title>
+      <p>Rating icons may be customized to fit your branding and style.</p>
+      <p>For more information, please see <uicontrol>Configure Star Ratings</uicontrol> under
+        Reviews Customization.</p>
+    </section>
+    <section id="section_cnx_snh_21b">
+      <title>Rating Dimensions</title>
+      <p>Rating dimensions are the categories about which your reviewers are rating your product or
+        service. Examples of rating dimensions are “performance,” “design,” “cost,” “overall,” or
+        any other category you choose.</p>
+      <p>The default is to display one “overall” rating dimension, however you may define and
+        implement multiple rating dimensions, as displayed in the example below.</p>
+      <p>For more information, see the ratingDimensions field under Review Collection Metadata.</p>
+    </section>
+    <section id="section_xcm_4nh_21b">
+      <title>Review Text Fields</title>
+      <p>You may also include additional text fields on the product or experience being reviewed.
+        (For example, text fields might include Pros and Cons, or Don’t Miss.) The number, title and
+        default text for the field are customizable. Users will be required to complete all text
+        fields, as well as the review title, body and rating, in order to publish their review. It
+        is not possible to include optional text fields.</p>
+      <p>For more information, see the ratingDimensions field for the Review Collection
+        Metadata.</p>
+    </section>
+    <section id="section_ysz_lnh_21b">
+      <title>Review Summary</title>
+      <p>By default, a summary section is displayed at the top of the Reviews App. This section
+        includes a visualization of the Average User Rating and the Rating Breakdown for the Reviews
+        Collection, displaying whole numbers only. This section is read-only and can be hidden if
+        desired.</p>
+      <p>For more information, see the ratingSummaryEnabled field for the Reviews convConfig
+        object.</p>
+    </section>
+    <section id="section_hcm_jnh_21b">
+      <title>Spam and Profanity Filter</title>
+      <p>The text of a Review’s Title and Body is passed through our Spam Filter and Profanity
+        Filter as soon as the Review is posted.</p>
+    </section>
+    <section id="section_tjf_hnh_21b">
+      <title>Text Customization</title>
+      <p>Text strings, including tooltips and labels, may be customized for language or to fit your
+        brand.</p>
+    </section>
+    <section id="section_yng_fnh_21b">
+      <title>Replying to a Review</title>
+      <p>Users may reply to their own or other’s Review in each Reviews Collection. Only users who
+        are logged in can post a reply to a review.</p>
+      <p>The option for users to reply to a Review is enabled in Studio. Owners may toggle this
+        setting for the Network, Site or Collection level. Moderators may enable this setting only
+        for their Collections.</p>
+    </section>
+    <section id="section_llh_2nh_21b">
+      <title>SocialSync and Curate</title>
+      <p>Because Reviews is designed to add a numerical value for each piece of submitted content,
+        SocialSync and Curate are not supported with the Reviews.</p>
+    </section>
+    <section id="section_xrh_wmh_21b"><title>Reviews APIs</title><p>Reviews APIs are available to
+        allow you to display average user rating and rating breakdown information and user reviews
+        activity on other sections across your site.</p><xref
+        href="http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#ratings-reviews"
+        format="html" scope="external">Ratings and Reviews</xref><dl>
+        <dlentry>
+          <dt><uicontrol>Bootstrap API Endpoint</uicontrol></dt>
+          <dd>The <xref
+              href="http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#bootstrap-api-endpoint"
+              format="html" scope="external">Bootstrap API Endpoint</xref> allows your review to be
+            read by search engines like Google so that the content and keywords can improve your
+            search engine optimization.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Average User Ratings</uicontrol></dt>
+          <dd>The <xref
+              href="http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#average-user-ratings"
+              format="html" scope="external">Average User Ratings</xref> API retrieves the average
+            user rating for one or more Reviews Collections, allowing you to create a visualization
+            of this information on an index page or add to a search index page.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Ratings Breakdown</uicontrol></dt>
+          <dd>The <xref
+              href="http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#ratings-breakdown"
+              format="html" scope="external">Ratings Breakdown</xref> API retrieves a breakdown of
+            all ratings for a specific Reviews Collection and allows you to create a visualization
+            that displays the number of reviews that are associated with each star rating.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>User Reviews</uicontrol></dt>
+          <dd>The <xref
+              href="http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#user-reviews"
+              format="html" scope="external">User Reviews</xref> API retrieves the most recent
+            reviews for a specific user. This activity can be used to display a user’s reviews on
+            their public profile page.</dd>
+        </dlentry>
+      </dl></section>
+  </conbody>
+</concept>

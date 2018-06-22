@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_css_styling_branding">
+ <title>CSS Styling and Branding</title>
+ <shortdesc/>
+ <conbody>
+  <p>Use CSS to style elements of a Livefyre App to fit your brand.</p>
+  <p>Livefyre apps offer an extensive CSS styling interface, allowing you to customize your user
+   experience to meet your current design standards.</p>
+  <p>Styling options include:</p>
+  <ul id="ul_ekr_k4b_vy">
+   <li><uicontrol>Styling the Stream:</uicontrol> Livefyre streams may be styled and customized to
+    fit your brand, and the rest of your site. For more information, see CSS Customizations.</li>
+   <li><uicontrol>Styling the Comment Editor:</uicontrol> The comment editor may be customized by
+    changing the color, size and family for your font, or by changing the background color for the
+    comment box. For more information, see Editor CSS.</li>
+   <li><uicontrol>Moving the Livefyre Logo:</uicontrol> While the default location for the Livefyre
+    logo is at the top of the stream, this image may be removed, and replaced with a smaller
+    “Powered by Livefyre” logo at the bottom of the stream. For more information, see Moving the
+    Livefyre Logo.</li>
+   <li><uicontrol>Hiding elements of the stream:</uicontrol> Elements of the stream may be hidden if
+    they are not relevant to your community. Elements which may be removed include the reply button,
+    edit profile menu, logout menu, comment notifier, and user avatars. For more information on
+    removing these elements, see Hiding App Elements.</li>
+   <li><uicontrol>Customizing the Friend Tagging Logo:</uicontrol> By default, the Livefyre logo is
+    displayed in the friend tagging dropdown list for all users who have commented in the stream on
+    the page. To replace this image with your own logo, please see Branding in Studio.</li>
+  </ul>
+ </conbody>
+</concept>

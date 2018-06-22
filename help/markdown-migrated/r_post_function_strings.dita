@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_post_function_strings">
+  <title>Post Function Strings</title>
+  <shortdesc>Strings available for users posting content.</shortdesc>
+  <refbody>
+    <properties id="properties_ggr_x1g_5y">
+      <prophead>
+        <proptypehd>Element</proptypehd>
+        <propvaluehd>Key</propvaluehd>
+        <propdeschd>Default Text</propdeschd>
+      </prophead>
+      <property>
+        <proptype/>
+        <propvalue>editorEditBtn</propvalue>
+        <propdesc>Save</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorEditPosting</propvalue>
+        <propdesc>Saving…</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorEditReplyTitle</propvalue>
+        <propdesc>Edit Reply</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorEditTitle</propvalue>
+        <propdesc>Edit Sidenote</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorPlaceholder</propvalue>
+        <propdesc>What do you think?</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorPostBtn</propvalue>
+        <propdesc>Post Sidenote</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorPostBtnMobile</propvalue>
+        <propdesc>Post</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorPosting</propvalue>
+        <propdesc>Posting…</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorReplyBtn</propvalue>
+        <propdesc>Post Reply</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorReplyTitle</propvalue>
+        <propdesc>Write Reply</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>editorTitle</propvalue>
+        <propdesc>Write Sidenote</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>emptyImageBlockTxt</propvalue>
+        <propdesc>What do you think?</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>emptyTextBlockTxt</propvalue>
+        <propdesc>+</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>replyBtn</propvalue>
+        <propdesc>Reply</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>threadReplyBtn</propvalue>
+        <propdesc>Reply to Conversation</propdesc>
+      </property>
+      <property>
+        <proptype>Delete menu options</proptype>
+        <propvalue>menuConfirmAccept</propvalue>
+        <propdesc>Yes, {action}</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>menuConfirmCancel</propvalue>
+        <propdesc>Cancel</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>menuConfirmTitle</propvalue>
+        <propdesc>Are you sure?</propdesc>
+      </property>
+      <property>
+        <proptype>Etc menu options</proptype>
+        <propvalue></propvalue>
+        <propdesc></propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>menuEtcOptionApprove</propvalue>
+        <propdesc>Approve</propdesc>
+      </property> <property>
+        <proptype/>
+        <propvalue>menuEtcOptionDelete</propvalue>
+        <propdesc>Delete</propdesc>
+      </property> <property>
+        <proptype/>
+        <propvalue>menuEtcOptionEdit</propvalue>
+        <propdesc>Edit</propdesc>
+      </property> <property>
+        <proptype/>
+        <propvalue>menuEtcOptionFlag</propvalue>
+        <propdesc>Flag</propdesc>
+      </property> <property>
+        <proptype/>
+        <propvalue>menuEtcOptionShare</propvalue>
+        <propdesc>Share</propdesc>
+      </property> <property>
+        <proptype/>
+        <propvalue>menuEtcPostedAt</propvalue>
+        <propdesc>Posted on {date}</propdesc>
+      </property>
+      <property>
+        <proptype/>
+        <propvalue>menuEtcTitle</propvalue>
+        <propdesc>More</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

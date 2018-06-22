@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_use_css_to_style_featured_content">
+ <title>Use CSS to Style Featured Content</title>
+ <shortdesc>Use available CSS Classes to style Featured content differently from other content in
+  your App.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>All Comment CSS classes may also be applied to Featured content. </p>
+  <p>The following classes are available for use for Featured content.</p>
+  <table id="table_fbj_y4l_wz">
+   <tgroup cols="2">
+    <colspec colnum="1" colname="col1"/>
+    <colspec colnum="2" colname="col2"/>
+    <thead>
+     <row>
+      <entry>Class</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>.fyre-featured-content-wrapper</entry>
+      <entry>The container div for the reader.</entry>
+     </row>
+     <row>
+      <entry>.fyre-featured-header</entry>
+      <entry>The leading title bar.</entry>
+     </row>
+     <row>
+      <entry>.fyre-featured-header-icon</entry>
+      <entry>The header’s quill icon.</entry>
+     </row>
+     <row>
+      <entry>.fyre-featured-title</entry>
+      <entry>The header text.</entry>
+     </row>
+     <row>
+      <entry>.fyre-featured-body</entry>
+      <entry>The container div for featured content in the reader.</entry>
+     </row>
+     <row>
+      <entry>.fyre-featured-quote</entry>
+      <entry>The quote icon that begins each content item.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

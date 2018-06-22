@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="c_custom_text_strings">
+  <title>Translation and Custom Text Strings</title>
+  <shortdesc>Customize any text strings in the app for internationalization or branding.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>To improve your community’s experience, you may customize the text string for any text labels
+   to match your site’s language or branding. For example, you may change “Like” to “Recommend,” or
+   “Delete” to “Borrar.”</p>
+    <p>For more information, see <xref href="c_translation_sets.dita#c_translation_sets" />.</p>
+    <p>Apps that use this feature:</p>
+    <ul id="ul_qzp_ccj_h1b">
+      <li>
+        <xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref>
+      </li>
+      <li>
+        <xref href="c_chat_app.dita#c_chat_app">Chat</xref>
+      </li>
+      <li>
+        <xref href="c_comments_app.dita#c_comments_app">Comments</xref>
+      </li>
+      <li>
+        <xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref>
+      </li>
+      <li>
+        <xref href="c_map_app.dita#c_map_app">Map</xref>
+      </li>
+      <li>
+        <xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref>
+      </li>
+      <li>
+        <xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref>
+      </li>
+      <li>
+        <xref href="c_polls_app.dita#c_polls_app">Polls</xref>
+      </li>
+      <li>
+        <xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref>
+      </li>
+      <li>
+        <xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref>
+      </li>
+      <li>
+        <xref href="c_trending_app.dita#c_trending_app">Trending</xref>
+      </li>
+      <li>
+        <xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref>
+      </li>
+    </ul>
+  </conbody>
+</concept>

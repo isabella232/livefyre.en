@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_chat_features">
+  <title>Chat Features</title>
+  <shortdesc>Chat offers several features to encourage a rapid and engaging dialog.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_lm4_5zz_ry">
+      <p>To encourage a rapid and engaging dialog, Chat differs from other Livefyre Apps in the
+        following ways:</p>
+      <ul id="ul_gzq_5zz_ry">
+        <li>The Comment Editor is pre-populated with the text “Press command+enter to post.”</li>
+        <li>Users respond to the Chat as a whole, rather than a specific Comment, therefore there is
+          no Reply button, and no Threading in Comments.</li>
+        <li>Users are not offered the option to follow Chats, and the Comment Notifier is
+          disabled.</li>
+        <li>Email notifications automatically default to OFF.</li>
+        <li>User avatars are smaller than those used with Comments.</li>
+        <li>The Like button appears only when hovering over a comment.</li>
+        <li>The Likes on a comment appear without avatars, only the number of Likes.</li>
+        <li>The stream width can be reduced to 250 pixels.</li>
+      </ul>
+      <p>For more information, see Features.</p>
+    </section>
+  </refbody>
+</reference>

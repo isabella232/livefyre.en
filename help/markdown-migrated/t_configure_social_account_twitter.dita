@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_configure_social_account_twitter">
+    <title>Configure Social Account for Twitter</title>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context><b>Configure a Social Account for Twitter</b><p>To configure a social account for
+                Twitter:</p><ol id="ol_ijv_wpk_yy">
+                <li>Log into Livefyre Studio.</li>
+                <li>Navigate to <b>Settings ></b>
+                    <b>Network Settings</b><b>.</b></li>
+                <li>Navigate to the <b>Social Accounts</b> section under <b>Network
+                    Settings</b>.</li>
+                <li>Click <b>Login with </b><b>Twitter</b> under <b>Twitter</b>
+                    <b>Accounts</b><b>.</b> A dialog box pops up to allow you to authorize the
+                    Livefyre Social Curation app.</li>
+                <li>Log into a Twitter account or create a new account.</li>
+                <li>Click <b>Authorize</b><b> App</b> to continue.</li>
+                <li>Add a <b>Display Name</b> for the account, then click <b>Save Settings.</b>
+                    Click on <b>Social Account</b> in the header of the account info box to collapse
+                    the account.</li>
+            </ol></context>
+    </taskbody>
+</task>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_publish_content">
+    <title>Publish Content</title>
+    <shortdesc>Publish content directly to an App.</shortdesc>
+    <taskbody>
+        <context><p>Content published directly to an App will not be saved in your Asset
+                Library.</p><image href="images/DiscoverViewDetailsPublish-1024x272.png"
+                id="image_uxc_vtm_rdb"/></context>
+        <steps>
+            <step>
+                <cmd><uicontrol>View Details</uicontrol> for an asset. </cmd>
+            </step>
+            <step>
+                <cmd>Select the <uicontrol>Publish</uicontrol> checkbox from the <uicontrol>Advanced
+                        Options</uicontrol> dialog.</cmd>
+            </step>
+            <step>
+                <cmd>Select the App to which the item should be published.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Let’s do it</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

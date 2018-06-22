@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_users">
+    <title>Users: Managing Studio and Livefyre Network Users</title>
+    <shortdesc>Add and manage users and site visitors with Studio and Livefyre network.</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody>
+      <draft-comment author="ind14750" otherprops="merge">c_users.dita</draft-comment>
+      <p>Studio’s Users page lists all users in the Livefyre database for your network, including
+        both end users who have created an account to interact with your Apps, and your authorized
+        Studio users. This page allows you to view user information, including usernames, email
+        addresses, and date joined, and to manage Studio Access.</p>
+    </conbody>
+  </concept>
+</dita>

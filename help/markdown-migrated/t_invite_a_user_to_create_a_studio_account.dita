@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_invite_a_user_to_create_a_studio_account">
+    <title>Invite a User to Create a Studio Account</title>
+    <shortdesc>Studio Managers and Administrators can invite new or existing users to create a
+        Studio account.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>The Livefyre Technical Account Manager for your network sends the first Studio
+                account invitation to create a Studio Administrator account. You provide an email
+                address that the Livefyre Technical Account Manager uses to create the Studio
+                Administrator account.</p>
+            <note>When inviting others to join Studio, you create accounts with permission levels
+                equal to or less than your own. </note>
+            <note>You can grant multiple user roles to a single user. See <xref
+                    href="c_user_types.dita#c_user_types">User Roles and Permissions</xref> for more
+                information on what user roles and permissions you can grant.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>From the <uicontrol>Users</uicontrol> page, click <uicontrol>Invite to
+                        Studio.</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>From the <uicontrol>Invite user</uicontrol> dialog that opens, select
+                        <uicontrol>Existing User</uicontrol> or <uicontrol>New
+                    User</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>To invite an existing user, enter a <uicontrol>Username</uicontrol>,
+                        <uicontrol>User ID</uicontrol>, or <uicontrol>Email Address</uicontrol> in
+                    the fields provided. To invite a new user, enter an <uicontrol>Email
+                        address</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add message</uicontrol> to enter a personalized invitation, if
+                    desired.</cmd>
+            </step>
+            <step>
+                <cmd>Select the access level for the new Account, and click
+                        <uicontrol>Invite</uicontrol> to issue the invitation.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

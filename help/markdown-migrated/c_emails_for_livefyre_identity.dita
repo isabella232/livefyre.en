@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="c_emails_for_livefyre_identity">
+  <title>Identity: Emails for Livefyre Identity</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <section id="section_j4h_5hs_p1b">
+      <p>Livefyre Identity sends the following emails:</p>
+      <ul id="ul_zcp_ykc_1z">
+        <li>
+          <xref href="#c_emails_for_livefyre_identity/section_nd1_whs_p1b" format="dita" />
+        </li>
+        <li>
+          <xref href="#c_emails_for_livefyre_identity/section_ak5_xhs_p1b" format="dita" />
+          <ul id="ul_fjt_ggn_3cb">
+            <li>
+              <xref href="#c_emails_for_livefyre_identity/section_vyv_yhs_p1b" format="dita" />
+            </li>
+          </ul>
+        </li>
+        <li>
+          <xref href="#c_emails_for_livefyre_identity/section_z2v_zhs_p1b" format="dita" />
+          <ul id="ul_hxk_hgn_3cb">
+            <li>
+              <xref href="#c_emails_for_livefyre_identity/section_kjp_c3s_p1b" format="dita" />
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>You can customize the look and feel of all Livefyre Identity emails in
+          <uicontrol>Integration Settings &gt; Email Notifications.</uicontrol></p>
+    </section>
+    <section id="section_nd1_whs_p1b">
+      <title>Password Reset Email</title>
+      <p>Livefyre automatically sends a password reset email when a user tries to reset their
+        password.</p>
+      <p>The password reset email looks like this:</p>
+      <p>
+        <b>Subject:</b> Reset Password</p>
+      <p>
+        <b>Body:</b>
+      </p>
+      <p>Hey there <i>&lt;username&gt;</i>,</p>
+      <p>There was a request to change the password of your profile on <i>&lt;network name&gt;</i>.</p>
+      <p>If you requested this, please click the following link to choose a new password:
+          <i>&lt;password reset URL&gt;</i>.</p>
+      <p>
+        <i>&lt;Username&gt;</i>, <i>&lt;network name&gt;</i>, and <i>&lt;password reset URL&gt;</i> are all
+        dynamically generated based on the site visitor and your network.</p>
+    </section>
+    <section id="section_ak5_xhs_p1b">
+      <title>Verification Email</title>
+      <p>You can send an email verifying the email address of a user. To send verification emails,
+        you must turn on the option in <b>Integration Settings </b>&gt; <b>Livefyre Identity</b>.</p>
+      <p>The verification email looks like this:</p>
+      <p>
+        <b>Subject:</b> Email Verification</p>
+      <p>
+        <b>Body:</b>
+      </p>
+      <p>Hello <i>&lt;username&gt;</i>,</p>
+      <p>Please click on the following link (or paste in your browser) to verify your account:
+          <i>&lt;verification URL&gt;</i>.</p>
+      <p>This link will expire in 24 hours.</p>
+      <p>Thanks,</p>
+      <p>The <i>&lt;customer name&gt;</i> Team</p>
+      <p>
+        <i>&lt;Username&gt;</i>, <i>&lt;network name&gt;</i>, and <i>&lt;verification URL&gt;</i> are all
+        dynamically generated based on the site visitor and your network.</p>
+    </section>
+    <section id="section_vyv_yhs_p1b">
+      <title>Send an Email Verification to Users</title>
+      <p>You can send an email to a user to verify the email address they use to sign up for an
+        account. To send a verification email:</p>
+      <ol id="ol_adp_ykc_1z">
+        <li>In Studio, click on the gear icon to modify network settings.</li>
+        <li>Click <b>Integration Settings </b>&gt; <b>Livefyre Identity.</b></li>
+        <li>Navigate to <b>Login Types</b>.</li>
+        <li>Click <b>Require Email Verification</b> to send an email to users that verifies the
+          email address they use to sign up for an account.</li>
+        <li>Navigate to <b>Network Email</b> to configure the <b>Logo for Email</b>, the email
+          address to use as the from address (<b>Email From</b>), and the display name to use for
+          the from email address (<b>Email Display Name</b>).</li>
+      </ol>
+    </section>
+    <section id="section_z2v_zhs_p1b">
+      <title>Welcome Email</title>
+      <p>You can send a welcome email to users. To send welcome emails, you must turn on the option
+        in <b>Integration Settings</b> &gt; <b>Livefyre Identity</b>.</p>
+      <p>The welcome email looks like this:</p>
+      <p>
+        <b>Subject:</b> Welcome to <i>&lt;customer name&gt;</i></p>
+      <p>
+        <b>Body:</b>
+      </p>
+      <p>Hello <i>&lt;username&gt;</i>,</p>
+      <p>An account was created for you on <i>&lt;customer name&gt;</i>.</p>
+      <p>This account was created on <i>&lt;referral URL&gt;</i> from IP address <i>&lt;IP
+        Address&gt;</i>.</p>
+      <p>If you did this, you can safely disregard this email.</p>
+      <p>If you didn’t do this, please contact support@livefyre.com.</p>
+      <p>Thanks</p>
+      <p>The <i>&lt;customer name&gt;</i> Team</p>
+      <p>
+        <i>&lt;Username&gt;, &lt;customer name&gt;, &lt;referral URL&gt;,</i> and &lt;<i>IP Address&gt;</i> are
+        all dynamically generated based on the site visitor and your network.</p>
+    </section>
+    <section id="section_kjp_c3s_p1b">
+      <title>Send a Welcome Email to a User</title>
+      <p>You can send a welcome email to a user after they sign up for an account. Studio sends this
+        email after it sends a verification email, if you set up a verification email. To send a
+        welcome email:</p>
+      <ol id="ol_bdp_ykc_1z">
+        <li>In Studio, click on the gear icon to modify network settings.</li>
+        <li>Click <b>Integration Settings &gt; </b><b>Livefyre</b><b> Identity</b><b>.</b></li>
+        <li>Navigate to <b>Email Setting</b><b>s</b>.</li>
+        <li>Click <b>Send Welcome Emails To New Users</b> to enable sending emails.</li>
+        <li>Navigate to <b>Network </b><b>Email</b> to configure the <b>L</b><b>ogo</b><b> for
+            Email</b>, the email address to use as the from address (<b>Email From</b>), and the
+          display name to use for the from email address (<b>Email Display Name</b>).</li>
+      </ol>
+    </section>
+  </conbody>
+</concept>

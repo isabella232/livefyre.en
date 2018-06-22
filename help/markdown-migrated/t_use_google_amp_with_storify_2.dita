@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_use_google_amp_with_storify_2">
+    <title>Use Google AMP with Storify 2</title>
+    <shortdesc>Use Livefyre APIs to add Google AMP functionality to your Storify 2 page to keep the
+        content interactive and SEO-friendly.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context id="context_d54_s2x_qy">
+            <p>To use Google AMP with Storify 2, you must create a page for your Storify 2 App with
+                Google AMP markup. </p>
+            <p>The AMP version of the App requests updates from the original page (use the
+                    <b>pollInterval</b> parameter in the <b>amp-live-list</b> API to set the
+                interval for update requests). To ensure that visitors on your AMP page get the most
+                up-to-date content quickly, keep a low-cache TTL on your Storify 2 AMP pages.</p>
+            <p>Non-image assets (for example, videos) included as posts in a Storify 2 App must use
+                HTTPS as specified by the AMP specification. AMP URLs that use Google Cloud Content
+                Delivery Network (CDN) use HTTPS.</p>
+            <p>To use Google AMP with Storify 2:</p>
+        </context>
+        <steps id="steps_e54_s2x_qy">
+            <step>
+                <cmd>Create an AMP-validated template on your site.</cmd>
+            </step>
+            <step>
+                <cmd>Use one or more of the following Google AMP APIs to customize your Google AMP
+                    page:</cmd>
+                <substeps id="substeps_ev5_l2x_qy">
+                    <substep>
+                        <cmd><xref
+                                href="https://www.ampproject.org/docs/reference/components/amp-iframe"
+                                format="html" scope="external">amp-iframe</xref> to customize the
+                            Storify 2 display</cmd>
+                    </substep>
+                    <substep>
+                        <cmd><xref
+                                href="https://www.ampproject.org/docs/reference/components/amp-live-list"
+                                format="html" scope="external">amp-live-list</xref> to customize the
+                            time interval for updates</cmd>
+                    </substep>
+                    <substep>
+                        <cmd><xref
+                                href="https://www.ampproject.org/docs/reference/components/amp-social-share"
+                                format="html" scope="external">amp-social-share</xref> to add a
+                            social sharing button</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Include the contents of the following Storify 2 AMP page into the CSS for your
+                    Storify 2 page within the &lt;style amp-custom> tag: <xref
+                        href="https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css"
+                        format="html" scope="external"
+                        >https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css</xref></cmd>
+            </step>
+            <step>
+                <cmd>Include the contents of the following Storify 2 AMP markup API into your Google
+                    AMP template: https://api.livefyre.com/app-service/v4/bootstrap/{{APP_ID}}/amp
+                    where {{APP_ID}} is the App ID for the Storify 2 App in Livefyre Studio. </cmd>
+                <substeps id="substeps_fv5_l2x_qy">
+                    <substep>
+                        <cmd>The only query parameter is <b>pollInterval</b>, which is the interval
+                            in which the app will check for updates (set in milliseconds).</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>The URL includes content from the most recent posts (including Tweets,
+                            videos, etc.)</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>The publisher page needs to get content from this URL as often as you
+                            want the Google AMP page to be updated.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

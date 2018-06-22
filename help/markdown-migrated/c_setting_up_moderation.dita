@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_setting_up_moderation">
+  <title>Setting Up Moderation</title>
+  <shortdesc>Use the <uicontrol>Moderation</uicontrol> tab to set premoderation rules for incoming
+    content, including profanity lists, flag rules, and banned IP addresses.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <conbody>
+    <section id="section_kyf_gvc_t1b">
+      <title>How Moderation Works</title>
+      <p>You can moderate content in the following ways:</p>
+      <ul id="ul_ohs_sxc_t1b">
+        <li>Automatically premoderate content to filter out undesired content based on rules you set
+          up before you publish the content.</li>
+        <li>Manually delete or approve content that was flagged using the automatic premoderation
+          using the ModQ or App Content in the Library.</li>
+        <li>Identify site visitors that repeatedly post offensive content to keep them from posting
+          by banning specific Livefyre users, social users, or IP addresses. </li>
+        <li>Identify people and content that can always display by whitelisting users or turning off
+          filters for specific streams, sites, or networks.</li>
+      </ul>
+      <p>You can automatically premoderate content in the following ways:</p>
+      <ul id="ul_n3w_kvc_t1b">
+        <li>Set up rules to automatically flag certain types of content: <ul id="ul_v31_rdl_fbb">
+            <li>Set up flag rules for content that is flagged by site visitors flag using
+                <uicontrol>Settings > Moderation > Rules</uicontrol></li>
+            <li>Set up SAFE rules using <uicontrol>Settings > Moderation > Rules</uicontrol></li>
+            <li>Ban specific Twitter users using <uicontrol>Settings > Streams</uicontrol>
+            </li>
+            <li>Ban IP addresses using <uicontrol>Settings > Bans</uicontrol></li>
+            <li>Ban IP regions by country code by request. Banned content will be marked as
+              SPAM.</li>
+          </ul></li>
+        <li>Create a list of words that you consider profanity in the Profanity List under
+            <uicontrol>Settings > Moderation > Rules</uicontrol> for your Network or Site.</li>
+        <li>Whitelist users (always allow content from these users to display) by using or turning
+          off filters for specific streams, sites, or networks.</li>
+      </ul>
+      <p>After you have set up your profanity lists, SAFE filters, and rules, you can choose whether
+        to premoderate content and apply the SAFE filters in streams. For more information, see
+          <xref
+          href="c_stream_rule_options_for_all_stream_rules.dita#c_stream_rule_options_for_all_stream_rules"
+        />.</p>
+      <p>Livefyre marks content as <uicontrol>Approved</uicontrol>, <uicontrol>Pending</uicontrol>,
+          <uicontrol>Junk</uicontrol>, etc. depending on where the content comes from, where it will
+        be published, and what rules you have set up in your system. The following table describes
+        the actions Livefyre takes, depending on these factors, in detail.</p>
+      <table frame="all" rowsep="1" colsep="1" id="table_jcs_wnd_t1b">
+        <title>How Moderation Works</title>
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Content Comes From:</entry>
+              <entry>Sending Content To:</entry>
+              <entry>Approval Status</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Library</entry>
+              <entry>App</entry>
+              <entry>Content Approved</entry>
+            </row>
+            <row>
+              <entry>Social Search</entry>
+              <entry>App</entry>
+              <entry>Content Approved</entry>
+            </row>
+            <row>
+              <entry>Stream Rule</entry>
+              <entry>App</entry>
+              <entry>
+                <p>Is content marked as Junk by SAFE filter?</p>
+                <ul id="ul_s4m_r4d_t1b">
+                  <li>No - <xref href="#c_setting_up_moderation/section_z5z_w4d_t1b" format="dita"
+                      >Stream-to-App Moderation Workflow</xref></li>
+                  <li>Yes - Content Trashed</li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>Library</entry>
+              <entry>Folder</entry>
+              <entry>No status (in folder, not published, not trashed)</entry>
+            </row>
+            <row>
+              <entry>Social Search</entry>
+              <entry>Folder</entry>
+              <entry>No status (in folder, not published, not trashed)</entry>
+            </row>
+            <row>
+              <entry>Stream Rule</entry>
+              <entry>Folder</entry>
+              <entry>
+                <p>Is content marked as Junk by SAFE filter?</p>
+                <ul id="ul_h1n_p4d_t1b">
+                  <li>No - No status (in folder, not published, not trashed)</li>
+                  <li>Yes - Content Trashed</li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>App Post</entry>
+              <entry>App</entry>
+              <entry>
+                <p>Is content marked as Junk by SAFE filter?</p>
+                <ul id="ul_mkf_t4d_t1b">
+                  <li>No - <xref href="#c_setting_up_moderation/section_fwn_w4d_t1b" format="dita"
+                      >Post-to-App Moderation Workflow</xref></li>
+                  <li>Yes - Content Trashed</li>
+                </ul>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="section_z5z_w4d_t1b"><title>Stream-to-App Moderation Workflow</title><image
+        href="images/stream_to_app_workflow.png" id="image_uxm_tnb_hbb"/><p>Before the content from
+        a Stream is published to an App, Livefyre performs the following checks to determine what to
+        do with the content:</p><ol id="ol_t3w_vvn_z1b">
+        <li>If SAFE flags the content as junk or drop, Livefyre trashes the content. </li>
+        <li>If SAFE does not flag the content as junk, Livefyre checks to see if premoderation is
+          on. </li>
+        <li>If premoderation is on, Livefyre marks the content as pending. </li>
+        <li>If you set up ModQ rules, then Livefyre sends the content to ModQ.</li>
+        <li>If premoderation is not on, Livefyre checks to see if SAFE flagged the content. </li>
+        <li>If SAFE flagged the content, Livefyre approves the content and publishes the content to
+          the App.</li>
+        <li>If SAFE flags the content and you did not set up SAFE rules, then Livefyre approves the
+          content and publishes the content to the App.</li>
+        <li>If SAFE flags the content and you set up SAFE rules, Livefyre checks if you set up SAFE
+          rules for the Stream. </li>
+        <li>If you set up SAFE rules for the stream, Livefyre approves the content and publishes the
+          content to the App. If you did not set up SAFE rules for the stream, Livefyre uses the
+          moderation SAFE rules to determine how to handle the content (send to ModQ, trash, etc.). </li>
+      </ol></section>
+    <section id="section_fwn_w4d_t1b"><title>Post-to-App Moderation Workflow</title><image
+        href="images/post_to_app_workflow.png" id="image_ghw_qnb_hbb"/><p>Before the content from an
+        App post <!--what is an "App post"? hrk 8/23/17--> is published to an App, Livefyre performs
+        the following checks to determine what to do with the content:</p><ol id="ol_bvm_fyn_z1b">
+        <li>If the SAFE filter flags the content as drop, Livefyre drops the content. </li>
+        <li>If SAFE does not flag the content as drop, Livefyre checks to see if premoderation is
+          on. If premoderation is on, Livefyre marks the content as pending. If you set up ModQ
+          rules, then Livefyre sends the content to ModQ as pending. If not, the content remains in
+          a pending status in App Content in the Library.</li>
+        <li>If premoderation is not on, Livefyre checks to see if SAFE flagged the content. If not,
+          Livefyre approves the content and publishes the content to the App.</li>
+        <li>If SAFE flags the content and you set up SAFE rules, Livefyre uses the SAFE rule to
+          determine how to handle the content (send to ModQ, trash, etc.). If SAFE flags the content
+          and you did not set up SAFE rules, then Livefyre approves the content and publishes the
+          content to the App.</li>
+      </ol></section>
+    <section id="section_lyk_ktx_vy">
+      <title>Bulk Filters</title>
+      <p>The Bulk Filter looks for repetitive content posted across all Livefyre networks within a
+        short timeframe. If detected, this content is flagged as Bulk, and then trashed by default.
+        While bulk content may be user-generated (such as “Touchdown!” posted repeatedly in a Chat
+        during a popular football game), most originates with spam campaigns. This filter is
+        language-independent, and works with any language. To customize the bulk filter, you must
+        contact Livefyre support.</p>
+    </section>
+    <section id="section_gqz_ksk_f1b">
+      <title>Rules</title>
+      <p>Use the Rules section to create pre-moderation rules, based on SAFE and user applied flags.
+        This panel offers two types of rules:</p>
+      <ul id="ul_uqh_lnk_yy">
+        <li><uicontrol>Flag Rules: </uicontrol> specify an action that should be taken on a comment
+          flagged by users a defined number of times.</li>
+        <li><uicontrol>SAFE Rules: </uicontrol>combine SAFE flags with actions to take on the
+          flagged content.</li>
+      </ul>
+      <p>To create Flag Rules, select the flag (Offensive, Off Topic, Disagree, or Spam), enter the
+        number of times it must be applied to a piece of content, and select the action to take. You
+        can set one Flag Rule for each flag option (Offensive, Off Topic, Disagree, or Spam).</p>
+      <p>You can create rules at the Network, Site, and Stream levels. Site level rules inherit
+        network rules, unless you configure Site rules differently. Stream rules inherit Site rules
+        unless you configure them differently.</p>
+      <p>Available actions:</p>
+      <ul id="ul_wqh_lnk_yy">
+        <li><uicontrol>Trash it: </uicontrol>sends the flagged comment to the trash.</li>
+        <li><uicontrol>Bozo it:</uicontrol> hides the flagged comment from all users, except its
+          writer, to whom it remains visible.</li>
+        <li><uicontrol>Pending:</uicontrol> sets the content as pending. If you set Premoderation to
+          ON under <uicontrol>Settings > ModQ</uicontrol>, then it will be in the ModQ. Otherwise it
+          will be in App Content only.</li>
+      </ul>
+      <note>Livefyre recommends that you create rules to Bozo comments that are flagged as Spam or
+        Offensive by five users.</note>
+    </section>
+    <section id="section_ec3_vr3_2cb">
+      <title>Moderation Recommendations</title>
+      <p>You can use moderation recommendations to help you determine how to moderate content posted
+        by site visitors in Livefyre Apps. The Moderation Recommendation Indicator recommends when a
+        piece of content is likely to be trashed, based on what actions you took previously on
+        similar content. To use Moderation Recommendations:<ol id="ol_anl_wvr_rdb">
+          <li>Turn on the Moderation Recommendations functionality by contacting your Adobe Livefyre
+            support professional.</li>
+          <li><p>Set up moderation recommendations in Network Settings.</p><p>Set up moderation
+              recommendations using the <uicontrol>Livefyre Recommends Trash</uicontrol> setting
+              under <uicontrol>Network Settings</uicontrol>. </p><image
+              href="images/image_mod_reco_trash.png" id="image_wfy_wrl_rdb"/></li>
+          <li>
+            <p>Set up a SAFE rule to tell Livefyre what to do with content that the moderation
+              recommendation identifies as content that is likely to be trashed. For more
+              information on how to set up a SAFE rule for the <uicontrol>Livefyre Recommends
+                Trash</uicontrol> option, see <xref href="c_moderation.dita#c_moderation"/>.</p>
+          </li>
+          <li>Use the <uicontrol>Moderation Recommendation Indicator</uicontrol> in the ModQ or in
+            App Content to filter content that the moderation recommendation identifies as likely to
+            be trashed. For more information on how to use Moderation Recommendations to moderate
+            content in ModQ, see <xref href="c_modq.dita#c_modq"/>. For more information on how to
+            use Moderation Recommendations in App Content, see <xref
+              href="c_moderate_content_using_app_content.dita#c_moderate_content_using_app_content"
+            />.</li>
+        </ol></p>
+    </section>
+  </conbody>
+</concept>

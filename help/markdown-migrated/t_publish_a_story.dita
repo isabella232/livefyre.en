@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_publish_a_story">
+    <title>Publish a Story</title>
+    <shortdesc>Publish a Storify 2 to your site.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Studio will automatically save your App after any change is made to its configuration
+                options. </p>
+            <note>Clicking <uicontrol>Publish</uicontrol> generates an embed code for the App, and
+                updates all existing instances of the App if previously published.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Publish</uicontrol> to generate an embed code, or to update
+                    any previously published versions of this App with the current version.</cmd>
+            </step>
+            <step>
+                <cmd> Add the embed code to your page to add the App and display any previously
+                    published content.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

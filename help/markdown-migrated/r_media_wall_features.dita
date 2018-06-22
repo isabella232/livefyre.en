@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_media_wall_features">
+  <title>Media Wall Features</title>
+  <shortdesc>The Media Wall app offers these features for your site.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_ymv_5tg_sy">
+      <p>
+        <ul id="ul_zny_3jg_sy">
+          <li>Displays content in order based on the date it was published (not on the date the
+            content was created).</li>
+          <li>Combines both Livefyre and social media content in a single display.</li>
+          <li>Allows users to like content, and to add text or photos directly to your Media
+            Wall.</li>
+          <li>Allows your users to share content to Twitter and Facebook. The shared permalink will
+            redirect those who click it back to the piece of content on your Media Wall.</li>
+          <li>Allows you to create special styling for Featured Content.</li>
+        </ul>
+      </p>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_search_for_assets">
+    <title>Search Saved Assets in the Library</title>
+    <shortdesc>Search for assets by different options and filters to find the right content for an
+        App.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>The following options are available in the Library to assist you in finding assets. </p>
+            <ul id="ul_r45_jzg_zz">
+                <li><uicontrol>Folder View:</uicontrol> When a folder is selected for view, use this
+                    option to define whether to display the folder’s contents only, or the contents
+                    of the folder and all its subfolders.</li>
+                <li><uicontrol>Contains:</uicontrol> select the content type you wish to be
+                    returned: <uicontrol>Photo</uicontrol> or <uicontrol>Video</uicontrol>.</li>
+                <li><uicontrol>Rights:</uicontrol> select the rights request status to filter by
+                    rights request status.</li>
+                <li><uicontrol>Source:</uicontrol> select the source from which content should be
+                    listed. <uicontrol>Uploaded</uicontrol> lists any assets added from your local
+                    machine, Flickr, Dropbox, or any of the other available Filepicker options.
+                        <uicontrol>Livefyre</uicontrol> lists user generated content posted directly
+                    into the stream.</li>
+                <li><uicontrol>Sort By:</uicontrol> use these options to sort returned content by <uicontrol>Date Added</uicontrol>
+                    (to your Library), <uicontrol>Date Created</uicontrol>, or <uicontrol>Relevance</uicontrol>.</li>
+                <li><uicontrol>Stars:</uicontrol> select the number of stars that must be added to
+                    the Asset for it to be returned.</li>
+                <li><uicontrol>Tags:</uicontrol> enter tags to search by.</li>
+            </ul>
+        </context>
+        <steps>
+            <step>
+                <cmd>Navigate to the <uicontrol>All Assets</uicontrol> page to see all assets.</cmd>
+            </step>
+            <step>
+                <cmd>Enter your search terms in the <uicontrol>Search folder</uicontrol> field
+                    (keyword or author name, or tag).</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Show Filter</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Use the filters provided to narrow your search within your Library.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

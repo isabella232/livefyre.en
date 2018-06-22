@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_initialize_livefyre_identity">
+    <title>Initialize Livefyre Identity</title>
+    <shortdesc>The Livefyre.js Auth package ensures that all social components on your page can
+        discover a single authentication integration.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Livefyre provides an <codeph>lfep-auth-delegate</codeph> package that will make an
+                appropriate auth delegate for you. Auth must be provided an AuthDelegate object that
+                knows how to perform authentication actions, like login and logout.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Add Livefyre.js to your webpage.</cmd>
+            </step>
+            <step>
+                <cmd>To tell Auth to delegate these actions to Livefyre Identity, add the
+                    following:</cmd>
+                <info>
+                    <codeblock>Livefyre.require([
+  'livefyre-auth',
+  'identity'
+  ], function (auth, Identity) {
+    var identity = new Identity({
+      app: "https://identity.livefyre.com/{networkName}.fyre.co"
+    });
+ auth.delegate( identity );
+ });</codeblock>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

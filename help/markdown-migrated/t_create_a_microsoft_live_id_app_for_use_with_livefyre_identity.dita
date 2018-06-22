@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_a_microsoft_live_id_app_for_use_with_livefyre_identity">
+    <title>Create a Microsoft Live Identity App for Use with Livefyre Identity</title>
+    <shortdesc>You can use Livefyre Identity with Microsoft Live Identity to allow users to use
+        their Facebook logins to interact Apps on your site.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To allow users to log in with their Microsoft Live Identity credentials, Livefyre
+                requires the following Microsoft Live Identity Information:</p>
+            <ul id="ul_lzl_yyf_gz">
+                <li>Client ID (Private Key)</li>
+                <li>Client Secret (Password)</li>
+            </ul>
+            <p>To create an Microsoft Live Identity app for use with Livefyre Identity:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create or sign in to a Microsoft Live account at <xref
+                        href="https://apps.dev.microsoft.com/" format="html" scope="external"
+                        >https://apps.dev.microsoft.com</xref></cmd>
+            </step>
+            <step>
+                <cmd>Create a new or select an existing app for use with Livefyre Identity.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Add Platform</uicontrol>, then select Web as the platform
+                    type.</cmd>
+            </step>
+            <step>
+                <cmd>Make sure the <uicontrol>Allow Implicit Flow</uicontrol> option is checked and
+                    enter the Redirect URL, using your network name instead of {network-name}:
+                    https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre.</cmd>
+            </step>
+            <step>
+                <cmd>Generate a new password/key pair to get the Private Key.</cmd>
+            </step>
+            <step>
+                <cmd>In <uicontrol>Livefyre Integration Settings Livefyre Identity Microsoft
+                        Live</uicontrol>, switch the <uicontrol>Enable Microsoft Live
+                        Login</uicontrol> toggle to <uicontrol>On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the Microsoft Live Client ID and Microsoft Live Client Secret.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save Settings</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_chx_ygf_3z">When complete,Microsoft Live Identity’s app details page will
+            list the app’s Client ID (Consumer Key) and Client Secret (Consumer Secret) for use in
+            Studio’s Integration Settings page.</result>
+    </taskbody>
+</task>

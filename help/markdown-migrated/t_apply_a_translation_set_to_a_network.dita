@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_apply_a_translation_set_to_a_network">
+    <title>Apply a Translation Set to a Network</title>
+    <shortdesc/>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <ol id="ol_nb5_fqk_yy">
+                <li>Navigate to Settings in Studio. Ensure you are working at the Network level, and
+                    not a the Site level.</li>
+                <li>Select Network Settings.</li>
+                <li>Select App Settings.</li>
+                <li>Navigate to Default Settings > Translation Set.</li>
+                <li>Select a Translation Set from the drop-down menu.</li>
+            </ol>
+        </context>
+    </taskbody>
+</task>

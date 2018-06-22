@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_rules_for_your_stream">
+    <title>Add Rules for your Stream</title>
+    <shortdesc>Add rules in Streams to allow content to automatically populate an App or Folder
+        based on these rules. </shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context id="context_n35_1nf_p1b">
+            <p>Add Stream rules to your stream from one or more of the following social networks or
+                content types:</p>
+            <ul id="ul_krl_nnf_p1b">
+                <li>Facebook</li>
+                <li>Facebook Pages</li>
+                <li>Email</li>
+                <li>Instagram</li>
+                <li>Tumblr</li>
+                <li>Twitter</li>
+                <li>YouTube</li>
+                <li>RSS</li>
+            </ul>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create or open a Stream.</cmd>
+            </step>
+            <step>
+                <cmd>Add a new rule.</cmd>
+            </step>
+            <step>
+                <cmd>Select the rule type.</cmd>
+            </step>
+            <step>
+                <cmd>Fill in the information. The kind of information you complete depends on what
+                    website or method from which you pull content. For more information on stream
+                    rule options, see Stream Rule Options for All Stream Rules and the documentation
+                    for the rules specific to a social network or content type.</cmd>
+            </step>
+            <step>
+                <cmd>Save the rule.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

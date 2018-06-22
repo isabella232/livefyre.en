@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_previous_release_notes">
+    <title>Previous Release Notes</title>
+    <shortdesc>
+      <draft-comment author="ind14750" otherprops="merge">c_previous_release_notes.dita</draft-comment>
+    </shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody />
+  </concept>
+</dita>

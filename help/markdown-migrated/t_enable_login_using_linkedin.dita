@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enable_login_using_linkedin">
+    <title>Enable Login Using LinkedIn</title>
+    <shortdesc>Connect your LinkedIn account to Livefyre to allow users to use their LinkedIn logins
+        to interact with Apps on your site.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To enable login using a LinkedIn account:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>In <uicontrol>Livefyre > Integration Settings > Livefyre Identity >
+                        LinkedIn</uicontrol> switch the <uicontrol>Enable LinkedIn Login</uicontrol>
+                    toggle to <uicontrol>On</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the <uicontrol>LinkedIn Client ID</uicontrol> and <uicontrol>LinkedIn
+                        Client Secret</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Save Settings</uicontrol>.</cmd>
+                <info>The <uicontrol>LinkedIn Client ID</uicontrol> and <uicontrol>LinkedIn Client
+                        Secret</uicontrol> are listed in the LinkedIn app details page.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_sidenotes_text_strings">
+ <title>Sidenotes Text Strings</title>
+ <shortdesc>Customizing the text strings for Livefyre Sidenotes</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>This page lists and describes all strings available for customization in Sidenotes apps. For
+   information on strings available for the core Livefyre apps, please see String
+   Customizations.</p>
+  <ul id="ul_tfk_vnl_wz">
+   <li>Implementation</li>
+   <li>Auth</li>
+   <li>Stream Info</li>
+   <li>Author / Content Info</li>
+   <li>User Actions</li>
+   <li>Post Functions</li>
+   <li>Moderator Interface</li>
+   <li>Errors</li>
+  </ul>
+  <section id="section_wp2_ql4_xz">
+   <title>Implementation</title>
+   <p>To implement this feature, pass in a 1-1 object mapping of the strings you wish to override to
+    the Javascript configuration object. If you don’t provide a field, then the default text will be
+    used.</p>
+   <p>Example:</p>
+   <codeblock>var customStrings = {
+   postAsButton: "New Post As Text",
+   postEditButton: "New Post Edit Text"
+};
+networkConfig["strings"] = customStrings; fyre.conv.load(
+   networkConfig,
+   [convConfig],
+   function(){}
+);</codeblock>
+  </section>
+  <section id="section_pqf_3l4_xz">
+   <title>Authentication</title>
+   <p>Strings available for the Authentication process, and from the authenticated user menus.</p>
+   <table id="table_vfk_vnl_wz">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+     <thead>
+      <row>
+       <entry>Element</entry>
+       <entry>Key</entry>
+       <entry>Default Text</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry><i>Auth menu strings</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuAuthSignInBtn</entry>
+       <entry>Sign in</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuAuthSignedInMsg</entry>
+       <entry>You must be signed in to {action}</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuUserEditProfile</entry>
+       <entry>Edit Profile</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuUserAdmin</entry>
+       <entry>Admin Console</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuUserLogout</entry>
+       <entry>Sign Out</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuUserBackBtn</entry>
+       <entry>All</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+  <section id="section_wpy_gl4_xz">
+   <title>Stream Info</title>
+   <p>Strings available for content stream information and display.</p>
+   <table id="table_wfk_vnl_wz">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+    <thead>
+     <row>
+      <entry>Element</entry>
+      <entry>Key</entry>
+      <entry>Default Text</entry>
+     </row>
+    </thead>
+     <tbody>
+      
+      <row>
+       <entry><i>Info menu options</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuInfoCopyright</entry>
+       <entry>&amp;copy; Livefyre, Inc. 2014</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuInfoHelp</entry>
+       <entry>Help</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuInfoLivefyreLink</entry>
+       <entry>Visit Livefyre.com</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+  <section id="section_dhb_gl4_xz">
+   <title>Author / Content Info</title>
+   <p>Stings available for author and individual content information.</p>
+   <table id="table_xfk_vnl_wz">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+     <thead>
+      <row>
+       <entry>Element</entry>
+       <entry>Key</entry>
+       <entry>Default Text</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry/>
+       <entry>commentModeratorTag</entry>
+       <entry>Mod</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>commentPendingTag</entry>
+       <entry>Pending</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>commentReadMoreLink</entry>
+       <entry>Read More</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>commentReplyLink</entry>
+       <entry>See {number} replies</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>commentReplyLinkSing</entry>
+       <entry>See reply</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>commentVoteCount</entry>
+       <entry>votes</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>commentVoteCountSing</entry>
+       <entry>vote</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>datetimeMinutePrefix</entry>
+       <entry>m</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>datetimeMonths</entry>
+       <entry><i>An array. Default = </i>[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’,
+        ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>questionExplanation</entry>
+       <entry>You can now read and write comments directly on sentences, paragraphs, images and
+        quotes.&lt;br>&lt;br>&lt;span class=”lf-highlight-text”>Highlight text&lt;/span> and click
+        the &lt;span class=”fycon-write”>&lt;/span> icon or click the &lt;span
+        class=”fycon-action-view”>&lt;/span> icon at the end of each paragraph.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>questionMockText</entry>
+       <entry>What is “familiarly known” is not properly known, just for the reason that it is
+        “familiar”.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>questionTitle</entry>
+       <entry>What is a Sidenote?</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+  <section id="section_qxd_fl4_xz">
+   <title>User Actions</title>
+   <p>Strings available for user actions: flagging, sharing, and liking existing content.</p>
+   <table id="table_yfk_vnl_wz">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+     <thead>
+      <row>
+       <entry>Element</entry>
+       <entry>Key</entry>
+       <entry>Default Text</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry><i>Reply menu options</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuRepliesViewTitle</entry>
+       <entry>Details</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuRepliesViewReply</entry>
+       <entry>Reply to Conversation</entry>
+      </row>
+      <row>
+       <entry><i>Share menu options</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuShareOptionFacebook</entry>
+       <entry>Facebook</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuShareOptionTwitter</entry>
+       <entry>Twitter</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuShareTitle</entry>
+       <entry>Share</entry>
+      </row>
+      <row>
+       <entry><i>Flag menu options</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuFlagOptionDisagree</entry>
+       <entry>Disagree</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuFlagOptionOffensive</entry>
+       <entry>Offensive</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuFlagOptionOffTopic</entry>
+       <entry>Off Topic</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuFlagOptionSpam</entry>
+       <entry>Spam</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuFlagTitle</entry>
+       <entry>Flag as…</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>facebookShareCaption</entry>
+       <entry>Sidenotes on “{title}”</entry>
+      </row>
+      <row>
+       <entry><i>Mobile user options</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>sliderCommentTally</entry>
+       <entry>of</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>sliderInviteRead</entry>
+       <entry>Read</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>sliderInviteWrite</entry>
+       <entry>Write</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>sliderLoading</entry>
+       <entry>Loading…</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>sliderWriteText</entry>
+       <entry>What do you think? Tap to write.</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+  <section id="section_xzf_2l4_xz">
+   <title>Post Functions</title>
+   <p>Strings available for users posting content.</p>
+   <table id="table_zfk_vnl_wz">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+     <thead>
+      <row>
+       <entry>Element</entry>
+       <entry>Key</entry>
+       <entry>Default Text</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry/>
+       <entry>editorEditBtn</entry>
+       <entry>Save</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorEditPosting</entry>
+       <entry>Saving…</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorEditReplyTitle</entry>
+       <entry>Edit Reply</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorEditTitle</entry>
+       <entry>Edit Sidenote</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorPlaceholder</entry>
+       <entry>What do you think?</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorPostBtn</entry>
+       <entry>Post Sidenote</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorPostBtnMobile</entry>
+       <entry>Post</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorPosting</entry>
+       <entry>Posting…</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorReplyBtn</entry>
+       <entry>Post Reply</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorReplyTitle</entry>
+       <entry>Write Reply</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>editorTitle</entry>
+       <entry>Write Sidenote</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>emptyImageBlockTxt</entry>
+       <entry>What do you think?</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>emptyTextBlockTxt</entry>
+       <entry>+</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>replyBtn</entry>
+       <entry>Reply</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>threadReplyBtn</entry>
+       <entry>Reply to Conversation</entry>
+      </row>
+      <row>
+       <entry><i>Delete menu options</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuConfirmAccept</entry>
+       <entry>Yes, {action}</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuConfirmCancel</entry>
+       <entry>Cancel</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuConfirmTitle</entry>
+       <entry>Are you sure?</entry>
+      </row>
+      <row>
+       <entry><i>Etc menu options</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuEtcOptionApprove</entry>
+       <entry>Approve</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuEtcOptionDelete</entry>
+       <entry>Delete</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuEtcOptionEdit</entry>
+       <entry>Edit</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuEtcOptionFlag</entry>
+       <entry>Flag</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuEtcOptionShare</entry>
+       <entry>Share</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuEtcPostedAt</entry>
+       <entry>Posted on {date}</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>menuEtcTitle</entry>
+       <entry>More</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+  <section id="section_o5f_dl4_xz">
+   <title>Moderator Interface</title>
+   <p>Strings available to the user-authenticated moderator interface.</p>
+   <table id="table_agk_vnl_wz">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+     <thead>
+      <row>
+       <entry>Element</entry>
+       <entry>Key</entry>
+       <entry>Default Text</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry><i>Confirmation messages from the More menu</i></entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>notificationApproved</entry>
+       <entry>Approved</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>notificationDeleted</entry>
+       <entry>Deleted</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>notificationFlagged</entry>
+       <entry>Flagged</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+  <section id="section_gtk_cl4_xz">
+   <title>Errors</title>
+   <p>Strings available for general error messages.</p>
+   <table id="table_bgk_vnl_wz">
+    <tgroup cols="3">
+     <colspec colnum="1" colname="col1"/>
+     <colspec colnum="2" colname="col2"/>
+     <colspec colnum="3" colname="col3"/>
+     <thead>
+      <row>
+       <entry>Element</entry>
+       <entry>Key</entry>
+       <entry>Default Text</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry/>
+       <entry>errorConnection</entry>
+       <entry>Uh-oh. You don’t seem to have a good connection.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>errorDuplicate</entry>
+       <entry>We like your note too, but you can’t post it twice.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>errorGeneral</entry>
+       <entry>An error has occurred. Please try again.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>errorServer</entry>
+       <entry>Something went wrong with our server. Try that again?</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+ </conbody>
+</concept>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_feature_content">
+    <title>Feature Content</title>
+    <shortdesc>Use custom styling to highlight featured content.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Featuring content allows you to call attention to selected user posts. Featured
+                content may be styled differently than other content on the page, and featured
+                Livefyre-native content appears above the editor. Once featured, content includes a
+                Featured badge, and may be custom styled using the fyre-featured CSS class. The two
+                most recently featured Livefyre-native content items will also be displayed above
+                the editor in the stream.</p>
+        </context>
+        <steps id="steps_e2r_wzk_kbb">
+            <step>
+                <cmd>Enable the option in Studio. See <xref
+                        href="t_enable_featuring_content_in_studio.dita#t_enable_featuring_content_in_studio"
+                    />.</cmd>
+            </step>
+            <step>
+                <cmd>Train your moderators to identify and select content to be featured directly
+                    from a Comments, Live Blog or Reviews App, or from the App Content and ModQ
+                    sections of Studio. </cmd>
+                <info> Moderators can:<ul id="ul_l2d_hpx_2cb">
+                        <li><xref
+                                href="t_select_content_to_feature_from_studio.dita#select_content_to_feature_from_studio"
+                            /></li>
+                        <li><xref
+                                href="t_select_content_to_feature.dita#t_select_content_to_feature"
+                            /></li>
+                    </ul></info>
+            </step>
+            <step>
+                <cmd>Use CSS to style the way in which the content will be displayed in the App. See
+                        <xref
+                        href="c_use_css_to_style_featured_content.dita#c_use_css_to_style_featured_content"
+                    />.</cmd>
+            </step>
+            <step>
+                <cmd>Use API calls to automate the process. See<xref
+                        href="c_feature_apis.dita#c_feature_apis"/>.</cmd>
+                <info>
+                    <ul id="ul_bbj_y4l_wz">
+                        <li>
+                            <xref href="#c_feature_apis/section_jpw_nqw_xz" format="dita"
+                                >Feature</xref>
+                        </li>
+                        <li>
+                            <xref href="#c_feature_apis/section_knh_mqw_xz" format="dita"
+                                >Unfeature</xref>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Aggregate Featured Content. See <xref
+                        href="c_aggregated_featured_content_using_the_featured_apis.dita#c_aggregated_featured_content_using_the_featured_apis"
+                    />.</cmd>
+                <info>
+                    <ul id="ul_cbj_y4l_wz">
+                        <li>
+                            <xref
+                                href="#c_aggregated_featured_content_using_the_featured_apis/section_cgm_1nw_xz"
+                                format="dita">Featured (Network)</xref>
+                        </li>
+                        <li>
+                            <xref
+                                href="#c_aggregated_featured_content_using_the_featured_apis/section_lq5_ymw_xz"
+                                format="dita">Featured (Site)</xref>
+                        </li>
+                        <li>
+                            <xref
+                                href="#c_aggregated_featured_content_using_the_featured_apis/section_kgc_xmw_xz"
+                                format="dita">Featured (Collection)</xref>
+                        </li>
+                        <li>
+                            <xref
+                                href="#c_aggregated_featured_content_using_the_featured_apis/section_n4b_lmw_xz"
+                                format="dita">Featured (Head)</xref>
+                        </li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

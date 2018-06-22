@@ -1,0 +1,24 @@
+---
+description: 
+seo-description: 
+seo-title: Manually Grant or Revoke Rights for an Asset from the Asset Library
+solution: Experience Manager
+title: Manually Grant or Revoke Rights for an Asset from the Asset Library
+---
+
+# Manually Grant or Revoke Rights for an Asset from the Asset Library
+
+>[!NOTE]
+>
+>Manually granting rights on a piece of content is stating that you own the content. Do not manually grant rights without verifying that you own the content.
+>1. Click on `uicontrol Library` to access the `uicontrol Asset Library`.
+>   
+>1. Open a folder and click on a piece of content that you saved from Twitter or Instagram. You can see where the content originated by looking at the icon on the piece of content. For example, a piece of content from Twitter has the Twitter logo on it.
+>   
+>1. Click on the ellipsis icon that displays when you hover over the content card for `uicontrol More Options`.
+>   
+>1. Click `uicontrol Rights` to open the `uicontrol Rights options` window.
+>   
+>1. Click `uicontrol Manually Grant Rights`.
+>   
+>   

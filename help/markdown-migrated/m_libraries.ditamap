@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Libraries</title>
+ <topicref href="c_installing_libraries.dita" navtitle="Installing Libraries" format="dita"
+  scope="local"/>
+</map>

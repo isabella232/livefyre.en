@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_move_navigation_guide">
+    <title>Move the Navigation Guide</title>
+    <shortdesc>Specify the location of the Navigation Guide on the screen.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>In the Storify 2 App Designer, switch on the <uicontrol>Navigation
+                        Guide</uicontrol> toggle.</cmd>
+            </step>
+            <step>
+                <cmd>Select top, left, or right from the <uicontrol>Orientation</uicontrol> drop
+                    down.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

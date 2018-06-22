@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_geturnforuser_method">
+  <title>getUrnForUser Network Method</title>
+  <shortdesc>This method returns the URN for this network’s user.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <properties id="properties_gq4_jyf_5y">
+      <prophead>
+        <proptypehd>Variable</proptypehd>
+        <propvaluehd>Type</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype><varname>userId</varname></proptype>
+        <propvalue>String</propvalue>
+        <propdesc>
+          <p>The userId to use in the URN.</p>
+        </propdesc>
+      </property>
+    </properties>
+    <section id="section_nyl_ycs_rz">
+      <title>Java Example</title>
+      <codeblock>
+network.getUrnForUser(userId);</codeblock>
+      <p>Sample output: </p>
+      <codeblock>
+"urn:livefyre:network=example.fyre.co:user=tester"
+</codeblock>
+    </section>
+    <section id="section_xkd_gds_rz">
+      <title>NodeJS Example</title>
+      <codeblock>
+network.getUrnForUser(userId);</codeblock>
+      <p>Sample output: </p>
+      <codeblock>
+"urn:livefyre:network=example.fyre.co:user=tester"
+</codeblock>
+    </section>
+    <section id="section_ghf_gds_rz">
+      <title>PHP Example</title>
+      <codeblock>$network->getUrnForUser(userId);
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>
+"urn:livefyre:network=example.fyre.co:user=tester"
+</codeblock>
+    </section>
+    <section id="section_dwg_gds_rz">
+      <title>Python Example</title>
+      <codeblock>network.get_urn_for_user(userId)
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>
+"urn:livefyre:network=example.fyre.co:user=tester"
+</codeblock>
+    </section>
+    <section id="section_enh_gds_rz">
+      <title>Ruby Example</title>
+      <codeblock>network.get_urn_for_user(userId)
+</codeblock>
+      <p>Sample output: </p>
+      <codeblock>"urn:livefyre:network=example.fyre.co:user=tester"
+</codeblock>
+    </section>
+  </refbody>
+</reference>

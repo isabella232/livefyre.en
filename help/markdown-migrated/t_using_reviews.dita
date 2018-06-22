@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_using_reviews">
+    <title>Post a Review</title>
+    <shortdesc>Any user who is logged in to your site's authentication system can post a review
+        using this process.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Users can post up to one Review into each Reviews Collection. Only users who are
+                logged in can post a review.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>Write review</uicontrol>. The Review editor will be
+                    displayed.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the <uicontrol>Review Title </uicontrol>(maximum 150 characters).</cmd>
+            </step>
+            <step>
+                <cmd>Enter the <uicontrol>Review Body</uicontrol> (approximately 8000 characters).
+                    As you click into the <uicontrol>Review Body</uicontrol> field, all available
+                    features will appear at the bottom of the editor, for example rich text
+                    formatting, friend mentions, social sharing and posting your review.</cmd>
+            </step>
+            <step>
+                <cmd>Select a <uicontrol>Rating</uicontrol> by clicking on the stars above the
+                    review edit area.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Post review</uicontrol> to post your review into the
+                    Collection, and display it at the top of the stream.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Show review</uicontrol> after you’ve posted to highlight the
+                    review, as displayed below.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

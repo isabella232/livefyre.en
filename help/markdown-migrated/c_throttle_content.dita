@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_throttle_content">
+ <title>Throttle Content</title>
+ <shortdesc>Throttle content using intelligent rules to control high velocity
+  conversations.</shortdesc>
+ <conbody>
+  <p>Use Throttle Content to control high velocity chats, when the real time nature of the content
+   is important. When enabled, Throttle Content throttles high velocity content streams, and
+   displays only content that the system deems most “intelligent.”</p>
+  <p>When this feature is enabled:</p>
+  <ul id="ul_arv_jmb_vy">
+   <li>Users see their own content stream into the page, because is will be deemed “intelligent
+    content” for that user.</li>
+   <li>Users can view all previous content upon page load or refresh.</li>
+   <li>Moderators will not experience a throttled stream; they see all content stream in.</li>
+   <li>Because Moderator-generated content is deemed intelligent, it will always stream into the
+    Collection for all users.</li>
+  </ul>
+  <p>If the velocity drops, Livefyre will display all content, streaming in real-time.</p>
+  <p>This feature may be enabled at the Collection level using Collection Settings in Studio. You
+   may not Throttle Content at the network or site level.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_connecting_janrain_to_livefyre_using_authdelegate">
+ <title>Connecting Janrain to Livefyre using AuthDelegate</title>
+ <shortdesc>Livefyre.require provides a plugin that enables auth to listen to the Janrain Backplane
+  bus.</shortdesc>
+ <conbody>
+  <p> When an identity/login message is broadcast on the Backplane channel, auth.authenticate() will
+   be called for you with the user’s Livefyre Authentication token. You must still implement an
+   AuthDelegate.</p>
+  <codeblock>
+Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) {
+   auth.plugin(backplanePluginFactory('network.fyre.co'));
+   auth.delegate({
+      login: function (finishLogin) {
+         loginWithCapture(finishLogin);
+      }
+   });
+});</codeblock>
+  <note>The window.Backplane object must be defined on your page before calling auth.plugin with the
+   Livefyre Backplane plugin. To make sure the Backplane object is available, call the Livefyre
+   instantiation code from an onReady callback. Consult your Janrain contact to determine when other
+   applications may use the Backplane object.</note>
+  <p>The following are some examples of how an auth delegate may look for a Janrain Capture
+   integration. </p>
+  <note>Your auth delegate will vary depending upon your Janrain instance.</note>
+  <ul id="ul_gqf_htz_pz">
+   <li>
+    <p><cmdname>Login</cmdname></p>
+    <ul id="ul_d4x_3tz_pz">
+     <li><cmdname>errback:</cmdname> The callback passed to your auth delegate’s login method</li>
+     <li><cmdname>janrain:</cmdname> The reference to your Janrain capture variable.</li>
+     <li><cmdname>window.Backplane</cmdname>: A reference to your Backplane object.</li>
+    </ul>
+   </li>
+  </ul>
+  <codeblock>/**
+* Login function
+* In this case, opens a login modal and triggers Backplane to start listening
+* for login messages
+*/
+authDelegate.login = function(finishLogin) {
+   var successCallback = function() {
+      // These need to be replaced with the actions that correspond to successful login 
+      // and when the Janrain modal is closed.
+      janrain.events.onCaptureLoginSuccess.removeHandler(successCallback);
+      janrain.events.onModalClose.removeHandler(failureCallback);
+      finishLogin();
+   };
+ 
+   var failureCallback = function(e) {
+      janrain.events.onModalClose.removeHandler(failureCallback);
+      janrain.events.onCaptureLoginSuccess.removeHandler(successCallback);
+      finishLogin(e || new Error("Error logging in with Janrain Capture"));
+   };
+ 
+   // Open the modal to log a user in
+   janrain.capture.ui.renderScreen('signIn');
+   // Send a backplane message
+   window.Backplane.expectMessages('identity/login');
+   // Add handlers to specific janrain events
+   janrain.events.onCaptureLoginSuccess.addHandler(successCallback);
+   janrain.events.onModalClose.addHandler(failureCallback);
+};</codeblock>
+  <p>Logout</p>
+  <dl>
+   <dlentry>
+    <dt>finishLogout:</dt>
+    <dd>The callback passed to your auth delegate’s login method.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>window.Backplane:</dt>
+    <dd>A reference to your Backplane object.</dd>
+   </dlentry>
+  </dl>
+  <codeblock>/**
+* Logout function
+* In this case, invalidates the session and removes the cookie.
+* Also reloads the page to change state. In order to do this without a reload,
+* it would be necessary to also update the UI.
+*/
+authDelegate.logout = function(finishLogout) {
+   Backplane.resetCookieChannel();
+   janrain.capture.ui.endCaptureSession();
+   finishLogout();
+};
+</codeblock>
+  <p>Edit Profile</p>
+  <p>This can link to whatever part of the site you would like users to visit to view their own
+   profile page. This example merely prints out the author object passed in.</p>
+  <codeblock>/**
+* Edit profile function
+* @param user - User who would like to edit their profile
+*/
+authDelegate.editProfile = function(user) {
+   console.log(user);
+};
+</codeblock>
+  <p>View Profile</p>
+  <p>Like Edit Profile, this should link to a user’s page that is different from the currently
+   logged in user. This can be implemented however you see fit. This example simply logs the author
+   parameter to the console.</p>
+  <codeblock>/**
+* View profile function
+* @param user - User or userId whose profile should be displayed
+*/
+authDelegate.viewProfile = function(user) {
+   console.log(author);
+};</codeblock>
+ </conbody>
+</concept>

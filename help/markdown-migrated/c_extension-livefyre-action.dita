@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_extension-livefyre-action">
+    <title>Adobe Livefyre Extension Action Types</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>Launch</keyword>
+                <keyword>extension</keyword>
+                <keyword>Livefyre</keyword>
+                <keyword>rule</keyword>
+            </keywords>
+            <othermeta name="solution" content="Analytics,Marketing Cloud,Launch"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

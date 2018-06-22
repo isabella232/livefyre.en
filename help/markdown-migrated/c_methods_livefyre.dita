@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_methods_livefyre">
+ <title>Classes and Methods</title>
+ <shortdesc>Language bindings for Livefyre’s server-side library methods.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>The following classes of methods exist in order to interface to interact with Livefyre:</p>
+  <ul id="ul_olg_llz_rz">
+   <li><xref href="c_installing_libraries.dita"/>. Interface to interact with Livefyre network-level
+    API.</li>
+   <li><xref href="#c_collection_methods" format="dita">Collection Class</xref>. Interface to
+    interact with Livefyre Collection-level API.</li>
+   <li><xref href="#c_site_methods" format="dita">Site Class</xref>. Interface to interact with
+    Livefyre site-level API.</li>
+  </ul>
+ </conbody>
+</concept>

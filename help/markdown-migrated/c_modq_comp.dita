@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <topic id="topic_lf1_4tb_2cb">
+    <title>ModQ</title>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <body>
+      <p>Use the ModQ to moderate incoming content in Livefyre. </p>
+    </body>
+  </topic>
+</dita>

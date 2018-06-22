@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_social_content">
+    <title>Add Social Content</title>
+    <shortdesc>Storify 2 offers several content sources to add social content.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>The Search tab allows you to search social media networks, offers general web, and
+                image searches.</p>
+            <note>Content used from listed providers must adhere to their guidelines.</note>
+            <note>Twitter’s Search API will return only the most recent 7 days’ content.</note>
+            <p>To add content to your story:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>From the <uicontrol>Search</uicontrol> tab, click an icon to select your
+                    source.</cmd>
+            </step>
+            <step>
+                <cmd>Storify will display search options specific to the source.</cmd>
+            </step>
+            <step>
+                <cmd>Enter your search parameters, and click the search icon (magnifying glass) or
+                    click return to search.</cmd>
+            </step>
+            <step>
+                <cmd>Once you’ve found elements you want to include, simply drag them from the list
+                    to any section of your story.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

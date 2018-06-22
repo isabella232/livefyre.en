@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_send_rights_request_from_modq">
+    <title>Send Rights Request from ModQ</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <ol id="ol_z3x_ddm_dbb">
+            <li>Open <uicontrol>ModQ</uicontrol>.</li>
+            <li>Click on the <uicontrol>Streams Premoderation</uicontrol> tab.</li>
+            <li>Click the down arrow for <uicontrol>More Options</uicontrol> for a piece of
+                content.</li>
+            <li>Select the account to use to request rights.</li>
+            <li>(Optional) Edit the request message.</li>
+            <li>Click <uicontrol>Send Request</uicontrol> to send the request to the owner of the
+                content.</li>
+        </ol>
+    </conbody>
+</concept>

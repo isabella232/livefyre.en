@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_local_images_to_a_storify_2">
+    <title>Add Local Images to a Storify 2</title>
+    <shortdesc>Storify allows you to add images from your local repository to your
+        Story.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Storify supports JPEGs, PNGs, and GIFs. (GIFs must be under 1MB. Storify will
+                automatically resize PNGs and JPEGs.)</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click to add a new text field.</cmd>
+            </step>
+            <step>
+                <cmd>Drag and drop an image or video from your desktop into the new content pane, or
+                    click the camera icon in the bottom left of the pane to select your file.</cmd>
+            </step>
+            <step>
+                <cmd>Add a caption.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

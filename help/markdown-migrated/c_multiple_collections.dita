@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_multiple_collections">
+ <title>Multiple Collections</title>
+ <shortdesc>Showcase multiple Collections on a single page.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+ <conbody>
+  <p>You may include multiple Collections on a single page on your site. For example, to publish an
+   event, you may have a Live Blog or Chat discussion during the event, with a separate App on the
+   side of your page, displaying related Curated Content from around the social web. Or, you could
+   include a Comments App below an article, with a Chat to the side.</p>
+  <p>To get multiple conversations on a page, add one or more configurations in an array and pass
+   the array to the load call. For example.</p>
+  <codeblock>&lt;html>
+&lt;head>
+&lt;script src='//cdn.livefyre.com/Livefyre.js'>&lt;/script>
+&lt;/head>
+&lt;body>
+&lt;script type="text/javascript">
+convConfig1 = {"collectionMeta": &lt;COLLECTION META 1>,
+             "checksum": &lt;CHECKSUM 1>,
+             "siteId": &lt;SITE ID>,
+             "articleId":"1",
+             "el":"livefyre"};
+convConfig2 = {"collectionMeta": &lt;COLLECTION META 2>,
+             "checksum": &lt;CHECKSUM 2>,
+             "siteId": &lt;SITE ID>,
+             "articleId":"2",
+             "el":"livefyre"};
+convConfig3 = {"collectionMeta": &lt;COLLECTION META 3>,
+             "checksum": &lt;CHECKSUM 3>,
+             "siteId": &lt;SITE ID>,
+             "articleId":"3",
+             "el":"livefyre"};
+ 
+Livefyre.require(['fyre.conv#prod'],function(Conv) {
+    new Conv({"network": "&lt;NETWORK NAME>"},
+    [convConfig1],
+    function(app) { 
+        window.changeConv = app.changeCollection;
+    }
+    );
+});
+&lt;/script>
+ 
+&lt;div id="livefyre">&lt;/div>
+&lt;button onclick="window.changeConv(convConfig1);">Conv 1&lt;/button>
+&lt;button onclick="window.changeConv(convConfig2);">Conv 2&lt;/button>
+&lt;button onclick="window.changeConv(convConfig3);">Conv 3&lt;/button>
+&lt;/body>
+&lt;/html></codeblock>
+ </conbody>
+</concept>

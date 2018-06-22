@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_comment_notifier">
+ <title>Comment Notifier</title>
+ <shortdesc>Allows you to enable a small popup on the page to notify users when a comment has been
+  added.</shortdesc>
+ <conbody>
+  <p>The Comment Notifier is a small popup at the bottom right of the page, that notifies users on
+   the page of new activity in the stream by displaying the first few words of the comment with the
+   Avatar for its author. (Notifiers are not available for Top Comments, Hot Threads, or Queued
+   Comments.)</p>
+  <section id="section_ut2_lvx_vy">
+   <title>Comment Notifier Features</title>
+   <p>The comment notifier increases user engagement by surfacing activity happening on the page, no
+    matter where on the page the user is currently engaged, encouraging them to click on new
+    comments, and respond.</p>
+   <p>The notifier includes a preview of the latest comment, and the user’s avatar to the left of
+    text. The total count of new comments is displayed in the toolbar underneath, and this number
+    increments with more posts in the stream. If there are 2 or more new comments above or below the
+    user’s current view of the stream, a scroll bar will appear within the notifier, allowing the
+    user to scroll and view snippets of all other new comments.</p>
+   <p>Click the preview of a new comment to jump to the location of that comment in the stream.
+    Click the number of new comments to expand the pane to show a preview of each unread
+    comment.</p>
+   <p>The notifier disappears after all new comments have been viewed, and reappears when a new
+    comment appears above or below the user’s current view of the stream.</p>
+  </section>
+  <section id="section_cmy_cvx_vy">
+   <title>Hiding the Comment Notifier</title>
+   <p>Click the <uicontrol>x</uicontrol> in the right corner of the <uicontrol>New
+     Comments</uicontrol> bar to close the notifier for the page. Refresh the page, and the notifier
+    will reappear.</p>
+   <p>Hide the notifier widget across your entire network using CSS Customizations.</p>
+   <note>The comment notifier is not available on mobile devices.</note>
+  </section>
+  <section id="section_blk_ccj_h1b">
+   <p>Apps that use this feature:</p>
+   <ul id="ul_qzp_ccj_h1b">
+    <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+   </ul>
+  </section>
+ </conbody>
+</concept>

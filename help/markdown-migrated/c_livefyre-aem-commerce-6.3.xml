@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita> 
+  <concept id="concept_D0BD7EE397B14958A0C162185879B244"> 
+	 <title>Use Livefyre with AEM Commerce</title> 
+	 <shortdesc><?xm-replace_text Short Description?>
+	 </shortdesc> 
+	 <conbody> 
+		<p> 
+		  <note>Screenshots were taken using the AEM 6.3 Touch UI. 
+		  </note> 
+		</p> 
+	 </conbody> 
+  </concept> 
+  <task id="task_FE221C7238504F00B666510F17AE333F"> 
+	 <title>Import Product Catalogs into Livefyre with AEM Commerce</title> 
+	 <shortdesc> Seamlessly integrate your existing product catalog into
+		Livefyre to drive user engagement in Livefyre's visualization Apps. 
+	 </shortdesc> 
+	 <taskbody> 
+		<context id="context_6762D16E7F0C49AF8B5E3537D2B5E80D"> 
+		  <p> After you import the product catalog, the products show up in real
+			 time in your Livefyre instance. If you edit or delete items in your AEM
+			 Commerce Product Catalog, the changes automatically update in Livefrye. 
+		  </p> 
+		</context> 
+		<steps id="steps_8538DB6525B040F880072452174FE73F"> 
+		  <step id="step_8D7903B416A94D86814BB7D42DC102A2"> 
+			 <cmd>Ensure you have the 
+				<xref
+				href="c_livefyre-aem.xml#task_B2552594101E448E9123C04AD579630D" format="dita"
+				scope="local">latest Livefyre for AEM package installed</xref> on your AEM
+				instance. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_70D81831C10A44199901482A23B35F9B"> 
+			 <cmd>From the AEM homepage, navigate to 
+				<uicontrol>AEM Commerce</uicontrol>. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_10533BB63D9240A9BB16FB2F40BD7447"> 
+			 <cmd>Create a new collection or use an existing collection. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_D0E12EA0FA7A4C8595211A11A7AFEEF3"> 
+			 <cmd>Hover over the collection and click on 
+				<uicontrol>Collection Properties</uicontrol> (pencil icon). 
+			 </cmd> 
+		  </step> 
+		  <step id="step_7B594CC27C084A21BCD030603803932C"> 
+			 <cmd>Check 
+				<uicontrol>Sync to Livefyre</uicontrol>. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_0A3909448B9F4B8BB12DB2672BF833B8"> 
+			 <cmd>Fill in 
+				<uicontrol>Livefyre Page Prefix</uicontrol> to link this collection
+				to a specific page in AEM. 
+			 </cmd> 
+			 <info> The page prefix defines the root path in your environment
+				where searching for product pages begins. Livefyre chooses the first page that
+				has a corresponding product associated to it. In order to get different pages
+				for different products, multiple collections are needed. 
+			 </info> 
+		  </step> 
+		</steps> 
+	 </taskbody> 
+  </task> 
+</dita> 

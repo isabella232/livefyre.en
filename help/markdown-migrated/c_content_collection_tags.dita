@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_content_collection_tags">
+ <title>Collection and Content Tags</title>
+ <shortdesc>Add keyword tags to collections and content, to categorize and organize content for easy
+  retrieval.</shortdesc>
+ <conbody>
+  <p>Assigning tags allows you to filter searches by a specific tag, and to pull data for the Heat
+   Index API.</p>
+  <p>Tags may be added through the <uicontrol>Content</uicontrol> and
+    <uicontrol>Collections</uicontrol> panels in Studio, or directly to the Collection Metadata
+   (using the collectionMeta object) when initializing or updating the Collection with Livefyre.</p>
+  <p>Apps that use this feature:</p>
+  <ul id="ul_jl1_knh_h1b">
+   <li><xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref></li>
+   <li><xref href="c_chat_app.dita#c_chat_app">Chat</xref></li>
+   <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+   <li><xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref></li>
+   <li><xref href="c_map_app.dita#c_map_app">Map</xref></li>
+   <li><xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref></li>
+   <li><xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref></li>
+   <li><xref href="c_polls_app.dita#c_polls_app">Polls</xref></li>
+   <li><xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref></li>
+   <li><xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref></li>
+   <li><xref href="c_storify2.dita#c_storify2">Storify 2</xref></li>
+   <li><xref href="c_trending_app.dita#c_trending_app">Trending</xref></li>
+   <li><xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref></li>
+  </ul>
+  <section id="section_uhd_frk_wy">
+   <title>Using Collection Tags with the Heat Index API</title>
+   <p>The Heat Index API accepts a Tag parameter, allowing you to retrieve relative hotness for any
+    Collection with that Tag, across a site or entire network.</p>
+   <p>For implementation details, refer to the Heat Index API technical documentation.</p>
+   <p>Apps that use this feature:</p>
+   <ul id="ul_ovt_2nh_h1b">
+    <li><xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref></li>
+    <li><xref href="c_chat_app.dita#c_chat_app">Chat</xref></li>
+    <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+    <li><xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref></li>
+    <li><xref href="c_map_app.dita#c_map_app">Map</xref></li>
+    <li><xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref></li>
+    <li><xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref></li>
+    <li><xref href="c_polls_app.dita#c_polls_app">Polls</xref></li>
+    <li><xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref></li>
+    <li><xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref></li>
+    <li><xref href="c_storify2.dita#c_storify2">Storify 2</xref></li>
+    <li><xref href="c_trending_app.dita#c_trending_app">Trending</xref></li>
+    <li><xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref></li>
+   </ul>
+  </section>
+ </conbody>
+</concept>

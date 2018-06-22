@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Livefyre Mobile App</title>
+ <topicref href="c_livefyre_mobile_app.dita" navtitle="Livefyre Mobile App" format="dita" scope="local">
+  <topicref href="t_log_in_to_the_livefyre_mobile_app.dita"
+   navtitle="Log in to the Livefyre Mobile App" format="dita" scope="local"/>
+  <topicref href="t_create_a_post_using_the_livefyre_mobile_app.dita"
+   navtitle="Create a Post Using the Livefyre Mobile App" format="dita" scope="local"/>
+  <topicref href="t_delete_media_from_a_post_using_the_livefyre_mobile_app.dita"
+   navtitle="Delete Media from a Post Using the Livefyre Mobile App" format="dita" scope="local"/>
+  <topicref href="t_save_post_as_a_draft_using_the_livefyre_mobile_app.dita"
+   navtitle="Save Post as a Draft Using the Livefyre Mobile App" format="dita" scope="local"/>
+  <topicref href="t_upload_media_to_a_folder_using_the_livefyre_mobile_app.dita"
+   navtitle="Upload Media to a Folder Using the Livefyre Mobile App" format="dita" scope="local"/>
+  <topicref href="t_switch_networks_using_the_livefyre_mobile_app.dita"
+   navtitle="Switch Networks Using the Livefyre Mobile App" format="dita" scope="local"/>
+  <topicref href="t_publish_a_post_to_storify_2_using_the_livefyre_mobile_app.dita"
+   navtitle="Publish a Post to Storify 2 Using the Livefyre Mobile App" format="dita" scope="local"/>
+ </topicref>
+</map>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_social_sharing">
+ <title>Social Sharing</title>
+ <shortdesc>Share your content or content from another user, to Facebook, Twitter or
+  LinkedIn.</shortdesc>
+ <conbody>
+  <section id="section_c12_sz2_wy">
+   <title>Social Sharing</title>
+   <p>Social Sharing allows your community to share their thoughts from your App to their friends on
+    social networks, including Facebook, Twitter, and LinkedIn, and to share other users’ content to
+    Facebook and Twitter. Enabling Social Sharing allows your community to spread the best response
+    to your content, and to bring more traffic to your site.</p>
+  </section>
+  <section id="section_t1q_mz2_wy">
+   <title>Sharing content to social networks</title>
+   <p>You may configure your network to allow users to share to Twitter, Facebook, or LinkedIn when
+    posting content to your Livefyre Apps. The default Livefyre <uicontrol>Share Modal</uicontrol>
+    includes links to all three sites. You may customize this modal using the Post To API to
+    override the Livefyre default, and implement your own. For more information, see Advanced Topics
+    > Enabling Social Sharing.</p>
+   <p>When users click <uicontrol>Share</uicontrol> to post their comment to social networks
+    (Facebook, Twitter or LinkedIn), they are prompted to log in through the social app. (The list
+    of available Share options may be customized. By default, Facebook and Twitter share checkboxes
+    are shown on all Apps.) For custom networks, the social apps should be configured to be your
+    social apps. As part of your integration process, add your app credentials through the
+    Integration Settings page in Studio.</p>
+   <note>LinkedIn is included by default on Livefyre Community Comments. Custom networks must pass
+    in the ‘li’ value when embedding the App to enable the LinkedIn button on the comment toolbar.
+    (For more information, please see Enabling Social Sharing in the developer docs.)</note>
+  </section>
+  <section id="section_blw_vy2_wy">
+   <title>Sharing other users’ content to social networks</title>
+   <p>Clicking <uicontrol>Share</uicontrol> on another user’s post opens the Share Comment pane,
+    which includes an editable text field, your enabled share options, and a permalink to the
+    post.</p>
+   <p>By clicking <uicontrol>Share</uicontrol> for a post:</p>
+   <ul id="ul_kmk_vhb_vy">
+    <li>Users can connect to their social networks by clicking the Twitter or Facebook Icons.</li>
+    <li>After authorizing the page to post to the user’s social networks, the Twitter or Facebook
+     buttons will light up to let the user know that they are active.</li>
+    <li>Users may personalize the content within the sharing post box.</li>
+    <li>Clicking <uicontrol>Share</uicontrol> will send content to the user’s active social
+     networks, with a link that will take others to the exact post that the user wants to
+     share.</li>
+    <li>Users may also choose to share a link to a specific comment by pasting the Permalink within
+     an email, blog post, or social network.</li>
+   </ul>
+   <note>During your integration, you can determine which social networks are available for sharing
+    by your users. You may also integrate a custom Permalink to allow for uniformity with your
+    current media links.</note>
+  </section>
+  <section>
+   <p>Clicking <uicontrol>Share</uicontrol> on another user’s post opens the <uicontrol>Share
+     Comment</uicontrol> pane, which includes an editable text field, your enabled share options,
+    and a permalink to the post.</p>
+   <p>By clicking <uicontrol>Share</uicontrol> for a post:</p>
+   <ul id="ul_pp5_vz2_wy">
+    <li>Users can connect to their social networks by clicking the Twitter or Facebook Icons.</li>
+    <li>After authorizing the page to post to the user’s social networks, the Twitter or Facebook
+     buttons will light up to let the user know that they are active.</li>
+    <li>Users may personalize the content within the sharing post box.</li>
+    <li>Clicking <uicontrol>Share</uicontrol> will send content to the user’s active social
+     networks, with a link that will take others to the exact post that the user wants to
+     share.</li>
+    <li>Users may also choose to share a link to a specific comment by pasting the Permalink within
+     an email, blog post, or social network.</li>
+   </ul>
+   <note>During your integration, you can determine which social networks are available for sharing
+    by your users. You may also integrate a custom Permalink to allow for uniformity with your
+    current media links.</note>
+  </section>
+  <section id="section_blk_ccj_h1b">
+   <p>Apps that use this feature:</p>
+   <ul id="ul_qzp_ccj_h1b">
+    <li><xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref></li>
+    <li><xref href="c_chat_app.dita#c_chat_app">Chat</xref></li>
+    <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+    <li><xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref></li>
+    <li><xref href="c_map_app.dita#c_map_app">Map</xref></li>
+    <li><xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref></li>
+    <li><xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref></li>
+    <li><xref href="c_polls_app.dita#c_polls_app">Polls</xref></li>
+    <li><xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref></li>
+    <li><xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref></li>
+    <li><xref href="c_storify2.dita#c_storify2">Storify 2</xref></li>
+    <li><xref href="c_trending_app.dita#c_trending_app">Trending</xref></li>
+   </ul>
+  </section>
+ </conbody>
+</concept>

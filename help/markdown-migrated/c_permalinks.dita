@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_permalinks">
+ <title>Permalinks</title>
+ <shortdesc>Use your bit.ly URL shortener to customize content permalinks.</shortdesc>
+ <conbody>
+  <p>Permalinks allow you to link to archived comments or content within your streams. To enable
+   this feature, Livefyre uses a default URL format: <b>fyre.it</b>. This format may be customized
+   to match your standard bit.ly format.</p>
+  <section id="section_mxd_wwg_wy">
+   <title>Permalink display</title>
+   <p>If users click a permalink from a social network to a Livefyre content app, they will be taken
+    to the Livefyre content stream. The content will be displayed in a breakout view of the stream,
+    just below the editor, with full context displayed. A blue line will be shown below the avatar
+    for the permalinked content. (This blue line will disappear after a few seconds.)</p>
+   <p>(If permalinked content is deleted, a message to that effect will be displayed in the breakout
+    view.)</p>
+  </section>
+  <section id="section_uyn_5wg_wy">
+   <title>Custom Permalinks</title>
+   <p>If you wish to create custom permalinks for comments when sharing conversations, you may use
+    your Bitly account, rather than the standard Livefyre shortened URL (fyre.it). Using your Bitly
+    account will help remind users that they will be visiting content on your site when clicking on
+    a permalink.</p>
+   <p>To implement this feature, go to <uicontrol>Studio > Settings > Integration Settings > Social
+     Sharing</uicontrol>, and enter your Bitly API Key and username.</p>
+   <note>To avoid unnecessary URLs created on your behalf, Bitly permalinks are generated on an
+    as-needed basis.</note>
+      <p>Apps that use this feature:</p>
+      <ul id="ul_hdl_l4h_h1b">
+        <li><xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref></li>
+        <li><xref href="c_chat_app.dita#c_chat_app">Chat</xref></li>
+        <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+        <li><xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref></li>
+        <li><xref href="c_map_app.dita#c_map_app">Map</xref></li>
+        <li><xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref></li>
+        <li><xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref></li>
+        <li><xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref></li>
+        <li><xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref></li>
+        <li><xref href="c_storify2.dita#c_storify2">Storify 2</xref></li>
+      </ul>
+  </section>
+ </conbody>
+</concept>

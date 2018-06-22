@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enable_login_using_a_yahoo_account">
+    <title>Enable Login Using a Yahoo! Account</title>
+    <shortdesc>Connect your Yahoo! account to Livefyre to allow users to use their Yahoo! logins to
+        interact with Apps on your site.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To enable login using a Yahoo! account:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Switch the <uicontrol>Enable Login with Yahoo!</uicontrol> toggle to
+                        <uicontrol>ON</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>Add your Yahoo! app’s <uicontrol>Client ID</uicontrol> and <uicontrol>Client
+                        Secret</uicontrol>.</cmd>
+                <info>These values are listed in the Yahoo! app details page, available from <xref
+                        href="https://developer.yahoo.com/apps" format="html" scope="external"
+                        >developer.yahoo.com/apps</xref>.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

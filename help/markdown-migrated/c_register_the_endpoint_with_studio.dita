@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_register_the_endpoint_with_studio">
+    <title>Register the Endpoint with Studio</title>
+    <shortdesc>Register the URL endpoint so Livefyre can use the URL to pull updated profile
+        information.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Register the Ping for Pull URL only once per network. Once set, this value should not
+            change unless the endpoint for fetching user profile data from your user management
+            system changes.</p>
+        <ol id="ol_sxw_mkr_tdb">
+            <li>Use Studio to register this URL endpoint with Livefyre.</li>
+            <li>
+                <p>Register the URL from which Livefyre will fetch updated user profile information,
+                    go to <uicontrol>Studio > Settings > Integration Settings > Remote
+                        Profiles</uicontrol>, and enter it in the <uicontrol>Ping for Pull
+                        URL</uicontrol> field.</p>
+                <p>For example, the URL can look like:
+                    https://example.yoursite.com/some_path/?id={id}</p>
+            </li>
+        </ol>
+    </conbody>
+</concept>

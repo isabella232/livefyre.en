@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_network_instantiation">
+ <title>Network Instantiation</title>
+ <shortdesc>Create a Network object.</shortdesc>
+ <conbody>
+  <p>Once you create a network object, the rest of the page will assume that you have a instantiated
+   Network object in your session.</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_fms_lkr_rz">
+   <title>Network Object</title>
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Parameter</entry>
+      <entry>Type</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><varname>network</varname></entry>
+      <entry>String</entry>
+      <entry>Your Livefyre network. For example: “labs.fyre.co”.</entry>
+     </row>
+     <row>
+      <entry><varname>networkKey</varname></entry>
+      <entry>String</entry>
+      <entry>The Livefyre-provided secret key for the network.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <section id="section_odb_4jr_rz">
+   <title>Java</title>
+   <codeblock>import com.livefyre.Livefyre;
+ 
+Network network = Livefyre.getNetwork(network, networkKey);
+</codeblock>
+  </section>
+  <section id="section_vnt_zjr_rz">
+   <title>NodeJS</title>
+   <codeblock>var livefyre = require('livefyre');
+ 
+var network = livefyre.getNetwork(network, networkKey);
+</codeblock>
+  </section>
+  <section id="section_e22_bkr_rz">
+   <title>PHP</title>
+   <codeblock>
+use Livefyre\Livefyre;
+ 
+$network = Livefyre::getNetwork(network, networkKey);
+</codeblock>
+  </section>
+  <section id="section_zqc_2kr_rz">
+   <title>Python</title>
+   <codeblock>from livefyre import Livefyre
+ 
+network = Livefyre.get_network(network, networkKey)
+</codeblock>
+  </section>
+  <section id="section_hhb_gkr_rz">
+   <title>Ruby</title>
+   <codeblock>
+require 'livefyre'
+ 
+network = Livefyre.get_network(network, networkKey)
+</codeblock>
+  </section>
+ </conbody>
+</concept>

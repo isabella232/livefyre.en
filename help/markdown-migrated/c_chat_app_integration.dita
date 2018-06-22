@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_chat_app_integration">
+ <title>Embed a Chat App</title>
+ <shortdesc>Embedding the Chat App follows the process for embedding a Core App.</shortdesc>
+ <conbody>
+    <p>Embedding the Chat App follows the process for embedding a Core App described in Getting
+      Started > Embedding an App.</p>
+    <codeblock>&lt;html>
+  &lt;head>
+    &lt;script src="//cdn.livefyre.com/Livefyre.js">
+    &lt;/script>
+  &lt;/head>
+&lt;body>
+    &lt;script type="text/javascript">
+    var networkConfig = {
+      network: "client-solutions.fyre.co"
+    };
+    var convConfig = {
+      siteId: '347674',
+      articleId: '1',
+      el: 'livefyre',
+      collectionMeta: 'eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6IlRpdGxlIDEiLCJ1cmwiOiJodHRwOlwvXC9kZXYubGl2ZWZ5cmUuY29tIiwidGFncyI6InRhZzEsdGFnMiIsImNoZWNrc3VtIjoiY2Q0YTJjYWJkMTIxOTkyM2FjZGJhMjExOWY2NmYwNTUiLCJhcnRpY2xlSWQiOiIxIn0.Dq-ghi9KYmEPmagvCS1NPyYDRMGBujm735QaTRb7E7k',
+      checksum: '6e2e4faf7b95f896260fe695eafb34ba'
+    };
+   
+    Livefyre.require(['fyre.conv#3'], function(Conv) {
+        new Conv(networkConfig, [convConfig], function(chatWidget) {});
+        auth.delegate({
+          login: function (callback) {
+            callback(null,{livefyre:'&lt;userauthtoken>'});
+          },
+        });
+    });
+ 
+    &lt;/script>
+    &lt;div id="livefyre">
+    &lt;/div>
+   &lt;/body>
+&lt;/html>
+</codeblock>
+    <p>As noted in the CollectionMeta Token section, CollectionMeta is an encoded JSON object. In
+      the above example, the JSON object takes the following format before it’s JWT encoded:</p>
+    <codeblock>{
+"url": "http://dev.livefyre.com/articles/test.html", 
+"articleId": "1", 
+"type": "livechat", 
+"title": "Title 1"
+}</codeblock>
+ </conbody>
+</concept>

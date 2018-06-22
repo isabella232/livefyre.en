@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_rn">
+  <title>July 20, 2017</title>
+  <shortdesc>Release Notes for the July 20, 2017 release.</shortdesc>
+  <conbody>
+    <section id="section_swl_jsm_p1b">
+      <title>New Feature</title>
+      <p>UGC Commerce allows you to add a Call-to-action button directly from your Livefyre Apps.
+        For more information on UGC Commerce, see <xref href="c_ugc_commerce.dita#c_ugc_commerce"
+          >UGC Commerce</xref>. </p>
+    </section>
+ <section id="section_bjq_3sm_p1b">
+      <title>Release Notes</title>
+      <p>The following tables list the Production and UAT Release Notes for the July 20, 2017
+        release.</p>
+      <table id="table_ng5_vtz_p1b">
+        <title>Production Release</title>
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1"/>
+          <colspec colnum="2" colname="col2"/>
+          <colspec colnum="3" colname="col3"/>
+          <thead>
+            <row>
+              <entry><b>Issue Type</b></entry>
+              <entry><b>Component</b></entry>
+              <entry><b>Release Note</b></entry>
+            </row>
+          </thead> <tbody>
+            <row>
+              <entry>Enhancement</entry>
+              <entry>All</entry>
+              <entry>
+                <p>Introducing Livefyre's new UGC Commerce initiative. This includes the ability to: </p>
+                <ul id="ul_lkr_5hd_k1b">
+                  <li>Add a conversion button to Mosaic and Media Wall.</li>
+                  <li>UI enhancements to Mosaic, Media Wall and the content modal for both
+                    apps.</li>
+                  <li>Ability to upload products into Studio in Network Settings.</li>
+                  <li>Ability to associate content with products in Studio Library, App Content and
+                    ModQ.</li>
+                  <li>Ability to associate products with Stream Rules for auto-tagging.</li>
+                </ul>
+              </entry>
+            </row>
+            <row>
+              <entry>Bug</entry>
+              <entry>Authentication</entry>
+              <entry>Fixed a bug with decoding JSON Web Tokens when authenticating into Livefyre
+                Apps.</entry>
+            </row>
+            <row>
+              <entry>Enhancement</entry>
+              <entry>Comments</entry>
+              <entry>Added an enhancement so that Comments Sort Order tabs are ADA
+                compliant.</entry>
+            </row>
+            <row>
+              <entry>Bug</entry>
+              <entry>Media Wall</entry>
+              <entry>Fixed a bug in Media Wall that was preventing the share button to work
+                appropriately in Firefox. </entry>
+            </row>
+            <row>
+              <entry>Enhancement</entry>
+              <entry>Mosaic</entry>
+              <entry>Updated the look and feel to the Details modal on Mosaic cards.</entry>
+            </row>
+            <row>
+              <entry>Enhancement</entry>
+              <entry>Social Search</entry>
+              <entry>Added text clarifying why rights requests cannot be requested in a social
+                search when multiple assets are selected, the social provider is not supported for
+                rights requests, or there are no enabled rights request accounts for a social
+                provider on the network.</entry>
+            </row>
+            <row>
+              <entry>Bug</entry>
+              <entry>Storify 2</entry>
+              <entry>Fixed an issue with not being able to add an ñ (n with a tilde over it) in
+                Storify 2.</entry>
+            </row>
+            <row>
+              <entry>Bug</entry>
+              <entry>Studio</entry>
+              <entry>Fixed a bug to allow all Settings sections to load in Studio when scoped to a
+                specific site.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table id="table_mfh_d5z_p1b">
+        <title>UAT Release</title>
+        <tgroup cols="3">
+          <colspec colnum="1" colname="col1"/>
+          <colspec colnum="2" colname="col2"/>
+          <colspec colnum="3" colname="col3"/>
+          <thead>
+            <row>
+              <entry><b>Issue Type</b></entry>
+              <entry><b>Component</b></entry>
+              <entry><b>Release Note</b></entry>
+            </row>
+          </thead> <tbody>
+            <row>
+              <entry>Bug</entry>
+              <entry>Carousel</entry>
+              <entry>Fixed a bug that caused Instagram Carousel posts without captions from getting
+                pulled into Studio.</entry>
+            </row>
+            <row>
+              <entry>Enhancement</entry>
+              <entry>Storify 2</entry>
+              <entry>Removed the Facebook Comments by ID search option in Storify Search, due to
+                Facebook's deprecation of the feature.</entry>
+            </row>
+            <row>
+              <entry>Bug</entry>
+              <entry>Storify 2</entry>
+              <entry>Improved the stability of fetching Facebook Comments by URL results in Storify
+                2.</entry>
+            </row>
+            <row>
+              <entry>Bug</entry>
+              <entry>Streams</entry>
+              <entry>Fixed a bug that caused text pills in Stream Rule Configuration textboxes to be
+                removed upon click.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </conbody>
+</concept>

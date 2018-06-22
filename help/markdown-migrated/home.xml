@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_k45_g5d_wz"> 
+  <title>Livefyre Help</title> 
+  <prolog> 
+	 <metadata> 
+		<othermeta name="solution" content="Experience Manager"/> </metadata>
+  </prolog> 
+  <body> 
+	 <p>Here you'll find docs, tutorials, and best practices for our product and
+		platform.
+	 </p> 
+	 <p> 
+	 <table frame="none" id="table_cp5_g5d_wz"> 
+		<tgroup cols="2" colsep="0" rowsep="0"> 
+		  <colspec colnum="1" colname="col1" colwidth="1.10*"/> 
+		  <colspec colnum="2" colname="col2" colwidth="1.00*"/> 
+		  <tbody> 
+			 <row> 
+				<entry colname="col1" colsep="0" rowsep="0"> 
+				  <p outputclass="head"> 
+					 <b>Popular Topics 
+					 </b> 
+				  </p> 
+				  <p>Last update: June 12, 2018 </p> 
+				  <ul id="ul_dp5_g5d_wz"> 
+					 <li id="li_19D0CFF0AE4645DEBC186B57EA93F37A"> 
+						<xref href="c_anouncements.dita#c_anouncements" scope="local"
+						format="dita">Announcements</xref> 
+					 </li> 
+					 <li id="li_298B22A286DA469BA2B799C7631198FA"> 
+						<p> 
+						  <xref
+						  href="c_getting_started.dita#c_getting_started" scope="local"
+						  format="dita">Getting Started</xref> 
+						</p> 
+						<p>Getting started Using Livefyre Studio
+						</p> 
+					 </li> 
+					 <li id="li_B296BB11AE194CEF9910372D2A832E32"> 
+						<p> 
+						  <xref href="c_using_studio.dita#c_using_studio"
+						  scope="local" format="dita">Using Studio</xref> 
+						</p> 
+						<p>Use Livefyre Studio to manage Apps, Users, and Content.
+						</p> 
+					 </li> 
+					 <li id="li_610335E529A24DB0827AB80AAC908879"> 
+						<p> 
+						  <xref href="c_about_apps.dita#c_about_apps" scope="local"
+						  format="dita">Working with Apps</xref> 
+						</p> 
+						<p>Create and publish Livefyre Apps (Including Comments)
+						</p> 
+					 </li> 
+					 <li id="li_E832DADC0F9144B7A7B3AB1C8D44A501"> 
+						<p>
+											<xref
+												href="https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html"
+												format="html" scope="external">Using Livefyre with
+												AEM</xref>
+										</p> 
+						<p>Learn how Livefyre works with AEM
+						</p> 
+					 </li> 
+				  </ul> 
+				</entry> 
+				<entry colname="col2" valign="top"> 
+				  <p outputclass="head"> 
+					 <b> Livefyre</b> 
+				  </p> 
+				  <ul id="ul_o5l_h5d_wz"> 
+					 <li id="li_D3F27856CC4B4A28B484FE16B2290492"> 
+						<p> 
+						  <xref href="c_product.dita#c_product" scope="local"
+						  format="dita">Product</xref> 
+						</p> 
+						<p>Product Help for Livefyre
+						</p> 
+					 </li> 
+					 <li id="li_72A716D13C664B93970F28755331742B"> 
+						<p> 
+						  <xref href="c_developer_docs.dita#c_developer_docs"
+						  scope="local" format="dita">Developers</xref> 
+						</p> 
+						<p>Developer Help for Livefyre
+						</p> 
+					 </li> 
+					 <li id="li_9E1A9AEBDB53420CA25F8426BF5E8AAD"> 
+						<p> 
+						  <xref href="https://api.livefyre.com" format="html"
+						  scope="external">API Docs</xref> 
+						</p> 
+						<p>API Documentation for Livefyre
+						</p> 
+					 </li> 
+					 <li id="li_7139AB1A8E5949FAA2DD8E154C722B93"> 
+						<p> 
+						  <xref href="c_rn.dita#c_rn" scope="local"
+						  format="dita">Release Notes</xref> 
+						</p> 
+						<p>Release Notes for Livefyre
+						</p> 
+					 </li> 
+					 <li id="li_346D4480735B4924813E0254A7037007"> 
+						<p> 
+						  <xref
+						  href="https://docs.adobe.com/content/docs/en/aem/6-3.html" format="html"
+						  scope="external">AEM Documentation</xref> 
+						</p> 
+						<p>AEM Documentation
+						</p> 
+					 </li> 
+				  </ul> 
+				</entry> 
+			 </row> 
+		  </tbody> 
+		</tgroup> 
+	 </table> 
+	 </p> 
+  </body> 
+</topic>

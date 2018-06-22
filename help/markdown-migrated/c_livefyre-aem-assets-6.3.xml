@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita> 
+  <concept id="concept_8CB825FA34F74B65A0F4D1747FB62FAC"> 
+	 <title>Use Livefyre with AEM Assets</title> 
+	 <shortdesc><?xm-replace_text Short Description?>
+	 </shortdesc> 
+	 <conbody> 
+		<p> 
+		  <note>Screenshots were taken using the AEM 6.3 Touch UI. 
+		  </note> 
+		</p> 
+	 </conbody> 
+  </concept> 
+  <task id="task_5305AB1D5E3A49CD8DE4021EF6501C23"> 
+	 <title>Request Rights and Import UGC into AEM Assets</title> 
+	 <shortdesc> You can import Twitter and Instagram user-generated content
+		(UGC) from Livefyre Studio to AEM Assets using the UGC Importer. After
+		selecting the content you wish to import, you must then request rights to the
+		content before the import can be completed. 
+	 </shortdesc> 
+	 <taskbody> 
+		<context id="context_9503EA5ECAFF45A8848B0DBBC74D6C11"> 
+		  <p> 
+			 <note>Before using Assets to import UGC, you must set up Social
+				Accounts and Rights Requests accounts in Livefyre Studio. See 
+				<xref
+				 href="https://marketing.adobe.com/resources/help/en_US/livefyre/c_settings_rights_requests.html"
+				 format="html" scope="external">Setting: Rights Requests</xref> for more
+				information. 
+			 </note> 
+		  </p> 
+		  <p> To import UGC content into AEM Assets: 
+		  </p> 
+		</context> 
+		<steps id="steps_FD815DEB7F8449DF95BFC787A20905ED"> 
+		  <step id="step_F5EC7977586D47A389724CA871C5A210"> 
+			 <cmd>From the AEM homepage, navigate to 
+				<menucascade><uicontrol>Assets</uicontrol><uicontrol>Files</uicontrol></menucascade>.
+				
+			 </cmd> 
+		  </step> 
+		  <step id="step_73CE464C86A946C784128EE975610A1F"> 
+			 <cmd>Click 
+				<uicontrol>Create</uicontrol>, then click 
+				<uicontrol>Import UGC</uicontrol>. 
+			 </cmd> 
+			 <info><image href="images/livefyre-aem-import-ugc.png"
+				id="image_16B7A566E47E4603B15B4682A993EF0D"></image> 
+			 </info> 
+		  </step> 
+		  <step id="step_687065D2A8F944C4AEC7F723D5AB0EB9"> 
+			 <cmd> Find content: 
+			 </cmd> 
+			 <choices id="choices_60326F61D90144AF9B5D7A2B6838832B"> 
+				<choice id="choice_2F2529DCDFB54D9886A5013997CA1ECB">From Livefyre
+				  by clicking on the UGC Library tab. Use the filters and search to find content
+				  from the UGC Library. 
+				</choice> 
+				<choice id="choice_452720A3210F432BB21B2AD79A838BF7">From Twitter
+				  and Instagram by clicking on the Twitter or Instagram tab. Use the search or
+				  filters to find content. 
+				</choice> 
+			 </choices> 
+		  </step> 
+		  <step id="step_DFCF40F9B013448DA697667EC2B7BBA8"> 
+			 <cmd>Click on the assets you want to import. The assets you select
+				are automatically counted and saved under the 
+				<uicontrol>Selected</uicontrol> tab. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_BD1BED8C3E4D4582BED99DF3100ACA69"> 
+			 <cmd><b>Optional</b>: Click on the 
+				<uicontrol>Selected</uicontrol> tab and review your selected UGC
+				content to import. 
+			 </cmd> 
+		  </step> 
+		  <step id="step_FAED8CD9F2F64B12A49FC437CF654038"> 
+			 <cmd>Click 
+				<uicontrol>Next</uicontrol>. 
+			 </cmd> 
+			 <info><image href="images/livefyre-aem-import-ugc2.png"
+				id="image_D93639220FC54FD585772D97137AD31C"></image> 
+			 </info> 
+		  </step> 
+		  <step id="step_5E79FB4A6F2F49A59BCD244652F9BA63"> 
+			 <cmd>For rights requests, choose one of the following options under 
+				<uicontrol>Actions in Bulk</uicontrol>: 
+			 </cmd> 
+			 <info> 
+				<p> 
+				<ul id="ul_B2001519E0B9487F8F2532BF417F91E4"> 
+				  <li id="li_C5C883540D4E4B3E91E630827DDB1E96"><uicontrol>Bulk
+						Message</uicontrol> to send a message to the owners of several assets at once. 
+				  </li> 
+				  <li id="li_B1C05BC7EF9B4E6A918C6E0B9F96A68E"><uicontrol>Bulk
+						Attribute Content Rights</uicontrol> to override the rights for multiple assets
+					 at once. 
+				  </li> 
+				  <li id="li_5F2D798879F54D92AD7F367AC9C374DD"><uicontrol>Custom
+						Actions</uicontrol> to choose whether to message the asset owner or override
+					 the rights request for each individual piece of content. If you choose Custom
+					 Actions, send a rights request message or modify the message for a rights
+					 request under individual assets. 
+				  </li> 
+				</ul> 
+				</p> 
+			 </info> 
+			 <info><image href="images/livefyre-aem-import-ugc3.png"
+				id="image_94D11104359A492AAFA6784B7AD29D2D"></image> 
+			 </info> 
+		  </step> 
+		  <step id="step_030A4AE54E0E4A28AE6351888C73F3A4"> 
+			 <cmd>Click 
+				<uicontrol>Import</uicontrol>. 
+			 </cmd> 
+			 <stepresult> You can see the status of a pending rights request for
+				an asset in Livefyre Studio. If content is pending a rights request, the asset
+				will not display in AEM Assets until rights are granted. The asset
+				automatically appears in AEM Assets when a rights request is granted. 
+				<p> 
+				  <note>Overriding a rights request is stating that you own the
+					 content. Do not override a rights request without verifying that you own the
+					 content. 
+				  </note> 
+				</p> 
+				<p> 
+				  <note>Twitter and Instagram have limits on identical requests
+					 coming from the same account. When importing more than a couple assets, modify
+					 the messages individually to avoid being flagged. 
+				  </note> 
+				</p> 
+			 </stepresult> 
+		  </step> 
+		</steps> 
+	 </taskbody> 
+  </task> 
+</dita> 

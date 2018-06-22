@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_trending_features">
+  <title>Trending Features</title>
+  <shortdesc>The Trending App offers these features for your site.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="section_sbf_15m_5y">
+      <ul id="ul_wwz_hng_sy">
+        <li>Trending shows real-time information on which Collections are most active.</li>
+        <li>Conversations are listed from most to least popular.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

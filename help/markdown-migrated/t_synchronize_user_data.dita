@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_synchronize_user_data">
+    <title>Synchronize User Data</title>
+    <shortdesc>Synchronize the user profile information between Livefyre and your identity
+        provider.</shortdesc>
+    <taskbody>
+        <context>
+            <p>You must synchronize your user profile information between Livefyre and your Identity
+                Provider. For more information, see:</p>
+            <ul id="ul_a55_4b1_21b">
+                <li><xref href="c_your_identity_service.dita#c_your_identity_service">Your Identity
+                        Service</xref></li>
+                <li><xref href="c_janrain_capture_backplane.dita#c_janrain_capture_backplane"
+                        >Janrain Capture Integration</xref></li>
+            </ul>
+        </context>
+    </taskbody>
+</task>

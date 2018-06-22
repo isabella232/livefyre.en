@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_applying_custom_styles_">
+ <title>Applying Custom Styles </title>
+ <shortdesc>To custom style content for User Groups, you must first add a User Tag to the account,
+  then style the content using CSS.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>For each user tag added through Studio or Ping for Pull, Livefyre will create two CSS classes,
+   both of which may be used to style the group’s content.</p>
+  <p>When converting User Tags to CSS classes:</p>
+  <ul id="ul_y3l_1pl_wz">
+   <li>Livefyre creates two classes: fyre-author-tag-<i><b>&lt;your_group></b></i> and
+      fyre-tag-author-<i><b>&lt;your_group></b></i>. Both may be used to style the content.</li>
+   <li>Any spaces included in the tag will be converted to underscores. For example: ‘Favorite User’
+    will become favorite_user.</li>
+   <li>Unicode characters included in group names will not be converted, and will appear as Unicode
+    in the class names. For example: User group ‘modérateur’ will become
+    fyre-comment-author-tag-modérateur.</li>
+  </ul>
+  <p>Once your user groups have been created, use Livefyre’s CSS classes to apply custom styling for
+   the content.</p>
+  <section id="section_vjv_2cv_xz">
+   <title>Style content for Moderators (and Owners)</title>
+   <ul id="ul_z3l_1pl_wz">
+    <li>
+     <p>Use the CSS class .fyre-moderator.</p>
+     <note>Owners, because they are also Moderators, will have this class applied to their content
+      in the stream as well.</note>
+    </li>
+    <li>
+     <p>Create a CSS rule to show or style a badge for the Group:</p>
+     <codeblock>.fyre-moderator {
+    font: 13px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    text-decoration: none;
+    color: #404040;
+    padding-left: 28px;
+    padding-top: 4px;
+}</codeblock>
+    </li>
+   </ul>
+  </section>
+  <section id="section_ghn_s1v_xz">
+   <title>Style content for User Groups </title>
+   <p>Create a CSS rule to show or style a badge for the Group:</p>
+   <p>
+    <codeblock>
+&lt;span class="fyre-comment-author-tag fyre-comment-author-tag-writer fyre-comment-plus" data-fyre-author-tag="staff">Staff Writer&lt;/span></codeblock>
+   </p>
+   <codeblock>.livechat-comments-container .fyre .fyre-comment-wrapper .fyre-comment-author-tag, .comments-container .fyre .fyre-comment-wrapper .fyre-comment-author-tag {
+    display: inline-block !important;
+    background: #603url('/etc/designs/site/images/comments-icon-staff.8db5be91.png?1438807177') no-repeat left center !important;
+    padding-right: 3px !important;
+    padding-left: 20px !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    border-radius: 0 !important;
+    color: #ffffff !important;
+}</codeblock>
+   <p>Use the CSS class fyre-author-tag-<i><b>&lt;your_group></b></i> or
+      fyre-tag-author-<i><b>&lt;your_group></b></i> to style the font and background for each item
+    posted from an Account associated with the selected tag.</p>
+   <codeblock>
+.fyre-comment-author-tag-&lt;your_group> .fyre-comment-author-tag {
+    font: 10px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    text-decoration: none;
+    color: #404040;
+    padding-left: 28px;
+    padding-top: 4px;
+}</codeblock>
+  </section>
+ </conbody>
+</concept>

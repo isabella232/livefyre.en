@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_livefyre_analytics_events">
+    <title>Livefyre Analytics Events</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <conbody>
+        <section id="section_dh1_yhn_pdb">
+            <title>Event Object Definition</title>
+            <p>The following code defines the fields in the event object that get received by the
+                analytics handler on a page.</p>
+            <codeblock>{
+  evars: {
+    appId : string : URN ID of the app
+    appType : string : Type of the app
+    contentType : string : Type of the content that this event pertains to
+    contextId : string : URN ID of the contextual item that this event pertains to
+    environment : string : Environment that this app is using
+    networkId : string : Network that this app is using
+    publishedDate : number : Epoch time when the app was published
+    userLoggedIn : boolean : If a user is logged in
+  },
+  generator: {
+    env : string: Environment that this app is using
+    id : string: URN ID of the app
+    name : string: Name of the app
+    networkId : string: Network that this app is using
+    source : string: URN of the collection
+    version : string: Semver version of the app
+  },
+  startTime : number: Epoch time when event was created
+  type : string: Event type (Table 1)
+}
+</codeblock>
+        </section>
+        <section id="section_u3k_tft_mcb">
+            <title>Livefyre Analytics Events and eVars</title>
+            <p>The following Livefyre events to map to custom events to use in reports using the
+                Report Suite Manager. For more information about Report Suites in Adobe Analytics,
+                see <xref
+                    href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"
+                    format="html" scope="external">Report Suite Manager</xref>. For more on how to
+                use Livefyre events with Report Suite Manager, see <xref
+                    href="c_use_livefyre_with_adobe_analytics.dita#c_use_livefyre_with_adobe_analytics/section_iks_kgd_4cb"
+                />.</p>
+            <table id="table_n24_1kd_4cb">
+                <title>Livefyre Analytics Events</title>
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1"/>
+                    <colspec colnum="2" colname="col2"/>
+                    <thead>
+                        <row>
+                            <entry>Event</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Init</entry>
+                            <entry>When a page that includes at least one Livefyre app is
+                                loaded</entry>
+                        </row>
+                        <row>
+                            <entry>Load</entry>
+                            <entry>Any time an app was loaded on a page regardless of user
+                                view</entry>
+                        </row>
+                        <row>
+                            <entry>View</entry>
+                            <entry>When an app entered the viewport for the first time.</entry>
+                        </row>
+                        <row>
+                            <entry>Post</entry>
+                            <entry>Any time a user posts a comment or a piece of content including
+                                ex: top level post, replies, reviews, media wall uploads </entry>
+                        </row>
+                        <row>
+                            <entry>Posted</entry>
+                            <entry>When a post was successsful.</entry>
+                        </row>
+                        <row>
+                            <entry>Twitter_Reply</entry>
+                            <entry>Any time a user replied on Twitter</entry>
+                        </row>
+                        <row>
+                            <entry>Twitter_Like</entry>
+                            <entry>Where content was shared to: Retweet</entry>
+                        </row>
+                        <row>
+                            <entry>Livefyre_Like</entry>
+                            <entry>Any time the livefyre like feature is used in an app</entry>
+                        </row>
+                        <row>
+                            <entry>Livefyre_Unlike</entry>
+                            <entry>Any time a user unlikes a livefyre like </entry>
+                        </row>
+                        <row>
+                            <entry>ShareOnPost</entry>
+                            <entry>Anytime a user posts content and uses the share on post
+                                feature</entry>
+                        </row>
+                        <row>
+                            <entry>ShareButtonClick</entry>
+                            <entry>Any time a user clicks on the share button on a comment</entry>
+                        </row>
+                        <row>
+                            <entry>ShareTwitter</entry>
+                            <entry>When Share to Twitter is clicked</entry>
+                        </row>
+                        <row>
+                            <entry>ShareFacebook</entry>
+                            <entry>When Share to Facebook is clicked</entry>
+                        </row>
+                        <row>
+                            <entry>ShareURL</entry>
+                            <entry>When Share to URL text area is selected/copied.</entry>
+                        </row>
+                        <row>
+                            <entry>ExpandReplies </entry>
+                            <entry>When a user clicks on the + or Expand link to view all replies on
+                                a top level post</entry>
+                        </row>
+                        <row>
+                            <entry>CollapseReplies </entry>
+                            <entry>When a user clicks on the - or Collapse link to view all replies
+                                on a top level post</entry>
+                        </row>
+                        <row>
+                            <entry>FlagClick</entry>
+                            <entry>Any time a user opens the Flag Modal</entry>
+                        </row>
+                        <row>
+                            <entry>FlagSpam</entry>
+                            <entry>When a user flags content as spam</entry>
+                        </row>
+                        <row>
+                            <entry>FlagDisagree</entry>
+                            <entry>When a user flags content as disagree</entry>
+                        </row>
+                        <row>
+                            <entry>FlagOffensive</entry>
+                            <entry>When a user flags content as offensive</entry>
+                        </row>
+                        <row>
+                            <entry>FlagOffTopic</entry>
+                            <entry>When a user flags content as off topic</entry>
+                        </row>
+                        <row>
+                            <entry>FlagCancel </entry>
+                            <entry>Any time a user clicks X or "cancel" when submitting a
+                                flag</entry>
+                        </row>
+                        <row>
+                            <entry>FollowCollection</entry>
+                            <entry>Any time a conversation is followed ("I'm interested" in Reviews)
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>UnfollowCollection</entry>
+                            <entry>When a conversation is unfollowed</entry>
+                        </row>
+                        <row>
+                            <entry>RequestMore</entry>
+                            <entry>Any time a user loaded more content in an app (needs to be for
+                                high velocity too) </entry>
+                        </row>
+                        <row>
+                            <entry>ModalView</entry>
+                            <entry>Any time a user clicks to view content in a modal</entry>
+                        </row>
+                        <row>
+                            <entry>TwitterRetweetClick</entry>
+                            <entry>Where content was shared to: Retweet</entry>
+                        </row>
+                        <row>
+                            <entry>PostButtonClick</entry>
+                            <entry>When a user clicks on the post ("Whats on your mind?")
+                                button</entry>
+                        </row>
+                        <row>
+                            <entry>Login</entry>
+                            <entry>Any time a user logged in</entry>
+                        </row>
+                        <row>
+                            <entry>Logout</entry>
+                            <entry>Any time a user logged out</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>The following is a list of conversion variables (eVars) that Livefyre provides.</p>
+            <table id="table_dvm_pkd_4cb">
+                <title>Conversion Variables (eVars) </title>
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1"/>
+                    <colspec colnum="2" colname="col2"/>
+                    <thead>
+                        <row>
+                            <entry>Event</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Network ID</entry>
+                            <entry>Network ID/Name in Livefyre</entry>
+                        </row>
+                        <row>
+                            <entry>App ID</entry>
+                            <entry>The URN of the app</entry>
+                        </row>
+                        <row>
+                            <entry>Context ID</entry>
+                            <entry>Content ID in Livefyre</entry>
+                        </row>
+                        <row>
+                            <entry>App Type</entry>
+                            <entry>
+                                <p>Livefyre App Type. Options:</p>
+                                <ul id="ul_sxl_h1y_12b">
+                                    <li>
+                                        <p>Live Blog</p>
+                                        <p/>
+                                    </li>
+                                    <li>
+                                        <p>Feature Card</p>
+                                    </li>
+                                    <li>
+                                        <p>Carousel</p>
+                                    </li>
+                                    <li>
+                                        <p>Chat</p>
+                                    </li>
+                                    <li>
+                                        <p>Comments</p>
+                                    </li>
+                                    <li>
+                                        <p>Filmstrip</p>
+                                    </li>
+                                    <li>
+                                        <p>Storify 2</p>
+                                    </li>
+                                    <li>
+                                        <p>Map</p>
+                                    </li>
+                                    <li>
+                                        <p>Upload Button</p>
+                                    </li>
+                                    <li>
+                                        <p>Mosaic</p>
+                                    </li>
+                                    <li>
+                                        <p>Poll</p>
+                                    </li>
+                                    <li>
+                                        <p>Media Wall</p>
+                                    </li>
+                                    <li>
+                                        <p>Trending</p>
+                                    </li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Content Type</entry>
+                            <entry>Instagram, Twitter, Facebook, LiveFyre, YouTube, etc</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section id="section_b3d_4yl_pdb">
+            <title>More Info</title>
+            <p>For more information on the topics discussed on this page, see:</p>
+            <ul id="ul_rpj_jls_mcb">
+                <li><xref
+                        href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"
+                        format="html" scope="external">Report Suite Manager</xref><p><xref
+                            href="https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html"
+                            format="html" scope="external">DTM</xref></p></li>
+                <li><xref href="https://marketing.adobe.com/resources/help/en_US/dtm/rules.html"
+                        format="html" scope="external">Rules</xref></li>
+                <li>
+                    <p><xref href="c_reference_livefyre.js_comp.dita#topic_hcz_ppx_2cb"
+                            >Livefyre.js</xref></p>
+                </li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

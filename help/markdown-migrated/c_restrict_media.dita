@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_restrict_media">
+ <title>Restrict Media</title>
+ <shortdesc>Limit the type of media that gets into the App stream.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+  <p>By default, all media attachments can be embedded into Apps. Livefyre allows you to change this
+   option to prevent users from posting selected attachment types to your Apps.</p>
+  <note>Livefyre partners with Embedly for media integration. For more information, see Content
+   Integration > Embedly Integration. Please contact your Technical Account Manager for questions
+   about link expansion or sources.</note>
+  <p>This example blocks YouTube and Vimeo embeds from your comment stream:</p>
+  <codeblock>
+var attachmentDelegate = function(embedObj) {
+   var providersToBlock = ['youtube', 'vimeo'];
+   for (var i=0, len=providersToBlock.length; i&lt;len; i++) {
+      if (embedObj.provider_url.indexOf(providersToBlock[i]) > -1) {
+         return false;
+      }
+   }
+   return true;
+};</codeblock>
+  <p>When loading the conversation:</p>
+  <codeblock>
+networkConfig["attachmentDelegate"] = attachmentDelegate;
+fyre.conv.load(networkConfig, [convConfig]);</codeblock>
+ </conbody>
+</concept>

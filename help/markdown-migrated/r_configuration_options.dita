@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_configuration_options">
+  <title>Sidenotes Configuration Options</title>
+  <shortdesc>The Sidenotes config object is a JSON object used to specify the content that the
+    Livefyre App renders on the page.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section>
+      <p>The object contains the following parameters:</p>
+      <table frame="all" rowsep="1" colsep="1" id="table_rfj_cmj_yy">
+        <tgroup cols="3">
+          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <thead>
+            <row>
+              <entry>Parameter</entry>
+              <entry>Type</entry>
+              <entry>Description</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>authDelegate</entry>
+              <entry>(required) object </entry>
+              <entry>New or old style initialized authentication delegate.</entry>
+            </row>
+            <row>
+              <entry>collectionMeta</entry>
+              <entry>(required) object</entry>
+              <entry>See collectionMeta token for more information.</entry>
+            </row>
+            <row>
+              <entry>customIcon</entry>
+              <entry>(optional) string </entry>
+              <entry>Sets the URL of a custom launcher icon. Defaults to Livefyre bubble.</entry>
+            </row>
+            <row>
+              <entry>customStyles</entry>
+              <entry>(optional) object </entry>
+              <entry>Adds custom styles to change the look and feel of Sidenotes. For more
+                information, see Custom Styles.</entry>
+            </row>
+            <row>
+              <entry>disableStream</entry>
+              <entry>(optional) Boolean </entry>
+              <entry>If true, disables real-time streaming in this Sidenotes instance (not in other
+                comment streams). Default is false.</entry>
+            </row>
+            <row>
+              <entry>environment</entry>
+              <entry>(optional) string </entry>
+              <entry>Specifies the Livefyre UAT environment. The only possible value is
+                t402.livefyre.com. For production this parameter must be removed.</entry>
+            </row>
+            <row>
+              <entry>iconVisibility</entry>
+              <entry>(optional) object or string</entry>
+              <entry>Defines whether the Sidenotes icon will be visible upon hover or static. If
+                this is a string, it will be used for both versions of the block icon (empty and has
+                Sidenotes). If an object, you must specify each type: {empty: ‘hover’, num:
+                ‘static’}. Default is static.</entry>
+            </row>
+            <row>
+              <entry>inlineThreads</entry>
+              <entry>(optional) Boolean</entry>
+              <entry>If true, Sidenote threads are inserted directly after the block with which they
+                are associated. Default is false.</entry>
+            </row>
+            <row>
+              <entry>numSidenotesEl</entry>
+              <entry>(optional) object, string, or array </entry>
+              <entry>
+                <p>Specifies which element the Sidenotes count widget will decorate. (This widget
+                  shows the number of sidenotes on the page and information about Sidenotes.)</p>
+                <p>If the string selector matches more than one element, the first will be chosen.
+                  (Uses CSS3 DOM selector spec.)</p>
+              </entry>
+            </row>
+            <row>
+              <entry>position</entry>
+              <entry>(optional) string</entry>
+              <entry>Determines the position of the popup when an element that has Sidenotes enabled
+                is clicked. Possible values are ‘smart’, ‘left’, ‘right’, ‘bottom’. Default is
+                ‘smart’ which aligns the popup to the right of the page unless there is not enough
+                space (in which case it will move to below the content).</entry>
+            </row>
+            <row>
+              <entry>selectors</entry>
+              <entry>(required) object, string, or array </entry>
+              <entry>
+                <p>Specifies the elements on which launcher icons should appear. (Uses CSS3 DOM
+                  selector spec.)</p>
+                <p>If object, includes an “includes” section and an “excludes” section that will
+                  apply the CSS selector for any matching includes, and remove any elements matching
+                  the excludes. If string, will include any matching elements on the page. If array,
+                  lists the elements to include.</p>
+              </entry>
+            </row>
+            <row>
+              <entry>strings</entry>
+              <entry>(optional) object</entry>
+              <entry>Adds custom text strings to change any language or text throughout the
+                application. For more information, see Custom Strings.</entry>
+            </row>
+            <row>
+              <entry>threadContainerEl</entry>
+              <entry>(optional) object, string, or array</entry>
+              <entry>
+                <p>Specifies an element where the thread of sidenotes will appear. This parameter
+                  allows you to reposition the thread.</p>
+                <p>If the string selector matches more than one element, the first will be chosen.
+                  (Uses CSS3 DOM selector spec.)</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </refbody>
+</reference>

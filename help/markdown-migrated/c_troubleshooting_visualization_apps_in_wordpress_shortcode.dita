@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_troubleshooting_visualization_apps_in_wordpress_shortcode">
+ <title>Troubleshooting: Visualization Apps in WordPress Shortcode</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <table id="table_xqd_grm_5z">
+   <tgroup cols="2">
+    <colspec colnum="1" colname="col1"/>
+    <colspec colnum="2" colname="col2"/>
+    <thead>
+     <row>
+      <entry><b>Problem</b></entry>
+      <entry><b>Solution</b></entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><uicontrol>App not displaying</uicontrol></entry>
+      <entry>Check that you have the correct App ID</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>If you use more than one network, check that you are using the correct network.</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>Check that you are using the correct credentials.</entry>
+     </row>
+     <row>
+      <entry><uicontrol>Can’t find App ID</uicontrol></entry>
+      <entry>The App ID is an alphanumeric string that Livefyre generates. You can find it within
+       the Livefyre Application in the App you want to display in WordPress. For more help finding
+       the App ID, contact Livefyre support at https://livefyre.zendesk.com/hc/en-us.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

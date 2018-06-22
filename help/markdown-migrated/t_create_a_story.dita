@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_a_story">
+    <title>Create a Story</title>
+    <shortdesc>Create a new Storify 2 story.</shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Click <uicontrol>New App</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Storify 2</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter an <uicontrol>App Title</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a <uicontrol>Site</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

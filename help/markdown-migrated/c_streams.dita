@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
+<dita>
+  <concept id="c_streams">
+    <title>Product: Streams</title>
+    <shortdesc>Pipe selected content to your Livefyre Apps or Studio Library.</shortdesc>
+    <prolog>
+      <metadata>
+        <othermeta name="solution" content="Experience Manager" />
+      </metadata>
+    </prolog>
+    <conbody>
+      <draft-comment author="ind14750" otherprops="merge">c_streams.dita</draft-comment>
+      <p>Streams allow you to create rules to pull content from social media websites and push that
+        content to your Asset Library or a selected Livefyre App.</p>
+      <p>(Rule options vary by source type.)</p>
+      <p>Streams defined with Folder destinations will save content as assets to your Asset
+        Library.</p>
+      <p>Multiple streams may be pushed to a single destination (folder or App).</p>
+      <p>Streams defined with App destinations will push content directly to your App, and will be
+        available from the Published tab in your Library.</p>
+      <p>Use the Streams interface to define rules by which Studio will pipe selected content to
+        your Livefyre Apps or Asset Library.</p>
+      <note>Content created while your Stream is active will appear in your Apps. Content created
+        before rules are defined and the Stream is active, or after a Stream has been disabled, will
+        not display in your Apps.</note>
+    </conbody>
+  </concept>
+</dita>

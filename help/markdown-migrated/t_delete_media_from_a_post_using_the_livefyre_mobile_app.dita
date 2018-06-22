@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task id="t_delete_media_from_a_post_using_the_livefyre_mobile_app">
+  <title>Delete Media from a Post Using the Livefyre Mobile App</title>
+  <shortdesc>Delete media you added to a Storify 2 post from the Livefyre Mobile App.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Click on the media you uploaded to the post.</cmd>
+      </step>
+      <step>
+        <cmd>Click on the trash can icon to delete the media.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

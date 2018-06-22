@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_embedly_integration">
+ <title>Embedly Integration</title>
+ <shortdesc>Use embed.ly to display multiple media formats, directly in the App.</shortdesc>
+ <conbody>
+  <p>To better enable embedded media content from a variety of sources, including Google Maps,
+   YouTube, Flickr, Facebook, Instagram, Spotify, and Tumblr, Livefyre Apps use Embedly as a
+   third-party provider for URL expansion. If a user or moderator includes a supported link in a
+   post, the media included in the link will expand when posted to the Collection.</p>
+  <p>This provides Livefyre Apps with access to the more than 250 different embedded media options
+   that Embedly supports.</p>
+  <note>Livefyre expands only a subset of Embedly’s full provider list. Embedded images will expand
+   on HTTPS pages only if the provider is Twitter, YouTube, Imgur, Vine, Wikipedia, or SoundCloud.
+   Please contact your Technical Account Manager for any further questions about link expansion or
+   sources.</note>
+  <p>This page lists examples of some popular embedded media types, and their acceptable URL
+   patterns. Embed.ly is continually adding new sources. For a complete list of providers, please go
+   to http://embed.ly/embed/features/providers.</p>
+  <note>The Embedly formatting requires a full permalink. Shortened links will not work.</note>
+  <p>Only publicly viewable content is embeddable. If you attempt to embed a piece of content that
+   is not public, the link to the content will appear in the blog post, and a placeholder icon will
+   accompany it. When clicked, the link will take the reader to an error message from the service
+   where the content is hosted, such as a Facebook message for a friends-only photo. Please contact
+   your Account Manager if you notice that media is not expanded as expected.</p>
+  <table id="table_lth_m4x_vy">
+   <title>Sample Embedly URLs</title>
+   <tgroup cols="3">
+    <colspec colnum="1" colname="col1"/>
+    <colspec colnum="2" colname="col2"/>
+    <colspec colnum="3" colname="col3"/>
+    <tbody>
+     <row>
+      <entry><b>Maps</b></entry>
+      <entry><b>Google Maps</b></entry>
+      <entry>
+       <ul id="ul_mth_m4x_vy">
+        <li>http://maps.google.com/maps?*</li>
+        <li>http://maps.google.com/?*</li>
+        <li>http://maps.google.com/maps/ms?*</li>
+        <li><b>Note: </b>URL must begin with “http” and not “https.”</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry><b>Social Networking</b></entry>
+      <entry><b>Google Plus</b></entry>
+      <entry>
+       <ul id="ul_nth_m4x_vy">
+        <li>http://plus.google.com/*</li>
+        <li>http://www.google.com/profiles/*</li>
+        <li>https://plus.google.com/*</li>
+        <li>http://google.com/profiles/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry><b>YouTube</b></entry>
+      <entry>
+       <ul id="ul_oth_m4x_vy">
+        <li>http://*youtube.com/watch*</li>
+        <li>http://*.youtube.com/v/*</li>
+        <li>https://*youtube.com/watch*</li>
+        <li>https://*.youtube.com/v/*</li>
+        <li>http://youtu.be/*</li>
+        <li>http://*.youtube.com/user/*</li>
+        <li>http://*.youtube.com/*#*/*</li>
+        <li>http://m.youtube.com/watch*</li>
+        <li>http://m.youtube.com/index*</li>
+        <li>http://*.youtube.com/profile*</li>
+        <li>http://*.youtube.com/view_play_list*</li>
+        <li>http://*.youtube.com/playlist*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry><b>Photos</b></entry>
+      <entry><b>Flickr</b></entry>
+      <entry>
+       <ul id="ul_pth_m4x_vy">
+        <li>http://www.flickr.com/photos/*</li>
+        <li>http://flic.kr/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry><b>Instagram</b></entry>
+      <entry>
+       <ul id="ul_qth_m4x_vy">
+        <li>http://instagr.am/p/*</li>
+        <li>http://instagram.com/p/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry><b>TwitPic</b></entry>
+      <entry>
+       <ul id="ul_rth_m4x_vy">
+        <li>http://twitpic.com/*</li>
+        <li>http://www.twitpic.com/*</li>
+        <li>http://twitpic.com/photos/*</li>
+        <li>http://www.twitpic.com/photos/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry><b>Facebook</b></entry>
+      <entry>
+       <ul id="ul_sth_m4x_vy">
+        <li>http://www.facebook.com/photo.php*</li>
+        <li>https://www.facebook.com/photo.php*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>
+       <p><b>Ow.ly </b></p>
+       <p>(Hootsuite’s Content Uploading Service)</p>
+      </entry>
+      <entry>
+       <ul id="ul_tth_m4x_vy">
+        <li>http://ow.ly/i/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry><b>Polls</b></entry>
+      <entry><b>GoPollGo</b></entry>
+      <entry>
+       <ul id="ul_uth_m4x_vy">
+        <li>http://gopollgo.com/*</li>
+        <li>http://www.gopollgo.com/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry><b>Droplr</b></entry>
+      <entry>
+       <ul id="ul_vth_m4x_vy">
+        <li>http://d.pr/i/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry><b>Audio</b></entry>
+      <entry><b>SoundCloud</b></entry>
+      <entry>
+       <ul id="ul_wth_m4x_vy">
+        <li>http://soundcloud.com/*</li>
+        <li>http://soundcloud.com/*/*</li>
+        <li>http://soundcloud.com/*/sets/*</li>
+        <li>http://soundcloud.com/groups/*</li>
+        <li>http://snd.sc/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry><b>Spotify</b></entry>
+      <entry>
+       <ul id="ul_xth_m4x_vy">
+        <li>http://open.spotify.com/*</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry><b>Blogs</b></entry>
+      <entry><b>Tumblr</b></entry>
+      <entry>
+       <ul id="ul_yth_m4x_vy">
+        <li>http://tumblr.com/*</li>
+        <li>http://*.tumblr.com/post/*</li>
+       </ul>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>Apps that use this feature:</p>
+  <ul id="ul_qyz_vnh_h1b">
+   <li><xref href="c_carousel_app.dita#c_carousel_app">Carousel</xref></li>
+   <li><xref href="c_chat_app.dita#c_chat_app">Chat</xref></li>
+   <li><xref href="c_comments_app.dita#c_comments_app">Comments</xref></li>
+   <li><xref href="c_feature_card_app.dita#c_feature_card_app">Feature Card</xref></li>
+   <li><xref href="c_map_app.dita#c_map_app">Map</xref></li>
+   <li><xref href="c_media_wall_app.dita#c_media_wall_app">Media Wall</xref></li>
+   <li><xref href="c_mosaic_app.dita#c_mosaic_app">Mosaic</xref></li>
+   <li><xref href="c_polls_app.dita#c_polls_app">Polls</xref></li>
+   <li><xref href="c_reviews_app.dita#c_reviews_app">Reviews</xref></li>
+   <li><xref href="c_sidenotes_app.dita#c_sidenotes_app">Sidenotes</xref></li>
+   <li><xref href="c_storify2.dita#c_storify2">Storify 2</xref></li>
+   <li><xref href="c_trending_app.dita#c_trending_app">Trending</xref></li>
+   <li><xref href="c_upload_button_app.dita#c_upload_button_app">Upload Button</xref></li>
+  </ul>
+ </conbody>
+</concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Developer Docs</title>
+ <topicref format="dita" scope="local" href="c_developer_docs.dita" navtitle="Developer Docs">
+  <topicref format="dita" scope="local" href="c_getting_started.dita" navtitle="Getting Started"/>
+  <topicref format="dita" scope="local"
+   href="c_using_livefyre.js_to_create_customize_and_use_apps_on_your_site.dita"
+   navtitle="Using Livefyre.js to Create, Customize, and Use Apps on your Site"/>
+  <topicref href="t_about_identity_integration.dita"/>
+  <topicref format="dita" scope="local" href="c_cms_plugins.dita" navtitle="CMS Plugins"/>
+  <topicref format="dita" scope="local" href="c_advanced_topics.dita" navtitle="Advanced Topics"/>
+  <topicref format="dita" scope="local" href="c_installing_libraries.dita" navtitle="Installing Libraries"/>
+  <topicref format="dita" scope="local" href="c_reference.dita" navtitle="Reference"/>
+   <topicref format="dita" scope="local" href="c_translation_sets.dita" navtitle="Translation Sets"/>
+ </topicref>
+</map>

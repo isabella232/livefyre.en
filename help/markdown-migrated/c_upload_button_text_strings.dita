@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_upload_button_text_strings">
+ <title>Upload Button Text Strings</title>
+ <shortdesc>You can modify these text strings for the Upload Button.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <section id="section_zwm_d5m_nz">
+   <table frame="all" rowsep="1" colsep="1" id="table_bfq_wjj_yy">
+    <tgroup cols="3">
+     <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+     <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+     <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+     <thead>
+      <row>
+       <entry>Category</entry>
+       <entry>Element</entry>
+       <entry>Affected Feature</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry/>
+       <entry>Destination</entry>
+       <entry>Choose the App you will use to display the content from the Upload Button. You can not
+        display the Upload Button in Polls, Trending, or Storify 2. Set the destination to Moderate
+        to moderate content users upload using the Upload button.</entry>
+      </row>
+      <row>
+       <entry>Style Options</entry>
+       <entry>Corners</entry>
+       <entry>Configure the corners of the buttons to be rounded or square.</entry>
+      </row>
+      <row>
+       <entry>Configuration</entry>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry>Allow User Posts</entry>
+       <entry>Choose whether site visitors can use the upload button to post text, photos, or
+        videos. If an site visitor is not authenticated, they will not be able to use the Upload
+        Button.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Include Title</entry>
+       <entry>Enable site visitors to enter a title with the content they upload. By default, site
+        visitors can comment. Enabling this makes a title and comment as part of the content the
+        site visitor uploads.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Require Media</entry>
+       <entry>Require site visitors to upload a photo or video in order to post content using the
+        Upload Button.</entry>
+      </row>
+      <row>
+       <entry>Text Configuration</entry>
+       <entry>Upload Button Text</entry>
+       <entry>Configure the text displayed on the Upload Button.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Comment Modal Title</entry>
+       <entry>Title of the window that displays when the site visitor clicks the Upload
+        Button.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Comment Modal Button</entry>
+       <entry>Text that displays in the window where the site visitor uploads content after they
+        click the Upload Button.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Comment Modal Title Input</entry>
+       <entry>Allow the site visitor to enter a title with their upload. You can modify the content
+        that displays here if you selected “Include Title.”</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Comment Modal Message Input</entry>
+       <entry>Allow the site visitor to enter a message with their upload.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Confirmation Modal Title Text</entry>
+       <entry>The title of the window that confirms to the site visitor that they uploaded content
+        successfully.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Confirmation Modal Description Text</entry>
+       <entry>The text that displays in the window that confirms to the site visitor that they
+        uploaded content successfully.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Confirmation Modal Done Button</entry>
+       <entry>The text of button that displays in the window that confirms to the site visitor that
+        they uploaded content successfully.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Enable Header</entry>
+       <entry>Enable a header to provide context to site visitors. You can choose to add the header
+        to the top or the right of the button.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Main Callout Title</entry>
+       <entry>The text to use for the title of the header.</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>Main Callout Message</entry>
+       <entry>The text to use in the header.</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </section>
+ </conbody>
+</concept>

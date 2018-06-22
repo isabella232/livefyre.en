@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_change_display_options">
+ <title>Change Display Options</title>
+ <shortdesc>Customize App display options to match your branding and style.</shortdesc>
+ <prolog>
+  <metadata>
+   <othermeta name="solution" content="Experience Manager"/>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>Available for Chat, Comments, Live Blog, Reviews, and Sidenotes.</p>
+  <p>Livefyre offers several options by which your App’s display may be customized to fit your
+   branding and style, including CSS classes, localized text strings, and App element and media
+   restrictions. Options may be defined for Comments, Live Blog, Reviews, Sidenotes, the Comment
+   Notifier, archived comments, and pre-defined user groups.</p>
+  <p>This section describes the following available display customization options:</p>
+  <ul id="ul_jpt_5ml_wz">
+   <li>Available CSS Classes allow you to change div elements, sort options, bounding boxes, icons,
+    and other display options for your Apps.</li>
+   <li><xref href="c_localize_strings.dita#c_localize_strings">Localize Strings</xref> to set the
+    language and tone for your Apps.</li>
+   <li>Specify the Date/Time Format to conform to your style.</li>
+   <li>Move the Livefyre Logo to display it less conspicuously on your App.</li>
+   <li>Restrict Media to prevent users from uploading specified media embed types.</li>
+   <li>Hide App Elements to simplify your user experience.</li>
+   <li>Change the Livefyre @mention Icon to select a custom icon to display in pulldown @mention
+    menus for members of your Livefyre audience.</li>
+  </ul>
+ </conbody>
+</concept>

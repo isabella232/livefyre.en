@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_embed_an_app_site">
+    <title>Embed an App on your Site Using Studio</title>
+    <shortdesc>Generate the Embed Code.</shortdesc>
+    <taskbody>
+        <context>
+            <p>When an App is published, Livefyre generates and displays an embed code, which may be
+                used to embed the App on any page in your Network. To regenerate the HTML snippet
+                used to embed your App on a page:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>From the App Overview screen, click the <uicontrol>&lt;/> Embed
+                        Code</uicontrol> button.</cmd>
+            </step>
+            <step>
+                <cmd>From the <uicontrol>Embed Code</uicontrol> panel that opens, copy and paste the
+                    HTML code snippet displayed into your web page.</cmd>
+                <info>For Apps requiring user authentication, your integration for user auth must be
+                    complete and located on the page before adding the embed code.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

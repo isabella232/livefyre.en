@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita> 
+  <concept id="concept_18AD0C1D8A004FD3A4AD1461CC320450"> 
+	 <title>Use Livefyre with AEM 6.4</title> 
+	 <shortdesc><?xm-replace_text Short Description?>
+	 </shortdesc> 
+	 <conbody> 
+		<p><?xm-replace_text Paragraph?>
+		</p> 
+	 </conbody> 
+  </concept> 
+</dita> 

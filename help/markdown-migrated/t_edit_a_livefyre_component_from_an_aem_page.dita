@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_edit_a_livefyre_component_from_an_aem_page">
+    <title>Edit a Livefyre Component from an AEM Page</title>
+    <shortdesc/>
+    <taskbody>
+        <context><p/><b>Edit a Livefyre Component from an AEM Page</b><p><b>Note:</b> You can only
+                configure or edit a Livefyre component in Livefyre Studio.</p><ol id="ol_cp3_zhs_pz">
+                <li>Click the Livefyre Component to configure.</li>
+                <li>Click the <b>Configure</b> item (wrench) to open the Configuration Dialog.</li>
+                <li>Click <b>Livefyre Studio</b> in the toolbar to open the App in Studio.</li>
+                <li>Modify the App in Studio.</li>
+            </ol></context>
+        <steps>
+            <step>
+                <cmd></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

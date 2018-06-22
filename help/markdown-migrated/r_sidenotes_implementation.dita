@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_sidenotes_implementation">
+  <title>Sidenotes Implementation</title>
+  <shortdesc>Implement Sidenotes using .js implementation.</shortdesc>
+  <refbody>
+    <section id="section_xyg_51w_sy">
+      <p>To implement this feature, pass in a 1-1 object mapping of the strings you wish to override
+        to the Javascript configuration object. If you don’t provide a field, then the default text
+        will be used.</p>
+      <p>Example:</p>
+      <codeblock>var customStrings = { postAsButton: "New Post As Text", postEditButton: "New Post Edit Text"};networkConfig["strings"] = customStrings; fyre.conv.load( networkConfig, [convConfig], function(){});</codeblock>
+    </section>
+  </refbody>
+</reference>

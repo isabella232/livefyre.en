@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_add_trashed_item_back_into_app">
+    <title>Add a Trashed Item Back into an App</title>
+    <shortdesc>If you trash an item in ModQ, you can add it back into the App using a Social
+        Search.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Navigate to the <uicontrol>Library</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Social Search</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Select a <uicontrol>Social Source</uicontrol> (for example, Twitter or
+                    Instagram).</cmd>
+            </step>
+            <step>
+                <cmd>Enter a Hashtag.</cmd>
+            </step>
+            <step>
+                <cmd>Select content.</cmd>
+            </step>
+            <step>
+                <cmd>Select the three dots in lower right hand corner of the content.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Publish</uicontrol> to publish the content to the correct
+                    App.</cmd>
+                <info>WARNING: Do not select <uicontrol>Bulk Clear</uicontrol> in ModQ. If you
+                    select <uicontrol>Bulk Clear</uicontrol>, all content is removed from ModQ. To
+                    add the content back into ModQ, you must perform a social search for review and
+                    approval.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

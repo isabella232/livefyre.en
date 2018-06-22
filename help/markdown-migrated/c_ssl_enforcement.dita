@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept id="c_ssl_enforcement">
+  <title>SSL Enforcement</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager" />
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>To ensure your data remains secure, we are deprecating HTTP in favor of HTTPS. Adobe Livefyre
+   will disable all HTTP and insecure SSL/TLS ciphers completely by end of August 2018. This is an
+   Adobe Standard designed to protect the privacy of you and your users.</p>
+    <section id="section_jf2_4yz_kcb">
+      <title>Who is affected?</title>
+      <p>This could impact Livefyre customers who have:</p>
+      <ul id="ul_lf2_4yz_kcb">
+        <li>Server-to-server calls from their CRM, CMS, Wordpress, or other Client.</li>
+        <li>Mobile Integrations (Android and iOS Apps)</li>
+        <li>Custom applications or custom code</li>
+      </ul>
+    </section>
+    <section id="section_unv_dc5_kcb">
+      <title>What do I need to do?</title>
+      <ol id="ol_tt1_3c5_kcb">
+        <li>All Livefyre customers must communicate with all APIs via HTTPS for all traffic,
+      including:<ul id="ul_yxj_rd5_kcb"><li>Server to Server Integrations (CRM, CMS, Wordpress, etc.)</li><li>Mobile Integrations (Android and iOS Apps)</li><li>Custom Applications (Streamhub SDK or directly coded).</li></ul></li>
+        <li>Server to Server and Mobile HTTP Clients must support TLS 1.2</li>
+        <li>Change hostnames from <codeph>{*}.&lt;network&gt;.fyre.co</codeph> to
+      <codeph>&lt;network&gt;.{*}.fyre.co</codeph>. For example, the host name
+      <codeph>example.network.fyre.co</codeph> changes to
+     <codeph>network.example.fyre.co</codeph>.</li>
+      </ol>
+    </section>
+    <section id="section_sqk_5d5_kcb">
+      <title>How do I know whether I made the changes?</title>You may
+   already use HTTPS, but Livefyre recommends you double check, especially if you have:<ul id="ul_ant_b25_kcb"><li>Server-to-server calls from your CMS or CRM.</li><li>Custom code or use SDKs for custom apps in Javascript or Mobile.</li><li>If your integration is more than one year old.</li><li>If the technology in your stack is older than one year.</li></ul><p>Even if you already use HTTPS, you must verify that your API clients support TLS
+   1.2.</p></section>
+    <section id="section_nd1_j25_kcb">
+      <title>How can I verify that my API clients support TLS 1.2? </title>
+      <p>A person who works on the development of your site can:<ul id="ul_g13_l25_kcb"><li>Identify the client software.</li><li>Identify the version.</li><li>Read documentation to ensure the API client supports TLS 1.2.</li><li>Turn on debug mode, if needed.</li></ul></p>
+    </section>
+    <section id="section_lwn_rwk_ycb">
+      <title>Java Support for TLS 1.2</title>
+      <p>Oracle and OpenJDK JVMs for Java 8 and later are configured to use TLS 1.2, by default, for
+        all SSL connections. You do not need to take any additional action if you use Java 8 or
+        later. </p>
+      <p>Users of Java 7 or earlier should consult public documentation on how to enable TLS
+        1.2.</p>
+    </section>
+    <section id="section_d5q_p25_kcb">
+      <title>Why do I need to change my host names?</title>
+      <p>Livefyre does not have SSL certificates on <codeph>{*}.&lt;network&gt;.fyre.co</codeph> domains.
+    Simply changing the URL to HTTPS breaks the application.</p>
+    </section>
+    <section id="section_dw5_s25_kcb">
+      <title>Do I have to upgrade to the latest version of Livefyre SDKs?</title>
+      <p>No. You can patch the code instead. To patch the code, you modify some static strings and
+    rebuild the code. If your HTTP client is out of date, you'll need to upgrade that as well or use
+    a different one.</p>
+    </section>
+    <section id="section_lgd_v25_kcb">
+      <title>How long will this take?</title>
+      <p>The length of time this takes depends on your setup. If you have a simple implementation, it
+    should take little time to confirm. If you have many customizations, you will need to test and
+    deploy updated code to your servers or new Apps to App Stores. For best results, we recommend
+    you do an initial audit of the work so you can plan for any longer-term work.</p>
+    </section>
+    <section id="section_kgk_w25_kcb">
+      <title>What is the timeline for completing this work?</title>
+      <p>Livefyre will disable port 80 (HTTP) to our services by the end of August 2018 and support
+        only connections to 443 (HTTPS). Browsers and other clients, that attempt to use HTTP, will
+        fail. </p>
+    </section>
+    <section id="section_rvb_x25_kcb">
+      <title>When do I need to finish this work?</title>
+      <p>All customers must use HTTPS by the end of July 2018. If you cannot meet this deadline,
+        contact our team at prioritysupport@livefyre.com.</p>
+    </section>
+  </conbody>
+</concept>

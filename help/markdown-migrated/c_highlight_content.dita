@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_highlight_content">
+ <title>Highlight Content</title>
+ <shortdesc>Use styling to feature and promote selected content or user groups.</shortdesc>
+  <prolog>
+    <metadata>
+      <othermeta name="solution" content="Experience Manager"/>
+    </metadata>
+  </prolog>
+ <conbody>
+ 
+      <p>Highlight select content within your Apps to call out the most relevant posts, and most
+        vetted users.</p>
+      <note>Customizations are available only for Apps that allow user posts and are configured
+        using a ConvConfig object: for example, Chat, Comments, Live Blog, Reviews, and
+        Sidenotes.</note>
+    <p>Featuring content allows you to call attention to selected user posts. Featured content may
+      be styled differently than other content on the page, and featured Livefyre-native content
+      appears above the editor.</p>
+    <p>Styling User Group content allows you to highlight content posted by specific user types such
+      as moderators, editors, or any other User Group you wish to define.</p>
+    
+ </conbody>
+</concept>

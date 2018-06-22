@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_integrate_poll_site">
+    <title>Add a Poll to a Comments or Live Blog App</title>
+    <shortdesc>Use Livefyre’s Custom HTML feature to add Polls to your Comments or Live Blog Apps. </shortdesc>
+    <prolog>
+        <metadata>
+            <othermeta name="solution" content="Experience Manager"/>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Copy the embed code for a published Poll from the App Manager page or from the
+                    dialog presented when you click <uicontrol>Publish</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Paste the embed code into the <uicontrol>Custom HTML</uicontrol> field of your
+                    Comments or Live Blog App.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

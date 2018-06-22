@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_sync_to_livefyre_with_ping_for_pull">
+    <title>Sync to Livefyre with Ping for Pull</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p><b>Step 4: Sync to Livefyre with Ping for Pull</b></p>
+            <p>Keeping Livefyre Remote Profiles in sync with your Capture user management system
+                involves a series of steps referred to as Ping for Pull. This process requires that
+                you obtain a valid access token from Janrain, and then pass that token to an
+                endpoint specified in step 3, below.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Get an access code from Janrain. </cmd>
+                <info>To get the access code, supply the necessary credentials, specify the
+                    user_type as “user”, and the uuid as the current user’s uuid to update. For more
+                    information, see <xref
+                        href="http://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/"
+                        format="html" scope="external"
+                        >http://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/</xref></info>
+            </step>
+            <step>
+                <cmd>Trade the access code for an access token. Supply the necessary credentials,
+                    the access code received from step 1, and specify the grant_type as
+                    “authorization_code”.</cmd>
+                <info>For more information, see <xref
+                        href="http://developers.janrain.com/rest-api/methods/authentication/oauth/token/"
+                        format="html" scope="external"
+                        >http://developers.janrain.com/rest-api/methods/authentication/oauth/token/</xref></info>
+            </step>
+            <step>
+                <cmd>Hit the Livefyre “Ping to Pull Capture” endpoint. </cmd>
+                <info>Endpoint URL:
+                        <filepath>http://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}</filepath>
+                    where <i><b>{networkName}</b></i> is the network name provided to you by
+                    Livefyre, and the jrtoken is the token received from Janrain in step 2. </info>
+                <stepresult>Once you hit this endpoint, you receive a 202 response and Livefyre
+                    begins an async process.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
