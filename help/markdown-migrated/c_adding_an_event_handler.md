@@ -10,7 +10,7 @@ title: Adding an Event Handler
 
 For example:
 
-```
+```javascript
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
  new Conv(networkConfig, [convConfig], function(widget) { 
  widget.on('&lt;strong&gt;&lt;eventName&gt;&lt;/strong&gt;', function (data) { 
