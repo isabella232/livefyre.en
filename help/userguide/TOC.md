@@ -103,9 +103,6 @@
     + Translation and Custom Text Strings
     + UGC Commerce
 + Library
-    + Add a Social Account
-        + About Instagram Accounts
-        + Refresh a Token for a Social Account
     + Assets
         + Create Asset Folders
         + Manage Asset Folders
@@ -172,6 +169,9 @@
     + Log into Studio
     + Manage Studio Permissions for Users
     + User Roles and Permissions
++ Add a Social Account
+    + About Instagram Accounts
+    + Refresh a Token for a Social Account
 + Settings: Other
     + Set Up Credentials
     + Add a Site to a Network
