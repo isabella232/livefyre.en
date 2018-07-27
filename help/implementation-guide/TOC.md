@@ -5,6 +5,7 @@ cloud: Experience Cloud
 archetype: all
 user-guide: Livefyre User Guide
 git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.en
+git-issues: https://git.corp.adobe.com/AdobeDocs/livefyre.en/issues
 
 ---
 
