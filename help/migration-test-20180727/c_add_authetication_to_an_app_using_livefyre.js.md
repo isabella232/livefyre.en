@@ -20,13 +20,21 @@ Livefyre.js Auth is a JavaScript package developed by Livefyre that enables all 
 Use Livefyre.js to enable authentication for a page in order to allow users to log in and interact with Apps using your existing authentication system.
 
 1. To enable authentication on a page, add Livefyre.js to the &lt;head&gt; element of your webpage or website template.
+<<<<<<< HEAD:help/migration-test-20180727/c_add_authetication_to_an_app_using_livefyre.js.md
 
+=======
+   
+>>>>>>> c5b18481a80935c992a3bdf232ceedd77ae09317:help/markdown-migrated/c_add_authetication_to_an_app_using_livefyre.js.md
    ```
    <script src="//cdn.livefyre.com/Livefyre.js"></script>
    ```
+<<<<<<< HEAD:help/migration-test-20180727/c_add_authetication_to_an_app_using_livefyre.js.md
 
 1. Use Livefyre.require to enable authentication. Using Livefyre.require is similar to using require to call other packages. The integration code to require auth looks like this:
 
+=======
+2. Use Livefyre.require to enable authentication. Using Livefyre.require is similar to using require to call other packages. The integration code to require auth looks like this:
+>>>>>>> c5b18481a80935c992a3bdf232ceedd77ae09317:help/markdown-migrated/c_add_authetication_to_an_app_using_livefyre.js.md
    ```
    Livefyre.require(['auth'], function (auth) { // Do authy things...});
    ```
