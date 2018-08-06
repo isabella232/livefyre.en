@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_moderate_content">
-    <title>Moderate Content </title>
-    <shortdesc>ModQ lists all content awaiting moderation for the App.</shortdesc>
-    <taskbody>
-        <context/>
-    </taskbody>
-</task>

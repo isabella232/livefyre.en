@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_customize_mosaic">
-    <title>Customize a Mosaic</title>
-    <shortdesc>Change the size, width, and interaction options of the Mosaic app.</shortdesc>
-    <taskbody>
-        <context/>
-    </taskbody>
-</task>

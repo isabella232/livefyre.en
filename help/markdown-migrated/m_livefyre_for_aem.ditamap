@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
- <title>Livefyre for AEM</title>
- <topicref format="dita" scope="local" href="t_use_aem_for_livefyre.dita"
-  navtitle="Use AEM with Livefyre"/>
-</map>

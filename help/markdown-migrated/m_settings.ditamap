@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
- <title>Settings</title>
- <topicref format="dita" scope="local" href="c_settings.dita" navtitle="Settings">
-  <topicref format="dita" scope="local" href="c_translation_sets.dita" navtitle="Translation Sets"/>
- </topicref>
-</map>

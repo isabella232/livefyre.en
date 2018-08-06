@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
- <title>Livefyre Release Notes</title>
- <topicref format="dita" scope="local" href="c_rn.dita" navtitle="Livefyre Release Notes">
-  <topicref format="dita" scope="local" href="c_previous_release_notes.dita"
-   navtitle="Previous Release Notes"/>
- </topicref>
-</map>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_available_parameters">
- <title>Build the Ping for Pull Response</title>
- <shortdesc>Build the Ping for Pull response to transmit updated user information to
-  Livefyre.</shortdesc>
- <conbody/>
-</concept>

@@ -1,0 +1,45 @@
+---
+description: Add the userPrivacyOptOut flag to the page to allow a site visitor to opt out of this tracking.
+seo-description: Add the userPrivacyOptOut flag to the page to allow a site visitor to opt out of this tracking.
+seo-title: userPrivacyOptOut
+title: userPrivacyOptOut
+uuid: febc7202-4d45-4e93-b8da-064a0ffeb1e0
+index: y
+internal: n
+snippet: y
+translate: y
+---
+
+# userPrivacyOptOut
+
+Livefyre provides JavaScript events to track user activity in your Livefyre Apps.
+If you embed Livefyre Apps and a visitor does not consent to tracking, you can dynamically configure Livefyre to disable functionality to ensure the visitor’s privacy.
+When configured, Livefyre will:
+
+* Disable authentication support in Apps.
+
+* Disable Livecount and event generation
+
+* Delete existing cookies created by any Apps that are on the page
+
+* Proxy media with images from third party domains to prevent third parties from creating cookies
+* Enable video mask click-through for third party videos that require an additional click to view
+
+**Configure a Page for Opt-Out**
+Integrations embedding Livefyre Apps can configure Livefyre when a site visitor has not granted consent using a single JavaScript variable.
+Instructions:
+
+1. Add the ` userPrivacyOptOut` flag to the page before the ` Livefyre.js` JavaScript:
+
+   ```
+   window.Livefyre = {userPrivacyOptOut: true};
+   ```
+
+1. Add ` Livefyre.js` to the page anywhere after ` userPrivacyOptOut`. 
+   Livefyre Apps instantiate with the elevated privacy settings.
+
+   >[!NOTE]
+   >
+   >Do not change the value of ` userPrivacyOptOut` once Livefyre Apps have loaded. 
+
+Ensure that your consent workflow sets the ` userPrivacyOptOut` to true if a site visitor chooses to opt out.
