@@ -13,14 +13,6 @@ translate: y
 
 # Android SDK
 
-On this page:
-
-* [](#c_android_sdk/section_dtm_slv_zz)
-* [](#c_android_sdk/section_vpw_klv_zz)
-* [](#c_android_sdk/section_yfq_blv_zz)
-
-
-
 Use this library to integrate Livefyre services into your native Android app. The [ Livefyre StreamHub Android SDK ](https://github.com/Livefyre/StreamHub-Android-SDK) provides a thin layer around our common API mechanisms, based on the Gradle/Android Studio development environment.
 
 Livefyre also provides a [ Reviews ](https://github.com/Livefyre/StreamHub-iOS-Reviews-App) sample App, based on this SDK.
@@ -65,12 +57,7 @@ dependencies {   compile project(':streamHubAndroidSDK') }
 
 ```
 
-
-
 Make sure that the following line is in your ***project folder* &gt; settings.gradle** file:
-
-
-
 
 ```
 include ':streamHubAndroidSDK' 
