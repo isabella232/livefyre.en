@@ -4,7 +4,7 @@ seo-description: Customizing the text strings for Livefyre Reviews.
 seo-title: Review Text Strings
 solution: Experience Manager
 title: Review Text Strings
-uuid: e29949aa-adfa-4099-aa09-508f99f4b187
+uuid: 526b7f6b-65fd-4c2c-a955-e2d4f850b3d5
 index: y
 internal: n
 snippet: y

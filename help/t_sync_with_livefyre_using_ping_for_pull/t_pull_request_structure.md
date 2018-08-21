@@ -4,7 +4,7 @@ seo-description: Build the pull request structure to receive and respond to requ
 seo-title: Pull Request Structure
 solution: Experience Manager
 title: Pull Request Structure
-uuid: e4bf03a8-caaf-4f61-937a-28ce514fb816
+uuid: 4d19f4fa-b65b-4311-b394-69e75ae905b3
 index: y
 internal: n
 snippet: y

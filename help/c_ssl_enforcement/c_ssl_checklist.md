@@ -3,7 +3,7 @@ description: Follow the steps in the checklist to ensure you will successfully c
 seo-description: Follow the steps in the checklist to ensure you will successfully convert from HTTP to HTTPS.
 seo-title: SSL Checklist
 title: SSL Checklist
-uuid: dfe764ed-d624-4007-a986-45dd6cccfa40
+uuid: 61a9fc84-7a2c-4abd-b5ec-ff8859c1e69d
 index: y
 internal: n
 snippet: y

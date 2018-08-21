@@ -4,7 +4,7 @@ seo-description: Enable live commenting on your page.
 seo-title: Comments
 solution: Experience Manager
 title: Comments
-uuid: 00bd37bc-10a6-4d12-8ca9-bbc9c94032c4
+uuid: 8275b9a6-1c22-4f8a-b06a-d1e69e349080
 index: y
 internal: n
 snippet: y

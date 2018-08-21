@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with Twitter to allow users to us
 seo-title: Create a Twitter App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Twitter App for Use with Livefyre Identity
-uuid: b3f4c3fe-f8d5-4a18-a550-e32a2e98216a
+uuid: a3b9729b-ebb3-4c94-abae-1f08d83d1dde
 index: y
 internal: n
 snippet: y

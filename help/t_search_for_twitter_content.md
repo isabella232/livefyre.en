@@ -3,7 +3,7 @@ description: Use Social Search to search for Twitter content to include in your 
 seo-description: Use Social Search to search for Twitter content to include in your Asset Library or publish to Apps.
 seo-title: Search for Twitter Content
 title: Search for Twitter Content
-uuid: e8c8d332-54ef-4b8c-9ccb-39dfd3f75548
+uuid: e2ecbda7-057b-49c7-918e-1552ae360df2
 index: y
 internal: n
 snippet: y

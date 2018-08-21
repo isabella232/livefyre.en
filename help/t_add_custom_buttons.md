@@ -4,7 +4,7 @@ seo-description: Add custom actions to your Livefyre Apps.
 seo-title: Add Custom Buttons
 solution: Experience Manager
 title: Add Custom Buttons
-uuid: 5ec2b80d-d5ae-4856-86b0-8bcfb822fd73
+uuid: 2a118b8d-500d-4294-a4b6-25a32bc63967
 index: y
 internal: n
 snippet: y

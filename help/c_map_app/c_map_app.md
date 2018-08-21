@@ -4,7 +4,7 @@ seo-description: Use Map to generate interactive maps of content streaming into 
 seo-title: Map
 solution: Experience Manager
 title: Map
-uuid: 9ba22a27-1c34-485b-bf1f-6872f91fea43
+uuid: e11159e8-e807-436f-9bad-485f4c3fa782
 index: y
 internal: n
 snippet: y

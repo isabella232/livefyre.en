@@ -4,7 +4,7 @@ seo-description: Integrate Livefyre with your custom identity service.
 seo-title: Your Identity Service
 solution: Experience Manager
 title: Your Identity Service
-uuid: 9f1ee251-d669-4c5f-b0d9-9c7b62348672
+uuid: dd511f49-d78d-406a-b647-0591b0af1a2a
 index: y
 internal: n
 snippet: y

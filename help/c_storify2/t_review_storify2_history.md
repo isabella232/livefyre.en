@@ -4,7 +4,7 @@ seo-description: Studio will automatically save all changes made by all editors,
 seo-title: Review History
 solution: Experience Manager
 title: Review History
-uuid: 0f1e6603-3843-4895-bb87-2c46dc851a99
+uuid: 7fe74c6d-bbb6-4b46-a110-2bf8e0fcdef3
 index: y
 internal: n
 snippet: y

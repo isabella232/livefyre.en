@@ -4,7 +4,7 @@ seo-description: Returns a new Site object.
 seo-title: getSite Network Method
 solution: Experience Manager
 title: getSite Network Method
-uuid: 828173d3-dfce-460f-bea5-cc05035e5252
+uuid: a010a592-b357-413e-b02a-b2a1e4e8e1ae
 index: y
 internal: n
 snippet: y

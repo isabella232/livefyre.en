@@ -4,7 +4,7 @@ seo-description: Add keyword tags to collections and content, to categorize and 
 seo-title: Collection and Content Tags
 solution: Experience Manager
 title: Collection and Content Tags
-uuid: f637ed62-bdc0-4995-8c44-5d7577c85299
+uuid: 3b786d02-dc3e-4da0-aab3-5a6ab0be6d92
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with Facebook to allow users to u
 seo-title: Create a Facebook App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Facebook App for Use with Livefyre Identity
-uuid: a96a3707-fdaa-4e40-9467-c8fc1d926094
+uuid: 14b1b57f-9b0c-4808-9820-8a9312f57cd2
 index: y
 internal: n
 snippet: y

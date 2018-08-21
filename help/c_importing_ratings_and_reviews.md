@@ -4,7 +4,7 @@ seo-description: Importing ratings and reviews data to Livefyre.
 seo-title: Importing Ratings and Reviews
 solution: Experience Manager
 title: Importing Ratings and Reviews
-uuid: 8bfc9fae-0706-44be-8c0a-a6921028f868
+uuid: 5a19b8d5-6e10-4179-9d1c-b0cdb1e308de
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,23 @@ To import only Ratings and Reviews, and not the associated user profiles, follow
 The following parameters are used in the Ratings and Reviews import process.
 
 **Required fields**
+
+* ** source:** **(required) string **The site on which the Review originated.
+* ** title:** **(required) string **The title for the Collection to which the Review was posted.
+* ** created:** **(required) timestamp **The ISO-8601 compliant timestamp for the moment the Collection in which the Review was posted was created. For example: “2010-07-05T23:01:15Z”
+* ** id (source):** **(required) string **The article ID you chose to uniquely identify a Collection within your site, encoded using Base64. This parameter is limited to 150 characters.
+* ** dimensions:** **(required) array** An array of strings for each type of dimension that this Collection will use. If this is not specified, only 1 dimension will be allowed.For example, to allow users to rate your product on ‘design’, ‘features’, and ‘performance’, set the array to: dimensions: [‘design’, ‘features’, ‘performance’]
+* ** id (reviews):** **(required) string **Your system’s internal content identifier, used by the importer to relate children using their parent_id.
+* ** imported_display_name:** **(required) string **The display name of the user. This will be rendered with Livefyre content posted by the user.
+* ** title:** **(required) string **User’s review title.
+* ** body_html:** **(required) string **The text string for the Review. Only tags &lt;p&gt; and &lt;a&gt;, and only the href attribute, are allowed.
+* ** created:** **(required) timestamp **The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
+* ** ratings:** **(required) array **An array of integers (from 1-100) which represent the author’s rating for each of your defined dimensions. The number of items in the array must equal the number of defined dimensions.
 **Optional fields**
+
+* ** author_id:** **(optional) string **The userId of the user in your profile system. This must be unique across all users in your Network, and must never change. Max length = 255 characters.
+* ** imported_email:** **(optional) string **Used for gravatars, and not displayed publicly.
+* ** imported_url:** **(optional) string **A user provided website.
 
 ## Example Ratings and Reviews Format {#section_vnz_3cn_b1b}
 

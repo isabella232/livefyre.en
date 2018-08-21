@@ -4,7 +4,7 @@ seo-description: Create a new Storify 2 story.
 seo-title: Create a Story
 solution: Experience Manager
 title: Create a Story
-uuid: a155fdcb-854c-4749-afc7-9c985cc751e1
+uuid: ea52fb05-54cd-49fa-a6b5-a3005a16e746
 index: y
 internal: n
 snippet: y

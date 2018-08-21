@@ -3,7 +3,7 @@ description: Returns a Collection object instantiated as a Counting type. Run cr
 seo-description: Returns a Collection object instantiated as a Counting type. Run create_or_update()from the Collection object to complete the build process.
 seo-title: buildCountingCollection Site Method
 title: buildCountingCollection Site Method
-uuid: c48d413e-4af1-4e37-9b32-a1ed5154096e
+uuid: d283cf92-10b7-4a8a-b092-d01eb79b5c18
 index: y
 internal: n
 snippet: y

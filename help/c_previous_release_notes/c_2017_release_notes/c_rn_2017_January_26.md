@@ -3,7 +3,7 @@ description: Release Notes for January 26, 2017 release.
 seo-description: Release Notes for January 26, 2017 release.
 seo-title: January 26, 2017
 title: January 26, 2017
-uuid: 534bf7d1-b022-40e9-bc66-75d1f00b073d
+uuid: 1d372b1e-aacd-4d85-987f-2524aa63e54d
 index: y
 internal: n
 snippet: y

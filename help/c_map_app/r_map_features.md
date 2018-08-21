@@ -4,7 +4,7 @@ seo-description: The Map app offers these features for your site.
 seo-title: Map Features
 solution: Experience Manager
 title: Map Features
-uuid: 43980d8c-465c-48cf-90d9-7df27f8fa338
+uuid: 007c7427-aacc-4256-acbb-45c654472be3
 index: y
 internal: n
 snippet: y

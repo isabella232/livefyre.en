@@ -4,7 +4,7 @@ seo-description: Returns an encrypted user authenticated token for the network i
 seo-title: buildUserAuthToken Network Method
 solution: Experience Manager
 title: buildUserAuthToken Network Method
-uuid: 141ce3a7-11fb-48bf-b2a1-58abdd8df9c6
+uuid: 8b7cfdce-ca34-4b19-9d48-a94f68236be4
 index: y
 internal: n
 snippet: y

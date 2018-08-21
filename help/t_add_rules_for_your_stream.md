@@ -4,7 +4,7 @@ seo-description: Add rules in Streams to allow content to automatically populate
 seo-title: Add Rules for your Stream
 solution: Experience Manager
 title: Add Rules for your Stream
-uuid: 27303b62-f073-4eb3-bd07-e575662780eb
+uuid: 119a0e90-b350-4e24-84db-de2124f7f8fb
 index: y
 internal: n
 snippet: y

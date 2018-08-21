@@ -4,7 +4,7 @@ seo-description: Studio Managers and Administrators can invite new or existing u
 seo-title: Invite a User to Create a Studio Account
 solution: Experience Manager
 title: Invite a User to Create a Studio Account
-uuid: a83adb2a-67ea-420e-8253-0f144aba503a
+uuid: 0199102c-c830-410a-b1b5-6545a118def2
 index: y
 internal: n
 snippet: y

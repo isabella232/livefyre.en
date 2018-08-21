@@ -4,7 +4,7 @@ seo-description: Use available CSS Classes to style Featured content differently
 seo-title: Use CSS to Style Featured Content
 solution: Experience Manager
 title: Use CSS to Style Featured Content
-uuid: bdd567fb-b97c-4f71-81f0-a2961560f042
+uuid: 216069fc-8ec5-4bce-8000-86f720209a0c
 index: y
 internal: n
 snippet: y

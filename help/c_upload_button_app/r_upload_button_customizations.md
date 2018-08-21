@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Upload B
 seo-title: Upload Button Customizations
 solution: Experience Manager
 title: Upload Button Customizations
-uuid: 2ccfa5f4-bb25-4efd-9fe6-9176d8cc59aa
+uuid: d911204b-3b3d-4b6c-960a-a4087c79681d
 index: y
 internal: n
 snippet: y

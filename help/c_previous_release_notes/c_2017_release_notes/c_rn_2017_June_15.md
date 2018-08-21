@@ -3,7 +3,7 @@ description: Release Notes for the June 15, 2017 release.
 seo-description: Release Notes for the June 15, 2017 release.
 seo-title: June 15, 2017
 title: June 15, 2017
-uuid: d9a8d07f-c588-4155-8444-59747934a15f
+uuid: 1fb9a9c5-5ce1-494b-86e4-32a87bed9ab2
 index: y
 internal: n
 snippet: y

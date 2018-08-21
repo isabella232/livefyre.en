@@ -4,7 +4,7 @@ seo-description: Add Livefyre to your native iOS App.
 seo-title: Livefyre iOS SDK
 solution: Experience Manager
 title: Livefyre iOS SDK
-uuid: fa68c492-4e8a-4ac1-adb2-b8f1b08360fa
+uuid: fbb339eb-7d1f-4709-9158-7d7b7175d628
 index: y
 internal: n
 snippet: y

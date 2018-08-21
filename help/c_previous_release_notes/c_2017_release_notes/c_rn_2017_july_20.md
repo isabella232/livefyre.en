@@ -3,7 +3,7 @@ description: Release Notes for the July 20, 2017 release.
 seo-description: Release Notes for the July 20, 2017 release.
 seo-title: July 20, 2017
 title: July 20, 2017
-uuid: abdc2d73-2bd9-4766-b9cd-a7b140671c52
+uuid: 8c9e17cb-2bc1-4135-a3d0-6a0182f3a73c
 index: y
 internal: n
 snippet: y

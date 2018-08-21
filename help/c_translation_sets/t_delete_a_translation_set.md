@@ -4,7 +4,7 @@ seo-description: Delete a translation set at any time by clicking on the trash c
 seo-title: Delete a Translation Set
 solution: Experience Manager
 title: Delete a Translation Set
-uuid: 5c81271e-f18c-4ce3-aea5-508d3d1c75f3
+uuid: 263cca12-11ca-42bc-9344-6b3acee35135
 index: y
 internal: n
 snippet: y

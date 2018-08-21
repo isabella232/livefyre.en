@@ -3,7 +3,7 @@ description: Associate products with content from the Library to keep your conte
 seo-description: Associate products with content from the Library to keep your content and product catalog in sync in one easy-to-manage location.
 seo-title: Associate Products with Content Using the Library
 title: Associate Products with Content Using the Library
-uuid: 60a02553-93d8-46dc-84d1-d9d2f0529b79
+uuid: 0db9a221-5f05-4235-aa30-74c2e5f77f9c
 index: y
 internal: n
 snippet: y

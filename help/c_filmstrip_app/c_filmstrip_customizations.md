@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Filmstrip Customizations
 solution: Experience Manager
 title: Filmstrip Customizations
-uuid: e2ea1e39-5263-4579-8514-b4c1a73d313c
+uuid: da54e2b2-ed85-40aa-bf46-6fec35c07843
 index: y
 internal: n
 snippet: y

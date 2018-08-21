@@ -4,7 +4,7 @@ seo-description: Use available CSS classes to customize your Apps’ display.
 seo-title: CSS Classes
 solution: Experience Manager
 title: CSS Classes
-uuid: ccd2a7d2-b671-4bf6-8cea-3c858ab2863a
+uuid: 0fb0cf0f-66a6-48ad-84fb-20a2a3235a59
 index: y
 internal: n
 snippet: y

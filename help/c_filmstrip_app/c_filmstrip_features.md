@@ -4,7 +4,7 @@ seo-description: Learn the features in a Filmstrip App.
 seo-title: Filmstrip Features
 solution: Experience Manager
 title: Filmstrip Features
-uuid: f8d3d6fe-d0c5-4575-a108-0cb5d95239e6
+uuid: 6569de22-8500-4cce-b090-8e98d2cf2dac
 index: y
 internal: n
 snippet: y

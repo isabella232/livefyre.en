@@ -4,7 +4,7 @@ seo-description: Returns an encrypted valid Livefyre token that can be used to i
 seo-title: buildLivefyreToken Network Method
 solution: Experience Manager
 title: buildLivefyreToken Network Method
-uuid: f96377e5-ea42-4072-ab25-dbfa84ce3fbc
+uuid: aaf1e550-17c6-4ff4-87d1-fb7b301befbf
 index: y
 internal: n
 snippet: y

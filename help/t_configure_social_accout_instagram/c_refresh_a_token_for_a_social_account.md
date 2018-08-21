@@ -4,7 +4,7 @@ seo-description: Refresh a token for a social account when it expires.
 seo-title: Refresh a Token for a Social Account
 solution: Experience Manager
 title: Refresh a Token for a Social Account
-uuid: b96db334-dfeb-4eb3-b873-dfb531a91a75
+uuid: f54d568e-7447-47db-a60a-78061f614e29
 index: y
 internal: n
 snippet: y

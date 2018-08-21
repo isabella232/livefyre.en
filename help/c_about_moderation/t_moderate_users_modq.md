@@ -4,7 +4,7 @@ seo-description: The User Summary pane provides user information to aid moderati
 seo-title: Moderate Users
 solution: Experience Manager
 title: Moderate Users
-uuid: d8ee657b-a06d-4696-b4b6-a6820ba6e0f9
+uuid: 449e87b6-90d9-47c4-942d-42899c732e8c
 index: y
 internal: n
 snippet: y

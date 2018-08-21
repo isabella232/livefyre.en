@@ -4,7 +4,7 @@ seo-description: Customizing the strings of the Livefyre Apps.
 seo-title: Localize Strings
 solution: Experience Manager
 title: Localize Strings
-uuid: 1902ab89-fa69-4955-9d0f-6ce26a2fc58e
+uuid: 1beb0874-c1e4-4f5a-98fa-9140de34565f
 index: y
 internal: n
 snippet: y

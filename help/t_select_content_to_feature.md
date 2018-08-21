@@ -4,7 +4,7 @@ seo-description: Feature or unfeature content directly from an App.
 seo-title: Select Content to Feature from an App
 solution: Experience Manager
 title: Select Content to Feature from an App
-uuid: bb682483-83d7-42c1-8250-00378bf6b9c3
+uuid: b57ccde2-719c-4431-ad68-7ee35375ab03
 index: y
 internal: n
 snippet: y

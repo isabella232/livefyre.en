@@ -3,7 +3,7 @@ description: Release Notes for the October 5, 2017 release.
 seo-description: Release Notes for the October 5, 2017 release.
 seo-title: October 5, 2017
 title: October 5, 2017
-uuid: 0dd2b4d5-6a89-4f2f-9da4-ebc4bceec0ac
+uuid: 8f6ca200-d557-4c3c-b571-dc139ffbb233
 index: y
 internal: n
 snippet: y

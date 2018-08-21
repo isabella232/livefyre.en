@@ -4,7 +4,7 @@ seo-description: Studio offers several options by which you may manage your fold
 seo-title: Manage Asset Folders
 solution: Experience Manager
 title: Manage Asset Folders
-uuid: afaf9ba3-bc95-42b4-9b55-183ef9c63eb7
+uuid: 509f08bb-13bc-44a2-8653-106357a5b786
 index: y
 internal: n
 snippet: y

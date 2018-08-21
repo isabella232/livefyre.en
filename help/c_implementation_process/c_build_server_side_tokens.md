@@ -4,7 +4,7 @@ seo-description: A guide for building collectionMeta and auth tokens.
 seo-title: Build Server Side Tokens
 solution: Experience Manager
 title: Build Server Side Tokens
-uuid: f0048232-2cf5-4824-8fbb-df96b8d5e294
+uuid: 15d561bd-e74d-422d-921d-4bf00e6d7453
 index: y
 internal: n
 snippet: y

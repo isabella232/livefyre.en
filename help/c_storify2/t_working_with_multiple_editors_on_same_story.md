@@ -4,7 +4,7 @@ seo-description: Storify manages multiple simultaneous editors, preventing accid
 seo-title: Working with Multiple Editors on the Same Story
 solution: Experience Manager
 title: Working with Multiple Editors on the Same Story
-uuid: 7e14e3e3-cfea-41e5-9a5f-fa5391544dcb
+uuid: 2c32f82a-2e91-4587-b018-5c0c7c337906
 index: y
 internal: n
 snippet: y

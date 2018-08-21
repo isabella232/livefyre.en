@@ -3,7 +3,7 @@ description: If you trash an item in ModQ, you can add it back into the App usin
 seo-description: If you trash an item in ModQ, you can add it back into the App using a Social Search.
 seo-title: Add a Trashed Item Back into an App
 title: Add a Trashed Item Back into an App
-uuid: 048f79d3-25fe-4279-9059-d45735452cf2
+uuid: 6196666e-20e3-4bb7-b594-157bb65b8449
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: This method returns the name of the network without the fyre.co
 seo-title: getNetworkName Network Method
 solution: Experience Manager
 title: getNetworkName Network Method
-uuid: 722a5059-74bd-4a50-92fd-1ef0ffb49ac0
+uuid: 62d104de-00c7-463c-94be-41ea66c0d701
 index: y
 internal: n
 snippet: y

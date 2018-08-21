@@ -4,7 +4,7 @@ seo-description: Customize date and time stamps using Livefyre.js.
 seo-title: Customize the Date and Time Stamp
 solution: Experience Manager
 title: Customize the Date and Time Stamp
-uuid: a45256a2-40c4-4724-b92f-1914a222ad7f
+uuid: 5c9b8fa6-8a38-49d3-9f94-1a6b34c6a0ec
 index: y
 internal: n
 snippet: y

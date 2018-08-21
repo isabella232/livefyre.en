@@ -3,7 +3,7 @@ description: View the content details to gather more information about a piece o
 seo-description: View the content details to gather more information about a piece of content before you publish it.
 seo-title: View Content Details
 title: View Content Details
-uuid: dbb6d964-1112-46ef-9c2f-1352b48bdfb9
+uuid: ca4d87fe-2780-47a8-b5b1-868bc1fbbe28
 index: y
 internal: n
 snippet: y

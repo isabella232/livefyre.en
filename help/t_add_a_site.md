@@ -4,7 +4,7 @@ seo-description: You can add new sites to your network for domains and subdomain
 seo-title: Add a Site to a Network
 solution: Experience Manager
 title: Add a Site to a Network
-uuid: 1e22a9c8-7c1a-45cf-99f7-01b5f9e72b33
+uuid: ff02c9d0-4803-48b8-863e-3190923b6395
 index: y
 internal: n
 snippet: y

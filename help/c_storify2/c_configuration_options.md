@@ -4,7 +4,7 @@ seo-description: Choose Style, Display, and User Engagement configuration option
 seo-title: Configuration Options
 solution: Experience Manager
 title: Configuration Options
-uuid: 2c9f4491-1487-4bdf-8d73-e36def98abde
+uuid: db870e7c-1637-46d5-983d-693e7487d625
 index: y
 internal: n
 snippet: y

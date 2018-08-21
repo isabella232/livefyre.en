@@ -4,7 +4,7 @@ seo-description: A description of the Network class methods.
 seo-title: Network Methods
 solution: Experience Manager
 title: Network Methods
-uuid: 1817e0cb-6491-49c2-b8b2-41eb039a3695
+uuid: 3137b209-467e-4d4a-a046-dbb713ab12b4
 index: y
 internal: n
 snippet: y

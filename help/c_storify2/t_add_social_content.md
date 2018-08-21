@@ -4,7 +4,7 @@ seo-description: Storify 2 offers several content sources to add social content.
 seo-title: Add Social Content
 solution: Experience Manager
 title: Add Social Content
-uuid: f9454040-6fa3-43fe-8dff-9b272acd215b
+uuid: 410946db-ec6b-49ed-ac0f-6c609a2e1256
 index: y
 internal: n
 snippet: y

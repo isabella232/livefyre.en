@@ -4,7 +4,7 @@ seo-description: The events available to which you can bind JavaScript for Visua
 seo-title: Javascript Events for Visualization Apps
 solution: Experience Manager
 title: Javascript Events for Visualization Apps
-uuid: 44915150-cf4c-425b-b1a5-7972e4df6c79
+uuid: 5a036ac0-8748-477a-87d8-18d3a120fa7d
 index: y
 internal: n
 snippet: y

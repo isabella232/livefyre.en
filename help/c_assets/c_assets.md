@@ -4,7 +4,7 @@ seo-description: Gather, organize, and maintain selected content for use in your
 seo-title: Assets
 solution: Experience Manager
 title: Assets
-uuid: a15de0b1-160b-4fc8-afa7-53a1a197cbe0
+uuid: 97f66903-8595-4707-8fb4-d1802a26b7f0
 index: y
 internal: n
 snippet: y

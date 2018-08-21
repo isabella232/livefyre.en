@@ -4,7 +4,7 @@ seo-description: This method returns the URN for this network’s user.
 seo-title: getUrnForUser Network Method
 solution: Experience Manager
 title: getUrnForUser Network Method
-uuid: 6917268f-a2bb-45fe-94aa-874a6b2c56fd
+uuid: ba00b266-2ae0-44b2-bd33-c510a8dd2472
 index: y
 internal: n
 snippet: y

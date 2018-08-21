@@ -4,7 +4,7 @@ seo-description: Change the permission of various levels of users, including adm
 seo-title: Manage Studio Permissions for Users
 solution: Experience Manager
 title: Manage Studio Permissions for Users
-uuid: fbaede36-2894-4690-990c-44fcd081ab6d
+uuid: 3af390d6-323c-4e1d-8703-474e2b3421b6
 index: y
 internal: n
 snippet: y

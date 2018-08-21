@@ -4,7 +4,7 @@ seo-description: The Live Blog App offers the following features for your site.
 seo-title: Live Blog Features
 solution: Experience Manager
 title: Live Blog Features
-uuid: 2f6f0905-0dfa-4071-a7aa-c78af5069c3b
+uuid: 60356e65-2a08-47ba-8f6f-9ebe001ef698
 index: y
 internal: n
 snippet: y

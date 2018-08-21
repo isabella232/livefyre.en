@@ -4,7 +4,7 @@ seo-description: Create Android Apps powered by Livefyre.
 seo-title: Android SDK
 solution: Experience Manager
 title: Android SDK
-uuid: ef975ebe-bcf2-4cd2-a4d2-c649b3ee52b4
+uuid: 70c9bc04-689c-494b-9cef-7ac3620759ce
 index: y
 internal: n
 snippet: y
@@ -85,3 +85,8 @@ include ':streamHubAndroidSDK'
 ## Clients {#section_yfq_blv_zz}
 
 The StreamHub Android SDK exposes several client classes that can be used to request Livefyre API endpoints:
+
+* ** AdminClient ** Exchange a user authentication token for user information, keys, and other metadata. 
+* ** BootstrapClient ** Get recent content and metadata about a particular Collection. 
+* ** StreamClient ** Poll a stream for a Collection to retrieve new, updated, and deleted content. 
+* ** WriteClient ** Post, flag, and like content in a Collection. 

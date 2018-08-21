@@ -4,7 +4,7 @@ seo-description: Embed real-time comments into your App.
 seo-title: Comments
 solution: Experience Manager
 title: Comments
-uuid: 8238807a-4164-495a-ace8-7730b41c41ae
+uuid: 9426f051-9ee4-4c7e-accb-cb9bba09f137
 index: y
 internal: n
 snippet: y

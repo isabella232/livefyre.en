@@ -3,7 +3,7 @@ description: Release Notes for January 12, 2017 release.
 seo-description: Release Notes for January 12, 2017 release.
 seo-title: January 12, 2017
 title: January 12, 2017
-uuid: ee3c40c7-7865-4f33-ac2b-c1dfca12824d
+uuid: 2f5a45c7-4084-4501-a774-4db031cd7143
 index: y
 internal: n
 snippet: y

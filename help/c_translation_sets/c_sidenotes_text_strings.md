@@ -4,7 +4,7 @@ seo-description: Customizing the text strings for Livefyre Sidenotes
 seo-title: Sidenotes Text Strings
 solution: Experience Manager
 title: Sidenotes Text Strings
-uuid: 3ce5af7b-f3be-4f28-aa95-86437e5f2176
+uuid: 22432dc7-6e73-4ca3-a14d-758e0e2c5319
 index: y
 internal: n
 snippet: y

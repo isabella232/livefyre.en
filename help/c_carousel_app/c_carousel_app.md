@@ -4,7 +4,7 @@ seo-description: Showcase your best content in a horizontal, scrollable view.
 seo-title: Carousel
 solution: Experience Manager
 title: Carousel
-uuid: 912999f0-2d2d-4b65-96ed-a9d76d0418f9
+uuid: cc43ce4b-f029-4a9f-b59c-8aed6eec98f1
 index: y
 internal: n
 snippet: y

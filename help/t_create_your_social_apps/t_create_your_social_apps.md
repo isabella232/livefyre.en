@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Create Your Social Apps
 solution: Experience Manager
 title: Create Your Social Apps
-uuid: 130f69e7-db36-4140-ac6d-6bb90b011266
+uuid: c7cc73e1-7401-43d1-952f-90e15fe51f45
 index: y
 internal: n
 snippet: y

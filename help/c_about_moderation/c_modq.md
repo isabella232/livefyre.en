@@ -3,7 +3,7 @@ description: Moderate content from a single, intelligent interface.
 seo-description: Moderate content from a single, intelligent interface.
 seo-title: Moderate Content Using ModQ
 title: Moderate Content Using ModQ
-uuid: 157d3296-28cd-46d8-a5e8-4357c92f0a03
+uuid: 9e895200-1c4d-4bf3-a8a2-7841b4f00d0f
 index: y
 internal: n
 snippet: y
@@ -136,6 +136,11 @@ Once content has been moderated, it will be removed from the moderator’s ModQ,
 ## Using the Trash Function in ModQ {#section_tpx_qgz_y1b}
 
 Use the settings section to select options available when content is marked as Trashed.
+
+* ** **[!UICONTROL  Confirm Trash]** ** Enable this option to require that Moderators confirm their action when setting content to Trash. When enabled, selecting **[!UICONTROL  Trash]** for content will display a dialog asking for a **[!UICONTROL  Reason for Moderation]**, and offer a field in which a **[!UICONTROL  Note]** may be entered. 
+
+  (This setting is available **[!UICONTROL  only]** at the network level, and will apply for all sites under your network.) 
+* ** **[!UICONTROL  Hide Replies]** ** Enable this option to automatically trash replies when a parent comment is trashed or Bozo’d. 
 
 ## Change User Status in ModQ {#section_tmw_lg1_z1b}
 

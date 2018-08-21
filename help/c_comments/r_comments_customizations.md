@@ -4,7 +4,7 @@ seo-description: Customize comments to embed real-time conversations on your sit
 seo-title: Comments Customizations
 solution: Experience Manager
 title: Comments Customizations
-uuid: 99318129-991d-44e7-927c-8172dc28e353
+uuid: 64539ad1-ce18-44e8-9df5-987927e4fe71
 index: y
 internal: n
 snippet: y

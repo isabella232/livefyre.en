@@ -4,7 +4,7 @@ seo-description: Reviews offers a broad range of customizations, allowing you to
 seo-title: Creating a Reviews App
 solution: Experience Manager
 title: Creating a Reviews App
-uuid: 470161cd-bc85-42f9-9e49-04b1a467ea18
+uuid: 80781df5-da14-4641-ace3-5a6e4da45a35
 index: y
 internal: n
 snippet: y
@@ -84,3 +84,7 @@ Because Reviews is designed to add a numerical value for each piece of submitted
 
 Reviews APIs are available to allow you to display average user rating and rating breakdown information and user reviews activity on other sections across your site.
 [ Ratings and Reviews ](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#ratings-reviews) 
+* ** **[!UICONTROL  Bootstrap API Endpoint]** ** The [ Bootstrap API Endpoint ](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#bootstrap-api-endpoint) allows your review to be read by search engines like Google so that the content and keywords can improve your search engine optimization. 
+* ** **[!UICONTROL  Average User Ratings]** ** The [ Average User Ratings ](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#average-user-ratings) API retrieves the average user rating for one or more Reviews Collections, allowing you to create a visualization of this information on an index page or add to a search index page. 
+* ** **[!UICONTROL  Ratings Breakdown]** ** The [ Ratings Breakdown ](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#ratings-breakdown) API retrieves a breakdown of all ratings for a specific Reviews Collection and allows you to create a visualization that displays the number of reviews that are associated with each star rating. 
+* ** **[!UICONTROL  User Reviews]** ** The [ User Reviews ](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#user-reviews) API retrieves the most recent reviews for a specific user. This activity can be used to display a user’s reviews on their public profile page. 

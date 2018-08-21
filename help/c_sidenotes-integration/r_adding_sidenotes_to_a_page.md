@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Adding Sidenotes to a Page
 solution: Experience Manager
 title: Adding Sidenotes to a Page
-uuid: d12411af-abb1-4499-9a75-e71055051988
+uuid: 54b25bc7-de2e-4698-be41-fd1e67557337
 index: y
 internal: n
 snippet: y
@@ -47,6 +47,11 @@ Anchors have a type that is determined dynamically, but can also be explicitly s
 >The enumeration number value must be used.
 
 Available types are:
+
+* ** Text: ** 1 
+* ** Image: ** 2 
+* ** Media: ** 3 
+* ** Rich: ** 4 
 See [](r_updateAnchors_method.md#r_updateAnchors_method) for more on how to use the ` updateAnchors` method to add Sidenote content to the page dynamically.
 
 ## Custom Thread Container {#section_jdh_btv_sy}

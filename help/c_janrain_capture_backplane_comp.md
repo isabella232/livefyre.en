@@ -4,7 +4,7 @@ seo-description: Customers using Janrain Capture and Backplane may use Livefyre 
 seo-title: Janrain Capture/Backplane
 solution: Experience Manager
 title: Janrain Capture/Backplane
-uuid: 4e9921ac-3334-48ca-af0e-bc1353513ce5
+uuid: e8238ab5-99c9-427a-bc11-2f3cdad187bf
 index: y
 internal: n
 snippet: y
@@ -129,6 +129,9 @@ authDelegate.login = function(finishLogin) {
 };
 ```
 Logout
+
+* ** finishLogout: ** The callback passed to your auth delegate’s login method. 
+* ** window.Backplane: ** A reference to your Backplane object. 
 
 ```
 /** 

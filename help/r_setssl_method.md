@@ -4,7 +4,7 @@ seo-description: Sets SSL for API calls to be on or off.
 seo-title: setSSL Network Method
 solution: Experience Manager
 title: setSSL Network Method
-uuid: 1ceb05b5-3501-4fa5-ab7d-469c2ff84759
+uuid: ceeea9b8-8eaf-4277-a5c0-addb3e1e8742
 index: y
 internal: n
 snippet: y

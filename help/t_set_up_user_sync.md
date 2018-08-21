@@ -4,7 +4,7 @@ seo-description: User Sync allows you to enter the endpoint used to fetch user p
 seo-title: User Sync
 solution: Experience Manager
 title: User Sync
-uuid: ab1288c7-53e5-4cc0-a89c-f7101ec6686e
+uuid: c7421092-043e-4d47-ad23-e4b288a669c3
 index: y
 internal: n
 snippet: y

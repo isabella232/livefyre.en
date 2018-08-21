@@ -4,7 +4,7 @@ seo-description: Returns the checksum for this Collection.
 seo-title: buildChecksum Collection Method
 solution: Experience Manager
 title: buildChecksum Collection Method
-uuid: 63850b42-f6af-4188-9076-27ea73e1fc74
+uuid: cc054fa3-da6a-4dcc-86fb-b39665f5f944
 index: y
 internal: n
 snippet: y

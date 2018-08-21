@@ -4,7 +4,7 @@ seo-description: You can request the right to reuse an Instagram asset for your 
 seo-title: Send a Partially-Automated Instagram Rights Request
 solution: Experience Manager
 title: Send a Partially-Automated Instagram Rights Request
-uuid: 440d9335-0154-407b-883d-278aaa017c7a
+uuid: 21e71f27-6abf-44b3-9837-dc1fb7ce03e8
 index: y
 internal: n
 snippet: y

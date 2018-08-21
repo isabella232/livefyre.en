@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with LinkedIn to allow users to u
 seo-title: Create a LinkedIn App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a LinkedIn App for Use with Livefyre Identity
-uuid: eb76eb07-1e80-4773-b39c-e465254ce15c
+uuid: ae073eea-14b1-47be-a101-19edd091c2dc
 index: y
 internal: n
 snippet: y

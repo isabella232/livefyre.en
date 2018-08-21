@@ -4,7 +4,7 @@ seo-description: The Sidenotes config object is a JSON object used to specify th
 seo-title: Sidenotes Configuration Options
 solution: Experience Manager
 title: Sidenotes Configuration Options
-uuid: faf024f6-1218-4ab1-9697-8d2d88b3e86e
+uuid: eb3af275-d4f8-41cf-8817-083d28ceda69
 index: y
 internal: n
 snippet: y

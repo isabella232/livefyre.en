@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Sidenotes Custom Strings
 title: Sidenotes Custom Strings
-uuid: 3252216c-d62f-456e-bd54-91c5f2f122fe
+uuid: 050924a8-ceb9-4a8a-9644-4cd170b3730d
 index: y
 internal: n
 snippet: y

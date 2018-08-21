@@ -4,7 +4,7 @@ seo-description: Switch networks using the Livefyre mobile app to post media to 
 seo-title: Switch Networks Using the Livefyre Mobile App
 solution: Experience Manager
 title: Switch Networks Using the Livefyre Mobile App
-uuid: ceb52e03-e22b-4b30-a8ef-cc03b627bd67
+uuid: 9fb03df3-6aa5-4e37-b618-9248bf586ca2
 index: y
 internal: n
 snippet: y

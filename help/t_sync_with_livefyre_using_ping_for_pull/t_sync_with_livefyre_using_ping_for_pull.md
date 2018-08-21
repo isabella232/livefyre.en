@@ -4,7 +4,7 @@ seo-description: Use Ping for Pull to keep Livefyre in sync with your user manag
 seo-title: Sync with Livefyre Using Ping for Pull
 solution: Experience Manager
 title: Sync with Livefyre Using Ping for Pull
-uuid: e3c04b0c-0cd5-4723-af99-abe42e662159
+uuid: 1d60d355-43d6-487b-8094-b6715fe8ff70
 index: y
 internal: n
 snippet: y

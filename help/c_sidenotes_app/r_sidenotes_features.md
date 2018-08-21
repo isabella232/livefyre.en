@@ -4,7 +4,7 @@ seo-description: The Sidenotes App offers these features for your site.
 seo-title: Sidenotes Features
 solution: Experience Manager
 title: Sidenotes Features
-uuid: 03760185-7769-4a40-aa49-805ecd6fef35
+uuid: 8417717c-1445-496a-b06e-929c83faf435
 index: y
 internal: n
 snippet: y

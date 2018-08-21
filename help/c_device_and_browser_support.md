@@ -3,7 +3,7 @@ description: A list of browsers and devices supported by the Livefyre App suite.
 seo-description: A list of browsers and devices supported by the Livefyre App suite.
 seo-title: Device and Browser Support
 title: Device and Browser Support
-uuid: b9e762e5-3087-47b3-ba8f-dd8f28e762f3
+uuid: b35149f6-5a65-400a-ac03-3d19424687ec
 index: y
 internal: n
 snippet: y

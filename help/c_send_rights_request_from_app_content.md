@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Send Twitter Rights Request from App Content
 solution: Experience Manager
 title: Send Twitter Rights Request from App Content
-uuid: 71cf36cd-4b74-4cc3-8877-f3a9097a811f
+uuid: e4bb7156-9703-460e-b479-5625d076223f
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: The AuthDelegate object implements your desired behavior for ho
 seo-title: AuthDelegate Object
 solution: Experience Manager
 title: AuthDelegate Object
-uuid: b777820c-33aa-4ea1-b760-d539f9220ee6
+uuid: 8ed02c3f-8247-423e-a0fd-b85a43bba3d1
 index: y
 internal: n
 snippet: y

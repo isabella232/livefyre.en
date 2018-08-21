@@ -4,7 +4,7 @@ seo-description: Livefyre uses a PUSH interface to send an external system infor
 seo-title: Posting User Permissions to External Systems (Optional)
 solution: Experience Manager
 title: Posting User Permissions to External Systems (Optional)
-uuid: 7922eb65-5be2-4cea-9aec-c4ac344182a4
+uuid: da891d26-a108-4f7f-a74f-77b32a48a6f8
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Limit the type of media that gets into the App stream.
 seo-title: Restrict Media
 solution: Experience Manager
 title: Restrict Media
-uuid: 10f3418b-9965-45f6-9cf8-cad337322aa7
+uuid: c7b936f7-9f18-472a-8239-d669a0873620
 index: y
 internal: n
 snippet: y

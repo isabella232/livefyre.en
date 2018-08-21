@@ -4,7 +4,7 @@ seo-description: Use Javascript events to listen for events that occur in a Medi
 seo-title: Javascript Events for Media Wall
 solution: Experience Manager
 title: Javascript Events for Media Wall
-uuid: d89a2f05-8ee7-473a-8f06-bcfd1df18659
+uuid: 626ab48e-5c2f-408c-81c5-df842ffd96a5
 index: y
 internal: n
 snippet: y

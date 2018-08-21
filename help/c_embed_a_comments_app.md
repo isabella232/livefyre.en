@@ -4,7 +4,7 @@ seo-description: Embedding the Comments App follows the process for embedding a 
 seo-title: Embed a Comments App
 solution: Experience Manager
 title: Embed a Comments App
-uuid: 02dbd65f-8be8-468e-bb03-eeb43a89c8fe
+uuid: 0ead4672-adc5-4cb4-a024-7ce056112ef6
 index: y
 internal: n
 snippet: y

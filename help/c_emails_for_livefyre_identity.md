@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Emails for Livefyre Identity
 solution: Experience Manager
 title: Emails for Livefyre Identity
-uuid: 945f192f-d70f-4a82-b9cf-fad0397c630e
+uuid: a809a2d2-d15d-4b9f-a6ad-f55b4f462cb8
 index: y
 internal: n
 snippet: y

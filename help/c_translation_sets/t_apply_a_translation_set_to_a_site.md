@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Apply a Translation Set to a Site
 solution: Experience Manager
 title: Apply a Translation Set to a Site
-uuid: 2cd5bbe0-b11a-4cb1-95ff-823f385129a5
+uuid: 759ed306-ff2f-4dfd-8695-2b7378c144c6
 index: y
 internal: n
 snippet: y

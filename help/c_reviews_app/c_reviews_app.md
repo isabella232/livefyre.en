@@ -4,7 +4,7 @@ seo-description: Rate and review any piece of content on your website, in real-t
 seo-title: Reviews
 solution: Experience Manager
 title: Reviews
-uuid: 7428c479-a76d-4911-b8a4-78452b539cd1
+uuid: 80957842-3a67-441b-a8f3-308e4ede3580
 index: y
 internal: n
 snippet: y

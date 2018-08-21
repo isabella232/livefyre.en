@@ -4,7 +4,7 @@ seo-description: The Mosaic App offers these features for your site.
 seo-title: Mosaic Features
 solution: Experience Manager
 title: Mosaic Features
-uuid: da0d62f7-b380-4252-a19a-a89e7a63d826
+uuid: a5ee5a8e-f798-410f-86f5-698960416d09
 index: y
 internal: n
 snippet: y

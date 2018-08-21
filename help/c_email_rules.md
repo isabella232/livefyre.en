@@ -4,7 +4,7 @@ seo-description: You can create Stream rules that pull content from Email.
 seo-title: Email Rules
 solution: Experience Manager
 title: Email Rules
-uuid: 7487d01e-91af-4916-a731-64b68b88ad10
+uuid: 72e96158-8780-4141-a5af-07f543f8f8db
 index: y
 internal: n
 snippet: y

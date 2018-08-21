@@ -4,7 +4,7 @@ seo-description: You can change the warning text that displays on video masks us
 seo-title: userPrivacyMaskDelegate
 solution: Experience Manager
 title: userPrivacyMaskDelegate
-uuid: a81355b6-28d4-4a88-bab1-d8b495bc0019
+uuid: 88f99a44-0419-4775-90da-51218e773e88
 index: y
 internal: n
 snippet: y

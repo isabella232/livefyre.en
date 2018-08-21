@@ -4,7 +4,7 @@ seo-description: This section describes how to generate the UserAuth JSON Object
 seo-title: User Auth Token
 solution: Experience Manager
 title: User Auth Token
-uuid: 4f2afd01-9a36-4513-9dfb-7fb78514f4c7
+uuid: 46bc3b75-390a-43f7-827d-fe29cfaf823a
 index: y
 internal: n
 snippet: y

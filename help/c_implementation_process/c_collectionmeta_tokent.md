@@ -4,7 +4,7 @@ seo-description: Create a unique token on your server that identifies every coll
 seo-title: CollectionMeta Token
 solution: Experience Manager
 title: CollectionMeta Token
-uuid: e70f95c6-de39-4cdd-9722-c86ef9916ffa
+uuid: 3c954bac-cdbf-4fc1-bc68-3fdf7b6e8a6b
 index: y
 internal: n
 snippet: y

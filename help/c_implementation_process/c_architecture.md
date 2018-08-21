@@ -4,7 +4,7 @@ seo-description: Learn Livefyre conventions and how Livefyre organizes content.
 seo-title: Architecture
 solution: Experience Manager
 title: Architecture
-uuid: 63dff6ef-371f-4646-8f6f-b570610daff1
+uuid: 1ff349c3-936d-443b-b436-cacb509d5516
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Build the ping so your page pings Livefyre when users update th
 seo-title: Build the Ping
 solution: Experience Manager
 title: Build the Ping
-uuid: 0f4a18ac-1b76-491a-80d6-195654dfb5d1
+uuid: 915c57d7-a856-4bdc-827e-bbeb89e7f801
 index: y
 internal: n
 snippet: y

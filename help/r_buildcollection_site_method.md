@@ -4,7 +4,7 @@ seo-description: null
 seo-title: buildCollection Site Method
 solution: Experience Manager
 title: buildCollection Site Method
-uuid: abd9784c-0f73-433c-8543-a231f3243170
+uuid: 3ab7e029-a7c1-476c-a0bd-10324fd7106b
 index: y
 internal: n
 snippet: y

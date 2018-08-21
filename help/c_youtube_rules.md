@@ -4,7 +4,7 @@ seo-description: You can create Stream rules that pull content from YouTube rule
 seo-title: YouTube Rules
 solution: Experience Manager
 title: YouTube Rules
-uuid: 2d63ec0a-b559-4fb9-83f1-cfcc07ef10c4
+uuid: 8e067bc4-6f0d-4bd3-b2eb-9adf19eb4b3b
 index: y
 internal: n
 snippet: y

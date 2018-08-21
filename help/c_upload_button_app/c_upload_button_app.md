@@ -4,7 +4,7 @@ seo-description: The Upload Button provides a way for your site visitors to uplo
 seo-title: Upload Button
 solution: Experience Manager
 title: Upload Button
-uuid: 777c8ac3-1d58-4566-aa6b-fe428b5b23c1
+uuid: 94c5ceac-b69f-4ea3-9e42-26cdfd5e8a0d
 index: y
 internal: n
 snippet: y

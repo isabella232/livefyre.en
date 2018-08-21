@@ -4,7 +4,7 @@ seo-description: The events available to which you can bind JavaScript for conve
 seo-title: Javascript Events for Conversation Apps
 solution: Experience Manager
 title: Javascript Events for Conversation Apps
-uuid: bc7f00c1-f3f0-4f8a-9c4d-425ab5d640f8
+uuid: 59805372-2d05-4b8b-8f96-67029fbdc6e2
 index: y
 internal: n
 snippet: y

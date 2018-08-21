@@ -3,7 +3,7 @@ description: To enable a social login, use Studio to add your social apps’ cre
 seo-description: To enable a social login, use Studio to add your social apps’ credentials to your Livefyre integration, and customize the Login Modal.
 seo-title: Using Studio to Connect Your Social Apps to Your Livefyre Implementation
 title: Using Studio to Connect Your Social Apps to Your Livefyre Implementation
-uuid: adeaea7c-cf8f-458a-ac7e-aedb505f84e0
+uuid: f6172eb6-836a-42e5-b1e6-8d46df54cad0
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Filmstrip is a visualization App that showcases user-generated 
 seo-title: Filmstrip
 solution: Experience Manager
 title: Filmstrip
-uuid: 415678ac-e025-4766-b4f5-356280259ca2
+uuid: 746541f7-1969-412f-b17c-4b335dd72192
 index: y
 internal: n
 snippet: y

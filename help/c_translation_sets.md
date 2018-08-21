@@ -4,7 +4,7 @@ seo-description: Translation Sets allow you to specify alternate language for Ap
 seo-title: Translation Sets
 solution: Experience Manager
 title: Translation Sets
-uuid: 441918ab-b127-45f4-8d3c-bbe96d1c3bdb
+uuid: 70f6d5cf-fb2a-4113-9f0a-135dde583c6a
 index: y
 internal: n
 snippet: y

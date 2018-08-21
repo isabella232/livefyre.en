@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Send Instagram Rights Request from ModQ
 solution: Experience Manager
 title: Send Instagram Rights Request from ModQ
-uuid: c73e3dd2-5191-4eaf-8ddc-77f5d271cd13
+uuid: 7440d686-7b25-4f14-ac1f-1b7c642e3e20
 index: y
 internal: n
 snippet: y

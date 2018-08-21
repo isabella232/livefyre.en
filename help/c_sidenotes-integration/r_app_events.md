@@ -4,7 +4,7 @@ seo-description: You can listen to events on an instance of Sidenotes.
 seo-title: Sidenotes App Events
 solution: Experience Manager
 title: Sidenotes App Events
-uuid: 6cf1637a-b13d-450d-a15f-587054c023ae
+uuid: 52b8aecc-2642-49a1-bed6-c51e6ba4a6da
 index: y
 internal: n
 snippet: y

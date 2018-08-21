@@ -4,7 +4,7 @@ seo-description: Customize Chat Apps to display content as a continuous stream o
 seo-title: Chat Customizations
 solution: Experience Manager
 title: Chat Customizations
-uuid: 0abf2ce3-486b-4ebd-8abe-437174c19226
+uuid: 7bafe866-bc9f-4b8e-958c-2bf8c80c7e8c
 index: y
 internal: n
 snippet: y

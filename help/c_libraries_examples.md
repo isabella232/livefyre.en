@@ -4,7 +4,7 @@ seo-description: Some examples on using the libraries.
 seo-title: Examples
 solution: Experience Manager
 title: Examples
-uuid: 91998441-e843-4f7e-952f-4d6b6dec1a91
+uuid: 653305dc-d614-4b63-9440-1666d3fb0fc8
 index: y
 internal: n
 snippet: y

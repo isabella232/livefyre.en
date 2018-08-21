@@ -4,7 +4,7 @@ seo-description: Set up credentials that allow your users to share content to va
 seo-title: Enabling Social Sharing
 solution: Experience Manager
 title: Enabling Social Sharing
-uuid: 18fcaf8f-f392-4b34-882f-45e945e96c05
+uuid: 99868871-a26c-4faa-bf89-995f2c0bb039
 index: y
 internal: n
 snippet: y
@@ -31,6 +31,10 @@ If you use a custom user identity system, you must provide your social credentia
 Use the Admin Console’s Integration Settings panel to enter or update the following social credentials.
 
 **Required Credentials:**
+
+* ** Facebook ** Client ID Client Secret OAuth Proxy Redirect 
+* ** LinkedIn ** API Key API Secret 
+* ** Twitter ** Access Token Access Token Secret API Key API Secret 
 
 ## Twitter {#section_qp5_1yl_b1b}
 

@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Use Livefyre with Other Analytics Tool
 solution: Experience Manager
 title: Use Livefyre with Other Analytics Tool
-uuid: e17927fa-44c7-447e-9096-98ad527db4d5
+uuid: 38d64109-dbd7-4d37-810e-83ddd7aa430e
 index: y
 internal: n
 snippet: y

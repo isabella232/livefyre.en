@@ -4,7 +4,7 @@ seo-description: Specify the location of the Navigation Guide on the screen.
 seo-title: Move the Navigation Guide
 solution: Experience Manager
 title: Move the Navigation Guide
-uuid: 35731d84-63b0-4005-90f7-d0bf3602e092
+uuid: 821f700b-ce80-4a28-90a2-faa0b8adf2ea
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Create a media wall, with content streaming in real-time.
 seo-title: Media Wall
 solution: Experience Manager
 title: Media Wall
-uuid: 3741e864-eab2-4f17-b2bf-98aa90523084
+uuid: 56600c34-cc34-445e-8936-e596eb9f5ee2
 index: y
 internal: n
 snippet: y
@@ -160,3 +160,23 @@ var wall2 = window.wall2 = new MediaWall({
 
 ```
 For valid input, please see the W3C standards for CSS [ Font Family ](http://www.w3.org/TR/CSS2/fonts.html#propdef-font-family), [ Font Size ](http://www.w3.org/TR/CSS2/fonts.html#font-size-props), [ Line Height, ](http://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) and [ Color ](http://www.w3.org/TR/css3-color/#colorunits) properties. 
+
+* ** bodyFontSize ** **(CSS Font Size String) **The font size for content body text. 
+* ** bodyLineHeight ** **(CSS Line Height String) **The line height for content body text. 
+* ** buttonActiveBackgroundColor ** **(CSS Color String) **The color for the button background on active. 
+* ** buttonBorderColor ** **(CSS Color String) **The color for button borders. 
+* ** buttonHoverBackgroundColor ** **(CSS Color String) **The color for the button background on hover. 
+* ** buttonTextColor ** **(CSS Color String) **The color for the button labels. 
+* ** cardBackgroundColor ** **(CSS Color String) **The background color for content cards in the media wall. 
+* ** displayNameColor ** **(CSS Color String) **The color for display names in the byline. 
+* ** fontFamily ** **(CSS Font Family String) **The font family for body text. 
+* ** footerTextColor ** **(CSS Color String) **The color for secondary text (such as the footer text, and the username in the byline). 
+* ** linkAttachmentBackgroundColor ** **(CSS Color String) **The background color for link attachments (stacked attachments). 
+* ** linkAttachmentBorderColor ** **(CSS Color String) **The border color for link attachments (stacked attachments). 
+* ** linkAttachmentTextColor ** **(CSS Color String) **The color for link attachment text. 
+* ** linkColor ** **(CSS Color String) **The color for hyperlinks (such as links in body text, and display name links). 
+* ** textColor ** **(CSS Color String) **The color for body text. 
+* ** titleFontSize ** **(CSS Font Size String) **The font size for content titles. 
+* ** titleLineHeight ** **(CSS Line Height String) **The line height for content titles. 
+* ** sourceLogoColor ** **(CSS Color String) **The color for the source logo. 
+* ** usernameColor ** **(CSS Color String) **The color for the usernames in the byline. 

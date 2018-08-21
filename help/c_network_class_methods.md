@@ -4,7 +4,7 @@ seo-description: Create a Network object.
 seo-title: Network Class Methods
 solution: Experience Manager
 title: Network Class Methods
-uuid: 2a729990-e13f-4c2f-ad44-742e6ec48eaf
+uuid: 4a401b5d-6bfa-42c4-9230-82ece8a8608c
 index: y
 internal: n
 snippet: y

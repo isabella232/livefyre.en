@@ -4,7 +4,7 @@ seo-description: You can set up several different types of notifications for sit
 seo-title: Notifications Features
 solution: Experience Manager
 title: Notifications Features
-uuid: c95e5bad-974e-4096-81d7-4c5e1ac495ac
+uuid: 08bba219-2659-47dd-9918-51bed20467eb
 index: y
 internal: n
 snippet: y

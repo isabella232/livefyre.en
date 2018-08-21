@@ -4,7 +4,7 @@ seo-description: Use custom styling to differentiate your users.
 seo-title: Style User Group Content
 solution: Experience Manager
 title: Style User Group Content
-uuid: 9f9b570d-5ddf-430f-b8c1-35d8f87c168b
+uuid: 2813ec3c-c460-48e1-8b2f-a50f26ecc919
 index: y
 internal: n
 snippet: y

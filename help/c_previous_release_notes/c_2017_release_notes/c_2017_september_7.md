@@ -3,7 +3,7 @@ description: Release Notes for the September 7, 2017 release.
 seo-description: Release Notes for the September 7, 2017 release.
 seo-title: September 7, 2017
 title: September 7, 2017
-uuid: 64b882d1-8189-4bbe-9f94-64b0e975b5c0
+uuid: 207b1ed3-d983-4558-9d7a-f4f6dd2de639
 index: y
 internal: n
 snippet: y

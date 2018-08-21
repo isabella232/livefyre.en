@@ -4,7 +4,7 @@ seo-description: Once your network account is connected to your Studio account, 
 seo-title: Log into Studio
 solution: Experience Manager
 title: Log into Studio
-uuid: 312eb9ec-bc7e-49bb-aede-b50e72928ab0
+uuid: b88af578-3e1d-4162-9eee-c16eb6fbdea9
 index: y
 internal: n
 snippet: y

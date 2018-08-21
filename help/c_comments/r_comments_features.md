@@ -4,7 +4,7 @@ seo-description: Many features come with the Comments App to embed real-time con
 seo-title: Comments Features
 solution: Experience Manager
 title: Comments Features
-uuid: f3c854ae-ec98-40bf-9de6-3f0d2463b326
+uuid: f59a4c15-99aa-4ea6-afae-4f6f27e65c66
 index: y
 internal: n
 snippet: y

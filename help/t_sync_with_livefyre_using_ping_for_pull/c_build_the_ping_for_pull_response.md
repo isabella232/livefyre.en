@@ -4,7 +4,7 @@ seo-description: Build the Ping for Pull response to transmit updated user infor
 seo-title: Build the Ping for Pull Response
 solution: Experience Manager
 title: Build the Ping for Pull Response
-uuid: 3dcd3023-eb9d-43a1-9199-501c7e2c78b6
+uuid: a2d837dc-4380-4732-99b0-5cd120e61e4b
 index: y
 internal: n
 snippet: y

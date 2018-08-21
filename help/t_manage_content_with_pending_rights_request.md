@@ -4,7 +4,7 @@ seo-description: See and modify the assets in Livefyre with a pending rights req
 seo-title: Manage Content With a Pending Rights Requests from the Asset Library
 solution: Experience Manager
 title: Manage Content With a Pending Rights Requests from the Asset Library
-uuid: d50d6577-dded-4f05-8da2-b08fbf391e53
+uuid: d76d5e3f-108a-4161-aa02-1a47fa153e39
 index: y
 internal: n
 snippet: y

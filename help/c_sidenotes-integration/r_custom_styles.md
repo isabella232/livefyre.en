@@ -3,7 +3,7 @@ description: Custom styles are applied through an object injected into the Siden
 seo-description: Custom styles are applied through an object injected into the Sidenotes constructor.
 seo-title: Sidenotes Custom Styles
 title: Sidenotes Custom Styles
-uuid: f2dc45be-ffa3-4977-b123-32f9aa1dbae3
+uuid: 27e6a453-5106-4739-a87d-a3abf31e893b
 index: y
 internal: n
 snippet: y

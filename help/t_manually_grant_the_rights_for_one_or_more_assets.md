@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Manually Grant or Revoke Rights for an Asset from the Asset Library
 solution: Experience Manager
 title: Manually Grant or Revoke Rights for an Asset from the Asset Library
-uuid: 683c14df-73bd-4fb7-bbe6-9a54e17870c1
+uuid: 37e276f7-a254-4c4d-b845-6bbd6be8f5b9
 index: y
 internal: n
 snippet: y

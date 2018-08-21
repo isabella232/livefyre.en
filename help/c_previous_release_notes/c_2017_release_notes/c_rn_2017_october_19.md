@@ -3,7 +3,7 @@ description: Release Notes for the October 19, 2017 release.
 seo-description: Release Notes for the October 19, 2017 release.
 seo-title: October 19, 2017
 title: October 19, 2017
-uuid: 236edf21-6d1e-40e2-8ec5-9c8f9d4d3e3f
+uuid: 932962d6-7885-42d0-b825-4cb761de06bc
 index: y
 internal: n
 snippet: y

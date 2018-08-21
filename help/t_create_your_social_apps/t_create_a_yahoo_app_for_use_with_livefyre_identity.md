@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with Yahoo! to allow users to use
 seo-title: Create a Yahoo! App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Yahoo! App for Use with Livefyre Identity
-uuid: 23b7c6b2-8544-4dd7-8751-919536e0cf7a
+uuid: a061c8b7-7e90-4439-b407-54a6a46ea59f
 index: y
 internal: n
 snippet: y

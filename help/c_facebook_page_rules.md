@@ -4,7 +4,7 @@ seo-description: You can create Stream rules that pull content from Facebook Pag
 seo-title: Facebook Page Rules
 solution: Experience Manager
 title: Facebook Page Rules
-uuid: 7427be9a-4884-4324-93ab-e949f10ddd96
+uuid: 737cf925-26bd-447f-8ed4-51782044f6e5
 index: y
 internal: n
 snippet: y

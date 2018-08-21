@@ -4,7 +4,7 @@ seo-description: When curating content from Instagram, you must follow their gui
 seo-title: Instagram Content Guidelines
 solution: Experience Manager
 title: Instagram Content Guidelines
-uuid: f56d4d3d-2c8d-48b3-b30e-93f76491682d
+uuid: da5c899e-6294-40f8-b2b5-176b27279e7e
 index: y
 internal: n
 snippet: y

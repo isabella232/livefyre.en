@@ -4,7 +4,7 @@ seo-description: You can ban IP addresses if a malicious user creates multiple a
 seo-title: Ban IP Addresses
 solution: Experience Manager
 title: Ban IP Addresses
-uuid: 62277fed-3316-4d2c-872b-9b2c4d8d59c4
+uuid: 05d976c7-a660-4782-863a-7170820fdcf9
 index: y
 internal: n
 snippet: y

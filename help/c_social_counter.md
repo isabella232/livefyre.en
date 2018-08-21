@@ -4,7 +4,7 @@ seo-description: Count the number of curated social items.
 seo-title: Social Counter
 solution: Experience Manager
 title: Social Counter
-uuid: 9c1c5d9a-ed08-4062-ad9c-e204da2f58d8
+uuid: b81f9704-6680-4325-9aee-fec86aafb84a
 index: y
 internal: n
 snippet: y
@@ -33,6 +33,19 @@ Social Counter API:
 ```
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
+
+* ** networkName: ** Your Livefyre provided network name. For example: *labs* in labs.fyre.co. 
+* ** query: ** The url-safe base64 encoded hash of all the site, article ID, rule-type tuples for which count information should be fetched (pre-encoded) 
+
+
+  ```
+  {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
+  ```
+
+
+  **Note: **query is limited to 10 site, article ID, rule-type tuples. (The previous example would contain 3 tuples.) 
+* ** from ** **(optional) **specifies the relative or absolute time period to graph; from specifies the beginning and defaults to 24 hours ago, if omitted. 
+* ** until ** **(optional) **specifies the relative or absolute time period to graph; until specifies the beginning and defaults to the current time (now), if omitted. 
 
 #### Relative Time
 |  Abbreviation  | Unit  |

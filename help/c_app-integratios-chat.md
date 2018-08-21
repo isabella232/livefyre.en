@@ -4,7 +4,7 @@ seo-description: Adding live chat to your page.
 seo-title: Chat
 solution: Experience Manager
 title: Chat
-uuid: db798baa-c350-4742-ab66-6ee1061753ca
+uuid: 26172807-e6cb-44c9-b31c-840b3ee220b9
 index: y
 internal: n
 snippet: y

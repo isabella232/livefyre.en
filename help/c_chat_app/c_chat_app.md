@@ -4,7 +4,7 @@ seo-description: c_chat_app.ditaEnable real-time chat on your sites.
 seo-title: Chat
 solution: Experience Manager
 title: Chat
-uuid: 3d3e21c8-be45-4806-9e97-699bc71e0f6d
+uuid: d6fe504f-b615-499e-a93d-ac0ad916bebf
 index: y
 internal: n
 snippet: y

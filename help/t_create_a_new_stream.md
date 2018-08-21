@@ -4,7 +4,7 @@ seo-description: Create a new Stream in Livefyre to add content to an app or fol
 seo-title: Create a New Stream
 solution: Experience Manager
 title: Create a New Stream
-uuid: a3718a70-9924-46c5-9edf-4d001e0a1931
+uuid: 41911396-d29a-4b59-97d3-81f99971c350
 index: y
 internal: n
 snippet: y

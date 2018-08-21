@@ -4,7 +4,7 @@ seo-description: Upload media to a Folder to easily store content for future use
 seo-title: Upload Media to a Folder Using the Livefyre Mobile App
 solution: Experience Manager
 title: Upload Media to a Folder Using the Livefyre Mobile App
-uuid: 6c5e1eef-1b80-4dc6-9941-782dd3c46a40
+uuid: e0bc056f-f8a9-4328-ab2f-8b19298ab24e
 index: y
 internal: n
 snippet: y

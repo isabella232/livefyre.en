@@ -4,7 +4,7 @@ seo-description: Make community content available to search engine crawlers.
 seo-title: Bootstrap HTML
 solution: Experience Manager
 title: Bootstrap HTML
-uuid: 23c603a2-9cad-4ebe-a43d-e2c7b87f7e03
+uuid: 89b36ad0-bc6a-4dcf-8161-2df258e07681
 index: y
 internal: n
 snippet: y
@@ -49,6 +49,10 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{networkName}.fyre.co/{siteId}/{
 
 ## Parameters {#section_y34_dqj_11b}
 
+
+* ** networkName ** Your Livefyre provided network name. For example: *labs* in labs.fyre.co. 
+* ** siteId ** The Site ID of the Collection. 
+* ** b64articleId ** The Article ID of the Collection using the base64url encoding. 
 
 ## Example {#section_k5z_bqj_11b}
 

@@ -4,7 +4,7 @@ seo-description: Livefyre offers additional features for tracking data from site
 seo-title: Miscellaneous Features
 solution: Experience Manager
 title: Miscellaneous Features
-uuid: 40b133d6-0502-4104-9bfc-ed454446411f
+uuid: 86021b09-5ae5-4399-986b-0e86b3ab1186
 index: y
 internal: n
 snippet: y

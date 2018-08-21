@@ -4,7 +4,7 @@ seo-description: The Carousel App offers these features for your site.
 seo-title: Carousel Features
 solution: Experience Manager
 title: Carousel Features
-uuid: 859bdeaf-647f-424b-8d72-e815144c56bb
+uuid: 7f703446-9dfd-4260-a719-10d0d9415595
 index: y
 internal: n
 snippet: y

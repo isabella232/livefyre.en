@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Managing Rights Requests
 solution: Experience Manager
 title: Managing Rights Requests
-uuid: d1d0a490-697f-4fea-a000-b3aa0d4f079b
+uuid: 4c61b778-6783-4fe0-ba07-109d4d82469b
 index: y
 internal: n
 snippet: y

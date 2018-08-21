@@ -4,7 +4,7 @@ seo-description: You can create Stream rules that pull public content from Faceb
 seo-title: Facebook Rules
 solution: Experience Manager
 title: Facebook Rules
-uuid: 777649e8-d262-4e4f-92f8-1b9aeae28350
+uuid: 78f31cb8-8318-4d89-843e-b6ba395e4a02
 index: y
 internal: n
 snippet: y

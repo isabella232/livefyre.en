@@ -3,7 +3,7 @@ description: Publish content directly to an App.
 seo-description: Publish content directly to an App.
 seo-title: Publish Content
 title: Publish Content
-uuid: f19b1e3d-6673-44c1-b367-a8bdcd03e8f6
+uuid: c8f187f9-4f81-402f-bf35-2faf029e3e47
 index: y
 internal: n
 snippet: y

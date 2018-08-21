@@ -4,7 +4,7 @@ seo-description: Returns a Collection object instantiated as a Comments type. Ru
 seo-title: buildCommentsCollection Site Method
 solution: Experience Manager
 title: buildCommentsCollection Site Method
-uuid: b5bf4d3d-48d9-4ae3-b7c1-1577ac1d301f
+uuid: 024812b5-7e11-4079-9b6a-6b9bf2b0b087
 index: y
 internal: n
 snippet: y

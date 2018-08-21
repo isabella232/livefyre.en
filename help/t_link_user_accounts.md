@@ -4,7 +4,7 @@ seo-description: Link your Studio account to your Livefyre account to moderate o
 seo-title: Link User Accounts
 solution: Experience Manager
 title: Link User Accounts
-uuid: d0aa50f7-ab3e-422f-aac0-7fc6ee442c1a
+uuid: 708ebb77-193c-4cdb-bbb4-d9d9193c4009
 index: y
 internal: n
 snippet: y

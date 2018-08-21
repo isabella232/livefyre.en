@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Media Wa
 seo-title: Media Wall Customizations
 solution: Experience Manager
 title: Media Wall Customizations
-uuid: 55689c14-a16f-4a0f-855a-44e60d6d8043
+uuid: 9ab2a858-92a6-483c-b036-e4b3a00ccc6e
 index: y
 internal: n
 snippet: y

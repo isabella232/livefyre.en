@@ -4,7 +4,7 @@ seo-description: You can ban users inline from your Livefyre Apps, and users log
 seo-title: Ban a User
 solution: Experience Manager
 title: Ban a User
-uuid: 79688482-f225-4df1-bc62-9aaacbe62385
+uuid: 14b15c11-5913-48dd-bcbc-70b83690c966
 index: y
 internal: n
 snippet: y

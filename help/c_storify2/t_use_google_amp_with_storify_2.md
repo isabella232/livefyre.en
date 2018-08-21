@@ -4,7 +4,7 @@ seo-description: Use Livefyre APIs to add Google AMP functionality to your Stori
 seo-title: Use Google AMP with Storify 2
 solution: Experience Manager
 title: Use Google AMP with Storify 2
-uuid: a135e0b2-fce8-4295-9248-bc6aaa6047ad
+uuid: ecb42574-550f-4e6c-8f7d-95fcd887b6a3
 index: y
 internal: n
 snippet: y

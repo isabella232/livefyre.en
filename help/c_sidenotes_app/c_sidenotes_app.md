@@ -4,7 +4,7 @@ seo-description: Use Sidenotes to allow your readers to comment directly inline 
 seo-title: Sidenotes
 solution: Experience Manager
 title: Sidenotes
-uuid: 45991c98-b627-4027-ab8f-7cf50c805ee6
+uuid: df44d8cf-381b-4cbb-9e30-7e03f021f4e0
 index: y
 internal: n
 snippet: y

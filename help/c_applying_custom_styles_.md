@@ -4,7 +4,7 @@ seo-description: To custom style content for User Groups, you must first add a U
 seo-title: Applying Custom Styles
 solution: Experience Manager
 title: Applying Custom Styles
-uuid: 487d7319-0a52-4c77-94ae-dcf8826ab0e7
+uuid: 4ac8c396-ad97-400a-b645-27fb98313a7c
 index: y
 internal: n
 snippet: y

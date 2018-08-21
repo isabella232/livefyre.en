@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Manually Grant or Revoke Rights for an Asset from App Content
 solution: Experience Manager
 title: Manually Grant or Revoke Rights for an Asset from App Content
-uuid: 96b2a6d4-a682-42a3-8334-d585f649905b
+uuid: b610f5e7-a35e-4f0b-aac2-74be23e7b908
 index: y
 internal: n
 snippet: y

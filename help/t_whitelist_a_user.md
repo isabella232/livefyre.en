@@ -4,7 +4,7 @@ seo-description: Whitelist a user to allow them to post directly to Apps without
 seo-title: Whitelist a User
 solution: Experience Manager
 title: Whitelist a User
-uuid: f49bcd76-cdb4-4a09-9267-b0f55c640a6b
+uuid: 5cfe8284-4d0c-442f-8eb9-70767fb8ddd5
 index: y
 internal: n
 snippet: y

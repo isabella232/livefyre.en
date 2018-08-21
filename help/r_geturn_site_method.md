@@ -4,7 +4,7 @@ seo-description: This method returns the URN for this site.
 seo-title: getUrn Site Method
 solution: Experience Manager
 title: getUrn Site Method
-uuid: 5bd9ba8b-71b2-4d0c-b8d9-14dfb4d3d642
+uuid: caa9c102-78d5-4e6d-822d-454d0904daa7
 index: y
 internal: n
 snippet: y

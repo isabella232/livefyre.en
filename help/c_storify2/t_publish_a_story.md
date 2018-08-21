@@ -4,7 +4,7 @@ seo-description: Publish a Storify 2 to your site.
 seo-title: Publish a Story
 solution: Experience Manager
 title: Publish a Story
-uuid: de3e8a90-2159-4804-8d05-ac7bdf83a58e
+uuid: bedf4fd1-bb26-46ce-a227-7298b88ebac1
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Checks to see if a Livefyre token is still valid for this netwo
 seo-title: validateLivefyreToken Network Method
 solution: Experience Manager
 title: validateLivefyreToken Network Method
-uuid: 99fe1cfe-da89-47a8-bc57-2d510d1f817c
+uuid: b04bb301-e6c8-4c92-a790-2d09bebf590c
 index: y
 internal: n
 snippet: y

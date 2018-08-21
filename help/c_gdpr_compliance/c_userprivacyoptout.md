@@ -3,7 +3,7 @@ description: Add the userPrivacyOptOut flag to the page to allow a site visitor 
 seo-description: Add the userPrivacyOptOut flag to the page to allow a site visitor to opt out of this tracking.
 seo-title: userPrivacyOptOut
 title: userPrivacyOptOut
-uuid: c17c6832-951c-45c2-b661-8c564f8aafad
+uuid: 1a9543f7-3dad-44d7-8b0f-6aa2d7dcf7c0
 index: y
 internal: n
 snippet: y

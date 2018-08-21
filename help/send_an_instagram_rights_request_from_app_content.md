@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Send an Instagram Rights Request from App Content
 solution: Experience Manager
 title: Send an Instagram Rights Request from App Content
-uuid: 0239ce88-40de-451b-8f86-1c3bda7697e7
+uuid: 1398f714-b133-4499-9ad9-146f29a6afd7
 index: y
 internal: n
 snippet: y

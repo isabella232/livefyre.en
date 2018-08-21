@@ -4,7 +4,7 @@ seo-description: Answers to Frequently Asked Questions (FAQs) about GDPR-Ready P
 seo-title: Privacy Request FAQs
 solution: Experience Manager
 title: Privacy Request FAQs
-uuid: d95fdaf1-b6a0-496b-8877-33b9b03105d3
+uuid: 79ce7db0-fb27-40f9-82d9-dc5a5387a9f6
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: The Trending App offers these features for your site.
 seo-title: Trending Features
 solution: Experience Manager
 title: Trending Features
-uuid: 2b90d12b-e770-45e8-bc6b-60def61f5643
+uuid: 6220800d-ed55-45c2-9e2d-98c6cf014356
 index: y
 internal: n
 snippet: y

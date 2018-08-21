@@ -4,7 +4,7 @@ seo-description: To authenticate a user with Livefyre through a flow not trigger
 seo-title: Implementing SSO
 solution: Experience Manager
 title: Implementing SSO
-uuid: 414abbf9-6433-4ea5-8990-6b164fa73c5a
+uuid: 7d3de7ea-235c-4ee9-b29f-5f91696ab685
 index: y
 internal: n
 snippet: y

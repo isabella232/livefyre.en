@@ -4,7 +4,7 @@ seo-description: You can create Stream rules that pull content from RSS feeds.
 seo-title: RSS Rules
 solution: Experience Manager
 title: RSS Rules
-uuid: f2a8fe4c-d762-4fe1-96d3-be18bf44775d
+uuid: 317cb8b6-490d-486f-8836-af62943a83d3
 index: y
 internal: n
 snippet: y

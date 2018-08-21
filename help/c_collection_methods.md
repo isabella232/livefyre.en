@@ -4,7 +4,7 @@ seo-description: To update the data in the Collection, modify the contents of th
 seo-title: Collection Class Methods
 solution: Experience Manager
 title: Collection Class Methods
-uuid: 2eb8cdfc-8537-4417-9f1a-4da783be4387
+uuid: 73755361-12ac-4b43-8d94-7c9f2b504c38
 index: y
 internal: n
 snippet: y

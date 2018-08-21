@@ -4,7 +4,7 @@ seo-description: Learn how monitor and store the user-generated content flowing 
 seo-title: Activity Stream
 solution: Experience Manager
 title: Activity Stream
-uuid: 3e6ffd01-69fc-4404-a9c1-7a347085de16
+uuid: 0d80bb90-8046-49cd-ab43-27cc55b1207f
 index: y
 internal: n
 snippet: y
@@ -36,6 +36,9 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ```
 **Parameters**
+
+* ** **resource:** ** **string** A URN of the object for which you are requesting activity data. 
+* ** **since:** ** **integer** A 64-bit integer representing the the ID of the last event you received. Specify ‘0’ if you have no prior data. 
 
 ## URN Strings {#section_skl_q4l_b1b}
 
@@ -85,6 +88,12 @@ data = dict(iss=network_urn, aud=network_urn, sub=network_urn, scope=api_urn, ex
 token = jwt.encode(data, key=network_secret)
 ```
 Where the bearer token keys are defined as follows:
+
+* ** iss ** **(Issuer)** An entity with the authority to generate tokens. This may be Livefyre, a site or a network. (For a note to be late to school, it’s your parent.) 
+* ** aud ** **(Audience)** The person for whom this token was generated. If you are creating the token yourself it is the site or network. 
+* ** sub ** **(Subject) **The subject for which permissions are to be granted. For example if you’re operating on a collection, the subject must be the identifier for the collection. (In the note from school example, it’s you.) 
+* ** exp ** **(Expiration)** A point in time which the token is no longer valid. 
+* ** scope ** **(Scope)** This is a list of the permissions granted on the subject. “Late for school” is an example. The name of an API is another example. 
 
 ## Example {#section_dhl_ytj_11b}
 

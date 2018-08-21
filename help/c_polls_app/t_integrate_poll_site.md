@@ -4,7 +4,7 @@ seo-description: Use Livefyre’s Custom HTML feature to add Polls to your Comme
 seo-title: Add a Poll to a Comments or Live Blog App
 solution: Experience Manager
 title: Add a Poll to a Comments or Live Blog App
-uuid: a2667b65-a868-438f-b4ba-f1bafd491422
+uuid: 2f1a5e7b-166e-4a88-a653-7fd03390b739
 index: y
 internal: n
 snippet: y

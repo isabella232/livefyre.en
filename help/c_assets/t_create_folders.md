@@ -4,7 +4,7 @@ seo-description: Create folders to organize assets.
 seo-title: Create Asset Folders
 solution: Experience Manager
 title: Create Asset Folders
-uuid: 39707d41-3cff-490c-9c41-a7c12c24888d
+uuid: bd1b1689-ce50-4b90-9509-ed14892034ee
 index: y
 internal: n
 snippet: y

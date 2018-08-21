@@ -4,7 +4,7 @@ seo-description: Not every tweet that matches a rule appears in a stream.
 seo-title: Throttling and Frequency of Tweets
 solution: Experience Manager
 title: Throttling and Frequency of Tweets
-uuid: 171fc71d-e92e-41c4-a4d4-ea4c154474d0
+uuid: 0e3eba10-652c-44d4-a61b-c29934e0a16d
 index: y
 internal: n
 snippet: y

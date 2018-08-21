@@ -4,7 +4,7 @@ seo-description: Create a site object using site class methods.
 seo-title: Site Class Methods
 solution: Experience Manager
 title: Site Class Methods
-uuid: a2212503-54f0-402a-80a5-4151e35028a2
+uuid: 33cde0aa-b95a-4d85-a8a6-8c1d30caca3b
 index: y
 internal: n
 snippet: y

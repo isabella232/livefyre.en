@@ -4,7 +4,7 @@ seo-description: Give your Navigation Guide a title to make content clear to you
 seo-title: Add a Title to the Navigation Guide
 solution: Experience Manager
 title: Add a Title to the Navigation Guide
-uuid: 1c82b8be-3a48-43d4-8221-6ec7b57513de
+uuid: e23367b9-4f55-41fa-a774-9a50f8798d3f
 index: y
 internal: n
 snippet: y

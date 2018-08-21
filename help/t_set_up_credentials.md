@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Set up Credentials
 solution: Experience Manager
 title: Set up Credentials
-uuid: ae4e80f1-94a7-4ee8-9b6d-1740b43dee3e
+uuid: 47d6d4df-de5e-4696-865b-e63915deb682
 index: y
 internal: n
 snippet: y

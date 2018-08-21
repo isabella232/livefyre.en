@@ -4,7 +4,7 @@ seo-description: The Library allows you to add information to saved content so y
 seo-title: View Asset Details
 solution: Experience Manager
 title: View Asset Details
-uuid: cacc5063-a2f1-4783-af13-9efb8fea149f
+uuid: 179556a0-a661-4af6-a384-3f41b06865c2
 index: y
 internal: n
 snippet: y

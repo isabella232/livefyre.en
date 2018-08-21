@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Polls ap
 seo-title: Polls Customizations
 solution: Experience Manager
 title: Polls Customizations
-uuid: 4b6be578-1391-4183-8af6-5bfe9b743ae3
+uuid: 1a9682e5-3ba5-4d2e-bdd8-bb2e7632a2df
 index: y
 internal: n
 snippet: y
