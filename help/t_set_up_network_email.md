@@ -4,7 +4,7 @@ seo-description: Customize available email notification fields.
 seo-title: Set up Network Email
 solution: Experience Manager
 title: Set up Network Email
-uuid: a7191156-9773-4a1d-a1a4-220acc1864c2
+uuid: 2cb756c3-a948-4e43-91f4-7dbdbf4734df
 index: y
 internal: n
 snippet: y

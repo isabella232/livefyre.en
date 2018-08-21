@@ -4,7 +4,7 @@ seo-description: Informs Livefyre to pull user information from a previously set
 seo-title: syncUser Network Method
 solution: Experience Manager
 title: syncUser Network Method
-uuid: 6d0f2547-6bfa-4f51-99bc-4230394b6d33
+uuid: 2baabb09-288b-48c6-83f3-899331e18b0d
 index: y
 internal: n
 snippet: y

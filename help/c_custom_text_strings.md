@@ -4,7 +4,7 @@ seo-description: Customize any text strings in the app for internationalization 
 seo-title: Translation and Custom Text Strings
 solution: Experience Manager
 title: Translation and Custom Text Strings
-uuid: 22f92b77-2f0b-4550-93c4-b21718ff9559
+uuid: 8467c774-f987-4522-a9ac-16c6f4f77bbc
 index: y
 internal: n
 snippet: y

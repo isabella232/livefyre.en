@@ -4,7 +4,7 @@ seo-description: You can choose various sorting options depending on the App and
 seo-title: Sort Features
 solution: Experience Manager
 title: Sort Features
-uuid: 6ef12900-c18c-4ab1-8251-7500be33dc23
+uuid: a8d30ea1-fb2d-477c-8e2a-813ff7fabe82
 index: y
 internal: n
 snippet: y

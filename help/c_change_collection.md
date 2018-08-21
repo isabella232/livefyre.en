@@ -4,7 +4,7 @@ seo-description: Allow users to click through Collections from a single page lay
 seo-title: Change Collection
 solution: Experience Manager
 title: Change Collection
-uuid: a90e6dd8-e9c2-4ffc-9c2b-2ea7b28e87db
+uuid: 64901b2f-cd91-46b7-8bf3-e20b802defbe
 index: y
 internal: n
 snippet: y

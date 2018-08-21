@@ -4,7 +4,7 @@ seo-description: You can whitelist your video domain using .
 seo-title: userPrivacyVideoWhitelist
 solution: Experience Manager
 title: userPrivacyVideoWhitelist
-uuid: efadabb5-7f14-4b0e-8dad-7bf0620b0b09
+uuid: ed2c199c-26b5-4b7b-bff3-bfbf0fbe1c1f
 index: y
 internal: n
 snippet: y

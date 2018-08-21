@@ -3,7 +3,7 @@ description: Livefyre.require provides a plugin that enables auth to listen to t
 seo-description: Livefyre.require provides a plugin that enables auth to listen to the Janrain Backplane bus.
 seo-title: Connecting Janrain to Livefyre using AuthDelegate
 title: Connecting Janrain to Livefyre using AuthDelegate
-uuid: 82615a62-985d-4cc8-8686-d0203121127b
+uuid: c0d929e5-8d91-46ab-8dd9-48c3e5f92259
 index: y
 internal: n
 snippet: y

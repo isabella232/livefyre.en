@@ -4,7 +4,7 @@ seo-description: View a privacy report in Livefyre to see what information is re
 seo-title: View a Privacy Report
 solution: Experience Manager
 title: View a Privacy Report
-uuid: 3f8a492b-7608-48d9-8b2a-aeabf8887f79
+uuid: 18df0f29-30ad-4a65-b476-989dc11ab532
 index: y
 internal: n
 snippet: y

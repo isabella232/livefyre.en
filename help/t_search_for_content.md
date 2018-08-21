@@ -4,7 +4,7 @@ seo-description: Use Social Search to search for Instagram content to include in
 seo-title: Search for Instagram Content
 solution: Experience Manager
 title: Search for Instagram Content
-uuid: d0ff83c4-d322-4165-ac45-2ef0c0630ded
+uuid: a1f4e563-3531-4cba-9c3b-ea24f60cd3f9
 index: y
 internal: n
 snippet: y
@@ -36,3 +36,7 @@ When you add new assets to the library, assets that are already included in your
 
 >    * **[!UICONTROL  Location:]**searches for Instagram posts with the input geotag.
 >    
+>Results returned will be listed from most recent to least.
+
+>Items matching your search are displayed in a grid view. Mouse over an item to **[!UICONTROL  View Details]**, add it to your Asset Library, or **[!UICONTROL  Publish]** to an App.
+

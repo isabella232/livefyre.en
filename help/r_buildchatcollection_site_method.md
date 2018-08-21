@@ -4,7 +4,7 @@ seo-description: Returns a Collection object instantiated as a Chat type. Run cr
 seo-title: buildChatCollection Site Method
 solution: Experience Manager
 title: buildChatCollection Site Method
-uuid: 23795cc3-c52f-411b-b852-b3ffc9363ed6
+uuid: b96eed81-8564-4a96-8bdd-bc8aad32e80a
 index: y
 internal: n
 snippet: y

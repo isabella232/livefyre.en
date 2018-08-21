@@ -4,7 +4,7 @@ seo-description: Create Android Apps powered by Livefyre.
 seo-title: Android SDK
 solution: Experience Manager
 title: Android SDK
-uuid: 70c9bc04-689c-494b-9cef-7ac3620759ce
+uuid: 2e14f6af-9fdb-4608-a51f-44cad09d4cb1
 index: y
 internal: n
 snippet: y
@@ -12,6 +12,14 @@ translate: y
 ---
 
 # Android SDK
+
+On this page:
+
+* [](#c_android_sdk/section_dtm_slv_zz)
+* [](#c_android_sdk/section_vpw_klv_zz)
+* [](#c_android_sdk/section_yfq_blv_zz)
+
+
 
 Use this library to integrate Livefyre services into your native Android app. The [ Livefyre StreamHub Android SDK ](https://github.com/Livefyre/StreamHub-Android-SDK) provides a thin layer around our common API mechanisms, based on the Gradle/Android Studio development environment.
 
@@ -57,7 +65,12 @@ dependencies {   compile project(':streamHubAndroidSDK') }
 
 ```
 
+
+
 Make sure that the following line is in your ***project folder* &gt; settings.gradle** file:
+
+
+
 
 ```
 include ':streamHubAndroidSDK' 

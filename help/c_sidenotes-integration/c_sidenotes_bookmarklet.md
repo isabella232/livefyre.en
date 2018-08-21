@@ -3,7 +3,7 @@ description: Sidenotes can be loaded on to (almost) any existing page.
 seo-description: Sidenotes can be loaded on to (almost) any existing page.
 seo-title: Sidenotes Bookmarklet
 title: Sidenotes Bookmarklet
-uuid: 4f47425f-79b0-4f1b-82af-4a931bb0d668
+uuid: e4c26d62-5e9c-4914-891b-65a0aa4171fa
 index: y
 internal: n
 snippet: y

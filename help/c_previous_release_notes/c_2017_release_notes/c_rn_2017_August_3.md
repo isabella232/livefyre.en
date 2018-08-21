@@ -3,7 +3,7 @@ description: Release Notes for the August 3, 2017 release.
 seo-description: Release Notes for the August 3, 2017 release.
 seo-title: August 3, 2017
 title: August 3, 2017
-uuid: 2d5a5bee-074d-4318-ad0b-98b92ca23093
+uuid: b5edf4e3-588d-4d5b-8063-3f9138f2be55
 index: y
 internal: n
 snippet: y

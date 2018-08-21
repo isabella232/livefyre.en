@@ -4,7 +4,7 @@ seo-description: You can select content to feature from Studio instead of an App
 seo-title: Select Content to Feature From Studio
 solution: Experience Manager
 title: Select Content to Feature From Studio
-uuid: 78febb63-e985-421f-a404-ba1809f91a97
+uuid: 5fe40757-882f-4304-97d8-9256dbfdfdbf
 index: y
 internal: n
 snippet: y

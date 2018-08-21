@@ -4,7 +4,7 @@ seo-description: You can log a user in through the console during integration an
 seo-title: Debugging Auth Delegate
 solution: Experience Manager
 title: Debugging Auth Delegate
-uuid: da8102db-5eae-4818-aadd-4e2fffa195bf
+uuid: 0cf389e2-b5fa-4c0a-9e40-8f8a735a108e
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Retrieves Collection information from Livefyre as a JSONObject.
 seo-title: getCollectionContent Collection Method
 solution: Experience Manager
 title: getCollectionContent Collection Method
-uuid: 253cf7d9-804b-4466-b46d-6ac8e6b2a303
+uuid: c22e9870-ee26-4e1e-86f3-c804b9c74f7c
 index: y
 internal: n
 snippet: y

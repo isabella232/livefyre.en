@@ -4,7 +4,7 @@ seo-description: The Media Wall app offers these features for your site.
 seo-title: Media Wall Features
 solution: Experience Manager
 title: Media Wall Features
-uuid: 3ec2eb42-1520-4ce6-892b-c19a6aa7bbbb
+uuid: aab37b65-8b17-42d0-80e5-140785700a19
 index: y
 internal: n
 snippet: y

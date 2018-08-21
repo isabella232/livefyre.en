@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Sidenote
 seo-title: Sidenotes Customizations
 solution: Experience Manager
 title: Sidenotes Customizations
-uuid: e5c86be1-3c75-4dec-8475-48cbd9fdd1a7
+uuid: 0cd39b89-d7ff-47d6-ae51-b7ba364b0c42
 index: y
 internal: n
 snippet: y

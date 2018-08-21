@@ -4,7 +4,7 @@ seo-description: Customize App display options to match your branding and style.
 seo-title: Change Display Options
 solution: Experience Manager
 title: Change Display Options
-uuid: 081309f3-beac-46f4-8710-1f8db07cac42
+uuid: 3ffc2ff6-ca2c-4f8d-a7f0-28e924b5cf21
 index: y
 internal: n
 snippet: y

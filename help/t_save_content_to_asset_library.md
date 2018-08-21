@@ -3,7 +3,7 @@ description: Save content from the Social Search tab to save content for use in 
 seo-description: Save content from the Social Search tab to save content for use in Apps.
 seo-title: Save Content to Asset Library
 title: Save Content to Asset Library
-uuid: 22a7504c-fef9-453b-b443-4f9c79767c9f
+uuid: 34658b7b-6ad1-48f6-9acd-0ccf889c4139
 index: y
 internal: n
 snippet: y

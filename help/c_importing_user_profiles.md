@@ -4,7 +4,7 @@ seo-description: Import your existing user profiles to Livefyre.
 seo-title: Importing User Profiles
 solution: Experience Manager
 title: Importing User Profiles
-uuid: 67f3653b-6e02-4881-9f72-bd05cee0f556
+uuid: f47bf453-b0e7-435d-95b5-8893ff4e87c2
 index: y
 internal: n
 snippet: y

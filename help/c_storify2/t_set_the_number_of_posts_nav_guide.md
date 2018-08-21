@@ -4,7 +4,7 @@ seo-description: Set how many posts site visitors can see in the Navigation Guid
 seo-title: Set the Number of Posts in the Navigation Guide
 solution: Experience Manager
 title: Set the Number of Posts in the Navigation Guide
-uuid: 2b57a354-949c-46ee-bbc7-64026f8d050c
+uuid: 5b2985c5-4b6d-4c6f-9877-8e19588f4e4c
 index: y
 internal: n
 snippet: y

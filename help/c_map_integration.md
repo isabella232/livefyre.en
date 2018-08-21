@@ -4,7 +4,7 @@ seo-description: Plot user content to an interactive map.
 seo-title: Map
 solution: Experience Manager
 title: Map
-uuid: 6670821c-7b99-464d-85ec-1e9c0a410cf5
+uuid: 4ae995dd-3e69-4f7f-bb64-9b7b35945dd4
 index: y
 internal: n
 snippet: y

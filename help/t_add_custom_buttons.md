@@ -4,7 +4,7 @@ seo-description: Add custom actions to your Livefyre Apps.
 seo-title: Add Custom Buttons
 solution: Experience Manager
 title: Add Custom Buttons
-uuid: 2a118b8d-500d-4294-a4b6-25a32bc63967
+uuid: 14559296-fdd8-4e03-879c-c0533e519244
 index: y
 internal: n
 snippet: y
@@ -40,3 +40,4 @@ fyre.conv.load(networkConfig, [convConfig]);
 >1. Pass an additional argument in your ConvConfig object named actionButtons, containing an array of objects describing each button you would like to add.
 >1. Define a key for the text to display for each button.
 >1. Add a callback that will be invoked on a click event for each button.
+>The callback is invoked with an object with two keys: ` authorId` and ` contentId`. 

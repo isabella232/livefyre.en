@@ -4,7 +4,7 @@ seo-description: Add posts to the Navigation Guide in Storify 2.
 seo-title: Add Posts to the Navigation Guide
 solution: Experience Manager
 title: Add Posts to the Navigation Guide
-uuid: a1165b28-4e52-480d-8a0f-2c3414b7ac29
+uuid: 126e4955-8d21-4ef2-9bd7-e9ed90453331
 index: y
 internal: n
 snippet: y

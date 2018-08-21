@@ -4,7 +4,7 @@ seo-description: Use Trending to showcase your most active Collections.
 seo-title: Trending
 solution: Experience Manager
 title: Trending
-uuid: c9fca6fa-9734-41c5-9899-75774c97517d
+uuid: d3589523-2ddf-41e7-bb59-deb3a288f742
 index: y
 internal: n
 snippet: y

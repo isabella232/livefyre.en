@@ -4,7 +4,7 @@ seo-description: Reviews offers a broad range of customizations, allowing you to
 seo-title: Creating a Reviews App
 solution: Experience Manager
 title: Creating a Reviews App
-uuid: 80781df5-da14-4641-ace3-5a6e4da45a35
+uuid: 793ad393-1393-4ac1-ab12-2891adf2096f
 index: y
 internal: n
 snippet: y

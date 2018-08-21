@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Create and Modify Translation Sets
 solution: Experience Manager
 title: Create and Modify Translation Sets
-uuid: dbce732a-107e-4a3d-8b3d-b2ade767dcc9
+uuid: 187fe7e4-3d6b-40a6-9ad1-2a008edd3493
 index: y
 internal: n
 snippet: y

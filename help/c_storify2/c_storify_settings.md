@@ -4,7 +4,7 @@ seo-description: Adjust settings for Storify 2 stories, such as tags, moderation
 seo-title: Storify Settings
 solution: Experience Manager
 title: Storify Settings
-uuid: c6654d2e-0593-4e12-b34a-045d2754203b
+uuid: e7a39a07-a3e8-4de3-81fc-34c55f12ce73
 index: y
 internal: n
 snippet: y

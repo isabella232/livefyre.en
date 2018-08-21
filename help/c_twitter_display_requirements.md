@@ -4,7 +4,7 @@ seo-description: An overview of Twitter’s Display Requirements.
 seo-title: Twitter Display Requirements
 solution: Experience Manager
 title: Twitter Display Requirements
-uuid: 662e3ebf-b8f2-48da-8b22-963aa7f3722d
+uuid: 0106efd3-f61e-41e4-91d1-a3ef335935ee
 index: y
 internal: n
 snippet: y

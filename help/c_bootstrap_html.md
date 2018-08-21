@@ -4,7 +4,7 @@ seo-description: Make community content available to search engine crawlers.
 seo-title: Bootstrap HTML
 solution: Experience Manager
 title: Bootstrap HTML
-uuid: 89b36ad0-bc6a-4dcf-8161-2df258e07681
+uuid: 2c9369cc-249b-4345-aa7c-ff6f352b62fb
 index: y
 internal: n
 snippet: y

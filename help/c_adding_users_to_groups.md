@@ -4,7 +4,7 @@ seo-description: Add a user tag to an account to add a User to a group.
 seo-title: Adding Users to Groups
 solution: Experience Manager
 title: Adding Users to Groups
-uuid: b8f31500-cf77-4c0b-9f0e-d0f014c5ac04
+uuid: 7139b42f-08b6-4387-b7f2-494c6bceb68c
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Configure a social account to request rights or search for UGC 
 seo-title: Add a Social Account
 solution: Experience Manager
 title: Add a Social Account
-uuid: d04a77ae-53d8-4c6c-a615-c22561ee4c60
+uuid: d087c88d-1a58-4cde-9036-64cfaf70c123
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Learn about the General Data Protection Regulation (GDPR) and h
 seo-title: Privacy Requests (GDPR-Ready)
 solution: Experience Manager
 title: Privacy Requests (GDPR-Ready)
-uuid: 1d9ca85f-8928-44a2-9271-880fa52162c7
+uuid: 43e1474d-6a6a-4414-b084-0e1ed0ec3d54
 index: y
 internal: n
 snippet: y

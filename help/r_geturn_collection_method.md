@@ -4,7 +4,7 @@ seo-description: This method returns the URN for this Collection. You must run c
 seo-title: getUrn Collection Method
 solution: Experience Manager
 title: getUrn Collection Method
-uuid: d4e84b9a-886f-4c68-ab54-bee0659d0fba
+uuid: 36d617ae-9d6b-4e83-875b-df6b94298528
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Add a lively and dynamic wall of color, photos, and videos to y
 seo-title: Mosaic
 solution: Experience Manager
 title: Mosaic
-uuid: 4d59e1a0-53c6-46d9-8455-ae37a17ada4c
+uuid: cf4e908a-5da5-45b9-9f0b-98498caa56c0
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Change the icon displayed for Livefyre users in the @mention pu
 seo-title: Change @mention Icon
 solution: Experience Manager
 title: Change @mention Icon
-uuid: 7997e2e3-0345-40c4-8c0b-86a8be4b4be3
+uuid: a6ba7700-7c8f-4cb4-b6e8-26b58ef74424
 index: y
 internal: n
 snippet: y

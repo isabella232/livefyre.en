@@ -4,7 +4,7 @@ seo-description: Save a post as a draft from your mobile device to publish it la
 seo-title: Save Post as a Draft Using the Livefyre Mobile App
 solution: Experience Manager
 title: Save Post as a Draft Using the Livefyre Mobile App
-uuid: c5e1f0a0-10ed-4d81-89b1-9766b1285cef
+uuid: 03f13757-e877-490f-9d2f-2c2e27f8d0e0
 index: y
 internal: n
 snippet: y

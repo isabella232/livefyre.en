@@ -4,7 +4,7 @@ seo-description: Turn every piece of every page on your site into a collaborativ
 seo-title: Best Practices for Sidenotes
 solution: Experience Manager
 title: Best Practices for Sidenotes
-uuid: 642ec657-1380-4eec-acf9-fc5ca6d9930b
+uuid: c99148b0-00ec-4e5b-b7a1-0500619953c9
 index: y
 internal: n
 snippet: y

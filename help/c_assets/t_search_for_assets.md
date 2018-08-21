@@ -4,7 +4,7 @@ seo-description: Search for assets by different options and filters to find the 
 seo-title: Search Saved Assets in the Library
 solution: Experience Manager
 title: Search Saved Assets in the Library
-uuid: a08c628c-28c4-4c09-9e60-c5464186be4a
+uuid: 22989320-7239-43d9-ab9d-b27888dc217d
 index: y
 internal: n
 snippet: y

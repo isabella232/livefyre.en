@@ -4,7 +4,7 @@ seo-description: Listener count is a counter that tracks the number of site visi
 seo-title: Listener Count
 solution: Experience Manager
 title: Listener Count
-uuid: 2ae49451-c6fc-4cd9-be02-fc17c3a133e5
+uuid: 0547ac0b-d493-45af-be73-a807204031ae
 index: y
 internal: n
 snippet: y

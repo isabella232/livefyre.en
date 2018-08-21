@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Mosaic a
 seo-title: Mosaic Customizations
 solution: Experience Manager
 title: Mosaic Customizations
-uuid: d2a36eb8-8be9-4c69-861e-8c6e6b3fc49a
+uuid: ac3a7590-d6bb-4b14-8f23-e2ac2d9a9a9a
 index: y
 internal: n
 snippet: y

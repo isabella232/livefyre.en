@@ -4,7 +4,7 @@ seo-description: Log in to the Livefyre mobile app to upload media to your libra
 seo-title: Log in to the Livefyre Mobile App
 solution: Experience Manager
 title: Log in to the Livefyre Mobile App
-uuid: 64ffeb64-4a26-49a3-8bf2-be52de6acfb9
+uuid: ad598d96-72c9-4e4d-b71b-2134133ac59f
 index: y
 internal: n
 snippet: y

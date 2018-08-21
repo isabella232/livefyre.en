@@ -4,7 +4,7 @@ seo-description: Use the Moderation tab to set premoderation rules for incoming 
 seo-title: Setting Up Moderation
 solution: Experience Manager
 title: Setting Up Moderation
-uuid: 0e0bb416-7809-42bc-bb98-e55e6931c028
+uuid: 4e538592-ae5b-4c52-96f9-03e5f8eb92c9
 index: y
 internal: n
 snippet: y

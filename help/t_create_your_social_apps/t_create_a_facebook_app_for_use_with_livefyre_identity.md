@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with Facebook to allow users to u
 seo-title: Create a Facebook App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Facebook App for Use with Livefyre Identity
-uuid: 14b1b57f-9b0c-4808-9820-8a9312f57cd2
+uuid: caa2a532-f82d-4eef-9011-63ca3bef4366
 index: y
 internal: n
 snippet: y
@@ -38,3 +38,4 @@ To create a Facebook app for use with Livefyre Identity:
 >    * Make the App public.
 >    * Ensure that the **[!UICONTROL  Approved Items]** for **[!UICONTROL  Login Permissions]** include ` email`, ` public_profile`, and ` user_friends`.
 >    
+>When complete, the Facebook developer’s Dashboard page will list your App ID and App Secret for use in Studio’s Integration Settings.

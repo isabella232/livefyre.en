@@ -4,7 +4,7 @@ seo-description: Learn how to change from one conversation App type to another.
 seo-title: Switch Core App Types
 solution: Experience Manager
 title: Switch Core App Types
-uuid: 3684ccf6-695d-454d-9eab-37e562ce6fe7
+uuid: 3244a733-5545-434f-aa70-ca1157a447b8
 index: y
 internal: n
 snippet: y

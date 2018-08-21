@@ -4,7 +4,7 @@ seo-description: Pin a post to focus attention on specific content when you firs
 seo-title: Pin a Post to Storify 2
 solution: Experience Manager
 title: Pin a Post to Storify 2
-uuid: aecda7e1-022a-4257-a8b1-1d0ed6d453a1
+uuid: 4af0bb2a-4b1e-4a48-b85a-9224d62e87a4
 index: y
 internal: n
 snippet: y

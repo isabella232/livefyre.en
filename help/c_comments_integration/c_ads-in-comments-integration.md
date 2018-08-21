@@ -4,7 +4,7 @@ seo-description: Insert Ads in your Comments stream.
 seo-title: Ads in Comments
 solution: Experience Manager
 title: Ads in Comments
-uuid: b56630cd-dbe7-44d3-b450-22d196b388a8
+uuid: ece934c5-2c03-4092-8a1b-dfa5ae4c2a1d
 index: y
 internal: n
 snippet: y

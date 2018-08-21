@@ -4,7 +4,7 @@ seo-description: Learn the rules and requirements for Instagram that are differe
 seo-title: About Instagram Accounts
 solution: Experience Manager
 title: About Instagram Accounts
-uuid: ddc1bf26-e44f-4c0e-86d9-f85fc821ba8e
+uuid: e70f3125-0173-4eff-b321-91f245fac677
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with LinkedIn to allow users to u
 seo-title: Create a LinkedIn App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a LinkedIn App for Use with Livefyre Identity
-uuid: ae073eea-14b1-47be-a101-19edd091c2dc
+uuid: b29078dd-1a92-41f3-907b-fa17d143b094
 index: y
 internal: n
 snippet: y
@@ -28,3 +28,4 @@ To create a LinkedIn App for use with Livefyre Identity:
 >1. In **[!UICONTROL  Livefyre > Integration Settings > Livefyre Identity > LinkedIn]**, switch the **[!UICONTROL  Enable LinkedIn Login]** toggle to **[!UICONTROL  On]**.
 >1. Enter the LinkedIn Client ID and LinkedIn Client Secret.
 >1. Click **[!UICONTROL  Save Settings]**.
+>When complete, LinkedIn’s app details page will list the app’s API Key (Consumer Key) and API Secret (Consumer Secret) for use in Studio’s Integration Settings page. 

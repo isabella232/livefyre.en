@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Adding Sidenotes to a Page
 solution: Experience Manager
 title: Adding Sidenotes to a Page
-uuid: 54b25bc7-de2e-4698-be41-fd1e67557337
+uuid: bc7cfca6-788f-4dc6-9f2a-d61398b0df50
 index: y
 internal: n
 snippet: y

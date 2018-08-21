@@ -4,7 +4,7 @@ seo-description: Implement Sidenotes using .js implementation.
 seo-title: Sidenotes Implementation
 solution: Experience Manager
 title: Sidenotes Implementation
-uuid: 271613bd-1e25-4ee2-9563-e927eb9fe71b
+uuid: 2e3351c5-7fe0-4110-ab48-5b9dd1c7b3de
 index: y
 internal: n
 snippet: y

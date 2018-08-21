@@ -4,7 +4,7 @@ seo-description: CSS classes available for your Storify Apps.
 seo-title: Storify CSS Classes
 solution: Experience Manager
 title: Storify CSS Classes
-uuid: 6a3f6cf5-d63a-41ef-af0a-50723db4d68f
+uuid: 865161c3-b1a6-42f1-84f2-a8afa80520a6
 index: y
 internal: n
 snippet: y

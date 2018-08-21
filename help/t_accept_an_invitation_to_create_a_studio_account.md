@@ -4,7 +4,7 @@ seo-description: When a user is invited to access Livefyre, the user uses the li
 seo-title: Accept an Invitation to Create a Studio Account
 solution: Experience Manager
 title: Accept an Invitation to Create a Studio Account
-uuid: d2e3c580-acf7-4526-b3ad-57e01451711c
+uuid: b51824d2-8b78-4d95-a06e-f581f18af104
 index: y
 internal: n
 snippet: y

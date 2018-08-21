@@ -4,7 +4,7 @@ seo-description: Use styling to feature and promote selected content or user gro
 seo-title: Highlight Content
 solution: Experience Manager
 title: Highlight Content
-uuid: df407011-2aaf-4eba-a26e-95669af5d8e3
+uuid: 866af6ea-8c7e-4d70-b2a7-99ac47518c11
 index: y
 internal: n
 snippet: y

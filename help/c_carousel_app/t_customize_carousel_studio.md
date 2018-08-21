@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Carousel
 seo-title: Customize a Carousel Using Studio
 solution: Experience Manager
 title: Customize a Carousel Using Studio
-uuid: 42272445-a314-47a8-ad53-26bbf1cb6488
+uuid: 5abcd733-2ea2-4f94-8685-07117a506bfe
 index: y
 internal: n
 snippet: y

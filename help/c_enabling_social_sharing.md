@@ -4,7 +4,7 @@ seo-description: Set up credentials that allow your users to share content to va
 seo-title: Enabling Social Sharing
 solution: Experience Manager
 title: Enabling Social Sharing
-uuid: 99868871-a26c-4faa-bf89-995f2c0bb039
+uuid: 5abcf680-746c-4a0a-8c80-4072afae9fbb
 index: y
 internal: n
 snippet: y

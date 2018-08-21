@@ -4,7 +4,7 @@ seo-description: Integrate a Sidenotes app by following a process similar to Cor
 seo-title: Sidenotes Integration
 solution: Experience Manager
 title: Sidenotes Integration
-uuid: 5f7ab1e3-57a1-4d24-b0db-8172cea37145
+uuid: bf7e74cc-23db-4072-b47f-e7fa6fc837b3
 index: y
 internal: n
 snippet: y

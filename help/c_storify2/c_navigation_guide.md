@@ -4,7 +4,7 @@ seo-description: The Navigation Guide provides your audience with a way to quick
 seo-title: Navigation Guide
 solution: Experience Manager
 title: Navigation Guide
-uuid: 61eb3016-ec89-4200-8d29-568bf7b5a2d7
+uuid: 847b3516-658c-40ca-b054-0f78c79c7937
 index: y
 internal: n
 snippet: y

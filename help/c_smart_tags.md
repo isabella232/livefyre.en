@@ -3,7 +3,7 @@ description: null
 seo-description: null
 seo-title: Smart Tags
 title: Smart Tags
-uuid: f1a33d5f-50fa-4123-98ff-34a2b46adaa3
+uuid: 41da97ec-c8bf-404b-ab49-6bc5ffa7f01c
 index: y
 internal: n
 snippet: y

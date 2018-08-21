@@ -3,7 +3,7 @@ description: Use Social Search to search for Twitter content to include in your 
 seo-description: Use Social Search to search for Twitter content to include in your Asset Library or publish to Apps.
 seo-title: Search for Twitter Content
 title: Search for Twitter Content
-uuid: e2ecbda7-057b-49c7-918e-1552ae360df2
+uuid: 605649aa-93c4-454f-9816-071564463b97
 index: y
 internal: n
 snippet: y
@@ -36,3 +36,7 @@ When you add new assets to the library, assets that are already included in your
 >       >
 >       >Social Search supports complex Twitter search queries, and all standard Twitter syntax input. By default, multiple strings will be treated as an AND query. Click the **[!UICONTROL  info]** button to see examples of valid input.
 >    
+>Results returned will be listed from most recent to least.
+
+>Items matching your search are displayed in a grid view. Mouse over an item to **[!UICONTROL  View Details]**, add it to your Asset Library, or **[!UICONTROL  Publish]** to an App.
+

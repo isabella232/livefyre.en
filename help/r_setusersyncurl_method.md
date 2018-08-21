@@ -4,7 +4,7 @@ seo-description: Informs Livefyre to update the network’s user sync URL to the
 seo-title: setUserSyncUrl Network Method
 solution: Experience Manager
 title: setUserSyncUrl Network Method
-uuid: c1321e47-199c-4d83-a8b3-8096d805e754
+uuid: 5302ad9f-39e5-4aa0-a739-852f7486ed62
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Returns a Collection object instantiated as a Blog type. Run cr
 seo-title: buildBlogCollection Site Method
 solution: Experience Manager
 title: buildBlogCollection Site Method
-uuid: e55d6586-3f7f-4b5b-9c0f-59ca7e2a714a
+uuid: 32fc9110-84ee-4a50-9350-60681274419b
 index: y
 internal: n
 snippet: y

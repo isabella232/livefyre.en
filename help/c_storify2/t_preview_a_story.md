@@ -4,7 +4,7 @@ seo-description: The App Designer allows you to preview your App in multiple del
 seo-title: Preview a Story
 solution: Experience Manager
 title: Preview a Story
-uuid: 8949debd-d433-486c-8126-d75ffbdb46f4
+uuid: efd44f50-745c-4cdb-a7a5-74286cd3205a
 index: y
 internal: n
 snippet: y

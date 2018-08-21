@@ -4,7 +4,7 @@ seo-description: Define the settings for requesting rights for Instagram and Twi
 seo-title: Set up Rights Management
 solution: Experience Manager
 title: Set up Rights Management
-uuid: 9d222295-d985-4550-9a92-2249178ebcf1
+uuid: 8517e035-5ad3-46d1-ba87-f59f86dd39c9
 index: y
 internal: n
 snippet: y

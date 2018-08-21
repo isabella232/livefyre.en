@@ -4,7 +4,7 @@ seo-description: Install the Authentication Package to enable user authenticatio
 seo-title: Authentication Package
 solution: Experience Manager
 title: Authentication Package
-uuid: e45d19cb-a70e-4dea-963a-aa0cdf539964
+uuid: d2faf9ce-0e09-4ff0-8895-d53c4ddefd4f
 index: y
 internal: n
 snippet: y

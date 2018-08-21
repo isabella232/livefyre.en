@@ -3,7 +3,7 @@ description: Enable inline commenting on your page.
 seo-description: Enable inline commenting on your page.
 seo-title: Sidenotes
 title: Sidenotes
-uuid: cadfdee4-973e-4bf2-9734-1c0d04f819ee
+uuid: fe92ddfa-1226-45fb-b190-8afb4af69867
 index: y
 internal: n
 snippet: y

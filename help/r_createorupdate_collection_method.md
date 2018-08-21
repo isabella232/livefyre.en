@@ -4,7 +4,7 @@ seo-description: Attempts to create or update this Collection with Livefyre. Ret
 seo-title: createOrUpdate Collection Method
 solution: Experience Manager
 title: createOrUpdate Collection Method
-uuid: 5fa5effd-6cdd-4048-ac9e-f1f550fd73cf
+uuid: 3f9b5797-1217-4764-aef6-172ccd83efef
 index: y
 internal: n
 snippet: y

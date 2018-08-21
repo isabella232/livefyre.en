@@ -3,7 +3,7 @@ description: Returns a Collection object instantiated as a Ratings type. Run cre
 seo-description: Returns a Collection object instantiated as a Ratings type. Run create_or_update() from the Collection object to complete the build process.
 seo-title: buildRatingsCollection Site Method
 title: buildRatingsCollection Site Method
-uuid: b64089bb-0e30-4d02-9044-8b3c5072a18e
+uuid: a87d0a65-b993-4ac4-a6a7-25a5dbbd18d3
 index: y
 internal: n
 snippet: y

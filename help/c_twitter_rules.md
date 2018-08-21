@@ -4,7 +4,7 @@ seo-description: You can create Stream rules that pull content from Twitter.
 seo-title: Twitter Rules
 solution: Experience Manager
 title: Twitter Rules
-uuid: 1449bde7-4388-4e94-9123-4d33108f3139
+uuid: 3dd0dd85-d261-4098-a3bd-c0b8abce83f3
 index: y
 internal: n
 snippet: y

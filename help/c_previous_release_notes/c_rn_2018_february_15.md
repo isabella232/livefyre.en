@@ -4,7 +4,7 @@ seo-description: Release Notes for the February 15, 2018 release.
 seo-title: February 15, 2018
 solution: Experience Manager
 title: February 15, 2018
-uuid: 986492e8-87e2-412a-9d43-b9723aeccec8
+uuid: 3f15c399-1494-478d-ab11-bb0b4ebf7a2f
 index: y
 internal: n
 snippet: y

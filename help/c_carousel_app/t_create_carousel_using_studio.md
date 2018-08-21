@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Create a Carousel Using Studio
 solution: Experience Manager
 title: Create a Carousel Using Studio
-uuid: e951425e-8267-48d4-9a7f-5b9344060a22
+uuid: 595df052-af05-47cf-9cc3-30308e03d1dc
 index: y
 internal: n
 snippet: y

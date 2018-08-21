@@ -4,7 +4,7 @@ seo-description: Managing content across your Livefyre network.
 seo-title: App Content Tab
 solution: Experience Manager
 title: App Content Tab
-uuid: 86cab1b3-6079-401d-982e-22bb82e499ca
+uuid: 49f1c357-872c-45ff-9d55-02e80c39110b
 index: y
 internal: n
 snippet: y

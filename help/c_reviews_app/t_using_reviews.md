@@ -4,7 +4,7 @@ seo-description: Any user who is logged in to your site's authentication system 
 seo-title: Post a Review
 solution: Experience Manager
 title: Post a Review
-uuid: 6600faa1-afcd-45f8-a526-358f1a3a63d1
+uuid: 997b63cd-53ae-4434-894e-d6ece756c835
 index: y
 internal: n
 snippet: y

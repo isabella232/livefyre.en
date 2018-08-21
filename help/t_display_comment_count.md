@@ -4,7 +4,7 @@ seo-description: Grab the post and comment counts for certain collections to dis
 seo-title: Display Comment Count
 solution: Experience Manager
 title: Display Comment Count
-uuid: 611508cb-7f60-45e5-bbd9-b454416f9ff1
+uuid: 02454735-d1c3-4480-b82d-54b33d3ed63a
 index: y
 internal: n
 snippet: y
@@ -28,6 +28,7 @@ Livefyre’s ` CommentCount.js` allows you to fetch the content counts for colle
 >
 >1. Bind the HTML Element.
 >   Once the script is loaded, it will attempt to find other elements on the page with a class name of ` livefyre-commentcount`. For each of these elements, the script will look for ` data-lf-site-id` and ` data-lf-article-id` HTML attributes, and will use these to fetch content from Livefyre and update each element with the latest value.
+>
 >   For example, the following element would be updated:
 >
 >   ```
@@ -35,7 +36,7 @@ Livefyre’s ` CommentCount.js` allows you to fetch the content counts for colle
 >   0 Comments  
 >   </span>
 >   ```
-
+>
 >   >[!NOTE] {importance="high"}
 >   >
 >   >The ` CommentCount.js` code checks for a numeric value to update with the actual count. Be certain to include a numeric value between the tags. 
@@ -54,6 +55,7 @@ Livefyre’s ` CommentCount.js` allows you to fetch the content counts for colle
 >
 >1. Configure Options.
 >   For more control over how the content counts are replaced, call ` LF.CommentCount()` and pass in an object containing the configuration options. Make sure to call the function after all of the elements that need to be replaced are in the DOM. The best place to call this method is in the footer, so it happens when the DOM is loaded, but prior to document and window ready events.
+>
 >   We allow the following configuration options:
 >
 >* ** replacer: ** Function or Regex used to replace the text of each content count. 
@@ -64,14 +66,14 @@ Livefyre’s ` CommentCount.js` allows you to fetch the content counts for colle
 >   **Example**:
 >
 >   ```
->    <script type="text/javascript"> LF.CommentCount({ 
+>   >   <script type="text/javascript"> LF.CommentCount({ 
 >        replacer: function(element, count) { 
 >            element.innerHTML = count +' Comment'+ (count === 1 ? '' : 's'); 
 >        } 
 >    }); 
 >   </script>
 >   ```
->
+
 >   >[!NOTE]
 >   >
 >   >Use the replacer to customize or internationalize the comment count message.

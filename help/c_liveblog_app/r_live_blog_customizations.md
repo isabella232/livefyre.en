@@ -4,7 +4,7 @@ seo-description: Customize the style and the way comments display on your live b
 seo-title: Live Blog Customizations
 solution: Experience Manager
 title: Live Blog Customizations
-uuid: e6b45ff2-8aac-4c92-81ed-6d3fac484342
+uuid: 74247ff9-8909-4d13-996e-c8de07784110
 index: y
 internal: n
 snippet: y

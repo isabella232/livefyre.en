@@ -4,7 +4,7 @@ seo-description: Add media to a post to provide near-instant access to an event 
 seo-title: Create a Post Using the Livefyre Mobile App
 solution: Experience Manager
 title: Create a Post Using the Livefyre Mobile App
-uuid: 607f82ed-470f-4cf6-8ace-193d979adacc
+uuid: ce69e891-ae75-48be-8e90-8c922d92f768
 index: y
 internal: n
 snippet: y

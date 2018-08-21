@@ -4,7 +4,7 @@ seo-description: Use custom styling to highlight featured content.
 seo-title: Feature Content
 solution: Experience Manager
 title: Feature Content
-uuid: d8af4883-43a9-44cb-b60b-7dd125ff3529
+uuid: 65d66e6d-a02d-4c3a-b30a-62720fd53e27
 index: y
 internal: n
 snippet: y

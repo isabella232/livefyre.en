@@ -4,7 +4,7 @@ seo-description: You can request the right to reuse the item for your commercial
 seo-title: Send a Twitter Rights Request
 solution: Experience Manager
 title: Send a Twitter Rights Request
-uuid: 40d1f00e-aa48-491d-b913-4940c5c12e9f
+uuid: b59f541e-440f-488b-b954-a528a2a17ff9
 index: y
 internal: n
 snippet: y

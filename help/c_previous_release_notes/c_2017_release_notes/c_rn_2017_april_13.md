@@ -3,7 +3,7 @@ description: Release Notes for the April 13, 2017 release.
 seo-description: Release Notes for the April 13, 2017 release.
 seo-title: April 13, 2017
 title: April 13, 2017
-uuid: 406d2310-499b-4901-ab65-3785d9640f9c
+uuid: f0a57ac5-ecc2-4068-9a93-641ec7017add
 index: y
 internal: n
 snippet: y

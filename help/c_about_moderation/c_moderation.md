@@ -3,7 +3,7 @@ description: The Livefyre Spam and Abuse Filtering Engine (SAFE), is a backgroun
 seo-description: The Livefyre Spam and Abuse Filtering Engine (SAFE), is a background process that analyzes all incoming content, and is enabled for all Livefyre customers.
 seo-title: SAFE Rules
 title: SAFE Rules
-uuid: c3c0b031-c7cc-4980-81a3-1b49856854b9
+uuid: 40d25972-bfdf-435d-a52e-99bc8bac5ffa
 index: y
 internal: n
 snippet: y

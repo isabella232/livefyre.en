@@ -4,7 +4,7 @@ seo-description: Livefyre Identity and Apps contain accessibility features to al
 seo-title: Accessibility Features
 solution: Experience Manager
 title: Accessibility Features
-uuid: 2c562307-00b3-40f5-8a8d-95cb83c7df3c
+uuid: a1624975-9250-411f-b727-88298202417f
 index: y
 internal: n
 snippet: y

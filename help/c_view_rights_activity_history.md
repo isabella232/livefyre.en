@@ -4,7 +4,7 @@ seo-description: Livefyre keeps an audit trail of your rights activity.
 seo-title: View Rights Activity History
 solution: Experience Manager
 title: View Rights Activity History
-uuid: d8515c81-6480-4add-88cf-d3b12035940e
+uuid: 0505bfde-8848-4144-8e4d-956f063c139c
 index: y
 internal: n
 snippet: y

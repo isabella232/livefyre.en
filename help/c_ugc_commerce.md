@@ -4,7 +4,7 @@ seo-description: Deliver product-specific UGC at specific points of the customer
 seo-title: UGC Commerce
 solution: Experience Manager
 title: UGC Commerce
-uuid: 57ce56b0-5131-45ba-b7d7-c9f6ed8147f2
+uuid: d8e32f56-10c3-4ba2-94fc-07c4dcf94726
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: The events available to which you can bind JavaScript for conve
 seo-title: JavaScript Events Definitions and Examples
 solution: Experience Manager
 title: JavaScript Events Definitions and Examples
-uuid: 20e3f8db-1e42-4be9-b2b9-91e32ab50ba7
+uuid: b01ff2ea-16b8-423d-870c-b31a0b81b974
 index: y
 internal: n
 snippet: y

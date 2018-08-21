@@ -4,7 +4,7 @@ seo-description: Customers using Janrain Capture and Backplane may use Livefyre 
 seo-title: Janrain Capture/Backplane
 solution: Experience Manager
 title: Janrain Capture/Backplane
-uuid: e8238ab5-99c9-427a-bc11-2f3cdad187bf
+uuid: 7ceedbfe-0baa-4f61-8837-eef2b4b60e8f
 index: y
 internal: n
 snippet: y

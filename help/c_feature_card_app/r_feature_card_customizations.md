@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Map app.
 seo-title: Feature Card Customizations
 solution: Experience Manager
 title: Feature Card Customizations
-uuid: 14418b01-f779-4fca-b22a-86f7d734230a
+uuid: 918aa4c2-488e-45c2-abb8-2e956f2bc6ff
 index: y
 internal: n
 snippet: y

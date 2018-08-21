@@ -4,7 +4,7 @@ seo-description: Live Blog allows you to feature real-time updates and images fr
 seo-title: Live Blog
 solution: Experience Manager
 title: Live Blog
-uuid: ba6830b6-1958-4f37-b790-0982e68d26a1
+uuid: 84d4f078-e3eb-42a1-97db-cff953f6a321
 index: y
 internal: n
 snippet: y

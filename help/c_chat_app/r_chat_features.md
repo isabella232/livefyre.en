@@ -4,7 +4,7 @@ seo-description: Chat offers several features to encourage a rapid and engaging 
 seo-title: Chat Features
 solution: Experience Manager
 title: Chat Features
-uuid: 67f5879c-2fec-49c8-a3e5-307a2a10b5e3
+uuid: 0f60a6e4-6e87-4ad9-944b-df3ef21373a1
 index: y
 internal: n
 snippet: y

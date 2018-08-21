@@ -4,7 +4,7 @@ seo-description: Use Storify 2 to create content-rich, interactive stories from 
 seo-title: Storify 2
 solution: Experience Manager
 title: Storify 2
-uuid: d314443a-1b4a-490a-b0c9-04f4ea3d6dc5
+uuid: 17398fed-0152-4311-ab0a-5d86d12802f5
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Register the URL endpoint so Livefyre can use the URL to pull u
 seo-title: Register the Endpoint with Studio
 solution: Experience Manager
 title: Register the Endpoint with Studio
-uuid: dd9f4170-29f3-4d9f-9dd7-ca51c2d3f4c5
+uuid: 246983c6-46d6-4180-b53e-64e51b2461a5
 index: y
 internal: n
 snippet: y

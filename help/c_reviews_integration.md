@@ -4,7 +4,7 @@ seo-description: Allow customers to rate and review your product offerings.
 seo-title: Reviews
 solution: Experience Manager
 title: Reviews
-uuid: 71419ed3-1fce-44de-bdaf-70f9e68637e4
+uuid: f76065d4-5846-4f73-b84d-23dc7eef1503
 index: y
 internal: n
 snippet: y

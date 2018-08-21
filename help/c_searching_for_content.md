@@ -4,7 +4,7 @@ seo-description: Search for content by URL to save in your Asset library.
 seo-title: Search by URL
 solution: Experience Manager
 title: Search by URL
-uuid: c0d6be40-9008-483a-b109-652a2e55820f
+uuid: 9f210f4c-e80b-41b4-acd9-31ddba56b94a
 index: y
 internal: n
 snippet: y

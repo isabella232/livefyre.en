@@ -4,7 +4,7 @@ seo-description: Add single pieces of featured content to your page.
 seo-title: Feature Card
 solution: Experience Manager
 title: Feature Card
-uuid: ce6aae17-23d2-4149-ada2-c763f3310288
+uuid: 9c059ab8-3c55-4a87-82d0-75b4ce4536c4
 index: y
 internal: n
 snippet: y

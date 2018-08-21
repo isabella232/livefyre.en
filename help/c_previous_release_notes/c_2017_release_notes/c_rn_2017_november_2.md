@@ -3,7 +3,7 @@ description: Release Notes for the November 2, 2017 release.
 seo-description: Release Notes for the November 2, 2017 release.
 seo-title: November 2, 2017
 title: November 2, 2017
-uuid: d1a39cc2-a90d-47b8-8c33-f7a8982db050
+uuid: fae1170e-cb62-4d28-b03d-e2e6c1368c88
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Learn how monitor and store the user-generated content flowing 
 seo-title: Activity Stream
 solution: Experience Manager
 title: Activity Stream
-uuid: 0d80bb90-8046-49cd-ab43-27cc55b1207f
+uuid: 7297746e-ca19-4de3-bc3b-c9c0e1b6f3ce
 index: y
 internal: n
 snippet: y

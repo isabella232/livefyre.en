@@ -4,7 +4,7 @@ seo-description: Build the pull endpoint to receive and respond to requests for 
 seo-title: Build the Pull Endpoint
 solution: Experience Manager
 title: Build the Pull Endpoint
-uuid: 1c370058-9512-4ec3-9a7a-2af579f9f7c0
+uuid: 2d11d97e-20ac-4c47-abc9-93ea792bbbef
 index: y
 internal: n
 snippet: y

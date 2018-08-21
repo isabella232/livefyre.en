@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with Google to allow users to use
 seo-title: Create a Google Project for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Google Project for Use with Livefyre Identity
-uuid: 9093a90c-974c-42b1-b247-410d8ec57baa
+uuid: 70133566-ac91-4c00-b871-4cd3821816e7
 index: y
 internal: n
 snippet: y
@@ -30,3 +30,4 @@ To create a Google Project for use with Livefyre Identity:
 >    * Enter **[!UICONTROL  Authorized redirect URIs]**: https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/google_fyre (where **[!UICONTROL  {networkName}]** is your Livefyre provided network name. For example: **[!UICONTROL  labs]** in **[!UICONTROL  labs.fyre.co]**.)
 >    * Click **[!UICONTROL  Create]** to save your credentials.
 >    
+>When complete, Google’s API Manager &amp;gt; Credentials page will list the project’s Client ID and Client secret for use in Studio’s Integration Settings page. 

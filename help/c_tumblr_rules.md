@@ -4,7 +4,7 @@ seo-description: You can create Stream rules that pull content from Tumblr.
 seo-title: Tumblr Rules
 solution: Experience Manager
 title: Tumblr Rules
-uuid: 85f1a035-d75a-4be2-8a1f-a78420c79f2b
+uuid: dce3489d-40f9-4a6c-a0e7-275fdb5ad111
 index: y
 internal: n
 snippet: y

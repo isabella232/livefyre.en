@@ -4,7 +4,7 @@ seo-description: Storify allows you to add content at any position in your story
 seo-title: Add Text
 solution: Experience Manager
 title: Add Text
-uuid: 9e779e19-62c7-4167-b603-b51aaa777b66
+uuid: 16266b66-2b8f-40c6-b4b2-2a8ed5ccc55f
 index: y
 internal: n
 snippet: y

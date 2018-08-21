@@ -4,7 +4,7 @@ seo-description: Importing ratings and reviews data to Livefyre.
 seo-title: Importing Ratings and Reviews
 solution: Experience Manager
 title: Importing Ratings and Reviews
-uuid: 5a19b8d5-6e10-4179-9d1c-b0cdb1e308de
+uuid: ab1b6378-168a-4db8-bb83-ae0afc8c00d6
 index: y
 internal: n
 snippet: y

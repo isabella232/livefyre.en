@@ -4,7 +4,7 @@ seo-description: Use Livefyre.js to add page-wide authentication for your Livefy
 seo-title: Add Authetication to an App using Livefyre.js
 solution: Experience Manager
 title: Add Authetication to an App using Livefyre.js
-uuid: e9eb8239-0b8a-44dc-a1fe-83867492b5c5
+uuid: 5d1a1602-788d-4473-a3b8-e027d8d0a3f4
 index: y
 internal: n
 snippet: y

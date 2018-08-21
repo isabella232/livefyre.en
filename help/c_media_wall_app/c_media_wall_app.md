@@ -4,7 +4,7 @@ seo-description: Create Media Walls with images, chat, video, and other streamin
 seo-title: Media Wall
 solution: Experience Manager
 title: Media Wall
-uuid: 5268b682-21d4-45fe-84fa-fe407f20e984
+uuid: d11c3893-9799-43d5-9dfe-dc03cf62fb5c
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: These options apply for any stream rules from all social networ
 seo-title: Stream Rule Options for All Stream Rules
 solution: Experience Manager
 title: Stream Rule Options for All Stream Rules
-uuid: b49dcc9f-0075-4bdf-b895-112e4957309f
+uuid: 51023508-97ba-4138-9ae5-f5bc12c9921f
 index: y
 internal: n
 snippet: y

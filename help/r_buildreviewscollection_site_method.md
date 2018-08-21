@@ -4,7 +4,7 @@ seo-description: Returns a Collection object instantiated as a Reviews type. Run
 seo-title: buildReviewsCollection Site Method
 solution: Experience Manager
 title: buildReviewsCollection Site Method
-uuid: 653ef0e8-6d46-45d7-aeff-faba0f6562d2
+uuid: 8f0811cc-54ef-4242-8614-aa49acd02414
 index: y
 internal: n
 snippet: y

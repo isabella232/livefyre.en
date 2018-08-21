@@ -4,7 +4,7 @@ seo-description: Count the number of curated social items.
 seo-title: Social Counter
 solution: Experience Manager
 title: Social Counter
-uuid: b81f9704-6680-4325-9aee-fec86aafb84a
+uuid: 47608181-7ec6-4a69-8e69-36fe23924f8d
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Point a stream to a Storify 2 story.
 seo-title: Use Streams to Add Social Content to your Story
 solution: Experience Manager
 title: Use Streams to Add Social Content to your Story
-uuid: 5cc6eeac-9ca4-4b8b-a76d-ca1fa905b3a5
+uuid: 9cabfab4-c8b0-479a-ac8f-90df8202662c
 index: y
 internal: n
 snippet: y

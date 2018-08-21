@@ -4,7 +4,7 @@ seo-description: Click on any user to view details about the account.
 seo-title: Viewing Account Details
 solution: Experience Manager
 title: Viewing Account Details
-uuid: 65510ba1-72a5-4fbd-b006-e02c517b2a52
+uuid: bd51505a-dd14-47f0-9799-f750e65eb9fa
 index: y
 internal: n
 snippet: y

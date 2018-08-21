@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Send Twitter Rights Request from ModQ
 solution: Experience Manager
 title: Send Twitter Rights Request from ModQ
-uuid: c8313606-8445-4b9f-bb77-0c4cb3df1b10
+uuid: eb6383c2-1c30-4089-854f-abd8090d1f7d
 index: y
 internal: n
 snippet: y

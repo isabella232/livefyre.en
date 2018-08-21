@@ -4,7 +4,7 @@ seo-description: Returns a Collection object instantiated as a Sidenotes type. R
 seo-title: buildSitenotesCollection Site Method
 solution: Experience Manager
 title: buildSitenotesCollection Site Method
-uuid: 3de34ecd-f9e7-4bbd-b966-aea49d3ab9c5
+uuid: c0c56d52-e1dc-45a8-99a3-dba2733a322c
 index: y
 internal: n
 snippet: y

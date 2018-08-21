@@ -4,7 +4,7 @@ seo-description: Moderate and filter content gathered from streams or pre-define
 seo-title: Moderation and Filtering
 solution: Experience Manager
 title: Moderation and Filtering
-uuid: a4dad56c-e9be-4002-82de-9e2dfc47e60c
+uuid: f4b862f4-cfdc-4ae0-a42a-b543f2113c3c
 index: y
 internal: n
 snippet: y

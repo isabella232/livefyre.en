@@ -2,7 +2,7 @@
 seo-title: Embed an App
 solution: Experience Manager
 title: Embed an App
-uuid: 8d5dcf85-4ece-4bcd-b1f9-c37f3fdab760
+uuid: 1c6ce724-ec6d-4e62-919b-849b4cd34709
 index: y
 internal: n
 snippet: y

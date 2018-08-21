@@ -4,7 +4,7 @@ seo-description: You can style your Livefyre Apps to behave in various ways or c
 seo-title: Styling Features
 solution: Experience Manager
 title: Styling Features
-uuid: 5c028304-e05f-402b-b0ee-3d2dc0fd8c65
+uuid: 1e825f11-0021-4d06-80c2-907ae1b4c9bd
 index: y
 internal: n
 snippet: y

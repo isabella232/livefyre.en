@@ -4,7 +4,7 @@ seo-description: Livefyre provides several user types with varying levels of per
 seo-title: User Roles and Permissions
 solution: Experience Manager
 title: User Roles and Permissions
-uuid: e2f4caec-af64-4f86-897a-ebff9bbad68e
+uuid: b2696180-baf8-4706-af55-b2122d3a576d
 index: y
 internal: n
 snippet: y

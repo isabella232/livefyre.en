@@ -4,7 +4,7 @@ seo-description: Choose how site visitors interact with Apps and in what ways th
 seo-title: On-Site Contribution Features
 solution: Experience Manager
 title: On-Site Contribution Features
-uuid: 6c755eac-efbd-4d0e-9ac6-152b8e644f46
+uuid: 12ee9006-8f54-418b-b466-465ea4bcbaf3
 index: y
 internal: n
 snippet: y

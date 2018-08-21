@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Map app.
 seo-title: Trending Customizations
 solution: Experience Manager
 title: Trending Customizations
-uuid: f5bae64f-f908-4eb9-93ed-646798e6dead
+uuid: 8d96cb51-906c-4d27-9de1-3e22a2c6333c
 index: y
 internal: n
 snippet: y

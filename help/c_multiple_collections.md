@@ -4,7 +4,7 @@ seo-description: Showcase multiple Collections on a single page.
 seo-title: Multiple Collections
 solution: Experience Manager
 title: Multiple Collections
-uuid: 331d9869-16ee-4789-bafb-22f431c65cb5
+uuid: 753340c2-5f23-435b-9491-a4ef313b5276
 index: y
 internal: n
 snippet: y

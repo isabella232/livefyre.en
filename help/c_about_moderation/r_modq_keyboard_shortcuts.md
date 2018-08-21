@@ -3,7 +3,7 @@ description: The following keyboard shortcuts are available to moderators in Mod
 seo-description: The following keyboard shortcuts are available to moderators in ModQ.
 seo-title: ModQ Keyboard Shortcuts
 title: ModQ Keyboard Shortcuts
-uuid: 7a68d8fd-de9c-4b12-ae00-35df2a9287a0
+uuid: 7618a59f-a49a-48a7-b78b-15bcaae39697
 index: y
 internal: n
 snippet: y

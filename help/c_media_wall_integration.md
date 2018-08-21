@@ -4,7 +4,7 @@ seo-description: Create a media wall, with content streaming in real-time.
 seo-title: Media Wall
 solution: Experience Manager
 title: Media Wall
-uuid: 56600c34-cc34-445e-8936-e596eb9f5ee2
+uuid: 18d05fe2-7251-4b62-88e9-eb73d52a9286
 index: y
 internal: n
 snippet: y

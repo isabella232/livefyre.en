@@ -4,7 +4,7 @@ seo-description: Track clicks back to your page from referral traffic.
 seo-title: Referral Tracking
 solution: Experience Manager
 title: Referral Tracking
-uuid: d61033b4-59be-456d-baed-28e9dfa796f7
+uuid: 7f09cffe-9509-4b51-95fe-2b9aa021df1e
 index: y
 internal: n
 snippet: y

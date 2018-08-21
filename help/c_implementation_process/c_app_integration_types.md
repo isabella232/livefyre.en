@@ -4,7 +4,7 @@ seo-description: null
 seo-title: App Integration Types
 solution: Experience Manager
 title: App Integration Types
-uuid: 676f9864-d977-4f81-81f5-4fcabb246a0e
+uuid: 441abd5b-dbad-4b1e-b573-b087b8817a7c
 index: y
 internal: n
 snippet: y

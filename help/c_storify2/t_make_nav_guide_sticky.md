@@ -4,7 +4,7 @@ seo-description: Choose to make the Navigation Guide stick to a specific area of
 seo-title: Make the Navigation Guide Sticky
 solution: Experience Manager
 title: Make the Navigation Guide Sticky
-uuid: 97fc804d-a6c3-4881-9d57-a955612b44cd
+uuid: 575d1571-bec9-4c05-a627-856ba2275f22
 index: y
 internal: n
 snippet: y

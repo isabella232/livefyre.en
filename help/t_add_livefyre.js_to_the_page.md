@@ -3,7 +3,7 @@ description: Livefyre.js is a small base library that provides authentication fo
 seo-description: Livefyre.js is a small base library that provides authentication for Apps on your site.
 seo-title: Add Livefyre.js to the Page
 title: Add Livefyre.js to the Page
-uuid: 3e9ec973-e3f7-4a97-9db6-9fcaf0e6ff2f
+uuid: 7498a654-6c0e-4470-ab70-071097303174
 index: y
 internal: n
 snippet: y

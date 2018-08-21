@@ -4,7 +4,7 @@ seo-description: Importing Chat and Comment data into Livefyre.
 seo-title: Importing Content
 solution: Experience Manager
 title: Importing Content
-uuid: ad82cd38-4b3e-4826-bb2a-fc288236100f
+uuid: f367b93e-8218-4f3a-9732-cd198f4fe534
 index: y
 internal: n
 snippet: y

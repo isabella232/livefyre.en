@@ -4,7 +4,7 @@ seo-description: You can choose whether and how your site visitors to log in to 
 seo-title: Authentication Features
 solution: Experience Manager
 title: Authentication Features
-uuid: e3f02efa-ede8-4e43-b4c3-45f7c4887d24
+uuid: bb193436-b371-4969-867d-8f21ecb9f1e1
 index: y
 internal: n
 snippet: y

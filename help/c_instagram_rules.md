@@ -3,7 +3,7 @@ description: You can create Stream rules that pull content from Instagram.
 seo-description: You can create Stream rules that pull content from Instagram.
 seo-title: Instagram Rules
 title: Instagram Rules
-uuid: 8172e3dd-f76e-42b2-b352-78ab6ed90d9c
+uuid: 8747a868-799a-4999-8c1c-854b50c7e58f
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Localize a Carousel
 solution: Experience Manager
 title: Localize a Carousel
-uuid: 1646948f-a518-40ac-a548-93e5ae5cc973
+uuid: fe4c9562-bd85-4c24-bb03-897770177ae3
 index: y
 internal: n
 snippet: y

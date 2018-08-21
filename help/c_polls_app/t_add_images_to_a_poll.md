@@ -4,7 +4,7 @@ seo-description: Add visual interest to your poll by adding images.
 seo-title: Add Images to a Poll
 solution: Experience Manager
 title: Add Images to a Poll
-uuid: cfaf6f10-cee5-4b7c-927c-f3f544dda4c5
+uuid: 169b6eaa-0be6-461b-9c29-d7fe8206330e
 index: y
 internal: n
 snippet: y

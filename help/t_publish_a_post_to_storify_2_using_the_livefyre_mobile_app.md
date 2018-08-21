@@ -4,7 +4,7 @@ seo-description: Publish a post from your mobile device to engage your users wit
 seo-title: Publish a Post to Storify 2 Using the Livefyre Mobile App
 solution: Experience Manager
 title: Publish a Post to Storify 2 Using the Livefyre Mobile App
-uuid: a17e83c2-df21-4110-9841-de7e480bbed0
+uuid: d7d613c6-1627-405b-8731-1b969e9d040b
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: Allow your clients to voice their opinions in real time.
 seo-title: Polls
 solution: Experience Manager
 title: Polls
-uuid: a11648d7-abd6-4c72-b76c-3b6d6516c789
+uuid: 26c5d57f-8f1b-4e4c-b135-ad3c0b4ac9ab
 index: y
 internal: n
 snippet: y

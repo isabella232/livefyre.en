@@ -4,7 +4,7 @@ seo-description: Delete media you added to a Storify 2 post from the Livefyre Mo
 seo-title: Delete Media from a Post Using the Livefyre Mobile App
 solution: Experience Manager
 title: Delete Media from a Post Using the Livefyre Mobile App
-uuid: be04540f-1dbe-4ee9-8a0f-29460286a553
+uuid: a4f997dd-602e-42f5-b6b0-4c37f2693eff
 index: y
 internal: n
 snippet: y

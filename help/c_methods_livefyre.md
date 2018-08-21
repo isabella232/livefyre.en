@@ -4,7 +4,7 @@ seo-description: Language bindings for Livefyre’s server-side library methods.
 seo-title: Classes and Methods
 solution: Experience Manager
 title: Classes and Methods
-uuid: 622be2a5-fdd4-4631-a6d0-fb015bdf7f63
+uuid: 6e642ece-236a-4c8f-b5e2-7def188640b2
 index: y
 internal: n
 snippet: y

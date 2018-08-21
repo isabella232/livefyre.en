@@ -4,7 +4,7 @@ seo-description: Returns the encrypted collectionMeta token for this Collection.
 seo-title: buildCollectionMetaToken Collection Method
 solution: Experience Manager
 title: buildCollectionMetaToken Collection Method
-uuid: 16417096-946b-44e7-99e7-99155f2203eb
+uuid: d5c31e93-256d-461c-ab94-40d55b9891e8
 index: y
 internal: n
 snippet: y

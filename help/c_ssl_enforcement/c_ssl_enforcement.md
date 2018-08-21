@@ -4,7 +4,7 @@ seo-description: null
 seo-title: SSL Enforcement
 solution: Experience Manager
 title: SSL Enforcement
-uuid: 16972a28-23fb-4268-92eb-f453bf9b5251
+uuid: 4a13db55-d4e6-48b4-b92b-e37aa2f32564
 index: y
 internal: n
 snippet: y

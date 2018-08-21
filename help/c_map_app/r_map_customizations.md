@@ -4,7 +4,7 @@ seo-description: Change the size, width, and interaction options of the Map app.
 seo-title: Map Customizations
 solution: Experience Manager
 title: Map Customizations
-uuid: 1a8c7629-e471-4db9-b24d-2cc714cfb7cc
+uuid: 9adb00cd-f308-49ef-9054-322665aaf375
 index: y
 internal: n
 snippet: y

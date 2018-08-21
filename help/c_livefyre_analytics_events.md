@@ -4,7 +4,7 @@ seo-description: null
 seo-title: Livefyre Analytics Events
 solution: Experience Manager
 title: Livefyre Analytics Events
-uuid: 8f59dd15-e60d-49c2-8e08-3779cf25bd5c
+uuid: a629f8a5-31ae-4cfd-9db3-b60ce7662631
 index: y
 internal: n
 snippet: y

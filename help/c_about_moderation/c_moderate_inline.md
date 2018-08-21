@@ -3,7 +3,7 @@ description: Moderate content that comes from a Stream using the Library.
 seo-description: Moderate content that comes from a Stream using the Library.
 seo-title: Moderate Content from a Stream
 title: Moderate Content from a Stream
-uuid: d7a342b8-d0f2-4081-9f4f-11f36c450417
+uuid: 78fb96b5-a61a-4914-a5e2-77e19eb466cf
 index: y
 internal: n
 snippet: y

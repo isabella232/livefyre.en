@@ -4,7 +4,7 @@ seo-description: You can modify these text strings for the Upload Button.
 seo-title: Upload Button Text Strings
 solution: Experience Manager
 title: Upload Button Text Strings
-uuid: 0ea28880-8dc5-45f6-aa2d-2bfcf8582088
+uuid: 5e3c6f53-52d6-40af-a211-0335d797422d
 index: y
 internal: n
 snippet: y

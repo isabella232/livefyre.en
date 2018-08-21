@@ -4,7 +4,7 @@ seo-description: Enable the Livefyre Identity package to allow your users to log
 seo-title: Enable Livefyre Identity
 solution: Experience Manager
 title: Enable Livefyre Identity
-uuid: f83b1ae9-3ec3-4412-8e91-2bf883819c09
+uuid: 74c791cb-2d46-4d3f-9643-2d12a15a5a3a
 index: y
 internal: n
 snippet: y

@@ -4,7 +4,7 @@ seo-description: To add an App to your site, you must first create an App in Liv
 seo-title: Create an App
 solution: Experience Manager
 title: Create an App
-uuid: 03180e3e-c1b4-4447-af68-bc55fc0ab0e4
+uuid: 7e7e811d-dd21-4546-9159-ab3b466bedd0
 index: y
 internal: n
 snippet: y

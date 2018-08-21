@@ -4,7 +4,7 @@ seo-description: To feature content, you must first enable the Enable Featured C
 seo-title: Enable Featuring Content in Studio
 solution: Experience Manager
 title: Enable Featuring Content in Studio
-uuid: fe6a3655-9079-4f59-837a-daf3ae8243a2
+uuid: 5ce0d110-0250-4351-944e-c003c3135b35
 index: y
 internal: n
 snippet: y

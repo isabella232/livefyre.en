@@ -4,7 +4,7 @@ seo-description: Release Notes for the November 16, 2017 release.
 seo-title: November 16, 2017
 solution: Experience Manager
 title: November 16, 2017
-uuid: 4d485ed2-5d66-4550-89ea-061d14c66e1d
+uuid: 8ffffd6d-54d8-4ad7-b12a-ce1ccb790409
 index: y
 internal: n
 snippet: y

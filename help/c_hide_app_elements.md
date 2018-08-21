@@ -4,7 +4,7 @@ seo-description: Remove standard Livefyre App components from your App.
 seo-title: Hide App Elements
 solution: Experience Manager
 title: Hide App Elements
-uuid: d1d745bb-2093-4a7c-8d98-6b5f0d65c0bf
+uuid: 4cbc9189-b994-447c-967c-6c10a0c881f1
 index: y
 internal: n
 snippet: y

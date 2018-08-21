@@ -4,7 +4,7 @@ seo-description: You can use Livefyre Identity with Twitter to allow users to us
 seo-title: Create a Twitter App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Twitter App for Use with Livefyre Identity
-uuid: a3b9729b-ebb3-4c94-abae-1f08d83d1dde
+uuid: 010bc268-84f7-440f-bb32-04250792cece
 index: y
 internal: n
 snippet: y
@@ -27,3 +27,4 @@ To create a Twitter App for use with Livefyre Identity:
 >    * Select **[!UICONTROL  Allow this application to be used to Sign in with Twitter]**.
 >    
 >1. From the **[!UICONTROL  Permissions]** tab, select **[!UICONTROL  Access: Read only]**.
+>When complete, Twitter’s Application Management &amp;gt; Keys and Access Tokens page will list the app’s Consumer Key (API Key) and Consumer Secret (API Secret) for use in Studio’s Integration Settings page. 

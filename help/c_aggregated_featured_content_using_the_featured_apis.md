@@ -4,7 +4,7 @@ seo-description: Livefyre provides four Featured APIs, allowing you to retrieve 
 seo-title: Aggregated Featured Content using the Featured APIs
 solution: Experience Manager
 title: Aggregated Featured Content using the Featured APIs
-uuid: 384d8fc5-1fcd-4813-8d3c-c7c0b7d09ce5
+uuid: 843ff90c-68cd-4db5-9992-32f359acb265
 index: y
 internal: n
 snippet: y

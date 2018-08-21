@@ -3,7 +3,7 @@ description: Moderate content from a single, intelligent interface.
 seo-description: Moderate content from a single, intelligent interface.
 seo-title: Moderate Content Using ModQ
 title: Moderate Content Using ModQ
-uuid: 9e895200-1c4d-4bf3-a8a2-7841b4f00d0f
+uuid: 6deae29c-9834-4a53-a89e-f6c57ff2a098
 index: y
 internal: n
 snippet: y
