@@ -1,0 +1,60 @@
+---
+description: Click on any user to view details about the account.
+seo-description: Click on any user to view details about the account.
+seo-title: Viewing Account Details
+solution: Experience Manager
+title: Viewing Account Details
+uuid: a73a3934-1a42-476e-a02e-c2833c9922fd
+index: y
+internal: n
+snippet: y
+translate: y
+---
+
+# Viewing Account Details
+
+Click on any user to view details about the account.
+
+On this page:
+
+* [](#c_viewing_account_details/section_mpn_ttp_vz) 
+* [](#c_viewing_account_details/section_vk2_stp_vz) 
+* [](#c_viewing_account_details/section_yhn_rtp_vz) 
+* [](#c_viewing_account_details/section_l5b_5gr_vdb) 
+* [](#c_viewing_account_details/section_kr4_ptp_vz)
+
+## Profile {#section_mpn_ttp_vz}
+
+The Profile page provides user account information, including the date the account was created, the User ID and email address associated with it, a list of all user activity for the account, and a list of any associated User Tags, Bans, or Whitelists.
+
+>[!NOTE]
+>
+>This information is available only to Studio Administrators, Studio Managers, and User Managers. To block your users’ IP and email addresses from this view, contact your Livefyre Technical Account Manager.
+
+![](assets/UsersProfile-1024x699.png) 
+
+## User Tags {#section_vk2_stp_vz}
+
+Add User Tags to accounts both to more easily search for tagged users, and to stylistically differentiate tagged users’ content from other’s on your site.
+
+For more information on on using User Tags to style the user’s content differently than other content on the site, see **[!UICONTROL App Customizations > Style User Group Content]**.
+
+>[!NOTE]
+>
+>User Tags are not case sensitive, and may contain spaces.
+
+## Status {#section_yhn_rtp_vz}
+
+The Status section lists any Bans or Whitelists associated with the Account, and allows you to add the account to any existing Network or Site Bans and Whitelists.
+
+## Banning Users {#section_l5b_5gr_vdb}
+
+If a user is posting inappropriate or spam comments on an article or across your site, you may choose to ban the user from your network. Once banned, all content posted by the user will be automatically set to the ***Bozo*** state, and will be visible only to the posting user. Banned users are able to log into the stream, post comments, and view their content in the App. Banned users will believe that they are still part of the conversation. However, no other user on your site will be able to see this content.
+
+Because their content is now Bozo’d, banned users may continue to post inappropriate content, but it will no longer be visible to the rest of your community.
+
+For more information, please see **[!UICONTROL Studio > App Content > Bozo Content]**.
+
+## Whitelisting Users {#section_kr4_ptp_vz}
+
+Whitelisting Users allows them to post directly to your Apps. Content posted by whitelisted users will not pass through Livefyre’s SAFE, profanity, or premoderation filters, and will be automatically approved and added to the App.
