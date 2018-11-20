@@ -1,8 +1,7 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: livefyre
+user-guide: Livefyre user guide
 ---
 
 # Table of Contents
