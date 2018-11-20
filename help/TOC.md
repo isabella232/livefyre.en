@@ -6,18 +6,22 @@ user-guide: Livefyre user guide
 
 # Table of Contents
 
++ Introduction to Livefyre {#introduction}
 + [Create an App](c_create_an_app.md)
-+ [Carousel](c_carousel_app/c_carousel_app.md)
-    + [Carousel Features](c_carousel_app/r_carousel_features.md)
-    + [Create a Carousel Using Studio](c_carousel_app/t_create_carousel_using_studio.md)
-    + [Customize a Carousel Using Studio](c_carousel_app/t_customize_carousel_studio.md)
-    + [Localize a Carousel](c_carousel_app/t_localize_carousel.md)
-+ [Chat](c_chat_app/c_chat_app.md)
-    + [Chat Customizations](c_chat_app/r_customize_chat.md)
-    + [Chat Features](c_chat_app/r_chat_features.md)
-+ [Comments](c_comments/c_comments.md)
-    + [Comments Features](c_comments/r_comments_features.md)
-    + [Comments Customizations](c_comments/r_comments_customizations.md)
++ Using Carousels {#using-carousels} 
+  + [Carousel](c_carousel_app/c_carousel_app.md)
+  + [Carousel Features](c_carousel_app/r_carousel_features.md)
+  + [Create a Carousel Using Studio](c_carousel_app/t_create_carousel_using_studio.md)
+  + [Customize a Carousel Using Studio](c_carousel_app/t_customize_carousel_studio.md)
+  + [Localize a Carousel](c_carousel_app/t_localize_carousel.md)
++ Chat {#chat}
+  + [Chat](c_chat_app/c_chat_app.md)
+  + [Chat Customizations](c_chat_app/r_customize_chat.md)
+  + [Chat Features](c_chat_app/r_chat_features.md)
++ Comments {#commments}
+  + [Comments](c_comments/c_comments.md)
+  + [Comments Features](c_comments/r_comments_features.md)
+  + [Comments Customizations](c_comments/r_comments_customizations.md)
 + [Feature Card](c_feature_card_app/c_feature_card_app.md)
     + [Feature Card Customizations](c_feature_card_app/r_feature_card_customizations.md)
 + [Filmstrip](c_filmstrip_app/c_filmstrip_app.md)
