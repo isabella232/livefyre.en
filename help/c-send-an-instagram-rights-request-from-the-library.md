@@ -1,0 +1,42 @@
+---
+description: You can request the right to reuse an Instagram asset you obtained from a search or stream by author (business account) using a partially-automated workflow.
+seo-description: You can request the right to reuse an Instagram asset you obtained from a search or stream by author (business account) using a partially-automated workflow.
+seo-title: Send a Partially-Automated Instagram Rights Request
+solution: Experience Manager
+title: Send a Partially-Automated Instagram Rights Request
+uuid: ee5b3a8f-48a2-4161-b8df-26d6f3e638eb
+index: y
+internal: n
+snippet: y
+---
+
+# Send a Partially-Automated Instagram Rights Request{#send-a-partially-automated-instagram-rights-request}
+
+You can request the right to reuse an Instagram asset you obtained from a search or stream by author (business account) using a partially-automated workflow.
+
+Before you can send a partially-automated rights request you must:
+
+* Add an Instagram business account. For more information on how to configure an Instagram business account, see [](t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+* Set up Rights Management. For more information on how to set up rights management, see [](c_how_requesting_rights_works.md#c_how_requesting_rights_works).
+
+To request rights from Instagram for a search or stream by business account author using a partially-automated workfrlow:
+
+1. Open the **[!UICONTROL Rights options]** window.
+1. Select the account to use to request rights. The account must be an Instagram business account.
+1. (Optional) Edit the request message. If the message is missing an element or a required element is misspelled, an error message displays that specifies the incorrect or missing information.
+1. Click **[!UICONTROL Copy]** to copy the text in the box to your clipboard.
+
+   ![](assets/rr_insta_workaround1.png)
+
+   Livefyre automatically copies the text from the box to the clipboard and displays a message confirming that you have copied the text.
+
+1. Click on the link in the confirmation message to open the post that contains the asset to which you are requesting rights.
+
+   ![](assets/rr_insta_workaround2.png)
+
+   Livefyre opens the post in Instagram.
+
+1. Paste the copied rights request text into the Instagram post on Instagram.
+1. When the user responds, Livefyre automatically grants rights to the piece of content in Livefyre.
+
+Livefyre tracks when you send the rights request, when a user responds, and when the asset rights are granted.

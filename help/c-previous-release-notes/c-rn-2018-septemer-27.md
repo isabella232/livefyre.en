@@ -1,0 +1,85 @@
+---
+description: Release Notes for the September 27, 2018 release.
+seo-description: Release Notes for the September 27, 2018 release.
+seo-title: September 27, 2018
+solution: Experience Manager
+title: September 27, 2018
+uuid: 93c2d8c1-1de8-457e-8e2d-f3e40d9f4d1c
+index: y
+internal: n
+snippet: y
+---
+
+# September 27, 2018{#september}
+
+Release Notes for the September 27, 2018 release.
+
+## New Features {#section_syx_mdt_wcb}
+
+The following new features were released in the production version of this release:
+
+* Added the ability to add an audio file as a card displaying that it is an audio file to the following apps: Media Wall, Carousel, Feature Card, Mosaic, Filmstrip, Storify 2, Comments, Liveblog, and Livechat.
+
+## Issues {#section_ehw_ndt_wcb}
+
+The issues in the following tables were resolved in the production version of this release. 
+
+#### Production Release
+<table id="table_nzp_wrk_hfb">  
+ <thead> 
+  <tr> 
+   <th class="entry"> <b>Issue Type</b> </th> 
+   <th class="entry"> <b>Component</b> </th> 
+   <th class="entry"> <b>Release Note</b> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td> Bug </td> 
+   <td> Comments </td> 
+   <td> Fixed an issue where Comments did not work as expected in a Mobile browser. </td> 
+  </tr> 
+  <tr> 
+   <td> Bug </td> 
+   <td> Media Wall </td> 
+   <td> Fixed an issue where images and text were not being published as expected to a media wall via a stream hashtag. </td> 
+  </tr> 
+  <tr> 
+   <td> Bug </td> 
+   <td> Media Wall </td> 
+   <td> Fixed an issue where uploaded video was not playable in a Media Wall, even though it was playable in the Asset Library. </td> 
+  </tr> 
+  <tr> 
+   <td> Bug </td> 
+   <td> Storify </td> 
+   <td> Fixed an issue where Storify 2 likes did not work on secure domains. </td> 
+  </tr> 
+  <tr> 
+   <td> Bug </td> 
+   <td> Streams </td> 
+   <td> Fixed an issue where default NSFW filters were not added when the NSFW filter feature was disabled and the default NSFW filters were added when the NSFW feature was enabled. </td> 
+  </tr> 
+  <tr> 
+   <td> Story </td> 
+   <td> Streams </td> 
+   <td> <p>Made the following updates for Facebook Page streams: </p> 
+    <ul id="ul_qmf_j5k_hfb"> 
+     <li id="li_ED15E9ED743443F1A60E31E255E6EEA0"> Increased the time Apps sleep once they hit the API rate limit from one minute to one hour. </li> 
+     <li id="li_4650627EECC9494C814599AF2D15F4C3">Increased the time that pages and posts are submitted for processing from 10 minutes to one hour. </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## UAT Release {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
+
+The issues in the following tables were resolved in the UAT version of this release.
+
+<a id="section_5B8D1FD3834C47649CD5B93EEE53FACD"></a>
+
+#### UAT Release
+|  **Issue Type** | **Component** | **Release Note** |
+|---|---|---|
+|  Bug  | AEM  | Fixed an issue where tweets imported into AEM Assets via Livefyre had broken links.  |
+|  Enhancement  | Library  | Added the ability to filter videos in the Library by video tags.  |
+

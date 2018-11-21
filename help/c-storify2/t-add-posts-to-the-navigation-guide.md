@@ -1,0 +1,20 @@
+---
+description: Add posts to the Navigation Guide in Storify 2.
+seo-description: Add posts to the Navigation Guide in Storify 2.
+seo-title: Add Posts to the Navigation Guide
+solution: Experience Manager
+title: Add Posts to the Navigation Guide
+uuid: aa6a830a-a297-4fec-a75d-41477b6ab84b
+index: y
+internal: n
+snippet: y
+---
+
+# Add Posts to the Navigation Guide{#add-posts-to-the-navigation-guide}
+
+Add posts to the Navigation Guide in Storify 2.
+
+1. Write a post in Storify 2.
+1. Write a header for the post. You cannot display Navigation Highlights for a post until you add a header.
+1. Click the **[!UICONTROL Navigation Guide]** icon on the post to add it to the Navigation Guide.
+1. Confirm that you want to add the post to the Navigation Guide.
