@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: livefyre
+audience: end-user
+user-guide-title: LiveFyre User Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# LiveFyre User Guide (#using)
 
 + User Guide
    + [Create an App](c-create-an-app.md)
