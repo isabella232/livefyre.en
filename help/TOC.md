@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: livefyre
+audience: end-user
+user-guide-title: LiveFyre User Guide
 ---
 
-# Table of Contents
+# LiveFyre User Guide (#using)
 
 + [Create an App](c_create_an_app.md)
 + [Carousel](c_carousel_app/c_carousel_app.md)
