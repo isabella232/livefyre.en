@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: livefyre
+audience: end-user
+user-guide-title: Adobe Livefyre User Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Adobe Livefyre User Guide {#user}
 
 + [Livefyre Help](home.md)
 + [Announcements](c-anouncements.md)
