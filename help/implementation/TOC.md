@@ -1,11 +1,10 @@
 ---
-cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: livefyre
+audience: end-user
+user-guide-title: Adobe Livefyre Implementation Guide
 ---
 
-# Table of Contents {#table-of-contents}
+# Adobe Livefyre Implementation Guide {#implementation}
 
 + [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
    + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
