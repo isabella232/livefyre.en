@@ -36,27 +36,27 @@ The following parameters are used in the Ratings and Reviews import process.
 
 **Required fields**
 
-* ** source:** **(required) string **The site on which the Review originated.
+* ** source:** ***required* string **The site on which the Review originated.
 
-* ** title:** **(required) string **The title for the Collection to which the Review was posted.
+* ** title:** ***required* string **The title for the Collection to which the Review was posted.
 
-* ** created:** **(required) timestamp **The ISO-8601 compliant timestamp for the moment the Collection in which the Review was posted was created. For example: “2010-07-05T23:01:15Z”
+* ** created:** ***required* timestamp **The ISO-8601 compliant timestamp for the moment the Collection in which the Review was posted was created. For example: “2010-07-05T23:01:15Z”
 
-* ** id (source):** **(required) string **The article ID you chose to uniquely identify a Collection within your site, encoded using Base64. This parameter is limited to 150 characters.
+* ** id (source):** ***required* string **The article ID you chose to uniquely identify a Collection within your site, encoded using Base64. This parameter is limited to 150 characters.
 
-* ** dimensions:** **(required) array** An array of strings for each type of dimension that this Collection will use. If this is not specified, only 1 dimension will be allowed.For example, to allow users to rate your product on ‘design’, ‘features’, and ‘performance’, set the array to: dimensions: [‘design’, ‘features’, ‘performance’]
+* ** dimensions:** ***required* array** An array of strings for each type of dimension that this Collection will use. If this is not specified, only 1 dimension will be allowed.For example, to allow users to rate your product on ‘design’, ‘features’, and ‘performance’, set the array to: dimensions: [‘design’, ‘features’, ‘performance’]
 
-* ** id (reviews):** **(required) string **Your system’s internal content identifier, used by the importer to relate children using their parent_id.
+* ** id (reviews):** ***required* string **Your system’s internal content identifier, used by the importer to relate children using their parent_id.
 
-* ** imported_display_name:** **(required) string **The display name of the user. This will be rendered with Livefyre content posted by the user.
+* ** imported_display_name:** ***required* string **The display name of the user. This will be rendered with Livefyre content posted by the user.
 
-* ** title:** **(required) string **User’s review title.
+* ** title:** ***required* string **User’s review title.
 
-* ** body_html:** **(required) string **The text string for the Review. Only tags <p> and <a>, and only the href attribute, are allowed.
+* ** body_html:** ***required* string **The text string for the Review. Only tags <p> and <a>, and only the href attribute, are allowed.
 
-* ** created:** **(required) timestamp **The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
+* ** created:** ***required* timestamp **The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
 
-* ** ratings:** **(required) array **An array of integers (from 1-100) which represent the author’s rating for each of your defined dimensions. The number of items in the array must equal the number of defined dimensions.
+* ** ratings:** ***required* array **An array of integers (from 1-100) which represent the author’s rating for each of your defined dimensions. The number of items in the array must equal the number of defined dimensions.
 
 **Optional fields**
 

@@ -38,7 +38,7 @@ The issues in the following tables were resolved in this release.
 |  Bug | UGC Commerce | Fixed an issue where the CTA "Shop" button did not display in a Mosaic or Filmstrip App or a products modal when hovering over a card with a product when the CTA button is enabled. |
 |  Enhancement | UGC Commerce | Fixed an issue where the UGC Commerce flag was set to "off" by default, instead of "on."  |
 
-<a id="section_e4q_bkl_tdb"></a>
+
 
 #### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |

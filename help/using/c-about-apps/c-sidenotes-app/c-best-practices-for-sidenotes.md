@@ -24,7 +24,7 @@ On this page:
 * [](#c_best_practices_for_sidenotes/section_lxv_1d4_sy) 
 * [](#c_best_practices_for_sidenotes/section_jxz_bd4_sy)
 
-<a id="section_egz_1sn_sy"></a>
+
 
 Sidenotes offers a fresh, new perspective on comments, allowing your community to engage *while*they read. Our goal with Sidenotes is to encourage your users to generate thoughtful and focused conversation around your content. Whether your readers want to agree, disagree or pose a question, they can Sidenote any part of your article — a paragraph, a sentence, a quote, or an image. Sidenotes are subtly woven into your content so readers can participate and engage in conversation as they consume your content.
 

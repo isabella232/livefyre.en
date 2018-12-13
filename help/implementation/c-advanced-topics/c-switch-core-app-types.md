@@ -5,9 +5,7 @@ seo-title: Switch Core App Types
 solution: Experience Manager
 title: Switch Core App Types
 uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Switch Core App Types{#switch-core-app-types}
@@ -20,7 +18,7 @@ To implement a specific type of App, add a new field to your `collectionMeta` ob
 
 ## Live Blog {#section_kvj_3jj_11b}
 
-**PHP Example**
+### PHP Example
 
 ```
 use LivefyreLivefyre; 
@@ -50,7 +48,7 @@ $convConfig = array(
 );
 ```
 
-**Python Example**
+### Python Example
 
 ```
 from livefyre import Livefyre 
@@ -80,7 +78,7 @@ conv_config = dict(
 )
 ```
 
-**Ruby Example**
+### Ruby Example
 
 ```
 require 'livefyre'  
@@ -111,7 +109,7 @@ conv_config = {
 
 ## Live Blog {#section_bqt_cjj_11b}
 
-**PHP Example**
+### PHP Example
 
 ```
 use LivefyreLivefyre; 
@@ -141,7 +139,7 @@ $convConfig = array(
 );
 ```
 
-**Python Example**
+### Python Example
 
 ```
 from livefyre import Livefyre 
@@ -171,7 +169,7 @@ conv_config = dict(
 )
 ```
 
-**Ruby Example**
+### Ruby Example
 
 ```
 require 'livefyre' 
@@ -203,7 +201,7 @@ conv_config = {
 
 ## Chat {#section_dqm_w3j_11b}
 
-**PHP**
+### PHP
 
 ```
 use LivefyreLivefyre; 
@@ -233,7 +231,7 @@ $convConfig = array(
 );
 ```
 
-**Python Example**
+### Python Example
 
 ```
 from livefyre import Livefyre 
@@ -262,7 +260,7 @@ conv_config = dict( "el" = "targetElement",
 )
 ```
 
-**Ruby Example**
+### Ruby Example
 
 ```
 require 'livefyre' 
@@ -291,4 +289,3 @@ conv_config = {
    :articleId => <ARTICLE ID> 
 }
 ```
-

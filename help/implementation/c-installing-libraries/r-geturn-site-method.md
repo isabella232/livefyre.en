@@ -25,7 +25,7 @@ site.getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1" 
 
 ```
 
@@ -39,7 +39,7 @@ site.getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1" 
 
 ```
 
@@ -53,7 +53,7 @@ $site->getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1" 
 
 ```
 
@@ -67,7 +67,7 @@ site.urn
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1" 
 
 ```
 
@@ -81,6 +81,6 @@ site.urn
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1"
+"urn:livefyre:network=`example.fyre.co`:site=1"
 ```
 

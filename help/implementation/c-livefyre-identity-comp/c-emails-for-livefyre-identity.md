@@ -12,7 +12,7 @@ snippet: y
 
 # Emails for Livefyre Identity{#emails-for-livefyre-identity}
 
-<a id="section_j4h_5hs_p1b"></a>
+
 
 Livefyre Identity sends the following emails:
 

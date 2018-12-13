@@ -12,9 +12,7 @@ snippet: y
 
 # Social Counter{#social-counter}
 
-Count the number of curated social items.
-
-For a complete list of available endpoints, please see the Livefyre [API Reference](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/) section.
+Count the number of curated social items. For a complete list of available endpoints, please see the Livefyre [API Reference](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/) section.
 
 The Social Counter API returns counts for matched curation rules in a given collection for intervals over a period of time.
 
@@ -34,21 +32,20 @@ Social Counter API:
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
 
-* ** networkName: ** Your Livefyre provided network name. For example: *labs* in labs.fyre.co.
-
-* ** query: ** The url-safe base64 encoded hash of all the site, article ID, rule-type tuples for which count information should be fetched (pre-encoded)
+* **networkName:** Your Livefyre provided network name. For example: *labs* in `labs.fyre.co`.
+* **query:** The url-safe base64 encoded hash of all the site, article ID, rule-type tuples for which count information should be fetched (pre-encoded)
 
   ```
   {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
   ```
 
-  **Note: **query is limited to 10 site, article ID, rule-type tuples. (The previous example would contain 3 tuples.)
+  >[!NOTE]
+  >Query is limited to 10 site, article ID, rule-type tuples. (The previous example would contain 3 tuples.)
 
-* ** from ** **(optional) **specifies the relative or absolute time period to graph; from specifies the beginning and defaults to 24 hours ago, if omitted.
+* **from** `(optional)` specifies the relative or absolute time period to graph; from specifies the beginning and defaults to 24 hours ago, if omitted.
+* **until** `(optional)` specifies the relative or absolute time period to graph; until specifies the beginning and defaults to the current time (now), if omitted.
 
-* ** until ** **(optional) **specifies the relative or absolute time period to graph; until specifies the beginning and defaults to the current time (now), if omitted.
-
-#### Relative Time
+### Relative Time
 |  Abbreviation  | Unit  |
 |---|---|
 |  s  | Seconds  |
@@ -92,7 +89,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 Example:
 
-To obtain counts over the last minute for site “123456” and article ID “some-article-id” and rule-type “2”, for example: 123456:some-article-id;2:
+To obtain counts over the last minute for site `123456` and article ID `some-article-id` and rule-type `2`, for example: `123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 
@@ -139,4 +136,3 @@ Example Response:
     } 
 }
 ```
-

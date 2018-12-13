@@ -29,7 +29,7 @@ Clicking **[!UICONTROL View Full Profile]** will take the user to the full profi
 >
 >Hovercards display information included with your User Profile system. Any fields not included in that system will not be displayed in the hovercards. If you do not have public profile pages, no page will be displayed. If you wish to disable Hovercards for your custom network, please contact your Technical Account Manager.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

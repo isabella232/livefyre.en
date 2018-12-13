@@ -61,7 +61,7 @@ By clicking **[!UICONTROL Share]** for a post:
 >
 >During your integration, you can determine which social networks are available for sharing by your users. You may also integrate a custom Permalink to allow for uniformity with your current media links.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

@@ -18,7 +18,8 @@ Livefyre integration is agnostic to any CMS and User Profile and Auth platform. 
 
 You can use traditional integration to create customized AEM components.
 
-#### CMS App Integration Type Overview
+## CMS App Integration Type Overview
+
 <table id="table_n4l_r4r_tz">  
  <thead> 
   <tr> 

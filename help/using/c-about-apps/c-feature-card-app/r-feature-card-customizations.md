@@ -14,7 +14,7 @@ snippet: y
 
 Change the size, width, and interaction options of the Map app.
 
-<a id="section_uds_gzm_5y"></a>
+
 
 <!-- 
 

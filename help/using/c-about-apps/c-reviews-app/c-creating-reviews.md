@@ -16,7 +16,7 @@ Reviews offers a broad range of customizations, allowing you to create a Review 
 
 Use the Reviews App by custom-embedding it on your site as a JS application. You cannot create a Reviews App in Livefyre Studio. To create a Reviews App on your site, see [](c_reviews_integration.md#c_reviews_integration).
 
-<a id="section_ECC226B117174AF7A0CD50E9A26EB2DA"></a>
+
 
 On this page:
 

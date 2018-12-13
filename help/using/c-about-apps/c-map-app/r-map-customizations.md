@@ -14,7 +14,7 @@ snippet: y
 
 Change the size, width, and interaction options of the Map app.
 
-<a id="section_kff_cbg_sy"></a>
+
 
 The following options are available from the Map app:
 

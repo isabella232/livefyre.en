@@ -33,7 +33,7 @@ Mouse over the comment space and the following moderation options display:
 * **[!UICONTROL Share:]** Opens a Share modal, which allows you to share to Facebook or Twitter, edit the text, and include a permalink to the content itself.
 * **[!UICONTROL Feature:]** Features the content.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

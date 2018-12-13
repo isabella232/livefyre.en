@@ -100,7 +100,7 @@ Streamed content may be sorted by age, newest first (default) or oldest first, b
 
 * **[!UICONTROL Collapsed View]**
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use User Posts:
 

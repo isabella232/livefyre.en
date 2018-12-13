@@ -5,12 +5,9 @@ seo-title: Creating a Checksum
 solution: Experience Manager
 title: Creating a Checksum
 uuid: 2dddedaa-7a6d-434a-8db8-dc179935f810
-index: y
-internal: n
-snippet: y
 ---
 
-# Creating a Checksum{#creating-a-checksum}
+# Creating a Checksum {#creating-a-checksum}
 
 Create a checksum using the Livefyre libraries.
 
@@ -81,4 +78,3 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 
 ```
-

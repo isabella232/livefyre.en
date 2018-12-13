@@ -112,7 +112,7 @@ Release Notes for January 12, 2017 release.
  </tbody> 
 </table>
 
-<a id="section_yrz_x42_wy"></a>
+
 
 #### UAT Release
 <table id="table_ywr_tl2_wy">  

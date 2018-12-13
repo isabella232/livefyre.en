@@ -14,7 +14,7 @@ snippet: y
 
 Run stress tests against the Livefyre platform.
 
-This document provides guidance on running stress tests against the Livefyre platform. Ad-hoc testing by customers without notification is strictly prohibited. For more on prohibited and allowed activities, see [](#c_stress_test_policy/section_mhs_bfz_vdb).
+This document provides guidance on running stress tests against the Livefyre platform. Ad-hoc testing by customers without notification is strictly prohibited. For more on [prohibited and allowed activities](#c_stress_test_policy/section_mhs_bfz_vdb).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ You may perform tests only if they meet the following requirements:
 * You must receive explicit, written approval from an Adobe Technical Consultant 3 weeks or more before you begin the test.
 * **You may only perform tests on the UAT Network.** 
 * You must test against realistic scenarios. For example, you may not assume that your property will service *millions* of post requests every day, because this is not a realistic scenario. If you need assistance determining whether your scenario is realistic or not, ask your Livefyre Customer Success Specialist or Adobe Technical Consultant.
-* Tests should be conducted during business hours for the Pacific Standard Time zone (UTC -7).
+* Tests should be conducted during business hours for the Pacific Standard Time zone \(UTC -7\).
 * You may need to produce data and your reasoning for the test.
 
 ## Governance {#section_mhs_bfz_vdb}

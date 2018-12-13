@@ -121,23 +121,23 @@ The following parameters are used in the Content import process.
 
 **Required**
 
-* ** source: ** **(required) string **The site on which the comment originated.
+* ** source: ** ***required* string **The site on which the comment originated.
 
-* ** title: ** **(required) string **The title for the Collection to which the comment was posted.
+* ** title: ** ***required* string **The title for the Collection to which the comment was posted.
 
-* ** created: ** **(required) timestamp **The ISO-8601 compliant timestamp for the moment the Collection in which the comment was posted was created. For example: “2010-07-05T23:01:15Z”
+* ** created: ** ***required* timestamp **The ISO-8601 compliant timestamp for the moment the Collection in which the comment was posted was created. For example: “2010-07-05T23:01:15Z”
 
-* ** id (source): ** **(required) string **The article ID you chose to uniquely identify a Collection within your Site, encoded using Base64. This parameter is limited to 150 characters.
+* ** id (source): ** ***required* string **The article ID you chose to uniquely identify a Collection within your Site, encoded using Base64. This parameter is limited to 150 characters.
 
-* ** id (comments): ** **(required) string **Your system’s internal content identifier, used by the importer to relate children using their `parent_id`.
+* ** id (comments): ** ***required* string **Your system’s internal content identifier, used by the importer to relate children using their `parent_id`.
 
-* ** imported_display_name: ** **(required) string **The name to display next to content. (Unicode characters may be used.)
+* ** imported_display_name: ** ***required* string **The name to display next to content. (Unicode characters may be used.)
 
-* ** author_id: ** **(required) string **The unique ID of the content’s author. (Unicode characters cannot be used for this parameter.)
+* ** author_id: ** ***required* string **The unique ID of the content’s author. (Unicode characters cannot be used for this parameter.)
 
-* ** body_html: ** **(required) string **The text string for the Comment. Only <p> and <a> tags, and the href attribute are allowed.
+* ** body_html: ** ***required* string **The text string for the Comment. Only <p> and <a> tags, and the href attribute are allowed.
 
-* ** created: ** **(required) timestamp **The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
+* ** created: ** ***required* timestamp **The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
 
 **Optional fields**
 

@@ -30,7 +30,7 @@ public class LivefyreExample {
   
 public static void main(String...args) { 
    //build a Network class 
-   Network network = Livefyre.getNetwork("example.fyre.co", "exampleprodbase64key"); 
+   Network network = Livefyre.getNetwork("`example.fyre.co`", "exampleprodbase64key"); 
   
    //update a Network's name and key 
    network.getData().setName("example-qa-fyre.co"); 
@@ -118,7 +118,7 @@ LivefyreExample.example = function example() {
    }; 
   
    //build a Network class 
-   var network = Livefyre.getNetwork("example.fyre.co", "exampleprodbase64key"); 
+   var network = Livefyre.getNetwork("`example.fyre.co`", "exampleprodbase64key"); 
   
    //update a Network's name and key 
    network.data.name = "example-qa-fyre.co"; 
@@ -207,7 +207,7 @@ use Livefyre\Livefyre;
 class LivefyreExample { 
    public function testBuildCollections() { 
       //build a Network class 
-      $network = Livefyre::getNetwork("example.fyre.co", "exampleprodbase64key"); 
+      $network = Livefyre::getNetwork("`example.fyre.co`", "exampleprodbase64key"); 
   
       //update a Network's name and key 
       $network->getData()->setName("example-qa-fyre.co"); 
@@ -288,7 +288,7 @@ from livefyre.src.exceptions import ApiException
 class LivefyreExample(object): 
    def run(self): 
       #build a Network class 
-      network = Livefyre.get_network('example.fyre.co', 'exampleprodbase64key') 
+      network = Livefyre.get_network('`example.fyre.co`', 'exampleprodbase64key') 
          
       #update a Network's name and key  
       network.data.name = 'example-qa-fyre.co' 
@@ -367,7 +367,7 @@ include Livefyre
 class LivefyreExample 
    def example 
       #build a Network class 
-      network = Livefyre::get_network('example.fyre.co', 'exampleprodbase64key') 
+      network = Livefyre::get_network('`example.fyre.co`', 'exampleprodbase64key') 
          
       #update a Network's name and key  
       network.data.name = 'example-qa-fyre.co' 

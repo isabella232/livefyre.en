@@ -24,12 +24,12 @@ Build the Ping for Pull response to transmit updated user information to Livefyr
  </thead>
  <tbody> 
   <tr> 
-   <td> String (required)</td> 
+   <td> String *required*</td> 
    <td> <span class="parmname"> id</span> </td> 
    <td> The user ID of the user in your profile system. This must be unique across all users in your Network, and must never change.</td> 
   </tr> 
   <tr> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> <span class="parmname"> display_name</span> </td> 
    <td> The display name of the user. This will be rendered with Livefyre Content posted by the user.</td> 
   </tr> 

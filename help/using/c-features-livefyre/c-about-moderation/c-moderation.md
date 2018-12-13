@@ -13,7 +13,7 @@ snippet: y
 
 The Livefyre Spam and Abuse Filtering Engine (SAFE), is a background process that analyzes all incoming content, and is enabled for all Livefyre customers.
 
-<a id="section_m1m_dtx_vy"></a>
+
 
 SAFE uses pattern rules as well as statistical models to detect spam, abuse, profanity, and bulk (repetitive) posts. You will see it referenced from time to time in other Livefyre products, notably the Content moderation tools and ModQ.
 
@@ -88,7 +88,7 @@ There are several means available to effectively handle content not caught by th
 
 If you notice trends or patterns of content not caught by SAFE, email your CSMs with the Comment IDs and text.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

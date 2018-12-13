@@ -5,12 +5,10 @@ seo-title: Change Collection
 solution: Experience Manager
 title: Change Collection
 uuid: 81c8a554-375f-4659-9e25-5b3618824633
-index: y
-internal: n
-snippet: y
+
 ---
 
-# Change Collection{#change-collection}
+# Change Collection {#change-collection}
 
 Allow users to click through Collections from a single page layout and URL.
 
@@ -18,7 +16,7 @@ Use the Change Collection Delegate to change the Collection shown on a page, wit
 
 For example, clicking a video or photo in a gallery will load a Collection specific to that selection, while the URL of the page will not change.
 
-To load one of three Collections from a single [](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count) page:
+To [load one of three Collections from a single page](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
 
 ```
 <html> 
@@ -60,4 +58,3 @@ Livefyre.require(['fyre.conv#prod'],function(Conv) {
 </body> 
 </html>
 ```
-

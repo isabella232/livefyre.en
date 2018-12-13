@@ -13,8 +13,6 @@ snippet: y
 
 Custom styles are applied through an object injected into the Sidenotes constructor.
 
-<a id="section_thp_wtv_sy"></a>
-
 The “keys” are object keys which represent DOM elements, while “properties” are supported CSS properties for the particular key. For example, to customize the style of the blockBtn (which is the button that launches the Sidenotes popover), one would construct an object such as:
 
 ```

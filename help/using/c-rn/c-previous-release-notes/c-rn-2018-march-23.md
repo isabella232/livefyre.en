@@ -38,7 +38,7 @@ The issues in the following tables were resolved in this release.
 |  Bug | ModQ | Fixed an issue with ModQ not loading properly. |
 |  Bug | ModQ | Fixed an issue where embedding audio caused ModQ to stop working. |
 
-<a id="section_csm_hmk_mdb"></a>
+
 
 #### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |

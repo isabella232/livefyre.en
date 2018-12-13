@@ -19,7 +19,7 @@ Once you create a network object, the rest of the page will assume that you have
 #### Network Object
 |  Parameter  | Type  | Description  |
 |---|---|---|
-|  *`network`* | String  | Your Livefyre network. For example: “labs.fyre.co”.  |
+|  *`network`* | String  | Your Livefyre network. For example: “`labs.fyre.co`”.  |
 |  *`networkKey`* | String  | The Livefyre-provided secret key for the network.  |
 
 ## Java {#section_myk_dzs_kbb}

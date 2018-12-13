@@ -37,7 +37,7 @@ If Comments has been embedded using the Livefyre WordPress Plugin, the user’s 
 
 For more information, see the WordPress Gravatar documentation.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

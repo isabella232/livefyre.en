@@ -11,8 +11,6 @@ snippet: y
 
 # Sidenotes Custom Strings{#sidenotes-custom-strings}
 
-<a id="section_bbp_g3y_ty"></a>
-
 Custom strings are applied through an object injected into the Sidenotes constructor, and override default strings used through the application. These may be used to customize any part of the language to fit your style or language specifications. Strings will automatically merge with defaults.
 
 ```
@@ -82,7 +80,7 @@ new Livefyre.Sidenotes({
 |  `notificationFlagged`  | Flagged  |
 |  `permalinkBackBtn`  | All  |
 |  `permalinkTitle`  | Permalink  |
-|  `questionExplanation`  | You can now read and write comments directly on sentences, paragraphs, images and quotes.<br><br><span class=”lf-highlight-text”>Highlight text</span> and click the <span class=”fycon-write”></span> icon or click the <span class=”fycon-action-view”></span> icon at the end of each paragraph.  |
+|  `questionExplanation`  | You can now read and write comments directly on sentences, paragraphs, images and quotes.<br><br>`Highlight text` and click the `”fycon-write”` icon or click the `”fycon-action-view”` icon at the end of each paragraph.  |
 |  `questionMockText`  | What is “familiarly known” is not properly known, just for the reason that it is “familiar”.  |
 |  `questionTitle`  | What is a Sidenote?  |
 |  `queuedCommentsPlural`  | {number} New Sidenotes  |
@@ -99,4 +97,3 @@ new Livefyre.Sidenotes({
 |  `threadExpandBtnPlural`  | Expand {number} Replies  |
 |  `threadExpandBtnSingular`  | Expand 1 Reply  |
 |  `threadReplyBtn`  | Reply to Conversation  |
-

@@ -31,7 +31,7 @@ This could impact Livefyre customers who have:
     * Custom Applications (Streamhub SDK or directly coded).
 
 1. Server to Server and Mobile HTTP Clients must support TLS 1.2
-1. Change hostnames from `{*}.<network>.fyre.co` to `<network>.{*}.fyre.co`. For example, the host name `example.network.fyre.co` changes to `network.example.fyre.co`. For example:
+1. Change hostnames from `{*}.<network>.fyre.co` to `<network>.{*}.fyre.co`. For example, the host name `example.network.fyre.co` changes to `network.`example.fyre.co``. For example:
 
     * `bootstrap.<network_name>.fyre.co` to `<network_name>.bootstrap.fyre.co`
     

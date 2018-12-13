@@ -5,12 +5,10 @@ seo-title: Enabling Social Sharing
 solution: Experience Manager
 title: Enabling Social Sharing
 uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
-index: y
-internal: n
-snippet: y
+
 ---
 
-# Enabling Social Sharing{#enabling-social-sharing}
+# Enabling Social Sharing {#enabling-social-sharing}
 
 Set up credentials that allow your users to share content to various social networks.
 
@@ -30,12 +28,10 @@ If you use a custom user identity system, you must provide your social credentia
 
 Use the Admin Console’s Integration Settings panel to enter or update the following social credentials.
 
-**Required Credentials:**
+### Required Credentials:
 
 * ** Facebook ** Client ID Client Secret OAuth Proxy Redirect
-
 * ** LinkedIn ** API Key API Secret
-
 * ** Twitter ** Access Token Access Token Secret API Key API Secret
 
 ## Twitter {#section_qp5_1yl_b1b}
@@ -49,7 +45,6 @@ You must:
 
 * Enter a value for the Callback URL field in the Twitter App. While this field may be a simple placeholder, it cannot be left blank.
 * Set the Application Type to have both **read** and **write** access.
-
 * Confirm that the Twitter App website URL is on the same host domain as the Livefyre Core app.
 
 >[!NOTE]
@@ -60,7 +55,7 @@ You must:
 
 LinkedIn credentials are available from the OAuth Keys section of your LinkedIn Application’s API Keys.
 
-* Sign into your account from LinkedIn’s Developers page ( [https://developer.linkedin.com/](https://developer.linkedin.com/)).
+* Sign into your account from LinkedIn’s Developers page [https://developer.linkedin.com/](https://developer.linkedin.com/).
 * Hover over your name in the top right, and select API Keys from the dropdown menu.
 * Click on the Application title.
 * Grab the API Key and Secret Key values from the OAuth Keys section
@@ -74,13 +69,16 @@ Facebook credentials are available from your Developer Apps page.
 
 Sharing to Facebook requires that you set up a redirect page to take Facebook requests and adhere to domain practices required by [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). The page must be hosted on your domain so Facebook can verify that the request came from a legitimate source.
 
-**Facebook Redirect**. The hosted page should include the following code:
+### Facebook Redirect
 
-Ruby
+The hosted page should include the following code:
 
-```
-# This is an example using Ruby and Rails to do the Facebook OAuth redirect. 
-  
+### Ruby
+
+This is an example using Ruby and Rails to do the Facebook OAuth redirect.
+
+```ruby
+ 
 require "base64" 
   
 class Controller < ActionController::Base 
@@ -113,11 +111,12 @@ class Controller < ActionController::Base
 end
 ```
 
-Python
+### Python
+
+This is an example using Python and Django to do the Facebook OAuth redirect. 
 
 ```
-# This is an example using Python and Django to do the Facebook OAuth redirect. 
-  
+ 
 import base64, re 
 from django.views.decorators.http import require_GET 
 from django.http.response import HttpResponseRedirect, HttpResponseBadRequest 
@@ -155,11 +154,13 @@ def handle_lfoauth(request):
     return HttpResponseRedirect(rdir)
 ```
 
-NodeJS
+### NodeJS
+
+This is an example using NodeJS and Sail/Express to do the Facebook OAuth redirect. 
 
 ```
 /* 
- * This is an example using NodeJS and Sail/Express to do the Facebook OAuth redirect. 
+ * 
  */ 
 var S = require('string'), 
      querystring = require('querystring'); 
@@ -198,11 +199,13 @@ module.exports = {
 };
 ```
 
-Java
+### Java
 
-```
+This is an example using Java and Spring controllers to do the Facebook OAuth redirect.
+
+```java
 /* 
- * This is an example using Java and Spring controllers to do the Facebook OAuth redirect. 
+ *  
  */ 
 import java.util.Collection; 
 import java.util.HashMap; 
@@ -262,9 +265,10 @@ public class RedirectController {
 }
 ```
 
-PHP
+### PHP
 
-```
+```php
+
 <?php 
 /* 
 Purpose: Provide a landing page for the last step of successful oAuth 
@@ -341,4 +345,3 @@ fyre.conv.load(networkConfig, [convConfig], function() {});
 * tw: Twitter
 * fb: Facebook
 * li: LinkedIn
-

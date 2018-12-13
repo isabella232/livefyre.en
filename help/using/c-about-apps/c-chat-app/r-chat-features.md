@@ -14,7 +14,7 @@ snippet: y
 
 Chat offers several features to encourage a rapid and engaging dialog.
 
-<a id="section_lm4_5zz_ry"></a>
+
 
 To encourage a rapid and engaging dialog, Chat differs from other Livefyre Apps in the following ways:
 

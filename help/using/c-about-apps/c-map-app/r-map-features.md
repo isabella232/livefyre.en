@@ -14,7 +14,7 @@ snippet: y
 
 The Map app offers these features for your site.
 
-<a id="section_bpw_1bg_sy"></a>
+
 
 * Content enters the map in real-time.
 * Content from the same area is clustered, and can be viewed in a Gallery modal.

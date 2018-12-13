@@ -16,11 +16,6 @@ Learn Livefyre conventions and how Livefyre organizes content.
 
 This section provides an overview of the Livefyre Network Architecture.
 
-* Networks and Sites Overview
-* Understanding Networks
-* Understanding Sites
-* App Sequence Diagram
-
 ## Networks and Sites Overview
 
 Livefyre organizes users and content by network and site. Every network may have one or more user accounts associated with it, and each network may include one or more Livefyre sites. A Livefyre site is an arbitrary grouping of Collections. One Collection maps to one article ID in your CMS.
@@ -62,4 +57,3 @@ Whether you’re looking to implement custom function with Livefyre provided end
    Reload your page with new content, and repeat the process indefinitely.
 
 1. If you allow users to post new content, trigger an event when new content is posted on your site to post the content to Livefyre. Livefyre will return an updated stream, which you can use to update your site.
-

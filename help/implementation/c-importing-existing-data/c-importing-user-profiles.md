@@ -58,9 +58,9 @@ The following parameters are used in the User Profile import process.
 
 **Required fields**
 
-* ** id:** **(required) string **The user ID of the user in your profile system. This must be unique across all users in your Network, and must never change.
+* ** id:** ***required* string **The user ID of the user in your profile system. This must be unique across all users in your Network, and must never change.
 
-* ** display_name:** **(required) string **The display name of the user. This will be rendered with Livefyre Content posted by the user.
+* ** display_name:** ***required* string **The display name of the user. This will be rendered with Livefyre Content posted by the user.
 
 **Optional fields**
 

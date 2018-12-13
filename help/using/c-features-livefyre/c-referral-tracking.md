@@ -52,7 +52,7 @@ For example:
 }())
 ```
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

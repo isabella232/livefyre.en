@@ -36,7 +36,7 @@ network.getUrnForUser(userId);
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:user=tester" 
+"urn:livefyre:network=`example.fyre.co`:user=tester" 
 
 ```
 
@@ -49,7 +49,7 @@ network.getUrnForUser(userId);
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:user=tester" 
+"urn:livefyre:network=`example.fyre.co`:user=tester" 
 
 ```
 
@@ -63,7 +63,7 @@ $network->getUrnForUser(userId);
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:user=tester" 
+"urn:livefyre:network=`example.fyre.co`:user=tester" 
 
 ```
 
@@ -77,7 +77,7 @@ network.get_urn_for_user(userId)
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:user=tester" 
+"urn:livefyre:network=`example.fyre.co`:user=tester" 
 
 ```
 
@@ -91,7 +91,7 @@ network.get_urn_for_user(userId)
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:user=tester" 
+"urn:livefyre:network=`example.fyre.co`:user=tester" 
 
 ```
 

@@ -14,7 +14,7 @@ snippet: y
 
 The Sidenotes App offers these features for your site.
 
-<a id="section_d1p_g4n_sy"></a>
+
 
 * Respond to any part of a paragraph, by highlighting the text they wish to comment on, then clicking the pencil icon to write their Sidenote.
 * Add Sidenotes to a paragraph, by clicking the Sidenotes icon that appears at the end of the paragraph, and adding their comment.

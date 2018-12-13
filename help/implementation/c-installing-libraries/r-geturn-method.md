@@ -24,7 +24,7 @@ network.getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co" 
+"urn:livefyre:network=`example.fyre.co`" 
 
 ```
 
@@ -38,7 +38,7 @@ network.getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co" 
+"urn:livefyre:network=`example.fyre.co`" 
 
 ```
 
@@ -52,7 +52,7 @@ $network->getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co" 
+"urn:livefyre:network=`example.fyre.co`" 
 
 ```
 
@@ -66,7 +66,7 @@ network.urn
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co" 
+"urn:livefyre:network=`example.fyre.co`" 
 
 ```
 
@@ -80,7 +80,7 @@ network.urn
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co" 
+"urn:livefyre:network=`example.fyre.co`" 
 
 ```
 

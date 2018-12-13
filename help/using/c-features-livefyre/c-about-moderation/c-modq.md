@@ -157,7 +157,7 @@ Click the **[!UICONTROL User actions]** button from the User Summary panel to Mu
 * **[!UICONTROL Ban:]** allows you to ban the listed user from your site or network. (Only Studio Administrators or User Managers may network ban a user.)
 * **[!UICONTROL Whitelist:]** allows you to whitelist the listed user for your site or network. (Only Studio Administrators or User Managers may network whitelist a user.)
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use ModQ:
 

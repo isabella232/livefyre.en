@@ -10,18 +10,11 @@ internal: n
 snippet: y
 ---
 
-# Livefyre.js{#livefyre-js}
+# Livefyre.js {#livefyre-js}
 
 The core Livefyre library used to power Livefyre on your site.
 
-On this page:
-
-* [](#c_livefyre.js/section_cst_twg_xz) 
-* [](#c_livefyre.js/section_ipq_hwg_xz) 
-* [](#c_livefyre.js/section_ygd_dwg_xz) 
-* [](#c_livefyre.js/section_pgm_dpg_xz)
-
-Livefyre.js is the core library that you can install on every Livefyre-enabled webpage. It defines the global `window.Livefyre` object and a single public method, `Livefyre.require`, which can be used to load other Livefyre JavaScript libraries that help with [embedding Livefyre Apps](http://docs.livefyre.com/developers/app-integrations/), [integrating your authentication provider with Livefyre](http://docs.livefyre.com/developers/identity-integration/), and more.
+`Livefyre.js` is the core library that you can install on every Livefyre-enabled webpage. It defines the global `window.Livefyre` object and a single public method, `Livefyre.require`, which can be used to load other Livefyre JavaScript libraries that help with [embedding Livefyre Apps](http://docs.livefyre.com/developers/app-integrations/), [integrating your authentication provider with Livefyre](http://docs.livefyre.com/developers/identity-integration/) and more.
 
 ## Add to your Site {#section_cst_twg_xz}
 
@@ -71,10 +64,9 @@ Wondering which Livefyre JavaScript packages are available through `Livefyre.req
 
 Sometimes you may want to test an upcoming version of a Livefyre package to make sure it will work on your website or to acceptance test a feature that is being developed at your request. In addition to including a Semantic Version range, the prerelease UAT environment can be specified.
 
-For example, the following would require the UAT release of fyre.conv, the Comments, Live Blog, and Chat applications.
+For example, the following would require the UAT release of `fyre.conv`, the Comments, Live Blog, and Chat applications.
 
 ```
 Livefyre.require(['fyre.conv#uat'], callback); 
 
 ```
-

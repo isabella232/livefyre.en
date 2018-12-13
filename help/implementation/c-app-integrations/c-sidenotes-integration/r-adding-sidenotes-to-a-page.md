@@ -12,8 +12,6 @@ snippet: y
 
 # Adding Sidenotes to a Page{#adding-sidenotes-to-a-page}
 
-<a id="section_tzl_qpv_sy"></a>
-
 Livefyre provides several configuration options to position Sidenotes on your page:
 
 * The Selectors option defines the elements on which Sidenotes should appear.
@@ -24,7 +22,7 @@ Livefyre provides several configuration options to position Sidenotes on your pa
 
 ## Selectors {#section_wyj_4sv_sy}
 
-The selectors option enables Sidenotes to find content on the page. The value for this option allows you to dynamically determine the elements that will be used. It can be a selector string (such as ‘#content p, #content img’), a jQuery object (such as $(‘#content’)), an array of DOM elements, or an object with two properties: include and exclude. The Sidenotes App will then use either the specified elements or the matching elements on the page. If include and exclude properties are used, Sidenotes will first parse the page to find all elements on the include property, then remove any elements found on the exclude property.
+The selectors option enables Sidenotes to find content on the page. The value for this option allows you to dynamically determine the elements that will be used. It can be a selector string (such as ‘#content p, #content img’), a jQuery object (such as `$(‘#content’)`), an array of DOM elements, or an object with two properties: include and exclude. The Sidenotes App will then use either the specified elements or the matching elements on the page. If include and exclude properties are used, Sidenotes will first parse the page to find all elements on the include property, then remove any elements found on the exclude property.
 
 ## Anchors {#section_ehq_psv_sy}
 
@@ -32,13 +30,13 @@ Anchors represent an element whose content can be sidenoted. An anchor element c
 
 ## Anchor IDs {#section_rsb_rsv_sy}
 
-Anchors on the page are identified using a “data-lf-anchor-id”.
+Anchors on the page are identified using a `data-lf-anchor-id`.
 
-To set the ID for an anchor yourself, add the attribute “data-lf-custom-anchor-id” to the element that you would like to map to an anchor. This is helpful in cases where the auto-detection of anchors would fail.
+To set the ID for an anchor yourself, add the attribute `data-lf-custom-anchor-id` to the element that you would like to map to an anchor. This is helpful in cases where the auto-detection of anchors would fail.
 
-For example, if you plan to use a different URL for the desktop and mobile versions of an image, two different URLs might be mapped to different anchors. If, instead, your HTML supplies a “data-lf-custom-anchor-id” that is the same on both mobile and desktop, then the image element will be treated as a single anchor.
+For example, if you plan to use a different URL for the desktop and mobile versions of an image, two different URLs might be mapped to different anchors. If, instead, your HTML supplies a `data-lf-custom-anchor-id` that is the same on both mobile and desktop, then the image element will be treated as a single anchor.
 
-Anchors have a type that is determined dynamically, but can also be explicitly set using the “data-lf-custom-anchor-type” attribute.
+Anchors have a type that is determined dynamically, but can also be explicitly set using the `data-lf-custom-anchor-type` attribute.
 
 >[!NOTE]
 >
@@ -46,15 +44,12 @@ Anchors have a type that is determined dynamically, but can also be explicitly s
 
 Available types are:
 
-* ** Text: ** 1
+* **Text:** 1
+* **Image:** 2
+* **Media:** 3
+* **Rich:** 4
 
-* ** Image: ** 2
-
-* ** Media: ** 3
-
-* ** Rich: ** 4
-
-See [](r_updateAnchors_method.md#r_updateAnchors_method) for more on how to use the `updateAnchors` method to add Sidenote content to the page dynamically.
+See [updateAnchors method](r_updateAnchors_method.md#r_updateAnchors_method) for more on how to use the `updateAnchors` method to add Sidenote content to the page dynamically.
 
 ## Custom Thread Container {#section_jdh_btv_sy}
 
@@ -125,4 +120,3 @@ Livefyre allows you to add multiple Sidenotes Collections to a single page. For 
 </body> 
 </html>
 ```
-

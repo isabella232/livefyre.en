@@ -14,7 +14,7 @@ snippet: y
 
 Customize the style and the way comments display on your live blog.
 
-<a id="section_e2s_qyf_sy"></a>
+
 
 Use Live Blog to post real-time updates to ongoing stories, transforming your site into an engaging live news source.
 

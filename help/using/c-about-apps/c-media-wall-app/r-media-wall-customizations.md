@@ -14,7 +14,7 @@ snippet: y
 
 Change the size, width, and interaction options of the Media Wall app.
 
-<a id="section_onc_xtg_sy"></a>
+
 
 Media Walls stream live images and other content into a real-time social wall, visualizing all activity surrounding an event.
 

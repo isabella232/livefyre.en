@@ -67,7 +67,7 @@ To enable Bitly permalinks, enter the following information for your Bitly integ
 * **[!UICONTROL Login:]** your Bitly-provided end user username login.
 * **[!UICONTROL API Key:]** your Bitly-provided API key.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

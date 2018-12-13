@@ -14,7 +14,7 @@ snippet: y
 
 Customize comments to embed real-time conversations on your site.
 
-<a id="section_b4t_y3b_sy"></a>
+
 
 Use available options to allow your users to share content across Twitter, Facebook, and LinkedIn, and pull their friends into the stream.
 

@@ -14,7 +14,7 @@ snippet: y
 
 Many features come with the Comments App to embed real-time conversations in your site.
 
-<a id="section_ghq_cjb_sy"></a>
+
 
 * [Authentication](../../c-features-livefyre/c-authentication.md#c_authentication)
 * [Avatars](../../c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)

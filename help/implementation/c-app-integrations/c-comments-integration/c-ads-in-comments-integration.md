@@ -5,9 +5,7 @@ seo-title: Ads in Comments
 solution: Experience Manager
 title: Ads in Comments
 uuid: f8d6372f-4468-4884-a384-116180b4c748
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Ads in Comments{#ads-in-comments}
@@ -39,11 +37,11 @@ Livefyre provides two ad placement types: synchronous, and asynchronous. Both ty
 
 To obtain the ad, the synchronous method calls to a local repository, whereas asynchronous calls to an external service.
 
-**Synchronous**
+### Synchronous
 
 To create a synchronous placement, include the ad in the delegate, and return the ad element itself. The synchronous method calls to a local repository, allowing you to handle your own ad generation.
 
-**Asynchronous**
+### Asynchronous
 
 The asynchronous method requires that the element be inserted in the DOM before you call to the ad provider. Your provider then determines which ad to send, and returns it.
 
@@ -61,40 +59,35 @@ The following parameters are available for use with this call.
 
 For the ad object:
 
-* ** delay:** **(optional) integer** - Sets the number of comments after which the first ad will be displayed. Default is 10. 
-
+* **delay:** **(optional) integer** - Sets the number of comments after which the first ad will be displayed. Default is 10. 
 * **frequency:(optional) integer** - Sets the number of comments after which each subsequent ad will be displayed. For example: Enter 2 to display an ad as every third comment. Default is 10. 
-* ** delegate:** **(required) function** - The function called to inject ads into the Comment stream.
+* **delegate:** ***required* function** - The function called to inject ads into the Comment stream.
 
 The delegate object supports both synchronous and asynchronous ad invocations. The parameter being given to the delegate function, data, will contain:
 
-* ** title:** **string** - The title of the Collection. 
-
-* ** tags:** **array** - A list of tags associated with the Collection. 
-
-* ** id:** **string** - The article identifier of the Collection. 
-
-* ** url:** **string** - The URL of the Collection. 
-
-* ** networkId:** **string** - The network ID for the Collection. 
-
-* ** siteId:** **int ** - The site ID for the Collection.
+* **title:** **string** - The title of the Collection. 
+* **tags:** **array** - A list of tags associated with the Collection. 
+* **id:** **string** - The article identifier of the Collection. 
+* **url:** **string** - The URL of the Collection. 
+* **networkId:** **string** - The network ID for the Collection. 
+* **siteId:** **int** - The site ID for the Collection.
 
 These items are passed in through the convConfig object in our example and are explained in more detail in our [Getting Started](../../c-app-integrations/c-comments-integration/c-comments-integration.md#section_656AAC97903F485084650269A6C7EBCE) section.
 
-**Synchronous**: The delegate returns an object containing:
+### Synchronous
 
-* ** element:** **(required) DOM element ** - The element containing the ad to be inserted into the App.
+The delegate returns an object containing:
+
+* **element:** ***required* DOM element** - The element containing the ad to be inserted into the App.
 
 **Asynchronous**: The delegate returns an object containing: The delegate returns an object containing two properties: element and callback:
 
-* ** element:** **(required) DOM element ** - The element containing the ad to be inserted into the App. 
-
-* **callback:** **(required) function** - The callback that will handle the insertion of the ad into the DOM element above.
+* **element:** ***required* DOM element** - The element containing the ad to be inserted into the App. 
+* **callback:** ***required* function** - The callback that will handle the insertion of the ad into the DOM element above.
 
 For the `Conv` object, you can pass in a string to denote the title for the ad section:
 
-* ** strings:** **(optional) ** - Used to customize the header text for your ads. 'Sponsored' by default.
+* **strings:** **(optional)** - Used to customize the header text for your ads. 'Sponsored' by default.
 
 ## Synchronous Example {#concept_E733E4431D9948638B8102ADE398735F}
 
@@ -192,4 +185,3 @@ For the `Conv` object, you can pass in a string to denote the title for the ad s
 }()); 
 </script>
 ```
-

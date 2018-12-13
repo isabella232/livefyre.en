@@ -5,9 +5,7 @@ seo-title: Display Comment Count
 solution: Experience Manager
 title: Display Comment Count
 uuid: 0f39b25e-11e0-4945-be71-55fb4798b6c7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Display Comment Count{#display-comment-count}
@@ -64,17 +62,16 @@ Livefyre’s `CommentCount.js` allows you to fetch the content counts for collec
 
    We allow the following configuration options:
 
-* ** replacer: ** Function or Regex used to replace the text of each content count.
+* **replacer:** Function or Regex used to replace the text of each content count.
 
-* ** function: ** Used to do the replacement on each element. The function’s arguments are:
+* **function:** Used to do the replacement on each element. The function’s arguments are:
 
-  **element: **The HTML element that is being updated.
+  **element:**The HTML element that is being updated.
+  **count:**The content count for this element.
 
-  **count: **The content count for this element.
+* **regex:** Used to determine which part of the element’s text should be replaced by the count.
 
-* ** regex: ** Used to determine which part of the element’s text should be replaced by the count.
-
-   **Example**:
+  **Example**:
 
    ```
       <script type="text/javascript"> LF.CommentCount({ 
@@ -88,4 +85,3 @@ Livefyre’s `CommentCount.js` allows you to fetch the content counts for collec
    >[!NOTE]
    >
    >Use the replacer to customize or internationalize the comment count message.
-

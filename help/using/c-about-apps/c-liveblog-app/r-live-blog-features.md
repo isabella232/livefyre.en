@@ -14,7 +14,7 @@ snippet: y
 
 The Live Blog App offers the following features for your site.
 
-<a id="section_xbc_kyf_sy"></a>
+
 
 * Publish real-time updates by posting directly on Live Blog.
 * Create rules to curate social content, and search for specific curate content to add to your Blog.

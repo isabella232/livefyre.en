@@ -37,7 +37,7 @@ The issues in the following tables were resolved in the production version of th
 
 The issues in the following tables were resolved in the UAT version of this release.
 
-<a id="section_5B8D1FD3834C47649CD5B93EEE53FACD"></a>
+
 
 #### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |

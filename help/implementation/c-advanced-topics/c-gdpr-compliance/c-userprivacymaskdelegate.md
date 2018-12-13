@@ -5,9 +5,7 @@ seo-title: userPrivacyMaskDelegate
 solution: Experience Manager
 title: userPrivacyMaskDelegate
 uuid: 8e5a2750-bf45-4e70-a5f9-37f5e7c61f8e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # userPrivacyMaskDelegate{#userprivacymaskdelegate}
@@ -34,4 +32,3 @@ userPrivacyMaskDelegate: function () {
     return container; 
 }
 ```
-

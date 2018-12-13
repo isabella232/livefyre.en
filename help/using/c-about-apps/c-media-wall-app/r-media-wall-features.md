@@ -14,7 +14,7 @@ snippet: y
 
 The Media Wall app offers these features for your site.
 
-<a id="section_ymv_5tg_sy"></a>
+
 
 * Displays content in order based on the date it was published (not on the date the content was created).
 * Combines both Livefyre and social media content in a single display.

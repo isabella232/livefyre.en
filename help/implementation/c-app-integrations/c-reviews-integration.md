@@ -65,7 +65,7 @@ If you’ve already completed the Getting Started section you should be familiar
 
 * ** alwaysShowEditor: ** **(optional) Boolean** By default, the reviews editor appears only after the user presses the “write review” button. Set this parameter to true to always display the editor.
 
-* ** app: ** **(required) string **The App name to use for reviews. Must be “reviews“.
+* ** app: ** ***required* string **The App name to use for reviews. Must be “reviews“.
 
 * ** defaultSort: ** **(optional) ** **string **Allows you to select the default sort option for Reviews. Possible values are: mostHelpful, highestRated, lowestRated, newest, and oldest.
 
@@ -81,7 +81,7 @@ If you’ve already completed the Getting Started section you should be familiar
 
 ## Review Collection Metadata {#section_k1s_sqb_c1b}
 
-* ** type: ** **(required) string **Defines the Collection type. Must be “ `reviews`“.
+* ** type: ** ***required* string **Defines the Collection type. Must be “ `reviews`“.
 
 * ** ratingDimensions: ** **(optional) array** An array of strings for each type of dimension that this Collection will use. If this is not specified, only 1 dimension will be allowed.
 

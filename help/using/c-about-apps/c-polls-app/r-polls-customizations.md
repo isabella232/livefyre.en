@@ -14,13 +14,13 @@ snippet: y
 
 Change the size, width, and interaction options of the Polls app.
 
-<a id="section_wlh_4wg_sy"></a>
+
 
 * **[!UICONTROL Type]**
 
   Select the type of Poll you wish to create. **[!UICONTROL Single image]** allows you to add an image for the Poll’s question. **[!UICONTROL Multiple image]** allows you to add an image for the Poll’s answers. **[!UICONTROL Text only]** creates a Poll without images.
 
-* **[!UICONTROL Question]** (required)
+* **[!UICONTROL Question]** *required*
 
   Enter the question that will be displayed for your Poll.
 

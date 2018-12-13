@@ -36,7 +36,7 @@ Hide the notifier widget across your entire network using CSS Customizations.
 >
 >The comment notifier is not available on mobile devices.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

@@ -67,7 +67,7 @@ The Java library has dependencies on the following modules:
 
 ```
 
-<a id="section_rlh_qys_kbb"></a>
+
 
 For more information, read the Java docs or see the source on [GitHub](https://github.com/Livefyre/livefyre-java-utils).
 

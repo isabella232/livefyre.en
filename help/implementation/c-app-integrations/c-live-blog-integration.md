@@ -80,8 +80,8 @@ The `NetworkConfig` object is a JSON object containing the following parameters:
 
 |  Parameter  | Type  | Description  |
 |---|---|---|
-|  *`authDelegate`* | Object (required)  | Used to customize the authentication system for custom network users.  |
-|  *`network`* | String (required)  | A Livefyre-provided network name. For example: *yourname.fyre.co.* |
+|  *`authDelegate`* | Object *required*  | Used to customize the authentication system for custom network users.  |
+|  *`network`* | String *required*  | A Livefyre-provided network name. For example: *yourname.fyre.co.* |
 |  *`attachmentDelegate`* | Object (optional)  | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](../c-app-customizations/c-restrict-media.md#c_restrict_media).  |
 |  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](c_localize_strings.md#c_localize_strings).  |
 
@@ -106,22 +106,22 @@ The `ConvConfig` object contains the following required parameters:
  <tbody> 
   <tr> 
    <td> <span class="varname"> articleId </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> <p>Uniquely identifies a Collection within your Site. Usually, this corresponds to a database primary key or Post ID within your CMS. For example: “post-42”. 255 character limit. </p> <p>Note:  If you use the article URL as your articleId, make certain the string is MD5 or SHA-1 encoded. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="varname"> collectionMeta </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> JWT-encoded metadata about the Collection. See <a href="c_collectionmeta_object.md#c_collectionmeta_object" format="dita" scope="local"> CollectionMeta Object </a> for more information. </td> 
   </tr> 
   <tr> 
    <td> <span class="varname"> el </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> The ID of a DOM element to which the content stream will render. </td> 
   </tr> 
   <tr> 
    <td> <span class="varname"> siteId </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> The Livefyre-provided ID for the website or application to which the Collection belongs. For example: “303617”. </td> 
   </tr> 
  </tbody> 
@@ -260,22 +260,22 @@ The `CollectionMeta` object is a JSON object that specifies metadata to store wi
  <tbody> 
   <tr> 
    <td> <span class="varname"> articleId </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> A unique ID for the Collection. </td> 
   </tr> 
   <tr> 
    <td> <span class="varname"> title </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> <p>The title you wish to apply to the Collection. This often corresponds to the title of the page that displays the App. </p> <p>For example: “Integration is So Much Fun!” </p> <p>Note:  The max character length for the title is 255 characters. The title field does not support HTML entities. Please encode special characters using UTF-8. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="varname"> url </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> <p>The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio. </p> <p>Note:  Livefyre requires the use of a fully qualified domain name; the port number or a callback to resolve the local setup is not required. If testing locally, be certain to use a valid base URL domain. (For example: http://customer.com is valid, while http://localhost:5995 is not.) Once you have set up your local webserver to accept a fully qualified domain name, no callbacks or resolutions are needed, and local development can proceed as expected. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="varname"> type </span> </td> 
-   <td> String (required) </td> 
+   <td> String *required* </td> 
    <td> The Collection type. Must be <span class="codeph"> livechat </span>. </td> 
   </tr> 
  </tbody> 

@@ -1,22 +1,22 @@
 ---
-description: Learn how to generate Livefyre tokens using the C# language.
-seo-description: Learn how to generate Livefyre tokens using the C# language.
-seo-title: Creating Livefyre Tokens C#
+description: Learn how to generate Livefyre tokens using the `C#` language.
+seo-description: Learn how to generate Livefyre tokens using the `C#` language.
+seo-title: Creating Livefyre Tokens `C#`
 solution: Experience Manager
-title: Creating Livefyre Tokens C#
+title: Creating Livefyre Tokens `C#`
 uuid: c5e05625-8550-4b51-9211-134600e20ec7
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating Livefyre Tokens C#{#creating-livefyre-tokens-c}
+# Creating Livefyre Tokens C\# {#creating-livefyre-tokens-c}
 
-Learn how to generate Livefyre tokens using the C# language.
+Learn how to generate Livefyre tokens using the ``C#`` language.
 
-You can leverage legacy documentation and sample code to use C# .NET to write methods to create tokens.
+You can leverage legacy documentation and sample code to use ``C#` .NET` to write methods to create tokens.
 
-To reference Livefyre’s official libraries, use the [Java Library](https://github.com/Livefyre/livefyre-java-utils) as a starting point for C# developers.
+To reference Livefyre’s official libraries, use the [Java Library](https://github.com/Livefyre/livefyre-java-utils) as a starting point for ``C#`` developers.
 
 You may also consider using the [Node.js Library](https://github.com/Livefyre/livefyre-nodejs-utils) from the command line to generate reference tokens for yourself, and to get familiar with the method structure.
 
@@ -30,9 +30,9 @@ You may also consider using the [Node.js Library](https://github.com/Livefyre/li
 
 ## CollectionMeta Token {#section_dzt_4mh_xz}
 
-The CollectionMeta Token is passed to Livefyre when you embed Comments on a page, and provides our system with the necessary metadata for your new collection. In addition, you will create an MD5 **checksum** of this data, which Livefyre checks to see if the metadata has changed. (e.g. if the title or url of your article was edited).
+The CollectionMeta Token is passed to Livefyre when you embed Comments on a page, and provides our system with the necessary metadata for your new collection. In addition, you will create an MD5 `checksum` of this data, which Livefyre checks to see if the metadata has changed. (e.g. if the title or url of your article was edited).
 
-This token is signed with your **Site Key**, which was provided to you by your Techncial Account Manager at Livefyre.
+This token is signed with your `Site Key`, which was provided to you by your Techncial Account Manager at Livefyre.
 
 See also:
 
@@ -54,8 +54,8 @@ See also:
 
    ```
 
-    * **title:** (required) The title of the collection, typically the title of your article. Max length is 255 characters. Does not support html entities. Please encode special characters using UTF-8.
-    * **url:** (required) The canonical url of your article. This is used by the comment sharing and social sync features, and links to your article from the Admin dashboard. If testing locally, please note that Livefyre will not accept ‘localhost’ as a domain.
+    * **title:** *required* The title of the collection, typically the title of your article. Max length is 255 characters. Does not support html entities. Please encode special characters using UTF-8.
+    * **url:** *required* The canonical url of your article. This is used by the comment sharing and social sync features, and links to your article from the Admin dashboard. If testing locally, please note that Livefyre will not accept ‘localhost’ as a domain.
     * **tags:** (optional) A comma-separated list of tags you would like to add to the collection in the Livefyre dashboard. Tags cannot contain spaces. Use underscores if you wish a space to appear in the Admin dashboard.
     * **type:** (optional) A string indicating what type of collection to create. Valid values are:
 
@@ -98,7 +98,7 @@ See also:
    
    ```
 
-    * **articleId:** (required) A unique identifer for your collection within your Livefyre site. Typically, the unique articleId used in your CMS. (e.g. your WordPress post ID) This value should never change. Livefyre identifies unique collections by the combination of siteId and articleId.
+    * **articleId:** *required* A unique identifer for your collection within your Livefyre site. Typically, the unique articleId used in your CMS. (e.g. your WordPress post ID) This value should never change. Livefyre identifies unique collections by the combination of siteId and articleId.
 
 1. Generate a signed JWT Token of the Dictionary, using the Site Key provided to you by Livefyre. Please note that you must specify the correct hash algorithm, as the JWT package does not use HS256 by default.
 
@@ -141,4 +141,3 @@ See also:
    ```
           string token = JWT.JsonWebToken.Encode(payload, networkKey, JWT.JwtHashAlgorithm.HS256);
    ```
-

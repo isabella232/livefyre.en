@@ -39,7 +39,7 @@ Pass the user’s LFToken and your selected tag name in with the POST request
 For example:
 
 ```
-curl -XPOST -d 'tag_name=tag&lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAxLjIzn0.KoyXUVCavt-rdvkVXm2qzQTyMAOSp-crQA1uL1ht9WU' 'https://labs.quill.fyre.co/api/v3.0/author/system@labs.fyre.co/tag/'
+curl -XPOST -d 'tag_name=tag&lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAxLjIzn0.KoyXUVCavt-rdvkVXm2qzQTyMAOSp-crQA1uL1ht9WU' 'https://labs.quill.fyre.co/api/v3.0/author/system@`labs.fyre.co`/tag/'
 ```
 
 For more information, see API Reference > [Add User Tag](http://livefyre-devhub-production.herokuapp.com/developers/api-reference/#add-user-tag).

@@ -5,12 +5,10 @@ seo-title: Multiple Collections
 solution: Experience Manager
 title: Multiple Collections
 uuid: 9675ffd7-1a59-42a1-b3ba-40af1744cfd1
-index: y
-internal: n
-snippet: y
+
 ---
 
-# Multiple Collections{#multiple-collections}
+# Multiple Collections {#multiple-collections}
 
 Showcase multiple Collections on a single page.
 
@@ -58,4 +56,3 @@ Livefyre.require(['fyre.conv#prod'],function(Conv) {
 </body> 
 </html>
 ```
-

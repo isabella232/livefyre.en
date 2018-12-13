@@ -104,7 +104,7 @@ Several fields in the email notification templates may be changed to fit your st
 
   It is possible to implement a fully customized email template if you wish. However, this will require some development effort and may incur professional services costs. Please contact your Account Manager for details.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

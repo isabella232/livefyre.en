@@ -24,7 +24,7 @@ collection.getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1:collection=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 
 ```
 
@@ -38,7 +38,7 @@ collection.getUrn();
 Sample output:
 
 ```
-<span class="str">"urn:livefyre:network=example.fyre.co:site=1:collection=1"</span>
+<span class="str">"urn:livefyre:network=`example.fyre.co`:site=1:collection=1"</span>
 ```
 
 ## PHP Example {#section_ghf_gds_rz}
@@ -51,7 +51,7 @@ $collection->getUrn();
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1:collection=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 
 ```
 
@@ -65,7 +65,7 @@ collection.urn()
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1:collection=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 
 ```
 
@@ -78,7 +78,7 @@ collection.urn
 Sample output:
 
 ```
-"urn:livefyre:network=example.fyre.co:site=1:collection=1" 
+"urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 
 ```
 

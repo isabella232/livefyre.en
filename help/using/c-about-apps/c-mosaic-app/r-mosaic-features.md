@@ -14,7 +14,7 @@ snippet: y
 
 The Mosaic App offers these features for your site.
 
-<a id="section_gfz_zpw_xy"></a>
+
 
 The Mosaic App has the following features:
 

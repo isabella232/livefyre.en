@@ -14,7 +14,7 @@ snippet: y
 
 Filmstrip is a visualization App that showcases user-generated content into a dynamic single, horizontal strip of photos, similar to a strip of film from a camera.
 
-<a id="section_0A2E6B81C7A547D9897AEF6DC4CA8ECF"></a>
+
 
 On this page:
 

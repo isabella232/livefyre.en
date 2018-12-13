@@ -126,7 +126,7 @@ The issues in the following tables were resolved in this release.
  </tbody> 
 </table>
 
-<a id="section_crv_pq3_qdb"></a>
+
 
 #### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |

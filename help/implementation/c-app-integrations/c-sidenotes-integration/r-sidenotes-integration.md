@@ -5,16 +5,12 @@ seo-title: Sidenotes Integration
 solution: Experience Manager
 title: Sidenotes Integration
 uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sidenotes Integration{#sidenotes-integration}
 
 Integrate a Sidenotes app by following a process similar to Core Applications.
-
-<a id="section_qyc_cpv_sy"></a>
 
 As a general rule, if your Core Application integration is complete, the code written to generate the `collectionMeta` object may be reused for Sidenotes.
 
@@ -68,11 +64,10 @@ As noted in the Building `collectionMeta` section, `collectionMeta` is an encode
 
 For more information, please see the `collectionMeta` token.
 
-**Mobile Setup**
+## Mobile Setup
 
 Sidenotes has been optimized for use in mobile devices. For best results with mobile versions of your Livefyre App, set the user-scalable option to no. For example:
 
 ```
 <meta name="viewport" content="width=device-width, user-scalable=no">
 ```
-

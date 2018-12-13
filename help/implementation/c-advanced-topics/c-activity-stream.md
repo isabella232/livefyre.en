@@ -48,8 +48,8 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 Examples:
 
-* **urn:livefyre:example.fyre.co** The activity stream for “example.fyre.co”.
-* **urn:livefyre:example.fyre.co:site=54321** The activity stream for site 54321 under the “example.fyre.co” network.
+* **urn:livefyre:`example.fyre.co`** The activity stream for `example.fyre.co`.
+* **urn:livefyre:`example.fyre.co`:site=54321** The activity stream for site 54321 under the `example.fyre.co` network.
 
 ## Token Policies {#section_nwh_c5j_11b}
 
@@ -97,13 +97,9 @@ token = jwt.encode(data, key=network_secret)
 Where the bearer token keys are defined as follows:
 
 * ** iss ** **(Issuer)** An entity with the authority to generate tokens. This may be Livefyre, a site or a network. (For a note to be late to school, it’s your parent.)
-
 * ** aud ** **(Audience)** The person for whom this token was generated. If you are creating the token yourself it is the site or network.
-
 * ** sub ** **(Subject) **The subject for which permissions are to be granted. For example if you’re operating on a collection, the subject must be the identifier for the collection. (In the note from school example, it’s you.)
-
 * ** exp ** **(Expiration)** A point in time which the token is no longer valid.
-
 * ** scope ** **(Scope)** This is a list of the permissions granted on the subject. “Late for school” is an example. The name of an API is another example.
 
 ## Example {#section_dhl_ytj_11b}
@@ -279,9 +275,8 @@ A response with new data since the last request:
 ## Notes {#section_hj3_crj_11b}
 
 * A successful call to the API will yield an HTTP 200 status code. All other status codes should be considered errors.
-* If non-null, use the value from ‘data.meta.cursor.next’ as the ‘since’ parameter of your next request.
-* If the value from ‘data.meta.cursor.next’ is null, it means there is no new data to consume. You should re-request later with the same ‘since’ value to see if new data has arrived.
-* As a matter of practice, you should immediately request more data if the ‘data.meta.cursor.next’ value is non-null.
+* If non-null, use the value from `data.meta.cursor.next` as the `since` parameter of your next request.
+* If the value from `data.meta.cursor.next` is null, it means there is no new data to consume. You should re-request later with the same `since` value to see if new data has arrived.
+* As a matter of practice, you should immediately request more data if the `data.meta.cursor.next` value is non-null.
 * Approximately two hours worth of recent data is available through this API in production.
 * You should set up your processes to poll this endpoint frequently on cronjob in order to avoid missing data. An interval of five minutes should be perfectly adequate for most implementations.
-

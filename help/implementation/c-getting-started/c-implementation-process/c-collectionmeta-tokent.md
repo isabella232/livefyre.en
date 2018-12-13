@@ -14,67 +14,21 @@ snippet: y
 
 Create a unique token on your server that identifies every collection that you create.
 
-<a id="section_ort_f4n_sz"></a>
-
 Livefyre assigns a unique identifier to every Collection you create. Livefyre assigns a title, URL, and other parameters, including:
 
-#### collectionMeta Token Parameters
-<table frame="all" rowsep="1" colsep="1" id="table_ggl_gnn_sz">  
- <thead> 
-  <tr> 
-   <th class="entry"> Parameter </th> 
-   <th class="entry"> Type </th> 
-   <th class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> networkName </td> 
-   <td> String (optional) </td> 
-   <td> <p>The name of the Livefyre network (available from <span class="uicontrol"> Studio &gt; Settings &gt; Integration Settings &gt; Credentials </span>). This is optional when using the library to create a collectionMeta token.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> networkKey </td> 
-   <td> String (optional) </td> 
-   <td> The secret key for the specific network (available from <span class="uicontrol"> Studio &gt; Settings &gt; Integration Settings &gt; Credentials </span>). This is optional when using the library to create a collectionMeta token. </td> 
-  </tr> 
-  <tr> 
-   <td> siteId </td> 
-   <td> String (optional) </td> 
-   <td> The ID for the site (available from <span class="uicontrol"> Studio &gt; Settings &gt; Integration Settings &gt; Credentials </span>). Optional when using the library to create a collectionMeta token. </td> 
-  </tr> 
-  <tr> 
-   <td> siteKey </td> 
-   <td> String (optional) </td> 
-   <td> The secret key for the site (available from <span class="uicontrol"> Studio &gt; Settings &gt; Integration Settings &gt; Credentials </span>). </td> 
-  </tr> 
-  <tr> 
-   <td> articleId </td> 
-   <td> String (optional) </td> 
-   <td> A unique ID for the Collection. </td> 
-  </tr> 
-  <tr> 
-   <td> title </td> 
-   <td> String (optional) </td> 
-   <td> <p>The title you wish to apply to the Collection. Usually, this corresponds to the title of the page that displays the App.</p> <p>For example: “Integration is So Much Fun!”</p> <p>Note:  The max character length for the title is 255 characters. The title field does not support HTML entities. Please encode special characters using UTF-8. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> url </td> 
-   <td> String (optional) </td> 
-   <td> <p>The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio.</p> <p>Note:  If testing locally, use a valid base URL domain (For example: <i><b>valid</b></i>: http://customer.com; <i><b>invalid</b></i>: http://localhost:5995). </p> </td> 
-  </tr> 
-  <tr> 
-   <td> tags </td> 
-   <td> String (optional) </td> 
-   <td> <p>A comma-separated list of single keywords or phrases. Search Collections by tags using Studio. </p> <p>Note:  Tags cannot contain spaces. Use underscores if you wish a space to appear in the UI. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> extensions </td> 
-   <td> JSON (optional) </td> 
-   <td> A JSON-formatted set of params to pass along to the Collection. </td> 
-  </tr> 
- </tbody> 
-</table>
+## collectionMeta Token Parameters
+
+|Parameter|Type|Description|
+|--- |--- |--- |
+|networkName|String (optional)|The name of the Livefyre network (available from {!UICONTROL Studio > Settings > Integration Settings > Credentials] ). This is optional when using the library to create a collectionMeta token.|
+|networkKey|String (optional)|The secret key for the specific network (available from  Studio > Settings > Integration Settings > Credentials ). This is optional when using the library to create a collectionMeta token.|
+|siteId|String (optional)|The ID for the site (available from [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Optional when using the library to create a collectionMeta token.|
+|siteKey|String (optional)|The secret key for the site (available from  {!UICONTROL Studio > Settings > Integration Settings > Credentials] ).|
+|articleId|String (optional)|A unique ID for the Collection.|
+|title|String (optional)|The title you wish to apply to the Collection. Usually, this corresponds to the title of the page that displays the App. <br/>For example: “Integration is So Much Fun!” <br/>Note:  The max character length for the title is 255 characters. The title field does not support HTML entities. Please encode special characters using UTF-8.|
+|url|String (optional)|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio. <br/>Note:  If testing locally, use a valid base URL domain (For example: valid: `http://customer.com`; invalid: `http://localhost:5995`).|
+|tags|String (optional)|A comma-separated list of single keywords or phrases. Search Collections by tags using Studio.  </br>Note:  Tags cannot contain spaces. Use underscores if you wish a space to appear in the UI.|
+|extensions|JSON (optional)|A JSON-formatted set of params to pass along to the Collection.|
 
 ## Java {#section_orz_m4n_sz}
 

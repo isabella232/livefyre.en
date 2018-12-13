@@ -44,7 +44,7 @@ Replies or Likes posted in the Hot Threads view will appear in the stream withou
 
 To optimize for performance, Livefyre caches data for up to 2 minutes. There may be a slight lag in the most recent Hot Threads that appear.
 
-<a id="section_blk_ccj_h1b"></a>
+
 
 Apps that use this feature:
 

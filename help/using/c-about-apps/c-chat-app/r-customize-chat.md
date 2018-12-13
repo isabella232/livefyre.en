@@ -14,7 +14,7 @@ snippet: y
 
 Customize Chat Apps to display content as a continuous stream of unthreaded chat, allowing your audience to engage in real-time conversation around live events or announcements.
 
-<a id="section_kjf_111_sy"></a>
+
 
 These options are available from the Chat App:
 

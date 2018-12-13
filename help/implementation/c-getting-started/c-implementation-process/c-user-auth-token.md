@@ -20,11 +20,11 @@ To create the token, use your preferred language library to pass in the followin
 
 |  Parameter  | Type  | Description  |
 |---|---|---|
-|  networkName  | String (required)  | The name of the Livefyre network (provided by Livefyre).  |
-|  networkKey  | String (required)  | The secret key for this specific network (provided by Livefyre).  |
-|  userId  | String (required)  | The ID of the user logging in as stored in your user management system (only alphanumeric, dash, underscore, and dot characters are allowed: [a-zA-Z0-9_-.]). **Note:** The userId must be unique.  |
-|  expires  | Integer (required)  | When the token should expire from now (in seconds). **Note:** This value can also be passed as a float. The JSON web token produced will store this value in UNIX epoch time.  |
-|  displayName  | String (required)  | Text to identify this user in the UI and in comments. (Maximum number of characters: 50.)  |
+|  networkName  | String *required*  | The name of the Livefyre network (provided by Livefyre).  |
+|  networkKey  | String *required*  | The secret key for this specific network (provided by Livefyre).  |
+|  userId  | String *required*  | The ID of the user logging in as stored in your user management system (only alphanumeric, dash, underscore, and dot characters are allowed: [a-zA-Z0-9_-.]). **Note:** The userId must be unique.  |
+|  expires  | Integer *required*  | When the token should expire from now (in seconds). **Note:** This value can also be passed as a float. The JSON web token produced will store this value in UNIX epoch time.  |
+|  displayName  | String *required*  | Text to identify this user in the UI and in comments. (Maximum number of characters: 50.)  |
 
 ## Java {#section_b42_mjz_1cb}
 

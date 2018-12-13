@@ -3,9 +3,6 @@ seo-title: Implement a Visualization App
 solution: Experience Manager
 title: Implement a Visualization App
 uuid: 9fcf01c4-e8e1-46c1-b41c-ce5af8bfbe74
-index: y
-internal: n
-snippet: y
 ---
 
 # Implement a Visualization App{#implement-a-visualization-app}

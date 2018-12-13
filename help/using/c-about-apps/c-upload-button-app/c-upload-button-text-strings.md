@@ -14,7 +14,7 @@ snippet: y
 
 You can modify these text strings for the Upload Button.
 
-<a id="section_zwm_d5m_nz"></a>
+
 
 |  Category | Element | Affected Feature |
 |---|---|---|

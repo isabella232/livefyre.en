@@ -10,11 +10,9 @@ snippet: y
 
 # Embed an App{#embed-an-app}
 
-## Embed an App {#c_using_livefyre.js_to_create_customize_and_use_apps_on_your_site}
-
 Add Livefyre Apps to your web pages using the Livefyre.js embed code structure.
 
-This documentation is intended for a technical audience. For non-technical information about Apps, see [](c_about_apps.md#c_about_apps).
+This documentation is intended for a technical audience. For [non-technical information about Apps](c_about_apps.md#c_about_apps).
 
 This section describes the code structure that you’ll need to include in your page template to embed Livefyre Apps on your site.
 
@@ -44,7 +42,7 @@ This section describes the code structure that you’ll need to include in your 
 
 1. Construct the Livefyre App.
 
-   Use Livefyre.require to construct both Core and SDK Apps by passing in the Livefyre package(s) you plan to use.
+   Use `Livefyre.require` to construct both Core and SDK Apps by passing in the Livefyre package(s) you plan to use.
 
     1. Build a Core App.
 
@@ -68,7 +66,7 @@ This section describes the code structure that you’ll need to include in your 
              el: document.getElementById('app'), 
           }); 
           var collection = new SDK.Collection({ 
-             network: "labs.fyre.co", 
+             network: "`labs.fyre.co`", 
              environment: "livefyre.com", 
              siteId: "315833", 
              articleId: 'livefyre-tweets' 
@@ -78,6 +76,6 @@ This section describes the code structure that you’ll need to include in your 
        
        ```    
     
-       See [](c_about_apps.md#c_about_apps) for more information on specific Apps. It is recommended that you pin to the latest major version of the package (which can be found through [Livefyre.require](https://cdn.livefyre.com/packages.html)), to avoid unexpected broken integrations.
+       See [more information on specific Apps](c_about_apps.md#c_about_apps). It is recommended that you pin to the latest major version of the package (which can be found through [Livefyre.require](https://cdn.livefyre.com/packages.html)), to avoid unexpected broken integrations.
 
 Next: Add authentication to your site to enable your users to post comments.
