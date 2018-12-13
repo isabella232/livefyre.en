@@ -1,13 +1,15 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Adobe Livefyre Implementation Guide
+user-guide-title: Experience Manager Livefyre Implementation Guide
 ---
 
-# Adobe Livefyre Implementation Guide {#implementation}
+# Experience Manager Livefyre Implementation Guide {#implementation}
 
-+ [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
-   + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
++ Getting Started with Livefyre Integration {#getting-started-integration}
+   + [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
+   + Implementation Process {#implementation-process}
+      + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [App Integration Types](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [Architecture](c-getting-started/c-implementation-process/c-architecture.md)
       + [Embed an App](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
@@ -17,19 +19,23 @@ user-guide-title: Adobe Livefyre Implementation Guide
       + [User Auth Token](c-getting-started/c-implementation-process/c-user-auth-token.md)
 + [Create a Collection Using the CollectionMeta Token](t-create-a-collectionmeta-token.md)
 + [Creating a Checksum](c-creating-a-checksum.md)
-+ [Identity Integration](t-about-identity-integration/t-about-identity-integration.md)
+ + Identity Integration {#identity-integration}
+   + [Identity Integration](t-about-identity-integration/t-about-identity-integration.md)
    + [Authentication Package](t-about-identity-integration/c-authorization-package.md)
    + [AuthDelegate Object](t-about-identity-integration/c-building-an-auth-delegate.md)
    + [Posting User Permissions to External Systems (Optional)](t-about-identity-integration/c-posting-user-permissions-to-external-systems.md)
-   + [Implementing SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
+   + Implementing SSO {#implementing-sso}
+      + [Implementing SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
       + [Debugging Auth Delegate](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
-   + [Sync with Livefyre Using Ping for Pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
+   + Sync with Livefyre Using Ping for Pull {#sync-ping-for-pull}
+      + [Sync with Livefyre Using Ping for Pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
       + [Build the Pull Endpoint](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
       + [Register the Endpoint with Studio](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
       + [Build the Ping](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-ping.md)
       + [Pull Request Structure](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-pull-request-structure.md)
       + [Build the Ping for Pull Response](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-build-the-ping-for-pull-response.md)
-+ [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
+ + Livefyre Identity {#livefyre-identity}
+   + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [Your Identity Service](c-livefyre-identity-comp/c-your-identity-service-comp.md)
    + [Enable Livefyre Identity](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
    + [Create Your Social Apps](c-livefyre-identity-comp/t-create-your-social-apps.md)
@@ -45,11 +51,13 @@ user-guide-title: Adobe Livefyre Implementation Guide
    + [Initialize Livefyre Identity](c-livefyre-identity-comp/t-initialize-livefyre-identity.md)
    + [Emails for Livefyre Identity](c-livefyre-identity-comp/c-emails-for-livefyre-identity.md)
    + [Janrain Capture/Backplane](c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)
-+ [Importing Existing Data](c-importing-existing-data/c-importing-existing-data.md)
+ + Importing Existing Data {#importing-existing-data}
+   + [Importing Existing Data](c-importing-existing-data/c-importing-existing-data.md)
    + [Importing User Profiles](c-importing-existing-data/c-importing-user-profiles.md)
    + [Importing Content](c-importing-existing-data/c-importing-content.md)
    + [Importing Ratings and Reviews](c-importing-existing-data/c-importing-ratings-and-reviews.md)
-+ [Installation](c-installing-libraries/c-installing-libraries.md)
+ + Installation {#installation}
+   + [Installation](c-installing-libraries/c-installing-libraries.md)
    + [Classes and Methods](c-installing-libraries/c-methods-livefyre.md)
    + [Network Methods](c-installing-libraries/c-network-methods.md)
    + [setSSL Network Method](c-installing-libraries/r-setssl-method.md)
@@ -80,19 +88,23 @@ user-guide-title: Adobe Livefyre Implementation Guide
    + [buildCollection Site Method](c-installing-libraries/r-buildcollection-site-method.md)
    + [getUrn Site Method](c-installing-libraries/r-geturn-site-method.md)
    + [Examples](c-installing-libraries/c-libraries-examples.md)
-+ [Mobile SDKs](c-mobile-sdks/c-mobile-sdks.md)
+ + Mobile SDKs {#mobile-sdks}
+   + [Mobile SDKs](c-mobile-sdks/c-mobile-sdks.md)
    + [Livefyre iOS SDK](c-mobile-sdks/c-livefyre-ios-sdk.md)
    + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre.js](c-livefyre.js.md)
 + [Creating Livefyre Tokens C#](c-creating-livefyre-tokens-c-.md)
 + [Implement a Visualization App](c-reference-implement-a-visualization-app.md)
-+ [App Integrations](c-app-integrations/c-app-integrations.md)
+ + App Integrations {#app-integrations}
+   + [App Integrations](c-app-integrations/c-app-integrations.md)
    + [Chat](c-app-integrations/c-app-integratios-chat.md)
-   + [Comments](c-app-integrations/c-comments-integration/c-comments-integration.md)
+   + Comments {#comments}
+      + [Comments](c-app-integrations/c-comments-integration/c-comments-integration.md)
       + [Ads in Comments](c-app-integrations/c-comments-integration/c-ads-in-comments-integration.md)
    + [Live Blog](c-app-integrations/c-live-blog-integration.md)
    + [Reviews](c-app-integrations/c-reviews-integration.md)
-   + [Sidenotes](c-app-integrations/c-sidenotes-integration/c-sidenotes-integration.md)
+   + Sidenotes {#sidenotes}
+      + [Sidenotes](c-app-integrations/c-sidenotes-integration/c-sidenotes-integration.md)
       + [Sidenotes Integration](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
       + [Adding Sidenotes to a Page](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
       + [Sidenotes App Events](c-app-integrations/c-sidenotes-integration/r-app-events.md)
@@ -104,7 +116,8 @@ user-guide-title: Adobe Livefyre Implementation Guide
    + [Map](c-app-integrations/c-map-integration.md)
    + [Media Wall](c-app-integrations/c-media-wall-integration.md)
    + [Trending](c-app-integrations/c-trending-integration.md)
-+ [App Customizations](c-app-customizations/c-app-customizations.md)
+ + App Customizations {#app-customtizations}
+   + [App Customizations](c-app-customizations/c-app-customizations.md)
    + [Change Display Options](c-app-customizations/c-change-display-options.md)
    + [CSS Classes](c-app-customizations/c-css-classes.md)
    + [Storify CSS Classes](c-app-customizations/c-storify-css-classes.md)
@@ -136,13 +149,16 @@ user-guide-title: Adobe Livefyre Implementation Guide
    + [Device and Browser Support](c-app-customizations/c-device-and-browser-support.md)
    + [Twitter Display Requirements](c-app-customizations/c-twitter-display-requirements.md)
 + [Stress Test Policy](c-stress-test-policy.md)
-+ [Analytics](livefyre-analytics/livefyre-analytics.md)
+ + Analytics {#analytics}
+   + [Analytics](livefyre-analytics/livefyre-analytics.md)
    + [Use Livefyre with Adobe Analytics And Dynamic Tag Manager (DTM)](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
    + [Use Livefyre with Other Analytics Tool](livefyre-analytics/c-livefyre-analytics.md)
    + [Livefyre Analytics Events](livefyre-analytics/c-livefyre-analytics-events.md)
 + [Integrating Livefyre with AEM](c-livefyre-aem-integration.md)
-+ [Advanced Topics](c-advanced-topics/c-advanced-topics.md)
-   + [Privacy Requests (GDPR-Ready)](c-advanced-topics/c-gdpr-compliance/c-gdpr-compliance.md)
+ + Advanced Topics {#advanced-topics}
+   + [Advanced Topics](c-advanced-topics/c-advanced-topics.md)
+  + Privacy Requests {#privacy-requests}
+     + [Privacy Requests (GDPR-Ready)](c-advanced-topics/c-gdpr-compliance/c-gdpr-compliance.md)
       + [userPrivacyOptOut](c-advanced-topics/c-gdpr-compliance/c-userprivacyoptout.md)
       + [userPrivacyMaskDelegate](c-advanced-topics/c-gdpr-compliance/c-userprivacymaskdelegate.md)
       + [userPrivacyVideoWhitelist](c-advanced-topics/c-gdpr-compliance/c-userprivacyvideowhitelist.md)
