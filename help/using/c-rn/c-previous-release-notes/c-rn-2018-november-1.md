@@ -53,9 +53,6 @@ No new issues were resolved in the production version of this release. See [](#c
 
 The issues in the following tables were resolved in the UAT version of this release.
 
-
-
-#### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | GDPR | All data attributed to former customers within Analytics will be deleted. |

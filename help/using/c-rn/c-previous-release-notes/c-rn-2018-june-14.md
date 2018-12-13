@@ -20,7 +20,8 @@ Release Notes for the June 14, 2018 release.
 
 Changed the value of the evars.appType javascript and generator.name to new values as outline in the following table:
 
-#### evars.appType Variable Name Changes
+## evars.appType Variable Name Changes
+
 |  Previous Name | New Name |
 |---|---|
 |  blog-component  | Live Blog |
@@ -39,7 +40,8 @@ Changed the value of the evars.appType javascript and generator.name to new valu
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Library/Search | Fixed an issue where Instagram videos didn't display properly in Social Search or App Content.  |

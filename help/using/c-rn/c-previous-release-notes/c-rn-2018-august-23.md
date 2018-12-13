@@ -23,7 +23,8 @@ Release Notes for the August 23, 2018 release.
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Comments | Restored the shortlink option to the Share button dialog on comments and other conversation Apps.  |

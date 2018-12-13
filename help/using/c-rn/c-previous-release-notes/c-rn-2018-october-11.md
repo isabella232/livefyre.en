@@ -24,7 +24,8 @@ The following new features were released in the production version of this relea
 
 The issues in the following tables were resolved in the production version of this release. 
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | AEM | Fixed an issue where tweets imported into AEM Assets via Livefyre had broken links. |
@@ -37,9 +38,6 @@ The issues in the following tables were resolved in the production version of th
 
 The issues in the following tables were resolved in the UAT version of this release.
 
-
-
-#### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | AEM | Fixed an issue where tweets imported into AEM Assets via Livefyre had broken links. |

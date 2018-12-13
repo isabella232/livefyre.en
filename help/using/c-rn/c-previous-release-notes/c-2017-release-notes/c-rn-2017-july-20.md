@@ -21,7 +21,8 @@ UGC Commerce allows you to add a Call-to-action button directly from your Livefy
 
 The following tables list the Production and UAT Release Notes for the July 20, 2017 release.
 
-#### Production Release
+## Production Release
+
 <table id="table_ng5_vtz_p1b">  
  <thead> 
   <tr> 
@@ -81,7 +82,8 @@ The following tables list the Production and UAT Release Notes for the July 20, 
  </tbody> 
 </table>
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Carousel | Fixed a bug that caused Instagram Carousel posts without captions from getting pulled into Studio. |

@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the March 30, 2017 release.
 
-#### Production Release
+## Production Release
+
 |  Issue Type | Component | Release Note |
 |---|---|---|
 |  Bug | Social Search | Fixed a bug that prevented saved Youtube assets in Social Search from publishing. |
@@ -24,7 +25,8 @@ Release Notes for the March 30, 2017 release.
 |  Bug | Streams | Fixed a bug to allow the usage of ANDing keywords and a Location filter in a Twitter rule. |
 |  Bug | Studio | Fixed a bug that was preventing the "Feature Tag" to save correctly when applied. |
 
-#### UAT Release
+## UAT Release
+
 |  Issue Type | Component | Release Note |
 |---|---|---|
 |  Bug | App Content | Changed the behavior of "More Info" such that if there are multiple Anonymous flag events on a given piece of content, the earliest event is always shown. |

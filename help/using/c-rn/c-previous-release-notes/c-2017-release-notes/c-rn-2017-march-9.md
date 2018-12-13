@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the March 9, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Apps | Fixed a bug to show content in media modals with the correct aspect ratios. |
@@ -23,7 +24,8 @@ Release Notes for the March 9, 2017 release.
 |  Enhancement | Storify 2 | Enhanced Storify 2 to support the ability to allow multiple Storify 2 apps on the same page. |
 |  Story | Studio | Added functionality to increase the expiry time for Studio User login sessions. Once a Studio session expires the user will be redirected to log in again. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Media Wall | Fixed a bug that was caused Media Walls to not render if specific foreign characters were included. |

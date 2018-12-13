@@ -22,7 +22,8 @@ Release Notes for the August 9, 2018 release.
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | App Content | Fixed an issue that prevented administrators and content managers to edit content in App Content.  |
@@ -42,7 +43,6 @@ The issues in the following tables were resolved in this release.
 
 The issues in the following tables were resolved in the UAT version release.
 
-#### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | GDPR | Fixed an issue where opt-out messages were not displaying for some Instagram videos.  |

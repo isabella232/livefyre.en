@@ -13,14 +13,16 @@ snippet: y
 
 Release Notes for the October 5, 2017 release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Livefyre Identity | Customers using Livefyre identity to login were experiencing issues seeing or updating their avatars when posting to commenting apps. This has been fixed now, as avatars are now visible and available for updating.  |
 |  Bug | Rights Management | Fixed a bug with displaying long usernames in the Rights Modal tab. |
 |  Enhancement | Streams | Added the ability to hit the tab key in a Streams text field to complete a search term. |
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | Filmstrip | When a customer deploys a film strip app, newly streamed UGC will have a "new" label next to it to quickly identify them. |

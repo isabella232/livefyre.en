@@ -24,7 +24,8 @@ You can now choose the confidence threshold for smart tags in streams. Setting t
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 <table id="table_f5w_4xk_mdb">  
  <thead> 
   <tr> 
@@ -83,7 +84,6 @@ The issues in the following tables were resolved in this release.
    <td> Enhancement</td> 
    <td> Media Wall</td> 
    <td> <p>Improved Media Wall accessibility in the following ways: </p> 
-    <ul id="ul_tcq_r1l_mdb"> 
      <li>Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup. </li> 
      <li>Load More button can be tabbed to and triggered using the keyboard Enter key.</li> 
     </ul> </td> 
@@ -128,7 +128,8 @@ The issues in the following tables were resolved in this release.
 
 
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | UGC | Fixed an issue where the UGC Commerce flag was set to "off" by default, instead of "on." |

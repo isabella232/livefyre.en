@@ -22,15 +22,15 @@ The following features are new in the production version of this release:
 * In the Media Wall Designer there is now a toggle that allows you to turn off the automatic Media Wall animation that occurs when a page with a Media Wall loads.
 * You can now choose the confidence threshold for smart tags in streams. Setting the precision score (0-100) for tags allows you to control the accuracy of the assets we are retrieving.
 * Added moderation recommendations. Livefyre now scans every post in commenting Apps and predicts whether you will trash it or not based on historical data and machine learning. These recommendations appear in ModQ.
-
-    * Users can turn off moderation recommendations, which allow users to filter ModQ by the content Livefyre thinks you will trash.
-    * Added the ability to filter ModQ by the moderation recommendation tag, Trash.
+  * Users can turn off moderation recommendations, which allow users to filter ModQ by the content Livefyre thinks you will trash.
+  * Added the ability to filter ModQ by the moderation recommendation tag, Trash.
 
 ## Issues {#section_ehw_ndt_wcb}
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Rights Management | Fixed an issue where rights requests weren't working for Assets after finding them in a Social Search. |
@@ -38,9 +38,7 @@ The issues in the following tables were resolved in this release.
 |  Bug | UGC Commerce | Fixed an issue where the CTA "Shop" button did not display in a Mosaic or Filmstrip App or a products modal when hovering over a card with a product when the CTA button is enabled. |
 |  Enhancement | UGC Commerce | Fixed an issue where the UGC Commerce flag was set to "off" by default, instead of "on."  |
 
-
-
-#### UAT Release
+## UAT Release
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Library/Search | Fixed an issue with videos not uploading properly. |

@@ -24,60 +24,22 @@ The following new features were released in the production version of this relea
 
 The issues in the following tables were resolved in the production version of this release. 
 
-#### Production Release
-<table id="table_nzp_wrk_hfb">  
- <thead> 
-  <tr> 
-   <th class="entry"> <b>Issue Type</b> </th> 
-   <th class="entry"> <b>Component</b> </th> 
-   <th class="entry"> <b>Release Note</b> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> Bug </td> 
-   <td> Comments </td> 
-   <td> Fixed an issue where Comments did not work as expected in a Mobile browser. </td> 
-  </tr> 
-  <tr> 
-   <td> Bug </td> 
-   <td> Media Wall </td> 
-   <td> Fixed an issue where images and text were not being published as expected to a media wall via a stream hashtag. </td> 
-  </tr> 
-  <tr> 
-   <td> Bug </td> 
-   <td> Media Wall </td> 
-   <td> Fixed an issue where uploaded video was not playable in a Media Wall, even though it was playable in the Asset Library. </td> 
-  </tr> 
-  <tr> 
-   <td> Bug </td> 
-   <td> Storify </td> 
-   <td> Fixed an issue where Storify 2 likes did not work on secure domains. </td> 
-  </tr> 
-  <tr> 
-   <td> Bug </td> 
-   <td> Streams </td> 
-   <td> Fixed an issue where default NSFW filters were not added when the NSFW filter feature was disabled and the default NSFW filters were added when the NSFW feature was enabled. </td> 
-  </tr> 
-  <tr> 
-   <td> Story </td> 
-   <td> Streams </td> 
-   <td> <p>Made the following updates for Facebook Page streams: </p> 
-    <ul id="ul_qmf_j5k_hfb"> 
-     <li id="li_ED15E9ED743443F1A60E31E255E6EEA0"> Increased the time Apps sleep once they hit the API rate limit from one minute to one hour. </li> 
-     <li id="li_4650627EECC9494C814599AF2D15F4C3">Increased the time that pages and posts are submitted for processing from 10 minutes to one hour. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Production Release
+
+|Issue Type|Component|Release Note|
+|--- |--- |--- |
+|Bug|Comments|Fixed an issue where Comments did not work as expected in a Mobile browser.|
+|Bug|Media Wall|Fixed an issue where images and text were not being published as expected to a media wall via a stream hashtag.|
+|Bug|Media Wall|Fixed an issue where uploaded video was not playable in a Media Wall, even though it was playable in the Asset Library.|
+|Bug|Storify|Fixed an issue where Storify 2 likes did not work on secure domains.|
+|Bug|Streams|Fixed an issue where default NSFW filters were not added when the NSFW filter feature was disabled and the default NSFW filters were added when the NSFW feature was enabled.|
+|Story|Streams|Made the following updates for Facebook Page streams:  </br><ul><li>Increased the time Apps sleep once they hit the API rate limit from one minute to one hour. </li><li>Increased the time that pages and posts are submitted for processing from 10 minutes to one hour.</li></ul>|
+
 
 ## UAT Release {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
 The issues in the following tables were resolved in the UAT version of this release.
 
-
-
-#### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug  | AEM  | Fixed an issue where tweets imported into AEM Assets via Livefyre had broken links.  |

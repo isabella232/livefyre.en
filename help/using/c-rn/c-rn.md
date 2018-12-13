@@ -20,13 +20,13 @@ The following new features were released in the production version of this relea
 
 * **Updates to Instagram search and stream. **You can:
 
-    * No longer perform an Instagram search for a location.
-    * Only connect business accounts with business accounts.
-    * Search by Top Tags or by Recent Posts.
-    * Search up to 30 unique hashtags per Instagram business account every 7 days.
+  * No longer perform an Instagram search for a location.
+  * Only connect business accounts with business accounts.
+  * Search by Top Tags or by Recent Posts.
+  * Search up to 30 unique hashtags per Instagram business account every 7 days.
 
 * Livefyre will delete Instagram stream rules with location based filters to avoid failures.
-* **[!UICONTROL Business User Search:]**searches for Instagram posts by the input author.
+* **[!UICONTROL Business User Search:]** searches for Instagram posts by the input author.
 
   >[!NOTE]
   >

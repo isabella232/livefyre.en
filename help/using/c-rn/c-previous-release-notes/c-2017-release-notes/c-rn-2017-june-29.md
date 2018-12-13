@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the June 29, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Library | When you clear filters in the library, you will remain in the same folder selection, instead of being redirected to another page. |
@@ -21,7 +22,8 @@ Release Notes for the June 29, 2017 release.
 |  Bug | Reviews  | Fixed a bug in Reviews that was preventing some images to load correctly due to HTTPS errors.  |
 |  Enhancement | Social Sync | Deprecated Twitter Social Sync.  |
 
-#### UAT Release
+## UAT Release
+
 <table id="table_nv4_3hd_k1b">  
  <thead> 
   <tr> 
@@ -35,7 +37,6 @@ Release Notes for the June 29, 2017 release.
    <td> Enhancement</td> 
    <td> All</td> 
    <td> <p>Introducing Livefyre's new UGC Commerce initiative. This includes the ability to: </p> 
-    <ul id="ul_lkr_5hd_k1b"> 
      <li>Add a conversion button to Mosaic and Media Wall</li> 
      <li>UI enhancements to Mosaic, Media Wall and the content modal for both apps</li> 
      <li>Ability to upload products into Studio in Network Settings</li> 

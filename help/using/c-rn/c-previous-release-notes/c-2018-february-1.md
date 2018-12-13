@@ -10,11 +10,12 @@ internal: n
 snippet: y
 ---
 
-# February 1, 2018{#february}
+# February 1, 2018 {#february}
 
 Release Notes for the February 1, 2018 release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Media Wall | Fixed an issue with some videos not playing in a Media Wall. |
@@ -23,7 +24,8 @@ Release Notes for the February 1, 2018 release.
 |  Enhancement | Streams | Streamed content is now automatically smart tagged by Adobe Sensei as it is saved to a folder or published to an App. |
 |  Bug | Studio | Fix to a bug reported by Nat Geo which showed special characters in names as HTML. |
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | App Content | Added the ability to tag more than one piece of content at a time in App Content.  |

@@ -24,50 +24,19 @@ The following features are new in the production version of this release:
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Polls | Changed Polls to use HTTPS exclusively. Previously, Polls were still allowed to be used with HTTP.  |
 |  Bug | Studio | Fixed an issue that caused the modal window that displays announcements when you log into Studio to display too large on low resolution screens. |
 
-#### UAT Release
-<table id="table_hvf_nyp_cdb">  
- <thead> 
-  <tr> 
-   <th class="entry"> <b>Issue Type</b> </th> 
-   <th class="entry"> <b>Component</b> </th> 
-   <th class="entry"> <b>Release Note</b> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> Enhancement</td> 
-   <td> Filmstrip</td> 
-   <td>Updated the following accessibility features for Filmstrip: 
-    <ul id="ul_z43_lzp_cdb"> 
-     <li>Left/right arrows corrected from<span class="codeph"> &lt;div&gt; </span>to <span class="codeph"> &lt;button&gt;</span></li> 
-     <li>Preview image element changed from a less-descriptive ARIA label of, "Open attached photo," to a label that reads the name of the platform and the post text.</li> 
-    </ul></td> 
-  </tr> 
-  <tr> 
-   <td> Bug</td> 
-   <td> Media Wall</td> 
-   <td> Fixed an issue in Media Wall where tags were not clickable when an Instagram post was added from a stream rule.</td> 
-  </tr> 
-  <tr> 
-   <td> Enhancement</td> 
-   <td> Media Wall</td> 
-   <td>Improved Media Wall accessibility in the following ways: 
-    <ul id="ul_rzf_5zp_cdb"> 
-     <li>Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup. </li> 
-     <li>Load More button can be tabbed to and triggered using the keyboard Enter key.</li> 
-    </ul></td> 
-  </tr> 
-  <tr> 
-   <td> Bug</td> 
-   <td> Rights Management</td> 
-   <td> Fixed an error where you couldn't see the rights request modal after rights for an Instagram asset were granted. </td> 
-  </tr> 
- </tbody> 
-</table>
+## UAT Release
+
+|Issue Type|Component|Release Note|
+|--- |--- |--- |
+|Enhancement|Filmstrip|Updated the following accessibility features for Filmstrip: <br/><ul><li>Left/right arrows corrected from &lt;div&gt; to &lt;button&gt; </li><li>Preview image element changed from a less-descriptive ARIA label of, "Open attached photo," to a label that reads the name of the platform and the post text.</li></ul>|
+|Bug|Media Wall|Fixed an issue in Media Wall where tags were not clickable when an Instagram post was added from a stream rule.|
+|Enhancement|Media Wall|Improved Media Wall accessibility in the following ways: <br/><ul><li>Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup.</li><li>Load More button can be tabbed to and triggered using the keyboard Enter key.</li></ul>|
+|Bug|Rights Management|Fixed an error where you couldn't see the rights request modal after rights for an Instagram asset were granted.|
 

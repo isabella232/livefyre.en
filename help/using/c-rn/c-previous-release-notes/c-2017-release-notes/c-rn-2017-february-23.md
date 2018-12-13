@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the February 23, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | Android SDK | Re-organized the Android SDK to ensure that example and reference implementation directories are more clearly identifiable by their location. |
@@ -34,7 +35,8 @@ Release Notes for the February 23, 2017 release.
 |  Bug | Studio | Fixed a bug that caused multiple &’s from getting appended to the url when using filters in Studio. |
 |  Bug | Studio | Fixed a bug that prevented certain checkboxes in Studio filters from allowing to be unchecked. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Apps | Fixed a bug to show content in media modals with the correct aspect ratios. |

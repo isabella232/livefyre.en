@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the September 21, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | Comments | Customers can now set the maximum length for Comments as part of their network configuration.  |
@@ -23,7 +24,8 @@ Release Notes for the September 21, 2017 release.
 |  Bug | Rights Management | Fixed a bug preventing a Studio user from requesting rights on Instagram Carousel content. |
 |  Bug | Studio | Added clearer error messages when creating new Sites. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | Apps | Customers can now create a single Livefyre app (Mosaic, Filmstrip or Media Wall) and embed it in multiple product pages, that dynamically filter the appropriate UGC for each product page (for example, UGC tagged for shoes displays on the shoe product page). |

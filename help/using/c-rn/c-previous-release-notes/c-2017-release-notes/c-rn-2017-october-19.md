@@ -13,13 +13,15 @@ snippet: y
 
 Release Notes for the October 19, 2017 release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Settings | Changing the color in "Brand Color" setting in Studio Settings now works as designed.  |
 |  Bug | Rights Management | Fixed a bug with displaying long usernames in the Rights Modal tab. |
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | App Content | Ability to playback uploaded Audio files from App content. |

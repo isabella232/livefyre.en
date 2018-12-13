@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the August 3, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Apps | Fixed a bug in S2 that prevented ModQ links (from App Info) to display only the selected App's content. |
@@ -27,7 +28,8 @@ Release Notes for the August 3, 2017 release.
 |  Enhancement | Storify 2 | Removed the Facebook Comments by ID search option in Storify Search, due to Facebook's deprecation of the feature. |
 |  Bug | Streams | Fixed a bug that caused text pills in Stream Rule Configuration textboxes to be removed upon click. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Library | Fixed bug that prevented the "More Info" button content from displaying in the Library. |

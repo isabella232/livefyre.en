@@ -14,7 +14,8 @@ snippet: y
 
 Release Notes for the January 18, 2018 release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Apps | Fixed bug that prevented Avatars to be rendered correctly when a jpeg file was being used. |
@@ -24,7 +25,8 @@ Release Notes for the January 18, 2018 release.
 |  Bug | Streams | Fixes a bug where users could create wrongfully formatted geo entries in stream rules and save them, which would make the stream fail. Now, users can no longer save badly formatted geo tags. |
 |  Bug | Studio | Fixed an issue that prevented some users from logging into Livefyre. |
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Library | Security bug fix. All authentication calls are now made using the HTTPS protocol instead of HTTP. |

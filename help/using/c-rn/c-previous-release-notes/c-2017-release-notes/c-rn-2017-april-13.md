@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the April 13, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | APIs | Fixed a bug so that large files can be uploaded via the "Post to Collection" API. |
@@ -31,7 +32,8 @@ Release Notes for the April 13, 2017 release.
 |  Enhancement | Streams | Modified the default of newly created stream rules to Apply SAFE Rules when applicable. |
 |  Enhancement | Streams (formerly, Curate Rules) | Removed the "Vines" only option from Twitter Stream/Curate rules, as Vines are now displayed as Twitter videos. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | App Designer | Fixed a bug that prevented the ability to save new App Title names on various apps in Designer. |

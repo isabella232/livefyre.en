@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the June 15, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | API | Released a new API to retrieve App embed codes. More info can be found at http://api.livefyre.com/docs/apis/by-category/apps |
@@ -30,7 +31,8 @@ Release Notes for the June 15, 2017 release.
 |  Enhancement | Stream Rules | Added validation improvements when saving Twitter Stream Rules. |
 |  Enhancement | Studio | Enhanced the contrast on toggle components across Studio for easier visibility. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Library | When you clear filters in the library, you will remain in the same folder selection, instead of being redirected to another page. |

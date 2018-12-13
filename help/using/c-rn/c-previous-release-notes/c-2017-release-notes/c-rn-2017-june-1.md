@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the June 1, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | App Content | Added an enhancement to allow users in App Content to download native video files that were uploaded to a Livefyre App and/or via the Upload Media API. |
@@ -21,7 +22,8 @@ Release Notes for the June 1, 2017 release.
 |  Bug | Rights Management | Fixed a bug that caused Rights Management to break on newly deleted/marked-as-private Instagram and Twitter content. |
 |  Bug | Storify 2 | Updated the sorting labels in Storify 2 to match the expected behavior. "Oldest to newest" and "Newest to oldest" will now say "First to last" and "Last to first". The sort order is based on the order dictated in Storify 2's Editor, not publish date.  |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Reviews | Fixed a bug in Reviews to ensure media loads via HTTPS in all implementations. |

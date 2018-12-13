@@ -40,7 +40,8 @@ The following new features were released in the production version of this relea
 
 The issues in the following tables were resolved in the production version of this release. 
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug  | Comments  | Fixed an issue where audio files did not play properly in the Comments App.  |
@@ -52,9 +53,6 @@ The issues in the following tables were resolved in the production version of th
 
 The issues in the following tables were resolved in the UAT version of this release.
 
-
-
-#### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug  | Social Component: Media Upload  | Fixed an issue where users could not upload media to Filmstrip as expected.  |

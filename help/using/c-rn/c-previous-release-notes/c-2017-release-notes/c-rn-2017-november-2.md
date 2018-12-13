@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the November 2, 2017 release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | API | Customers can now upload audio files via Upload API that can be viewed and downloaded via App content. |
@@ -22,7 +23,8 @@ Release Notes for the November 2, 2017 release.
 |  Bug | Rights Management | Fixed a bug that didn't show a proper error message when a user tries to save content in Social Search after it was deleted from Twitter or Instagram. |
 |  Enhancement | SAFE | Studio Admins can now add a new SAFE rule in settings called Smart Mod Reject, which enables the Smart Mod feature. |
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Carousel | Fixed an issue where Carousel wasn't appearing in Designer. |

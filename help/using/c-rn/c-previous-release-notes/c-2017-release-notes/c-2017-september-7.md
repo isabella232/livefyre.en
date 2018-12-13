@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the September 7, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | App Content, ModQ | Added SAFE Image Classification Tags to content in App Content and ModQ. |
@@ -26,7 +27,8 @@ Release Notes for the September 7, 2017 release.
 |  Bug | Studio | Fixed a sort order bug with the Recent and Oldest filters in App Manager. |
 |  Bug | Studio | Fixed a bug which hid other connected networks from displaying in the Network Profile Switcher. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | Comments | Customers can now set the maximum length for comments as part of their network configuration.  |

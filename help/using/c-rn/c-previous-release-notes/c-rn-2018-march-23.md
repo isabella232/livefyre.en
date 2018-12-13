@@ -31,16 +31,16 @@ The following features are new in the production version of this release:
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | Media Wall | Fixed an issue in Media Wall where tags were not clickable when an Instagram post was added from a stream rule. |
 |  Bug | ModQ | Fixed an issue with ModQ not loading properly. |
 |  Bug | ModQ | Fixed an issue where embedding audio caused ModQ to stop working. |
 
+## UAT Release
 
-
-#### UAT Release
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | Filmstrip | Fixed some issues to make Filmstrip more accessible. |

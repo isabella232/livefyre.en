@@ -14,7 +14,8 @@ snippet: y
 
 Release Notes for the November 16, 2017 release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | AEM, Library | Fixed a bug with no results being returned when using Tag and Rating search in Library. |
@@ -39,7 +40,8 @@ Release Notes for the November 16, 2017 release.
 |  Enhancement | Streams | Added the ability to filter stream content by language. |
 |  Enhancement | Users | Added the ability to use .png files for user avatars. |
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Bug | App Manager | Fixed an issue with the App tag search in App Manager.  |

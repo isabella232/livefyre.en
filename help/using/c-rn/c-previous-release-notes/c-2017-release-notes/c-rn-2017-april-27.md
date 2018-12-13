@@ -13,7 +13,8 @@ snippet: y
 
 Release Notes for the April 27, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | App Designer | Fixed a bug that prevented the ability to save new App Title names on various apps in Designer. |
@@ -27,7 +28,8 @@ Release Notes for the April 27, 2017 release.
 |  Bug | Streams | Fixed a bug that prevented rules from being copied over to a new stream when cloning an existing stream. |
 |  Bug | Users | Fixed a bug that was not showing banned users. Now banned users will appear as expected with an indication that they are banned. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Enhancement | API | Released a new API to retrieve App embed codes. More info can be found at http://api.livefyre.com/docs/apis/by-category/apps. |

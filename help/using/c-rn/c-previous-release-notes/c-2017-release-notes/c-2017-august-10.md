@@ -13,13 +13,15 @@ snippet: y
 
 Release Notes for the August 10, 2017 release.
 
-#### Production Release
+## Production Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Library | Fixed bug that prevented the "More Info" button content from displaying in the Library. |
 |  Bug | Library | Fixed issue with products displaying incorrectly after removing then re-adding a product to an asset in the library. |
 
-#### UAT Release
+## UAT Release
+
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
 |  Bug | Studio | Fixed a bug that prevented rights status updates from displaying immediately without a page refresh. |

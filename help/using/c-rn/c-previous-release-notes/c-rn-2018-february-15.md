@@ -21,11 +21,10 @@ The following features are new in the production version of this release:
 * **Smart Tags.**
 
   Livefyre uses Adobe Sensei image-recognition technology to automatically tag images you save in the library.
-
   With Smart Tags you can save a significant amount of time searching and moderating content. With Smart Tags, you can:
 
-    * Search saved images for precise content based on the image content, rather than only text
-    * Collect content in streams based on precise search terms that analyze the image, rather than only text
+  * Search saved images for precise content based on the image content, rather than only text
+  * Collect content in streams based on precise search terms that analyze the image, rather than only text
 
   For more information about Smart Tags, see [Smart Tags](../../c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags).
 
@@ -36,14 +35,16 @@ The following features are new in the production version of this release:
 
 The issues in the following tables were resolved in this release.
 
-#### Production Release
+## Production Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Issue | ModQ | Fixed an issue where Instagram posts marked as approved or trashed were re-entering the queue. |
 |  Enhancement | Rights Management | Added an enhancement to display a warning when attempting to use expired Instagram accounts while making Rights Requests. |
 |  Issue | Trends | Fixed an issue with the Trends App still allowing HTTP at times, rather than HTTPS. |
 
-#### UAT Release
+## UAT Release
+
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|
 |  Enhancement | Apps | Added the ability to delete Apps from Livefyre. |
