@@ -820,7 +820,7 @@ Strings available for Livefyre Identity.
   </tr> 
   <tr> 
    <td> passwordErrorMissingSymbol </td> 
-   <td> Password should contain at least one symbol in the set !@#$%^&amp;*()?.,&lt;&gt;\’;:”[]{}| </td> 
+   <td> Password should contain at least one symbol in the set `!@#$%^&*()?.,<>\’;:”[]{}|` </td> 
   </tr> 
  </tbody> 
 </table>
