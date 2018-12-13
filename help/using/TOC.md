@@ -10,90 +10,90 @@ user-guide-title: Experience Manager Livefyre User Guide
 + [Announcements](c-anouncements.md)
 + [Access Training Videos](c-access-training-videos.md)
 + [About Livefyre](c-product.md)
-+ Apps {#apps} 
-   + [Apps](c-about-apps/c-about-apps.md)
-   + [Create an App](c-about-apps/c-create-an-app.md)
-   + Carousel {#carousel}
-     + [Carousel](c-about-apps/c-carousel-app/c-carousel-app.md)
-     + [Carousel Features](c-about-apps/c-carousel-app/r-carousel-features.md)
-     + [Create a Carousel Using Studio](c-about-apps/c-carousel-app/t-create-carousel-using-studio.md)
-     + [Customize a Carousel Using Studio](c-about-apps/c-carousel-app/t-customize-carousel-studio.md)
-     + [Localize a Carousel](c-about-apps/c-carousel-app/t-localize-carousel.md)
-   + Chat {#chat}
-     + [Chat](c-about-apps/c-chat-app/c-chat-app.md)
-     + [Chat Features](c-about-apps/c-chat-app/r-chat-features.md)
-     + [Chat Customizations](c-about-apps/c-chat-app/r-customize-chat.md)
-   + Comments {#comments}   
-     + [Comments](c-about-apps/c-comments/c-comments.md)
-     + [Comments Features](c-about-apps/c-comments/r-comments-features.md)
-     + [Comments Customizations](c-about-apps/c-comments/r-comments-customizations.md)
-   + Feature Card {#featurecard}   
-     + [Feature Card](c-about-apps/c-feature-card-app/c-feature-card-app.md)
-     + [Feature Card Customizations](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
-   + Filmstrip {#filmstrip}
-     + [Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
-     + [Filmstrip Features](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
-     + [Filmstrip Customizations](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + Live Blog {#liveblog}
-     + [Live Blog](c-about-apps/c-liveblog-app/c-liveblog-app.md)
-     + [Live Blog Features](c-about-apps/c-liveblog-app/r-live-blog-features.md)
-     + [Live Blog Customizations](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
-   + Map {#map}
-     + [Map](c-about-apps/c-map-app/c-map-app.md)
-     + [Map Features](c-about-apps/c-map-app/r-map-features.md)
-     + [Map Customizations](c-about-apps/c-map-app/r-map-customizations.md)
-   + Media Wall {#mediawall}
-     + [Media Wall](c-about-apps/c-media-wall-app/c-media-wall-app.md)
-     + [Media Wall Features](c-about-apps/c-media-wall-app/r-media-wall-features.md)
-     + [Media Wall Customizations](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
-   + Mosaic {#mosaic}
-     + [Mosaic](c-about-apps/c-mosaic-app/c-mosaic-app.md)
-     + [Mosaic Features](c-about-apps/c-mosaic-app/r-mosaic-features.md)
-     + [Mosaic Customizations](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
-   + Polls {#polls}
-     + [Polls](c-about-apps/c-polls-app/c-polls-app.md)
-     + [Add a Poll to a Comments or Live Blog App](c-about-apps/c-polls-app/t-integrate-poll-site.md)
-     + [Add Images to a Poll](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
-     + [Polls Customizations](c-about-apps/c-polls-app/r-polls-customizations.md)
-   + Reviews {#reviews}
-     + [Reviews](c-about-apps/c-reviews-app/c-reviews-app.md)
-     + [Creating a Reviews App](c-about-apps/c-reviews-app/c-creating-reviews.md)
-     + [Post a Review](c-about-apps/c-reviews-app/t-using-reviews.md)
-   + Sidenotes {#sidenotes}
-     + [Sidenotes](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
-     + [Sidenotes Features](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
-     + [Sidenotes Customizations](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
-     + [Best Practices for Sidenotes](c-about-apps/c-sidenotes-app/c-best-practices-for-sidenotes.md)
-   + Storify 2 {#storify2}
-     + [Storify 2](c-about-apps/c-storify2/c-storify2.md)
-     + [Configuration Options](c-about-apps/c-storify2/c-configuration-options.md)
-     + [Storify Settings](c-about-apps/c-storify2/c-storify-settings.md)
-     + [Use Google AMP with Storify 2](c-about-apps/c-storify2/t-use-google-amp-with-storify-2.md)
-     + [Create a Story](c-about-apps/c-storify2/t-create-a-story.md)
-     + [Add Social Content](c-about-apps/c-storify2/t-add-social-content.md)
-     + [Add Text](c-about-apps/c-storify2/t-add-local-content.md)
-     + [Preview a Story](c-about-apps/c-storify2/t-preview-a-story.md)
-     + [Publish a Story](c-about-apps/c-storify2/t-publish-a-story.md)
-     + [Review History](c-about-apps/c-storify2/t-review-storify2-history.md)
-     + [Working with Multiple Editors on the Same Story](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
-     + [Use Streams to Add Social Content to your Story](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
-     + [Pin a Post to Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
-     + Navigation Guide {#navigation-guide}
-       + [Navigation Guide](c-about-apps/c-storify2/c-navigation-guide.md)
-       + [Add a Navigation Guide to a Storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
-       + [Add a Title to the Navigation Guide](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
-       + [Add Posts to the Navigation Guide](c-about-apps/c-storify2/t-add-posts-to-the-navigation-guide.md)
-       + [Set the Number of Posts in the Navigation Guide](c-about-apps/c-storify2/t-set-the-number-of-posts-nav-guide.md)
-       + [Make the Navigation Guide Sticky](c-about-apps/c-storify2/t-make-nav-guide-sticky.md)
-       + [Move the Navigation Guide](c-about-apps/c-storify2/t-move-navigation-guide.md)
-   + Trending {#trending}
-     + [Trending](c-about-apps/c-trending-app/c-trending-app.md)
-     + [Trending Features](c-about-apps/c-trending-app/r-trending-features.md)
-     + [Trending Customizations](c-about-apps/c-trending-app/r-trending-customizations.md)
-   + Upload Button {#upload-button}
-     + [Upload Button](c-about-apps/c-upload-button-app/c-upload-button-app.md)
-     + [Upload Button Customizations](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
-     + [Upload Button Text Strings](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
++ Apps {#apps}
+  + [Apps](c-about-apps/c-about-apps.md)
+  + [Create an App](c-about-apps/c-create-an-app.md)
+  + Carousel {#carousel}
+    + [Carousel](c-about-apps/c-carousel-app/c-carousel-app.md)
+    + [Carousel Features](c-about-apps/c-carousel-app/r-carousel-features.md)
+    + [Create a Carousel Using Studio](c-about-apps/c-carousel-app/t-create-carousel-using-studio.md)
+    + [Customize a Carousel Using Studio](c-about-apps/c-carousel-app/t-customize-carousel-studio.md)
+    + [Localize a Carousel](c-about-apps/c-carousel-app/t-localize-carousel.md)
+  + Chat {#chat}
+    + [Chat](c-about-apps/c-chat-app/c-chat-app.md)
+    + [Chat Features](c-about-apps/c-chat-app/r-chat-features.md)
+    + [Chat Customizations](c-about-apps/c-chat-app/r-customize-chat.md)
+  + Comments {#comments}   
+    + [Comments](c-about-apps/c-comments/c-comments.md)
+    + [Comments Features](c-about-apps/c-comments/r-comments-features.md)
+    + [Comments Customizations](c-about-apps/c-comments/r-comments-customizations.md)
+  + Feature Card {#featurecard}   
+    + [Feature Card](c-about-apps/c-feature-card-app/c-feature-card-app.md)
+    + [Feature Card Customizations](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
+  + Filmstrip {#filmstrip}
+    + [Filmstrip](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
+    + [Filmstrip Features](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
+    + [Filmstrip Customizations](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
+  + Live Blog {#liveblog}
+    + [Live Blog](c-about-apps/c-liveblog-app/c-liveblog-app.md)
+    + [Live Blog Features](c-about-apps/c-liveblog-app/r-live-blog-features.md)
+    + [Live Blog Customizations](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
+  + Map {#map}
+    + [Map](c-about-apps/c-map-app/c-map-app.md)
+    + [Map Features](c-about-apps/c-map-app/r-map-features.md)
+    + [Map Customizations](c-about-apps/c-map-app/r-map-customizations.md)
+  + Media Wall {#mediawall}
+    + [Media Wall](c-about-apps/c-media-wall-app/c-media-wall-app.md)
+    + [Media Wall Features](c-about-apps/c-media-wall-app/r-media-wall-features.md)
+    + [Media Wall Customizations](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
+  + Mosaic {#mosaic}
+    + [Mosaic](c-about-apps/c-mosaic-app/c-mosaic-app.md)
+    + [Mosaic Features](c-about-apps/c-mosaic-app/r-mosaic-features.md)
+    + [Mosaic Customizations](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
+  + Polls {#polls}
+    + [Polls](c-about-apps/c-polls-app/c-polls-app.md)
+    + [Add a Poll to a Comments or Live Blog App](c-about-apps/c-polls-app/t-integrate-poll-site.md)
+    + [Add Images to a Poll](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
+    + [Polls Customizations](c-about-apps/c-polls-app/r-polls-customizations.md)
+  + Reviews {#reviews}
+    + [Reviews](c-about-apps/c-reviews-app/c-reviews-app.md)
+    + [Creating a Reviews App](c-about-apps/c-reviews-app/c-creating-reviews.md)
+    + [Post a Review](c-about-apps/c-reviews-app/t-using-reviews.md)
+  + Sidenotes {#sidenotes}
+    + [Sidenotes](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
+    + [Sidenotes Features](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
+    + [Sidenotes Customizations](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
+    + [Best Practices for Sidenotes](c-about-apps/c-sidenotes-app/c-best-practices-for-sidenotes.md)
+  + Storify 2 {#storify2}
+    + [Storify 2](c-about-apps/c-storify2/c-storify2.md)
+    + [Configuration Options](c-about-apps/c-storify2/c-configuration-options.md)
+    + [Storify Settings](c-about-apps/c-storify2/c-storify-settings.md)
+    + [Use Google AMP with Storify 2](c-about-apps/c-storify2/t-use-google-amp-with-storify-2.md)
+    + [Create a Story](c-about-apps/c-storify2/t-create-a-story.md)
+    + [Add Social Content](c-about-apps/c-storify2/t-add-social-content.md)
+    + [Add Text](c-about-apps/c-storify2/t-add-local-content.md)
+    + [Preview a Story](c-about-apps/c-storify2/t-preview-a-story.md)
+    + [Publish a Story](c-about-apps/c-storify2/t-publish-a-story.md)
+    + [Review History](c-about-apps/c-storify2/t-review-storify2-history.md)
+    + [Working with Multiple Editors on the Same Story](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
+    + [Use Streams to Add Social Content to your Story](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
+    + [Pin a Post to Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
+    + Navigation Guide {#navigation-guide}
+      + [Navigation Guide](c-about-apps/c-storify2/c-navigation-guide.md)
+      + [Add a Navigation Guide to a Storify 2](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
+      + [Add a Title to the Navigation Guide](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
+      + [Add Posts to the Navigation Guide](c-about-apps/c-storify2/t-add-posts-to-the-navigation-guide.md)
+      + [Set the Number of Posts in the Navigation Guide](c-about-apps/c-storify2/t-set-the-number-of-posts-nav-guide.md)
+      + [Make the Navigation Guide Sticky](c-about-apps/c-storify2/t-make-nav-guide-sticky.md)
+      + [Move the Navigation Guide](c-about-apps/c-storify2/t-move-navigation-guide.md)
+  + Trending {#trending}
+    + [Trending](c-about-apps/c-trending-app/c-trending-app.md)
+    + [Trending Features](c-about-apps/c-trending-app/r-trending-features.md)
+    + [Trending Customizations](c-about-apps/c-trending-app/r-trending-customizations.md)
+  + Upload Button {#upload-button}
+    + [Upload Button](c-about-apps/c-upload-button-app/c-upload-button-app.md)
+    + [Upload Button Customizations](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
+    + [Upload Button Text Strings](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
 + App Features {#app-features}
   + [App Features](c-features-livefyre/c-features-livefyre.md)
   + [Accessibility Features](c-features-livefyre/c-accessibility-features.md)

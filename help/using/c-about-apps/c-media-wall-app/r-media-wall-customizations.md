@@ -20,8 +20,8 @@ Media Walls stream live images and other content into a real-time social wall, v
 
 If enabled, users may post text, images, or video directly to this App. Supported file types include:
 
-* Image: JPEG, GIF, PNG 
-* Video: Quicktime/MOV, MP4, MPEG, WebM 
+* Image: JPEG, GIF, PNG
+* Video: Quicktime/MOV, MP4, MPEG, WebM
 * Audio: WAV, WAVE, X-MS-WMA, FLAC, OGG, MPEG
 
 * **[!UICONTROL Items to load]**
@@ -40,43 +40,38 @@ If enabled, users may post text, images, or video directly to this App. Supporte
 
 * **[!UICONTROL Upload Button]**
 
-    * **[!UICONTROL Allow user posts]**. Select whether you will allow users to post text, photo, or video with the upload button. 
-    * **[!UICONTROL Require Media]**. Toggle to on to require users to upload only photo or video content using the Upload Button. 
-    * You can edit the default text for the following Upload Button fields:
+  * **[!UICONTROL Allow user posts]**. Select whether you will allow users to post text, photo, or video with the upload button. 
+  * **[!UICONTROL Require Media]**. Toggle to on to require users to upload only photo or video content using the Upload Button. 
+  * You can edit the default text for the following Upload Button fields:
 
-        * **[!UICONTROL Upload Button Text]**. Text for the Upload Button. Default text is "What’s on your mind?" 
-        * **[!UICONTROL Comment Modal Title]**. The title for the modal site visitors use to post content. Default text is "Post Your Comment." 
-        * **[!UICONTROL Comment Modal Button]**. The text of button site visitors click to post content. Default text is "Post Your Comment."
+    * **[!UICONTROL Upload Button Text]**. Text for the Upload Button. Default text is "What’s on your mind?" 
+    * **[!UICONTROL Comment Modal Title]**. The title for the modal site visitors use to post content. Default text is "Post Your Comment." 
+    * **[!UICONTROL Comment Modal Button]**. The text of button site visitors click to post content. Default text is "Post Your Comment."
 
 * **[!UICONTROL Call-to-action button]** You can use the Call-to-action button with a product catalog to direct users to a product or to your site for further action.
 
-    * **[!UICONTROL Call-to-action button]** Switch the toggle to on to display the Call-to-action button. 
-    
-    * **[!UICONTROL Require rights to display products]** Switch the toggle to on to require that the content owner has granted rights for the content before a Call-to-action button appears for the content.
+  * **[!UICONTROL Call-to-action button]** Switch the toggle to on to display the Call-to-action button. 
+  * **[!UICONTROL Require rights to display products]** Switch the toggle to on to require that the content owner has granted rights for the content before a Call-to-action button appears for the content.
 
-      >[!NOTE]
-      >
-      >The content displays even if rights are not granted for the content, but the Call-to-action button will not display with the content unless rights for the content are granted.
+    >[!NOTE]
+    >
+    >The content displays even if rights are not granted for the content, but the Call-to-action button will not display with the content unless rights for the content are granted.
 
-    * **[!UICONTROL Call-to-action header text]** The words to display in the header above the Call-to-action button in the content modal. Default wording is, "Shop these products:". 
-    
-    * **[!UICONTROL Call-to-action button text]** The words to display in the Call-to-action button in the content modal. Default text is, "Buy Now:". 
-    
-    * **[!UICONTROL Product display options]** Choose whether you want to display the Photo and Product name with the Call-to-action button.
+  * **[!UICONTROL Call-to-action header text]** The words to display in the header above the Call-to-action button in the content modal. Default wording is, "Shop these products:". 
+  * **[!UICONTROL Call-to-action button text]** The words to display in the Call-to-action button in the content modal. Default text is, "Buy Now:". 
+  * **[!UICONTROL Product display options]** Choose whether you want to display the Photo and Product name with the Call-to-action button.
 
-      >[!NOTE]
-      >
-      >Both the Photo and Product name buttons highlight blue when they are enabled.
+    >[!NOTE]
+    >
+    >Both the Photo and Product name buttons highlight blue when they are enabled.
 
-    * **[!UICONTROL Product URL referral tracking]** Switch the toggle to on to track referrals from this App to the associated product page. 
-    
-    * **[!UICONTROL Referral tracking key-value pairs]** Add parameters to further specify the referral tracking from your App content to the associated product page.
+  * **[!UICONTROL Product URL referral tracking]** Switch the toggle to on to track referrals from this App to the associated product page. 
+  * **[!UICONTROL Referral tracking key-value pairs]** Add parameters to further specify the referral tracking from your App content to the associated product page.
 
 * **[!UICONTROL Product page filter]**.
-
-    * **[!UICONTROL Filter UGC by Product ID]**. Select this option to create one App for multiple product pages. Filter product-specific UGC to the App for each product page. You can select one or more folders to associate specific collections to the App. 
-    * **[!UICONTROL Select Product folders]**. Select the top-level product folders to use to filter UGC. Use CTRL/Command + click to select more than one folder. Livefyre uses the folder to determine which products in that folder to display in the App on various pages. 
-    * **[!UICONTROL Show related content]**. Toggle this to display content published to the App, but tagged with a different product ID. After the product-specific content for the App displays, Livefyre displays content for other products and content not associated with a product. Livefyre prioritizes the content with the same product ID first, then content published to the App with other product IDs, then content published to the App with no product IDs.
+  * **[!UICONTROL Filter UGC by Product ID]**. Select this option to create one App for multiple product pages. Filter product-specific UGC to the App for each product page. You can select one or more folders to associate specific collections to the App. 
+  * **[!UICONTROL Select Product folders]**. Select the top-level product folders to use to filter UGC. Use CTRL/Command + click to select more than one folder. Livefyre uses the folder to determine which products in that folder to display in the App on various pages. 
+  * **[!UICONTROL Show related content]**. Toggle this to display content published to the App, but tagged with a different product ID. After the product-specific content for the App displays, Livefyre displays content for other products and content not associated with a product. Livefyre prioritizes the content with the same product ID first, then content published to the App with other product IDs, then content published to the App with no product IDs.
 
 You can customize Media Wall using:
 

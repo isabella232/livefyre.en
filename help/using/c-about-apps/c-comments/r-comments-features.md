@@ -14,14 +14,12 @@ snippet: y
 
 Many features come with the Comments App to embed real-time conversations in your site.
 
-
-
 * [Authentication](../../c-features-livefyre/c-authentication.md#c_authentication)
 * [Avatars](../../c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)
 * [Comment Notifier](../../c-features-livefyre/c-notifications-features/c-comment-notifier.md#c_comment_notifier)
 * [CSS Styling](../../c-features-livefyre/c-styling-features/c-css-styling-branding.md#c_css_styling_branding)
 * [Custom Buttons](c_custom_buttons.md#c_custom_buttons)
-* [](c_date_time_stamp.md#c_date_time_stamp)
+* [Date Time Stamp](c_date_time_stamp.md#c_date_time_stamp)
 * [Custom HTML](../../c-features-livefyre/c-custom-html/c-custom-html.md#c_custom_html)
 * [Custom Text Strings](../../c-features-livefyre/c-custom-text-strings.md#c_custom_text_strings)
 * [Date and Timestamp](../../c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
@@ -46,7 +44,7 @@ Many features come with the Comments App to embed real-time conversations in you
 * [SAFE](../../c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
 * [Social Sharing](../../c-features-livefyre/c-social-sharing/c-social-sharing.md#c_social_sharing)
 * [Streaming Real Time](../../c-features-livefyre/c-content-behavior-features/c-streaming-real-time.md#c_streaming_real_time)
-* [](../../c-features-livefyre/c-styling-features/c-styling-features.md#c_styling_features)
+* [Styling Features](../../c-features-livefyre/c-styling-features/c-styling-features.md#c_styling_features)
 * [Text Upload](c_text_upload_feature.md#c_text_upload_feature)
 * [Throttle Comments](../../c-features-livefyre/c-content-behavior-features/c-throttle-content.md#c_throttle_content)
 * [Top Comments](../../c-features-livefyre/c-sort-features-composite/c-top-comments.md#c_top_comments)

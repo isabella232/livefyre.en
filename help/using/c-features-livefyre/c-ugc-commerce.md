@@ -14,13 +14,6 @@ snippet: y
 
 Deliver product-specific UGC at specific points of the customer journey to increase purchase intent and conversion using the UGC Commerce feature.
 
-On this page:
-
-* [](#c_ugc_commerce/section_s2d_tln_n1b) 
-* [](#c_ugc_commerce/section_n1s_4hz_m1b) 
-* [Using ModQ with UGC Commerce](#c_ugc_commerce/section_os1_v4t_n1b) 
-* [Using Streams with UGC Commerce](#c_ugc_commerce/section_qtj_v4t_n1b)
-
 Use the UGC Commerce feature to influence purchase intent and conversion on UGC and product detail pages. Speed time to market by seamlessly associating UGC with product inventory. Build brand loyalty by creating community using UGC to highlight authentic customer stories.
 
 AEM Livefyre provides several ways to import product catalog information, including SKU, thumbnail images, price, and product name. Easily manage the association of products with UGC by using AEM Livefyre’s rights requests, auto-stream rule tagging, and moderation workflows.
@@ -79,8 +72,8 @@ Upload products to use with your Call-to-Action Button to add products to associ
 1. Click the **[!UICONTROL Upload Products]** button.
 1. Upload a product file in one of the following formats:
 
-    * Google Products file format
-    * Livefyre format (see below)
+   * Google Products file format
+   * Livefyre format (see below)
 
    Upload a JSON file in the standard format. You can download a template to see an example of the standard format. The following is an example of one product line in a template. It follows the sequence `{"key": "value", "key": "value"}, {"key": "value", "key": "value"}`:
 
@@ -90,90 +83,22 @@ Upload products to use with your Call-to-Action Button to add products to associ
 
    The table explains the key and value pairs you need to upload products:
 
-   #### Key/Value Pairs for Product Catalog Upload Standard Format
-<table frame="all" rowsep="1" colsep="1" id="table_x41_fkv_n1b">  
- <thead> 
-  <tr> 
-   <th class="entry"> Key </th> 
-   <th class="entry"> Type </th> 
-   <th class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <span class="codeph"> id </span> </td> 
-   <td> String </td> 
-   <td> Unique ID of the product. </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> oembed </span> </td> 
-   <td> Object </td> 
-   <td> Image attachment 0embed $ref: '../partials/schemas.yaml#/oEmbed' </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> title </span> </td> 
-   <td> String </td> 
-   <td> Product title. </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> isFolder </span> </td> 
-   <td> Boolean </td> 
-   <td> If true, the product is treated like a folder (for example, mens, womens, etc.). </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> parentId </span> </td> 
-   <td> String </td> 
-   <td> Defines what folder the product is under. </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> description </span> </td> 
-   <td> String </td> 
-   <td> Description of the product. </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> price </span> </td> 
-   <td> String </td> 
-   <td> Value of the product in dollars. For example, '23.36.' </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> sku </span> </td> 
-   <td> String </td> 
-   <td> Stock keeping unit (SKU) of the product. </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> url </span> </td> 
-   <td> String </td> 
-   <td> Link to the product page. </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> enabled </span> </td> 
-   <td> Boolean </td> 
-   <td> A value of True means the product is active. </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> attributes </span> </td> 
-   <td> Array </td> 
-   <td> <p>Types and values that define the product (for example, color, size, etc.). This is an array of objects.</p> <p>Properties:</p> 
-    <ul id="ul_rkb_z3w_41b"> 
-     <li> <span class="codeph"> type </span> 
-      <ul id="ul_j5z_zkw_41b"> 
-       <li>Type: String</li> 
-       <li>Description: Color, size</li> 
-      </ul></li> 
-     <li> <span class="codeph"> value </span> 
-      <ul id="ul_pyh_blw_41b"> 
-       <li>Type: String</li> 
-       <li>Description: Green, XS</li> 
-      </ul></li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="codeph"> tags </span> </td> 
-   <td> Array </td> 
-   <td> <p>Tags defining categories of content (for example, cars, shoes, etc.). This is an array of strings.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Key/Value Pairs for Product Catalog Upload Standard Format
+
+|Key|Type|Description|
+|--- |--- |--- |
+|id|String|Unique ID of the product.|
+|oembed|Object|Image attachment `0embed $ref: '../partials/schemas.yaml#/oEmbed'`|
+|title|String|Product title.|
+|isFolder|Boolean|If true, the product is treated like a folder (for example, mens, womens, etc.).|
+|parentId|String|Defines what folder the product is under.|
+|description|String|Description of the product.|
+|price|String|Value of the product in dollars. For example, '23.36.'|
+|sku|String|Stock keeping unit (SKU) of the product.|
+|url|String|Link to the product page.|
+|enabled|Boolean|A value of True means the product is active.|
+|attributes|Array|Types and values that define the product (for example, color, size, etc.). This is an array of objects.</br>**Properties:** </br>type </br>Type: String</br>Description: Color, size </br>value </br>Type: String </br>Description: Green, XS|
+|tags|Array|Tags defining categories of content (for example, cars, shoes, etc.). This is an array of strings.|
 
 ## ModQ {#section_os1_v4t_n1b}
 

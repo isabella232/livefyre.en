@@ -19,7 +19,7 @@ Learn how to use Experience Manager Livefyre with Hootsuite, allowing you to cur
 
 ## Getting Started {#task_22699BD901C24384AB2DC02D926D8F4A}
 
-Task Context 
+Task Context
 
 1. Install [Adobe Experience Manager Livefyre for Hootsuite](http://apps.hootsuite.com/0/adobe-livefyre) from the Hootsuite App Directory.
 1. From your Hootsuite dashboard, click **Login with Adobe**.
@@ -35,7 +35,7 @@ Task Context
 
 ## Search for Assets {#task_0B011B0C539E400BB72A6DF69FBF66C0}
 
-Task Context 
+Task Context
 
 1. Click the search icon in the menu bar to search for assets in your Experience Manager Livefyre libraries.
 
@@ -54,38 +54,18 @@ You can filter your search results by using the Display Assets From, Rights, Key
 
 The filtering options include:
 
-<table id="table_0E8FFD7602BF4D00A3923983C0D8B5ED"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Section </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Display Assets From</b> </td> 
-   <td colname="col2"> <p>Select to view assets from All Sources or from one individual source. For example: Instagram, Twitter, Facebook, etc. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Rights</b> </td> 
-   <td colname="col2"> <p>Select to view only assets that have a specific rights setting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Keywords</b> </td> 
-   <td colname="col2"> <p>Select to filter results by Keywords or Tags. Filtering by keywords will search the text content of a post as well as the author display name and author username. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Tags</b> </td> 
-   <td colname="col2"> <p> Select to filter results by Keywords or Tags. Filtering by keywords will search the text content of a post as well as the author display name and author username. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Section|Description|
+|--- |--- |
+|Display Assets From|Select to view assets from All Sources or from one individual source. For example: Instagram, Twitter, Facebook, etc.|
+|Rights|Select to view only assets that have a specific rights setting.|
+|Keywords|Select to filter results by Keywords or Tags. Filtering by keywords will search the text content of a post as well as the author display name and author username.|
+|Tags|Select to filter results by Keywords or Tags. Filtering by keywords will search the text content of a post as well as the author display name and author username.|
 
 Once you have selected your search parameters, your assets will be displayed in-stream when you search:
 
 ![](assets/hootsuite-stream.png)
 
-**Stream Menu Options**
+### Stream Menu Options
 
 Clicking the user's name or icon will display the user on the respective network. Clicking the time will display the original article. When your mouse is over the item, more options will appear. Clicking the Share ![](assets/share.png)
 
@@ -99,7 +79,7 @@ Click the Assign  ![](assets/assign.png) icon to assign the current item to one 
 
 icon will appear. Click it to resolve the current assignment.
 
-**Other App Menus**
+### Other App Menus
 
 Clicking the Settings  ![](assets/settings.png)
 

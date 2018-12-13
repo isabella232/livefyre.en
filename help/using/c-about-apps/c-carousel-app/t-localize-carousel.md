@@ -13,9 +13,8 @@ snippet: y
 # Localize a Carousel{#localize-a-carousel}
 
 * Localization is available for a Carousel. You can:
-
-    * Change strings available for a Carousel
-    * Create and modify a translation set for a Carousel
-    * Apply a Translation Set to a Site
-    * Apply a Translation Set to a Network
+  * Change strings available for a Carousel
+  * Create and modify a translation set for a Carousel
+  * Apply a Translation Set to a Site
+  * Apply a Translation Set to a Network
 

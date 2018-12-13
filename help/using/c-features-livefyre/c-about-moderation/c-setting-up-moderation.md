@@ -27,11 +27,11 @@ You can automatically premoderate content in the following ways:
 
 * Set up rules to automatically flag certain types of content:
 
-    * Set up flag rules for content that is flagged by site visitors flag using **[!UICONTROL Settings > Moderation > Rules]**
-    * Set up SAFE rules using **[!UICONTROL Settings > Moderation > Rules]**
-    * Ban specific Twitter users using **[!UICONTROL Settings > Streams]** 
-    * Ban IP addresses using **[!UICONTROL Settings > Bans]**
-    * Ban IP regions by country code by request. Banned content will be marked as SPAM.
+  * Set up flag rules for content that is flagged by site visitors flag using **[!UICONTROL Settings > Moderation > Rules]**
+  * Set up SAFE rules using **[!UICONTROL Settings > Moderation > Rules]**
+  * Ban specific Twitter users using **[!UICONTROL Settings > Streams]** 
+  * Ban IP addresses using **[!UICONTROL Settings > Bans]**
+  * Ban IP regions by country code by request. Banned content will be marked as SPAM.
 
 * Create a list of words that you consider profanity in the Profanity List under **[!UICONTROL Settings > Moderation > Rules]** for your Network or Site.
 * Whitelist users (always allow content from these users to display) by using or turning off filters for specific streams, sites, or networks.
@@ -40,65 +40,17 @@ After you have set up your profanity lists, SAFE filters, and rules, you can cho
 
 Livefyre marks content as **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, **[!UICONTROL Junk]**, etc. depending on where the content comes from, where it will be published, and what rules you have set up in your system. The following table describes the actions Livefyre takes, depending on these factors, in detail.
 
-#### How Moderation Works
-<table frame="all" rowsep="1" colsep="1" id="table_jcs_wnd_t1b">  
- <thead> 
-  <tr> 
-   <th class="entry"> Content Comes From:</th> 
-   <th class="entry"> Sending Content To:</th> 
-   <th class="entry"> Approval Status</th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> Library</td> 
-   <td> App</td> 
-   <td> Content Approved</td> 
-  </tr> 
-  <tr> 
-   <td> Social Search</td> 
-   <td> App</td> 
-   <td> Content Approved</td> 
-  </tr> 
-  <tr> 
-   <td> Stream Rule</td> 
-   <td> App</td> 
-   <td> <p>Is content marked as Junk by SAFE filter?</p> 
-    <ul id="ul_s4m_r4d_t1b"> 
-     <li>No - <a href="#c_setting_up_moderation/section_z5z_w4d_t1b" format="dita"> Stream-to-App Moderation Workflow</a></li> 
-     <li>Yes - Content Trashed</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> Library</td> 
-   <td> Folder</td> 
-   <td> No status (in folder, not published, not trashed)</td> 
-  </tr> 
-  <tr> 
-   <td> Social Search</td> 
-   <td> Folder</td> 
-   <td> No status (in folder, not published, not trashed)</td> 
-  </tr> 
-  <tr> 
-   <td> Stream Rule</td> 
-   <td> Folder</td> 
-   <td> <p>Is content marked as Junk by SAFE filter?</p> 
-    <ul id="ul_h1n_p4d_t1b"> 
-     <li>No - No status (in folder, not published, not trashed)</li> 
-     <li>Yes - Content Trashed</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> App Post</td> 
-   <td> App</td> 
-   <td> <p>Is content marked as Junk by SAFE filter?</p> 
-    <ul id="ul_mkf_t4d_t1b"> 
-     <li>No - <a href="#c_setting_up_moderation/section_fwn_w4d_t1b" format="dita"> Post-to-App Moderation Workflow</a></li> 
-     <li>Yes - Content Trashed</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+## How Moderation Works
+
+|Content Comes From:|Sending Content To:|Approval Status|
+|--- |--- |--- |
+|Library|App|Content Approved|
+|Social Search|App|Content Approved|
+|Stream Rule|App|Is content marked as Junk by SAFE filter? <br/><ul><li>No -  Stream-to-App Moderation Workflow</li><li>Yes - Content Trashed</li></ul>|
+|Library|Folder|No status (in folder, not published, not trashed)|
+|Social Search|Folder|No status (in folder, not published, not trashed)|
+|Stream Rule|Folder|Is content marked as Junk by SAFE filter? <br/><ul><li>No - No status (in folder, not published, not trashed)</li><li>Yes - Content Trashed</li></ul>|
+|App Post|App|Is content marked as Junk by SAFE filter? <br/><ul><li>No -  Post-to-App Moderation Workflow</li><li>Yes - Content Trashed</li></ul>|
 
 ## Stream-to-App Moderation Workflow {#section_z5z_w4d_t1b}
 
@@ -176,4 +128,3 @@ You can use moderation recommendations to help you determine how to moderate con
    In App Content, moderation recommendations look like this:  ![](assets/modreco3.png)
 
    For more information on how to use Moderation Recommendations in App Content, see [](../../c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
-
