@@ -12,15 +12,7 @@ snippet: y
 
 # Importing Content{#importing-content}
 
-Importing Chat and Comment data into Livefyre.
-
-On this page:
-
-* [](#c_importing_content/section_vhm_vtt_b1b) 
-* [](#c_importing_content/section_p4c_qtt_b1b) 
-* [](#c_importing_content/section_ufj_jkn_b1b)
-
-Import legacy content after your user profile data import is complete to allow Livefyre to link content to its author appropriately.
+Importing Chat and Comment data into Livefyre. Import legacy content after your user profile data import is complete to allow Livefyre to link content to its author appropriately.
 
 ## Content Data Formatting {#section_vhm_vtt_b1b}
 
@@ -28,7 +20,7 @@ To begin the import process, you must prepare your import data. Livefyre’s imp
 
 The Content [JSON schema](http://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](http://json-schema.org/implementations.html) page.
 
-**File Format Standards**
+### File Format Standards
 
 A successful import must adhere to the following standards:
 
@@ -39,47 +31,47 @@ A successful import must adhere to the following standards:
 * Timestamps must be [ISO-8601 compliant](https://en.wikipedia.org/wiki/ISO_8601).
 * URLs must be fully qualified. They must include http:// or https:// and domains must include the trailing /. For example:
 
-    * https://web.livefyre.com/ or http://web.livefyre.com/index.html
+  * https://web.livefyre.com/ or http://web.livefyre.com/index.html
 
 * The top level id field must be unique to the content. (This id is often the CMS’s unique ID, but may also be the content’s URL, post number, or other identifying string. If using the content URL as the unique identifier, it is a best practice to MD5 or otherwise hash the identifier to meet field length restrictions.)
 * To streamline the import process, do not import Collections that do not yet include comments. After implementation, Livefyre will automatically create a Collection with 0 comments the first time your App is loaded on the page.
 * If not importing User Profiles, omit the author_id field from the Blob (unless you are preparing files for Livefyre’s archive import).
 
-**HTML Standards**
+### HTML Standards
 
 * **Allowed HTML tags and attributes in comment bodies:**
 
-    * Tags: a, span, label, p, br, strong, em, u, blockquote, ul, li, ol, pre, body, b, i
-    * Attributes: href, target
+  * Tags: a, span, label, p, br, strong, em, u, blockquote, ul, li, ol, pre, body, b, i
+  * Attributes: href, target
 
-  **Line breaks:** Line breaks in comments must be represented as <p></p> and <br> tags. n will not be accepted. Wrapping the entire comment in surrounding <p></p> tags is not required.
+  **Line breaks:** Line breaks in comments must be represented as `<p></p>` and `<br>` tags. n will not be accepted. Wrapping the entire comment in surrounding `<p></p>` tags is not required.
 
-* **Do not use HTML entities in Collection Titles:** HTML entities like <b>, <i>, <strong>, and <em> must be removed from the Collection title. If included, they will be represented literally in the displayed Collection title in Studio.
-* **Do not encode angle brackets in HTML tags: **The left and right angle bracket characters ( < > ) of HTML tags in body_html should not be encoded. If encoded, these tags will have no meaning and will be displayed literally in Studio.
-* **Escape quotations in tags: **Quotation marks in HTML tags must be backslash escaped.
+* **Do not use HTML entities in Collection Titles:** HTML entities like `<b>`, `<i>`, `<strong>`, and `<em>` must be removed from the Collection title. If included, they will be represented literally in the displayed Collection title in Studio.
+* **Do not encode angle brackets in HTML tags:** The left and right angle bracket characters `< >` of HTML tags in body_html should not be encoded. If encoded, these tags will have no meaning and will be displayed literally in Studio.
+* **Escape quotations in tags:** Quotation marks in HTML tags must be backslash escaped.
 
-  For example: <a href=”http://www.baseart.fr/doc/sacguccifrance.php”>gucci jeans<a>
+  For example: `<a href=”http://www.baseart.fr/doc/sacguccifrance.php”>gucci jeans<a>`
 
-* **Do not add extra attributes from anchor tags: **Additional attributes like rel=”nofollow” and rel=”bookmark” are not permitted. The additional invalid attributes will be stripped out during the import, and the anchor tag will be imported without them.
+* **Do not add extra attributes from anchor tags:** Additional attributes like `rel=”nofollow”` and `rel=”bookmark”` are not permitted. The additional invalid attributes will be stripped out during the import, and the anchor tag will be imported without them.
 
-**Threaded Content**
+### Threaded Content
 
 To maintain threading in your imported content, adhere to the following rules:
 
-* **Comment ordering: **To preserve comment threading, parent content must be imported before child/reply content. Specifically, the top level ID of a comment must exist before a child comment references it as parent. An easy way to accomplish this is to list comments from oldest to newest date of creation.
+* **Comment ordering:** To preserve comment threading, parent content must be imported before child/reply content. Specifically, the top level ID of a comment must exist before a child comment references it as parent. An easy way to accomplish this is to list comments from oldest to newest date of creation.
 
-  **Note: **Livefyre doesn’t keep a record of parent IDs after running a sample import. Parent IDs must be included in the delta file.
+  **Note:** Livefyre doesn’t keep a record of parent IDs after running a sample import. Parent IDs must be included in the delta file.
 
-* **Threading with moderated comments: **To maintain threading in your reply structures, set the parent_id for every reply comment.
+* **Threading with moderated comments:** To maintain threading in your reply structures, set the parent_id for every reply comment.
 * **Deleted or Moderated comments: **There are two options for comments that have been deleted or moderated and have child replies:
 
-    * **Import all comments: **Import all comments and replace the text of deleted or moderated comments with a standardized message.
+  * **Import all comments:** Import all comments and replace the text of deleted or moderated comments with a standardized message.
 
-      For example, if your original content structure follows this format:
+  For example, if your original content structure follows this format:
 
-      - A
-
-      — B (deleted/moderated)
+  ```
+  - A
+  — B (deleted/moderated)
 
       — C
 
@@ -110,48 +102,49 @@ To maintain threading in your imported content, adhere to the following rules:
       — C (set parent_id to ID of A)
 
       — D
+    ```
 
-**Special Characters**
+### Special Characters
 
-* **Encode non-ASCII special characters: **All non-ASCII special characters must be encoded, preferably with Python style encoding. For example, replace smartquotes (also known as typographer’s quotes ’ ) with u2019. (Do not escape the backslash; Livefyre requires the single backslash.)
+* **Encode non-ASCII special characters:** All non-ASCII special characters must be encoded, preferably with Python style encoding. For example, replace smartquotes (also known as typographer’s quotes ’ ) with u2019. (Do not escape the backslash; Livefyre requires the single backslash.)
 
 ## Available Content Parameters {#section_p4c_qtt_b1b}
 
 The following parameters are used in the Content import process.
 
-**Required**
+### Required
 
-* ** source: ** ***required* string **The site on which the comment originated.
+* **source:** *required* string The site on which the comment originated.
 
-* ** title: ** ***required* string **The title for the Collection to which the comment was posted.
+* **title:** *required* string The title for the Collection to which the comment was posted.
 
-* ** created: ** ***required* timestamp **The ISO-8601 compliant timestamp for the moment the Collection in which the comment was posted was created. For example: “2010-07-05T23:01:15Z”
+* **created:** *required* timestamp The ISO-8601 compliant timestamp for the moment the Collection in which the comment was posted was created. For example: “2010-07-05T23:01:15Z”
 
-* ** id (source): ** ***required* string **The article ID you chose to uniquely identify a Collection within your Site, encoded using Base64. This parameter is limited to 150 characters.
+* **id (source):** *required* string The article ID you chose to uniquely identify a Collection within your Site, encoded using Base64. This parameter is limited to 150 characters.
 
-* ** id (comments): ** ***required* string **Your system’s internal content identifier, used by the importer to relate children using their `parent_id`.
+* **id (comments):** *required* string Your system’s internal content identifier, used by the importer to relate children using their `parent_id`.
 
-* ** imported_display_name: ** ***required* string **The name to display next to content. (Unicode characters may be used.)
+* **imported_display_name:** *required* string The name to display next to content. (Unicode characters may be used.)
 
-* ** author_id: ** ***required* string **The unique ID of the content’s author. (Unicode characters cannot be used for this parameter.)
+* **author_id:** *required* string The unique ID of the content’s author. (Unicode characters cannot be used for this parameter.)
 
-* ** body_html: ** ***required* string **The text string for the Comment. Only <p> and <a> tags, and the href attribute are allowed.
+* **body_html:** *required* string The text string for the Comment. Only `<p>` and `<a>` tags, and the href attribute are allowed.
 
-* ** created: ** ***required* timestamp **The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
+* **created:** *required* timestamp The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
 
 **Optional fields**
 
-* ** imported_email: ** **(optional) string **Used for gravatars, and not displayed publicly.
+* **imported_email:** `(optional)` string Used for gravatars, and not displayed publicly.
 
-* ** imported_url: ** **(optional) string **A user provided website.
+* **imported_url:** `(optional)` string **A user provided website.
 
-* ** parent_id: ** **(optional) string **Provide the parent ID for the comment to which this comment is a reply. Parent comments must appear before their children.
+* **parent_id:** `(optional)` string Provide the parent ID for the comment to which this comment is a reply. Parent comments must appear before their children.
 
-* ** likes: ** **(optional) array **An array of user IDs of users who have ‘liked’ the comment.
+* **likes:** `(optional)` array An array of user IDs of users who have ‘liked’ the comment.
 
-* ** tags: ** **(optional) array **Use tags to assign users to user groups. Tags may include 1-63 alphanumeric and underscore characters.
+* **tags:** `(optional)` array **Use tags to assign users to user groups. Tags may include 1-63 alphanumeric and underscore characters.
 
-* ** allow_comments: ** **(optional) Boolean **Set to `false` if you do not wish to allow new comments on the conversation. May be `true` or `false`.
+* **allow_comments:** `(optional)` Boolean Set to `false` if you do not wish to allow new comments on the conversation. May be `true` or `false`.
 
 ## Example Comment Format {#section_ufj_jkn_b1b}
 
