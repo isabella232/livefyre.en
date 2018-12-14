@@ -19,14 +19,12 @@ Translation Sets allow you to specify alternate language for Apps.
 Translation Sets allow you to specify alternate language for Apps.
 
 <!-- 
-
 c_translation_sets.dita
-
- -->
+-->
 
 Use translation settings to localize Apps in various languages or to specify alternate text for several Apps from one location in Studio. For example, you can ensure all Spanish-language sites use Spanish language for all App fields. You can also modify the text so that all fields match the voice and feel of your site or network.
 
-You can specify translation settings for all Apps, except Storify 2. For more information about what fields you can localize, see [Localize Strings](c_localize_strings.md#c_localize_strings).
+You can specify translation settings for all Apps, except Storify 2. For more information about what fields you can localize, see [Localize Strings](c-localize-strings.md#c-localize-strings).
 
 Comments, Live Blog, and Chat share the same set of strings within a translation set.
 
@@ -38,9 +36,9 @@ The translation sets at different levels override each other following this patt
 * App translation set overrides network-level and site-level translation sets. 
 * Site-level translation sets override network-level translation sets.
 
-## <draft-comment author="ind14750" otherprops="merge"> c_review_text_strings.dita </draft-comment>Review Text Strings {#c_review_text_strings}
+## Review Text Strings {#c-review-text-strings}
 
-Customizing the text strings for Livefyre Reviews. 
+Customizing the text strings for Livefyre Reviews.
 
 This page lists and describes the strings available for customization in Review apps. The strings listed here are in addition to and overrides for the default strings for Livefyre core apps, listed in String Customizations. Where duplicates are listed, the strings listed in these tables are the default for Reviews apps.
 
@@ -73,116 +71,29 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 
 Strings available for the Review and Rating user interface.
 
-<table id="table_jrv_snl_wz"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Element </th> 
-   <th class="entry"> Key </th> 
-   <th class="entry"> Default Text </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colspan="2"> <i>Buttons</i> </td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> editReviewBtn </td> 
-   <td> Edit review </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> reviewBtn </td> 
-   <td> <a href="https://d.pr/i/QscA" format="html" scope="external"> Write review </a> </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> reviewsClosed </td> 
-   <td> <a href="https://d.pr/i/zr7M" format="html" scope="external"> Reviews Closed </a> </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> showReviewBtn </td> 
-   <td> <a href="https://d.pr/i/onxU" format="html" scope="external"> Show review </a> </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> follow </td> 
-   <td> I’m interested </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> shareText </td> 
-   <td> I just wrote a review. Check it out! </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"> <i>Rating tooltips</i> </td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> ratingValues </td> 
-   <td> <i>An array. Default = </i>[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]; 
-    <ul id="ul_krv_snl_wz"> 
-     <li><b>Note: </b>Values in the array must be duplicated to assign both the left and the right half of each star the same name.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"> <i>Rating subparts</i> </td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> ratingSubpartPlaceholders </td> 
-   <td> <i>An array. Default = </i>[] </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> ratingSubpartTitles </td> 
-   <td> <i>An array. Default = </i>[] </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> reviewStreamTitle </td> 
-   <td> <i>Blank by default. Title of the summary section of the review.</i> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"> <i>Misc</i> </td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> averageRating </td> 
-   <td> <a href="https://d.pr/i/QscA" format="html" scope="external"> Average User Rating </a> </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> breakdownHeader </td> 
-   <td> <a href="https://d.pr/i/QscA" format="html" scope="external"> Rating Breakdown </a> </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> helpful </td> 
-   <td> %s of %s found helpful </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> helpfulPlural </td> 
-   <td> %s of %s found helpful </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> outOf </td> 
-   <td> / </td> 
-  </tr> 
-  <tr> 
-   <td></td> 
-   <td> ratingType </td> 
-   <td> star </td> 
-  </tr> 
- </tbody> 
-</table>
+| Element         | Key                       | Default Text                                                                                                          |
+| --------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Buttons         |                           |                                                                                                                       |
+|                 | editReviewBtn             | Edit review                                                                                                           |
+|                 | reviewBtn                 | Write review                                                                                                          |
+|                 | reviewsClosed             | Reviews Closed                                                                                                        |
+|                 | showReviewBtn             | Show review                                                                                                           |
+|                 | follow                    | I’m interested                                                                                                        |
+|                 | shareText                 | I just wrote a review. Check it out!                                                                                  |
+| Rating tooltips |                           |                                                                                                                       |
+|                 | ratingValues              | An array. Default = [‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]; |
+|                 |                           | Note: Values in the array must be duplicated to assign both the left and the right half of each star the same name.   |
+| Rating subparts |                           |                                                                                                                       |
+|                 | ratingSubpartPlaceholders | An array. Default = []                                                                                                |
+|                 | ratingSubpartTitles       | An array. Default = []                                                                                                |
+|                 | reviewStreamTitle         | Blank by default. Title of the summary section of the review.                                                         |
+| Misc            |                           |                                                                                                                       |
+|                 | averageRating             | Average User Rating                                                                                                   |
+|                 | breakdownHeader           | Rating Breakdown                                                                                                      |
+|                 | helpful                   | %s of %s found helpful                                                                                                |
+|                 | helpfulPlural             | %s of %s found helpful                                                                                                |
+|                 | outOf                     | /                                                                                                                     |
+|                 | ratingType                | star                                                                                                                  |
 
 ## Stream Info {#section_wmv_yj4_xz}
 
@@ -204,8 +115,8 @@ Strings available for content stream information and display.
 |  | listenerCount  | person listening  |
 |  | listenerCountPlural  | people listening  |
 |  *Comment counts* | | |
-|  | commentCountLabel  | LiveReviews<strong>|</strong>%s  |
-|  | commentCountLabelPlural  | LiveReviews<strong>|</strong>%s  |
+|  | commentCountLabel  | LiveReviews  |
+|  | commentCountLabelPlural  | LiveReviews  |
 |  *Comment notifier counts* | | |
 |  | commentNotifier  | New Review  |
 |  | commentNotifierPlural  | New Reviews  |
@@ -374,7 +285,7 @@ Stings available for author and individual content information.
 |  | commentVoteCountSing  | vote  |
 |  | datetimeMinutePrefix  | m  |
 |  | datetimeMonths  | *An array. Default = *[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]  |
-|  | questionExplanation  | You can now read and write comments directly on sentences, paragraphs, images and quotes.<br><br><span class=”lf-highlight-text”>Highlight text</span> and click the <span class=”fycon-write”></span> icon or click the <span class=”fycon-action-view”></span> icon at the end of each paragraph.  |
+|  | questionExplanation  | You can now read and write comments directly on sentences, paragraphs, images and quotes.<br/>Highlight text and click the icon or click the icon at the end of each paragraph.  |
 |  | questionMockText  | What is “familiarly known” is not properly known, just for the reason that it is “familiar”.  |
 |  | questionTitle  | What is a Sidenote?  |
 
