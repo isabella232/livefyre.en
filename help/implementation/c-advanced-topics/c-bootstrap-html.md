@@ -32,7 +32,7 @@ To implement the Bootstrap HTML API:
 
    >[!NOTE]
    >
-   >If you’re trying to grab the Bootstrap HTML for a conversation that does not yet exist (that is, if you have yet to embed the App or create the Collection), you will receive a 200, but with content that looks something like: `<!- HTTP 404 /`example.fyre.co`/000000/MTEwMTo2NDEyOD1RS/bootstrap.html ->`
+   >If you’re trying to grab the Bootstrap HTML for a conversation that does not yet exist (that is, if you have yet to embed the App or create the Collection), you will receive a 200, but with content that looks something like: `<!- HTTP 404 example.fyre.co/000000/MTEwMTo2NDEyOD1RS/bootstrap.html ->`
 
 1. If your return does not include content with a “404” in it, save it into a string. You may cache this response for later use to avoid requesting the Bootstrap HTML API on every pageload.
 1. Insert the Bootstrap HTML string into your webpage where you’d like the content to appear.
@@ -47,16 +47,14 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{networkName}.fyre.co/{siteId}/{
 
 ## Parameters {#section_y34_dqj_11b}
 
-* ** networkName ** Your Livefyre provided network name. For example: *labs* in `labs.fyre.co`.
-
-* ** siteId ** The Site ID of the Collection.
-
-* ** b64articleId ** The Article ID of the Collection using the base64url encoding.
+* **networkName** Your Livefyre provided network name. For example: *labs* in `labs.fyre.co`.
+* **siteId** The Site ID of the Collection.
+* **b64articleId** The Article ID of the Collection using the base64url encoding.
 
 ## Example {#section_k5z_bqj_11b}
 
 ```
-https://labs.bootstrap.fyre.co/bs3/`labs.fyre.co`m/4/NTg0/bootstrap.html 
+https://labs.bootstrap.fyre.co/bs3/labs.fyre.com/4/NTg0/bootstrap.html 
 
 ```
 
@@ -66,4 +64,3 @@ https://labs.bootstrap.fyre.co/bs3/`labs.fyre.co`m/4/NTg0/bootstrap.html
 https://gist.github.com/ec5c2457322faf9cf515 
 
 ```
-

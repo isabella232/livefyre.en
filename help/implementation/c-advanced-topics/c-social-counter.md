@@ -46,6 +46,7 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
 * **until** `(optional)` specifies the relative or absolute time period to graph; until specifies the beginning and defaults to the current time (now), if omitted.
 
 ### Relative Time
+
 |  Abbreviation  | Unit  |
 |---|---|
 |  s  | Seconds  |

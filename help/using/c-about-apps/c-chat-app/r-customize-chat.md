@@ -48,7 +48,7 @@ These options are available from the Chat App:
 
 * **[!UICONTROL Additional sort option]**
 
-  Allows you to offer sort options for your end users: **[!UICONTROL Most liked]** or **[!UICONTROL Most active]**.
+  Allows you to offer sort options for your end users:** [!UICONTROL Most liked]** or **[!UICONTROL Most active]**.
 
 You can customize Chat using:
 

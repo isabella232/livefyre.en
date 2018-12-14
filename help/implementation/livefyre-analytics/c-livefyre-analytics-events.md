@@ -90,7 +90,7 @@ The following is a list of conversion variables (eVars) that Livefyre provides.
 |Network ID|Network ID/Name in Livefyre|
 |App ID|The URN of the app|
 |Context ID|Content ID in Livefyre|
-|App Type|Livefyre App Type. Options: <br/><ul><li>Live Blog  </li><li> Feature Card</li><li>Carousel</li><li>Chat </li><li>Comments</li><li>Filmstrip</li><li>Map</li><li>Mosaic</li><li>Media Wall</li><li>Trending</li><li>Upload Button</li></ul>|
+|App Type|Livefyre App Type. Options: <br><ul><li>Live Blog  </li><li> Feature Card</li><li>Carousel</li><li>Chat </li><li>Comments</li><li>Filmstrip</li><li>Map</li><li>Mosaic</li><li>Media Wall</li><li>Trending</li><li>Upload Button</li></ul>|
 |Content Type|Instagram, Twitter, Facebook, LiveFyre, YouTube, etc|
 
 ## More Info {#section_b3d_4yl_pdb}

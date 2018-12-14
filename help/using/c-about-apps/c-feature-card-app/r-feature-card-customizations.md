@@ -15,7 +15,7 @@ Change the size, width, and interaction options of the Map app.
 r_feature_card_customization.dita
  -->
 
-Feature Card Apps include only standard customizations: **[!UICONTROL Theme]**, Brand color, Font family, and Font size.
+Feature Card Apps include only standard customizations:** [!UICONTROL Theme]**, Brand color, Font family, and Font size.
 
 You can customize Feature Cards using:
 

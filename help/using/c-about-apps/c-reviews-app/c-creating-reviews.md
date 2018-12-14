@@ -89,11 +89,10 @@ Reviews APIs are available to allow you to display average user rating and ratin
 
 [Ratings and Reviews](http://api.livefyre.com/docs/apis/by-category/ratings-and-reviews)
 
-* ** **[!UICONTROL Bootstrap API Endpoint]** ** The Bootstrap API Endpoint allows your review to be read by search engines like Google so that the content and keywords can improve your search engine optimization.
+* **[!UICONTROL Bootstrap API Endpoint]** The Bootstrap API Endpoint allows your review to be read by search engines like Google so that the content and keywords can improve your search engine optimization.
 
-* ** **[!UICONTROL Average User Ratings]** ** The Average User Ratings API retrieves the average user rating for one or more Reviews Collections, allowing you to create a visualization of this information on an index page or add to a search index page.
+* **[!UICONTROL Average User Ratings]** The Average User Ratings API retrieves the average user rating for one or more Reviews Collections, allowing you to create a visualization of this information on an index page or add to a search index page.
 
-* ** **[!UICONTROL Ratings Breakdown]** ** The Ratings Breakdown API retrieves a breakdown of all ratings for a specific Reviews Collection and allows you to create a visualization that displays the number of reviews that are associated with each star rating.
+* **[!UICONTROL Ratings Breakdown]** The Ratings Breakdown API retrieves a breakdown of all ratings for a specific Reviews Collection and allows you to create a visualization that displays the number of reviews that are associated with each star rating.
 
-* ** **[!UICONTROL User Reviews]** ** The User Reviews API retrieves the most recent reviews for a specific user. This activity can be used to display a user’s reviews on their public profile page.
-
+* **[!UICONTROL User Reviews]** The User Reviews API retrieves the most recent reviews for a specific user. This activity can be used to display a user’s reviews on their public profile page.

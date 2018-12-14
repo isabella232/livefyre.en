@@ -130,9 +130,9 @@ authDelegate.login = function(finishLogin) {
 
 Logout
 
-* ** finishLogout: ** The callback passed to your auth delegate’s login method.
+* **finishLogout:** The callback passed to your auth delegate’s login method.
 
-* ** window.Backplane: ** A reference to your Backplane object.
+* **window.Backplane:** A reference to your Backplane object.
 
 ```
 /** 

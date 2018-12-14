@@ -13,7 +13,7 @@ snippet: y
 
 Livefyre.require provides a plugin that enables auth to listen to the Janrain Backplane bus.
 
- When an identity/login message is broadcast on the Backplane channel, auth.authenticate() will be called for you with the user’s Livefyre Authentication token. You must still implement an AuthDelegate.
+When an identity/login message is broadcast on the Backplane channel, auth.authenticate() will be called for you with the user’s Livefyre Authentication token. You must still implement an AuthDelegate.
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -36,11 +36,11 @@ The following are some examples of how an auth delegate may look for a Janrain C
 >
 >Your auth delegate will vary depending upon your Janrain instance.
 
-*
+<!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
-    * The callback passed to your auth delegate’s login method
-    * The reference to your Janrain capture variable.
-    * : A reference to your Backplane object.
+* The callback passed to your auth delegate’s login method
+* The reference to your Janrain capture variable.
+* : A reference to your Backplane object.
 
 ```
 /** 
@@ -75,9 +75,9 @@ authDelegate.login = function(finishLogin) {
 
 Logout
 
-* ** finishLogout: ** The callback passed to your auth delegate’s login method.
+* **finishLogout:** The callback passed to your auth delegate’s login method.
 
-* ** window.Backplane: ** A reference to your Backplane object.
+* **window.Backplane:** A reference to your Backplane object.
 
 ```
 /** 

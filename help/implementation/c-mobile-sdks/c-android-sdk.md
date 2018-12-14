@@ -81,11 +81,11 @@ include ':streamHubAndroidSDK'
 
 The StreamHub Android SDK exposes several client classes that can be used to request Livefyre API endpoints:
 
-* ** AdminClient ** Exchange a user authentication token for user information, keys, and other metadata.
+* **AdminClient** Exchange a user authentication token for user information, keys, and other metadata.
 
-* ** BootstrapClient ** Get recent content and metadata about a particular Collection.
+* **BootstrapClient** Get recent content and metadata about a particular Collection.
 
-* ** StreamClient ** Poll a stream for a Collection to retrieve new, updated, and deleted content.
+* **StreamClient** Poll a stream for a Collection to retrieve new, updated, and deleted content.
 
-* ** WriteClient ** Post, flag, and like content in a Collection.
+* **WriteClient** Post, flag, and like content in a Collection.
 

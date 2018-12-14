@@ -14,7 +14,7 @@ snippet: y
 
 Use your bit.ly URL shortener to customize content permalinks.
 
-Permalinks allow you to link to archived comments or content within your streams. To enable this feature, Livefyre uses a default URL format: **fyre.it**. This format may be customized to match your standard bit.ly format.
+Permalinks allow you to link to archived comments or content within your streams. To enable this feature, Livefyre uses a default URL format:** fyre.it**. This format may be customized to match your standard bit.ly format.
 
 ## Permalink display {#section_mxd_wwg_wy}
 

@@ -16,7 +16,8 @@ Create a Network object.
 
 Once you create a network object, the rest of the page will assume that you have a instantiated Network object in your session.
 
-#### Network Object
+## Network Object
+
 |  Parameter  | Type  | Description  |
 |---|---|---|
 |  *`network`* | String  | Your Livefyre network. For example: “`labs.fyre.co`”.  |
@@ -28,7 +29,6 @@ Once you create a network object, the rest of the page will assume that you have
 import com.livefyre.Livefyre; 
   
 Network network = Livefyre.getNetwork(network, networkKey); 
-
 ```
 
 ## NodeJS {#section_nyk_dzs_kbb}
@@ -37,7 +37,6 @@ Network network = Livefyre.getNetwork(network, networkKey);
 var livefyre = require('livefyre'); 
   
 var network = livefyre.getNetwork(network, networkKey); 
-
 ```
 
 ## PHP {#section_oyk_dzs_kbb}
@@ -46,7 +45,6 @@ var network = livefyre.getNetwork(network, networkKey);
 use Livefyre\Livefyre; 
   
 $network = Livefyre::getNetwork(network, networkKey); 
-
 ```
 
 ## Python {#section_pyk_dzs_kbb}
@@ -55,7 +53,6 @@ $network = Livefyre::getNetwork(network, networkKey);
 from livefyre import Livefyre 
   
 network = Livefyre.get_network(network, networkKey) 
-
 ```
 
 ## Ruby {#section_qyk_dzs_kbb}
@@ -64,6 +61,4 @@ network = Livefyre.get_network(network, networkKey)
 require 'livefyre' 
   
 network = Livefyre.get_network(network, networkKey) 
-
 ```
-

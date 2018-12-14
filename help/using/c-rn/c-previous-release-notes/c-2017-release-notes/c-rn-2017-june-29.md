@@ -26,7 +26,7 @@ Release Notes for the June 29, 2017 release.
 
 |Issue Type|Component|Release Note|
 |--- |--- |--- |
-|Enhancement|All|Introducing Livefyre's new UGC Commerce initiative. This includes the ability to:  <br/><ul><li>Add a conversion button to Mosaic and Media Wall</li><li> UI enhancements to Mosaic, Media Wall and the content modal for both apps</li><li>Ability to upload products into Studio in Network Settings</li><li>Ability to associate content with products in Studio Library, App Content and ModQ</li><li>Ability to associate products with Stream Rules for auto-tagging</li></ul>|
+|Enhancement|All|Introducing Livefyre's new UGC Commerce initiative. This includes the ability to:  <br><ul><li>Add a conversion button to Mosaic and Media Wall</li><li> UI enhancements to Mosaic, Media Wall and the content modal for both apps</li><li>Ability to upload products into Studio in Network Settings</li><li>Ability to associate content with products in Studio Library, App Content and ModQ</li><li>Ability to associate products with Stream Rules for auto-tagging</li></ul>|
 |Enhancement|Comments|Added an enhancement so that Comments Sort Order tabs are ADA compliant.|
 |Enhancement|Comments|Added an accessibility enhancement so that Avatars in Comments are ADA compliant.|
 |Enhancement|Instagram Search|Added support for saving and publishing multi-image/video Instagram posts.|

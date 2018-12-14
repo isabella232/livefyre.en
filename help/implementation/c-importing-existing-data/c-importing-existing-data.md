@@ -38,9 +38,9 @@ Please name and structure your files meaningfully. For example:
 
 When importing, content must be split into two types:
 
-**Recent Comments (or Interactive Comments): **include the most recent content posted prior to your launch date. (The exact time period for “Recent Comments” will be specified in your Livefyre contract.) Imported comments will look and behave as if posted after integration. Recent content is active and interactive.
+**Recent Comments (or Interactive Comments):** include the most recent content posted prior to your launch date. (The exact time period for “Recent Comments” will be specified in your Livefyre contract.) Imported comments will look and behave as if posted after integration. Recent content is active and interactive.
 
-**Legacy Comments (or Archived Comments): **include content posted previous to the specified cut-off point for your Recent Comments import. These comments will display in the stream, and may be styled to indicate that they are “archived” comments, but they will not be available in Studio, and will not support user interaction. Legacy content is archival, and not interactive.
+**Legacy Comments (or Archived Comments):** include content posted previous to the specified cut-off point for your Recent Comments import. These comments will display in the stream, and may be styled to indicate that they are “archived” comments, but they will not be available in Studio, and will not support user interaction. Legacy content is archival, and not interactive.
 
 >[!NOTE]
 >

@@ -18,7 +18,7 @@ Change the Livefyre icon used in the @mention pulldown menu to an icon of your c
 
 **Example**
 
-To change this icon, add the following CSS to your stylesheet. Replace ***<your resource url>*** with the URL of the image selected to replace the default Livefyre badge.
+To change this icon, add the following CSS to your stylesheet. Replace `<your resource url>` with the URL of the image selected to replace the default Livefyre badge.
 
 ```
 .fyre-editor-container .fyre-editor-toolbar > .fyre-mention-menu .fyre-mention-item .fyre-mention-item-livefyre { 
@@ -27,4 +27,3 @@ To change this icon, add the following CSS to your stylesheet. Replace ***<your 
     background-size: 22px 22px; 
 }
 ```
-

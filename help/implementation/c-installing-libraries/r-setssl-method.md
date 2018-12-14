@@ -16,7 +16,7 @@ Sets SSL for API calls to be on or off.
 
 |Variable|Type|Description|
 |--- |--- |--- |
-|ssl|Boolean|Default is true. if you want SSL on, false otherwise. <br/><ul><li>True - SSL on </li><li>False - SSL off</li></ul>|
+|ssl|Boolean|Default is true. if you want SSL on, false otherwise. <br><ul><li>True - SSL on </li><li>False - SSL off</li></ul>|
 
 ## Java Example {#section_nyl_ycs_rz}
 
