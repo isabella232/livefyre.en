@@ -41,4 +41,5 @@ fyre.conv.load(networkConfig, [convConfig]);
 1. Pass an additional argument in your ConvConfig object named actionButtons, containing an array of objects describing each button you would like to add.
 1. Define a key for the text to display for each button.
 1. Add a callback that will be invoked on a click event for each button.
->The callback is invoked with an object with two keys: `authorId` and `contentId`. 
+
+The callback is invoked with an object with two keys: `authorId` and `contentId`. 

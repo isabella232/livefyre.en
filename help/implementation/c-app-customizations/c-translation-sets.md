@@ -285,7 +285,7 @@ Stings available for author and individual content information.
 |  | commentVoteCountSing  | vote  |
 |  | datetimeMinutePrefix  | m  |
 |  | datetimeMonths  | *An array. Default = *[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]  |
-|  | questionExplanation  | You can now read and write comments directly on sentences, paragraphs, images and quotes.<br/>Highlight text and click the icon or click the icon at the end of each paragraph.  |
+|  | questionExplanation  | You can now read and write comments directly on sentences, paragraphs, images and quotes. <br>Highlight text and click the icon or click the icon at the end of each paragraph.  |
 |  | questionMockText  | What is “familiarly known” is not properly known, just for the reason that it is “familiar”.  |
 |  | questionTitle  | What is a Sidenote?  |
 
@@ -371,4 +371,3 @@ Strings available for general error messages.
 |  | errorDuplicate  | We like your note too, but you can’t post it twice.  |
 |  | errorGeneral  | An error has occurred. Please try again.  |
 |  | errorServer  | Something went wrong with our server. Try that again?  |
-

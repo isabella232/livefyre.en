@@ -18,7 +18,8 @@ The events available to which you can bind JavaScript for conversation Apps (for
 
 The following is a matrix of the events available for conversation apps. An X denotes that the event is available for the App, N/A indicates that the event does not apply to the App, and no marking means that the event is unavailable for that App:
 
-#### Conversation App Events
+### Conversation App Events
+
 |  Events | Comments | Chat | Liveblog | Reviews | Sidenotes | Polls | Trending |
 |---|---|---|---|---|---|---|---|
 |  Init | X | X | X | X | X | | |

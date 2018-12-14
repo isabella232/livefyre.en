@@ -64,7 +64,7 @@ LinkedIn credentials are available from the OAuth Keys section of your LinkedIn 
 
 Facebook credentials are available from your Developer Apps page.
 
-* Open Facebook’s Developer Apps Page (https://developers.facebook.com/apps) as the app owner, find your application, and click on the title.
+* Open [Facebook’s Developer Apps Page](https://developers.facebook.com/apps) as the app owner, find your application, and click on the title.
 * Grab the values for App ID and App Secret. For the App Secret, you may need to click the Show button to display it.
 
 Sharing to Facebook requires that you set up a redirect page to take Facebook requests and adhere to domain practices required by [Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/). The page must be hosted on your domain so Facebook can verify that the request came from a legitimate source.

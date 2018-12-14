@@ -35,8 +35,8 @@ The issues in the following tables were resolved in this release.
 
 |Issue Type|Component|Release Note|
 |--- |--- |--- |
-|Enhancement|Filmstrip|Updated the following accessibility features for Filmstrip: <br/><ul><li>Left/right arrows corrected from &lt;div&gt; to &lt;button&gt; </li><li>Preview image element changed from a less-descriptive ARIA label of, "Open attached photo," to a label that reads the name of the platform and the post text.</li></ul>|
+|Enhancement|Filmstrip|Updated the following accessibility features for Filmstrip: <br><ul><li>Left/right arrows corrected from &lt;div&gt; to &lt;button&gt; </li><li>Preview image element changed from a less-descriptive ARIA label of, "Open attached photo," to a label that reads the name of the platform and the post text.</li></ul>|
 |Bug|Media Wall|Fixed an issue in Media Wall where tags were not clickable when an Instagram post was added from a stream rule.|
-|Enhancement|Media Wall|Improved Media Wall accessibility in the following ways: <br/><ul><li>Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup.</li><li>Load More button can be tabbed to and triggered using the keyboard Enter key.</li></ul>|
+|Enhancement|Media Wall|Improved Media Wall accessibility in the following ways: <br><ul><li>Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup.</li><li>Load More button can be tabbed to and triggered using the keyboard Enter key.</li></ul>|
 |Bug|Rights Management|Fixed an error where you couldn't see the rights request modal after rights for an Instagram asset were granted.|
 

@@ -26,7 +26,8 @@ document.body.addEventListener('insights', function (data) {
 
 List of supported Media Wall events:
 
-#### Media Wall Events
+### Media Wall Events
+
 |  Event  | Definition  |
 |---|---|
 |  `Init`  | When a Media Wall is included on a page.  |
@@ -42,4 +43,3 @@ List of supported Media Wall events:
 |  `ShareURL`  | When Share to URL text area is selected/copied from the Media Wall.  |
 |  `ShareFacebook`  | When Share to Facebook is clicked from the Media Wall.  |
 |  `ShareTwitter`  | When Share to Twitter is clicked from the Media Wall.  |
-

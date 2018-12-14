@@ -46,11 +46,11 @@ Livefyre marks content as **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, *
 |--- |--- |--- |
 |Library|App|Content Approved|
 |Social Search|App|Content Approved|
-|Stream Rule|App|Is content marked as Junk by SAFE filter? <br/><ul><li>No -  Stream-to-App Moderation Workflow</li><li>Yes - Content Trashed</li></ul>|
+|Stream Rule|App|Is content marked as Junk by SAFE filter? <br><ul><li>No -  Stream-to-App Moderation Workflow</li><li>Yes - Content Trashed</li></ul>|
 |Library|Folder|No status (in folder, not published, not trashed)|
 |Social Search|Folder|No status (in folder, not published, not trashed)|
-|Stream Rule|Folder|Is content marked as Junk by SAFE filter? <br/><ul><li>No - No status (in folder, not published, not trashed)</li><li>Yes - Content Trashed</li></ul>|
-|App Post|App|Is content marked as Junk by SAFE filter? <br/><ul><li>No -  Post-to-App Moderation Workflow</li><li>Yes - Content Trashed</li></ul>|
+|Stream Rule|Folder|Is content marked as Junk by SAFE filter? <br><ul><li>No - No status (in folder, not published, not trashed)</li><li>Yes - Content Trashed</li></ul>|
+|App Post|App|Is content marked as Junk by SAFE filter? <br><ul><li>No -  Post-to-App Moderation Workflow</li><li>Yes - Content Trashed</li></ul>|
 
 ## Stream-to-App Moderation Workflow {#section_z5z_w4d_t1b}
 

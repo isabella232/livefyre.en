@@ -16,11 +16,6 @@ CSS classes available for your Storify Apps.
 
 Use CSS to customize your Storify Apps for a more complete integration with your page, by simply overriding the default CSS with your own stylesheet. This section describes available CSS customizations.
 
-* [Author Elements](#c_storify_css_classes/section_tdy_hsh_xz)
-* [Header Elements](#c_storify_css_classes/section_nbv_gsh_xz)
-* [Post Elements](#c_storify_css_classes/section_lrs_fsh_xz)
-* [Footer Elements](#c_storify_css_classes/section_ozc_zrh_xz)
-
 ## Author Elements {#section_tdy_hsh_xz}
 
 Allows you to customize styling for the post’s author avatar, author name, and timestamp.
@@ -77,7 +72,7 @@ Allows you to customize styling for the post’s story elements.
 |  .s-element-text blockquote:before | The icon for the beginning of a blockquote |
 |  .s-element-text blockquote:after | The icon for the end of a blockquote |
 |  .s-element-image | Inline image element container |
-|  .s-img | <img> element |
+|  .s-img | `<img>` element |
 |  .s-image-caption | Caption for images and videos found on social media (ex: Instagram image) |
 |  .s-upload-image-caption | Caption for images and videos uploaded via the Story editor |
 |  .s-element-video | Video element |
@@ -97,4 +92,3 @@ Allows you to customize the footer section for each individual post.
 |  .s-post-footer | The post’s footer. |
 |  .s-sidenotes a | The Sidenotes button in the post’s footer. |
 |  .s-like | The “Like” button in the post’s footer. |
-
