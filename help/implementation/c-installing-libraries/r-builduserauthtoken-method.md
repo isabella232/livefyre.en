@@ -14,28 +14,11 @@ snippet: y
 
 Returns an encrypted user authenticated token for the network it is called from.
 
-<table id="properties_gq4_jyf_5y" class="simpletable properties" cellpadding="4" cellspacing="0"> 
- <thead class="prophead sthead"> 
-  <th class="proptypehd"> Variable </th> 
-  <th class="propvaluehd"> Type </th> 
-  <th class="propdeschd"> Description </th> 
- </thead> 
- <tr class="property strow"> 
-  <td class="proptype stentry"> <span class="varname"> userId </span> </td> 
-  <td class="propvalue stentry"> String </td> 
-  <td class="propdesc stentry"> <p>The user ID for the user to whom this token belongs.</p> </td> 
- </tr> 
- <tr class="property strow"> 
-  <td class="proptype stentry"> <span class="varname"> displayName </span> </td> 
-  <td class="propvalue stentry"> String </td> 
-  <td class="propdesc stentry"> The display name for the user. </td> 
- </tr> 
- <tr class="property strow"> 
-  <td class="proptype stentry"> <span class="varname"> expires </span> </td> 
-  <td class="propvalue stentry"> Double </td> 
-  <td class="propdesc stentry"> When the token should expire in seconds. </td> 
- </tr> 
-</table>
+|Variable|Type|Description|
+|--- |--- |--- |
+|userId|String|The user ID for the user to whom this token belongs.|
+|displayName|String|The display name for the user.|
+|expires|Double|When the token should expire in seconds.|
 
 ## Java Example {#section_nyl_ycs_rz}
 
@@ -103,4 +86,3 @@ Sample output:
 ```
 eyJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJ0ZXN0LmZ5cmUuY29tIiwidXNlcl9pZCI6InN5c3RlbSIsImRpc3BsYXlfbmFtZSI6InN5c3RlbSIsImV4cGlyZXMiOjEzOTY2NTUwODN9.33GuJF_ou2O6CCV22Y3PlLUgP2Igy9vAXfmLONkt-Yo
 ```
-

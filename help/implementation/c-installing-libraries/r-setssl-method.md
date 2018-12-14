@@ -14,22 +14,9 @@ snippet: y
 
 Sets SSL for API calls to be on or off.
 
-<table id="properties_gq4_jyf_5y" class="simpletable properties" cellpadding="4" cellspacing="0"> 
- <thead class="prophead sthead"> 
-  <th class="proptypehd"> Variable </th> 
-  <th class="propvaluehd"> Type </th> 
-  <th class="propdeschd"> Description </th> 
- </thead> 
- <tr class="property strow"> 
-  <td class="proptype stentry"> <span class="varname"> ssl </span> </td> 
-  <td class="propvalue stentry"> Boolean </td> 
-  <td class="propdesc stentry"> <p>Default is true. if you want SSL on, false otherwise. 
-    <ul id="ul_gdz_5cs_rz"> 
-     <li>True - SSL on</li> 
-     <li>False - SSL off</li> 
-    </ul></p> </td> 
- </tr> 
-</table>
+|Variable|Type|Description|
+|--- |--- |--- |
+|ssl|Boolean|Default is true. if you want SSL on, false otherwise. <br/><ul><li>True - SSL on </li><li>False - SSL off</li></ul>|
 
 ## Java Example {#section_nyl_ycs_rz}
 
@@ -65,4 +52,3 @@ network.ssl = False
 network.ssl = false 
 
 ```
-

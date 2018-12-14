@@ -14,18 +14,9 @@ snippet: y
 
 This method returns the URN for this network’s user.
 
-<table id="properties_gq4_jyf_5y" class="simpletable properties" cellpadding="4" cellspacing="0"> 
- <thead class="prophead sthead"> 
-  <th class="proptypehd"> Variable </th> 
-  <th class="propvaluehd"> Type </th> 
-  <th class="propdeschd"> Description </th> 
- </thead> 
- <tr class="property strow"> 
-  <td class="proptype stentry"> <span class="varname"> userId </span> </td> 
-  <td class="propvalue stentry"> String </td> 
-  <td class="propdesc stentry"> <p>The userId to use in the URN.</p> </td> 
- </tr> 
-</table>
+|Variable|Type|Description|
+|--- |--- |--- |
+|userId|String|The userId to use in the URN.|
 
 ## Java Example {#section_nyl_ycs_rz}
 
@@ -94,4 +85,3 @@ Sample output:
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
 
 ```
-
