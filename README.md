@@ -1,3 +1,4 @@
+
 # Contribute article
 
 We welcome contributions from our community as well as from Adobe employees from outside the documentation teams. 
@@ -48,6 +49,4 @@ All the articles in this repository use GitHub flavored markdown. If you are not
 In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
 
 * **Change sent to author**: The author has been notified of the pending pull request.
-* **ready-to-merge**: Ready for review by our pull request review team.
-
-
+* **Ready-to-merge**: Ready for review by our pull request review team.
