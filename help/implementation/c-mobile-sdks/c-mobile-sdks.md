@@ -30,30 +30,9 @@ Customers that open a web page on a mobile device automatically get a Livefyre c
 
 To optimize for mobile, Livefyre limits the Comments, Live Blog, and Chat App feature set to include:
 
-<table id="table_bgw_p2l_wz"> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul id="ul_cgw_p2l_wz"> 
-     <li>Post</li> 
-     <li>Edit</li> 
-     <li>Flag</li> 
-     <li>Like</li> 
-     <li>Reply</li> 
-     <li>Listener Count</li> 
-    </ul> </td> 
-   <td> 
-    <ul id="ul_dgw_p2l_wz"> 
-     <li>Comment Count</li> 
-     <li>Inline Pending Moderation</li> 
-     <li>Hovercards*</li> 
-     <li>Top Comments</li> 
-     <li>Hot Threads</li> 
-     <li>Queue Comments</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|<ul><li>Post</li><li>Edit </li><li>Flag </li><li>Like </li><li>Reply </li><li>Listener Count</li></ul>|<ul><li>Comment Count</li><li>Inline Pending Moderation </li><li>Hovercards* </li><li>Top Comments </li><li>Hot Threads </li><li>Queue Comments</li></ul>|
 
 &#42; In Mobile Web Apps, clicking an author’s name opens hovercard information in a new page.
 
@@ -63,35 +42,15 @@ Livefyre also provides two mobile SDKs: an iOS SDK, and an Android SDK. These SD
 
 The Android and iOS SDKs support the following features for Comments, Live Blog, and Chat:
 
-<table id="table_egw_p2l_wz"> 
- <tbody> 
-  <tr> 
-   <td>iOS features:
-    <ul id="ul_fgw_p2l_wz"> 
-     <li>Post</li> 
-     <li>Edit</li> 
-     <li>Flag</li> 
-     <li>Like</li> 
-     <li>Reply</li> 
-     <li>Hot Threads</li> 
-    </ul></td> 
-   <td>Android features:
-    <ul id="ul_ggw_p2l_wz"> 
-     <li>Post</li> 
-     <li>Edit</li> 
-     <li>Like</li> 
-     <li>Reply</li> 
-     <li>Hot Threads</li> 
-    </ul></td> 
-  </tr> 
- </tbody> 
-</table>
+|iOS features:|Android features:|
+|--- |--- |
+|<ul><li> Post </li><li>Edit </li><li>Flag </li><li>Like </li><li>Reply </li><li>Hot Threads</li><ul>|Android features:</li><li>Post </li><li>Edit </li><li>Like </li><li>Reply </li><li>Hot Threads</li><ul>|
 
 ## HTTP APIs {#section_yqb_qpb_11b}
 
 The HTTP APIs are the group of endpoints that allows you to create conversations and content on the Livefyre platform. It also powers all Livefyre out of the box streams. While this solution requires more development time from your engineering team, it provides greater flexibility when using the Livefyre product suite, and allows for native mobile integration.
 
->[!NOTE] {importance="high"}
+>[!IMPORTANT]
 >
->**Do NOT **create user authentication tokens within the mobile client, because this would require that you expose your Livefyre secret network key within an unsecured app. For a more robust and secure solution, see the User Authentication Tokens section.
+>**Do NOT** create user authentication tokens within the mobile client, because this would require that you expose your Livefyre secret network key within an unsecured app. For a more robust and secure solution, see the User Authentication Tokens section.
 
