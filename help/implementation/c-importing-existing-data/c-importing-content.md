@@ -85,7 +85,7 @@ To maintain threading in your imported content, adhere to the following rules:
 
       - D
     ```
-    
+
   * **Import approved comments only:** Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
 
   For example, if content follows this format:
@@ -155,7 +155,7 @@ The following parameters are used in the Content import process.
 >`parent_id` and `id` must be strings in your import file.
 
 ```
-{ 
+{
    "source": "http://www.somepartner.com/homepage/check-out-this-sneezing-panda.html", 
    "title": "Check out this sneezing panda!", 
    "created": "2010-07-05T23:07:15Z", 
