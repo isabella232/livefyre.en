@@ -12,7 +12,7 @@ snippet: y
 
 # Embedly Integration{#embedly-integration}
 
-Use embed.ly to display multiple media formats, directly in the App.
+Use `embed.ly` to display multiple media formats, directly in the App.
 
 To better enable embedded media content from a variety of sources, including Google Maps, YouTube, Flickr, Facebook, Instagram, Spotify, and Tumblr, Livefyre Apps use Embedly as a third-party provider for URL expansion. If a user or moderator includes a supported link in a post, the media included in the link will expand when posted to the Collection.
 
@@ -22,7 +22,7 @@ This provides Livefyre Apps with access to the more than 250 different embedded 
 >
 >Livefyre expands only a subset of Embedly’s full provider list. Embedded images will expand on HTTPS pages only if the provider is Twitter, YouTube, Imgur, Vine, Wikipedia, or SoundCloud. Please contact your Technical Account Manager for any further questions about link expansion or sources.
 
-This page lists examples of some popular embedded media types, and their acceptable URL patterns. Embed.ly is continually adding new sources. For a complete list of providers, please go to http://embed.ly/embed/features/providers.
+This page lists examples of some popular embedded media types, and their acceptable URL patterns. `Embed.ly` is continually adding new sources. For a complete list of providers, please go to `http://embed.ly/embed/features/providers`.
 
 >[!NOTE]
 >
@@ -46,8 +46,7 @@ Only publicly viewable content is embeddable. If you attempt to embed a piece of
 ||Droplr|`http://d.pr/i/*`</li></ul>|
 |Audio|SoundCloud|`http://soundcloud.com/*` <br/><ul><li>`http://soundcloud.com/*/*` </li><li>`http://soundcloud.com/*/sets/*` </li><li>`http://soundcloud.com/groups/*` </li><li>`http://snd.sc/*`</li></ul>|
 ||Spotify|`http://open.spotify.com/*`|
-|Blogs|Tumblr|`http://tumblr.com/*` 
-     `http://*.tumblr.com/post/*`</li></ul>|
+|Blogs|Tumblr|`http://tumblr.com/*` `http://*.tumblr.com/post/*`</li></ul>|
 
 Apps that use this feature:
 
