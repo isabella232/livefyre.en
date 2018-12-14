@@ -18,16 +18,16 @@ The text strings for most HTML elements in any Livefyre App may be customized. T
 
 * Comments, Chat, and Live Blog
 
-    * [](#c_localize_strings/section_im4_224_xz)
-    * [](#c_localize_strings/section_cm3_d24_xz)
-    * [Stream Info](#c_localize_strings/section_wx1_c24_xz)
-    * [Stream Sorting](#c_localize_strings/section_ih2_124_xz)
-    * [Content Info](#c_localize_strings/section_llv_yd4_xz)
-    * [Featured Content](#c_localize_strings/section_gmw_vd4_xz)
-    * [Text Editor](#c_localize_strings/section_ky5_td4_xz)
-    * [Response Options](#c_localize_strings/section_zvt_qd4_xz)
-    * [Comment Notifier](#c_localize_strings/section_qqt_pd4_xz)
-    * [Error Messages](#c_localize_strings/section_omz_jxn_xz)
+  * [Implementation](#c_localize_strings/section_im4_224_xz)
+  * [Account Access](#c_localize_strings/section_cm3_d24_xz)
+  * [Stream Info](#c_localize_strings/section_wx1_c24_xz) 
+  * [Stream Sorting](#c_localize_strings/section_ih2_124_xz)
+  * [Content Info](#c_localize_strings/section_llv_yd4_xz)
+  * [Featured Content](#c_localize_strings/section_gmw_vd4_xz)
+  * [Text Editor](#c_localize_strings/section_ky5_td4_xz)
+  * [Response Options](#c_localize_strings/section_zvt_qd4_xz)
+  * [Comment Notifier](#c_localize_strings/section_qqt_pd4_xz)
+  * [Error Messages](#c_localize_strings/section_omz_jxn_xz)
 
 * [Time and Date Format](#c_localize_strings/section_yz4_g5n_xz)
 * [Media Wall](#c_localize_strings/section_vwt_d5n_xz)
@@ -35,13 +35,11 @@ The text strings for most HTML elements in any Livefyre App may be customized. T
 * [Mosaic](#c_localize_strings/section_e2s_b5n_xz)
 * [Carousel](#c_localize_strings/section_l2z_hkn_xz)
 * [Feature Card](#c_localize_strings/section_mw2_hkn_xz)
-* [](#c_localize_strings/section_grc_gkn_xz)
 * [Poll](#c_localize_strings/section_pdg_fwh_xz)
 * [Livefyre Identity](#c_localize_strings/section_zc3_xvh_xz)
 * More:
-
-    * [](../../c-settings-other/c-translation-sets/c-review-text-strings.md#c_review_text_strings)
-    * [Sidenotes](../../c-settings-other/c-translation-sets/c-sidenotes-text-strings.md#c_sidenotes_text_strings)
+  * [Review Text Strings](../../c-settings-other/c-translation-sets/c-review-text-strings.md#c_review_text_strings)
+  * [Sidenotes](../../c-settings-other/c-translation-sets/c-sidenotes-text-strings.md#c_sidenotes_text_strings)
 
 ## Implementation {#section_im4_224_xz}
 
@@ -167,11 +165,11 @@ If enabled, featured content is listed at the top of the stream.
 
 By default, available at the top of the page for all users.
 
+![](assets/strings_texteditor-1-150x77.png)
+
 |  | Key  | Default Text  |
 |---|---|---|
-|  **Editor buttons** | | |
-|   ![](assets/strings_texteditor-1-150x77.png)
-
+|  **Editor buttons** | |
 | follow  | + Follow  |
 |  | unfollow  | - Unfollow  |
 |  | liveblogFollow  | Follow Live Blog  |
@@ -192,11 +190,11 @@ By default, available at the top of the page for all users.
 
 Unless otherwise noted, available to all logged in users. Mouse over a content panel to access.
 
+![](assets/strings_banusermodal-150x36.png)
+
 |  Key  | Default Text  | |
 |---|---|---|
 |  **User Response Options** | Available for end users.  | |
-|   ![](assets/strings_banusermodal-150x36.png)
-
 | flagButton  | Flag  |
 |  | flagCommentTooltip  | Flag  |
 |  | editButton(Available only for authors and moderators, if enabled.)  | Edit  |
@@ -209,9 +207,12 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 |  | replyButton  | Reply  |
 |  | replyButtonSingular(Available for Chat and Live Blog.)  | Reply  |
 |  | replyButtonPlural(Available for Chat and Live Blog.)  | Replies  |
-|  **Flag Modal** | | |
-|   ![](assets/strings_responseoptions-150x35.png)
 
+![](assets/strings_responseoptions-150x35.png)
+
+|  Key  | Default Text  | |
+|---|---|---|
+|  **Flag Modal** | | |
 | flagTitle  | Flag %s’s comment  |
 |  | flagSubtitle  | Flag as  |
 |  | flagDefaultSelectOption  | Select  |
@@ -235,9 +236,12 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 |  | flagCancelButton  | Cancel  |
 |  | flagConfirmationMessage  | Flag %s’s comment as %s?  |
 |  | flagSuccessMsg  | Comment has been flagged.  |
-|  **Share Modal** | | |
-|   ![](assets/strings_flagmodal-150x87.png)
 
+![](assets/strings_flagmodal-150x87.png)
+
+|  Key  | Default Text  | |
+|---|---|---|
+|  **Share Modal** | | |
 | shareTitle  | Share Comment  |
 |  | sharePlaceholderText  | What do you think?  |
 |  | shareLabel  | Share on:  |
@@ -248,18 +252,21 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 |  | sharePermalink  | Permalink  |
 |  | loadingPermalink  | Loading short url…  |
 |  | shareText  | I just posted a comment. Check it out!  |
-|  **Reply Modal** | | |
-|   ![](assets/strings_sharemodal-150x59.png)
 
+![](assets/strings_sharemodal-150x59.png)
+
+|  Key  | Default Text  | |
+|---|---|---|
+|  **Reply Modal** | | |
 | postReplyAsButton  | Post comment as…  |
 |  | postReplyButton(Available for logged in users.)  | Post comment  |
 |  | backToHotThreads  | Back to Hot Threads  |
-|   ![](assets/strings_replymodal-150x64.png)
 
-| backToComments(Appears above reply modal for featured content.)  | Back to Newest  |
+![](assets/strings_backto-150x48.png)
+
+|  Key  | Default Text  | |
+|---|---|---|
 |  **Twitter @mention modal** | | |
-|   ![](assets/strings_backto-150x48.png)
-
 | mentionTitle  | Share Mention  |
 |  | mentionSubtitleTwitter  | Share Tweet to:  |
 |  | mentionDefaultText  | I mentioned you in a Livefyre comment!  |
@@ -271,15 +278,21 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 |  | mentionTwitterConnect  | Connect to Twitter  |
 |  | mentionTwitterFetching  | Fetching Friends…  |
 |  | mentionSuccessMsg  | Mentions have been successfully sent.  |
+
+![](assets/strings_sharemention-150x60.png)
+
+|  Key  | Default Text  | |
+|---|---|---|
 |  **Edit Modal** | Available to Studio Admins, User Managers or Moderators  | |
-|   ![](assets/strings_sharemention-150x60.png)
-
 | @(@mention.)  | |
-|  | </>(Opens the custom html window.)  | |
+|  | &lt;/&gt;(Opens the custom html window.)  | |
 |  | customHtmlDialogTitle(Appears as the header for the modal.)  | Add Custom HTML  |
-|  **Moderator Response Options** | Available to Studio Admins, User Managers or Moderators.  | |
-|   ![](assets/strings_moderatoreditmodal-150x49.png)
 
+![](assets/strings_moderatoreditmodal-150x49.png)
+
+|  Key  | Default Text  | |
+|---|---|---|
+|  **Moderator Response Options** | Available to Studio Admins, User Managers or Moderators.  | |
 | pendingComment  | pending  |
 |  | banUserButton  | Ban user  |
 |  | banUserTooltip  | Ban User  |
@@ -290,9 +303,12 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 |  | unfeatureButton  | Unfeature  |
 |  | featuredCommentTooltip  | Unfeature  |
 |  | | |
-|  **Ban User modal** | Available to Studio Admins, User Managers or Moderators.  | |
-|   ![](assets/strings_adminoptions-150x33.png)
 
+![](assets/strings_adminoptions-150x33.png)
+
+|  Key  | Default Text  | |
+|---|---|---|
+|  **Ban User modal** | Available to Studio Admins, User Managers or Moderators.  | |
 | banTitle  | Ban User  |
 |  | banConfirmation  | Are you sure you want to ban this user?  |
 |  | banConfirmButton  | OK  |
@@ -302,11 +318,11 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 
 If enabled, available at the bottom of the page for all Livefyre conversation Apps.
 
+![](assets/strings_notifier-150x112.png)
+
 |  | Key  | Default Text  |
 |---|---|---|
 |  **Notifier labels** | | |
-|   ![](assets/strings_notifier-150x112.png)
-
 | commentNotifier  | New Comment  |
 |  | commentNotifierPlural  | New Comments  |
 |  | liveblogNotifier  | New Post  |
@@ -446,382 +462,99 @@ Strings available for Polls.
 
 Strings available for Livefyre Identity.
 
-<table id="table_qdg_pnl_wz"> 
- <thead> 
-  <tr> 
-   <th class="entry"> Key </th> 
-   <th class="entry"> Default Text </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> automaticallyFollowConversations </td> 
-   <td> Automatically follow conversations I join </td> 
-  </tr> 
-  <tr> 
-   <td> back </td> 
-   <td> Back </td> 
-  </tr> 
-  <tr> 
-   <td> bio </td> 
-   <td> Bio </td> 
-  </tr> 
-  <tr> 
-   <td> create </td> 
-   <td> Create </td> 
-  </tr> 
-  <tr> 
-   <td> createANewAccount </td> 
-   <td> Create New Account </td> 
-  </tr> 
-  <tr> 
-   <td> createNewAccountWithEmail </td> 
-   <td> Create a new account with email </td> 
-  </tr> 
-  <tr> 
-   <td> changeAvatar </td> 
-   <td> Change Avatar </td> 
-  </tr> 
-  <tr> 
-   <td> chooseFile </td> 
-   <td> Choose File </td> 
-  </tr> 
-  <tr> 
-   <td> completeAccount </td> 
-   <td> Complete account </td> 
-  </tr> 
-  <tr> 
-   <td> emailWhenSomeoneReplies </td> 
-   <td> Email when someone replies to me </td> 
-  </tr> 
-  <tr> 
-   <td> emailCommentsIFollow </td> 
-   <td> Email comments in conversations I follow </td> 
-  </tr> 
-  <tr> 
-   <td> emailSenttoResetPassword </td> 
-   <td> Email sent! Check your inbox for a link to reset your password </td> 
-  </tr> 
-  <tr> 
-   <td> emailVerificationSent </td> 
-   <td> Email Verification Sent </td> 
-  </tr> 
-  <tr> 
-   <td> firstName </td> 
-   <td> First name </td> 
-  </tr> 
-  <tr> 
-   <td> forgotPassword </td> 
-   <td> Forgot password? </td> 
-  </tr> 
-  <tr> 
-   <td> forgotYourPassword </td> 
-   <td> Forgot your password? </td> 
-  </tr> 
-  <tr> 
-   <td> forgotYourPasswordInstructions </td> 
-   <td> Enter your username or email address below, and we’ll send you a link to change your password. </td> 
-  </tr> 
-  <tr> 
-   <td> formInputCloseButtonText </td> 
-   <td> Close </td> 
-  </tr> 
-  <tr> 
-   <td> formInputCancelButtonText </td> 
-   <td> Cancel </td> 
-  </tr> 
-  <tr> 
-   <td> formInputSaveButtonText </td> 
-   <td> Save </td> 
-  </tr> 
-  <tr> 
-   <td> hasNotLeftAnyComments </td> 
-   <td> hasn’t left any comments </td> 
-  </tr> 
-  <tr> 
-   <td> locationIsFrom </td> 
-   <td> is from </td> 
-  </tr> 
-  <tr> 
-   <td> labelAvatar </td> 
-   <td> Avatar </td> 
-  </tr> 
-  <tr> 
-   <td> labelComments </td> 
-   <td> Comments </td> 
-  </tr> 
-  <tr> 
-   <td> labelConfirmNewPassword </td> 
-   <td> Confirm New Password </td> 
-  </tr> 
-  <tr> 
-   <td> labelConfirmPassword </td> 
-   <td> Confirm Password </td> 
-  </tr> 
-  <tr> 
-   <td> labelEmail </td> 
-   <td> Email Address </td> 
-  </tr> 
-  <tr> 
-   <td> labelLikes </td> 
-   <td> Likes </td> 
-  </tr> 
-  <tr> 
-   <td> labelLoading </td> 
-   <td> Loading </td> 
-  </tr> 
-  <tr> 
-   <td> labelNewPassword </td> 
-   <td> New Password </td> 
-  </tr> 
-  <tr> 
-   <td> labelNotification </td> 
-   <td> Notifications </td> 
-  </tr> 
-  <tr> 
-   <td> labelPassword </td> 
-   <td> Password </td> 
-  </tr> 
-  <tr> 
-   <td> labelProfile </td> 
-   <td> Profile </td> 
-  </tr> 
-  <tr> 
-   <td> labelUsername </td> 
-   <td> Username </td> 
-  </tr> 
-  <tr> 
-   <td> labelUsernameOrEmail </td> 
-   <td> Username or email </td> 
-  </tr> 
-  <tr> 
-   <td> lastName </td> 
-   <td> Last name </td> 
-  </tr> 
-  <tr> 
-   <td> livefyreAccount </td> 
-   <td> Livefyre Account </td> 
-  </tr> 
-  <tr> 
-   <td> location </td> 
-   <td> Location </td> 
-  </tr> 
-  <tr> 
-   <td> loadingProfile </td> 
-   <td> Loading Profile </td> 
-  </tr> 
-  <tr> 
-   <td> newPassword </td> 
-   <td> New Password </td> 
-  </tr> 
-  <tr> 
-   <td> oldPassword </td> 
-   <td> Old Password </td> 
-  </tr> 
-  <tr> 
-   <td> on </td> 
-   <td> on </td> 
-  </tr> 
-  <tr> 
-   <td> or </td> 
-   <td> or </td> 
-  </tr> 
-  <tr> 
-   <td> passwordLinkExpired </td> 
-   <td> The link you clicked to reset your password has expired. Reset your password again, and we’ll send you a new link. </td> 
-  </tr> 
-  <tr> 
-   <td> pleasecheckEmailToComplete </td> 
-   <td> Please check your email to complete your registration. </td> 
-  </tr> 
-  <tr> 
-   <td> posted </td> 
-   <td> Posted </td> 
-  </tr> 
-  <tr> 
-   <td> poweredBy </td> 
-   <td> powered by </td> 
-  </tr> 
-  <tr> 
-   <td> profileNotificationImmediate </td> 
-   <td> immediate </td> 
-  </tr> 
-  <tr> 
-   <td> profileNotificationHourly </td> 
-   <td> hourly </td> 
-  </tr> 
-  <tr> 
-   <td> profileNotificationNever </td> 
-   <td> never </td> 
-  </tr> 
-  <tr> 
-   <td> recentComments </td> 
-   <td> Recent Comments </td> 
-  </tr> 
-  <tr> 
-   <td> reset </td> 
-   <td> Reset </td> 
-  </tr> 
-  <tr> 
-   <td> resetPassword </td> 
-   <td> Reset Password </td> 
-  </tr> 
-  <tr> 
-   <td> signIn </td> 
-   <td> Sign In </td> 
-  </tr> 
-  <tr> 
-   <td> signInWith </td> 
-   <td> Sign In With </td> 
-  </tr> 
-  <tr> 
-   <td> signInWithEmail </td> 
-   <td> Sign In With Email </td> 
-  </tr> 
-  <tr> 
-   <td> signUp </td> 
-   <td> Sign Up </td> 
-  </tr> 
-  <tr> 
-   <td> socialAccount </td> 
-   <td> Social Account </td> 
-  </tr> 
-  <tr> 
-   <td> successPasswordChanged </td> 
-   <td> Success! Your password has been changed, and you are now logged in </td> 
-  </tr> 
-  <tr> 
-   <td> termsAndConditions </td> 
-   <td> Terms &amp; Conditions </td> 
-  </tr> 
-  <tr> 
-   <td> termsAndConditionsIntro </td> 
-   <td> By signing up you accept the </td> 
-  </tr> 
-  <tr> 
-   <td> termsOfUse </td> 
-   <td> Terms of Use </td> 
-  </tr> 
-  <tr> 
-   <td> termsOfUseIntro </td> 
-   <td> By logging in, you agree to </td> 
-  </tr> 
-  <tr> 
-   <td> thisUser </td> 
-   <td> This user </td> 
-  </tr> 
-  <tr> 
-   <td> verifyPassword </td> 
-   <td> Verify Password </td> 
-  </tr> 
-  <tr> 
-   <td> fileSizeLimit </td> 
-   <td> 2MB max </td> 
-  </tr> 
-  <tr> 
-   <td> accountnotfound </td> 
-   <td> Account not found </td> 
-  </tr> 
-  <tr> 
-   <td> avatarImageExceedSize </td> 
-   <td> Your avatar image has exceed the 2mb file limit </td> 
-  </tr> 
-  <tr> 
-   <td> fieldisrequired </td> 
-   <td> Field only accepts an integer </td> 
-  </tr> 
-  <tr> 
-   <td> fieldonlyacceptsavalidemail </td> 
-   <td> Field only accept a valid email </td> 
-  </tr> 
-  <tr> 
-   <td> fieldonlyacceptsletters </td> 
-   <td> Field only accepts letters </td> 
-  </tr> 
-  <tr> 
-   <td> filesizemustbelessthanMB </td> 
-   <td> File size must be less than {#}MB </td> 
-  </tr> 
-  <tr> 
-   <td> invalidusernameorpassword </td> 
-   <td> Invalid username or password </td> 
-  </tr> 
-  <tr> 
-   <td> minimumlengthofcharacters </td> 
-   <td> Minimum Length of {#} characters </td> 
-  </tr> 
-  <tr> 
-   <td> maximumlengthofcharacters </td> 
-   <td> Maximum length of {#} characters </td> 
-  </tr> 
-  <tr> 
-   <td> therewasanerror </td> 
-   <td> There was an error </td> 
-  </tr> 
-  <tr> 
-   <td> thisfieldisrequired </td> 
-   <td> This field is required. </td> 
-  </tr> 
-  <tr> 
-   <td> validfileextensions </td> 
-   <td> Valid file extensions </td> 
-  </tr> 
-  <tr> 
-   <td> valuemustmatch </td> 
-   <td> Value must match </td> 
-  </tr> 
-  <tr> 
-   <td> passwordLength </td> 
-   <td> be 6 to 32 character long. </td> 
-  </tr> 
-  <tr> 
-   <td> passwordCharacters </td> 
-   <td> include both lower and upper case characters. </td> 
-  </tr> 
-  <tr> 
-   <td> passwordSymbols </td> 
-   <td> include at least one number and one symbol. </td> 
-  </tr> 
-  <tr> 
-   <td> passwordUsername </td> 
-   <td> not contain your username. </td> 
-  </tr> 
-  <tr> 
-   <td> passwordPopoverTitle </td> 
-   <td> Your password needs to: </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorContainsFirstName </td> 
-   <td> The password you entered contains either your username, first name or last name. For security reasons, please enter a password that does not contain your username, first name or last name. <p>Please also remember that your password needs to contain:</p> <p>6 to 32 characters</p> <p>An uppercase character</p> <p>A lowercase character</p> <p>A symbol</p> </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorContainsLastName </td> 
-   <td> The password you entered contains either your username, first name or last name. For security reasons, please enter a password that does not contain your username, first name or last name. <p>Please also remember that your password needs to contain:</p> <p>6 to 32 characters</p> <p>An uppercase character</p> <p>A lowercase character</p> <p>A symbol</p> </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorContainsUsername </td> 
-   <td> The password you entered contains either your username, first name or last name. For security reasons, please enter a password that does not contain your username, first name or last name. <p>Please also remember that your password needs to contain:</p> <p>6 to 32 characters</p> <p>An uppercase character</p> <p>A lowercase character</p> <p>A symbol</p> </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorTooShort </td> 
-   <td> Minimum of 6 characters for pasword </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorTooLong </td> 
-   <td> Maximum of 32 characters for password </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorMissingUppercase </td> 
-   <td> Password should contain at least one uppercase character </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorMissingLowercase </td> 
-   <td> Passsword should contain at least one lowercase character </td> 
-  </tr> 
-  <tr> 
-   <td> passwordErrorMissingSymbol </td> 
-   <td> Password should contain at least one symbol in the set `!@#$%^&*()?.,<>\’;:”[]{}|` </td> 
-  </tr> 
- </tbody> 
-</table>
+|Key|Default Text|
+|--- |--- |
+|automaticallyFollowConversations|Automatically follow conversations I join|
+|back|Back|
+|bio|Bio|
+|create|Create|
+|createANewAccount|Create New Account|
+|createNewAccountWithEmail|Create a new account with email|
+|changeAvatar|Change Avatar|
+|chooseFile|Choose File|
+|completeAccount|Complete account|
+|emailWhenSomeoneReplies|Email when someone replies to me|
+|emailCommentsIFollow|Email comments in conversations I follow|
+|emailSenttoResetPassword|Email sent! Check your inbox for a link to reset your password|
+|emailVerificationSent|Email Verification Sent|
+|firstName|First name|
+|forgotPassword|Forgot password?|
+|forgotYourPassword|Forgot your password?|
+|forgotYourPasswordInstructions|Enter your username or email address below, and we’ll send you a link to change your password.|
+|formInputCloseButtonText|Close|
+|formInputCancelButtonText|Cancel|
+|formInputSaveButtonText|Save|
+|hasNotLeftAnyComments|hasn’t left any comments|
+|locationIsFrom|is from|
+|labelAvatar|Avatar|
+|labelComments|Comments|
+|labelConfirmNewPassword|Confirm New Password|
+|labelConfirmPassword|Confirm Password|
+|labelEmail|Email Address|
+|labelLikes|Likes|
+|labelLoading|Loading|
+|labelNewPassword|New Password|
+|labelNotification|Notifications|
+|labelPassword|Password|
+|labelProfile|Profile|
+|labelUsername|Username|
+|labelUsernameOrEmail|Username or email|
+|lastName|Last name|
+|livefyreAccount|Livefyre Account|
+|location|Location|
+|loadingProfile|Loading Profile|
+|newPassword|New Password|
+|oldPassword|Old Password|
+|on|on|
+|or|or|
+|passwordLinkExpired|The link you clicked to reset your password has expired. Reset your password again, and we’ll send you a new link.|
+|pleasecheckEmailToComplete|Please check your email to complete your registration.|
+|posted|Posted|
+|poweredBy|powered by|
+|profileNotificationImmediate|immediate|
+|profileNotificationHourly|hourly|
+|profileNotificationNever|never|
+|recentComments|Recent Comments|
+|reset|Reset|
+|resetPassword|Reset Password|
+|signIn|Sign In|
+|signInWith|Sign In With|
+|signInWithEmail|Sign In With Email|
+|signUp|Sign Up|
+|socialAccount|Social Account|
+|successPasswordChanged|Success! Your password has been changed, and you are now logged in|
+|termsAndConditions|Terms & Conditions|
+|termsAndConditionsIntro|By signing up you accept the|
+|termsOfUse|Terms of Use|
+|termsOfUseIntro|By logging in, you agree to|
+|thisUser|This user|
+|verifyPassword|Verify Password|
+|fileSizeLimit|2MB max|
+|accountnotfound|Account not found|
+|avatarImageExceedSize|Your avatar image has exceed the 2mb file limit|
+|fieldisrequired|Field only accepts an integer|
+|fieldonlyacceptsavalidemail|Field only accept a valid email|
+|fieldonlyacceptsletters|Field only accepts letters|
+|filesizemustbelessthanMB|File size must be less than {#}MB|
+|invalidusernameorpassword|Invalid username or password|
+|minimumlengthofcharacters|Minimum Length of {#} characters|
+|maximumlengthofcharacters|Maximum length of {#} characters|
+|therewasanerror|There was an error|
+|thisfieldisrequired|This field is required.|
+|validfileextensions|Valid file extensions|
+|valuemustmatch|Value must match|
+|passwordLength|be 6 to 32 character long.|
+|passwordCharacters|include both lower and upper case characters.|
+|passwordSymbols|include at least one number and one symbol.|
+|passwordUsername|not contain your username.|
+|passwordPopoverTitle|Your password needs to:|
+|passwordErrorContainsFirstName|The password you entered contains either your username, first name or last name. For security reasons, please enter a password that does not contain your username, first name or last name. Please also remember that your password needs to contain: 6 to 32 characters An uppercase character A lowercase character A symbol|
+|passwordErrorContainsLastName|The password you entered contains either your username, first name or last name. For security reasons, please enter a password that does not contain your username, first name or last name. Please also remember that your password needs to contain: 6 to 32 characters An uppercase character A lowercase character A symbol|
+|passwordErrorContainsUsername|The password you entered contains either your username, first name or last name. For security reasons, please enter a password that does not contain your username, first name or last name. Please also remember that your password needs to contain: 6 to 32 characters An uppercase character A lowercase character A symbol|
+|passwordErrorTooShort|Minimum of 6 characters for pasword|
+|passwordErrorTooLong|Maximum of 32 characters for password|
+|passwordErrorMissingUppercase|Password should contain at least one uppercase character|
+|passwordErrorMissingLowercase|Passsword should contain at least one lowercase character|
+|passwordErrorMissingSymbol|Password should contain at least one symbol in the set `!@#$%^&*()?.,<>\’;:”[]{}|`|
+
 
