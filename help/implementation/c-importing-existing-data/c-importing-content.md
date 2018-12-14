@@ -84,7 +84,7 @@ To maintain threading in your imported content, adhere to the following rules:
       — C
 
       - D
-    ```
+  ```
 
   * **Import approved comments only:** Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
 
