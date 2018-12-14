@@ -16,7 +16,7 @@ Release Notes for the August 9, 2018 release.
 
 ## New Features {#section_syx_mdt_wcb}
 
-**Video Smart Tags: **Users can now see smart tags for videos under 50MB.
+**Video Smart Tags:** Users can now see smart tags for videos under 50MB.
 
 ## Issues {#section_ehw_ndt_wcb}
 

@@ -30,7 +30,7 @@ To create a Google Project for use with Livefyre Identity:
     * Enter a **[!UICONTROL Name]** for the **[!UICONTROL Client ID]**.
     
     * Leave **[!UICONTROL Authorized JavaScript origins]** field blank.
-    * Enter **[!UICONTROL Authorized redirect URIs]**: https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/google_fyre (where **[!UICONTROL {networkName}]** is your Livefyre provided network name. For example: **[!UICONTROL labs]** in **[!UICONTROL `labs.fyre.co`]**.)
+    * Enter **[!UICONTROL Authorized redirect URIs]**: https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/google_fyre (where **[!UICONTROL {networkName}]** is your Livefyre provided network name. For example:** [!UICONTROL labs]** in **[!UICONTROL `labs.fyre.co`]**.)
     
     * Click **[!UICONTROL Create]** to save your credentials.
 

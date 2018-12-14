@@ -155,7 +155,7 @@ The `CollectionMeta` object may also contain the following optional parameter:
 
 |  Parameter  | Type  | Description  |
 |---|---|---|
-|  *`tags`* | (optional) string  | A comma-separated list of single keywords or phrases. Search Collections by tags within Studio or with the search API. **Note: **While tags added through Studio may contain spaces, tags entered through the API cannot. Use underscores to define tags that will display spaces in the UI. (For example: use Monday_Quarterback to display Monday Quarterback in Studio.)  |
+|  *`tags`* | (optional) string  | A comma-separated list of single keywords or phrases. Search Collections by tags within Studio or with the search API. **Note:** While tags added through Studio may contain spaces, tags entered through the API cannot. Use underscores to define tags that will display spaces in the UI. (For example: use Monday_Quarterback to display Monday Quarterback in Studio.)  |
 
 ## Adding an Event Handler {#concept_D835C710A7214F6D921571E0770B6BC5}
 

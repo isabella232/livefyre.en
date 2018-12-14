@@ -26,7 +26,7 @@ The following options are available to manage folders and assets:
   >
   >Only folder Owners may Trash folders.
 
-* **[!UICONTROL Manage Access:]** Allows you to control access to the folder: **[!UICONTROL Open]** or **[!UICONTROL Restricted]**. Select **[!UICONTROL Open]** to allow all Studio users within your network to access the folder and its content. Select **[!UICONTROL Restricted]** to restrict access to a select group of users.
+* **[!UICONTROL Manage Access:]** Allows you to control access to the folder:** [!UICONTROL Open]** or **[!UICONTROL Restricted]**. Select **[!UICONTROL Open]** to allow all Studio users within your network to access the folder and its content. Select **[!UICONTROL Restricted]** to restrict access to a select group of users.
 
   >[!NOTE]
   >

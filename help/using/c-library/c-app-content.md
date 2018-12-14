@@ -65,27 +65,27 @@ Use the pulldown menu to sort the content in the list by **[!UICONTROL Newest]**
 
 Use the **[!UICONTROL Filter by]** bar to filter by the following options:
 
-* ** State** Allows you to filter by the content’s current moderation state: **[!UICONTROL All Content]**, **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, or **[!UICONTROL Bozo]**.
+* **State** Allows you to filter by the content’s current moderation state:** [!UICONTROL All Content]**, **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, or **[!UICONTROL Bozo]**.
 
-* ** Source** Allows you to filter by the content’s source. Select **[!UICONTROL Livefyre]** to list user generated content posted directly into the stream. Select **[!UICONTROL Facebook]**, **[!UICONTROL Twitter]**, or **[!UICONTROL RSS]** to include content pulled into your Apps from those sources.
+* **Source** Allows you to filter by the content’s source. Select **[!UICONTROL Livefyre]** to list user generated content posted directly into the stream. Select **[!UICONTROL Facebook]**, **[!UICONTROL Twitter]**, or **[!UICONTROL RSS]** to include content pulled into your Apps from those sources.
 
-* ** Flags** Selecting Flags allows you to filter by **[!UICONTROL User Flags]** (Spam, Off-topic, Offensive, or Disagree), **[!UICONTROL System Flags]** applied by SAFE (Profanity, Spam, or Magically Moderated), or **[!UICONTROL Moderation Recommendations]**. ![](assets/appcontentfilter.png)
+* **Flags** Selecting Flags allows you to filter by **[!UICONTROL User Flags]** (Spam, Off-topic, Offensive, or Disagree), **[!UICONTROL System Flags]** applied by SAFE (Profanity, Spam, or Magically Moderated), or **[!UICONTROL Moderation Recommendations]**. ![](assets/appcontentfilter.png)
 
-* ** Date/Time** Allows you to fiter by when the content was originally **[!UICONTROL Created]** (or pulled into the App through SocialSync or a Stream), or last **[!UICONTROL Modified]** (edited, flagged or the state changed).
+* **Date/Time** Allows you to fiter by when the content was originally **[!UICONTROL Created]** (or pulled into the App through SocialSync or a Stream), or last **[!UICONTROL Modified]** (edited, flagged or the state changed).
 
-* ** Author** Allows you to filter by the author’s **[!UICONTROL IP]** address, **[!UICONTROL Display Name]** (found on the Users panel or from above the content posted by the author), or **[!UICONTROL User ID]**(found on the Users panel).
+* **Author** Allows you to filter by the author’s **[!UICONTROL IP]** address, **[!UICONTROL Display Name]** (found on the Users panel or from above the content posted by the author), or **[!UICONTROL User ID]**(found on the Users panel).
 
-* ** Contains** Allows you to filter the most recent 90 days of content by **[!UICONTROL Keyword]** or **[!UICONTROL Content Tag]**. Select the **[!UICONTROL Media]** checkbox to return only content containing Media. (To search for all content, scroll down through all content in the list, then click **[!UICONTROL Search full data]**.)
+* **Contains** Allows you to filter the most recent 90 days of content by **[!UICONTROL Keyword]** or **[!UICONTROL Content Tag]**. Select the **[!UICONTROL Media]** checkbox to return only content containing Media. (To search for all content, scroll down through all content in the list, then click **[!UICONTROL Search full data]**.)
 
-  **Note: **Multiple keyword and content tag search is not supported. If multiple keywords or tags are entered, the last word will be used for the search.
+  **Note:** Multiple keyword and content tag search is not supported. If multiple keywords or tags are entered, the last word will be used for the search.
 
   When searching by Content Tag, suggested tags will be auto-populated as you type into the search field. Search results will return all content that has ever been assigned the tag. (Use this field to search for Featured content, or click the **[!UICONTROL Featured]** label on any featured content in Studio.)
 
-  **Note: **Use a minus (-) sign before a tag name to search for content that does not include that tag. For example: Search for ‘-Miley’ to search for all content that does not include the ‘Miley’ tag.
+  **Note:** Use a minus (-) sign before a tag name to search for content that does not include that tag. For example: Search for ‘-Miley’ to search for all content that does not include the ‘Miley’ tag.
 
-* ** App** Allows you to filter by **[!UICONTROL Collection ID]**, **[!UICONTROL App Tag]**, or **Parent ID**. Filtering by Parent ID returns all content that is a reply to the input Content ID. (Filter by multiple tags by entering tags separated by a comma.)
+* **App** Allows you to filter by **[!UICONTROL Collection ID]**, **[!UICONTROL App Tag]**, or **Parent ID**. Filtering by Parent ID returns all content that is a reply to the input Content ID. (Filter by multiple tags by entering tags separated by a comma.)
 
-* ** Rights** Allows you to filter by Rights Requests status: **[!UICONTROL Requested]**, **[!UICONTROL Granted]**, **[!UICONTROL Replied]**, or **[!UICONTROL Expired]**.
+* **Rights** Allows you to filter by Rights Requests status:** [!UICONTROL Requested]**, **[!UICONTROL Granted]**, **[!UICONTROL Replied]**, or **[!UICONTROL Expired]**.
 
 ## Bozo Content {#section_afl_vqm_zz}
 

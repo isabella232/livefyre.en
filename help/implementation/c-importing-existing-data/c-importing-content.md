@@ -63,7 +63,7 @@ To maintain threading in your imported content, adhere to the following rules:
   **Note:** Livefyre doesn’t keep a record of parent IDs after running a sample import. Parent IDs must be included in the delta file.
 
 * **Threading with moderated comments:** To maintain threading in your reply structures, set the parent_id for every reply comment.
-* **Deleted or Moderated comments: **There are two options for comments that have been deleted or moderated and have child replies:
+* **Deleted or Moderated comments:** There are two options for comments that have been deleted or moderated and have child replies:
 
   * **Import all comments:** Import all comments and replace the text of deleted or moderated comments with a standardized message.
 
@@ -85,7 +85,7 @@ To maintain threading in your imported content, adhere to the following rules:
 
       —- D
     
-    * **Import approved comments only: **Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
+    * **Import approved comments only:** Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
 
       For example, if content follows this format:
 

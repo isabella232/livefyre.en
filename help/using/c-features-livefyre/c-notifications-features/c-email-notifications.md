@@ -46,10 +46,10 @@ Users on your site can then follow a conversation and begin receiving email noti
 
 **Recommended Defaults**
 
-* Someone comments in a conversation I’m following: **hourly digest**
-* Someone likes one of my comments: **hourly digest**
-* Someone replies to one of my comments: **immediately**
-* Auto-follow conversations when I leave a comment: **off** (unchecked)
+* Someone comments in a conversation I’m following:** hourly digest**
+* Someone likes one of my comments:** hourly digest**
+* Someone replies to one of my comments:** immediately**
+* Auto-follow conversations when I leave a comment:** off** (unchecked)
 
 **Note**: Email notifications are based upon the time content is approved for inclusion in the stream.
 
@@ -72,11 +72,11 @@ Emails sent in an hourly digest display all content, replies to content, and lik
 
 **Moderator Email Options**
 
-Moderators can opt in to receive emails for content posted in an App they are following, and for comments flagged Spam or Offensive in an App they are moderating. **Note: **No emails will be sent when users flag a comment with Disagree or Off-Topic, as these categories are not deemed important for moderator notification.
+Moderators can opt in to receive emails for content posted in an App they are following, and for comments flagged Spam or Offensive in an App they are moderating. **Note:** No emails will be sent when users flag a comment with Disagree or Off-Topic, as these categories are not deemed important for moderator notification.
 
 The moderator_comments and moderator_flags fields should also be added to your moderator user profile settings page database schema to allow your moderators to update the frequency of their email notifications, and opt out if they wish. Livefyre recommends that you set these two moderator email notification fields to **never**. Options include **never** (default), **immediately**, and **often**.
 
-**Moderator Email (flagged content): **
+**Moderator Email (flagged content):** 
 
 When content is flagged in a moderated App, the email sent to the moderator will display the content that was flagged, the username who flagged the content, and a link back to the content page.
 

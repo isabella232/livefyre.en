@@ -44,13 +44,13 @@ Click the date pulldown to to select a range to display. Use the quick dates, or
 Quick Dates:
 
 * **Today:** Displays data from midnight the morning of the current day, until the last complete hour before this moment. 
-* ** Yesterday:** Displays the previous 24 hours' data. 
-* ** 7 days:** Displays the previous 7 days' data, not including today. 
-* ** 30 days:** Displays the previous 30 days' data, not including today. 
-* ** This Week:** Displays data from midnight the morning of last Sunday, until the last complete hour before this moment. 
-* ** This Month:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment. 
-* ** Last Week:** Displays last week's data. 
-* ** Last Month:** Displays last month's data.
+* **Yesterday:** Displays the previous 24 hours' data. 
+* **7 days:** Displays the previous 7 days' data, not including today. 
+* **30 days:** Displays the previous 30 days' data, not including today. 
+* **This Week:** Displays data from midnight the morning of last Sunday, until the last complete hour before this moment. 
+* **This Month:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment. 
+* **Last Week:** Displays last week's data. 
+* **Last Month:** Displays last month's data.
 
 ## Showing/Hiding Activities {#concept_022D9851CBCE4A2FB80D0AE52A23744D}
 
@@ -64,13 +64,13 @@ Activities are actions that users take on your site, including commenting, flagg
 
 Available activities vary by dashboard type and export, and may include:
 
-* ** Posts:** Displays data from midnight the morning of the current day, until the last complete hour before this moment. 
-* ** Replies:** Displays the previous 24 hours' data. 
-* ** Likes:** Displays the previous 7 days' data, not including today. 
-* ** Unlikes:** Displays the previous 30 days' data, not including today. 
+* **Posts:** Displays data from midnight the morning of the current day, until the last complete hour before this moment. 
+* **Replies:** Displays the previous 24 hours' data. 
+* **Likes:** Displays the previous 7 days' data, not including today. 
+* **Unlikes:** Displays the previous 30 days' data, not including today. 
 * **Contains Media:** Displays data from midnight the morning of last Sunday, until the last complete hour before this moment. 
-* ** Post has photo upload:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment. 
-* ** Post has link:** Displays last week's data. 
+* **Post has photo upload:** Displays data from midnight the morning of the first day of the current month, until the last complete hour before this moment. 
+* **Post has link:** Displays last week's data. 
 * **Post has @mentions:** Displays last month's data. 
 * **Approved:** Displays last month's data. 
 * **Bozo'd:** Displays last month's data. 

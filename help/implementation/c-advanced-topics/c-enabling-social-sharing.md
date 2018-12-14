@@ -30,9 +30,9 @@ Use the Admin Console’s Integration Settings panel to enter or update the foll
 
 ### Required Credentials:
 
-* ** Facebook ** Client ID Client Secret OAuth Proxy Redirect
-* ** LinkedIn ** API Key API Secret
-* ** Twitter ** Access Token Access Token Secret API Key API Secret
+* **Facebook** Client ID Client Secret OAuth Proxy Redirect
+* **LinkedIn** API Key API Secret
+* **Twitter** Access Token Access Token Secret API Key API Secret
 
 ## Twitter {#section_qp5_1yl_b1b}
 
@@ -78,7 +78,6 @@ The hosted page should include the following code:
 This is an example using Ruby and Rails to do the Facebook OAuth redirect.
 
 ```ruby
- 
 require "base64" 
   
 class Controller < ActionController::Base 
@@ -115,8 +114,7 @@ end
 
 This is an example using Python and Django to do the Facebook OAuth redirect. 
 
-```
- 
+```python
 import base64, re 
 from django.views.decorators.http import require_GET 
 from django.http.response import HttpResponseRedirect, HttpResponseBadRequest 
@@ -158,7 +156,7 @@ def handle_lfoauth(request):
 
 This is an example using NodeJS and Sail/Express to do the Facebook OAuth redirect. 
 
-```
+```nodejs
 /* 
  * 
  */ 
@@ -268,7 +266,6 @@ public class RedirectController {
 ### PHP
 
 ```php
-
 <?php 
 /* 
 Purpose: Provide a landing page for the last step of successful oAuth 
@@ -337,7 +334,6 @@ By default, Facebook, LinkedIn, and Twitter “Post to” buttons are shown on L
 var convConfig = {}; // Ignoring other options for this example 
 convConfig.postToButtons = ['tw', 'fb', 'li']; // Or any subset of these 
 fyre.conv.load(networkConfig, [convConfig], function() {}); 
-
 ```
 
 `postToButtons` is an array with any subset of the following options:
