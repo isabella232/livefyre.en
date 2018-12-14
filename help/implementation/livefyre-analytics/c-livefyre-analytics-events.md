@@ -46,7 +46,8 @@ The following code defines the fields in the event object that get received by t
 
 The following Livefyre events to map to custom events to use in reports using the Report Suite Manager. For more information about Report Suites in Adobe Analytics, see [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html). For more on how to use Livefyre events with Report Suite Manager, see [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
-#### Livefyre Analytics Events
+## Livefyre Analytics Events
+
 |  Event | Description |
 |---|---|
 |  Init | When a page that includes at least one Livefyre app is loaded |
@@ -82,50 +83,15 @@ The following Livefyre events to map to custom events to use in reports using th
 
 The following is a list of conversion variables (eVars) that Livefyre provides.
 
-#### Conversion Variables (eVars)
-<table id="table_dvm_pkd_4cb">  
- <thead> 
-  <tr> 
-   <th class="entry"> Event</th> 
-   <th class="entry"> Description</th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> Network ID</td> 
-   <td> Network ID/Name in Livefyre</td> 
-  </tr> 
-  <tr> 
-   <td> App ID</td> 
-   <td> The URN of the app</td> 
-  </tr> 
-  <tr> 
-   <td> Context ID</td> 
-   <td> Content ID in Livefyre</td> 
-  </tr> 
-  <tr> 
-   <td> App Type</td> 
-   <td> <p>Livefyre App Type. Options:</p> 
-    <ul id="ul_sxl_h1y_12b"> 
-     <li> <p>Live Blog</p> </li> 
-     <li> <p>Feature Card</p> </li> 
-     <li> <p>Carousel</p> </li> 
-     <li> <p>Chat</p> </li> 
-     <li> <p>Comments</p> </li> 
-     <li> <p>Filmstrip</p> </li> 
-     <li> <p>Map</p> </li> 
-     <li> <p>Mosaic</p> </li> 
-     <li> <p>Media Wall</p> </li> 
-     <li> <p>Trending</p> </li> 
-     <li> <p>Upload Button</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> Content Type</td> 
-   <td> Instagram, Twitter, Facebook, LiveFyre, YouTube, etc</td> 
-  </tr> 
- </tbody> 
-</table>
+## Conversion Variables - eVars
+
+|Event|Description|
+|--- |--- |
+|Network ID|Network ID/Name in Livefyre|
+|App ID|The URN of the app|
+|Context ID|Content ID in Livefyre|
+|App Type|Livefyre App Type. Options: <br/><ul><li>Live Blog  </li><li> Feature Card</li><li>Carousel</li><li>Chat </li><li>Comments</li><li>Filmstrip</li><li>Map</li><li>Mosaic</li><li>Media Wall</li><li>Trending</li><li>Upload Button</li></ul>|
+|Content Type|Instagram, Twitter, Facebook, LiveFyre, YouTube, etc|
 
 ## More Info {#section_b3d_4yl_pdb}
 
