@@ -16,7 +16,8 @@ The events available to which you can bind JavaScript for Visualization Apps (fo
 
 The following table displays the App events for Visualization Apps. An X denotes that the event is available for the App, N/A indicates that the event does not apply to the App, and no marking means that the event is unavailable for that App:
 
-#### Visualization App Events
+## Visualization App Events
+
 |  Events | Media Wall | Mosaic | Map | Single Card | Carousel | Post Button | FilmStrip |
 |---|---|---|---|---|---|---|---|
 |  Init | X | X | X | X | X | X | X |
@@ -59,4 +60,3 @@ The following table displays the App events for Visualization Apps. An X denotes
 |  Content Type | X | X | X | X | X | X | |
 |  Published date to App | | | | | | | |
 |  Logged in to end-user App | | | | | | | |
-

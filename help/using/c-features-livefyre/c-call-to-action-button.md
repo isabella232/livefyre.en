@@ -36,7 +36,8 @@ Task Context
 
 1. Click **[!UICONTROL Create]**.
 
-   The CTA button is now available to be added to any asset. 
+   The CTA button is now available to be added to any asset.
+
 ## Add a Custom Call-to-Action Button to an Asset {#task_36190DD1C8204C7793CB7EEA379C2155}
 
 Add a CTA button to any piece of content in Livefyre Studio. 
@@ -55,7 +56,4 @@ Add a CTA button to any piece of content in Livefyre Studio.
    >
    >In order for the custom CTAs you associate with each asset to display in an App, you must enable CTA Buttons in the App settings: 
    >
-   >
-   >![](assets/cta-button-enable.png)   >
-   >
-
+   >![](assets/cta-button-enable.png)

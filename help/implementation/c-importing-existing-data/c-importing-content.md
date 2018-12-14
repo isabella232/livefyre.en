@@ -29,9 +29,9 @@ A successful import must adhere to the following standards:
 * All Comments in a given Collection must appear in full on a single line. Do not include any literal endlines other than a single one at the end of each (Collection) Blob.
 * Files must be UTF-8 formatted.
 * Timestamps must be [ISO-8601 compliant](https://en.wikipedia.org/wiki/ISO_8601).
-* URLs must be fully qualified. They must include http:// or https:// and domains must include the trailing /. For example:
+* URLs must be fully qualified. They must include http:// or https:// and domains must include the trailing `/.` For example:
 
-  * https://web.livefyre.com/ or http://web.livefyre.com/index.html
+  `https://web.livefyre.com/` or `http://web.livefyre.com/index.html`
 
 * The top level id field must be unique to the content. (This id is often the CMS’s unique ID, but may also be the content’s URL, post number, or other identifying string. If using the content URL as the unique identifier, it is a best practice to MD5 or otherwise hash the identifier to meet field length restrictions.)
 * To streamline the import process, do not import Collections that do not yet include comments. After implementation, Livefyre will automatically create a Collection with 0 comments the first time your App is loaded on the page.
@@ -84,11 +84,13 @@ To maintain threading in your imported content, adhere to the following rules:
       — C
 
       —- D
+    ```
     
-    * **Import approved comments only:** Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
+  * **Import approved comments only:** Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
 
       For example, if content follows this format:
 
+  ```
       - A
 
       — B (deleted/moderated)
@@ -102,7 +104,7 @@ To maintain threading in your imported content, adhere to the following rules:
       — C (set parent_id to ID of A)
 
       — D
-    ```
+  ```
 
 ### Special Characters
 
@@ -184,4 +186,3 @@ The following parameters are used in the Content import process.
    "allow_comments": true 
 }
 ```
-

@@ -9,7 +9,8 @@ internal: n
 snippet: y
 ---
 
-# 2017 Release Notes{#release-notes}
+# Release Notes 2017{#release-notes}
 
 Release notes published in 2017.
 
+<!-- Hannah: This article is boring. -Bob -->

@@ -26,7 +26,7 @@ document.body.addEventListener('insights', function (data) {
 
 List of supported Media Wall events:
 
-### Media Wall Events
+## Media Wall Events
 
 |  Event  | Definition  |
 |---|---|

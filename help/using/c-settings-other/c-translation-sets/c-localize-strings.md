@@ -156,9 +156,7 @@ If enabled, featured content is listed at the top of the stream.
 |  | Key  | Default Text  |
 |---|---|---|
 |  **Featured labels** | | |
-|   ![](assets/strings_featuredcontent-150x40.png)
-
-| featuredCommentsTag  | Featured  |
+|   ![](assets/strings_featuredcontent-150x40.png) | featuredCommentsTag  | Featured  |
 |  | featuredCommentsTitlePlural  | Featured Comments  |
 
 ## Text Editor {#section_ky5_td4_xz}

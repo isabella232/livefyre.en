@@ -64,10 +64,7 @@ The Java library has dependencies on the following modules:
    <artifactId>jose4j</artifactId> 
    <version>[0.4.1,)</version> 
 </dependency> 
-
 ```
-
-
 
 For more information, read the Java docs or see the source on [GitHub](https://github.com/Livefyre/livefyre-java-utils).
 
@@ -75,10 +72,7 @@ For more information, read the Java docs or see the source on [GitHub](https://g
 
 To install the NodeJS library, run this line:
 
-```
-$ npm install livefyre 
-
-```
+`$ npm install livefyre`
 
 The NodeJS library has dependencies on the following modules:
 
@@ -86,7 +80,6 @@ The NodeJS library has dependencies on the following modules:
 "restler":">=3.2.0", 
 "validator":"=3.5.0", 
 "jsonwebtoken": ">=5.0.0" 
-
 ```
 
 For more information, read the NodeJs docs or see the source on [GitHub](https://github.com/Livefyre/livefyre-nodejs-utils).
@@ -130,7 +123,6 @@ The PHP library has dependencies on the following modules:
 "ext-json": "*", 
 "rmccue/requests": ">=1.0" 
 "firebase/php-jwt": ">=2.0" 
-
 ```
 
 For more information, read the PHP docs or see the source on [GitHub](https://github.com/Livefyre/livefyre-php-utils).
@@ -141,10 +133,7 @@ Links: [ext-json](https://php.net/manual/en/book.json.php), [Requests](https://g
 
 To install the Python library, run this line:
 
-```
-$ pip install livefyre 
-
-```
+`$ pip install livefyre`
 
 The Python library has dependencies on the following modules:
 
@@ -172,10 +161,7 @@ gem 'livefyre'
 
 Or install it yourself:
 
-```
-$ gem install livefyre 
-
-```
+`$ gem install livefyre`
 
 The Ruby library has dependencies on the following modules:
 
@@ -183,7 +169,6 @@ The Ruby library has dependencies on the following modules:
 "jwt", '~> 1.4', ">= 1.4.1"  
 "rest-client", '~> 1.8', ">= 1.8.0"  
 "addressable", '~> 2.3', ">= 2.3.6" 
-
 ```
 
 For more information, read the Ruby docs or see the source on [GitHub](https://github.com/Livefyre/livefyre-ruby-utils).
