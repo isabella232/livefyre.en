@@ -75,7 +75,7 @@ To maintain threading in your imported content, adhere to the following rules:
 
       — C
 
-      —- DStructure the import file to replace the deleted content with a message:
+      - DStructure the import file to replace the deleted content with a message:
 
       - A
 
@@ -83,12 +83,12 @@ To maintain threading in your imported content, adhere to the following rules:
 
       — C
 
-      —- D
+      - D
     ```
     
   * **Import approved comments only:** Include only approved (non-moderated) comments and comments from users that have not been banned in the import. To preserve threading, replies to removed comments must specify the parent of the removed comment’s ID as the parent_id.
 
-      For example, if content follows this format:
+  For example, if content follows this format:
 
   ```
       - A
@@ -97,7 +97,7 @@ To maintain threading in your imported content, adhere to the following rules:
 
       — C
 
-      —- D Structure your import file to set the top level comment as the parent to the removed content’s child:
+      - D Structure your import file to set the top level comment as the parent to the removed content’s child:
 
       - A
 
