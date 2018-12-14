@@ -14,12 +14,6 @@ snippet: y
 
 Create a media wall, with content streaming in real-time.
 
-On this page:
-
-* [](#c_media_wall_integration/section_jfm_bwb_c1b) 
-* [](#c_media_wall_integration/section_ucv_qvb_c1b) 
-* [](#c_media_wall_integration/section_ztv_dvb_c1b)
-
 Media Wall allows you to create a real-time social wall for your site. Use the Livefyre JavaScript SDK’s streamhub-wallpackage to display Livefyre social feeds as a visually engaging, full-screen, tiled content experience that’s great for covering live events, hosting photo contests, and powering social sections of your website.
 
 ## Integration {#section_jfm_bwb_c1b}
@@ -59,7 +53,7 @@ Livefyre.require([
 
 You now have a Wall! See this all in action in [this example](http://codepen.io/gobengo/pen/dFwDL).
 
-**Hit an error?** Check to make sure that you’re passing the correct environment parameter. Options include livefyre.com (production) or t402.livefyre.com (UAT).
+**Hit an error?** Check to make sure that you’re passing the correct environment parameter. Options include `livefyre.com` (production) or `t402.livefyre.com` (UAT).
 
 >[!NOTE]
 >
@@ -118,7 +112,7 @@ var wallView = new MediaWall({
 
 `postButton`
 
-Defines the **[!UICONTROL Post Content]** button to appear on your Wall. This option requires that you pass in `opts.collection`, and add a Livefyre.js Auth integration to the page.
+Defines the [!UICONTROL Post Content] button to appear on your Wall. This option requires that you pass in `opts.collection`, and add a Livefyre.js Auth integration to the page.
 
 `postButton` parameters:
 
@@ -139,7 +133,7 @@ var wallView = new MediaWall({
 
 `showMore`
 
-Defines the number of Content items to add to the wall when your **[!UICONTROL Show More]** button is clicked.
+Defines the number of Content items to add to the wall when your [!UICONTROL Show More] button is clicked.
 
 ```
 var wallView = new LiveMediaWall({ 
@@ -169,43 +163,42 @@ var wall2 = window.wall2 = new MediaWall({
 
 ```
 
-For valid input, please see the W3C standards for CSS [Font Family](http://www.w3.org/TR/CSS2/fonts.html#propdef-font-family), [Font Size](http://www.w3.org/TR/CSS2/fonts.html#font-size-props), [Line Height,](http://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) and [Color](http://www.w3.org/TR/css3-color/#colorunits) properties. 
+For valid input, please see the W3C standards for CSS [Font Family](https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family), [Font Size](https://www.w3.org/TR/CSS2/fonts.html#font-size-props), [Line Height,](https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height) and [Color](https://www.w3.org/TR/css3-color/#colorunits) properties. 
 
-* ** bodyFontSize ** **(CSS Font Size String) **The font size for content body text.
+* **bodyFontSize** *(CSS Font Size String)* The font size for content body text.
 
-* ** bodyLineHeight ** **(CSS Line Height String) **The line height for content body text.
+* **bodyLineHeight** *(CSS Line Height String)* The line height for content body text.
 
-* ** buttonActiveBackgroundColor ** **(CSS Color String) **The color for the button background on active.
+* **buttonActiveBackgroundColor** *(CSS Color String)** The color for the button background on active.
 
-* ** buttonBorderColor ** **(CSS Color String) **The color for button borders.
+* **buttonBorderColor** *(CSS Color String)** The color for button borders.
 
-* ** buttonHoverBackgroundColor ** **(CSS Color String) **The color for the button background on hover.
+* **buttonHoverBackgroundColor** *(CSS Color String)* The color for the button background on hover.
 
-* ** buttonTextColor ** **(CSS Color String) **The color for the button labels.
+* **buttonTextColor** *(CSS Color String)* The color for the button labels.
 
-* ** cardBackgroundColor ** **(CSS Color String) **The background color for content cards in the media wall.
+* **cardBackgroundColor** *(CSS Color String)* The background color for content cards in the media wall.
 
-* ** displayNameColor ** **(CSS Color String) **The color for display names in the byline.
+* **displayNameColor** *(CSS Color String)* The color for display names in the byline.
 
-* ** fontFamily ** **(CSS Font Family String) **The font family for body text.
+* **fontFamily** *(CSS Font Family String)* The font family for body text.
 
-* ** footerTextColor ** **(CSS Color String) **The color for secondary text (such as the footer text, and the username in the byline).
+* **footerTextColor** *(CSS Color String)* The color for secondary text (such as the footer text, and the username in the byline).
 
-* ** linkAttachmentBackgroundColor ** **(CSS Color String) **The background color for link attachments (stacked attachments).
+* **linkAttachmentBackgroundColor** *(CSS Color String)* The background color for link attachments (stacked attachments).
 
-* ** linkAttachmentBorderColor ** **(CSS Color String) **The border color for link attachments (stacked attachments).
+* **linkAttachmentBorderColor** *(CSS Color String)* The border color for link attachments (stacked attachments).
 
-* ** linkAttachmentTextColor ** **(CSS Color String) **The color for link attachment text.
+* **linkAttachmentTextColor** *(CSS Color String)* The color for link attachment text.
 
-* ** linkColor ** **(CSS Color String) **The color for hyperlinks (such as links in body text, and display name links).
+* **linkColor** *(CSS Color String)* The color for hyperlinks (such as links in body text, and display name links).
 
-* ** textColor ** **(CSS Color String) **The color for body text.
+* **textColor** *(CSS Color String)* The color for body text.
 
-* ** titleFontSize ** **(CSS Font Size String) **The font size for content titles.
+* **titleFontSize** *(CSS Font Size String)* The font size for content titles.
 
-* ** titleLineHeight ** **(CSS Line Height String) **The line height for content titles.
+* **titleLineHeight** *(CSS Line Height String)* The line height for content titles.
 
-* ** sourceLogoColor ** **(CSS Color String) **The color for the source logo.
+* **sourceLogoColor** *(CSS Color String)* The color for the source logo.
 
-* ** usernameColor ** **(CSS Color String) **The color for the usernames in the byline.
-
+* **usernameColor** *(CSS Color String)* The color for the usernames in the byline.
