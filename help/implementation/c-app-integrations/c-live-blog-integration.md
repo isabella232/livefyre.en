@@ -22,7 +22,7 @@ Live Blog allows you to feature real-time updates and images from your site’s 
 
 Live Blog allows you to feature real-time updates and images from your site’s own editors when covering a live event. 
 
-To embed a Live Blog App, follow the procedure for Integrating a Conversation App. See [](c_implement_a_conversation_app.md#concept_zvy_c3c_tbb). The following is an example of what an embedded Live Blog App looks like.
+To embed a Live Blog App, follow the procedure for Embedding an App. See [Embed an App](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md). The following is an example of what an embedded Live Blog App looks like.
 
 **Example:**
 
@@ -83,7 +83,7 @@ The `NetworkConfig` object is a JSON object containing the following parameters:
 |  *`authDelegate`* | Object *required*  | Used to customize the authentication system for custom network users.  |
 |  *`network`* | String *required*  | A Livefyre-provided network name. For example: *yourname.fyre.co.* |
 |  *`attachmentDelegate`* | Object (optional)  | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](../c-app-customizations/c-restrict-media.md#c_restrict_media).  |
-|  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](c_localize_strings.md#c_localize_strings).  |
+|  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md).  |
 
 ## ConvConfig Object {#c_convconfig_object}
 

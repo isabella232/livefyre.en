@@ -14,7 +14,7 @@ snippet: y
 
 Embedding the Comments App follows the process for embedding a Core App.
 
-Embedding the Comments App follows the process for embedding a Core App described in [](t_embed_an_app_on_your_site_using_livefyre.js.md#embed_an_app_on_your_site_using_livefyre.js)
+Embedding the Comments App follows the process for embedding a Core App described in [](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 **Example:**
 

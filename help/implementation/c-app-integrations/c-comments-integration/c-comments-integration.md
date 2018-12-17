@@ -86,7 +86,7 @@ The `NetworkConfig` object is a JSON object containing the following parameters:
 |  *`authDelegate`* | Object *required*  | Used to customize the authentication system for custom network users.  |
 |  *`network`* | String *required*  | A Livefyre-provided network name. For example: *yourname.fyre.co.* |
 |  *`attachmentDelegate`* | Object (optional)  | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](../../c-app-customizations/c-restrict-media.md#c_restrict_media).  |
-|  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](c_localize_strings.md#c_localize_strings).  |
+|  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md).  |
 
 ## ConvConfig Object {#c_convconfig_object}
 
@@ -102,7 +102,7 @@ The `ConvConfig` object contains the following required parameters:
 |--- |--- |--- |
 |articleId|String *required*|Uniquely identifies a Collection within your Site. Usually, this corresponds to a database primary key or Post ID within your CMS. For example: “post-42”. 255 character limit.  Note:  If you use the article URL as your articleId, make certain the string is MD5 or SHA-1 encoded.|
 |authPageReload|(optional) Boolean|Applies to Comments App: Allows you to control whether a user’s comment is stored locally during the auth process. If true, if a user enters a comment, and then logs into the App, the comment will be stored locally, and will be re-entered in the content field after login and page refresh. If false, entered content will be wiped during the login process, and must be retyped.|
-|collectionMeta|String *required*|JWT-encoded metadata about the Collection. See  [CollectionMeta](c_collectionmeta_object.md#c_collectionmeta_object) Object  for more information.|
+|collectionMeta|String *required*|JWT-encoded metadata about the Collection. See  [CollectionMeta](#c_collectionmeta_object) Object  for more information.|
 |el|String *required*|The ID of a DOM element to which the content stream will render.|
 |siteId|String *required*|The Livefyre-provided ID for the website or application to which the Collection belongs. For example: “303617”.|
 

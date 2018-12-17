@@ -18,7 +18,7 @@ Reviews allows members of your community to contribute star ratings and qualitat
 
 ## Integration {#section_kk5_15b_c1b}
 
-To integrate a Reviews App, follow the procedure for Integrating a Conversation App. See [](c_implement_a_conversation_app.md#concept_zvy_c3c_tbb). The following is an example of an embedded Reviews App.
+To integrate a Reviews App, follow the procedure for Integrating a Conversation App. See [Embed an App](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md). The following is an example of an embedded Reviews App.
 
 ### Example
 

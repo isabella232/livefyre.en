@@ -26,7 +26,7 @@ Twitter mandates the following presentation requirements:
   * Twitter actions (Reply, Retweet, Like)
   * Timestamp
 
-* Passive display (broadcast, in-venue, digital out of home) must include at least the following:
+* Passive display (broadcast, in-venue, digital out of help) must include at least the following:
 
   * Twitter logo
   * Unaltered Tweet text (can remove the links if not contextually relevant)

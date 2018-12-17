@@ -56,8 +56,8 @@ For example:
 
 Apps that use this feature:
 
-* [Chat](c_chat_app.md#c_chat_app) 
-* [Comments](c_comments_app.md#c_comments_app) 
-* [Reviews](c_reviews_app.md#c_reviews_app) 
-* [Sidenotes](c_sidenotes_app.md#c_sidenotes_app)
+* [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md) 
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md) 
+* [Reviews](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md) 
+* [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
 
