@@ -5,9 +5,6 @@ seo-title: Live Blog
 solution: Experience Manager
 title: Live Blog
 uuid: 5ca373f1-2008-45ab-9ec2-1e295af4e368
-index: y
-internal: n
-snippet: y
 ---
 
 # Live Blog{#live-blog}
@@ -22,9 +19,9 @@ Live Blog allows you to feature real-time updates and images from your site’s 
 
 Live Blog allows you to feature real-time updates and images from your site’s own editors when covering a live event. 
 
-To embed a Live Blog App, follow the procedure for Integrating a Conversation App. See [](c_implement_a_conversation_app.md#concept_zvy_c3c_tbb). The following is an example of what an embedded Live Blog App looks like.
+To embed a Live Blog App, follow the procedure for [Integrating a Conversation App](c_implement_a_conversation_app.md#concept-zvy-c3c-tbb). The following is an example of what an embedded Live Blog App looks like.
 
-**Example:**
+### Example
 
 ```
 <html> 
@@ -72,7 +69,7 @@ CollectionMeta is an encoded JSON object. In the above example, the JSON object 
 }
 ```
 
-## NetworkConfig Object {#c_networkconfig_object}
+## NetworkConfig Object {#c-networkconfig-object}
 
 The `NetworkConfig` object is a JSON object that customizes the authentication system for network users. 
 
@@ -82,10 +79,10 @@ The `NetworkConfig` object is a JSON object containing the following parameters:
 |---|---|---|
 |  *`authDelegate`* | Object *required*  | Used to customize the authentication system for custom network users.  |
 |  *`network`* | String *required*  | A Livefyre-provided network name. For example: *yourname.fyre.co.* |
-|  *`attachmentDelegate`* | Object (optional)  | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](../c-app-customizations/c-restrict-media.md#c_restrict_media).  |
-|  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](c_localize_strings.md#c_localize_strings).  |
+|  *`attachmentDelegate`* | Object (optional)  | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](../c-app-customizations/c-restrict-media.md#c-restrict-media).  |
+|  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](c_localize_strings.md#c-localize-strings).  |
 
-## ConvConfig Object {#c_convconfig_object}
+## ConvConfig Object {#c-convconfig-object}
 
 The `convConfig` object is a JSON object used to specify the content that the Livefyre App renders on the page.
 
@@ -134,7 +131,7 @@ The `ConvConfig` object may also contain the following optional parameters:
 >
 >You can pass one or more `convConfig` objects during App initialization to display multiple Apps on the same page. Be aware that extra Apps use browser resources and performance may degrade as the number increases.
 
-## CollectionMeta Object {#c_collectionmeta_object}
+## CollectionMeta Object {#c-collectionmeta-object}
 
 The `CollectionMeta` object is a JSON object that specifies metadata to store within the Collection. 
 

@@ -5,19 +5,11 @@ seo-title: Referral Tracking
 solution: Experience Manager
 title: Referral Tracking
 uuid: 5206cc16-9671-4b3d-a013-be1a3e8c029d
-index: y
-internal: n
-snippet: y
 ---
 
 # Referral Tracking{#referral-tracking}
 
 Track clicks back to your page from referral traffic.
-
-On this page:
-
-* [](#c_referral_tracking/section_nsy_qp4_xz) 
-* [](#c_referral_tracking/section_xvs_x44_xz)
 
 Livefyre appends a referral variable to the URL when a comment is posted or shared to a social network, and for permalinks included in Livefyre emails. Use this variable to track referral traffic from Livefyre Apps to your social or owned properties.
 
@@ -52,12 +44,9 @@ For example:
 }())
 ```
 
-
-
 Apps that use this feature:
 
-* [Chat](c_chat_app.md#c_chat_app) 
-* [Comments](c_comments_app.md#c_comments_app) 
-* [Reviews](c_reviews_app.md#c_reviews_app) 
+* [Chat](c_chat_app.md#c_chat_app)
+* [Comments](c_comments_app.md#c_comments_app)
+* [Reviews](c_reviews_app.md#c_reviews_app)
 * [Sidenotes](c_sidenotes_app.md#c_sidenotes_app)
-

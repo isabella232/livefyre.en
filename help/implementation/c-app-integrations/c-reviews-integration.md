@@ -5,12 +5,9 @@ seo-title: Reviews
 solution: Experience Manager
 title: Reviews
 uuid: b740ee28-f6f9-4ae7-9fe7-61a5cde97bbb
-index: y
-internal: n
-snippet: y
 ---
 
-# Reviews{#reviews}
+# Reviews {#reviews}
 
 Allow customers to rate and review your product offerings.
 
@@ -18,7 +15,7 @@ Reviews allows members of your community to contribute star ratings and qualitat
 
 ## Integration {#section_kk5_15b_c1b}
 
-To integrate a Reviews App, follow the procedure for Integrating a Conversation App. See [](c_implement_a_conversation_app.md#concept_zvy_c3c_tbb). The following is an example of an embedded Reviews App.
+To integrate a Reviews App, follow the procedure for [Integrating a Conversation App](c_implement_a_conversation_app.md#concept-zvy-c3c-tbb). The following is an example of an embedded Reviews App.
 
 ### Example
 

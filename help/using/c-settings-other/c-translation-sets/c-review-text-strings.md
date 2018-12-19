@@ -24,7 +24,7 @@ This page lists and describes the strings available for customization in Review 
 * Post Functions
 * Errors
 
-## Implementation {#section_vsy_1k4_xz}
+## Implementation {#section-vsy-1k4-xz}
 
 To implement this feature, pass in a 1-1 object mapping of the strings you wish to override to the Javascript configuration object. If you don’t provide a field, the default text will be used.
 

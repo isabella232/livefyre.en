@@ -5,16 +5,9 @@ seo-title: Translation Sets
 solution: Experience Manager
 title: Translation Sets
 uuid: 8ba66a61-5520-482a-bc0b-e4f6b57f1744
-index: y
-internal: n
-snippet: y
 ---
 
-# Translation Sets{#translation-sets}
-
-Translation Sets allow you to specify alternate language for Apps.
-
-## Translation Sets {#c_translation_sets}
+# Translation Sets {#translation-sets}
 
 Translation Sets allow you to specify alternate language for Apps.
 
@@ -24,7 +17,7 @@ c_translation_sets.dita
 
 Use translation settings to localize Apps in various languages or to specify alternate text for several Apps from one location in Studio. For example, you can ensure all Spanish-language sites use Spanish language for all App fields. You can also modify the text so that all fields match the voice and feel of your site or network.
 
-You can specify translation settings for all Apps, except Storify 2. For more information about what fields you can localize, see [Localize Strings](c-localize-strings.md#c-localize-strings).
+You can specify translation settings for all Apps, except Storify 2.
 
 Comments, Live Blog, and Chat share the same set of strings within a translation set.
 
@@ -50,7 +43,7 @@ This page lists and describes the strings available for customization in Review 
 * Post Functions
 * Errors
 
-## Implementation {#section_vsy_1k4_xz}
+## Implementation {#section-vsy-1k4-xz}
 
 To implement this feature, pass in a 1-1 object mapping of the strings you wish to override to the Javascript configuration object. If you don’t provide a field, the default text will be used.
 
