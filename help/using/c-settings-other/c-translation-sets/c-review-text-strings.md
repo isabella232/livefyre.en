@@ -49,9 +49,9 @@ Strings available for the Review and Rating user interface.
 |--- |--- |--- |
 |Buttons|||
 ||editReviewBtn|Edit review|
-||reviewBtn|[Write review](http://d.pr/i/QscA)|
-||reviewsClosed|[Reviews Closed](http://d.pr/i/zr7M)|
-||showReviewBtn|[Show review](http://d.pr/i/onxU)|
+||reviewBtn|[Write review](https://d.pr/i/QscA)|
+||reviewsClosed|[Reviews Closed](https://d.pr/i/zr7M)|
+||showReviewBtn|[Show review](https://d.pr/i/onxU)|
 ||follow|I’m interested|
 ||shareText|I just wrote a review. Check it out!|
 |Rating tooltips|||
@@ -61,8 +61,8 @@ Strings available for the Review and Rating user interface.
 ||ratingSubpartTitles|An array. Default = []|
 ||reviewStreamTitle|Blank by default. Title of the summary section of the review.|
 |Misc|||
-||averageRating|[Average User Rating](http://d.pr/i/QscA)|
-||breakdownHeader|[Rating Breakdown](http://d.pr/i/QscA)|
+||averageRating|[Average User Rating](https://d.pr/i/QscA)|
+||breakdownHeader|[Rating Breakdown](https://d.pr/i/QscA)|
 ||helpful|%s of %s found helpful|
 ||helpfulPlural|%s of %s found helpful|
 ||outOf|/|
@@ -76,9 +76,9 @@ Strings available for content stream information and display.
 |---|---|---|
 |  *Sorting* | | |
 |  | sortBy  | *Blank by default.* |
-|  | sortHighestRated  | [Highest rating](http://d.pr/i/huTd)  |
-|  | sortLowestRated  | [Lowest rating](http://d.pr/i/huTd)  |
-|  | sortMostHelpful  | [Most helpful](http://d.pr/i/huTd)  |
+|  | sortHighestRated  | [Highest rating](https://d.pr/i/huTd)  |
+|  | sortLowestRated  | [Lowest rating](https://d.pr/i/huTd)  |
+|  | sortMostHelpful  | [Most helpful](https://d.pr/i/huTd)  |
 |  *Stream misc.* | | |
 |  | showMore  | Show More  |
 |  *Stream high velocity* | | |
@@ -101,7 +101,7 @@ Stings available for author and individual content information.
 |  Element  | Key  | Default Text  |
 |---|---|---|
 |  *Thread Breakout* | | |
-|  | reviewsContentNotFoundMsg  | [This review is no longer visible](http://d.pr/i/svXs)  |
+|  | reviewsContentNotFoundMsg  | [This review is no longer visible](https://d.pr/i/svXs)  |
 |  | backToComments  | Back to Reviews  |
 
 ## User Actions {#section_tlx_wj4_xz}
@@ -111,12 +111,12 @@ Strings available for user actions: flagging, sharing, and marking existing cont
 |  Element  | Key  | Default Text  |
 |---|---|---|
 |  *Comment footer* | | |
-|  | wasReviewHelpful  | [Helpful?](http://d.pr/i/Q0mA)  |
+|  | wasReviewHelpful  | [Helpful?](https://d.pr/i/Q0mA)  |
 |  | wasReviewHelpfulMobile  | Helpful?  |
-|  | ownWasReviewHelpful  | [Found helpful.](http://d.pr/i/Q0mA)  |
-|  | reviewWasHelpful  | [Yes](http://d.pr/i/Q0mA)  |
-|  | helpfulDivider  | [|](http://d.pr/i/Q0mA)  |
-|  | reviewWasNotHelpful  | [No](http://d.pr/i/Q0mA)  |
+|  | ownWasReviewHelpful  | [Found helpful.](https://d.pr/i/Q0mA)  |
+|  | reviewWasHelpful  | [Yes](https://d.pr/i/Q0mA)  |
+|  | helpfulDivider  | [|](https://d.pr/i/Q0mA)  |
+|  | reviewWasNotHelpful  | [No](https://d.pr/i/Q0mA)  |
 |  *Vote modal* | | |
 |  | voteTitle  | Was this review helpful?  |
 |  | voteDownvote  | No  |

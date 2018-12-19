@@ -43,7 +43,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
             "content":{ 
                "attachments":[ 
                   { 
-                     "provider_url":"http://instagram.com", 
+                     "provider_url":"https://instagram.com", 
                      "title":"Harry Potter and the Goblet of Fire.\n#harrypotter #thegobletoffire #trimagischesturnier #voldemort #liebe #avadakedavra #quidditch #deatheater, 
                      "url":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/e15/11820456_903218793066632_2018970577_n.jpg", 
                      "type":"photo", 
@@ -56,7 +56,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
                      "provider_name":"Instagram", 
                      "thumbnail_url":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e15/11820456_903218793066632_2018970577_n.jpg", 
                      "thumbnail_height":150, 
-                     "author_url":"http://www.instagram.com/koraliene" 
+                     "author_url":"https://www.instagram.com/koraliene" 
                   } 
                ], 
                "generator":{ 
@@ -87,9 +87,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
             "content":{ 
                "attachments":[ 
                   { 
-                     "provider_url":"http://www.youtube.com/", 
+                     "provider_url":"https://www.youtube.com/", 
                      "title":"GoPro: Shotgun Balloon Drop", 
-                     "url":"http://www.youtube.com/watch?v=_hYC-ukmlU0", 
+                     "url":"https://www.youtube.com/watch?v=_hYC-ukmlU0", 
                      "type":"video", 
                      "html":"video", 
                      "author_name":"GoPro", 
@@ -99,9 +99,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
                      "link":"https://www.youtube.com/watch?v=_hYC-ukmlU0", 
                      "thumbnail_width":480, 
                      "provider_name":"YouTube", 
-                     "thumbnail_url":"http://i.ytimg.com/vi/_hYC-ukmlU0/hqdefault.jpg", 
+                     "thumbnail_url":"https://i.ytimg.com/vi/_hYC-ukmlU0/hqdefault.jpg", 
                      "thumbnail_height":360, 
-                     "author_url":"http://www.youtube.com/user/GoProCamera" 
+                     "author_url":"https://www.youtube.com/user/GoProCamera" 
                   } 
                ], 
                "generator":{ 
@@ -132,7 +132,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
             "tags":[ 
   
             ], 
-            "profileUrl":"http://www.instagram.com/koraliene", 
+            "profileUrl":"https://www.instagram.com/koraliene", 
             "avatar":"https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/11377913_116078835392886_1656868764_a.jpg", 
             "type":8, 
             "id":"1716944657@instagram.com" 
@@ -179,7 +179,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
             "content":{ 
                "attachments":[ 
                   { 
-                     "provider_url":"http://instagram.com", 
+                     "provider_url":"https://instagram.com", 
                      "title":"Take modern technique and improvisation class every Tuesday at 6:30pm in #ParkSlope #Brooklyn. www.donofriodanceco.com/events  #class #moderntechnique #inthestudio", 
                      "url":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11820585_1495140967475672_1192251690_n.jpg", 
                      "type":"photo", 
@@ -192,7 +192,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
                      "provider_name":"Instagram", 
                      "thumbnail_url":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11820585_1495140967475672_1192251690_n.jpg", 
                      "thumbnail_height":150, 
-                     "author_url":"http://www.instagram.com/donofriodanceco" 
+                     "author_url":"https://www.instagram.com/donofriodanceco" 
                   } 
                ], 
                "generator":{ 
@@ -244,7 +244,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
             "tags":[ 
   
             ], 
-            "profileUrl":"http://www.instagram.com/donofriodanceco", 
+            "profileUrl":"https://www.instagram.com/donofriodanceco", 
             "avatar":"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/11856814_802209839897652_651365056_a.jpg", 
             "type":8, 
             "id":"497670545@instagram.com" 
@@ -281,7 +281,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
             "content":{ 
                "attachments":[ 
                   { 
-                     "provider_url":"http://instagram.com", 
+                     "provider_url":"https://instagram.com", 
                      "title":"just got our cupcakes in, vanilla chocolate chip & double chocolate chip. #vegancupcake #crueltyfree #delicious #parkslope #brooklyn", 
                      "url":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11909349_493164437532074_903287131_n.jpg", 
                      "type":"photo", 
@@ -294,7 +294,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
                      "provider_name":"Instagram", 
                      "thumbnail_url":"https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s150x150/e35/c6.0.1068.1068/11950556_841625375936809_874759990_n.jpg", 
                      "thumbnail_height":150, 
-                     "author_url":"http://www.instagram.com/thevspotrestaurant" 
+                     "author_url":"https://www.instagram.com/thevspotrestaurant" 
                   } 
                ], 
                "generator":{ 
@@ -346,7 +346,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
             "tags":[ 
   
             ], 
-            "profileUrl":"http://www.instagram.com/thevspotrestaurant", 
+            "profileUrl":"https://www.instagram.com/thevspotrestaurant", 
             "avatar":"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/11375249_171656349833669_472241260_a.jpg", 
             "type":8, 
             "id":"414661547@instagram.com" 
@@ -378,7 +378,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
          "content":{ 
             "attachments":[ 
                { 
-                  "provider_url":"http://instagram.com", 
+                  "provider_url":"https://instagram.com", 
                   "title":"Take modern technique and improvisation class every Tuesday at 6:30pm in #ParkSlope #Brooklyn. www.donofriodanceco.com/events  #class #moderntechnique #inthestudio", 
                   "url":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11820585_1495140967475672_1192251690_n.jpg", 
                   "type":"photo", 
@@ -391,7 +391,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
                   "provider_name":"Instagram", 
                   "thumbnail_url":"https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s150x150/e35/11820585_1495140967475672_1192251690_n.jpg", 
                   "thumbnail_height":150, 
-                  "author_url":"http://www.instagram.com/donofriodanceco" 
+                  "author_url":"https://www.instagram.com/donofriodanceco" 
                } 
             ], 
             "generator":{ 
@@ -446,7 +446,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
          "tags":[ 
   
          ], 
-         "profileUrl":"http://www.instagram.com/thevspotrestaurant", 
+         "profileUrl":"https://www.instagram.com/thevspotrestaurant", 
          "avatar":"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/11375249_171656349833669_472241260_a.jpg", 
          "type":8, 
          "id":"414661547@instagram.com" 
@@ -456,7 +456,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/{network}/{siteId}/{b64articleId
          "tags":[ 
   
          ], 
-         "profileUrl":"http://www.instagram.com/donofriodanceco", 
+         "profileUrl":"https://www.instagram.com/donofriodanceco", 
          "avatar":"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/11856814_802209839897652_651365056_a.jpg", 
          "type":8, 
          "id":"497670545@instagram.com" 

@@ -88,8 +88,8 @@ Hide the ‘|’ separating the sorting options.
 
 |  Class  | Description  |
 |---|---|
-|  .fyre-comment-author-tag- *`custom tag name`* | Livefyre will create a CSS class in this format for each user tag added through Livefyre’s [Studio](http://350.df9.mwp.accessdomain.com/product/studio/users/#CreatingUserGroups), [Profile Sync](http://350.df9.mwp.accessdomain.com/developers/identity-integration/your-identity/#PingForPull), or [data import](http://350.df9.mwp.accessdomain.com/developers/imports/). This class may be used to style the background for any content posted by user accounts including that tag.  |
-|  .fyre-tag-content-icon- *`tag name`* | Livefyre will create a CSS class in this format for each content tag added through Livefyre [Studio](http://350.df9.mwp.accessdomain.com/product/studio/users/#CreatingUserGroups). This class may be used to style any content to which you have added the tag.  |
+|  .fyre-comment-author-tag- *`custom tag name`* | Livefyre will create a CSS class in this format for each user tag added through Livefyre’s [Studio](https://350.df9.mwp.accessdomain.com/product/studio/users/#CreatingUserGroups), [Profile Sync](https://350.df9.mwp.accessdomain.com/developers/identity-integration/your-identity/#PingForPull), or [data import](https://350.df9.mwp.accessdomain.com/developers/imports/). This class may be used to style the background for any content posted by user accounts including that tag.  |
+|  .fyre-tag-content-icon- *`tag name`* | Livefyre will create a CSS class in this format for each content tag added through Livefyre [Studio](https://350.df9.mwp.accessdomain.com/product/studio/users/#CreatingUserGroups). This class may be used to style any content to which you have added the tag.  |
 |  .fyre-comment-user  | The bounding box that contains the user profile picture.  |
 |  .fyre-comment-username  | The username.  |
 |  .fyre-moderator  | The moderator bounding box.  |

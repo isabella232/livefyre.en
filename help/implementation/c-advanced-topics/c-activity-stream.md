@@ -53,7 +53,7 @@ Examples:
 
 ## Token Policies {#section_nwh_c5j_11b}
 
-The Activity Stream API uses an OAuth Bearer Token for authentication. Bearer Tokens are part of the OAuth 2.0 specification, and officially described [here](http://tools.ietf.org/html/rfc6750#section-1.2).
+The Activity Stream API uses an OAuth Bearer Token for authentication. Bearer Tokens are part of the OAuth 2.0 specification, and officially described [here](https://tools.ietf.org/html/rfc6750#section-1.2).
 
 A token contains several things:
 
@@ -118,10 +118,10 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
   "authors": {  
       /** "a set of every author who generated activity within this window" */ 
       "_up1770425@livefyre.com": { 
-        "avatar": "http://gravatar.com/avatar/68c789597150d3e941769a5c0a0c4249/?s=50&d=http://avatars-qa.fyre.co/a/anon/50.jpg",  
+        "avatar": "https://gravatar.com/avatar/68c789597150d3e941769a5c0a0c4249/?s=50&d=https://avatars-qa.fyre.co/a/anon/50.jpg",  
         "displayName": "ross_pfahler",   
         "id": "_up1770425@livefyre.com",  
-        "profileUrl": "http://www.qa-ext.livefyre.com/profile/1770425/",  
+        "profileUrl": "https://www.qa-ext.livefyre.com/profile/1770425/",  
         "tags": [],  
         "type": 1 
       },  
@@ -134,7 +134,7 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
         "id": "2486601",  
         "site": "290596",  
         "title": "Live Blog",  
-        "url": "http://orangesaregreat.com/..." 
+        "url": "https://orangesaregreat.com/..." 
       }, 
   ... 
   },  
@@ -163,25 +163,25 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
                   this Youtube video" */ 
                 { 
                   "author_name": "mauricio890",  
-                  "author_url": "http://www.youtube.com/user/mauricio890",  
+                  "author_url": "https://www.youtube.com/user/mauricio890",  
                   "height": 480,  
-                  "html": "<iframe width=\"854\" height=\"480\" src=\"http://www.youtube.com/embed/pmMAw5a7POU?autoplay=1&feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",  
-                  "link": "http://www.youtube.com/watch?v=pmMAw5a7POU",  
+                  "html": "<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/pmMAw5a7POU?autoplay=1&feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",  
+                  "link": "https://www.youtube.com/watch?v=pmMAw5a7POU",  
                   "provider_name": "YouTube",  
-                  "provider_url": "http://www.youtube.com/",  
+                  "provider_url": "https://www.youtube.com/",  
                   "thumbnail_height": 360,  
-                  "thumbnail_url": "http://i1.ytimg.com/vi/pmMAw5a7POU/hqdefault.jpg",  
+                  "thumbnail_url": "https://i1.ytimg.com/vi/pmMAw5a7POU/hqdefault.jpg",  
                   "thumbnail_width": 480,  
                   "title": "Napoleon Dynamite dance scene",  
                   "type": "video",  
-                  "url": "http://www.youtube.com/watch?v=pmMAw5a7POU",  
+                  "url": "https://www.youtube.com/watch?v=pmMAw5a7POU",  
                   "version": "1.0",  
                   "width": 854 
                 } 
               ],  
               // "who authored the content" 
               "authorId": "_up1793160@livefyre.com",  
-              "bodyHtml": "<p><strong>Pros:</strong>Boom</p><p><strong>Cons:</strong>Goes</p><p><strong>Description:</strong>The dynamite:</p><p><a href=\"http://www.youtube.com/watch?v=pmMAw5a7POU\" target=\"_blank\" rel=\"nofollow\">http://www.youtube.com/watch?v=pmMAw5a7POU</a><br/></p>",  
+              "bodyHtml": "<p><strong>Pros:</strong>Boom</p><p><strong>Cons:</strong>Goes</p><p><strong>Description:</strong>The dynamite:</p><p><a href=\"https://www.youtube.com/watch?v=pmMAw5a7POU\" target=\"_blank\" rel=\"nofollow\">https://www.youtube.com/watch?v=pmMAw5a7POU</a><br/></p>",  
               // "UNIX timestamp" 
               "createdAt": 1383257354,  
               "id": "3ad6480eb00c4895b29b7a972380f489@livefyre.com",  

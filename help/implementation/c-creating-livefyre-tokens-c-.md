@@ -47,7 +47,7 @@ See also:
      
        var meta = new Dictionary<string, object>() { 
            {"title", "Kings win the Stanley Cup"}, 
-           {"url", "http://www.website.com/kings-win-stanley-cup"}, 
+           {"url", "https://www.website.com/kings-win-stanley-cup"}, 
            {"tags", "sports, hockey, stanley_cup"}, 
            {"type", "livecomments"} 
        };

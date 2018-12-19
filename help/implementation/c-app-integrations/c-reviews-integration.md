@@ -51,7 +51,7 @@ As noted in the Building `CollectionMeta` section, `CollectionMeta` is an encode
 
 ```
 { 
-"url": "http://www.directv.com/person/Anna-Paquin-b2FSL0drK3NubWc9-reviews",  
+"url": "https://www.directv.com/person/Anna-Paquin-b2FSL0drK3NubWc9-reviews",  
 "siteId": "304059",  
 "articleId": "sh_col_22_1373478370_reviews",  
 "type": "reviews",  

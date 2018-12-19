@@ -24,7 +24,7 @@ To benefit from this built-in Capture/Backplane integration, you must make confi
 >
 >Skip this section if you’re not using Janrain Capture.
 
-For more information, see [Janrain’s Backplane documentation](http://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/).
+For more information, see [Janrain’s Backplane documentation](https://developers.janrain.com/how-to/integrations/self-serve-integrations-and-tools/backplane-1-2/).
 
 1. [Set Up Capture.](#c_janrain_capture_backplane/section_r2f_kxt_bbb) 
 1. (Optional) [Add Livefyre Defaults to your Capture App](#c_janrain_capture_backplane/section_z2s_txt_bbb).
@@ -184,15 +184,15 @@ Keeping Livefyre Remote Profiles in sync with your Capture user management syste
 
 1. Get an access code from Janrain.
 
-   To get the access code, supply the necessary credentials, specify the user_type as “user”, and the uuid as the current user’s uuid to update. For more information, see [http://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/.](http://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)
+   To get the access code, supply the necessary credentials, specify the user_type as “user”, and the uuid as the current user’s uuid to update. For more information, see [https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/.](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)
 
 1. Trade the access code for an access token. Supply the necessary credentials, the access code received from step 1, and specify the grant_type as “authorization_code”.
 
-   For more information, see [http://developers.janrain.com/rest-api/methods/authentication/oauth/token/](http://developers.janrain.com/rest-api/methods/authentication/oauth/token/)
+   For more information, see [https://developers.janrain.com/rest-api/methods/authentication/oauth/token/](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/)
 
 1. Hit the Livefyre “Ping to Pull Capture” endpoint.
 
-   Endpoint URL: [!DNL http://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] where ***{networkName}*** is the network name provided to you by Livefyre, and the jrtoken is the token received from Janrain in step 2.
+   Endpoint URL: [!DNL https://{networkName}/api/v1.1/private/capture/profile_updated/?jrtoken={token}] where ***{networkName}*** is the network name provided to you by Livefyre, and the jrtoken is the token received from Janrain in step 2.
 
    Once you hit this endpoint, you receive a 202 response and Livefyre begins an async process.
 
@@ -217,11 +217,11 @@ Backplane.response([{
   "id": "2014-05-06T22:51:55.406Z-eZp1HB1F7B", 
   "channel_name": "{CHANNEL_NAME}", 
   "message": { 
-    "source": "http://{CUSTOMER_DOMAIN}", 
+    "source": "https://{CUSTOMER_DOMAIN}", 
     "type": "identity/login", 
     "sticky": true, 
     "payload": { 
-      "context": "http://{CUSTOMER_DOMAIN}", 
+      "context": "https://{CUSTOMER_DOMAIN}", 
       "identities": { 
         "startIndex": 0, 
         "itemsPerPage": 1, 

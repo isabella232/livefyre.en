@@ -84,13 +84,13 @@ open CommentStream.xcworkspace
 
 >[!NOTE]
 >
->To run tests in Xcode 6, you must add $(PLATFORM_DIR)/Developer/Library/Frameworks to FRAMEWORK_SEARCH_PATHS in Pods-test-XCTest+OHHTTPStubSuiteCleanUp pod [ [http://stackoverflow.com/a/24651704](http://stackoverflow.com/a/24651704)].
+>To run tests in Xcode 6, you must add $(PLATFORM_DIR)/Developer/Library/Frameworks to FRAMEWORK_SEARCH_PATHS in Pods-test-XCTest+OHHTTPStubSuiteCleanUp pod [ [https://stackoverflow.com/a/24651704](https://stackoverflow.com/a/24651704)].
 
 You need LFSTestConfig.plist file from Livefyre, which Livefyre provides upon request.
 
 ## Xcode Documentation {#section_arl_b3v_zz}
 
-You can browse the [documentation](http://livefyre.github.com/StreamHub-iOS-SDK/) or you can build the “Documentation” target in your Xcode (requires appledoc to be installed) on your system.
+You can browse the [documentation](https://livefyre.github.com/StreamHub-iOS-SDK/) or you can build the “Documentation” target in your Xcode (requires appledoc to be installed) on your system.
 
 ## Requirements {#section_m5l_13v_zz}
 

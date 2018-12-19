@@ -45,7 +45,7 @@ Livefyre’s `CommentCount.js` allows you to fetch the content counts for collec
    **Example 1** (Using the URL as the article ID):
 
    ```
-   <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="http://mikesoldner.com/blog.php">  
+   <span class="livefyre-commentcount" data-lf-site-id="311458" data-lf-article-id="https://mikesoldner.com/blog.php">  
    0 Comments  
    </span>
    ```

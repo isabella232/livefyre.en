@@ -38,7 +38,7 @@ Similar to Content import, User Profile files adhere to these rules:
 >
 >The files themselves are not valid JSON, but each line must be in JSON format.
 
-The User Profile [JSON schema](http://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/user_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](http://json-schema.org/implementations.html) page.
+The User Profile [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/user_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](https://json-schema.org/implementations.html) page.
 
 If you choose to import users from your existing user profile system, required fields include:
 
@@ -104,9 +104,9 @@ The following parameters are used in the User Profile import process.
     },
     "email": "mohnsmith@gmail.com",
     "tags": ["subscriber", "power_user"],
-    "profile_url": "http://site.com/johnsmith",
-    "settings_url": "http://site.com/settings",
-    "websites": ["http://johnsmith.com/blog/"],
+    "profile_url": "https://site.com/johnsmith",
+    "settings_url": "https://site.com/settings",
+    "websites": ["https://johnsmith.com/blog/"],
     "location": "Washington D.C., USA",
     "bio": "Bob Dole talks in the third person",
     "email_notifications": {

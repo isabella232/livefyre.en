@@ -26,7 +26,7 @@ Livefyre assigns a unique identifier to every Collection you create. Livefyre as
 |siteKey|String (optional)|The secret key for the site (available from  {!UICONTROL Studio > Settings > Integration Settings > Credentials] ).|
 |articleId|String (optional)|A unique ID for the Collection.|
 |title|String (optional)|The title you wish to apply to the Collection. Usually, this corresponds to the title of the page that displays the App. <br>For example: “Integration is So Much Fun!” <br>Note:  The max character length for the title is 255 characters. The title field does not support HTML entities. Please encode special characters using UTF-8.|
-|url|String (optional)|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio. <br>Note:  If testing locally, use a valid base URL domain (For example: valid: `http://customer.com`; invalid: `http://localhost:5995`).|
+|url|String (optional)|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio. <br>Note:  If testing locally, use a valid base URL domain (For example: valid: `https://customer.com`; invalid: `https://localhost:5995`).|
 |tags|String (optional)|A comma-separated list of single keywords or phrases. Search Collections by tags using Studio.  </br>Note:  Tags cannot contain spaces. Use underscores if you wish a space to appear in the UI.|
 |extensions|JSON (optional)|A JSON-formatted set of params to pass along to the Collection.|
 
@@ -40,7 +40,7 @@ import com.livefyre.core.Collection;
   
 Network network = Livefyre.getNetwork("networkName", "networkKey"); 
 Site site = network.getSite("siteId", "siteKey"); 
-Collection collection = site.buildCommentsCollection("title", "articleId", "http://www.example.com"); 
+Collection collection = site.buildCommentsCollection("title", "articleId", "https://www.example.com"); 
 collection.getData().setTags("tags"); 
   
 String collectionMetaToken = collection.buildCollectionMetaToken();
@@ -54,7 +54,7 @@ var livefyre = require('livefyre');
   
 var network = livefyre.getNetwork('networkName', 'networkKey'); 
 var site = network.getSite('siteId', 'siteKey'); 
-var collection = site.buildCommentsCollection('title', 'articleId', 'http://www.example.com'); 
+var collection = site.buildCommentsCollection('title', 'articleId', 'https://www.example.com'); 
 collection.data.tags = 'tags'; 
   
 var collectionMetaToken = collection.buildCollectionMetaToken(); 
@@ -66,7 +66,7 @@ var collectionMetaToken = collection.buildCollectionMetaToken();
 ```
 $network = Livefyre::getNetwork("networkName", "networkKey"); 
 $site = $network->getSite("siteId", "siteKey"); 
-$collection = $site->buildCommentsCollection("title", "articleId", "http://www.example.com"); 
+$collection = $site->buildCommentsCollection("title", "articleId", "https://www.example.com"); 
 $collection->getData()->setTags("tags"); 
   
 $collectionMetaToken = $collection->buildCollectionMetaToken();
@@ -79,7 +79,7 @@ from livefyre import Livefyre
   
 network = Livefyre.get_network('networkName', 'networkKey') 
 site = network.get_site('siteId', 'siteKey') 
-collection = site.build_comments_collection('title', 'articleId', 'http://www.example.com') 
+collection = site.build_comments_collection('title', 'articleId', 'https://www.example.com') 
 collection.data.tags = 'tags' 
   
 collection_meta_token = collection.build_collection_meta_token()
@@ -92,7 +92,7 @@ require 'livefyre'
   
 network = Livefyre.get_network('networkName', 'networkKey') 
 site = network.get_site('siteId', 'siteKey') 
-collection = site.build_comments_collection('title', 'articleId', 'http://www.example.com') 
+collection = site.build_comments_collection('title', 'articleId', 'https://www.example.com') 
 collection.data.tags = 'tags' 
   
 collection_meta_token = collection.build_collection_meta_token 

@@ -25,7 +25,7 @@ use LivefyreLivefyre;
   
 $articleId = "1"; 
 $articleTitle = "Title 1"; 
-$articleURL = "http://dev.livefyre.com"; 
+$articleURL = "https://dev.livefyre.com"; 
 $articleTags = "tag1,tag2"; 
 $lfType = "livecomments"; 
   
@@ -55,7 +55,7 @@ from livefyre import Livefyre
   
 article_id = "1" 
 article_title = "Title 1" 
-article_url = "http://dev.livefyre.com" 
+article_url = "https://dev.livefyre.com" 
 article_tags = "tag1,tag2" 
 lf_type = "livecomments" 
   
@@ -84,7 +84,7 @@ conv_config = dict(
 require 'livefyre'  
 article_id = "1"  
 title = "Title 1"  
-link = "http://dev.livefyre.com"  
+link = "https://dev.livefyre.com"  
 tag_str = "tag1,tag2"  
 lf_type = "livecomments"  
   
@@ -116,7 +116,7 @@ use LivefyreLivefyre;
   
 $articleId = "1"; 
 $articleTitle = "Title 1"; 
-$articleURL = "http://dev.livefyre.com"; 
+$articleURL = "https://dev.livefyre.com"; 
 $articleTags = "tag1,tag2"; 
 $lfType = "liveblog"; 
   
@@ -146,7 +146,7 @@ from livefyre import Livefyre
   
 article_id = "1" 
 article_title = "Title 1" 
-article_url = "http://dev.livefyre.com" 
+article_url = "https://dev.livefyre.com" 
 article_tags = "tag1,tag2" 
 lf_type = "liveblog" 
   
@@ -176,7 +176,7 @@ require 'livefyre'
   
 article_id = "1" 
 title = "Title 1" 
-link = "http://dev.livefyre.com" 
+link = "https://dev.livefyre.com" 
 tag_str = "tag1,tag2" 
 lf_type = "liveblog" 
   
@@ -208,7 +208,7 @@ use LivefyreLivefyre;
   
 $articleId = "1"; 
 $articleTitle = "Title 1"; 
-$articleURL = "http://dev.livefyre.com"; 
+$articleURL = "https://dev.livefyre.com"; 
 $articleTags = "tag1,tag2"; 
 $lfType = "livechat"; 
   
@@ -238,7 +238,7 @@ from livefyre import Livefyre
   
 article_id = "1" 
 article_title = "Title 1" 
-article_url = "http://dev.livefyre.com" 
+article_url = "https://dev.livefyre.com" 
 article_tags = "tag1,tag2" 
 lf_type = "livechat" 
   
@@ -267,7 +267,7 @@ require 'livefyre'
   
 article_id = "1" 
 title = "Title 1" 
-link = "http://dev.livefyre.com" 
+link = "https://dev.livefyre.com" 
 tag_str = 'tag1,tag2' 
 lf_type = 'livechat' 
   

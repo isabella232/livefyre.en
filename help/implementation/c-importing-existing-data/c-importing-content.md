@@ -18,7 +18,7 @@ Importing Chat and Comment data into Livefyre. Import legacy content after your 
 
 To begin the import process, you must prepare your import data. Livefyre’s import system expects a specific file format of line-delimited JSON Blobs, with each file representing a site on your network, and each line within the file representing an individual Collection on that site.
 
-The Content [JSON schema](http://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](http://json-schema.org/implementations.html) page.
+The Content [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](https://json-schema.org/implementations.html) page.
 
 ### File Format Standards
 
@@ -29,9 +29,9 @@ A successful import must adhere to the following standards:
 * All Comments in a given Collection must appear in full on a single line. Do not include any literal endlines other than a single one at the end of each (Collection) Blob.
 * Files must be UTF-8 formatted.
 * Timestamps must be [ISO-8601 compliant](https://en.wikipedia.org/wiki/ISO_8601).
-* URLs must be fully qualified. They must include http:// or https:// and domains must include the trailing `/.` For example:
+* URLs must be fully qualified. They must include https:// or https:// and domains must include the trailing `/.` For example:
 
-  `https://web.livefyre.com/` or `http://web.livefyre.com/index.html`
+  `https://web.livefyre.com/` or `https://web.livefyre.com/index.html`
 
 * The top level id field must be unique to the content. (This id is often the CMS’s unique ID, but may also be the content’s URL, post number, or other identifying string. If using the content URL as the unique identifier, it is a best practice to MD5 or otherwise hash the identifier to meet field length restrictions.)
 * To streamline the import process, do not import Collections that do not yet include comments. After implementation, Livefyre will automatically create a Collection with 0 comments the first time your App is loaded on the page.
@@ -50,7 +50,7 @@ A successful import must adhere to the following standards:
 * **Do not encode angle brackets in HTML tags:** The left and right angle bracket characters `< >` of HTML tags in body_html should not be encoded. If encoded, these tags will have no meaning and will be displayed literally in Studio.
 * **Escape quotations in tags:** Quotation marks in HTML tags must be backslash escaped.
 
-  For example: `<a href=”http://www.baseart.fr/doc/sacguccifrance.php”>gucci jeans<a>`
+  For example: `<a href=”https://www.baseart.fr/doc/sacguccifrance.php”>gucci jeans<a>`
 
 * **Do not add extra attributes from anchor tags:** Additional attributes like `rel=”nofollow”` and `rel=”bookmark”` are not permitted. The additional invalid attributes will be stripped out during the import, and the anchor tag will be imported without them.
 
@@ -156,7 +156,7 @@ The following parameters are used in the Content import process.
 
 ```
 {
-   "source": "http://www.somepartner.com/homepage/check-out-this-sneezing-panda.html", 
+   "source": "https://www.somepartner.com/homepage/check-out-this-sneezing-panda.html", 
    "title": "Check out this sneezing panda!", 
    "created": "2010-07-05T23:07:15Z", 
    "id": "3042469", 
@@ -176,7 +176,7 @@ The following parameters are used in the Content import process.
          "author_id": "999999", 
          "imported_display_name": "chris", 
          "imported_email": "chris@livefyre.com", 
-         "imported_url": "http://livefyre.com", 
+         "imported_url": "https://livefyre.com", 
          "parent_id": "99770519", 
          "likes": ["999998", "999990"] 
       } 

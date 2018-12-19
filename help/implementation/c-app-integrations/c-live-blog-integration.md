@@ -65,7 +65,7 @@ CollectionMeta is an encoded JSON object. In the above example, the JSON object 
 
 ```
 { 
-"url": "http://dev.livefyre.com/articles/test.html",  
+"url": "https://dev.livefyre.com/articles/test.html",  
 "articleId": "1",  
 "type": "liveblog",  
 "title": "Title 1" 
@@ -148,7 +148,7 @@ The `CollectionMeta` object is a JSON object that specifies metadata to store wi
 |--- |--- |--- |
 |articleId|String *required*|A unique ID for the Collection.|
 |title|String *required*|The title you wish to apply to the Collection. This often corresponds to the title of the page that displays the App.  For example: “Integration is So Much Fun!”  Note:  The max character length for the title is 255 characters. The title field does not support HTML entities. Please encode special characters using UTF-8.|
-|url|String *required*|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio.  Note:  Livefyre requires the use of a fully qualified domain name; the port number or a callback to resolve the local setup is not required. If testing locally, be certain to use a valid base URL domain. (For example: `http://customer.com` is valid, while `http://localhost:5995` is not.) Once you have set up your local webserver to accept a fully qualified domain name, no callbacks or resolutions are needed, and local development can proceed as expected.|
+|url|String *required*|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio.  Note:  Livefyre requires the use of a fully qualified domain name; the port number or a callback to resolve the local setup is not required. If testing locally, be certain to use a valid base URL domain. (For example: `https://customer.com` is valid, while `https://localhost:5995` is not.) Once you have set up your local webserver to accept a fully qualified domain name, no callbacks or resolutions are needed, and local development can proceed as expected.|
 |type|String *required*|The Collection type. Must be  livechat .|
 
 The `CollectionMeta` object may also contain the following optional parameter: 

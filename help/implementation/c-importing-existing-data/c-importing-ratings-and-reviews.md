@@ -26,7 +26,7 @@ Importing your legacy ratings and reviews data allows you to maintain historic d
 
 For Rating and Reviews specific imports, exclude endlines from the JSON record, and make sure that each Rating or Review appears on a single line.
 
-The Reviews [JSON schema](http://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/reviews_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](http://json-schema.org/implementations.html) page.
+The Reviews [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/reviews_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](https://json-schema.org/implementations.html) page.
 
 To import only Ratings and Reviews, and not the associated user profiles, follow the example JSON format below, and specify fields that begin with imported_. In this case, only imported_display_name is required. When using these fields, omit the author_id.
 
@@ -76,7 +76,7 @@ Single-dimension review with required fields:
 
 ```
 {
-   "source": "http://www.somepartner.com/homepage/check-out-this-sneezing-panda.html",
+   "source": "https://www.somepartner.com/homepage/check-out-this-sneezing-panda.html",
    "title": "Check out this sneezing panda!",
    "created": "2010-07-05T23:07:15",
    "id": "3042469",
@@ -120,7 +120,7 @@ Multi-dimension review with additional fields
    "ratings": [20, 30, 40]
    "author_id": "999999",
    "imported_email": "chris@livefyre.com",
-   "imported_url": "http://livefyre.com"
+   "imported_url": "https://livefyre.com"
 },
 ```
 

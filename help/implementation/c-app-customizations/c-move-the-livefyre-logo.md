@@ -19,7 +19,7 @@ If your agreement with Livefyre allows, you may move the Livefyre logo from the 
 For example, add the following HTML to your page immediately following the element that contains the Livefyre App:
 
 ```
-<div id="powered_by_livefyre_new"><a href="http://livefyre.com" target="_blank">Powered by Livefyre</a></div>
+<div id="powered_by_livefyre_new"><a href="https://livefyre.com" target="_blank">Powered by Livefyre</a></div>
 ```
 
 Then, add the following to your page’s stylesheet:

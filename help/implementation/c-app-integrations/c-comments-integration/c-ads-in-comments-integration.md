@@ -148,7 +148,7 @@ For the `Conv` object, you can pass in a string to denote the title for the ad s
   } 
   function insertSlot(slotName) { 
     var adElem = document.createElement("img"); 
-    var ad = "http://your-ad-here.com/great-ad-image.image"; 
+    var ad = "https://your-ad-here.com/great-ad-image.image"; 
     adElem.setAttribute("src", ad); 
     document.getElementById(slotName).appendChild(adElem); 
   } 

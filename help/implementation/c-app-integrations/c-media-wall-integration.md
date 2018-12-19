@@ -51,7 +51,7 @@ Livefyre.require([
 </script>
 ```
 
-You now have a Wall! See this all in action in [this example](http://codepen.io/gobengo/pen/dFwDL).
+You now have a Wall! See this all in action in [this example](https://codepen.io/gobengo/pen/dFwDL).
 
 **Hit an error?** Check to make sure that you’re passing the correct environment parameter. Options include `livefyre.com` (production) or `t402.livefyre.com` (UAT).
 

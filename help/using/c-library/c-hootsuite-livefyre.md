@@ -21,7 +21,7 @@ Learn how to use Experience Manager Livefyre with Hootsuite, allowing you to cur
 
 Task Context
 
-1. Install [Adobe Experience Manager Livefyre for Hootsuite](http://apps.hootsuite.com/0/adobe-livefyre) from the Hootsuite App Directory.
+1. Install [Adobe Experience Manager Livefyre for Hootsuite](https://apps.hootsuite.com/0/adobe-livefyre) from the Hootsuite App Directory.
 1. From your Hootsuite dashboard, click **Login with Adobe**.
 
    ![](assets/hootsuite-login.png)
