@@ -5,9 +5,6 @@ seo-title: Live Blog
 solution: Experience Manager
 title: Live Blog
 uuid: 5ca373f1-2008-45ab-9ec2-1e295af4e368
-index: y
-internal: n
-snippet: y
 ---
 
 # Live Blog{#live-blog}
@@ -24,7 +21,7 @@ Live Blog allows you to feature real-time updates and images from your site’s 
 
 To embed a Live Blog App, follow the procedure for Embedding an App. See [Embed an App](/help/implementation/c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md). The following is an example of what an embedded Live Blog App looks like.
 
-**Example:**
+### Example
 
 ```
 <html> 
@@ -65,14 +62,14 @@ CollectionMeta is an encoded JSON object. In the above example, the JSON object 
 
 ```
 { 
-"url": "http://dev.livefyre.com/articles/test.html",  
+"url": "https://dev.livefyre.com/articles/test.html",  
 "articleId": "1",  
 "type": "liveblog",  
 "title": "Title 1" 
 }
 ```
 
-## NetworkConfig Object {#c_networkconfig_object}
+## NetworkConfig Object {#c-networkconfig-object}
 
 The `NetworkConfig` object is a JSON object that customizes the authentication system for network users. 
 
@@ -85,7 +82,7 @@ The `NetworkConfig` object is a JSON object containing the following parameters:
 |  *`attachmentDelegate`* | Object (optional)  | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](../c-app-customizations/c-restrict-media.md#c_restrict_media).  |
 |  *`strings`* | Object (optional)  | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md).  |
 
-## ConvConfig Object {#c_convconfig_object}
+## ConvConfig Object {#c-convconfig-object}
 
 The `convConfig` object is a JSON object used to specify the content that the Livefyre App renders on the page.
 
@@ -134,7 +131,7 @@ The `ConvConfig` object may also contain the following optional parameters:
 >
 >You can pass one or more `convConfig` objects during App initialization to display multiple Apps on the same page. Be aware that extra Apps use browser resources and performance may degrade as the number increases.
 
-## CollectionMeta Object {#c_collectionmeta_object}
+## CollectionMeta Object {#c-collectionmeta-object}
 
 The `CollectionMeta` object is a JSON object that specifies metadata to store within the Collection. 
 
@@ -148,7 +145,7 @@ The `CollectionMeta` object is a JSON object that specifies metadata to store wi
 |--- |--- |--- |
 |articleId|String *required*|A unique ID for the Collection.|
 |title|String *required*|The title you wish to apply to the Collection. This often corresponds to the title of the page that displays the App.  For example: “Integration is So Much Fun!”  Note:  The max character length for the title is 255 characters. The title field does not support HTML entities. Please encode special characters using UTF-8.|
-|url|String *required*|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio.  Note:  Livefyre requires the use of a fully qualified domain name; the port number or a callback to resolve the local setup is not required. If testing locally, be certain to use a valid base URL domain. (For example: `http://customer.com` is valid, while `http://localhost:5995` is not.) Once you have set up your local webserver to accept a fully qualified domain name, no callbacks or resolutions are needed, and local development can proceed as expected.|
+|url|String *required*|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio.  Note:  Livefyre requires the use of a fully qualified domain name; the port number or a callback to resolve the local setup is not required. If testing locally, be certain to use a valid base URL domain. (For example: `https://customer.com` is valid, while `https://localhost:5995` is not.) Once you have set up your local webserver to accept a fully qualified domain name, no callbacks or resolutions are needed, and local development can proceed as expected.|
 |type|String *required*|The Collection type. Must be  livechat .|
 
 The `CollectionMeta` object may also contain the following optional parameter: 

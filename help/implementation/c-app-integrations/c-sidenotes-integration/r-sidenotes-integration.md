@@ -25,7 +25,7 @@ You can also reuse your existing `auth` delegates by supplying an `auth` delegat
 <html> 
 <head> 
 <!-- First add Livefyre.js to the page --> 
-<script src="http://cdn.livefyre.com/Livefyre.js"></script> 
+<script src="https://cdn.livefyre.com/Livefyre.js"></script> 
 </head> 
 <body> 
 <script type="text/javascript"> 

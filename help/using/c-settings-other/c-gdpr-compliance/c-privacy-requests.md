@@ -59,7 +59,7 @@ To search for and find a user and generate a report of their content:
 
         * **[!UICONTROL Twitter User]**.
 
-            * Identifies an account by a numerical ID provided by Twitter. The person requesting the privacy change should provide this. You can find instructions on how to locate the numerical Twitter ID on a Twitter account [here](http://mytwitterid.com/).
+            * Identifies an account by a numerical ID provided by Twitter. The person requesting the privacy change should provide this. You can find instructions on how to locate the numerical Twitter ID on a Twitter account [here](https://mytwitterid.com/).
             * Allowed values: 5-16 numerical characters
 
         * **[!UICONTROL YouTube User]**

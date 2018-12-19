@@ -22,7 +22,7 @@ This provides Livefyre Apps with access to the more than 250 different embedded 
 >
 >Livefyre expands only a subset of Embedly’s full provider list. Embedded images will expand on HTTPS pages only if the provider is Twitter, YouTube, Imgur, Vine, Wikipedia, or SoundCloud. Please contact your Technical Account Manager for any further questions about link expansion or sources.
 
-This page lists examples of some popular embedded media types, and their acceptable URL patterns. `Embed.ly` is continually adding new sources. For a complete list of providers, please go to `http://embed.ly/embed/features/providers`.
+This page lists examples of some popular embedded media types, and their acceptable URL patterns. `Embed.ly` is continually adding new sources. For a complete list of providers, please go to `https://embed.ly/embed/features/providers`.
 
 >[!NOTE]
 >
@@ -34,19 +34,19 @@ Only publicly viewable content is embeddable. If you attempt to embed a piece of
 
 |Type|Provider|URLs|
 |--- |--- |--- |
-|Maps|Google Maps|`http://maps.google.com/maps?*` <br><ul><li>`http://maps.google.com/?*`</li><li>`http://maps.google.com/maps/ms?*`</li></ul><br>Note: URL must begin with `http` and not `https.`|
-|Social Networking|Google Plus |`http://plus.google.com/*`<br><ul><li>`http://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li> `http://google.com/profiles/*`</li></ul> |
-| Video | YouTube | `http://*youtube.com/watch*` <br><ul><li> `http://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`http://youtu.be/*`</li><li>`http://*.youtube.com/user/*` </li><li>`http://*.youtube.com/*#*/*`</li><li>`http://m.youtube.com/watch*`</li><li>`http://m.youtube.com/index*`</li><li>`http://*.youtube.com/profile*`</li><li>`http://*.youtube.com/view_play_list*`</li><li>`http://*.youtube.com/playlist*`</li></ul>|
-|Photos|Flickr|`http://www.flickr.com/photos/*` <br><ul><li>`http://flic.kr/*`</li></ul>|
-||Instagram|`http://instagr.am/p/*` <br><ul><li>`http://instagram.com/p/*`</li></ul>|
-||TwitPic|`http://twitpic.com/*` <br><ul><li>`http://www.twitpic.com/*`</li><li>`http://twitpic.com/photos/*`</li><li>`http://www.twitpic.com/photos/*`</li></ul>|
-||Facebook|`http://www.facebook.com/photo.php*` <br><ul><li> `https://www.facebook.com/photo.php*`</li></ul>|
-||`Ow.ly` (Hootsuite’s Content Uploading Service)|`http://ow.ly/i/*`|
-|Polls|GoPollGo|`http://gopollgo.com/*`<br><ul><li> `http://www.gopollgo.com/*`</li></ul>|
-||Droplr|`http://d.pr/i/*`</li></ul>|
-|Audio|SoundCloud|`http://soundcloud.com/*` <br><ul><li>`http://soundcloud.com/*/*` </li><li>`http://soundcloud.com/*/sets/*` </li><li>`http://soundcloud.com/groups/*` </li><li>`http://snd.sc/*`</li></ul>|
-||Spotify|`http://open.spotify.com/*`|
-|Blogs|Tumblr|`http://tumblr.com/*` `http://*.tumblr.com/post/*`</li></ul>|
+|Maps|Google Maps|`https://maps.google.com/maps?*` <br><ul><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>Note: URL must begin with `http` and not `https.`|
+|Social Networking|Google Plus |`https://plus.google.com/*`<br><ul><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li> `https://google.com/profiles/*`</li></ul> |
+| Video | YouTube | `https://*youtube.com/watch*` <br><ul><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul>|
+|Photos|Flickr|`https://www.flickr.com/photos/*` <br><ul><li>`https://flic.kr/*`</li></ul>|
+||Instagram|`https://instagr.am/p/*` <br><ul><li>`https://instagram.com/p/*`</li></ul>|
+||TwitPic|`https://twitpic.com/*` <br><ul><li>`https://www.twitpic.com/*`</li><li>`https://twitpic.com/photos/*`</li><li>`https://www.twitpic.com/photos/*`</li></ul>|
+||Facebook|`https://www.facebook.com/photo.php*` <br><ul><li> `https://www.facebook.com/photo.php*`</li></ul>|
+||`Ow.ly` (Hootsuite’s Content Uploading Service)|`https://ow.ly/i/*`|
+|Polls|GoPollGo|`https://gopollgo.com/*`<br><ul><li> `https://www.gopollgo.com/*`</li></ul>|
+||Droplr|`https://d.pr/i/*`</li></ul>|
+|Audio|SoundCloud|`https://soundcloud.com/*` <br><ul><li>`https://soundcloud.com/*/*` </li><li>`https://soundcloud.com/*/sets/*` </li><li>`https://soundcloud.com/groups/*` </li><li>`https://snd.sc/*`</li></ul>|
+||Spotify|`https://open.spotify.com/*`|
+|Blogs|Tumblr|`https://tumblr.com/*` `https://*.tumblr.com/post/*`</li></ul>|
 
 Apps that use this feature:
 

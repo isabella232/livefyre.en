@@ -5,12 +5,9 @@ seo-title: Adding Sidenotes to a Page
 solution: Experience Manager
 title: Adding Sidenotes to a Page
 uuid: 6499c45a-3773-4adb-a6c7-22a628309afd
-index: y
-internal: n
-snippet: y
 ---
 
-# Adding Sidenotes to a Page{#adding-sidenotes-to-a-page}
+# Adding Sidenotes to a Page {#adding-sidenotes-to-a-page}
 
 Livefyre provides several configuration options to position Sidenotes on your page:
 

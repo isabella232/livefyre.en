@@ -41,5 +41,5 @@ Release Notes for the March 30, 2017 release.
 |  Bug | Streams | Fixed a bug that caused an "App is not accepting new content" banner to falsely display on top of Stream Rule pages. |
 |  Enhancement | Streams | Modified the default of newly created stream rules to Apply SAFE Rules when applicable. |
 |  Enhancement | Streams (formerly, Curate Rules) | Removed the "Vines" only option from Twitter Stream/Curate rules, as Vines are now displayed as Twitter videos. |
-|  Bug | Studio Shell | Fixed a bug so that Livefyre Studio will load if http:// was explicitly prepended to the url. |
+|  Bug | Studio Shell | Fixed a bug so that Livefyre Studio will load if https:// was explicitly prepended to the url. |
 

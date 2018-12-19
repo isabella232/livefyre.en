@@ -104,9 +104,9 @@ The following parameters are used in the User Profile import process.
     },
     "email": "mohnsmith@gmail.com",
     "tags": ["subscriber", "power_user"],
-    "profile_url": "http://site.com/johnsmith",
-    "settings_url": "http://site.com/settings",
-    "websites": ["http://johnsmith.com/blog/"],
+    "profile_url": "https://site.com/johnsmith",
+    "settings_url": "https://site.com/settings",
+    "websites": ["https://johnsmith.com/blog/"],
     "location": "Washington D.C., USA",
     "bio": "Bob Dole talks in the third person",
     "email_notifications": {

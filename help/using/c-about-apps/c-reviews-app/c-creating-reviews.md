@@ -87,7 +87,7 @@ Because Reviews is designed to add a numerical value for each piece of submitted
 
 Reviews APIs are available to allow you to display average user rating and rating breakdown information and user reviews activity on other sections across your site.
 
-[Ratings and Reviews](http://api.livefyre.com/docs/apis/by-category/ratings-and-reviews)
+[Ratings and Reviews](https://api.livefyre.com/docs/apis/by-category/ratings-and-reviews)
 
 * **[!UICONTROL Bootstrap API Endpoint]** The Bootstrap API Endpoint allows your review to be read by search engines like Google so that the content and keywords can improve your search engine optimization.
 

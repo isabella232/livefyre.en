@@ -5,12 +5,9 @@ seo-title: Reviews
 solution: Experience Manager
 title: Reviews
 uuid: b740ee28-f6f9-4ae7-9fe7-61a5cde97bbb
-index: y
-internal: n
-snippet: y
 ---
 
-# Reviews{#reviews}
+# Reviews {#reviews}
 
 Allow customers to rate and review your product offerings.
 
@@ -51,7 +48,7 @@ As noted in the Building `CollectionMeta` section, `CollectionMeta` is an encode
 
 ```
 { 
-"url": "http://www.directv.com/person/Anna-Paquin-b2FSL0drK3NubWc9-reviews",  
+"url": "https://www.directv.com/person/Anna-Paquin-b2FSL0drK3NubWc9-reviews",  
 "siteId": "304059",  
 "articleId": "sh_col_22_1373478370_reviews",  
 "type": "reviews",  

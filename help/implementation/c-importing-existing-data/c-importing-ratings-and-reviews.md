@@ -76,7 +76,7 @@ Single-dimension review with required fields:
 
 ```
 {
-   "source": "http://www.somepartner.com/homepage/check-out-this-sneezing-panda.html",
+   "source": "https://www.somepartner.com/homepage/check-out-this-sneezing-panda.html",
    "title": "Check out this sneezing panda!",
    "created": "2010-07-05T23:07:15",
    "id": "3042469",
@@ -120,7 +120,7 @@ Multi-dimension review with additional fields
    "ratings": [20, 30, 40]
    "author_id": "999999",
    "imported_email": "chris@livefyre.com",
-   "imported_url": "http://livefyre.com"
+   "imported_url": "https://livefyre.com"
 },
 ```
 

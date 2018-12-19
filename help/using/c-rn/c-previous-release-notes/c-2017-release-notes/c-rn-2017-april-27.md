@@ -32,7 +32,7 @@ Release Notes for the April 27, 2017 release.
 
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
-|  Enhancement | API | Released a new API to retrieve App embed codes. More info can be found at http://api.livefyre.com/docs/apis/by-category/apps. |
+|  Enhancement | API | Released a new API to retrieve App embed codes. More info can be found at https://api.livefyre.com/docs/apis/by-category/apps. |
 |  Bug | Asset Library | Fixed a bug that capped the first page of Library results to 10 assets. |
 |  Enhancement | Studio | Enhanced the contrast on toggle components across Studio for easier visibility. |
 

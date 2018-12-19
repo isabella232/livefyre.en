@@ -17,7 +17,7 @@ Release Notes for the June 15, 2017 release.
 
 | **Issue Type** |**Component** |**Release Note** |
 |---|---|---|
-|  Enhancement | API | Released a new API to retrieve App embed codes. More info can be found at http://api.livefyre.com/docs/apis/by-category/apps |
+|  Enhancement | API | Released a new API to retrieve App embed codes. More info can be found at https://api.livefyre.com/docs/apis/by-category/apps |
 |  Bug | Carousel | Fixed a bug in Carousel to allow native Livefyre content (images uploaded directly to Studio) to appear in the app appropriately.  |
 |  Enhancement | Comments | Enhanced Comments to meet font color guidelines dictated by ADA requirements. |
 |  Bug | Instagram Location Search | Fixed a bug that caused Instagram Location Search results to show duplicates. |

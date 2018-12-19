@@ -21,7 +21,7 @@ import com.livefyre.core.Collection;
   
 Network network = Livefyre.getNetwork("networkName", "networkKey"); 
 Site site = network.getSite("siteId", "siteKey"); 
-Collection collection = site.buildCommentsCollection("title", "articleId", "http://www.example.com"); 
+Collection collection = site.buildCommentsCollection("title", "articleId", "https://www.example.com"); 
 collection.getData().setTags("tags"); 
   
 String collectionMetaToken = collection.buildCollectionMetaToken();
@@ -34,7 +34,7 @@ var livefyre = require('livefyre');
   
 var network = livefyre.getNetwork('networkName', 'networkKey'); 
 var site = network.getSite('siteId', 'siteKey'); 
-var collection = site.buildCommentsCollection('title', 'articleId', 'http://www.example.com'); 
+var collection = site.buildCommentsCollection('title', 'articleId', 'https://www.example.com'); 
 collection.data.tags = 'tags'; 
   
 var collectionMetaToken = collection.buildCollectionMetaToken();
@@ -45,7 +45,7 @@ var collectionMetaToken = collection.buildCollectionMetaToken();
 ```
 $network = Livefyre::getNetwork("networkName", "networkKey"); 
 $site = $network->getSite("siteId", "siteKey"); 
-$collection = $site->buildCommentsCollection("title", "articleId", "http://www.example.com"); 
+$collection = $site->buildCommentsCollection("title", "articleId", "https://www.example.com"); 
 $collection->getData()->setTags("tags"); 
   
 $collectionMetaToken = $collection->buildCollectionMetaToken(); 
@@ -59,7 +59,7 @@ from livefyre import Livefyre
   
 network = Livefyre.get_network('networkName', 'networkKey') 
 site = network.get_site('siteId', 'siteKey') 
-collection = site.build_comments_collection('title', 'articleId', 'http://www.example.com') 
+collection = site.build_comments_collection('title', 'articleId', 'https://www.example.com') 
 collection.data.tags = 'tags' 
   
 collection_meta_token = collection.build_collection_meta_token()
@@ -72,7 +72,7 @@ require 'livefyre'
   
 network = Livefyre.get_network('networkName', 'networkKey') 
 site = network.get_site('siteId', 'siteKey') 
-collection = site.build_comments_collection('title', 'articleId', 'http://www.example.com') 
+collection = site.build_comments_collection('title', 'articleId', 'https://www.example.com') 
 collection.data.tags = 'tags' 
   
 collection_meta_token = collection.build_collection_meta_token 

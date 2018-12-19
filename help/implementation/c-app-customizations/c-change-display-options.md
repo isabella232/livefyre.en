@@ -5,9 +5,6 @@ seo-title: Change Display Options
 solution: Experience Manager
 title: Change Display Options
 uuid: 121bb921-d9a7-4925-ab46-8e3d7dd0cbfe
-index: y
-internal: n
-snippet: y
 ---
 
 # Change Display Options{#change-display-options}
@@ -26,5 +23,5 @@ This section describes the following available display customization options:
 * Move the Livefyre Logo to display it less conspicuously on your App.
 * Restrict Media to prevent users from uploading specified media embed types.
 * Hide App Elements to simplify your user experience.
-* Change the Livefyre @mention Icon to select a custom icon to display in pulldown @mention menus for members of your Livefyre audience.
+* Change the Livefyre `@mention` Icon to select a custom icon to display in pulldown @mention menus for members of your Livefyre audience.
 

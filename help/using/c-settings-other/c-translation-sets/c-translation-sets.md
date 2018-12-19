@@ -26,7 +26,7 @@ c_translation_sets.dita
 
 Use translation settings to localize Apps in various languages or to specify alternate text for several Apps from one location in Studio. For example, you can ensure all Spanish-language sites use Spanish language for all App fields. You can also modify the text so that all fields match the voice and feel of your site or network.
 
-You can specify translation settings for all Apps, except Storify 2. For more information about what fields you can localize, see [Localize Strings](../../c-settings-other/c-translation-sets/c-localize-strings.md#c_localize_strings).
+You can specify translation settings for all Apps, except Storify 2. For more information about what fields you can localize, see [Localize Strings](../../c-settings-other/c-translation-sets/c-localize-strings.md#c-localize-strings).
 
 Comments, Live Blog, and Chat share the same set of strings within a translation set.
 
@@ -52,7 +52,7 @@ This page lists and describes the strings available for customization in Review 
 * Post Functions
 * Errors
 
-## Implementation {#section_vsy_1k4_xz}
+## Implementation {#section-vsy-1k4-xz}
 
 To implement this feature, pass in a 1-1 object mapping of the strings you wish to override to the Javascript configuration object. If you don’t provide a field, the default text will be used.
 

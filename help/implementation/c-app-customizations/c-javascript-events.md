@@ -108,7 +108,7 @@ A user has logged in.
 
 ```
 data = { 
-   avatar: "http://gravatar.com/avatar/50.jpg"  
+   avatar: "https://gravatar.com/avatar/50.jpg"  
       // Link to logged in user's avatar image 
    displayName: "NewUser" // Display name of the logged in user 
    id: "newuser@livefyre.com" // ID of the logged in user 

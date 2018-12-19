@@ -45,4 +45,4 @@ The URL registered should accept POSTs with the following data as content-type: 
 |jid|JID of the user whose affiliation is changed. A JID is a string of the form `user_id@network`.|
 |affiliation|Name of the permissions assigned, which must be one of the following:  `{admin | member | none | outcast | owner}`|
 
-For additional information on updating user affiliation settings, see the [Add User Affiliation API Reference](http://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post).
+For additional information on updating user affiliation settings, see the [Add User Affiliation API Reference](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post).

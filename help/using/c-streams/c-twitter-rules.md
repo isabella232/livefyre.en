@@ -20,7 +20,7 @@ Adding **[!UICONTROL Words]** and a **[!UICONTROL Username]** for your rule will
 
 >[!NOTE]
 >
->Livefyre adheres to Twitter display guidelines, and customers are responsible for adhering to these guidelines as well. For more information, please see Twitter’s documentation on their [Display Requirements](http://dev.twitter.com/terms/display-requirements).
+>Livefyre adheres to Twitter display guidelines, and customers are responsible for adhering to these guidelines as well. For more information, please see Twitter’s documentation on their [Display Requirements](https://dev.twitter.com/terms/display-requirements).
 
 To create Twitter Rules to pull content from Twitter feeds into your App or Folder, you can filter by:
 

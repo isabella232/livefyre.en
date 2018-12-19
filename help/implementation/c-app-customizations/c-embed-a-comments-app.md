@@ -5,9 +5,6 @@ seo-title: Embed a Comments App
 solution: Experience Manager
 title: Embed a Comments App
 uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
-index: y
-internal: n
-snippet: y
 ---
 
 # Embed a Comments App{#embed-a-comments-app}
@@ -16,7 +13,7 @@ Embedding the Comments App follows the process for embedding a Core App.
 
 Embedding the Comments App follows the process for embedding a Core App described in [](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
-**Example:**
+## Example
 
 ```
 <html> 

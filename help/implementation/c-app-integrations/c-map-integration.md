@@ -32,7 +32,7 @@ The quickest way to use Map is to use the built version hosted on Livefyre’s C
 First, add [Livefyre.js](https://github.com/Livefyre/Livefyre.js) to your page.
 
 ```
-<script src="http://cdn.livefyre.com/Livefyre.js"></script> 
+<script src="https://cdn.livefyre.com/Livefyre.js"></script> 
 
 ```
 

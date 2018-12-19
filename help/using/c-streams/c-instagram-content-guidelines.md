@@ -37,4 +37,4 @@ Instagram, like other brands, also has requirements for using their brand assets
 * Provide attribution to Instagram and the owner of the content.
 * Be clearly differentiated from other social media content if displayed together with other networks’ media.
 
-For more information, please see Instagram’s document: [Using Instagram Brand Assets](http://help.instagram.com/304689166306603).
+For more information, please see Instagram’s document: [Using Instagram Brand Assets](https://help.instagram.com/304689166306603).
