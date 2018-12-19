@@ -26,7 +26,7 @@ Importing your legacy ratings and reviews data allows you to maintain historic d
 
 For Rating and Reviews specific imports, exclude endlines from the JSON record, and make sure that each Rating or Review appears on a single line.
 
-The Reviews [JSON schema](http://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/reviews_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](http://json-schema.org/implementations.html) page.
+The Reviews [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/reviews_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](https://json-schema.org/implementations.html) page.
 
 To import only Ratings and Reviews, and not the associated user profiles, follow the example JSON format below, and specify fields that begin with imported_. In this case, only imported_display_name is required. When using these fields, omit the author_id.
 

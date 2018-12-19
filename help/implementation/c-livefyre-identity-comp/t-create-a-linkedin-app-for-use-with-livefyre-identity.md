@@ -25,7 +25,7 @@ To create a LinkedIn App for use with Livefyre Identity:
 1. Click **[!UICONTROL Create Application]**.
 1. Complete the form to create the Application.
 1. In the **[!UICONTROL Default Application Permissions]**, enable the **[!UICONTROL r_basicprofile]** and **[!UICONTROL r_emailaddress]** app permissions.
-1. Enter the **[!UICONTROL OAuth 2.0 Authorized Redirect URL]** as https://identity.livefyre.com/{network-name}.fyre.co/api/v1.0/public/profile/social/complete/linkedin_fyre.
+1. Enter the **[!UICONTROL OAuth 2.0 Authorized Redirect URL]** as `https://identity.livefyre.com/{network-name}.fyre.co/api/v1.0/public/profile/social/complete/linkedin_fyre`.
 1. Save the app.
 1. In **[!UICONTROL Livefyre > Integration Settings > Livefyre Identity > LinkedIn]**, switch the **[!UICONTROL Enable LinkedIn Login]** toggle to **[!UICONTROL On]**.
 1. Enter the LinkedIn Client ID and LinkedIn Client Secret.

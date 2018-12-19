@@ -24,7 +24,7 @@ To create an Microsoft Live Identity app for use with Livefyre Identity:
 1. Create or sign in to a Microsoft Live account at [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com/)
 1. Create a new or select an existing app for use with Livefyre Identity.
 1. Click **[!UICONTROL Add Platform]**, then select Web as the platform type.
-1. Make sure the **[!UICONTROL Allow Implicit Flow]** option is checked and enter the Redirect URL, using your network name instead of {network-name}: https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre.
+1. Make sure the **[!UICONTROL Allow Implicit Flow]** option is checked and enter the Redirect URL, using your network name instead of {network-name}: `https://identy.livefyre.com/{network-name}.fyre.co/api/v.1.0/public/profile/social/complete/mslive_fyre`.
 1. Generate a new password/key pair to get the Private Key.
 1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**, switch the **[!UICONTROL Enable Microsoft Live Login]** toggle to **[!UICONTROL On]**.
 1. Enter the Microsoft Live Client ID and Microsoft Live Client Secret.

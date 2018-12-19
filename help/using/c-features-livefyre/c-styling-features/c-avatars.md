@@ -43,7 +43,7 @@ Apps that use this feature:
 
 * [Carousel](../../c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Feature Card](../../c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [Map](../../c-about-apps/c-map-app/c-map-app.md#c_map_app)
 * [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)

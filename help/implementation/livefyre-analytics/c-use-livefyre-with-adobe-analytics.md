@@ -322,5 +322,5 @@ For more information on the topics discussed on this page, see:
 * [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
 * [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)
 * [Rules](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
-* [](c_reference_livefyre.js_comp.md#topic_hcz_ppx_2cb)
+* [Livefyre.js](/help/implementation/c-livefyre.js.md)
 

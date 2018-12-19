@@ -113,6 +113,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
       + [Sidenotes Custom Strings](c-app-integrations/c-sidenotes-integration/r-custom-strings.md)
       + [Sidenotes Bookmarklet](c-app-integrations/c-sidenotes-integration/c-sidenotes-bookmarklet.md)
       + [Sidenotes Implementation](c-app-integrations/c-sidenotes-integration/r-sidenotes-implementation.md)
+      + [updateAnchors Method] (/c-app-integrations/c-sidenotes-integration/update-anchors-method.md)
   + [Map](c-app-integrations/c-map-integration.md)
   + [Media Wall](c-app-integrations/c-media-wall-integration.md)
   + [Trending](c-app-integrations/c-trending-integration.md)

@@ -25,7 +25,7 @@ Livefyre's Listener count works like this:
 Apps that use this feature:
 
 * [Chat](../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app) 
-* [Comments](c_comments_app.md#c_comments_app) 
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md) 
 * [Reviews](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
 ## Listener Avatars {#section_wcn_kxp_vz}
@@ -41,7 +41,7 @@ The Livefyre Listener Count displays the number of people actively on the page a
 Apps that use this feature:
 
 * [Chat](../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app) 
-* [Comments](c_comments_app.md#c_comments_app) 
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md) 
 * [Reviews](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app) 
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 

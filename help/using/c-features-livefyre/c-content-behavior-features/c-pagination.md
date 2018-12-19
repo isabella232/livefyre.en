@@ -19,7 +19,7 @@ Choosing the number of pieces of content to show in the App. For some Apps, you 
 Apps that use this feature:
 
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app) 
-* [Comments](c_comments_app.md#c_comments_app) 
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md) 
 * [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app) 
 * [Reviews](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app) 
 * [Sidenotes](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)

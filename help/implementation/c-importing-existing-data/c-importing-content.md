@@ -18,7 +18,7 @@ Importing Chat and Comment data into Livefyre. Import legacy content after your 
 
 To begin the import process, you must prepare your import data. Livefyre’s import system expects a specific file format of line-delimited JSON Blobs, with each file representing a site on your network, and each line within the file representing an individual Collection on that site.
 
-The Content [JSON schema](http://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](http://json-schema.org/implementations.html) page.
+The Content [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](https://json-schema.org/implementations.html) page.
 
 ### File Format Standards
 

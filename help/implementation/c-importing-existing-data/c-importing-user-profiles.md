@@ -38,7 +38,7 @@ Similar to Content import, User Profile files adhere to these rules:
 >
 >The files themselves are not valid JSON, but each line must be in JSON format.
 
-The User Profile [JSON schema](http://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/user_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](http://json-schema.org/implementations.html) page.
+The User Profile [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/user_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](https://json-schema.org/implementations.html) page.
 
 If you choose to import users from your existing user profile system, required fields include:
 

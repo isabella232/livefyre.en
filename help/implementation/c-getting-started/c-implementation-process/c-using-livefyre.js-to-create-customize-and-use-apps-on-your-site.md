@@ -12,7 +12,7 @@ snippet: y
 
 Add Livefyre Apps to your web pages using the Livefyre.js embed code structure.
 
-This documentation is intended for a technical audience. For [non-technical information about Apps](c_about_apps.md#c_about_apps).
+This documentation is intended for a technical audience. For [non-technical information about Apps](/help/using/c-about-apps).
 
 This section describes the code structure that you’ll need to include in your page template to embed Livefyre Apps on your site.
 

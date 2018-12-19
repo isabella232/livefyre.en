@@ -49,7 +49,7 @@ Livefyre.require([
 </script>
 ```
 
-You now have a Trending App! See this all in action in [this example](http://codepen.io/gobengo/pen/GijEy).
+You now have a Trending App! See this all in action in [this example](https://codepen.io/gobengo/pen/GijEy).
 
 ## Configuration {#section_k5k_qhb_c1b}
 

@@ -29,5 +29,5 @@ For information on enabling the Top Comments view, please see **[!UICONTROL Stud
 
 Apps that use this feature:
 
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 

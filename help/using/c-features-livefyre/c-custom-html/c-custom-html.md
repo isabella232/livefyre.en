@@ -20,5 +20,5 @@ Work with your Account Manager to enable this feature for your network or site.
 
 Apps that use this feature:
 
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 

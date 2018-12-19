@@ -30,7 +30,7 @@ Livefyre Apps stream content in real-time when content is published manually fro
 Apps that use this feature:
 
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [Mosaic](../../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [Polls](../../c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
@@ -46,7 +46,7 @@ Choosing the number of pieces of content to show in the app. For some apps, you 
 Apps that use this feature:
 
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [Reviews](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Sidenotes](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
@@ -58,7 +58,7 @@ The ability to set the initial a number of items to load when viewing the app.
 Apps that use this feature:
 
 * [Carousel](../../c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [Mosaic](../../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 
@@ -73,7 +73,7 @@ The Queue comments feature is available for Comments, and may be set at the netw
 Apps that use this feature:
 
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 
 ## Throttle Content {#section_d5c_2bm_d1b}
 
@@ -95,5 +95,5 @@ This feature may be enabled at the Collection level using Collection Settings in
 Apps that use this feature:
 
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 

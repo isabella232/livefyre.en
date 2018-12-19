@@ -23,7 +23,7 @@ Map allows you to stream geotagged content onto a world map, allowing you to loc
 
 >[!NOTE]
 >
->Maps are powered by [©OpenStreetMap](http://www.openstreetmap.org/copyright), which provides the data Livefyre uses to render its Maps.
+>Maps are powered by [©OpenStreetMap](https://www.openstreetmap.org/copyright), which provides the data Livefyre uses to render its Maps.
 
 ## Integration {#section_w2m_db2_d1b}
 
@@ -61,7 +61,7 @@ function (Map, SDK) {
 </script>
 ```
 
-Check out this [live example](http://codepen.io/cheung31/pen/wkmbF).
+Check out this [live example](https://codepen.io/cheung31/pen/wkmbF).
 
 ## Configuration {#section_jc5_gxb_c1b}
 
@@ -78,7 +78,7 @@ var map = new Map({
 
 `leafletMapOptions`
 
-Options to pass to the underlying [Leaflet](http://leafletjs.com/) map, which Map uses for rendering. Use this option to set [Leaflet Map Options](http://leafletjs.com/reference.html#map-options), including the initial centerpoint of the map, and initial and maximum zoom levels. (Optional.)
+Options to pass to the underlying [Leaflet](https://leafletjs.com/) map, which Map uses for rendering. Use this option to set [Leaflet Map Options](https://leafletjs.com/reference.html#map-options), including the initial centerpoint of the map, and initial and maximum zoom levels. (Optional.)
 
 ```
 var map = new Map({ 

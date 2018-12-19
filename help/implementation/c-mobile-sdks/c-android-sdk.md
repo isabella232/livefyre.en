@@ -28,8 +28,8 @@ This Livefyre Android SDK can be used in both Eclipse and Android Studio.
 
 >[!NOTE]
 >
->Before installing the Livefyre Android SDK you must have the [Android SDK](http://developer.android.com/sdk/index.html) installed on your environment. You must also include some additional Android SDK packages, as described in the Android Developer docs > .
->[Adding SDK Packages](http://developer.android.com/sdk/installing/adding-packages.html)
+>Before installing the Livefyre Android SDK you must have the [Android SDK](https://developer.android.com/sdk/index.html) installed on your environment. You must also include some additional Android SDK packages, as described in the Android Developer docs > .
+>[Adding SDK Packages](https://developer.android.com/sdk/installing/adding-packages.html)
 
 Use the Android SDK Manager (available from the Android Studio or Eclipse toolbar) to install all recommended packages. Be certain to also include the Android Support Repository.
 
