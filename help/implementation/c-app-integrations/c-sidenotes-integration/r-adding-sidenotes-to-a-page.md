@@ -46,7 +46,7 @@ Available types are:
 * **Media:** 3
 * **Rich:** 4
 
-See [updateAnchors method](r_updateAnchors_method.md#r_updateAnchors_method) for more on how to use the `updateAnchors` method to add Sidenote content to the page dynamically.
+See [updateAnchors method](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md) for more on how to use the `updateAnchors` method to add Sidenote content to the page dynamically.
 
 ## Custom Thread Container {#section_jdh_btv_sy}
 

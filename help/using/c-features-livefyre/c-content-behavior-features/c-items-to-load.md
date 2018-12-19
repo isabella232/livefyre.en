@@ -17,7 +17,7 @@ The ability to set the initial a number of items to load when viewing the app.
 Apps that use this feature:
 
 * [Carousel](../../c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app) 
-* [Comments](c_comments_app.md#c_comments_app) 
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md) 
 * [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app) 
 * [Mosaic](../../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 

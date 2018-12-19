@@ -6,7 +6,7 @@ user-guide-title: Experience Manager Livefyre User Guide
 
 # Experience Manager Livefyre User Guide {#user}
 
-+ [Livefyre Help](home.md)
++ [Livefyre Help](help.md)
 + [Announcements](c-anouncements.md)
 + [Access Training Videos](c-access-training-videos.md)
 + [About Livefyre](c-product.md)
@@ -312,3 +312,4 @@ user-guide-title: Experience Manager Livefyre User Guide
         + [February 9, 2017](c-rn/c-previous-release-notes/c-2017-release-notes/c-rn-2017-february-9.md)
         + [January 26, 2017](c-rn/c-previous-release-notes/c-2017-release-notes/c-rn-2017-january-26.md)
         + [January 12, 2017](c-rn/c-previous-release-notes/c-2017-release-notes/c-rn-2017-january-12.md)
+ 

@@ -48,5 +48,5 @@ To optimize for performance, Livefyre caches data for up to 2 minutes. There may
 
 Apps that use this feature:
 
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 

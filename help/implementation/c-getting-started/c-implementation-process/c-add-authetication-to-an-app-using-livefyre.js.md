@@ -56,7 +56,7 @@ An `AuthDelegate` is an object you define that determines how users will log in,
 
 Synchronize the user profile information between Livefyre and your identity provider.
 
-If you’re not using [Livefyre Enterprise Profiles](c_livefyre_enterprise_profiles.md#c_livefyre_enterprise_profiles), you must synchronize your user profile information between Livefyre and your Identity Provider. For more information, see:
+You must synchronize your user profile information between Livefyre and your Identity Provider. For more information, see:
 
-* [Your Identity Service](c_your_identity_service.md#c_your_identity_service)
-* [Janrain Capture Integration](c_janrain_capture_backplane.md#c_janrain_capture_backplane)
+* [Your Identity Service](/help/implementation/c-livefyre-identity-comp/c-your-identity-service-comp.md)
+* [Janrain Capture Integration](/help/implementation/c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)

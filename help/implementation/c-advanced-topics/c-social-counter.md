@@ -12,7 +12,7 @@ snippet: y
 
 # Social Counter{#social-counter}
 
-Count the number of curated social items. For a complete list of available endpoints, please see the Livefyre [API Reference](https://livefyre-devhub-production.herokuapp.com/developers/api-reference/) section.
+Count the number of curated social items. For a complete list of available endpoints, please see the Livefyre [API Reference](https://api.livefyre.com/docs) section.
 
 The Social Counter API returns counts for matched curation rules in a given collection for intervals over a period of time.
 

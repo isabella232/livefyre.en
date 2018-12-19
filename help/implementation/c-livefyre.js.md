@@ -14,7 +14,7 @@ snippet: y
 
 The core Livefyre library used to power Livefyre on your site.
 
-`Livefyre.js` is the core library that you can install on every Livefyre-enabled webpage. It defines the global `window.Livefyre` object and a single public method, `Livefyre.require`, which can be used to load other Livefyre JavaScript libraries that help with [embedding Livefyre Apps](https://docs.livefyre.com/developers/app-integrations/), [integrating your authentication provider with Livefyre](https://docs.livefyre.com/developers/identity-integration/) and more.
+`Livefyre.js` is the core library that you can install on every Livefyre-enabled webpage. It defines the global `window.Livefyre` object and a single public method, `Livefyre.require`, which can be used to load other Livefyre JavaScript libraries that help with [Embedding Livefyre Apps](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md), [Integrating your authentication provider with Livefyre](/help/implementation/t-about-identity-integration/t-about-identity-integration.md) and more.
 
 ## Add to your Site {#section_cst_twg_xz}
 

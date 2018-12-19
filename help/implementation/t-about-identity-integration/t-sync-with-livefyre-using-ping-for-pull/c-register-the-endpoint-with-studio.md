@@ -19,5 +19,5 @@ Register the Ping for Pull URL only once per network. Once set, this value shoul
 1. Use Studio to register this URL endpoint with Livefyre.
 1. Register the URL from which Livefyre will fetch updated user profile information, go to **[!UICONTROL Studio > Settings > Integration Settings > Remote Profiles]**, and enter it in the **[!UICONTROL Ping for Pull URL]** field.
 
-   For example, the URL can look like: https://example.yoursite.com/some_path/?id={id}
+   For example, the URL can look like: `https://example.yoursite.com/some_path/?id={id}`
 

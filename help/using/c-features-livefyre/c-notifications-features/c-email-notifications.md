@@ -109,7 +109,7 @@ Several fields in the email notification templates may be changed to fit your st
 Apps that use this feature:
 
 * [Carousel](../../c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 * [Feature Card](../../c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [Reviews](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)

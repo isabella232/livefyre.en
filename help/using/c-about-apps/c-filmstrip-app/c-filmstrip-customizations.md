@@ -46,4 +46,5 @@ You can customize Filmstrip using the following additional options in the App De
   * **[!UICONTROL Select product folders]**. Select the top-level product folders to use to filter UGC. Use CTRL/Command + click to select more than one folder. Livefyre uses the folder to determine which products in that folder to display in the App on various pages.
   * **[!UICONTROL Show related content]**. Toggle this to display content published to the App, but tagged with a different product ID. After the product-specific content for the App displays, Livefyre displays content for other products and content not associated with a product. Livefyre prioritizes the content with the same product ID first, then content published to the App with other product IDs, then content published to the App with no product IDs.
 
-See [Filmstrip Options](c_using_livefyre.js_to_create_customize_and_use_apps_on_your_site.md#using-livefyre-js-create-customize-apps) for more on how to customize a Filmstrip using Livefyre.js.
+See [Filmstrip Options](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) for more on how to customize a Filmstrip using Livefyre.js.
+

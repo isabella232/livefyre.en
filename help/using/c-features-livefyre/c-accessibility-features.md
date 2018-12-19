@@ -50,7 +50,7 @@ To test that an App is working with accessibility features, you can:
 
 Apps and Livefyre features that are accessible:
 
-* [Comments](c_comments_app.md#c_comments_app) 
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md) 
 * [Chat](../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app) 
 * [](../c-about-apps/c-filmstrip-app/c-filmstrip-app.md#concept_jpc_n2j_jbb)
 * [Live Blog](../c-about-apps/c-liveblog-app/c-liveblog-app.md#c_liveblog_app) 

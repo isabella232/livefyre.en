@@ -30,5 +30,5 @@ This feature may be enabled at the Collection level using Collection Settings in
 Apps that use this feature:
 
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app) 
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 

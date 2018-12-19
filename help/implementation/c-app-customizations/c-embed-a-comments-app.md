@@ -11,7 +11,7 @@ uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 
 Embedding the Comments App follows the process for embedding a Core App.
 
-Embedding the Comments App follows the process for embedding a Core App described in [](t_embed_an_app_on_your_site_using_livefyre.js.md#embed-app-on-site-using-livefyre-js)
+Embedding the Comments App follows the process for embedding a Core App described in [](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## Example
 

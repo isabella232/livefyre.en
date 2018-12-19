@@ -21,5 +21,5 @@ The Queue comments feature is available for Comments, and may be set at the netw
 Apps that use this feature:
 
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app) 
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 

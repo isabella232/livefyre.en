@@ -40,5 +40,5 @@ Hide the notifier widget across your entire network using CSS Customizations.
 
 Apps that use this feature:
 
-* [Comments](c_comments_app.md#c_comments_app)
+* [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
 

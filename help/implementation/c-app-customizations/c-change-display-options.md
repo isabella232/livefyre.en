@@ -18,7 +18,7 @@ Livefyre offers several options by which your App’s display may be customized 
 This section describes the following available display customization options:
 
 * Available CSS Classes allow you to change div elements, sort options, bounding boxes, icons, and other display options for your Apps.
-* [Localize Strings](c_localize_strings.md#c-localize-strings) to set the language and tone for your Apps.
+* [Localize Strings](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md) to set the language and tone for your Apps.
 * Specify the Date/Time Format to conform to your style.
 * Move the Livefyre Logo to display it less conspicuously on your App.
 * Restrict Media to prevent users from uploading specified media embed types.

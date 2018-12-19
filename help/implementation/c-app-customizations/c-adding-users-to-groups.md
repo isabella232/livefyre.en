@@ -18,7 +18,7 @@ User Tags may be implemented for both proprietary and enterprise profile systems
 
 * Creating Owners and Moderators through Studio assigns the ‘Moderator’ User Tag to the account.
 * Creating user groups, and adding users to them through Studio, automatically applies User Tags with the name of the group to the selected users.
-* User Tags may be also applied directly to Accounts using the [Add User Tag HTTP](https://livefyre-devhub-production.herokuapp.com/developers/api-reference/#add-user-tag) call, or Ping for Pull.
+* User Tags may be also applied directly to Accounts using the [Add User Tag HTTP](https://api.livefyre.com/docs#add-user-tag) call, or Ping for Pull.
 
 >[!NOTE]
 >
@@ -42,7 +42,8 @@ For example:
 curl -XPOST -d 'tag_name=tag&lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAxLjIzn0.KoyXUVCavt-rdvkVXm2qzQTyMAOSp-crQA1uL1ht9WU' 'https://labs.quill.fyre.co/api/v3.0/author/system@`labs.fyre.co`/tag/'
 ```
 
-For more information, see API Reference > [Add User Tag](https://livefyre-devhub-production.herokuapp.com/developers/api-reference/#add-user-tag).
+
+For more information, see API Reference > [Add User Tag](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:author:tags:method=post).
 
 ## Add a user to a Group using Ping for Pull {#section_kyj_11w_xz}
 
