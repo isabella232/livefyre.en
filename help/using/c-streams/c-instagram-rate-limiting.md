@@ -15,13 +15,13 @@ A token is the same as an Instagram account.
 
 You may run into an error that limits your ability to search or get content from Instagram because you:
 
- * Are using one account for more than one stream
- * Have a large number of Instagram streams
- * May be using high volume hashtags (for example, `#cats` or `#beach`)
+* Are using one account for more than one stream
+* Have a large number of Instagram streams
+* May be using high volume hashtags (for example, `#cats` or `#beach`)
 
 To reduce the impact of Instagram rate limiting:
 
-  * Connect multiple Instagram accounts to your network. For information on adding Instagram accounts on your network, see [About Instagram Accounts](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
-  * Turn off Instagram streams you aren't using
-  * Make sure streams are targeted with the right keywords and use Smart Tag filters to make queries more accurate. For information on how to use smart tag filters, see [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags).md
-  * Minimize times when multiple people are using the same Instagram account on a network to curate Instagram content
+* Connect multiple Instagram accounts to your network. For information on adding Instagram accounts on your network, see [About Instagram Accounts](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
+Turn off Instagram streams you aren't using
+Make sure streams are targeted with the right keywords and use Smart Tag filters to make queries more accurate. For information on how to use smart tag filters, see [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags).md
+Minimize times when multiple people are using the same Instagram account on a network to curate Instagram content
