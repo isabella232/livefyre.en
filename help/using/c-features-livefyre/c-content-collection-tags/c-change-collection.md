@@ -18,7 +18,7 @@ Use the Change Collection Delegate to change the Collection shown on a page, wit
 
 For example, clicking a video or photo in a gallery will load a Collection specific to that selection, while the URL of the page will not change.
 
-To load one of three Collections from a single [](t_display_comment_count.md#t_display_comment_count) page:
+To load one of three Collections from a single [comment count](/help/implementation/c-advanced-topics/t-display-comment-count.md) page:
 
 ```
 <html> 

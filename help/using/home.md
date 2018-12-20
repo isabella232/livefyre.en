@@ -13,8 +13,7 @@ Here you'll find docs, tutorials, and best practices for our product and platfor
 ## Popular Topics
 
 * [Announcements](c-anouncements.md#c_anouncements)
-* [Getting Started](c_getting_started.md#c_getting_started)
-  Getting started Using Livefyre Studio  
+* [Getting Started with Implementation](/help/implementation/c-getting-started)
 * [About Livefyre](c-product.md#c_product)
   Use Livefyre Studio to manage Apps, Users, and Content.  
 * [Working with Apps](c-about-apps/c-about-apps.md#c_about_apps)
@@ -26,9 +25,6 @@ Here you'll find docs, tutorials, and best practices for our product and platfor
 
 * [Product](c-product.md#c_product)
   Product Help for Livefyre
-    
-* [Developers](c_developer_docs.md#c_developer_docs)
-  Developer Help for Livefyre
     
 * [API Docs](https://api.livefyre.com)
   API Documentation for Livefyre

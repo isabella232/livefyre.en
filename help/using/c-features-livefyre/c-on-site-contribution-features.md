@@ -16,11 +16,11 @@ Choose how site visitors interact with Apps and in what ways they can interact w
 
 On this page:
 
-* [](#c_on_site_contribution_features/section_tdg_zsr_d1b) 
-* [](#c_on_site_contribution_features/section_pwy_m2s_d1b) 
-* [](#c_on_site_contribution_features/section_mlm_42s_d1b) 
-* [](#c_on_site_contribution_features/section_vzs_t2s_d1b) 
-* [](#c_on_site_contribution_features/section_azw_dx4_h1b)
+* [Poll Contribution](#c_on_site_contribution_features/section_tdg_zsr_d1b) 
+* [Text Upload](#c_on_site_contribution_features/section_pwy_m2s_d1b) 
+* [Video Upload](#c_on_site_contribution_features/section_mlm_42s_d1b) 
+* [Upload Button](#c_on_site_contribution_features/section_vzs_t2s_d1b) 
+* [User Results](#c_on_site_contribution_features/section_azw_dx4_h1b)
 
 ## Poll Contribution {#section_tdg_zsr_d1b}
 

@@ -14,22 +14,8 @@ snippet: y
 
 Reviews offers a broad range of customizations, allowing you to create a Review App which matches your needs and branding.
 
-Use the Reviews App by custom-embedding it on your site as a JS application. You cannot create a Reviews App in Livefyre Studio. To create a Reviews App on your site, see [](c_reviews_integration.md#c_reviews_integration).
+Use the Reviews App by custom-embedding it on your site as a JS application. You cannot create a Reviews App in Livefyre Studio. To create a Reviews App on your site, see [Reviews Integration](/help/implementation/c-app-integrations/c-reviews-integration.md).
 
-
-
-On this page:
-
-* [](#c_creating_reviews/section_hs5_c4h_21b) 
-* [](#c_creating_reviews/section_cqn_c4h_21b) 
-* [](#c_creating_reviews/section_cnx_snh_21b) 
-* [](#c_creating_reviews/section_xcm_4nh_21b) 
-* [](#c_creating_reviews/section_ysz_lnh_21b) 
-* [](#c_creating_reviews/section_hcm_jnh_21b) 
-* [](#c_creating_reviews/section_tjf_hnh_21b) 
-* [](#c_creating_reviews/section_yng_fnh_21b) 
-* [](#c_creating_reviews/section_llh_2nh_21b) 
-* [](#c_creating_reviews/section_xrh_wmh_21b)
 
 ## Ratings {#section_hs5_c4h_21b}
 

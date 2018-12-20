@@ -29,11 +29,11 @@ The following new features were released in the production version of this relea
     * Tags videos up to 60 seconds or 50MB
     * Two categories of smart tags apply to videos: features ( animals, objects, places, etc) and actions (running, walking, singing, etc.)
 
-  For more information see [](../../c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
+  For more information see [Smart Tags](../../c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
 
 * Instagram Rate Limiting
 
-  Instagram has changed the number of requests that any company using the Instagram API, including Livefyre, can make from 5,000 requests per hour per token to 200 requests an hour per token. This is known as *rate limiting*. For more information, see [](c_instagram_rate_limiting.md#c_instagram_rate_limiting).
+  Instagram has changed the number of requests that any company using the Instagram API, including Livefyre, can make from 5,000 requests per hour per token to 200 requests an hour per token. This is known as *rate limiting*. For more information, see [Instagram Rate Limiting](/help/using/c-streams/c-instagram-rate-limiting.md).
 
 * Audio Files in the Library
 
@@ -47,7 +47,7 @@ The following new features were released in the production version of this relea
 
 ## Issues {#section_ehw_ndt_wcb}
 
-No new issues were resolved in the production version of this release. See [](#c_rn/section_syx_mdt_wcb) section above.
+No new issues were resolved in the production version of this release. See [section above](#c_rn/section_syx_mdt_wcb).
 
 ## UAT Release {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 

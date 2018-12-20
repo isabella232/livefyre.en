@@ -16,12 +16,12 @@ Engage your site visitors with features that keep them coming back to your site 
 
 On this page:
 
-* [](#c_enagement_features/section_jdv_vcm_d1b) 
-* [](#c_enagement_features/section_q4j_ycm_d1b) 
-* [](#c_enagement_features/section_pmq_ycm_d1b) 
-* [](#c_enagement_features/section_yw5_fdm_d1b) 
-* [](#c_enagement_features/section_uzm_ldm_d1b) 
-* [](#c_enagement_features/section_bw3_ndm_d1b)
+* [Custom Buttons](#c_enagement_features/section_jdv_vcm_d1b) 
+* [Like](#c_enagement_features/section_q4j_ycm_d1b) 
+* [Media Expansion](#c_enagement_features/section_pmq_ycm_d1b) 
+* [Friend Mentions](#c_enagement_features/section_yw5_fdm_d1b) 
+* [Action Buttons](#c_enagement_features/section_uzm_ldm_d1b) 
+* [Follow Conversation](#c_enagement_features/section_bw3_ndm_d1b)
 
 ## Custom Buttons {#section_jdv_vcm_d1b}
 

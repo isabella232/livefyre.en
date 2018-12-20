@@ -21,11 +21,9 @@ The following features are available in a Carousel:
 * [Custom Text Strings](../../c-features-livefyre/c-custom-text-strings.md#c_custom_text_strings)
 * [Date and Timestamp](../../c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
 * [Items to Load](../../c-features-livefyre/c-content-behavior-features/c-items-to-load.md#c_items_to_load)
-* [Media Expansion](c_media_expansion.md#c_media_expansion)
 * [Social Sharing](../../c-features-livefyre/c-social-sharing/c-social-sharing.md#c_social_sharing)
 * [](../../c-features-livefyre/c-styling-features/c-styling-features.md#c_styling_features)
 * [SAFE](../../c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
 * [Translation Sets](../../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
-* [Twitter Action Buttons](c_action_buttons.md#c_action_buttons)
-* [](../../c-features-livefyre/c-on-site-contribution-features.md#section_vzs_t2s_d1b)
+* [On-site Contribution Features](../../c-features-livefyre/c-on-site-contribution-features.md#section_vzs_t2s_d1b)
 

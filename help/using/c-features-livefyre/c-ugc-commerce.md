@@ -36,24 +36,24 @@ Apps that use this feature:
 
 * [Feature Card](../c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app). For information on how to use UGC Commerce in a Feature Card, see [Feature Card Customizations](../c-about-apps/c-feature-card-app/c-feature-card-app.md#section_uds_gzm_5y).
 
-* [](../c-about-apps/c-filmstrip-app/c-filmstrip-app.md#concept_jpc_n2j_jbb). For information on how to use UGC Commerce in a Filmstrip, see [](../c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md#c_filmstrip_customizations).
+* [](../c-about-apps/c-filmstrip-app/c-filmstrip-app.md#concept_jpc_n2j_jbb). For information on how to use UGC Commerce in a Filmstrip, see [Filmstrip Customizations](../c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md#c_filmstrip_customizations).
 
 * [Media Wall](../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app). For information on how to use UGC Commerce in a Media Wall, see [Media Wall Customizations](../c-about-apps/c-media-wall-app/r-media-wall-customizations.md#r_media_wall_customizations).
 
-* [Mosaic](../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app). For information on how to use UGC Commerce in a Mosaic, see [](../c-about-apps/c-mosaic-app/c-mosaic-customizations.md#c_mosaic_customizations).
+* [Mosaic](../c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app). For information on how to use UGC Commerce in a Mosaic, see [Mosaic Customizations](../c-about-apps/c-mosaic-app/c-mosaic-customizations.md#c_mosaic_customizations).
 
 ## Overview: How to use the UGC Commerce Call-to-action Button {#section_s2d_tln_n1b}
 
-1. Create an App with a Call-to-action Button. See [Add a Call-to-action Button to an App](t_add_a_call_to_action_button_to_an_app.md#t_add_a_call_to_action_button_to_an_app).
+1. Create an App with a Call-to-action Button. See [Add a Call-to-action Button to an App]((/help/using/c-features-livefyre/c-call-to-action-button.md#task_36190DD1C8204C7793CB7EEA379C2155)).
 1. Add your product catalog to Livefyre. You can import content in one of two ways:
 
-    * [Import Products into Livefyre Using AEM Commerce](t_associate_products_with_ugc_using_aem_commerce.md#t_associate_products_with_ugc_using_aem_commerce) if you use AEM Commerce.
+    * [Import Products into Livefyre Using AEM Commerce](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html) if you use AEM Commerce.
     * [Upload Products to Livefyre](#c_ugc_commerce/section_n1s_4hz_m1b) if you do not use AEM Commerce.
 
 1. Associate products with content. You can do this in one of four ways:
 
     * From the Library. See [Associate Products with Content Using the Library](../c-library/t-associate-products-with-content-using-the-library.md#t_associate_products_with_content_using_the_library)
-    * From ModQ. See [Moderate Content Using ModQ](t_approve_content_from_modq.md#t_approve_content_from_modq)
+    * From ModQ. See [Moderate Content Using ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md)
     * From App Content. See [Add a Call-to-action Button to an App](t_add_a_call_to_action_button_to_an_app.md#t_add_a_call_to_action_button_to_an_app)
     * From a Stream. See [Stream Rule Options for All Stream Rules](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 

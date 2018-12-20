@@ -14,7 +14,7 @@ Add the `userPrivacyOptOut` flag to the page to allow a site visitor to opt out 
 Livefyre provides JavaScript events to track user activity in your Livefyre Apps.
 
 If you embed Livefyre Apps and a visitor does not consent to tracking, you can dynamically configure Livefyre to disable functionality to ensure the visitor’s privacy.
-
+  
 When configured, Livefyre will:
 
 * Disable authentication support in Apps.

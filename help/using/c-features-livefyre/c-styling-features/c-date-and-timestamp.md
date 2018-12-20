@@ -15,7 +15,7 @@ You can change the date and timestamp format to meet your needs.
 
 By default, Livefyre Apps display a relative timestamp for posts to the stream (4 minutes ago, 5 hours ago, 8 days ago, 2 months ago).
 
-You can customize the timestamp displayed using the Date and Timestamp Customization, which allows you to select from a list of available formats. For more information, see [](c_date_time_stamp.md#c_date_time_stamp)
+You can customize the timestamp displayed using the Date and Timestamp Customization, which allows you to select from a list of available formats. For more information, see [Date and Timestamp](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
 
 Apps that use this feature:
 

@@ -14,18 +14,6 @@ snippet: y
 
 To add an App to your site, you must first create an App in Livefyre Studio.
 
-On this page:
-
-* [](#concept_isg_4jt_bbb/section_eyp_ykt_bbb) 
-* [](#concept_isg_4jt_bbb/section_lvj_xlt_bbb) 
-* [](#concept_isg_4jt_bbb/section_cpf_cmt_bbb) 
-* [](#concept_isg_4jt_bbb/section_eyy_4mt_bbb) 
-* [](#concept_isg_4jt_bbb/section_df1_smt_bbb) 
-* [](#concept_isg_4jt_bbb/section_jsk_vmt_bbb) 
-* [](#concept_isg_4jt_bbb/section_rxx_xmt_bbb) 
-* [](#concept_isg_4jt_bbb/section_w3h_1nt_bbb) 
-* [](#concept_isg_4jt_bbb/section_zyx_zyx_xcb)
-
 To create a new App:
 
 1. Click **[!UICONTROL +New App]** from the Apps page, and select an App type from the pulldown menu.
@@ -80,7 +68,7 @@ To add a Call-to-action button to an App:
 
 1. Create a Mosaic or Media Wall App.
 
-   For information on the customizations available in a Mosaic or Media wall, see [Mosaic Customizations](r_mosaic_customizations.md#r_mosaic_customizations) or [Media Wall Customizations](../c-about-apps/c-media-wall-app/r-media-wall-customizations.md#r_media_wall_customizations).
+   For information on the customizations available in a Mosaic or Media wall, see [Mosaic Customizations](/help/using/c-about-apps/c-mosaic-app/c-mosaic-customizations.md) or [Media Wall Customizations](../c-about-apps/c-media-wall-app/r-media-wall-customizations.md#r_media_wall_customizations).
 1. Open the Designer for the App.
 1. Scroll to the **[!UICONTROL Call-to-Action Button]** section in the Designer.
 1. Switch **[!UICONTROL Call-to-Action Button]** to **[!UICONTROL on]**.
