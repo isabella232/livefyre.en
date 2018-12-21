@@ -93,9 +93,7 @@ icon will display links for this document, support, and Synaptive's website.
 
 In addition to being able to display your asset libraries in a Hootsuite stream, you can also save items from Instagram, Twitter, Facebook and YouTube streams to your Experience Manager Livefyre libraries. 
 
-1. Click the Menu  ![](assets/mceclip12.png)
-
-   icon found at the bottom of each item.
+1. Click the Menu icon found at the bottom of each item.
 
    ![](assets/hootsuite-menu-icon.png)
 
