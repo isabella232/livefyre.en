@@ -231,7 +231,6 @@ user-guide-title: Livefyre User Guide
   + [Ban a User](c-users/t-ban-a-user.md)
   + [Whitelist a User](c-users/t-whitelist-a-user.md)
   + [Link User Accounts](c-users/t-link-user-accounts.md)
-  + [Set up Network Email](c-users/t-set-up-network-email.md)
   + [Users Switching Networks](c-users/c-users-switching-networks.md)
   + [User Sync](c-users/t-set-up-user-sync.md)
 + Users: Creating User Accounts {#users-creating-accounts}

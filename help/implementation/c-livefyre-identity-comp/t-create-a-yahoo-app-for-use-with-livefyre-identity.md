@@ -23,7 +23,7 @@ To create a Yahoo! app for use with Livefyre Identity:
 
 1. Go to [https://developer.yahoo.com/apps/](https://developer.yahoo.com/apps/), and sign into your Yahoo! account to create a new or select an existing app for use with Livefyre Identity.
 1. Select **[!UICONTROL Application Type: Web Application]**.
-1. Enter **[!UICONTROL Callback Domain:]** https://identity.livefyre.com
+1. Enter **[!UICONTROL Callback Domain:]** `https://identity.livefyre.com`
 1. Select **[!UICONTROL API Permissions: Profiles (Social Directory)]** and **[!UICONTROL Read Public]**.
 
    When complete, Yahoo’s app details page will list the app’s Client ID (Consumer Key) and Client Secret (Consumer Secret) for use in Studio’s Integration Settings page.

@@ -30,7 +30,7 @@ Place product call-to-actions alongside UGC to drive conversion. You can:
 * Embed AEM Livefyre’s visualization apps that support UGC commerce capabilities such as Media Wall and Mosaic on product detail pages.
 * Use configurable referral tracking codes with an analytics solution to measure the conversions from product CTAs placed on UGC and UGC placed on product detail pages.
 
-AEM Commerce users can seamlessly integrate their existing product catalog into Livefyre to drive user engagement in Livefyre's visualization Apps. Livefyre users who do not use AEM Commerce can manually import their product catalogs into Livefyre. See [Upload Products to Livefyre Using File Upload](#c_ugc_commerce/section_n1s_4hz_m1b), for more.
+AEM Commerce users can seamlessly integrate their existing product catalog into Livefyre to drive user engagement in Livefyre's visualization Apps. Livefyre users who do not use AEM Commerce can manually import their product catalogs into Livefyre. See [Upload Products to Livefyre Using File Upload](/help/using/c-features-livefyre/c-ugc-commerce.md), for more.
 
 Apps that use this feature:
 
@@ -44,11 +44,11 @@ Apps that use this feature:
 
 ## Overview: How to use the UGC Commerce Call-to-action Button {#section_s2d_tln_n1b}
 
-1. Create an App with a Call-to-action Button. See [Add a Call-to-action Button to an App]((/help/using/c-features-livefyre/c-call-to-action-button.md#task_36190DD1C8204C7793CB7EEA379C2155)).
+1. Create an App with a Call-to-action Button. See [Add a Call-to-action Button to an App](/help/using/c-features-livefyre/c-call-to-action-button.md#task_36190DD1C8204C7793CB7EEA379C2155).
 1. Add your product catalog to Livefyre. You can import content in one of two ways:
 
     * [Import Products into Livefyre Using AEM Commerce](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html) if you use AEM Commerce.
-    * [Upload Products to Livefyre](#c_ugc_commerce/section_n1s_4hz_m1b) if you do not use AEM Commerce.
+    * [Upload Products to Livefyre](/help/using/c-features-livefyre/c-ugc-commerce.md) if you do not use AEM Commerce.
 
 1. Associate products with content. You can do this in one of four ways:
 
@@ -102,7 +102,7 @@ Upload products to use with your Call-to-Action Button to add products to associ
 
 ## ModQ {#section_os1_v4t_n1b}
 
-You can associate content with products from your product catalog in ModQ in line with your existing moderation workflows. For information on how to use UGC Commerce with ModQ, see [Moderate Content Using ModQ](t_approve_content_from_modq.md#t_approve_content_from_modq).
+You can associate content with products from your product catalog in ModQ in line with your existing moderation workflows. For information on how to use UGC Commerce with ModQ, see [Moderate Content Using ModQ](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md).
 
 ## Streams {#section_qtj_v4t_n1b}
 

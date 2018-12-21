@@ -14,7 +14,7 @@ snippet: y
 
 You can choose whether and how your site visitors to log in to your apps.
 
-Set up authentication using livefyre.js. For more information, see [Add Authentication to an App using Livefyre.js](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+Set up authentication using livefyre.js. For more information, see [Add Authentication to an App using Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 Apps that use this feature:
 
