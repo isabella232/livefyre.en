@@ -54,7 +54,7 @@ Apps that use this feature:
 
     * From the Library. See [Associate Products with Content Using the Library](../c-library/t-associate-products-with-content-using-the-library.md#t_associate_products_with_content_using_the_library)
     * From ModQ. See [Moderate Content Using ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md)
-    * From App Content. See [Add a Call-to-action Button to an App](t_add_a_call_to_action_button_to_an_app.md#t_add_a_call_to_action_button_to_an_app)
+    * From App Content. See [Add a Call-to-action Button to an App](/help/using/c-features-livefyre/c-call-to-action-button.md)
     * From a Stream. See [Stream Rule Options for All Stream Rules](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
 ## Upload Products to Livefyre Using File Upload {#section_n1s_4hz_m1b}
