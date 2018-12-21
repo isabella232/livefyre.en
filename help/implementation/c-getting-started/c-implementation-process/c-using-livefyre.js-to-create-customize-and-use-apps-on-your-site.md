@@ -76,6 +76,6 @@ This section describes the code structure that you’ll need to include in your 
        
        ```    
     
-       See [more information on specific Apps](c_about_apps.md#c_about_apps). It is recommended that you pin to the latest major version of the package (which can be found through [Livefyre.require](https://cdn.livefyre.com/packages.html)), to avoid unexpected broken integrations.
+       See [more information on specific Apps](/help/using/c-about-apps/c-about-apps.md). It is recommended that you pin to the latest major version of the package (which can be found through [Livefyre.require](https://cdn.livefyre.com/packages.html)), to avoid unexpected broken integrations.
 
 Next: Add authentication to your site to enable your users to post comments.

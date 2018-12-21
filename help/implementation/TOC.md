@@ -158,11 +158,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 + [Integrating Livefyre with AEM](c-livefyre-aem-integration.md)
   + Advanced Topics {#advanced-topics}
     + [Advanced Topics](c-advanced-topics/c-advanced-topics.md)
-  + Privacy Requests {#privacy-requests}
-    + [Privacy Requests (GDPR-Ready)](c-advanced-topics/c-gdpr-compliance/c-gdpr-compliance.md)
-    + [userPrivacyOptOut](c-advanced-topics/c-gdpr-compliance/c-userprivacyoptout.md)
-    + [userPrivacyMaskDelegate](c-advanced-topics/c-gdpr-compliance/c-userprivacymaskdelegate.md)
-    + [userPrivacyVideoWhitelist](c-advanced-topics/c-gdpr-compliance/c-userprivacyvideowhitelist.md)
   + [Display Comment Count](c-advanced-topics/t-display-comment-count.md)
   + [Enabling Social Sharing](c-advanced-topics/c-enabling-social-sharing.md)
   + [Activity Stream](c-advanced-topics/c-activity-stream.md)
