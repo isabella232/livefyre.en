@@ -14,7 +14,7 @@ Here you'll find docs, tutorials, and best practices for our product and platfor
 
 ## Popular Topics
 
-* [Announcements](c-anouncements.md#c_anouncements)
+<!--
 * [Getting Started with Implementation](/help/implementation/c-getting-started/c-getting-started.md)
 * [About Livefyre](c-product.md#c_product)
   Use Livefyre Studio to manage Apps, Users, and Content.  
@@ -22,9 +22,11 @@ Here you'll find docs, tutorials, and best practices for our product and platfor
   Create and publish Livefyre Apps (Including Comments)
 * [Using Livefyre with AEM](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html)
   Learn how Livefyre works with AEM
+-->
 
 ## Livefyre
 
+<!--
 * [Product](c-product.md#c_product)
   Product Help for Livefyre
     
@@ -36,3 +38,4 @@ Here you'll find docs, tutorials, and best practices for our product and platfor
     
 * [AEM Documentation](https://docs.adobe.com/content/docs/en/aem/6-3.html)
   AEM Documentation
+-->
