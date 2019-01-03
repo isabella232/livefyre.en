@@ -198,6 +198,7 @@ user-guide-title: Livefyre User Guide
   + [Email Rules](c-streams/c-email-rules.md)
   + [Instagram Rules](c-streams/c-instagram-rules.md)
   + [Instagram Content Guidelines](c-streams/c-instagram-content-guidelines.md)
+  + [Instagram Rate Limiting](c-streams/c-instagram-rate-limiting.md)
   + [Tumblr Rules](c-streams/c-tumblr-rules.md)
   + [Twitter Rules](c-streams/c-twitter-rules.md)
   + [Throttling and Frequency of Tweets](c-streams/c-throttling-and-frequency-of-tweets.md)

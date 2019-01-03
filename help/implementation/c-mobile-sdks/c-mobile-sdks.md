@@ -22,7 +22,7 @@ There are several options available for mobile implementations, depending on the
 
 ## Mobile Web Apps {#section_t2k_vpb_11b}
 
-Customers that open a web page on a mobile device automatically get a Livefyre content stream that’s optimized for mobile, including styling to fit the reduced screen size and modifications to handle touch events.
+Customers that open a web page on a mobile device automatically get a Livefyre content stream that�s optimized for mobile, including styling to fit the reduced screen size and modifications to handle touch events.
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ Customers that open a web page on a mobile device automatically get a Livefyre c
 
 To optimize for mobile, Livefyre limits the Comments, Live Blog, and Chat App feature set to include:
 
-|||
+| | |
 |--- |--- |
-|<ul><li>Post</li><li>Edit </li><li>Flag </li><li>Like </li><li>Reply </li><li>Listener Count</li></ul>|<ul><li>Comment Count</li><li>Inline Pending Moderation </li><li>Hovercards* </li><li>Top Comments </li><li>Hot Threads </li><li>Queue Comments</li></ul>|
+|<ul><li>Post</li><li>Edit </li><li>Flag </li><li>Like </li><li>Reply </li><li>Listener Count</li></ul>|<ul><li>Comment Count</li><li>Inline Pending Moderation </li><li>Hovercards^#42;</li><li>Top Comments </li><li>Hot Threads </li><li>Queue Comments</li></ul>|
 
-&#42; In Mobile Web Apps, clicking an author’s name opens hovercard information in a new page.
+&#42; In Mobile Web Apps, clicking an author�s name opens hovercard information in a new page.
 
 ## Livefyre Android SDK or iOS SDK {#section_zdz_spb_11b}
 
@@ -44,7 +44,7 @@ The Android and iOS SDKs support the following features for Comments, Live Blog,
 
 |iOS features:|Android features:|
 |--- |--- |
-|<ul><li> Post </li><li>Edit </li><li>Flag </li><li>Like </li><li>Reply </li><li>Hot Threads</li><ul>|Android features:</li><li>Post </li><li>Edit </li><li>Like </li><li>Reply </li><li>Hot Threads</li><ul>|
+|<ul><li> Post </li><li>Edit </li><li>Flag </li><li>Like </li><li>Reply </li><li>Hot Threads</li></ul>|Android features:<ul><li>Post </li><li>Edit </li><li>Like </li><li>Reply </li><li>Hot Threads</li></ul>|
 
 ## HTTP APIs {#section_yqb_qpb_11b}
 

@@ -115,7 +115,7 @@ Strings available for user actions: flagging, sharing, and marking existing cont
 |  | wasReviewHelpfulMobile  | Helpful?  |
 |  | ownWasReviewHelpful  | [Found helpful.](https://d.pr/i/Q0mA)  |
 |  | reviewWasHelpful  | [Yes](https://d.pr/i/Q0mA)  |
-|  | helpfulDivider  | [|](https://d.pr/i/Q0mA)  |
+|  | helpfulDivider  | [&vert;](https://d.pr/i/Q0mA)  |
 |  | reviewWasNotHelpful  | [No](https://d.pr/i/Q0mA)  |
 |  *Vote modal* | | |
 |  | voteTitle  | Was this review helpful?  |
