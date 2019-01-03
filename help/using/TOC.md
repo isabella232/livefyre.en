@@ -1,7 +1,7 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyre User Guide
+user-guide-title: Experience Manager Livefyre User Guide
 ---
 
 # Experience Manager Livefyre User Guide {#using}
