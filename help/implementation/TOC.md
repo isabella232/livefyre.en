@@ -6,6 +6,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
  
 # Experience Manager Livefyre Implementation Guide {#implementation}
 
++ [Livefyre Implementation Guide](home.md)
 + Getting Started with Livefyre Integration {#getting-started-integration}
   + [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
   + Implementation Process {#implementation-process}

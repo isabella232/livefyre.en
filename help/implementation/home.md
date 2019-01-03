@@ -1,16 +1,16 @@
 ---
 seo-title: Livefyre Help
 solution: Experience Manager
-title: Livefyre Help
+title: Livefyre Implementation Help
 uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 
 ---
 
-# Livefyre Help {#livefyre-help}
+# Livefyre Implementation Help {#livefyre-help}
 
 Here you'll find docs, tutorials, and best practices for our product and platform.
 
-<!-- Hannah, add link to implementation guide. -->
+<!-- Hannah, please edit this links for the implementation guide. Make it clearer that there are 2 guides. -->
 
 ## Popular Topics
 
