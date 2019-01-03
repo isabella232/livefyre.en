@@ -13,7 +13,7 @@ Here you'll find docs, tutorials, and best practices for our product and platfor
 ## Popular Topics
 
 * [Announcements](c-anouncements.md#c_anouncements)
-* [Getting Started with Implementation](/help/implementation/c-getting-started)
+* [Getting Started with Implementation](/help/implementation/c-getting-started/c-getting-started.md)
 * [About Livefyre](c-product.md#c_product)
   Use Livefyre Studio to manage Apps, Users, and Content.  
 * [Working with Apps](c-about-apps/c-about-apps.md#c_about_apps)

@@ -37,9 +37,7 @@ The issues in the following tables were resolved in this release.
 |Bug|Filmstrip|Fixed an issue where Tweets without images did not display in Filmstrip default view.|
 |Enhancement|Filmstrip|Fixed some issues to make Filmstrip more accessible.|
 |Enhancement|Library, Apps|Fixed an issue where videos from Instagram that were older than three months did not render correctly in the Library and Apps.|
-|Enhancement|Media Wall|Improved Media Wall accessibility in the following ways:  
-     Opening and closing modals via keyboard commands will no longer shift focus back to the top of the page. Focus instead remains on the element last focused before modal popup.  
-     Load More button can be tabbed to and triggered using the keyboard Enter key.|
+|Enhancement|Media Wall|Improved Media Wall accessibility in the following ways: <br>Opening and closing modals via keyboard commands will no longer shift focus back<br>to the top of the page. Focus instead remains on the element last focused before modal popup.  <br>Load More button can be tabbed to and triggered using the keyboard Enter key.|
 |Enhancement|Media Wall|Fixed an issue where clicking on a Twitter, Instagram, or Facebook icon takes you to the homepage, but was incorrectly stating in screen readers that the icon takes you to the individual post. This has been fixed to identify that the icon takes you to the homepage, not the post.|
 |Bug|Mosaic|Fixed an issue where a Mosaic App did not display the correct color from the App Designer.|
 |Bug|Rights Management|Fixed an issue where rights requests weren't working for Assets after finding them in a Social Search.|

@@ -14,14 +14,16 @@ snippet: y
 
 Informs Livefyre to update the network’s user sync URL to the one provided. Returns a Boolean.
 
-|  *`urlTemplate`* | String  | The URL to register with Livefyre for syncing user IDs. Requires “{id}” to be part of the provided URL string  |
-|---|---|---|
+*`urlTemplate`*
+
+String
+
+The URL to register with Livefyre for syncing user IDs. Requires “`{id}`” to be part of the provided URL string.
 
 ## Java Example {#section_nyl_ycs_rz}
 
 ```
 network.setUserSyncUrl(urlTemplate); 
-
 ```
 
 Sample output:
@@ -47,7 +49,6 @@ true
 
 ```
 $network->setUserSyncUrl(urlTemplate); 
-
 ```
 
 Sample output:
@@ -60,7 +61,6 @@ true
 
 ```
 network.set_user_sync_url(urlTemplate) 
-
 ```
 
 Sample output:
@@ -73,7 +73,6 @@ True
 
 ```
 network.set_user_sync_url(urlTemplate) 
-
 ```
 
 Sample output:
@@ -81,4 +80,3 @@ Sample output:
 ```
 True
 ```
-
