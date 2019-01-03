@@ -34,17 +34,17 @@ Only publicly viewable content is embeddable. If you attempt to embed a piece of
 
 |Type|Provider|URLs|
 |--- |--- |--- |
-|Maps|Google Maps|`https://maps.google.com/maps?*` <br><ul><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>Note: URL must begin with `http` and not `https.`|
-|Social Networking|Google Plus |`https://plus.google.com/*`<br><ul><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li> `https://google.com/profiles/*`</li></ul> |
-| Video | YouTube | `https://*youtube.com/watch*` <br><ul><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul>|
-|Photos|Flickr|`https://www.flickr.com/photos/*` <br><ul><li>`https://flic.kr/*`</li></ul>|
-||Instagram|`https://instagr.am/p/*` <br><ul><li>`https://instagram.com/p/*`</li></ul>|
-||TwitPic|`https://twitpic.com/*` <br><ul><li>`https://www.twitpic.com/*`</li><li>`https://twitpic.com/photos/*`</li><li>`https://www.twitpic.com/photos/*`</li></ul>|
-||Facebook|`https://www.facebook.com/photo.php*` <br><ul><li> `https://www.facebook.com/photo.php*`</li></ul>|
+|Maps|Google Maps|`https://maps.google.com/maps?*`<ul><li>`https://maps.google.com/?*`</li><li>`https://maps.google.com/maps/ms?*`</li></ul><br>Note: URL must begin with `http` and not `https.`|
+|Social Networking|Google Plus |`https://plus.google.com/*`<ul><li>`https://www.google.com/profiles/*`</li><li> `https://plus.google.com/*`</li><li> `https://google.com/profiles/*`</li></ul> |
+| Video | YouTube | `https://*youtube.com/watch*`<ul><li> `https://*.youtube.com/v/*`</li><li>`https://*youtube.com/watch*` </li><li>`https://*.youtube.com/v/*`</li><li>`https://youtu.be/*`</li><li>`https://*.youtube.com/user/*` </li><li>`https://*.youtube.com/*#*/*`</li><li>`https://m.youtube.com/watch*`</li><li>`https://m.youtube.com/index*`</li><li>`https://*.youtube.com/profile*`</li><li>`https://*.youtube.com/view_play_list*`</li><li>`https://*.youtube.com/playlist*`</li></ul>|
+|Photos|Flickr|`https://www.flickr.com/photos/*`<ul><li>`https://flic.kr/*`</li></ul>|
+||Instagram|`https://instagr.am/p/*`<ul><li>`https://instagram.com/p/*`</li></ul>|
+||TwitPic|`https://twitpic.com/*`<ul><li>`https://www.twitpic.com/*`</li><li>`https://twitpic.com/photos/*`</li><li>`https://www.twitpic.com/photos/*`</li></ul>|
+||Facebook|`https://www.facebook.com/photo.php*`<ul><li> `https://www.facebook.com/photo.php*`</li></ul>|
 ||`Ow.ly` (Hootsuite’s Content Uploading Service)|`https://ow.ly/i/*`|
-|Polls|GoPollGo|`https://gopollgo.com/*`<br><ul><li> `https://www.gopollgo.com/*`</li></ul>|
-||Droplr|`https://d.pr/i/*`</li></ul>|
-|Audio|SoundCloud|`https://soundcloud.com/*` <br><ul><li>`https://soundcloud.com/*/*` </li><li>`https://soundcloud.com/*/sets/*` </li><li>`https://soundcloud.com/groups/*` </li><li>`https://snd.sc/*`</li></ul>|
+|Polls|GoPollGo|`https://gopollgo.com/*`<ul><li> `https://www.gopollgo.com/*`</li></ul>|
+||Droplr|`https://d.pr/i/*`|
+|Audio|SoundCloud|`https://soundcloud.com/*`<ul><li>`https://soundcloud.com/*/*` </li><li>`https://soundcloud.com/*/sets/*` </li><li>`https://soundcloud.com/groups/*` </li><li>`https://snd.sc/*`</li></ul>|
 ||Spotify|`https://open.spotify.com/*`|
 |Blogs|Tumblr|`https://tumblr.com/*` `https://*.tumblr.com/post/*`</li></ul>|
 
