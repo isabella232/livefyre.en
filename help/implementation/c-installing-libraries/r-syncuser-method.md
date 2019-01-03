@@ -14,14 +14,16 @@ snippet: y
 
 Informs Livefyre to pull user information from a previously set user sync URL. Returns a Boolean.
 
-|  *`userId`* | String  | The user ID to sync with Livefyre. You must have a user sync URL set with Livefyre before calling this method.  |
-|---|---|---|
+*`userId`*
+
+String
+
+The user ID to sync with Livefyre. You must have a user sync URL set with Livefyre before calling this method.
 
 ## Java Example {#section_nyl_ycs_rz}
 
 ```
 network.syncUser(userId); 
-
 ```
 
 Sample output:
@@ -34,7 +36,6 @@ true
 
 ```
 network.syncUser(userId); 
-
 ```
 
 Sample output:
@@ -47,7 +48,6 @@ true
 
 ```
 $network->syncUser(userId); 
-
 ```
 
 Sample output:
@@ -60,7 +60,6 @@ true
 
 ```
 network.sync_user(userId) 
-
 ```
 
 Sample output:
@@ -73,7 +72,6 @@ True
 
 ```
 network.sync_user(userId) 
-
 ```
 
 Sample output:
@@ -81,4 +79,3 @@ Sample output:
 ```
 True
 ```
-
