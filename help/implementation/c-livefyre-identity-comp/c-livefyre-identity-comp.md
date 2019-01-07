@@ -10,19 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Livefyre Identity{#livefyre-identity}
-
-Working with Livefyre’s social user management system.
-
-## Livefyre Identity {#c_livefyre_identity}
-
-Working with Livefyre’s social user management system.
-
-<!-- 
-
-c_livefyre_identity.dita
-
- -->
+# Use Livefyre Identity{#livefyre-identity}
 
 Skip this section if you use a custom or third-party user management system.
 

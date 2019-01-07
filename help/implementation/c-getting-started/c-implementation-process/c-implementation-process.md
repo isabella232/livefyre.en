@@ -12,12 +12,6 @@ snippet: y
 
 # Implementation Process{#implementation-process}
 
-What to expect in implementing Livefyre Studio.
-
-<!-- 
-c_implementation_process.dita
--->
-
 The length of time to implement Livefyre depends on your implementation and scope of work.
 
 ## Overview of Livefyre Network Architecture {#section_dgj_l32_rbb}

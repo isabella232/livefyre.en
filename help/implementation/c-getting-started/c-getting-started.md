@@ -10,17 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Getting Started with Livefyre Integration {#getting-started-with-livefyre-integration}
-
-Learn how to get started by building a fully working Livefyre App. Build off that App to handle basic authentication, social sharing, and event tracking.
-
-## Getting Started with Livefyre Integration {#c_getting_started}
-
-Learn how to get started by building a fully working Livefyre App. Build off that App to handle basic authentication, social sharing, and event tracking.
-
-<!-- 
-c_getting_started.dita
--->
+# Start Here {#getting-started-with-livefyre-integration}
 
 When you get started with Livefyre, you will:
 

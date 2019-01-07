@@ -14,15 +14,6 @@ snippet: y
 
 Import your users and comments from an old system into Livefyre.
 
-On this page:
-
-* [](#c_importing_existing_data/section_gsm_ml1_c1b) 
-* [](#c_importing_existing_data/section_q1h_ll1_c1b) 
-* [](#c_importing_existing_data/section_krb_rk1_c1b) 
-* [](#c_importing_existing_data/section_hnr_nk1_c1b) 
-* [](#c_importing_existing_data/section_it3_mk1_c1b) 
-* [](#c_importing_existing_data/section_nf1_tj1_c1b)
-
 Livefyre enables customers to import legacy comment and user profile data, allowing you to maintain user history in your new Livefyre App.
 
 You will be asked to provide Livefyre with one file per site per import type (legacy and recent). For example, if you have three sites with both legacy and recent content, you will be asked to provide six files. After launch, we require one delta file per site, to bridge the gap between legacy and current content.

@@ -9,7 +9,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 + [Livefyre Implementation Guide](home.md)
 + Getting Started with Livefyre Integration {#getting-started-integration}
   + [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
-  + Implementation Process {#implementation-process}
+  + Implementation {#implementation-process}
     + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
     + [App Integration Types](c-getting-started/c-implementation-process/c-app-integration-types.md)
     + [Architecture](c-getting-started/c-implementation-process/c-architecture.md)
@@ -18,17 +18,16 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Build Server Side Tokens](c-getting-started/c-implementation-process/c-build-server-side-tokens.md)
     + [CollectionMeta Token](c-getting-started/c-implementation-process/c-collectionmeta-tokent.md)
     + [User Auth Token](c-getting-started/c-implementation-process/c-user-auth-token.md)
-+ [Create a Collection Using the CollectionMeta Token](t-create-a-collectionmeta-token.md)
-+ [Creating a Checksum](c-creating-a-checksum.md)
-  + Identity Integration {#identity-integration}
+  + [Create a Collection Using the CollectionMeta Token](t-create-a-collectionmeta-token.md)
+  + [Creating a Checksum](c-creating-a-checksum.md)
   + [Identity Integration](t-about-identity-integration/t-about-identity-integration.md)
   + [Authentication Package](t-about-identity-integration/c-authorization-package.md)
   + [AuthDelegate Object](t-about-identity-integration/c-building-an-auth-delegate.md)
   + [Posting User Permissions to External Systems (Optional)](t-about-identity-integration/c-posting-user-permissions-to-external-systems.md)
-  + Implementing SSO {#implementing-sso}
+  + Implmement SSO {#implementing-sso}
     + [Implementing SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
     + [Debugging Auth Delegate](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
-  + Sync with Livefyre Using Ping for Pull {#sync-ping-for-pull}
+  + Sync with Livefyre {#sync-ping-for-pull}
     + [Sync with Livefyre Using Ping for Pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
     + [Build the Pull Endpoint](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
     + [Register the Endpoint with Studio](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
@@ -52,13 +51,13 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Initialize Livefyre Identity](c-livefyre-identity-comp/t-initialize-livefyre-identity.md)
     + [Emails for Livefyre Identity](c-livefyre-identity-comp/c-emails-for-livefyre-identity.md)
     + [Janrain Capture/Backplane](c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)
-  + Importing Existing Data {#importing-existing-data}
+  + Import Data {#importing-existing-data}
     + [Importing Existing Data](c-importing-existing-data/c-importing-existing-data.md)
     + [Importing User Profiles](c-importing-existing-data/c-importing-user-profiles.md)
     + [Importing Content](c-importing-existing-data/c-importing-content.md)
     + [Importing Ratings and Reviews](c-importing-existing-data/c-importing-ratings-and-reviews.md)
   + Installation {#installation}
-    + [Installation](c-installing-libraries/c-installing-libraries.md)
+    + [Installing Libraries](c-installing-libraries/c-installing-libraries.md)
     + [Classes and Methods](c-installing-libraries/c-methods-livefyre.md)
     + [Network Methods](c-installing-libraries/c-network-methods.md)
     + [setSSL Network Method](c-installing-libraries/r-setssl-method.md)
@@ -97,7 +96,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 + [Creating Livefyre Tokens C#](c-creating-livefyre-tokens-c-.md)
 + [Implement a Visualization App](c-reference-implement-a-visualization-app.md)
   + App Integrations {#app-integrations}
-    + [App Integrations](c-app-integrations/c-app-integrations.md)
+    + [Integrate a Conversation App](c-app-integrations/c-app-integrations.md)
     + [Chat](c-app-integrations/c-app-integratios-chat.md)
     + Comments {#comments}
       + [Comments](c-app-integrations/c-comments-integration/c-comments-integration.md)
@@ -105,7 +104,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Live Blog](c-app-integrations/c-live-blog-integration.md)
     + [Reviews](c-app-integrations/c-reviews-integration.md)
     + Sidenotes {#sidenotes}
-      + [Sidenotes](c-app-integrations/c-sidenotes-integration/c-sidenotes-integration.md)
+      + [Sidenotes App](c-app-integrations/c-sidenotes-integration/c-sidenotes-integration.md)
       + [Sidenotes Integration](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
       + [Adding Sidenotes to a Page](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
       + [Sidenotes App Events](c-app-integrations/c-sidenotes-integration/r-app-events.md)

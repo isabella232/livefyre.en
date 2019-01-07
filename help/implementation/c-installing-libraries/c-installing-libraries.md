@@ -12,17 +12,6 @@ snippet: y
 
 # Installation{#installation}
 
-Installing the libraries for Livefyre server-side tasks
-
-## Installation {#c_installing_libraries}
-
-Installing the libraries for Livefyre server-side tasks
-
-<!-- 
-
-c_installing_libraries.dita
-
- -->
 
 ## Java {#section_yd3_3zk_rz}
 
