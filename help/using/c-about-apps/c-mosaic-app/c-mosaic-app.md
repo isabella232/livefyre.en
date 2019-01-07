@@ -14,26 +14,6 @@ snippet: y
 
 Add a lively and dynamic wall of color, photos, and videos to your site with a Mosaic App.
 
-## Mosaic {#c_mosaic_app}
-
-Add a lively and dynamic wall of color, photos, and videos to your site with a Mosaic App. 
-
-On this page:
-
-* [](#c_mosaic_app/section_tng_slj_yy) 
-* [](#c_mosaic_app/section_b5h_qlj_yy) 
-* [](#c_mosaic_app/section_w5c_plj_yy) 
-* [](#c_mosaic_app/section_cvz_nlj_yy) 
-* [](#c_mosaic_app/section_zzz_mlj_yy) 
-* [](#c_mosaic_app/section_hpx_llj_yy) 
-* [](#c_mosaic_app/section_f4w_klj_yy) 
-* [](#c_mosaic_app/section_h31_klj_yy) 
-* [](#c_mosaic_app/section_i5c_jlj_yy) 
-* [](#c_mosaic_app/section_upr_hlj_yy) 
-* [](#c_mosaic_app/section_dwb_glj_yy) 
-* [](#c_mosaic_app/section_lnv_clj_yy) 
-* [](#mosaic)
-
 Mosaic transforms user-generated content into a dynamic wall of color and photos, by displaying the latest uploaded and social media content in a uniform grid format.
 
 Site visitors can hover over a mosaic card to display text and other content information. Mobile and non-mobile users can expand a card to see a larger image, share content, and play video. As new items become available, old items are removed and placed back in the queue to form the perfect grid.

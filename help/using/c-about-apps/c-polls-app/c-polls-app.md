@@ -14,10 +14,6 @@ snippet: y
 
 Allow your clients to voice their opinions in real time.
 
-## Polls {#c_polls_app}
-
-Allow your clients to voice their opinions in real time.
-
 Polls allow you to create and publish quick, one-question polls to your site. Use Polls to encourage reader participation, gather feedback, opinions, and requests from site visitors.
 
 >[!NOTE]

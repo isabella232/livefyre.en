@@ -14,15 +14,6 @@ snippet: y
 
 Livefyre offers features in Apps that allow you to choose how site visitors view App content.
 
-On this page:
-
-* [](#c_content_behavior_features/section_emd_syl_d1b)
-* [](#c_content_behavior_features/section_mb5_lzl_d1b)
-* [](#c_content_behavior_features/section_q5w_mzl_d1b)
-* [](#c_content_behavior_features/section_p21_bbm_d1b)
-* [](#c_content_behavior_features/section_d5c_2bm_d1b)
-* [](#c_photo_upload)
-
 ## Streaming Real Time {#section_emd_syl_d1b}
 
 Livefyre Apps stream content in real-time when content is published manually from Studio or from a content stream. this means that newly published content will appear in the app without the end user needing to refresh the App page.

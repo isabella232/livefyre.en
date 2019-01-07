@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Experience Manager Livefyre User Guide
 ---
 
-# Experience Manager Livefyre User Guide {#using}
+# Experience Manager Livefyre User Guide {#using} 
 
 + [Livefyre Help](home.md)
 + [Announcements](c-anouncements.md)
@@ -130,7 +130,6 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Listener Count](c-features-livefyre/c-listener-count.md)
   + [Miscellaneous Features](c-features-livefyre/c-miscellaneous-features.md)
   + Moderation and Filtering {#moderation-filtering}
-    + [Moderation and Filtering](c-features-livefyre/c-about-moderation/c-about-moderation.md)
     + [Setting Up Moderation](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md)
     + [Restrict Content from Twitter Users](c-features-livefyre/c-about-moderation/t-moderate-streams.md)
     + [Ban IP Addresses](c-features-livefyre/c-about-moderation/t-set-up-bans.md)
@@ -171,14 +170,13 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Translation and Custom Text Strings](c-features-livefyre/c-custom-text-strings.md)
   + [UGC Commerce](c-features-livefyre/c-ugc-commerce.md)
 + Library {#library}
-  + [Library](c-library/c-library.md)
-    + Assets {#assets}
-      + [Assets](c-library/c-assets/c-assets.md)
-      + [Create Asset Folders](c-library/c-assets/t-create-folders.md)
-      + [Manage Asset Folders](c-library/c-assets/t-manage-folders.md)
-      + [View Asset Details](c-library/c-assets/t-manage-assets.md)
-      + [Publish Assets to Apps](c-library/c-assets/t-publish-assets-to-apps.md)
-      + [Search Saved Assets in the Library](c-library/c-assets/t-search-for-assets.md)
+  + Assets {#assets}
+    + [Assets](c-library/c-assets/c-assets.md)
+    + [Create Asset Folders](c-library/c-assets/t-create-folders.md)
+    + [Manage Asset Folders](c-library/c-assets/t-manage-folders.md)
+    + [View Asset Details](c-library/c-assets/t-manage-assets.md)
+    + [Publish Assets to Apps](c-library/c-assets/t-publish-assets-to-apps.md)
+    + [Search Saved Assets in the Library](c-library/c-assets/t-search-for-assets.md)
   + [Search by URL](c-library/c-searching-for-content.md)
   + [Search for YouTube Content](c-library/t-search-for-youtube-content.md)
   + [Search for Instagram Content](c-library/t-search-for-content.md)
@@ -246,7 +244,6 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [About Instagram Accounts](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
     + [Refresh a Token for a Social Account](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
 + Settings: Other {#settings-other}
-  + [Settings: Other](c-settings-other/c-settings-other.md)
   + [Set up Credentials](c-settings-other/t-set-up-credentials.md)
   + [Add a Site to a Network](c-settings-other/t-add-a-site.md)
   + Translation Sets {#translation-sets}

@@ -14,10 +14,6 @@ snippet: y
 
 Rate and review any piece of content on your website, in real-time.
 
-## Reviews {#c_reviews_app}
-
-Rate and review any piece of content on your website, in real-time.
-
 Reviews allows users to easily rate and review products, services, articles or any piece of content on your website, in real-time.
 
 Each Review posted into a Reviews App consists of a one line Review Title, a Body and a numerical Rating. By including a Title and a Rating, the Reviews App quantifies a user’s opinion, and provides a summary of the user’s experience with that product or service.

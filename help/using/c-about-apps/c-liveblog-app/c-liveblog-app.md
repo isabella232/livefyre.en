@@ -12,10 +12,6 @@ snippet: y
 
 # Live Blog{#live-blog}
 
-Live Blog allows your writers and editors to post real-time updates, transforming your site into an engaging live news source.
-
-## Live Blog {#c_liveblog_app}
-
 Live Blog allows your writers and editors to post real-time updates, transforming your site into an engaging live news source. 
 
 Posts by your team, rich with images, video, audio, and embedded content, become the source for new conversations and threads. Live Blog is perfect when deployed for product reveals, award programs, and sporting events.

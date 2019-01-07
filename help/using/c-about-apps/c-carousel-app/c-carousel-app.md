@@ -14,22 +14,6 @@ snippet: y
 
 Showcase your best content in a horizontal, scrollable view.
 
-## Carousel {#c_carousel_app}
-
-Showcase your best content in a horizontal, scrollable view. 
-
-On this page:
-
-* [](#c_carousel_app/section_ysb_4ym_wy) 
-* [](#c_carousel_app/section_jvs_mnt_wy) 
-* [](#c_carousel_app/section_qsx_xrt_wy) 
-* [](#c_carousel_app/section_hnh_wrt_wy) 
-* [](#c_carousel_app/section_hpc_5rt_wy) 
-* [](#c_carousel_app/section_xn3_2xm_wy) 
-* [](#c_carousel_app/section_tdp_cxm_wy) 
-* [](#c_carousel_app/section_r3q_bxm_wy) 
-* [](#c_carousel_app/section_ozs_1xm_wy)
-
 Carousel is a Livefyre App that allows you to showcase your best content in a horizontal, scrollable view. Use this App on pages with limited real estate, inviting people to experience each piece of curated content individually, in real time. A Carousel allows users to browse content, then click to select an item, and open it within a popup modal.
 
 For a less distracting viewing experience, a Carousel displays the latest content and keeps the current view until the user reloads the next set of items.

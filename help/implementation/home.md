@@ -10,7 +10,7 @@ uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 
 Implement Livefyre Studio and Livefyre Apps on your website using developer tools to customize your experience.
 
-For information on how to use Livefyre Studio and Livefyre Apps inside Livefyre Studio, see the *Adobe Experience Manager Livefyre User Guide*.
+For information on how to use Livefyre Studio and Livefyre Apps inside Livefyre Studio, see the [*Adobe Experience Manager Livefyre User Guide*] (/using).
 
 ## Popular Topics
 

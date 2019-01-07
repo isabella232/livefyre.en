@@ -14,21 +14,6 @@ snippet: y
 
 Filmstrip is a visualization App that showcases user-generated content into a dynamic single, horizontal strip of photos, similar to a strip of film from a camera.
 
-
-
-On this page:
-
-* [](#concept_jpc_n2j_jbb/section_tng_slj_yy) 
-* [](#concept_jpc_n2j_jbb/section_b5h_qlj_yy) 
-* [](#concept_jpc_n2j_jbb/section_w5c_plj_yy) 
-* [](#concept_jpc_n2j_jbb/section_cvz_nlj_yy) 
-* [](#concept_jpc_n2j_jbb/section_zzz_mlj_yy) 
-* [](#concept_jpc_n2j_jbb/section_f4w_klj_yy) 
-* [](#concept_jpc_n2j_jbb/section_h31_klj_yy) 
-* [](#concept_jpc_n2j_jbb/section_upr_hlj_yy) 
-* [](#concept_jpc_n2j_jbb/section_ttt_xps_mbb) 
-* [](#concept_jpc_n2j_jbb/section_dwb_glj_yy)
-
 ## About Filmstrip {#section_tng_slj_yy}
 
 You can use Filmstrip with UGC in e-commerce scenarios, such as product pages or transactional websites. End users can navigate Filmstrip by clicking the side arrows to scroll through the available content from left to right. New content displays on the left as it comes into the App. You can choose whether newly streamed UGC will have a label on it that says, *New* to help site visitors quickly identify new content.

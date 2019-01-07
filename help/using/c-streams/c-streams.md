@@ -14,16 +14,6 @@ snippet: y
 
 Pipe selected content to your Livefyre Apps or Studio Library.
 
-## Streams {#c_streams}
-
-Pipe selected content to your Livefyre Apps or Studio Library.
-
-<!-- 
-
-c_streams.dita
-
- -->
-
 Streams allow you to create rules to pull content from social media websites and push that content to your Asset Library or a selected Livefyre App.
 
 (Rule options vary by source type.)
