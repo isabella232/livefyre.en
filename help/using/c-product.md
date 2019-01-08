@@ -21,7 +21,7 @@ Livefyre provides powerful features that allow you to engage your audience and c
 With Livefyre Studio you can:
 
 * [Create, design, and publish Apps](c-about-apps/c-about-apps.md#c_about_apps)
-* [Discover, save, manage, and publish content in a library for later use](c-library/c-library.md#c_library)
+* [Discover, save, manage, and publish content in a library for later use](c-library/c-assets/c-assets.md)
 * [Request Rights for content](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md#t_send_a_rights_request_to_own_a_digital_asset)
 * [Set up a stream to dynamically publish or save content](c-streams/t-create-a-new-stream.md#t_create_a_new_stream)
 * [Moderate content to ensure content quality](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md#c_setting_up_moderation)

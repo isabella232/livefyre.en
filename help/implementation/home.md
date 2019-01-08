@@ -14,16 +14,16 @@ For information on how to use Livefyre Studio and Livefyre Apps inside Livefyre 
 
 ## Popular Topics
 
-* [Getting Started with Implementation](/c-getting-started/c-getting-started.md)
+* [Getting Started with Implementation](c-getting-started/c-getting-started.md)
  
 * [Use Livefyre Apps with Adobe Experience Manager](https://docs.adobe.com/content/docs/en/aem/6-4.html)
    
-* [Android SDK for Mobile](/c-mobile-sdks/c-android-sdk.md)
+* [Android SDK for Mobile](c-mobile-sdks/c-android-sdk.md)
     
-* [Integrating Comments using Developer Tools](/using/c-rn/c-rn.md)
+* [Integrating Comments using Developer Tools](/home/using/c-rn/c-rn.md)
 
-* [Integrating Apps using Developer Tools](/c-app-integrations/c-app-integrations.md)
+* [Integrating Apps using Developer Tools](c-app-integrations/c-app-integrations.md)
 
 * [API Documentation](https://api.livefyre.com)
 
-* [Release Notes](/c-rn/c-rn.md#c_rn)
+* [Release Notes](/home/using/c-rn/c-rn.md#c_rn)
