@@ -43,4 +43,3 @@ Apps that use this feature:
 * [Sidenotes](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](../../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 
-For more information about other moderation options, see [](../../c-features-livefyre/c-about-moderation/c-about-moderation.md#c_about_moderation).

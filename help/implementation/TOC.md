@@ -36,7 +36,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Build the Ping for Pull Response](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-build-the-ping-for-pull-response.md)
   + Livefyre Identity {#livefyre-identity}
     + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
-    + [Your Identity Service](c-livefyre-identity-comp/c-your-identity-service-comp.md)
     + [Enable Livefyre Identity](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
     + [Create Your Social Apps](c-livefyre-identity-comp/t-create-your-social-apps.md)
     + [Create a Facebook App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
@@ -96,7 +95,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 + [Creating Livefyre Tokens C#](c-creating-livefyre-tokens-c-.md)
 + [Implement a Visualization App](c-reference-implement-a-visualization-app.md)
   + App Integrations {#app-integrations}
-    + [Integrate a Conversation App](c-app-integrations/c-app-integrations.md)
     + [Chat](c-app-integrations/c-app-integratios-chat.md)
     + Comments {#comments}
       + [Comments](c-app-integrations/c-comments-integration/c-comments-integration.md)
@@ -104,7 +102,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Live Blog](c-app-integrations/c-live-blog-integration.md)
     + [Reviews](c-app-integrations/c-reviews-integration.md)
     + Sidenotes {#sidenotes}
-      + [Sidenotes App](c-app-integrations/c-sidenotes-integration/c-sidenotes-integration.md)
       + [Sidenotes Integration](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
       + [Adding Sidenotes to a Page](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
       + [Sidenotes App Events](c-app-integrations/c-sidenotes-integration/r-app-events.md)
@@ -157,12 +154,11 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Livefyre Analytics Events](livefyre-analytics/c-livefyre-analytics-events.md)
 + [Integrating Livefyre with AEM](c-livefyre-aem-integration.md)
   + Advanced Topics {#advanced-topics}
-    + [Advanced Topics](c-advanced-topics/c-advanced-topics.md)
-  + [Display Comment Count](c-advanced-topics/t-display-comment-count.md)
-  + [Enabling Social Sharing](c-advanced-topics/c-enabling-social-sharing.md)
-  + [Activity Stream](c-advanced-topics/c-activity-stream.md)
-  + [Bootstrap HTML](c-advanced-topics/c-bootstrap-html.md)
-  + [Change Collection](c-advanced-topics/c-change-collection.md)
-  + [Multiple Collections](c-advanced-topics/c-multiple-collections.md)
-  + [Switch Core App Types](c-advanced-topics/c-switch-core-app-types.md)
-  + [Social Counter](c-advanced-topics/c-social-counter.md)
+    + [Display Comment Count](c-advanced-topics/t-display-comment-count.md)
+    + [Enabling Social Sharing](c-advanced-topics/c-enabling-social-sharing.md)
+    + [Activity Stream](c-advanced-topics/c-activity-stream.md)
+    + [Bootstrap HTML](c-advanced-topics/c-bootstrap-html.md)
+    + [Change Collection](c-advanced-topics/c-change-collection.md)
+    + [Multiple Collections](c-advanced-topics/c-multiple-collections.md)
+    + [Switch Core App Types](c-advanced-topics/c-switch-core-app-types.md)
+    + [Social Counter](c-advanced-topics/c-social-counter.md)
