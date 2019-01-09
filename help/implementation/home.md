@@ -22,8 +22,8 @@ For information on how to use Livefyre Studio and Livefyre Apps inside Livefyre 
     
 * [Integrating Comments using Developer Tools](/using/c-rn/c-rn.md#c_rn)
 
-* [Integrating Apps using Developer Tools](c-app-integrations/c-app-integrations.md)
+* [Integrating Apps using Developer Tools](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
 
 * [API Documentation](https://api.livefyre.com)
 
-* [Release Notes](/using/c-rn/c-rn.md#c_rn)
+* [Release Notes](/help/using/c-rn/c-rn.md#c_rn)
