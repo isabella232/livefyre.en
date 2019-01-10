@@ -20,7 +20,7 @@ For information on how to use Livefyre Studio and Livefyre Apps inside Livefyre 
    
 * [Android SDK for Mobile](c-mobile-sdks/c-android-sdk.md)
     
-* [Integrating Comments using Developer Tools](/using/c-rn/c-rn.md#c_rn)
+* [Integrating Comments using Developer Tools](/help/using/c-rn/c-rn.md#c_rn)
 
 * [Integrating Apps using Developer Tools](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
 
