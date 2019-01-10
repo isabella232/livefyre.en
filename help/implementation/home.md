@@ -26,4 +26,4 @@ For information on how to use Livefyre Studio and Livefyre Apps inside Livefyre 
 
 * [API Documentation](https://api.livefyre.com)
 
-* [Release Notes](/help/using/c-rn/c-rn.md)
+* [Release Notes](/help/using/c-rn/c-rn.md)  
