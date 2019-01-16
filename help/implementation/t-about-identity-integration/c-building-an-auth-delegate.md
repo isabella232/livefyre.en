@@ -14,13 +14,6 @@ snippet: y
 
 The AuthDelegate object implements your desired behavior for how to perform authentication actions and events so you can customize integration with your site’s existing authentication system.
 
-On this page:
-
-* [](#c_building_an_auth_delegate/section_mpk_lv2_gz) 
-* [](#c_building_an_auth_delegate/section_uqz_2v2_gz) 
-* [](#c_building_an_auth_delegate/section_kkv_dv2_gz) 
-* [](#c_building_an_auth_delegate/section_bkx_pq2_gz)
-
 ## Building an Auth Delegate {#section_wmn_tv2_gz}
 
 The auth package must be provided with an auth delegate before it can perform an action. An auth delegate is any JavaScript object that implements one of the methods in this topic.
