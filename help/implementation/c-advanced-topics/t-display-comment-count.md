@@ -66,8 +66,8 @@ Livefyre’s `CommentCount.js` allows you to fetch the content counts for collec
 
 * **function:** Used to do the replacement on each element. The function’s arguments are:
 
-  **element:**The HTML element that is being updated.
-  **count:**The content count for this element.
+  **element:** The HTML element that is being updated.
+  **count:** The content count for this element.
 
 * **regex:** Used to determine which part of the element’s text should be replaced by the count.
 

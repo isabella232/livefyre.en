@@ -24,14 +24,14 @@ For more information on Report Suite Manager, see [Report Suite Manager](https:/
 1. Open Adobe Analytics Admin Report Suite Manager. 
 1. Create a new Report Suite or choose an existing one.
 1. Edit the report suite by clicking on the report suite to modify, then navigate to **[!UICONTROL Edit Settings > Conversion > Success Events]**.
-1. Map the Livefyre events to one or more Custom Success Events. For a list of events for Livefyre, see [](../livefyre-analytics/c-livefyre-analytics-events.md#c_livefyre_analytics_events).
+1. Map the Livefyre events to one or more Custom Success Events.
 
 ## Step 2: Set up Conversion Variables
 
 Map Livefyre conversion variables (eVars) to conversion variables in Adobe Analytics Admin Report Suite Manager. Conversion variables act like a sorting function to determine how you plan to identify data gathered from Livefyre events.
 
 1. In the Report Suite Manager click **[!UICONTROL Edit Settings > Conversion > Conversion Variables]**.
-1. Choose the custom conversion variables (eVars) to use and map them to the Livefyre conversion variables. For a list of custom conversion variables for Livefyre, see Conversion Variables (eVars) under [](../livefyre-analytics/c-livefyre-analytics-events.md#c_livefyre_analytics_events). To map a Livefyre conversion variable to a custom conversion variable:
+1. Choose the custom conversion variables (eVars) to use and map them to the Livefyre conversion variables. To map a Livefyre conversion variable to a custom conversion variable:
 
     * Enable the conversion variable
     * Name the conversion variable
@@ -108,13 +108,11 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
 1. In DTM select the **Rules** tab and then click on **Direct Call Rules**.
 
 1. Click on the **Create New Rule** button.
-1. Name the new rule **Livefyre Analytics**
-1. Expand the **conditions** configuration area
+1. Name the new rule **Livefyre Analytics**.
+1. Expand the **conditions** configuration area.
 1. In the **String** field, enter `livefyre_analytics`.
-
 1. Expand the Javascript / 3rd Party Tag section and click on the **Add New Script** button.
 1. Enter **Livefyre Analytics Config** into the **Tag Name** input box.
-
 1. Select **Non-Sequential Javascript**.
 1. Enter the following Livefyre configuration code into the code editor and click on the **Save Code** button. 
 
@@ -200,7 +198,6 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
    addAnalyticsHandler(); 
    
    ```
-
 1. Click on **Save Rule**.
 
 ## Step 6: Approve changes for Page Load Rule {#section_pxc_11t_ycb}
@@ -215,7 +212,7 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
 
 ## Script {#section_xkb_vft_mcb}
 
-The following sample code maps the specific eVars to available Livefyre eVars. The Livefyre conversion variable ( `eVar`) name (for example, `appId`) maps to the name you set up in the Report Suite Manager (for example, `eVar81`). Change the `eVar` names in this script to the custom conversion variables that were set up in [](#c_use_livefyre_with_adobe_analytics/section_iks_kgd_4cb).
+The following sample code maps the specific eVars to available Livefyre eVars. The Livefyre conversion variable ( `eVar`) name (for example, `appId`) maps to the name you set up in the Report Suite Manager (for example, `eVar81`). Change the `eVar` names in this script to the custom conversion variables.
 
 ```
 var s = _satellite.getToolsByType('sc')[0].getS(); 

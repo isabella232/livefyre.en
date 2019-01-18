@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Create an App{#create-an-app}
+# Create an App {#create-an-app}
 
 To add an App to your site, you must first create an App in Livefyre Studio.
 
@@ -21,10 +21,10 @@ To create a new App:
 
 The App Summary page provides 4 tabs:
 
-* **[!UICONTROL App Summary:]** provides an overview of the App’s content and status, and provides tools to access the App on its site and generate its embed code.
-* **[!UICONTROL Designer:]** allows you to select design options for the App, including fonts, color schemes, and App specific configuration options.
-* **[!UICONTROL Streams:]** lists all Stream sources for the App’s content. Click the Stream’s title to open the Stream Details page, from which it may be edited.
-* **[!UICONTROL Settings:]** allows you to select App specific settings, including rules for adding content to the App, and the types of content to display. Click the **[!UICONTROL Settings]** tab to override the Network and Site Settings for the App.
+* **[!UICONTROL App Summary]**: provides an overview of the App’s content and status, and provides tools to access the App on its site and generate its embed code.
+* **[!UICONTROL Designer]**: allows you to select design options for the App, including fonts, color schemes, and App specific configuration options.
+* **[!UICONTROL Streams]**: lists all Stream sources for the App’s content. Click the Stream’s title to open the Stream Details page, from which it may be edited.
+* **[!UICONTROL Settings]**: allows you to select App specific settings, including rules for adding content to the App, and the types of content to display. Click the **[!UICONTROL Settings]** tab to override the Network and Site Settings for the App.
 
 ## Apps List {#section_eyp_ykt_bbb}
 
@@ -32,17 +32,17 @@ The Apps list page provides access to all of your existing Livefyre Apps.
 
 The Apps list page displays the following information:
 
-* **[!UICONTROL Title:]**lists your App’s title, and includes an icon indicating the App type.
-* **[!UICONTROL Site:]**lists the App’s location, by site.
-* **[!UICONTROL Content Count:]**lists the number of pieces of content published to the App.
-* **[!UICONTROL Date Modified:]**lists the last time the App was changed in App Designer.
-* **[!UICONTROL Embed Code (</>):]**click the icon to generate the embed code for your App.
+* **[!UICONTROL Title]**: Lists your App’s title, and includes an icon indicating the App type.
+* **[!UICONTROL Site]**: Lists the App’s location, by site.
+* **[!UICONTROL Content Count]**: Lists the number of pieces of content published to the App.
+* **[!UICONTROL Date Modified]**: Lists the last time the App was changed in App Designer.
+* **[!UICONTROL Embed Code (</>)]**: Click the icon to generate the embed code for your App.
 
 ## App Customization {#section_lvj_xlt_bbb}
 
 You can use the App Designer tab to select **[!UICONTROL Style]** and **[!UICONTROL Configuration]** options to customize your Apps.
 
-**[!UICONTROL Style]** options are consistent across all App types; **[!UICONTROL Configuration]** options vary by App. The bottom of the **[!UICONTROL Style]** and **[!UICONTROL Configuration]** pane lists the Livefyre App version for your App.
+**[!UICONTROL Style]** Options are consistent across all App types; **[!UICONTROL Configuration]** Options vary by App. The bottom of the **[!UICONTROL Style]** and **[!UICONTROL Configuration]** pane lists the Livefyre App version for your App.
 
 **Select Style Options**
 
@@ -56,7 +56,7 @@ Style Apps to fit your site’s branding. Use the **[!UICONTROL Style]** options
 
 ## Updating Apps {#section_iwb_4bz_vcb}
 
-If a newer version of the App exists, an **[!UICONTROL Update]**button displays.
+If a newer version of the App exists, an **[!UICONTROL Update]** button displays.
 
 Click the button to update to the newest release version. Refresh your App to use all available feature enhancements and bug fixes. Once updated, preview changes made to your App (if any), then accept or reject the update.
 
@@ -97,7 +97,7 @@ Preview Mode offers the following options:
   >
   >Any content posted to a review version of your App will be added to the App. If you do not wish this content to appear in your published App, you must delete it before clicking **Publish**.
 
-* **[!UICONTROL Exit Preview:]** Returns you to edit mode.
+* **[!UICONTROL Exit Preview]**: Returns you to edit mode.
 
 >[!NOTE]
 >
@@ -135,16 +135,16 @@ Use the App Summary tab to manage information for individual Apps.
 
 The App Summary tab allows you to:
 
-* **[!UICONTROL See on Site:]** Opens the App on your site.
-* **[!UICONTROL Embed code:]** Available only for published Apps, provides a clickable link to generate the embed code for any published App.
+* **[!UICONTROL See on Site]**: Opens the App on your site.
+* **[!UICONTROL Embed code]**: Available only for published Apps, provides a clickable link to generate the embed code for any published App.
 
   >[!NOTE]
   >
   >Use this embed code to add Polls to your Comments or Live Blog App. For more information, see Custom Interactions > Custom HTML.
 
-* **[!UICONTROL View Content:]** Opens the Content page, which lists all content published to your App.
-* **[!UICONTROL Moderate:]** Opens ModQ, listing all content awaiting moderation for the App.
-* **[!UICONTROL Developer Info:]** provides the App’s Collection ID, Article ID, and Site ID.
+* **[!UICONTROL View Content]**: Opens the Content page, which lists all content published to your App.
+* **[!UICONTROL Moderate]**: Opens ModQ, listing all content awaiting moderation for the App.
+* **[!UICONTROL Developer Info]**: Provides the App’s Collection ID, Article ID, and Site ID.
 
 ## Embed an App on your Site Using Studio {#section_w3h_1nt_bbb}
 

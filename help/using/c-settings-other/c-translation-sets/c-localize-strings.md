@@ -89,11 +89,11 @@ Strings available for content stream information and display. Lists the number o
 |  | liveblogPostCountLabelZero  | post  |
 |  | liveblogPostCountLabel  | post  |
 |  | liveblogPostCountLabelPlural  | posts  |
-|  **Thread options** | | |
-|  | threadBreakoutButton  | Show entire Thread  |
+|   | | |
+| **Thread options** | threadBreakoutButton  | Show entire Thread  |
 |  | toggleCollapse  | Toggle Collapse  |
-|  **High velocity / queued comments** | | |
-|  | refresh  | Refresh  |
+|   | | |
+| **High velocity / queued comments** | refresh  | Refresh  |
 |  | newComment  | New Comment  |
 |  | newComments  | New Comments  |
 |  | newReply  | new reply  |
@@ -116,8 +116,8 @@ Allows uses to sort returned content by age or popularity.
 |  | topCommentsContentNotFoundMsg  | There are not enough likes yet.  |
 |  | hotThreadsContentNotFoundMsg  | There are not enough threads yet.  |
 |  | streamRefreshMsg  | See what’s new.  |
-|  **Footer options** | | |
-|  | archiveHeaderTitle  | From the Archive  |
+|   | | |
+| **Footer options** | archiveHeaderTitle  | From the Archive  |
 |  | archiveShowMore  | Show More  |
 |  | showMore  | Show More Comments  |
 |  | showMoreLiveblog  | Show More Posts  |
@@ -134,8 +134,8 @@ Lists post information: user name, any applied user tags, and post time.
 |---|---|---|
 |  | moderator  | moderator  |
 |  | hovercardViewProfile  | View Full Profile  |
-|  **Post info** | | |
-|  | timeJustNow  | just now  |
+|   | | |
+| **Post info** | timeJustNow  | just now  |
 |  | timeMinutesAgo  | minute ago  |
 |  | timeMinutesAgoPlural  | minutes ago  |
 |  | timeHoursAgo  | hour ago  |

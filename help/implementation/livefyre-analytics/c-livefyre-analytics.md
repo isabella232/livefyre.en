@@ -12,7 +12,7 @@ snippet: y
 
 # Use Livefyre with Other Analytics Tool{#use-livefyre-with-other-analytics-tool}
 
-You can use analytics tools to gather data on user interactions with Livefyre Apps. You can use Adobe Analytics or a tool of your choice. For information on how to use Adobe Analytics with Livefyre, see [](#c_livefyre_analytics).
+You can use analytics tools to gather data on user interactions with Livefyre Apps. You can use Adobe Analytics or a tool of your choice. 
 
 To use Livefyre with a tool of your choice (not Adobe Analytics), follow the procedure outlined on this page.  
 
@@ -56,6 +56,6 @@ pollForAnalytics();
 Once Livefyre.analytics functionality is available on the page, implement the analyticsHandler function to send the received events to the analytics provider of your choice.
 
 1. The analytics handler receives an array of events that must be iterated through and sent individually or as a batch, if your provider supports it.
-1. Map the event data received by the handler to a format that your analytics provider requires. You can see the list of analytics events and descriptions in [](../livefyre-analytics/c-livefyre-analytics-events.md#table_n24_1kd_4cb).
+1. Map the event data received by the handler to a format that your analytics provider requires. 
 1. Send the data to your analytics provider.
 

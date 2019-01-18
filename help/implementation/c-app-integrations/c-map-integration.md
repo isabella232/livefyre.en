@@ -14,11 +14,6 @@ snippet: y
 
 Plot user content to an interactive map.
 
-On this page:
-
-* [](#c_map_integration/section_w2m_db2_d1b) 
-* [](#c_map_integration/section_jc5_gxb_c1b)
-
 Map allows you to stream geotagged content onto a world map, allowing you to locate the social buzz around breaking news or a live event. All applicable content will be displayed, including text, comments, photos, and Tweets.
 
 >[!NOTE]

@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Livefyre Analytics Events{#livefyre-analytics-events}
+# Livefyre Analytics Events {#livefyre-analytics-events}
 
 ## Event Object Definition {#section_dh1_yhn_pdb}
 

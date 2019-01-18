@@ -62,7 +62,7 @@ If you’ve already completed the Getting Started section you should be familiar
 
 * **alwaysShowEditor:** *(optional)* **Boolean** By default, the reviews editor appears only after the user presses the “write review” button. Set this parameter to true to always display the editor.
 
-* **app:** *(required)* **string** The App name to use for reviews. Must be “reviews“.
+* **app:** *required* **string** The App name to use for reviews. Must be “reviews“.
 
 * **defaultSort:** *(optional)* **string** Allows you to select the default sort option for Reviews. Possible values are: mostHelpful, highestRated, lowestRated, newest, and oldest.
 
