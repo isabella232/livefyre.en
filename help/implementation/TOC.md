@@ -28,13 +28,13 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
   + Implement SSO {#implementing-sso}
     + [Implementing SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
     + [Debugging Auth Delegate](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
-+ Sync with Livefyre {#sync-ping-for-pull}
-  + [Sync with Livefyre Using Ping for Pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
-  + [Build the Pull Endpoint](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
-  + [Register the Endpoint with Studio](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
-  + [Build the Ping](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-ping.md)
-  + [Pull Request Structure](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-pull-request-structure.md)
-  + [Build the Ping for Pull Response](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-build-the-ping-for-pull-response.md)
+  + Sync with Livefyre {#sync-ping-for-pull}
+    + [Sync with Livefyre Using Ping for Pull](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
+    + [Build the Pull Endpoint](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
+    + [Register the Endpoint with Studio](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
+    + [Build the Ping](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-ping.md)
+    + [Pull Request Structure](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-pull-request-structure.md)
+    + [Build the Ping for Pull Response](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-build-the-ping-for-pull-response.md)
 + Livefyre Identity {#livefyre-identity}
   + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
   + [Enable Livefyre Identity](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
@@ -48,10 +48,10 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Create a LinkedIn App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
     + [Create a GitHub Identity App for Use with Livefyre Identity](c-livefyre-identity-comp/c-create-a-github-identity.md)
     + [Using Studio to Connect Your Social Apps to Your Livefyre Implementation](c-livefyre-identity-comp/t-using-studio-to-connect-your-social-apps-to-your-livefyre-implementation.md)
-    + [Add Livefyre.js to the Page](c-livefyre-identity-comp/t-add-livefyre.js-to-the-page.md)
-    + [Initialize Livefyre Identity](c-livefyre-identity-comp/t-initialize-livefyre-identity.md)
-    + [Emails for Livefyre Identity](c-livefyre-identity-comp/c-emails-for-livefyre-identity.md)
-    + [Janrain Capture/Backplane](c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)
+  + [Add Livefyre.js to the Page](c-livefyre-identity-comp/t-add-livefyre.js-to-the-page.md)
+  + [Initialize Livefyre Identity](c-livefyre-identity-comp/t-initialize-livefyre-identity.md)
+  + [Emails for Livefyre Identity](c-livefyre-identity-comp/c-emails-for-livefyre-identity.md)
+  + [Janrain Capture/Backplane](c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)
   + Import Data {#importing-existing-data}
     + [Importing Existing Data](c-importing-existing-data/c-importing-existing-data.md)
     + [Importing User Profiles](c-importing-existing-data/c-importing-user-profiles.md)
@@ -95,7 +95,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre.js](c-livefyre.js.md)
 + [Creating Livefyre Tokens C#](c-creating-livefyre-tokens-c-.md)
-+ [Implement a Visualization App](c-reference-implement-a-visualization-app.md)
 + App Integrations {#app-integrations}
   + [Chat](c-app-integrations/c-app-integratios-chat.md)
   + Comments {#comments}
@@ -112,7 +111,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Sidenotes Custom Strings](c-app-integrations/c-sidenotes-integration/r-custom-strings.md)
     + [Sidenotes Bookmarklet](c-app-integrations/c-sidenotes-integration/c-sidenotes-bookmarklet.md)
     + [Sidenotes Implementation](c-app-integrations/c-sidenotes-integration/r-sidenotes-implementation.md)
-    + [updateAnchors Method](c-app-integrations/c-sidenotes-integration/update-anchors-method.md)
   + [Map](c-app-integrations/c-map-integration.md)
   + [Media Wall](c-app-integrations/c-media-wall-integration.md)
   + [Trending](c-app-integrations/c-trending-integration.md)
@@ -148,16 +146,16 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Javascript Events for Visualization Apps](c-app-customizations/c-javascript-events-for-visualization-apps.md)
     + [Javascript Events for Media Wall](c-app-customizations/c-javascript-events-media-wall.md)
     + [Javascript Events for Conversation Apps](c-app-customizations/c-javascript-events-for-conversation-apps.md)
-    + [Embed a Comments App](c-app-customizations/c-embed-a-comments-app.md)
-    + [Referral Tracking](c-app-customizations/c-referral-tracking.md)
-    + [Device and Browser Support](c-app-customizations/c-device-and-browser-support.md)
-    + [Twitter Display Requirements](c-app-customizations/c-twitter-display-requirements.md)
-  + [Stress Test Policy](c-stress-test-policy.md)
-  + Analytics {#analytics}
-    + [Analytics](livefyre-analytics/livefyre-analytics.md)
-    + [Use Livefyre with Adobe Analytics And Dynamic Tag Manager (DTM)](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
-    + [Use Livefyre with Other Analytics Tool](livefyre-analytics/c-livefyre-analytics.md)
-    + [Livefyre Analytics Events](livefyre-analytics/c-livefyre-analytics-events.md)
+  + [Embed a Comments App](c-app-customizations/c-embed-a-comments-app.md)
+  + [Referral Tracking](c-app-customizations/c-referral-tracking.md)
+  + [Device and Browser Support](c-app-customizations/c-device-and-browser-support.md)
+  + [Twitter Display Requirements](c-app-customizations/c-twitter-display-requirements.md)
++ [Stress Test Policy](c-stress-test-policy.md)
++ Analytics {#analytics}
+  + [Analytics](livefyre-analytics/livefyre-analytics.md)
+  + [Use Livefyre with Adobe Analytics And Dynamic Tag Manager (DTM)](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
+  + [Use Livefyre with Other Analytics Tool](livefyre-analytics/c-livefyre-analytics.md)
+  + [Livefyre Analytics Events](livefyre-analytics/c-livefyre-analytics-events.md)
 + [Integrating Livefyre with AEM](c-livefyre-aem-integration.md)
 + Advanced Topics {#advanced-topics}
     + [Display Comment Count](c-advanced-topics/t-display-comment-count.md)
@@ -168,3 +166,4 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Multiple Collections](c-advanced-topics/c-multiple-collections.md)
     + [Switch Core App Types](c-advanced-topics/c-switch-core-app-types.md)
     + [Social Counter](c-advanced-topics/c-social-counter.md)
+    + [Use Bootsrap and Stream API with Livefyre Apps](/help/implementation/c-advanced-topics/c-bootstrap-html.md)

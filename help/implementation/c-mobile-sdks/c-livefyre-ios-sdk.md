@@ -14,15 +14,6 @@ snippet: y
 
 Add Livefyre to your native iOS App.
 
-On this page:
-
-* [](#c_livefyre_ios_sdk/section_qc5_h3v_zz) 
-* [](#c_livefyre_ios_sdk/section_jcm_g3v_zz) 
-* [](#c_livefyre_ios_sdk/section_rpb_f3v_zz) 
-* [](#c_livefyre_ios_sdk/section_arl_b3v_zz) 
-* [](#c_livefyre_ios_sdk/section_m5l_13v_zz) 
-* [](#c_livefyre_ios_sdk/section_pcd_5hv_zz)
-
 Use this open-source library to integrate Livefyre services into your native iOS app. The Livefyre StreamHub iOS SDK provides a thin layer around our common API mechanisms, based on the excellent AFNetworking library.
 
 Livefyre also provides two iOS Sample Apps based on this SDK: a Comment Stream and a Reviews sample App.
@@ -65,7 +56,7 @@ git clone https://github.com/Livefyre/StreamHub-iOS-SDK.git
 
 Next, add the Xcode project (LFSClient.xcodeproj) to your app as a subproject (easily done by simply dragging the LFSClient.xcodeproj file into Project Navigator pane in Xcode).
 
-You will also need to do the same with any of the dependencies ( [AFNetworking](https://github.com/AFNetworking/AFNetworking), [JSONKit](https://github.com/escherba/JSONKit)).
+You will also need to do the same with any of the dependencies ([AFNetworking](https://github.com/AFNetworking/AFNetworking), [JSONKit](https://github.com/escherba/JSONKit)).
 
 ## Download everything at once (not recommended) {#section_rpb_f3v_zz}
 
@@ -84,7 +75,7 @@ open CommentStream.xcworkspace
 
 >[!NOTE]
 >
->To run tests in Xcode 6, you must add $(PLATFORM_DIR)/Developer/Library/Frameworks to FRAMEWORK_SEARCH_PATHS in Pods-test-XCTest+OHHTTPStubSuiteCleanUp pod [ [https://stackoverflow.com/a/24651704](https://stackoverflow.com/a/24651704)].
+>To run tests in Xcode 6, you must add $(PLATFORM_DIR)/Developer/Library/Frameworks to FRAMEWORK_SEARCH_PATHS in Pods-test-XCTest+OHHTTPStubSuiteCleanUp pod[https://stackoverflow.com/a/24651704](https://stackoverflow.com/a/24651704).
 
 You need LFSTestConfig.plist file from Livefyre, which Livefyre provides upon request.
 

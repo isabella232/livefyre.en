@@ -56,8 +56,8 @@ See also:
 
     * **title:** *required* The title of the collection, typically the title of your article. Max length is 255 characters. Does not support html entities. Please encode special characters using UTF-8.
     * **url:** *required* The canonical url of your article. This is used by the comment sharing and social sync features, and links to your article from the Admin dashboard. If testing locally, please note that Livefyre will not accept ‘localhost’ as a domain.
-    * **tags:** (optional) A comma-separated list of tags you would like to add to the collection in the Livefyre dashboard. Tags cannot contain spaces. Use underscores if you wish a space to appear in the Admin dashboard.
-    * **type:** (optional) A string indicating what type of collection to create. Valid values are:
+    * **tags:** *optional* A comma-separated list of tags you would like to add to the collection in the Livefyre dashboard. Tags cannot contain spaces. Use underscores if you wish a space to appear in the Admin dashboard.
+    * **type:** *optional* A string indicating what type of collection to create. Valid values are:
 
         * `reviews`
         * `sidenotes`

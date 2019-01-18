@@ -31,4 +31,3 @@ To create a Yahoo! app for use with Livefyre Identity:
    >[!NOTE]
    >
    >If you enable Yahoo! login without creating a Yahoo! app, and if you leave the Client ID and Client Secret fields in Studio blank, Livefyre will use OpenID to log these users into your Livefyre Apps. OAuth and custom branding will not be available in this case.
-

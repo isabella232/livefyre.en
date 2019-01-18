@@ -16,7 +16,7 @@ Language bindings for Livefyre’s server-side library methods.
 
 The following classes of methods exist in order to interface to interact with Livefyre:
 
-* [](../c-installing-libraries/c-installing-libraries.md). Interface to interact with Livefyre network-level API.
-* [](../c-installing-libraries/c-collection-methods.md#c_collection_methods). Interface to interact with Livefyre Collection-level API.
-* [](../c-installing-libraries/c-site-methods.md#c_site_methods). Interface to interact with Livefyre site-level API.
+* [Installation](../c-installing-libraries/c-installing-libraries.md). Interface to interact with Livefyre network-level API.
+* [Collection](../c-installing-libraries/c-collection-methods.md#c_collection_methods). Interface to interact with Livefyre Collection-level API.
+* [Site](../c-installing-libraries/c-site-methods.md#c_site_methods). Interface to interact with Livefyre site-level API.
 

@@ -14,11 +14,9 @@ snippet: y
 
 Informs Livefyre to update the network’s user sync URL to the one provided. Returns a Boolean.
 
-*`urlTemplate`*
-
-String
-
-The URL to register with Livefyre for syncing user IDs. Requires “`{id}`” to be part of the provided URL string.
+|Variable|Type|Description|
+|--- |--- |--- |
+|urlTemplate|String|The URL to register with Livefyre for syncing user IDs. Requires “`{id}`” to be part of the provided URL string.|
 
 ## Java Example {#section_nyl_ycs_rz}
 

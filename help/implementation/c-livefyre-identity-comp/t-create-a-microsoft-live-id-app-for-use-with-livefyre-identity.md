@@ -29,4 +29,5 @@ To create an Microsoft Live Identity app for use with Livefyre Identity:
 1. In **[!UICONTROL Livefyre Integration Settings Livefyre Identity Microsoft Live]**, switch the **[!UICONTROL Enable Microsoft Live Login]** toggle to **[!UICONTROL On]**.
 1. Enter the Microsoft Live Client ID and Microsoft Live Client Secret.
 1. Click **[!UICONTROL Save Settings]**.
->When complete,Microsoft Live Identity’s app details page will list the app’s Client ID (Consumer Key) and Client Secret (Consumer Secret) for use in Studio’s Integration Settings page.
+
+When complete,Microsoft Live Identity’s app details page will list the app’s Client ID (Consumer Key) and Client Secret (Consumer Secret) for use in Studio’s Integration Settings page.

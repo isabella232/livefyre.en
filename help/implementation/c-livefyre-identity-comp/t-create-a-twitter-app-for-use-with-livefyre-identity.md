@@ -25,9 +25,9 @@ To create a Twitter App for use with Livefyre Identity:
 1. From the Settings page for the app:
 
     * Enter **[!UICONTROL Callback URL:]** `https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/twitter_fyre` (where **{networkName}** is your Livefyre provided network name. For example:** [!UICONTROL labs]** in **[!UICONTROL `labs.fyre.co`]**.)
-    
     * Deselect **[!UICONTROL Enable Callback Locking]**.
     * Select **[!UICONTROL Allow this application to be used to Sign in with Twitter]**.
 
 1. From the **[!UICONTROL Permissions]** tab, select **[!UICONTROL Access: Read only]**.
->When complete, Twitter’s Application Management > Keys and Access Tokens page will list the app’s Consumer Key (API Key) and Consumer Secret (API Secret) for use in Studio’s Integration Settings page.
+
+When complete, Twitter’s Application Management > Keys and Access Tokens page will list the app’s Consumer Key (API Key) and Consumer Secret (API Secret) for use in Studio’s Integration Settings page.

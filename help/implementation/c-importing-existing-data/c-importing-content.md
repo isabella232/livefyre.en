@@ -18,7 +18,7 @@ Importing Chat and Comment data into Livefyre. Import legacy content after your 
 
 To begin the import process, you must prepare your import data. Livefyre’s import system expects a specific file format of line-delimited JSON Blobs, with each file representing a site on your network, and each line within the file representing an individual Collection on that site.
 
-The Content [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json). Validators can be found in the language of your choice from the json-schema.org > [Implementations](https://json-schema.org/implementations.html) page.
+The Content [JSON schema](https://json-schema.org/) is described in this Livefyre [GitHub gist](https://github.com/Livefyre/import-tools/blob/master/lfvalidator/jsonschema/conv_schema.json). Validators can be found in the language of your choice from the json-schema.org > [JSON Schema Implementations](https://json-schema.org/implementations.html) page.
 
 ### File Format Standards
 
@@ -40,7 +40,6 @@ A successful import must adhere to the following standards:
 ### HTML Standards
 
 * **Allowed HTML tags and attributes in comment bodies:**
-
   * Tags: a, span, label, p, br, strong, em, u, blockquote, ul, li, ol, pre, body, b, i
   * Attributes: href, target
 
@@ -116,37 +115,37 @@ The following parameters are used in the Content import process.
 
 ### Required
 
-* **source:** *required* string The site on which the comment originated.
+* **source:** *required string* The site on which the comment originated.
 
-* **title:** *required* string The title for the Collection to which the comment was posted.
+* **title:** *required string* The title for the Collection to which the comment was posted.
 
-* **created:** *required* timestamp The ISO-8601 compliant timestamp for the moment the Collection in which the comment was posted was created. For example: “2010-07-05T23:01:15Z”
+* **created:** *required timestamp* The ISO-8601 compliant timestamp for the moment the Collection in which the comment was posted was created. For example: “2010-07-05T23:01:15Z”
 
-* **id (source):** *required* string The article ID you chose to uniquely identify a Collection within your Site, encoded using Base64. This parameter is limited to 150 characters.
+* **id (source):** *required string* The article ID you chose to uniquely identify a Collection within your Site, encoded using Base64. This parameter is limited to 150 characters.
 
-* **id (comments):** *required* string Your system’s internal content identifier, used by the importer to relate children using their `parent_id`.
+* **id (comments):** *required string* Your system’s internal content identifier, used by the importer to relate children using their `parent_id`.
 
-* **imported_display_name:** *required* string The name to display next to content. (Unicode characters may be used.)
+* **imported_display_name:** *required string* The name to display next to content. (Unicode characters may be used.)
 
-* **author_id:** *required* string The unique ID of the content’s author. (Unicode characters cannot be used for this parameter.)
+* **author_id:** *required string* The unique ID of the content’s author. (Unicode characters cannot be used for this parameter.)
 
-* **body_html:** *required* string The text string for the Comment. Only `<p>` and `<a>` tags, and the href attribute are allowed.
+* **body_html:** *required string* The text string for the Comment. Only `<p>` and `<a>` tags, and the href attribute are allowed.
 
-* **created:** *required* timestamp The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
+* **created:** *required timestamp* The ISO-8601 compliant timestamp for the Comment’s creation. For example: “2010-07-05T23:01:15Z”
 
 **Optional fields**
 
-* **imported_email:** `(optional)` string Used for gravatars, and not displayed publicly.
+* **imported_email:** *(optional) string* Used for gravatars, and not displayed publicly.
 
-* **imported_url:** `(optional)` string **A user provided website.
+* **imported_url:** *(optional) string* A user provided website.
 
-* **parent_id:** `(optional)` string Provide the parent ID for the comment to which this comment is a reply. Parent comments must appear before their children.
+* **parent_id:** *(optional) string* Provide the parent ID for the comment to which this comment is a reply. Parent comments must appear before their children.
 
-* **likes:** `(optional)` array An array of user IDs of users who have ‘liked’ the comment.
+* **likes:** *(optional) array* An array of user IDs of users who have ‘liked’ the comment.
 
-* **tags:** `(optional)` array **Use tags to assign users to user groups. Tags may include 1-63 alphanumeric and underscore characters.
+* **tags:** *(optional) array* Use tags to assign users to user groups. Tags may include 1-63 alphanumeric and underscore characters.
 
-* **allow_comments:** `(optional)` Boolean Set to `false` if you do not wish to allow new comments on the conversation. May be `true` or `false`.
+* **allow_comments:** *(optional) Boolean* Set to `false` if you do not wish to allow new comments on the conversation. May be `true` or `false`.
 
 ## Example Comment Format {#section_ufj_jkn_b1b}
 

@@ -30,13 +30,9 @@ To create a Facebook app for use with Livefyre Identity:
 1. Click **[!UICONTROL Settings]** and set up the following:
 
     * Set **[!UICONTROL Client OAuth Login]** to **[!UICONTROL Yes]**.
-    
     * Set **[!UICONTROL Web OAuth Login]** to **[!UICONTROL Yes]**.
-    
     * Set **[!UICONTROL Use Strict Mode for Redirect URIs]** to **[!UICONTROL Yes]**.
-    
     * Set **[!UICONTROL Enforce HTTPS for Web OAuth Login]** to **[!UICONTROL Yes]**.
-    
     * Under **[!UICONTROL Valid OAuth redirect URLs]**, add the URL `https://identity.livefyre.com/{networkName}/api/v1.0/public/profile/social/complete/facebook_fyre` (where `{networkName}` is your Livefyre-provided network name).
 
 1. Under **[!UICONTROL App Review]**:
@@ -44,4 +40,4 @@ To create a Facebook app for use with Livefyre Identity:
     * Make the App public.
     * Ensure that the **[!UICONTROL Approved Items]** for **[!UICONTROL Login Permissions]** include `email`, `public_profile`, and `user_friends`.
 
->When complete, the Facebook developer’s Dashboard page will list your App ID and App Secret for use in Studio’s Integration Settings.
+When complete, the Facebook developer’s Dashboard page will list your App ID and App Secret for use in Studio’s Integration Settings.

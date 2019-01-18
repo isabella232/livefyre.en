@@ -13,10 +13,10 @@ snippet: y
 # getSite Network Method{#getsite-network-method}
 
 Returns a new Site object.
-
-|  *`siteId`* | String  | The Livefyre-provided ID for the website or application to which the Collection belongs. For example: 303617.  |
-|---|---|---|
-|  *`siteKey`* | String  | The Livefyre-provided secret key for siteId.  |
+|Variable|Type|Description|
+|--- |--- |--- |
+|siteId|String|The Livefyre-provided ID for the website or application to which the Collection belongs. For example: 303617.  |
+|siteKey|String|The Livefyre-provided secret key for siteId.  |
 
 ## Java Example {#section_nyl_ycs_rz}
 

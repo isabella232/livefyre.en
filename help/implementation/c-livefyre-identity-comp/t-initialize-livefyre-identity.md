@@ -29,4 +29,3 @@ Livefyre provides an `lfep-auth-delegate` package that will make an appropriate 
     auth.delegate( identity ); 
     });
    ```
-

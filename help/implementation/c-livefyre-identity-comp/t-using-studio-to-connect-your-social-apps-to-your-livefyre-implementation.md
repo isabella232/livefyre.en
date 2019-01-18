@@ -109,4 +109,3 @@ Enable your users to use your Livefyre Identity implementation for apps on your 
 1. Navigate to **[!UICONTROL Studio]** > **[!UICONTROL Settings]** > **[!UICONTROL Integration Settings]**> **[!UICONTROL Livefyre Identity]**.
 
 1. Enter the required App credentials for the App you created.
-

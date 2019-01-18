@@ -48,7 +48,7 @@ Livefyre needs certain credentials from your Janrain Capture app.
 
 Add Livefyre defaults to users stored in your Capture app to enable you to send users email notifications or allow them to automatically follow conversations that users comment on.
 
-1. Complete [](#c_janrain_capture_backplane/section_r2f_kxt_bbb).
+1. Complete [Step 1: Set Up Capture](#c_janrain_capture_backplane/section_r2f_kxt_bbb).
 1. Add the following Livefyre default fields. All fields are optional.
 
 |  Parameter  | Type  | Description  |
@@ -63,6 +63,8 @@ Add Livefyre defaults to users stored in your Capture app to enable you to send 
 ## Step 3: Build the AuthDelegate Object for Janrain Integration {#section_asv_vyt_bbb}
 
 Livefyre.require provides a plugin that enables auth to listen to the Janrain Backplane bus.
+
+### Login {#login}
 
 When an identity/login message is broadcast on the Backplane channel, auth.authenticate() will be called for you with the user’s Livefyre Authentication token. You must still implement an AuthDelegate.
 
@@ -81,17 +83,17 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 >
 >The window.Backplane object must be defined on your page before calling auth.plugin with the Livefyre Backplane plugin. To make sure the Backplane object is available, call the Livefyre instantiation code from an onReady callback. Consult your Janrain contact to determine when other applications may use the Backplane object.
 
-The following are some examples of how an auth delegate may look for a Janrain Capture integration.
+
 
 >[!NOTE]
 >
 >Your auth delegate will vary depending upon your Janrain instance.
 
-*
+The following are some examples of how an auth delegate may look for a Janrain Capture integration.
 
-    * The callback passed to your auth delegate’s login method
-    * The reference to your Janrain capture variable.
-    * : A reference to your Backplane object.
+* `errback`: The callback passed to your auth delegate’s login method
+* `janrain`: The reference to your Janrain capture variable.
+* `window.Backplane`: A reference to your Backplane object.
 
 ```
 /** 
@@ -124,11 +126,11 @@ authDelegate.login = function(finishLogin) {
 };
 ```
 
-Logout
+### Logout {#logout}
 
-* **finishLogout:** The callback passed to your auth delegate’s login method.
+* `finishLogout`: The callback passed to your auth delegate’s login method.
 
-* **window.Backplane:** A reference to your Backplane object.
+* `window.Backplane`: A reference to your Backplane object.
 
 ```
 /** 
@@ -145,7 +147,7 @@ authDelegate.logout = function(finishLogout) {
 
 ```
 
-Edit Profile
+### Edit Profile {#editprofile}
 
 This can link to whatever part of the site you would like users to visit to view their own profile page. This example merely prints out the author object passed in.
 
@@ -160,7 +162,7 @@ authDelegate.editProfile = function(user) {
 
 ```
 
-View Profile
+### View Profile {#viewprofile}
 
 Like Edit Profile, this should link to a user’s page that is different from the currently logged in user. This can be implemented however you see fit. This example simply logs the author parameter to the console.
 
@@ -180,11 +182,11 @@ Keeping Livefyre Remote Profiles in sync with your Capture user management syste
 
 1. Get an access code from Janrain.
 
-   To get the access code, supply the necessary credentials, specify the user_type as “user”, and the uuid as the current user’s uuid to update. For more information, see [https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/.](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/)
+   To get the access code, supply the necessary credentials, specify the user_type as “user”, and the uuid as the current user’s uuid to update. For more information, see [https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/](https://developers.janrain.com/rest-api/methods/authentication/access-codes-and-tokens/getauthorizationcode/).
 
 1. Trade the access code for an access token. Supply the necessary credentials, the access code received from step 1, and specify the grant_type as “authorization_code”.
 
-   For more information, see [https://developers.janrain.com/rest-api/methods/authentication/oauth/token/](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/)
+   For more information, see [https://developers.janrain.com/rest-api/methods/authentication/oauth/token/](https://developers.janrain.com/rest-api/methods/authentication/oauth/token/).
 
 1. Hit the Livefyre “Ping to Pull Capture” endpoint.
 
@@ -198,7 +200,7 @@ To benefit from this built-in Capture/Backplane integration, you must make some 
 
 Janrain sends successful login/logout messages through the Backplane bus, on which the Livefyre App, when properly configured, listens. These messages contain all the information needed to show App users as logged in or logged out. Developers can view Backplane bus messages by inspecting the Network tab in your browser’s developer console.
 
-## Login {#section_ftt_tvp_mz}
+## Login Code Example {#section_ftt_tvp_mz}
 
 Request:
 
@@ -269,7 +271,7 @@ Empty Response:
 Backplane.response([]);
 ```
 
-## Logout {#section_t52_svp_mz}
+## Logout Code Example {#section_t52_svp_mz}
 
 Request:
 
