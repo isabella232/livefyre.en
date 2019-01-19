@@ -207,11 +207,13 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
 The following sample code maps the specific eVars to available Livefyre eVars. The Livefyre conversion variable ( `eVar`) name (for example, `appId`) maps to the name you set up in the Report Suite Manager (for example, `eVar81`). Change the `eVar` names in this script to the custom conversion variables.
 
 ```
-var s = _satellite.getToolsByType('sc')[0].getS(); 
+
+var s = _satellite.getToolsByType`('sc')[0]`.getS(); 
 var evarMap = { 
   appId: 'eVar81', 
   appType: 'eVar82' 
 };
+
 ```
 
 The following sample code maps the specific events you set up in the Report Suite Manager with available Livefyre events. In this example, `event82` is set up as any user interaction event without differentiating which kind of user interaction event (for example, liking or sharing content). This is an efficient way to record all user interaction information in a block. You can also map the events in the DTM Analytics UI with Data Element referencing.
