@@ -46,10 +46,10 @@ You do not need to perform this step if you already have a property or tool set 
 1. In DTM, create or edit an existing property. 
 1. Create or edit an existing Adobe Analytics tool. 
 1. If an existing Adobe Analytics Tool does not exist, click the **[!UICONTROL Add a Tool]** button.
-   Set the following parameters for the tool:
-    * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
-    * Enable **[!UICONTROL Automatic Configuration]**.
-    * Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
+Set the following parameters for the tool:
+  * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
+  * Enable **[!UICONTROL Automatic Configuration]**.
+  * Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
 1. Add or confirm the name of the report suite with Livefyre events to the **[!UICONTROL Report Suites]** field.
 
 ## Step 4: Set up a Page Load Rule to Set Up Analytics Handling {#section_jfj_j3d_4cb}
@@ -69,24 +69,25 @@ Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you t
 1. Under **[!UICONTROL Javascript/ Third Party Tags]**, click the **[!UICONTROL Non-sequential]** tab, then click **[!UICONTROL Add New Script]**.
 1. Select **[!UICONTROL Sequential HTML]** as the script type.
 1. Add the following script into the code editor and click **[!UICONTROL Save Code]**.
-   The following script calls the `livefyre_analytics` direct call rule after the Livefyre JavaScript loads. The following script example checks every 400ms to see if `livefyre.analytics` is on the page. After the page loads, livefyre.analytics sends out tracking information.
+  The following script calls the `livefyre_analytics` direct call rule after the Livefyre JavaScript loads. The following script example checks every 400ms to see if `livefyre.analytics` is on the page. After the page loads, livefyre.analytics sends out tracking information.
 
-   ```
-   /** 
-    * Poll for Livefyre.analytics object to exist since it gets loaded via the 
-    * Livefyre.js JavaScript file. Depending on the timing, this could already 
-    * exist or need a little time. 
-    */ 
-   function pollForAnalytics() {  
-     if (Livefyre.analytics) { 
-       _satellite.track('livefyre_analytics'); 
+  ```
+  /** 
+  * Poll for Livefyre.analytics object to exist since it gets loaded via the 
+  * Livefyre.js JavaScript file. Depending on the timing, this could already 
+  * exist or need a little time. 
+  */ 
+ function pollForAnalytics() {  
+   if (Livefyre.analytics) { 
+     _satellite.track('livefyre_analytics'); 
        return true; 
      } 
      setTimeout(pollForAnalytics, 400); 
-   } 
+ } 
     
-   setTimeout(pollForAnalytics, 400);
-   ```
+ setTimeout(pollForAnalytics, 400);
+ ```
+
 1. Click **[!UICONTROL Save Code]**.
 1. Click **[!UICONTROL Save Rule]**.
 
@@ -137,55 +138,56 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
    ```
 
    ```
-   function trackLivefyreEvent(data) {  
-     var event = eventMap[data.type]; 
-     console.log('Track:', data.type, event); 
-      
-     if (!event) { 
-       console.warn(data.type, 'is not mapped to an event in AA');  
-       return; 
-     } 
-     var vars = ['events'];  
-     switch (event) { 
-       case 'event82': s.eVar83 = data.type;  
-         vars.push('eVar83');  
-         break; 
-       default: 
-     } 
-     ['generator', 'evars'].forEach(function (type) {  
-       var obj = data[type]; 
-       for (var d in obj) { 
-         if (obj.hasOwnProperty(d) && evarMap[d]) {  
-           s[evarMap[d]] = obj[d];  
-           vars.push(evarMap[d]); 
-         } 
-       } 
-     }); 
-     s.linkTrackVars = vars.join(',');  
-     s.linkTrackEvents = event;  
-     s.events = event; 
-      
-     console.log('linkTrackVars:', s.linkTrackVars);  
-     console.log('linkTrackEvents:', s.linkTrackEvents);  
-     console.log('events:', s.events); 
-     s.tl(); 
-   } 
+  function trackLivefyreEvent(data) {  
+   var event = eventMap[data.type]; 
+   console.log('Track:', data.type, event); 
     
-   /** 
-    * Adds an analytics handler for all analytics events from Livefyre. For each 
-    * event, it sets the data on a global object and then dispatches the event. 
-    */ 
-   function addAnalyticsHandler() {  
-     Livefyre.analytics.addHandler(function (events) { 
-       (events || []).forEach(function (data) {  
-         console.log('Event handled:', data.type);  
-         trackLivefyreEvent(data); 
-       }); 
-     }); 
+   if (!event) { 
+     console.warn(data.type, 'is not mapped to an event in AA');  
+     return; 
    } 
-   addAnalyticsHandler(); 
+   var vars = ['events'];  
+   switch (event) { 
+     case 'event82': s.eVar83 = data.type;  
+       vars.push('eVar83');  
+       break; 
+     default: 
+   } 
+     ['generator', 'evars'].forEach(function (type) {  
+     var obj = data[type]; 
+     for (var d in obj) { 
+       if (obj.hasOwnProperty(d) && evarMap[d]) {  
+         s[evarMap[d]] = obj[d];  
+         vars.push(evarMap[d]); 
+       } 
+     } 
+   }); 
+   s.linkTrackVars = vars.join(',');  
+   s.linkTrackEvents = event;  
+   s.events = event; 
+      
+   console.log('linkTrackVars:', s.linkTrackVars);  
+   console.log('linkTrackEvents:', s.linkTrackEvents);  
+   console.log('events:', s.events); 
+   s.tl(); 
+ } 
+    
+ /** 
+  * Adds an analytics handler for all analytics events from Livefyre. For each 
+  * event, it sets the data on a global object and then dispatches the event. 
+  */ 
+ function addAnalyticsHandler() {  
+   Livefyre.analytics.addHandler(function (events) { 
+     (events || []).forEach(function (data) {  
+       console.log('Event handled:', data.type);  
+       trackLivefyreEvent(data); 
+     }); 
+   }); 
+ } 
+ addAnalyticsHandler(); 
    
    ```
+
 1. Click on **Save Rule**.
 
 ## Step 6: Approve changes for Page Load Rule {#section_pxc_11t_ycb}

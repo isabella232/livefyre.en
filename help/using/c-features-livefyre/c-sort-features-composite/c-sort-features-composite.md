@@ -14,22 +14,6 @@ snippet: y
 
 You can choose various sorting options depending on the App and what you want site visitors to be able to do.
 
-## Sort Features {#c_sort_features}
-
-You can choose various sorting options depending on the App and what you want site visitors to be able to do.
-
-On this page:
-
-* [](#c_sort_features/section_elc_hfs_d1b) 
-* [](#c_sort_features/section_grr_hfs_d1b) 
-* [](#c_sort_features/section_t4s_hfs_d1b)
-
-<!-- 
-
-c_sort_features.dita
-
- -->
-
 ## Sort by Rating {#section_elc_hfs_d1b}
 
 This feature is only available for Reviews. Sort content by number of stars or other quality metric rating.

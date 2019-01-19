@@ -25,44 +25,43 @@ Settings available from this page will update to reflect your social sharing sys
 
 To enable Janrain Engage integration, enter the following credentials:
 
-* **[!UICONTROL Engage API Key:]**the API key for your Janrain Engage account.
-* **[!UICONTROL Engage Domain:]**your Janrain provided domain name.
+* **[!UICONTROL Engage API Key:]** The API key for your Janrain Engage account.
+* **[!UICONTROL Engage Domain:]** Your Janrain provided domain name.
 
 ## Facebook {#section_tch_gp1_21b}
 
 To share to Facebook, enter the following Facebook app credentials:
 
-* **[!UICONTROL Client ID:]** the Client ID provided with your Facebook app.
-* **[!UICONTROL Client Secret:]** the client secret provided with your Facebook app.
-* **[!UICONTROL OAuth Proxy Redirect:]** your redirect page for receiving Facebook requests.
+* **[!UICONTROL Client ID:]** The Client ID provided with your Facebook app.
+* **[!UICONTROL Client Secret:]** The client secret provided with your Facebook app.
+* **[!UICONTROL OAuth Proxy Redirect:]** Your redirect page for receiving Facebook requests.
 
 ## Twitter {#section_xkd_kp1_21b}
 
 To share to Twitter, enter the following Twitter App credentials:
 
-* **[!UICONTROL Access Token:]** your Twitter-provided token for making API requests.
-* **[!UICONTROL Access Token Secret:]** your Twitter-provided secret for making API requests.
-* **[!UICONTROL API Key:]** your Twitter-provided API key.
-* **[!UICONTROL API Secret:]** your Twitter-provided API secret.
+* **[!UICONTROL Access Token:]** Your Twitter-provided token for making API requests.
+* **[!UICONTROL Access Token Secret:]** Your Twitter-provided secret for making API requests.
+* **[!UICONTROL API Key:]** Your Twitter-provided API key.
+* **[!UICONTROL API Secret:]** Your Twitter-provided API secret.
 
 ## LinkedIn {#section_tqh_mp1_21b}
 
 To share to LinkedIn, enter the following credentials for your LinkedIn API requests:
 
-* **[!UICONTROL API Key:]** your LinkedIn-provided API key.
-* **[!UICONTROL API Secret:]** your LinkedIn-provided API secret.
+* **[!UICONTROL API Key:]** Your LinkedIn-provided API key.
+* **[!UICONTROL API Secret:]** Your LinkedIn-provided API secret.
 
 ## Bitly {#section_ur2_np1_21b}
 
 To enable Bitly permalinks, enter the following information for your Bitly integration:
 
-* **[!UICONTROL Login:]** your Bitly-provided end user username login.
-* **[!UICONTROL API Key:]** your Bitly-provided API key.
+* **[!UICONTROL Login:]** Your Bitly-provided end user username login.
+* **[!UICONTROL API Key:]** Your Bitly-provided API key.
 
 
 
 Apps that use this feature:
-
 * [Carousel](../../c-about-apps/c-carousel-app/c-carousel-app.md#c_carousel_app)
 * [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)

@@ -28,7 +28,7 @@ Clicking **[!UICONTROL Hot Threads]** at the top of the stream replaces the cont
 
 If there are no threads in the stream with a popularity score, no comments will be displayed, and users will see the message **[!UICONTROL There are not enough threads yet]** and a link to **[!UICONTROL See what’s new]**.
 
-The Hot Threads list is not real-time, and will update only when the page is refreshed or another view ( **[!UICONTROL Newest]** or **[!UICONTROL Oldest]**) is selected. (If a comment is moderated and Bozo’d or trashed, it will be removed from the list immediately.)
+The Hot Threads list is not real-time, and will update only when the page is refreshed or another view (**[!UICONTROL Newest]** or **[!UICONTROL Oldest]**) is selected. (If a comment is moderated and Bozo’d or trashed, it will be removed from the list immediately.)
 
 ## Breakout View {#section_zmf_ddl_wy}
 
