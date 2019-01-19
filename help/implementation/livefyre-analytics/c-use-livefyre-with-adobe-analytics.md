@@ -32,9 +32,9 @@ Map Livefyre conversion variables (eVars) to conversion variables in Adobe Analy
 
 1. In the Report Suite Manager click **[!UICONTROL Edit Settings > Conversion > Conversion Variables]**.
 1. Choose the custom conversion variables (eVars) to use and map them to the Livefyre conversion variables. To map a Livefyre conversion variable to a custom conversion variable:
-  * Enable the conversion variable
-  * Name the conversion variable
-  * Give the conversion variable a type
+* Enable the conversion variable
+* Name the conversion variable
+* Give the conversion variable a type
 1. Save the custom conversion variables.
 
 ## Step 3: Use DTM to Add your Report Suite with Livefyre Events {#section_t15_2hd_4cb}
@@ -47,9 +47,9 @@ You do not need to perform this step if you already have a property or tool set 
 1. Create or edit an existing Adobe Analytics tool. 
 1. If an existing Adobe Analytics Tool does not exist, click the **[!UICONTROL Add a Tool]** button.
 Set the following parameters for the tool:
-  * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
-  * Enable **[!UICONTROL Automatic Configuration]**.
-  * Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
+* Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
+* Enable **[!UICONTROL Automatic Configuration]**.
+* Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
 1. Add or confirm the name of the report suite with Livefyre events to the **[!UICONTROL Report Suites]** field.
 
 ## Step 4: Set up a Page Load Rule to Set Up Analytics Handling {#section_jfj_j3d_4cb}
@@ -138,6 +138,7 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
    ```
 
    ```
+
   function trackLivefyreEvent(data) {  
    var event = eventMap[data.type]; 
    console.log('Track:', data.type, event); 
@@ -171,11 +172,12 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
    console.log('events:', s.events); 
    s.tl(); 
  } 
-    
+]
+
  /** 
-  * Adds an analytics handler for all analytics events from Livefyre. For each 
-  * event, it sets the data on a global object and then dispatches the event. 
-  */ 
+* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
+
+*/ 
  function addAnalyticsHandler() {  
    Livefyre.analytics.addHandler(function (events) { 
      (events || []).forEach(function (data) {  
@@ -289,9 +291,9 @@ The following code sample adds a handler to listen to all the events that happen
 
 ```
 /** 
- * Adds an analytics handler for all analytics events from Livefyre. For each 
- * event, it sets the data on a global object and then dispatches the event. 
- */ 
+* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
+
+*/ 
 function addAnalyticsHandler() { 
   Livefyre.analytics.addHandler(function (events) { 
     (events || []).forEach(function (data) { 
