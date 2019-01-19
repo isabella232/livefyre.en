@@ -13,14 +13,6 @@ snippet: y
 
 The Social Sharing panel allows you to add your social media network app credentials.
 
-On this page:
-
-* [](#c_setting_up_social_sharing/section_dzq_1p1_21b) 
-* [](#c_setting_up_social_sharing/section_tch_gp1_21b) 
-* [](#c_setting_up_social_sharing/section_xkd_kp1_21b) 
-* [](#c_setting_up_social_sharing/section_tqh_mp1_21b) 
-* [](#c_setting_up_social_sharing/section_ur2_np1_21b)
-
 Livefyre uses this information to connect to the listed social networks on behalf of your social App, and to post shared content for your users on their behalf. Enter these values to enable social integration. They may be edited at any time.
 
 Settings available from this page will update to reflect your social sharing system, as defined during your Livefyre integration process. Those integrating using their own custom user identity systems, must supply social network credentials for Facebook, LinkedIn, and Twitter, if they wish to allow their end users to share to these platforms. Janrain Engage customers need only supply their Janrain credentials, and not Facebook, Twitter, or LinkedIn.

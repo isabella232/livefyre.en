@@ -20,7 +20,7 @@ Change the size, width, and interaction options of the Polls app.
 
   Select the type of Poll you wish to create. **[!UICONTROL Single image]** allows you to add an image for the Poll’s question. **[!UICONTROL Multiple image]** allows you to add an image for the Poll’s answers. **[!UICONTROL Text only]** creates a Poll without images.
 
-* **[!UICONTROL Question]** *required*
+* **[!UICONTROL Question]**  *required*
 
   Enter the question that will be displayed for your Poll.
 
@@ -36,7 +36,7 @@ Change the size, width, and interaction options of the Polls app.
 
   If enabled, your Poll will include a link which users may share.
 
-* **[!UICONTROL Link]** (optional)
+* **[!UICONTROL Link]** *optional*
 
   The link to display for your Poll.
 
@@ -48,7 +48,7 @@ Change the size, width, and interaction options of the Polls app.
 
   If enabled, viewers will be able to see Poll results. If disabled, voters will see only a “Thank You” screen after completing the Poll.
 
-* **[!UICONTROL Disclaimer]** (optional)
+* **[!UICONTROL Disclaimer]** *optional*
 
   An optional disclaimer to display with your Poll.
 

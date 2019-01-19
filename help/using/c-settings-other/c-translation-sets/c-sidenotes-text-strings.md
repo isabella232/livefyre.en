@@ -16,14 +16,14 @@ Customizing the text strings for Livefyre Sidenotes
 
 This page lists and describes all strings available for customization in Sidenotes apps. For information on strings available for the core Livefyre apps, please see String Customizations.
 
-* Implementation
-* Auth
-* Stream Info
-* Author / Content Info
-* User Actions
-* Post Functions
-* Moderator Interface
-* Errors
+Implementation
+Auth
+Stream Info
+Author / Content Info
+User Actions
+Post Functions
+Moderator Interface
+Errors
 
 ## Implementation {#section_wp2_ql4_xz}
 
@@ -49,8 +49,7 @@ Strings available for the Authentication process, and from the authenticated use
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Auth menu strings* | | |
-|  | menuAuthSignInBtn  | Sign in  |
+| Auth menu strings | menuAuthSignInBtn  | Sign in  |
 |  | menuAuthSignedInMsg  | You must be signed in to {action}  |
 |  | menuUserEditProfile  | Edit Profile  |
 |  | menuUserAdmin  | Admin Console  |
@@ -63,8 +62,7 @@ Strings available for content stream information and display.
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Info menu options* | | |
-|  | menuInfoCopyright  | &copy; Livefyre, Inc. 2014  |
+| Info menu options | menuInfoCopyright  | &copy; Livefyre, Inc. 2014  |
 |  | menuInfoHelp  | Help  |
 |  | menuInfoLivefyreLink  | Visit Livefyre.com  |
 
@@ -82,7 +80,7 @@ Stings available for author and individual content information.
 |  | commentVoteCount  | votes  |
 |  | commentVoteCountSing  | vote  |
 |  | datetimeMinutePrefix  | m  |
-|  | datetimeMonths  | *An array. Default = *[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]  |
+|  | datetimeMonths  |An array. Default =[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]  |
 |  | questionExplanation  | You can now read and write comments directly on sentences, paragraphs, images and quotes.<br><br><span class=”lf-highlight-text”>Highlight text</span> and click the <span class=”fycon-write”></span> icon or click the <span class=”fycon-action-view”></span> icon at the end of each paragraph.  |
 |  | questionMockText  | What is “familiarly known” is not properly known, just for the reason that it is “familiar”.  |
 |  | questionTitle  | What is a Sidenote?  |
@@ -93,22 +91,18 @@ Strings available for user actions: flagging, sharing, and liking existing conte
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Reply menu options* | | |
-|  | menuRepliesViewTitle  | Details  |
+| Reply menu options | menuRepliesViewTitle  | Details  |
 |  | menuRepliesViewReply  | Reply to Conversation  |
-|  *Share menu options* | | |
-|  | menuShareOptionFacebook  | Facebook  |
+| Share menu options | menuShareOptionFacebook  | Facebook  |
 |  | menuShareOptionTwitter  | Twitter  |
 |  | menuShareTitle  | Share  |
-|  *Flag menu options* | | |
-|  | menuFlagOptionDisagree  | Disagree  |
+| Flag menu options | menuFlagOptionDisagree  | Disagree  |
 |  | menuFlagOptionOffensive  | Offensive  |
 |  | menuFlagOptionOffTopic  | Off Topic  |
 |  | menuFlagOptionSpam  | Spam  |
 |  | menuFlagTitle  | Flag as…  |
 |  | facebookShareCaption  | Sidenotes on “{title}”  |
-|  *Mobile user options* | | |
-|  | sliderCommentTally  | of  |
+| Mobile user options | sliderCommentTally  | of  |
 |  | sliderInviteRead  | Read  |
 |  | sliderInviteWrite  | Write  |
 |  | sliderLoading  | Loading…  |
@@ -135,12 +129,10 @@ Strings available for users posting content.
 |  | emptyTextBlockTxt  | +  |
 |  | replyBtn  | Reply  |
 |  | threadReplyBtn  | Reply to Conversation  |
-|  *Delete menu options* | | |
-|  | menuConfirmAccept  | Yes, {action}  |
+| Delete menu options | menuConfirmAccept  | Yes, {action}  |
 |  | menuConfirmCancel  | Cancel  |
 |  | menuConfirmTitle  | Are you sure?  |
-|  *Etc menu options* | | |
-|  | menuEtcOptionApprove  | Approve  |
+| Etc menu options | menuEtcOptionApprove  | Approve  |
 |  | menuEtcOptionDelete  | Delete  |
 |  | menuEtcOptionEdit  | Edit  |
 |  | menuEtcOptionFlag  | Flag  |
@@ -154,8 +146,7 @@ Strings available to the user-authenticated moderator interface.
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Confirmation messages from the More menu* | | |
-|  | notificationApproved  | Approved  |
+| Confirmation messages from the More menu | notificationApproved  | Approved  |
 |  | notificationDeleted  | Deleted  |
 |  | notificationFlagged  | Flagged  |
 

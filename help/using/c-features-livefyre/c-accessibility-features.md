@@ -17,21 +17,14 @@ Livefyre Identity and Apps contain accessibility features to allow all site visi
 Livefyre emphasizes the following areas in making sure Livefyre Identity and Apps are accessible to site visitors:
 
 * Structure
-
     * Pages use page title and header tags that screen readers can read
     * Tab order of elements follows a logical order
-
 * Keyboard and Focus
-
     * Elements are focused and visible when using the keyboard
     * Focus order is intuitive
-
 * Content
-
     * All links and non-text content have unique ARIA labels and alternative text
-
 * Presentation:
-
     * Browser zoom can be used without breaking the structure
     * Content renders well at 200% zoom level
     * Color contrast ratio is at or above the 4.5:1 standard
@@ -52,7 +45,7 @@ Apps and Livefyre features that are accessible:
 
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md) 
 * [Chat](../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app) 
-* [](../c-about-apps/c-filmstrip-app/c-filmstrip-app.md#concept_jpc_n2j_jbb)
+* [Filmstrap](../c-about-apps/c-filmstrip-app/c-filmstrip-app.md#concept_jpc_n2j_jbb)
 * [Live Blog](../c-about-apps/c-liveblog-app/c-liveblog-app.md#c_liveblog_app) 
 * [Livefyre Identity](/help/implementation/t-about-identity-integration/t-about-identity-integration.md) 
 * [Media Wall](../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app) 

@@ -27,4 +27,3 @@ To encourage a rapid and engaging dialog, Chat differs from other Livefyre Apps 
 * The Likes on a comment appear without avatars, only the number of Likes.
 * The stream width can be reduced to 250 pixels.
 
-For more information, see [](../../c-features-livefyre/c-features-livefyre.md#c_features_livefyre).

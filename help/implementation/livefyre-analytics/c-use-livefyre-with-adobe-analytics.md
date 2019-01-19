@@ -21,7 +21,7 @@ Map Livefyre events to one or more Custom Success Events in Adobe Analytics Repo
 For more information on Report Suite Manager, see [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html).
 
 1. Log in to Adobe Analytics as an Administrator User.
-1. Open Adobe Analytics Admin Report Suite Manager. 
+1. Open Adobe Analytics Admin Report Suite Manager.
 1. Create a new Report Suite or choose an existing one.
 1. Edit the report suite by clicking on the report suite to modify, then navigate to **[!UICONTROL Edit Settings > Conversion > Success Events]**.
 1. Map the Livefyre events to one or more Custom Success Events.
@@ -32,11 +32,9 @@ Map Livefyre conversion variables (eVars) to conversion variables in Adobe Analy
 
 1. In the Report Suite Manager click **[!UICONTROL Edit Settings > Conversion > Conversion Variables]**.
 1. Choose the custom conversion variables (eVars) to use and map them to the Livefyre conversion variables. To map a Livefyre conversion variable to a custom conversion variable:
-
-    * Enable the conversion variable
-    * Name the conversion variable
-    * Give the conversion variable a type
-
+  * Enable the conversion variable
+  * Name the conversion variable
+  * Give the conversion variable a type
 1. Save the custom conversion variables.
 
 ## Step 3: Use DTM to Add your Report Suite with Livefyre Events {#section_t15_2hd_4cb}
@@ -48,14 +46,10 @@ You do not need to perform this step if you already have a property or tool set 
 1. In DTM, create or edit an existing property. 
 1. Create or edit an existing Adobe Analytics tool. 
 1. If an existing Adobe Analytics Tool does not exist, click the **[!UICONTROL Add a Tool]** button.
-
    Set the following parameters for the tool:
-
     * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
-    
-    * Enable **[!UICONTROL Automatic Configuration]**
-    * Enable **[!UICONTROL Authenticate via Marketing Cloud]**
-
+    * Enable **[!UICONTROL Automatic Configuration]**.
+    * Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
 1. Add or confirm the name of the report suite with Livefyre events to the **[!UICONTROL Report Suites]** field.
 
 ## Step 4: Set up a Page Load Rule to Set Up Analytics Handling {#section_jfj_j3d_4cb}
@@ -68,17 +62,13 @@ Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you t
 
 1. In DTM, select **[!UICONTROL Rules]** tab.
 1. Click **[!UICONTROL Page Load Rules]**.
-1. Click on the **[!UICONTROL Create New Rule]** button. 
+1. Click on the **[!UICONTROL Create New Rule]** button.
 1. Open the **[!UICONTROL Conditions]** section by clicking on the **[!UICONTROL Plus]** button.
-
-1. Trigger the rule. Choose **[!UICONTROL DOM Ready]** or **[!UICONTROL Onload]** trigger types if you want to delay or implement the rule asynchronously. 
-
-1. (Optional) Add additional parameters to limit the pages that display Livefyre Apps. For more information about additional configuration options, see [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html). 
+1. Trigger the rule. Choose **[!UICONTROL DOM Ready]** or **[!UICONTROL Onload]** trigger types if you want to delay or implement the rule asynchronously.
+1. (Optional) Add additional parameters to limit the pages that display Livefyre Apps. For more information about additional configuration options, see [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html).
 1. Under **[!UICONTROL Javascript/ Third Party Tags]**, click the **[!UICONTROL Non-sequential]** tab, then click **[!UICONTROL Add New Script]**.
-
 1. Select **[!UICONTROL Sequential HTML]** as the script type.
 1. Add the following script into the code editor and click **[!UICONTROL Save Code]**.
-
    The following script calls the `livefyre_analytics` direct call rule after the Livefyre JavaScript loads. The following script example checks every 400ms to see if `livefyre.analytics` is on the page. After the page loads, livefyre.analytics sends out tracking information.
 
    ```
@@ -97,7 +87,6 @@ Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you t
     
    setTimeout(pollForAnalytics, 400);
    ```
-
 1. Click **[!UICONTROL Save Code]**.
 1. Click **[!UICONTROL Save Rule]**.
 
@@ -106,7 +95,6 @@ Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you t
 There are other ways to implement Livefyre with DTM by using custom events, Adobe Analytics UI fields within DTM, and data elements. This document uses custom Javascript to accomplish the same effect.
 
 1. In DTM select the **Rules** tab and then click on **Direct Call Rules**.
-
 1. Click on the **Create New Rule** button.
 1. Name the new rule **Livefyre Analytics**.
 1. Expand the **conditions** configuration area.
@@ -114,7 +102,7 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
 1. Expand the Javascript / 3rd Party Tag section and click on the **Add New Script** button.
 1. Enter **Livefyre Analytics Config** into the **Tag Name** input box.
 1. Select **Non-Sequential Javascript**.
-1. Enter the following Livefyre configuration code into the code editor and click on the **Save Code** button. 
+1. Enter the following Livefyre configuration code into the code editor and click on the **Save Code** button.
 
    ```
    var s = _satellite.getToolsByType('sc')[0].getS(); 
@@ -320,4 +308,3 @@ For more information on the topics discussed on this page, see:
 * [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)
 * [Rules](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
-

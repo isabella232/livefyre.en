@@ -14,18 +14,6 @@ snippet: y
 
 Allow users to post, edit, flag, delete, reply to and like content in your Collections, with a full range of rich text formatting options.
 
-On this page:
-
-* [](#c_user_posts/section_bty_ww2_wy)
-* [](#c_user_posts/section_mg1_sw2_wy)
-* [](#c_user_posts/section_ubz_pw2_wy)
-* [](#c_user_posts/section_its_kw2_wy)
-* [](#c_user_posts/section_ubt_qwx_vy)
-* [](#c_user_posts/section_gbr_pwx_vy)
-* [](#c_user_posts/section_j3l_qvx_vy)
-* [](#c_user_posts/section_bpg_nwx_vy)
-* [](#c_user_posts/section_ypt_qr4_h1b)
-
 Livefyre Apps allow your users to post and interact with content seamlessly and intuitively. The Livefyre interface provides rich text and image input, the ability to Like, Flag, or Reply to others’ comments, as well as the ability to edit or delete your own, previous posts.
 
 ## Post {#section_bty_ww2_wy}

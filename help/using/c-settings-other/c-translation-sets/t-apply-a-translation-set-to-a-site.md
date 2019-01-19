@@ -20,5 +20,3 @@ snippet: y
 1. Select App Settings.
 1. Navigate to Default Settings > Translation Set.
 1. Select a Translation Set from the drop-down menu.
-
-1.

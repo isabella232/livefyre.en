@@ -14,11 +14,6 @@ snippet: y
 
 Share your content or content from another user, to Facebook, Twitter or LinkedIn.
 
-On this page:
-
-* [](#c_social_sharing/section_t1q_mz2_wy) 
-* [](#c_social_sharing/section_blw_vy2_wy)
-
 Social Sharing allows your community to share their thoughts from your App to their friends on social networks, including Facebook, Twitter, and LinkedIn, and to share other users’ content to Facebook and Twitter. Enabling Social Sharing allows your community to spread the best response to your content, and to bring more traffic to your site.
 
 ## Sharing content to social networks {#section_t1q_mz2_wy}

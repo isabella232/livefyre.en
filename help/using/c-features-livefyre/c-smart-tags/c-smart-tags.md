@@ -40,4 +40,4 @@ Tag types:
 * Feature tags: Function the same as feature tags for images (for example, cats, dogs, pyramids, landmarks). 
 * Action tags: Identify features that occur across multiple frames instead of just one. These are more effective in summarizing a video's content.
 
-For additional Information on Smart Tags, see [](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules). 
+For additional Information on Smart Tags, see [Stream Rule Options for All Stream Rules](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules). 

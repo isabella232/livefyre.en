@@ -14,11 +14,6 @@ snippet: y
 
 Track clicks back to your page from referral traffic.
 
-On this page:
-
-* [](#c_referral_tracking/section_nsy_qp4_xz) 
-* [](#c_referral_tracking/section_xvs_x44_xz)
-
 Livefyre appends a referral variable to the URL when a comment is posted or shared to a social network, and for permalinks included in Livefyre emails. Use this variable to track referral traffic from Livefyre Apps to your social or owned properties.
 
 Livefyre Apps allow you to track data streams resulting from referral traffic, allowing you to analyze your site’s traffic.

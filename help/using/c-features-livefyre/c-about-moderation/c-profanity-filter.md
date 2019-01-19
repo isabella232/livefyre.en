@@ -78,11 +78,9 @@ To create Premoderation rules, from Studio select **[!UICONTROL Settings > Netwo
 
 1. Go to **[!UICONTROL Settings > Network Settings > Moderation]**.
 1. Scroll down to the **[!UICONTROL Profanity List]** section.
-1. Set **[!UICONTROL Enable Profanity Checking]** to **[!UICONTROL On]**to display the List enabled for your network (Livefyre default, or your uploaded custom list) and edit it. You can edit the list in the following ways:
-
+1. Set **[!UICONTROL Enable Profanity Checking]** to **[!UICONTROL On]** to display the List enabled for your network (Livefyre default, or your uploaded custom list) and edit it. You can edit the list in the following ways:
     * To remove a word, click on the word.
     * To add a word, type the word into the **[!UICONTROL Add new word]** box and hit **[!UICONTROL Return]**.
-    
     * To see if a word is included in the list, type the word into the **[!UICONTROL Test profanity filter]** box.
 
 >[!NOTE]

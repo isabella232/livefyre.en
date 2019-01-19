@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Featured Content{#featured-content}
+# About Featured Content{#featured-content}
 
 Highlight important content to your users by using CSS to custom style Featured content.
 

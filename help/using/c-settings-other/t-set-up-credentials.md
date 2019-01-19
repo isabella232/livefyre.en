@@ -18,7 +18,7 @@ snippet: y
 * Network Domain
 * Network Key
 
-**Site Credentials (per site)****Note:** Enter your site in the Search field to populate these fields.
+**Site Credentials (per site)**: Enter your site in the Search field to populate these fields.
 
 * Site Name
 * Site URL

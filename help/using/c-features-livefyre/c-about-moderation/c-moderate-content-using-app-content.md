@@ -61,4 +61,4 @@ Sidenotes content moderation allows both bulk changes, and individual status cha
 
 Mouse over the username for a Livefyre user to open a pulldown menu, allowing you to **[!UICONTROL Ban the User]**, get **[!UICONTROL More Info]**, or view a list of their **[!UICONTROL Comments]**. Clicking on this menu will open the User’s info card in Studio’s **[!UICONTROL Users]** page.
 
-For more information on how to moderate users in the **[!UICONTROL Users]** page, see [](../../c-features-livefyre/c-about-moderation/t-moderate-users-modq.md#t_moderate_users_modq).
+For more information on how to moderate users in the **[!UICONTROL Users]** page, see [Moderate Users ModQ](../../c-features-livefyre/c-about-moderation/t-moderate-users-modq.md#t_moderate_users_modq).

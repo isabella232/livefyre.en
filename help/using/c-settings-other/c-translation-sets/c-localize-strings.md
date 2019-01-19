@@ -89,11 +89,9 @@ Strings available for content stream information and display. Lists the number o
 |  | liveblogPostCountLabelZero  | post  |
 |  | liveblogPostCountLabel  | post  |
 |  | liveblogPostCountLabelPlural  | posts  |
-|   | | |
-| **Thread options** | threadBreakoutButton  | Show entire Thread  |
+| Thread options | threadBreakoutButton  | Show entire Thread  |
 |  | toggleCollapse  | Toggle Collapse  |
-|   | | |
-| **High velocity / queued comments** | refresh  | Refresh  |
+| High velocity / queued comments | refresh  | Refresh  |
 |  | newComment  | New Comment  |
 |  | newComments  | New Comments  |
 |  | newReply  | new reply  |
@@ -116,8 +114,7 @@ Allows uses to sort returned content by age or popularity.
 |  | topCommentsContentNotFoundMsg  | There are not enough likes yet.  |
 |  | hotThreadsContentNotFoundMsg  | There are not enough threads yet.  |
 |  | streamRefreshMsg  | See what’s new.  |
-|   | | |
-| **Footer options** | archiveHeaderTitle  | From the Archive  |
+| Footer options | archiveHeaderTitle  | From the Archive  |
 |  | archiveShowMore  | Show More  |
 |  | showMore  | Show More Comments  |
 |  | showMoreLiveblog  | Show More Posts  |
@@ -134,8 +131,7 @@ Lists post information: user name, any applied user tags, and post time.
 |---|---|---|
 |  | moderator  | moderator  |
 |  | hovercardViewProfile  | View Full Profile  |
-|   | | |
-| **Post info** | timeJustNow  | just now  |
+| Post info | timeJustNow  | just now  |
 |  | timeMinutesAgo  | minute ago  |
 |  | timeMinutesAgoPlural  | minutes ago  |
 |  | timeHoursAgo  | hour ago  |
@@ -155,7 +151,7 @@ If enabled, featured content is listed at the top of the stream.
 
 |  | Key  | Default Text  |
 |---|---|---|
-|  **Featured labels** | | |
+|  Featured labels | | |
 |   ![](assets/strings_featuredcontent-150x40.png) | featuredCommentsTag  | Featured  |
 |  | featuredCommentsTitlePlural  | Featured Comments  |
 
@@ -166,9 +162,8 @@ By default, available at the top of the page for all users.
 ![](assets/strings_texteditor-1-150x77.png)
 
 |  | Key  | Default Text  |
-|---|---|---|
-|  **Editor buttons** | |
-| follow  | + Follow  |
+|---|---|---| 
+| Editor buttons | follow  | + Follow  |
 |  | unfollow  | - Unfollow  |
 |  | liveblogFollow  | Follow Live Blog  |
 |  | liveblogUnfollow  | Unfollow Live Blog  |
@@ -178,8 +173,7 @@ By default, available at the top of the page for all users.
 |  | postEditAsButton  | Edit comment as…  |
 |  | postEditCancelButton  | Cancel  |
 |  | editorDisabled  | This conversation is currently closed to new comments.  |
-|  **Chat options** | | |
-|  | livechatPostButtonLabel  | Post  |
+| Chat options  | livechatPostButtonLabel  | Post  |
 |  | livechatPostEditButton  | Edit  |
 |  | livechatWindowsInstruction  | Press control+enter to post  |
 |  | livechatOtherInstruction  | Press command+enter to post  |
@@ -192,7 +186,7 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **User Response Options** | Available for end users.  | |
+|  User Response Options | Available for end users.  | |
 | flagButton  | Flag  |
 |  | flagCommentTooltip  | Flag  |
 |  | editButton(Available only for authors and moderators, if enabled.)  | Edit  |
@@ -210,8 +204,7 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **Flag Modal** | | |
-| flagTitle  | Flag %s’s comment  |
+| Flag Modal |flagTitle  | Flag %s’s comment  |
 |  | flagSubtitle  | Flag as  |
 |  | flagDefaultSelectOption  | Select  |
 |  | flagSpam  | Spam  |
@@ -239,8 +232,7 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **Share Modal** | | |
-| shareTitle  | Share Comment  |
+| Share Modal |shareTitle  | Share Comment  |
 |  | sharePlaceholderText  | What do you think?  |
 |  | shareLabel  | Share on:  |
 |  | shareTextTwitter  | blank  |
@@ -255,8 +247,7 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **Reply Modal** | | |
-| postReplyAsButton  | Post comment as…  |
+| Reply Modal |postReplyAsButton  | Post comment as…  |
 |  | postReplyButton(Available for logged in users.)  | Post comment  |
 |  | backToHotThreads  | Back to Hot Threads  |
 
@@ -264,8 +255,7 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **Twitter @mention modal** | | |
-| mentionTitle  | Share Mention  |
+|  Twitter @mention modal | mentionTitle  | Share Mention  |
 |  | mentionSubtitleTwitter  | Share Tweet to:  |
 |  | mentionDefaultText  | I mentioned you in a Livefyre comment!  |
 |  | mentionConfirmButton  | OK  |
@@ -281,16 +271,15 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **Edit Modal** | Available to Studio Admins, User Managers or Moderators  | |
-| @(@mention.)  | |
-|  | &lt;/&gt;(Opens the custom html window.)  | |
+|  Edit Modal | Available to Studio Admins, User Managers or Moderators  | |
+| @(@mention.) | &lt;/&gt;(Opens the custom html window.)  | |
 |  | customHtmlDialogTitle(Appears as the header for the modal.)  | Add Custom HTML  |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **Moderator Response Options** | Available to Studio Admins, User Managers or Moderators.  | |
+|  Moderator Response Options | Available to Studio Admins, User Managers or Moderators.  | |
 | pendingComment  | pending  |
 |  | banUserButton  | Ban user  |
 |  | banUserTooltip  | Ban User  |
@@ -300,14 +289,13 @@ Unless otherwise noted, available to all logged in users. Mouse over a content p
 |  | featureCommentTooltip  | Feature  |
 |  | unfeatureButton  | Unfeature  |
 |  | featuredCommentTooltip  | Unfeature  |
-|  | | |
 
 ![](assets/strings_adminoptions-150x33.png)
 
 |  Key  | Default Text  | |
 |---|---|---|
-|  **Ban User modal** | Available to Studio Admins, User Managers or Moderators.  | |
-| banTitle  | Ban User  |
+|  Ban User modal | Available to Studio Admins, User Managers or Moderators.  | |
+| banTitle  | Ban User  | |
 |  | banConfirmation  | Are you sure you want to ban this user?  |
 |  | banConfirmButton  | OK  |
 |  | banCancelButton  | Cancel  |
@@ -320,8 +308,7 @@ If enabled, available at the bottom of the page for all Livefyre conversation Ap
 
 |  | Key  | Default Text  |
 |---|---|---|
-|  **Notifier labels** | | |
-| commentNotifier  | New Comment  |
+|  Notifier labels | commentNotifier  | New Comment  |
 |  | commentNotifierPlural  | New Comments  |
 |  | liveblogNotifier  | New Post  |
 |  | liveblogNotifierPlural  | New Posts  |

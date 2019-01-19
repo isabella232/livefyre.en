@@ -16,13 +16,13 @@ Customizing the text strings for Livefyre Reviews.
 
 This page lists and describes the strings available for customization in Review apps. The strings listed here are in addition to and overrides for the default strings for Livefyre core apps, listed in String Customizations. Where duplicates are listed, the strings listed in these tables are the default for Reviews apps.
 
-* Implementation
-* Review / Rating Interface
-* Stream Info
-* Author / Content Info
-* User Actions
-* Post Functions
-* Errors
+Implementation
+Review / Rating Interface
+Stream Info
+Author / Content Info
+User Actions
+Post Functions
+Errors
 
 ## Implementation {#section-vsy-1k4-xz}
 
@@ -47,21 +47,17 @@ Strings available for the Review and Rating user interface.
 
 |Element|Key|Default Text|
 |--- |--- |--- |
-|Buttons|||
-||editReviewBtn|Edit review|
+|Buttons|editReviewBtn|Edit review|
 ||reviewBtn|[Write review](https://d.pr/i/QscA)|
 ||reviewsClosed|[Reviews Closed](https://d.pr/i/zr7M)|
 ||showReviewBtn|[Show review](https://d.pr/i/onxU)|
 ||follow|I’m interested|
 ||shareText|I just wrote a review. Check it out!|
-|Rating tooltips|||
-||ratingValues|An array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Note: Values in the array must be duplicated to assign both the left and the right half of each star the same name.|
-|Rating subparts|||
-||ratingSubpartPlaceholders|An array. Default = []|
+|Rating tooltips|ratingValues|An array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Note: Values in the array must be duplicated to assign both the left and the right half of each star the same name.|
+|Rating subparts|ratingSubpartPlaceholders|An array. Default = []|
 ||ratingSubpartTitles|An array. Default = []|
 ||reviewStreamTitle|Blank by default. Title of the summary section of the review.|
-|Misc|||
-||averageRating|[Average User Rating](https://d.pr/i/QscA)|
+|Misc|averageRating|[Average User Rating](https://d.pr/i/QscA)|
 ||breakdownHeader|[Rating Breakdown](https://d.pr/i/QscA)|
 ||helpful|%s of %s found helpful|
 ||helpfulPlural|%s of %s found helpful|
@@ -74,24 +70,18 @@ Strings available for content stream information and display.
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Sorting* | | |
-|  | sortBy  | *Blank by default.* |
+| Sorting | sortBy  |Blank by default.|
 |  | sortHighestRated  | [Highest rating](https://d.pr/i/huTd)  |
 |  | sortLowestRated  | [Lowest rating](https://d.pr/i/huTd)  |
 |  | sortMostHelpful  | [Most helpful](https://d.pr/i/huTd)  |
-|  *Stream misc.* | | |
-|  | showMore  | Show More  |
-|  *Stream high velocity* | | |
-|  | newComment  | New Review  |
+| Stream misc. | showMore  | Show More  |
+| Stream high velocity | newComment  | New Review  |
 |  | newComments  | New Reviews  |
-|  *Listener counts* | | |
-|  | listenerCount  | person listening  |
+| Listener counts| listenerCount  | person listening  |
 |  | listenerCountPlural  | people listening  |
-|  *Comment counts* | | |
-|  | commentCountLabel  | LiveReviews<strong>|</strong>%s  |
+| Comment counts | commentCountLabel  | LiveReviews<strong>|</strong>%s  |
 |  | commentCountLabelPlural  | LiveReviews<strong>|</strong>%s  |
-|  *Comment notifier counts* | | |
-|  | commentNotifier  | New Review  |
+| Comment notifier counts | commentNotifier  | New Review  |
 |  | commentNotifierPlural  | New Reviews  |
 
 ## Author / Content Info {#section_osx_xj4_xz}
@@ -100,8 +90,7 @@ Stings available for author and individual content information.
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Thread Breakout* | | |
-|  | reviewsContentNotFoundMsg  | [This review is no longer visible](https://d.pr/i/svXs)  |
+| Thread Breakout | reviewsContentNotFoundMsg  | [This review is no longer visible](https://d.pr/i/svXs)  |
 |  | backToComments  | Back to Reviews  |
 
 ## User Actions {#section_tlx_wj4_xz}
@@ -110,28 +99,22 @@ Strings available for user actions: flagging, sharing, and marking existing cont
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Comment footer* | | |
-|  | wasReviewHelpful  | [Helpful?](https://d.pr/i/Q0mA)  |
+| Comment footer | wasReviewHelpful  | [Helpful?](https://d.pr/i/Q0mA)  |
 |  | wasReviewHelpfulMobile  | Helpful?  |
 |  | ownWasReviewHelpful  | [Found helpful.](https://d.pr/i/Q0mA)  |
 |  | reviewWasHelpful  | [Yes](https://d.pr/i/Q0mA)  |
 |  | helpfulDivider  | [&vert;](https://d.pr/i/Q0mA)  |
 |  | reviewWasNotHelpful  | [No](https://d.pr/i/Q0mA)  |
-|  *Vote modal* | | |
-|  | voteTitle  | Was this review helpful?  |
+| Vote modal | voteTitle  | Was this review helpful?  |
 |  | voteDownvote  | No  |
 |  | voteReplyTitle  | Was this reply helpful?  |
 |  | voteTitle  | Was this comment helpful?  |
 |  | voteUpvote  | Yes  |
-|  *Flag modal* | | |
-|  | flagTitle  | Flag %s’s review  |
+| Flag modal | flagTitle  | Flag %s’s review  |
 |  | flagSuccessMsg  | Review has been flagged.  |
-|  *Flag Mobile* | | |
-|  | flagConfirmationMessage  | Flag %s’s review as %s?  |
-|  *Mention modal* | | |
-|  | mentionDefaultText  | I mentioned you in a Livefyre review!  |
-|  *Share modal* | | |
-|  | shareTitle  | Share Review  |
+| Flag Mobile | flagConfirmationMessage  | Flag %s’s review as %s?  |
+| Mention modal | mentionDefaultText  | I mentioned you in a Livefyre review!  |
+| Share modal | shareTitle  | Share Review  |
 
 ## Post Functions {#section_yl1_wj4_xz}
 
@@ -139,8 +122,7 @@ Strings available for users posting reviews.
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  *Editor* | | |
-|  | bodyPlaceholder  | Write review…  |
+| Editor | bodyPlaceholder  | Write review…  |
 |  | postEditButton  | Edit  |
 |  | postEditCancelButton  | Cancel  |
 |  | postAsButton  | Post review as…  |
@@ -156,8 +138,7 @@ Strings available for general error messages.
 
 |  Element  | Key  | Default Text  |
 |---|---|---|
-|  Errors  | | |
-|  | errorAlreadyPosted  | You can only post one review.  |
+|  Errors  | errorAlreadyPosted  | You can only post one review.  |
 |  | errorAuthError  | You’re not authorized to post a review on this conversation  |
 |  | errorCommentsNotAllowed  | Reviews cannot be posted at this time  |
 |  | errorDislikeOwnComment  | You cannot dislike your own review  |

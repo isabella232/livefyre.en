@@ -12,6 +12,8 @@ snippet: y
 
 # Set up Network Email{#set-up-network-email}
 
+You can set up several different types of notifications for site visitors and Livefyre Moderators to use to interact with the end user.
+
 Customize available email notification fields.
 
  Set up your email notifications.

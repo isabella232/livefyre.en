@@ -95,7 +95,6 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [Upload Button Customizations](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
     + [Upload Button Text Strings](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
 + App Features {#app-features}
-  + [App Features](c-features-livefyre/c-features-livefyre.md)
   + [Accessibility Features](c-features-livefyre/c-accessibility-features.md)
   + [Authentication Features](c-features-livefyre/c-authentication.md)
   + [Custom Call-to-Action Button](c-features-livefyre/c-call-to-action-button.md)
@@ -142,7 +141,6 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [Moderate Content using App Content](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
     + [SAFE Rules](c-features-livefyre/c-about-moderation/c-moderation.md)
   + Notifications Features {#notifications-features}
-    + [Notifications Features](c-features-livefyre/c-notifications-features/c-notifications-features.md)
     + [Comment Notifier](c-features-livefyre/c-notifications-features/c-comment-notifier.md)
     + [Email Notifications](c-features-livefyre/c-notifications-features/c-email-notifications.md)
     + [Set up Network Email](c-features-livefyre/c-notifications-features/t-set-up-network-email.md)

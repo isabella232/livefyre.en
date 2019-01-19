@@ -22,7 +22,7 @@ The following features are available in a Carousel:
 * [Date and Timestamp](../../c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
 * [Items to Load](../../c-features-livefyre/c-content-behavior-features/c-items-to-load.md#c_items_to_load)
 * [Social Sharing](../../c-features-livefyre/c-social-sharing/c-social-sharing.md#c_social_sharing)
-* [](../../c-features-livefyre/c-styling-features/c-styling-features.md#c_styling_features)
+* [Styling Features](../../c-features-livefyre/c-styling-features/c-styling-features.md#c_styling_features)
 * [SAFE](../../c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
 * [Translation Sets](../../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
 * [On-site Contribution Features](../../c-features-livefyre/c-on-site-contribution-features.md#section_vzs_t2s_d1b)
