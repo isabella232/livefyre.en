@@ -208,7 +208,6 @@ The following sample code maps the specific eVars to available Livefyre eVars. T
 
 ```
 var s = _satellite.getToolsByType('sc')[0].getS(); 
- 
 var evarMap = { 
   appId: 'eVar81', 
   appType: 'eVar82' 
