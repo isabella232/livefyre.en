@@ -101,4 +101,3 @@ For more information on the topics discussed on this page, see:
 
 * [Rules](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
-
