@@ -10,7 +10,7 @@ internal: n
 snippet: y
 ---
 
-# Bootstrap HTML{#bootstrap-html}
+# Bootstrap HTML {#bootstrap-html}
 
 Make community content available to search engine crawlers.
 
