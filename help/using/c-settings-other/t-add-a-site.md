@@ -5,9 +5,7 @@ seo-title: Add a Site to a Network
 solution: Experience Manager
 title: Add a Site to a Network
 uuid: a4a3fdb2-94be-48d9-9523-c97617190e53
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add a Site to a Network{#add-a-site-to-a-network}

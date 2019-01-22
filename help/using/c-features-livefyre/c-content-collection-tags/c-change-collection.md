@@ -5,9 +5,7 @@ seo-title: Change Collection
 solution: Experience Manager
 title: Change Collection
 uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Change Collection{#change-collection}

@@ -5,9 +5,7 @@ seo-title: Streams
 solution: Experience Manager
 title: Streams
 uuid: 01ea5d33-5ec1-46f4-b724-8431cda443a1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Streams{#streams}

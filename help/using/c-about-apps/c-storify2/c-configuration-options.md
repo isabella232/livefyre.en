@@ -5,9 +5,7 @@ seo-title: Configuration Options
 solution: Experience Manager
 title: Configuration Options
 uuid: 4a7f03b3-6d97-46e9-8832-81e665f06d3a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Configuration Options{#configuration-options}

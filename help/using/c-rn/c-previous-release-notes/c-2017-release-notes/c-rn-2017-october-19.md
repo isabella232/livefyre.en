@@ -4,9 +4,7 @@ seo-description: Release Notes for the October 19, 2017 release.
 seo-title: October 19, 2017
 title: October 19, 2017
 uuid: 7f5fba9e-bd07-4d85-b67c-7a5577055447
-index: y
-internal: n
-snippet: y
+
 ---
 
 # October 19, 2017{#october}

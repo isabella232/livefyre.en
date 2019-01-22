@@ -4,9 +4,7 @@ seo-description: View the content details to gather more information about a pie
 seo-title: View Content Details
 title: View Content Details
 uuid: bca8dcb7-31d6-475c-9898-1b6436d2457d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # View Content Details{#view-content-details}

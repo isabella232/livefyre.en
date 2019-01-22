@@ -5,9 +5,7 @@ seo-title: September 6, 2018
 solution: Experience Manager
 title: September 6, 2018
 uuid: 8dbe8be0-cc3c-4d96-af56-1808d8555af3
-index: y
-internal: n
-snippet: y
+
 ---
 
 # September 6, 2018{#september}

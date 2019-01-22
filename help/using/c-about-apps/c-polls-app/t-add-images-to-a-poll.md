@@ -5,9 +5,7 @@ seo-title: Add Images to a Poll
 solution: Experience Manager
 title: Add Images to a Poll
 uuid: 966cefba-3a0e-433d-97b3-d683d92b8f69
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add Images to a Poll{#add-images-to-a-poll}

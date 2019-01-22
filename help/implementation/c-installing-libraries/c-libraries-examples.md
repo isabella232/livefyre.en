@@ -5,9 +5,7 @@ seo-title: Examples
 solution: Experience Manager
 title: Examples
 uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Examples{#examples}

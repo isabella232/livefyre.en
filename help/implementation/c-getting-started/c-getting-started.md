@@ -5,9 +5,7 @@ seo-title: Getting Started with Livefyre Integration
 solution: Experience Manager
 title: Getting Started with Livefyre Integration
 uuid: babf5f9e-a139-45b1-8ae9-bd725820bc93
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Start Here {#getting-started-with-livefyre-integration}

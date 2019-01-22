@@ -5,9 +5,7 @@ seo-title: Set up Network Email
 solution: Experience Manager
 title: Set up Network Email
 uuid: c368d236-e25a-4118-8abc-5230618c97ee
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Set up Network Email{#set-up-network-email}

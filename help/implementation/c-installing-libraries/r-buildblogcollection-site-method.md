@@ -5,9 +5,7 @@ seo-title: buildBlogCollection Site Method
 solution: Experience Manager
 title: buildBlogCollection Site Method
 uuid: 6a5ec6b9-bc32-467a-abe6-a57c6defe067
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildBlogCollection Site Method{#buildblogcollection-site-method}

@@ -5,9 +5,7 @@ seo-title: getUrn Site Method
 solution: Experience Manager
 title: getUrn Site Method
 uuid: 231c915c-6288-43e6-86e0-b8d09a08c4d3
-index: y
-internal: n
-snippet: y
+
 ---
 
 # getUrn Site Method{#geturn-site-method}

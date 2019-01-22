@@ -5,9 +5,7 @@ seo-title: Ban a User
 solution: Experience Manager
 title: Ban a User
 uuid: ce528a9a-7137-4c2b-a445-194feae61879
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Ban a User{#ban-a-user}

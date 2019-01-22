@@ -4,9 +4,7 @@ seo-description: You can create Stream rules that pull content from Instagram.
 seo-title: Instagram Rules
 title: Instagram Rules
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Instagram Rules{#instagram-rules}

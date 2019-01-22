@@ -5,9 +5,7 @@ seo-title: Apply a Translation Set to a Network
 solution: Experience Manager
 title: Apply a Translation Set to a Network
 uuid: 3d9a2616-3721-4ac5-a039-aefbf57cf269
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Apply a Translation Set to a Network{#apply-a-translation-set-to-a-network}

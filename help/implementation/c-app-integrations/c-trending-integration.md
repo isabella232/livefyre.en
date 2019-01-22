@@ -5,9 +5,7 @@ seo-title: Trending
 solution: Experience Manager
 title: Trending
 uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Trending{#trending}

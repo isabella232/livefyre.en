@@ -4,9 +4,7 @@ seo-description: You can use Livefyre Identity with GitHub Identity to allow use
 seo-title: Create a GitHub Identity App for Use with Livefyre Identity
 title: Create a GitHub Identity App for Use with Livefyre Identity
 uuid: cf56164c-1521-4a42-89cb-39483764807e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a GitHub Identity App for Use with Livefyre Identity{#create-a-github-identity-app-for-use-with-livefyre-identity}

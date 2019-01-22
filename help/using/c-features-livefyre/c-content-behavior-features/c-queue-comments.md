@@ -5,9 +5,7 @@ seo-title: Queue Comments
 solution: Experience Manager
 title: Queue Comments
 uuid: e487b6ee-410b-4ea6-a62e-044e7e0ee14a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Queue Comments{#queue-comments}

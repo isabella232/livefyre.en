@@ -5,9 +5,7 @@ seo-title: Create a Story
 solution: Experience Manager
 title: Create a Story
 uuid: ab1d9b9a-9081-4ca0-8df4-1cc6d9c9fd81
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a Story{#create-a-story}

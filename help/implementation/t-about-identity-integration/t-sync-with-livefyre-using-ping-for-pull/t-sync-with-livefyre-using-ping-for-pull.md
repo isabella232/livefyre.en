@@ -5,9 +5,7 @@ seo-title: Sync with Livefyre Using Ping for Pull
 solution: Experience Manager
 title: Sync with Livefyre Using Ping for Pull
 uuid: 7b059064-1cca-46d7-8055-dfe59f493ac1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sync with Livefyre Using Ping for Pull{#sync-with-livefyre-using-ping-for-pull}

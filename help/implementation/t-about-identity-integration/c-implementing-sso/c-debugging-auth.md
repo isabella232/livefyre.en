@@ -5,9 +5,7 @@ seo-title: Debugging Auth Delegate
 solution: Experience Manager
 title: Debugging Auth Delegate
 uuid: fb0c7396-190e-4dc9-bf26-23dde9efd45d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Debugging Auth Delegate{#debugging-auth-delegate}

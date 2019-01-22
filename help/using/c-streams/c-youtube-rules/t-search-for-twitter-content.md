@@ -4,9 +4,7 @@ seo-description: Use Social Search to search for Twitter content to include in y
 seo-title: Search for Twitter Content
 title: Search for Twitter Content
 uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Search for Twitter Content{#search-for-twitter-content}

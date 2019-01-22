@@ -5,9 +5,7 @@ seo-title: validateLivefyreToken Network Method
 solution: Experience Manager
 title: validateLivefyreToken Network Method
 uuid: 2bac11de-d6c4-419f-9c7b-92cfb541d07e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # validateLivefyreToken Network Method{#validatelivefyretoken-network-method}

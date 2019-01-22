@@ -5,9 +5,7 @@ seo-title: About Instagram Accounts
 solution: Experience Manager
 title: About Instagram Accounts
 uuid: 1fa2b4ca-264c-42c8-8dcb-57f7543ed2f7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Instagram Accounts{#about-instagram-accounts}

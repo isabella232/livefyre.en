@@ -5,9 +5,7 @@ seo-title: Viewing Account Details
 solution: Experience Manager
 title: Viewing Account Details
 uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Viewing Account Details{#viewing-account-details}

@@ -5,9 +5,7 @@ seo-title: Creating a Reviews App
 solution: Experience Manager
 title: Creating a Reviews App
 uuid: 6caeafe7-c04e-484e-b02f-98dc6d9b3184
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Creating a Reviews App{#creating-a-reviews-app}

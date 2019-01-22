@@ -5,9 +5,7 @@ seo-title: Create a LinkedIn App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a LinkedIn App for Use with Livefyre Identity
 uuid: c5112f24-a4e0-4526-afe8-b8f27a3b2854
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a LinkedIn App for Use with Livefyre Identity{#create-a-linkedin-app-for-use-with-livefyre-identity}

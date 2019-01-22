@@ -5,9 +5,7 @@ seo-title: Enagement Features
 solution: Experience Manager
 title: Enagement Features
 uuid: 5841a183-62c0-40ae-9cef-884bffb7c39b
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Enagement Features{#enagement-features}

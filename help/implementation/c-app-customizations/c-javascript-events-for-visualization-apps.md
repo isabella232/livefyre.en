@@ -5,9 +5,7 @@ seo-title: Javascript Events for Visualization Apps
 solution: Experience Manager
 title: Javascript Events for Visualization Apps
 uuid: 0797c384-7e8e-44fc-9738-a10a48d490cc
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Javascript Events for Visualization Apps{#javascript-events-for-visualization-apps}

@@ -4,9 +4,7 @@ seo-description: Allow users to customize the image that displays with their con
 seo-title: Avatars
 title: Avatars
 uuid: bf20f3bc-3dcc-4e16-a629-3380d1a7a3f2
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Avatars{#avatars}

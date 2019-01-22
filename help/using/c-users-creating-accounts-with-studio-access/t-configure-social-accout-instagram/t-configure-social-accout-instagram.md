@@ -5,9 +5,7 @@ seo-title: Add a Social Account
 solution: Experience Manager
 title: Add a Social Account
 uuid: c53cbc77-7394-499c-80ee-7fe22cbafec9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add a Social Account{#add-a-social-account}

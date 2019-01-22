@@ -5,9 +5,7 @@ seo-title: Build the Ping
 solution: Experience Manager
 title: Build the Ping
 uuid: cb8cc043-9ea5-407c-b70f-3f1e37accdae
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Build the Ping{#build-the-ping}

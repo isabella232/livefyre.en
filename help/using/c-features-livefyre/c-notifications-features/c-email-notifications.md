@@ -5,9 +5,7 @@ seo-title: Email Notifications
 solution: Experience Manager
 title: Email Notifications
 uuid: 27dad133-bd8d-4949-8146-1254c160d3af
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Email Notifications{#email-notifications}

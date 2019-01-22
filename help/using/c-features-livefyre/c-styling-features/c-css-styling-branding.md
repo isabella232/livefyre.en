@@ -4,9 +4,7 @@ seo-description: Use CSS to style elements of a Livefyre App to fit your brand.
 seo-title: CSS Styling and Branding
 title: CSS Styling and Branding
 uuid: 729a2780-f757-4c54-b446-ff832cecf620
-index: y
-internal: n
-snippet: y
+
 ---
 
 # CSS Styling and Branding{#css-styling-and-branding}

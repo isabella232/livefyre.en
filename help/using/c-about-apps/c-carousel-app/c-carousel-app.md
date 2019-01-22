@@ -5,9 +5,7 @@ seo-title: Carousel
 solution: Experience Manager
 title: Carousel
 uuid: c0704fba-6119-44ca-9ad1-1e2cb692ebda
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Carousel{#carousel}

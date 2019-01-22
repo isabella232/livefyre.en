@@ -5,9 +5,7 @@ seo-title: Whitelist a User
 solution: Experience Manager
 title: Whitelist a User
 uuid: c58f7279-5fde-419a-a833-3c639d469421
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Whitelist a User{#whitelist-a-user}

@@ -5,9 +5,7 @@ seo-title: Site Class Methods
 solution: Experience Manager
 title: Site Class Methods
 uuid: cf1e641a-d4ef-4c92-a7d1-985380434fc2
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Site Class Methods{#site-class-methods}

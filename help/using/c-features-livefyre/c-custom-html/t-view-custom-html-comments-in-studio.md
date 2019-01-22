@@ -5,9 +5,7 @@ seo-title: View Custom HTML Comments in Studio
 solution: Experience Manager
 title: View Custom HTML Comments in Studio
 uuid: 56df319c-6be7-448c-9562-48c67db27557
-index: y
-internal: n
-snippet: y
+
 ---
 
 # View Custom HTML Comments in Studio{#view-custom-html-comments-in-studio}

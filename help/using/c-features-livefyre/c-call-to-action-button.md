@@ -4,9 +4,7 @@ seo-description: null
 seo-title: Custom Call-to-Action Button
 title: Custom Call-to-Action Button
 uuid: 8c653799-1602-4e38-a2bc-6de0f99c40ff
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Custom Call-to-Action Button{#custom-call-to-action-button}

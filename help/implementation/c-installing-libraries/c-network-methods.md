@@ -5,9 +5,7 @@ seo-title: Network Methods
 solution: Experience Manager
 title: Network Methods
 uuid: f237fead-36b5-4ea1-bfdd-55194d3306e1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Network Methods{#network-methods}

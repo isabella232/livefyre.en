@@ -5,9 +5,7 @@ seo-title: Instagram Content Guidelines
 solution: Experience Manager
 title: Instagram Content Guidelines
 uuid: 4c5ba96b-a242-407f-aa36-3a4e431832b8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Instagram Content Guidelines{#instagram-content-guidelines}

@@ -5,9 +5,7 @@ seo-title: Create Asset Folders
 solution: Experience Manager
 title: Create Asset Folders
 uuid: fe5eb098-ac8c-44e9-aee4-6c0b88f82747
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create Asset Folders{#create-asset-folders}

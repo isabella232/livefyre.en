@@ -5,9 +5,7 @@ seo-title: Importing User Profiles
 solution: Experience Manager
 title: Importing User Profiles
 uuid: ca0e51a7-dba8-417f-9b3d-ab9c3a8c1127
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Importing User Profiles{#importing-user-profiles}

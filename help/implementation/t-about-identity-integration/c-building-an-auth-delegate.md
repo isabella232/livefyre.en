@@ -5,9 +5,7 @@ seo-title: AuthDelegate Object
 solution: Experience Manager
 title: AuthDelegate Object
 uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # AuthDelegate Object{#authdelegate-object}

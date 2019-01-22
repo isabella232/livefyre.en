@@ -5,9 +5,7 @@ seo-title: Review History
 solution: Experience Manager
 title: Review History
 uuid: c2f8a45b-54c1-4667-893a-b3bd4be4546a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Review History{#review-history}

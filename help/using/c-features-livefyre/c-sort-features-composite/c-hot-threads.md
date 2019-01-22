@@ -5,9 +5,7 @@ seo-title: Hot Threads
 solution: Experience Manager
 title: Hot Threads
 uuid: 0011f769-6712-48e9-bb10-a43610fef595
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Hot Threads{#hot-threads}

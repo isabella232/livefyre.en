@@ -5,9 +5,7 @@ seo-title: Pull Request Structure
 solution: Experience Manager
 title: Pull Request Structure
 uuid: bf6b9e45-d08a-48e6-acc6-e4fa56428d25
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Pull Request Structure{#pull-request-structure}

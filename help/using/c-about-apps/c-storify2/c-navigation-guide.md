@@ -5,9 +5,7 @@ seo-title: Navigation Guide
 solution: Experience Manager
 title: Navigation Guide
 uuid: dc32df5b-ad6f-4b3b-8496-38873c383691
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Navigation Guide{#navigation-guide}

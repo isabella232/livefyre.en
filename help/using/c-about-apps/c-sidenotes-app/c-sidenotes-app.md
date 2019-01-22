@@ -5,9 +5,7 @@ seo-title: Sidenotes
 solution: Experience Manager
 title: Sidenotes
 uuid: 306294e9-1b4e-44cb-b619-a97840609f6b
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sidenotes{#sidenotes}

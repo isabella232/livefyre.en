@@ -5,9 +5,7 @@ seo-title: buildReviewsCollection Site Method
 solution: Experience Manager
 title: buildReviewsCollection Site Method
 uuid: 88af4c68-57de-4ae9-9394-550c94ede48f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildReviewsCollection Site Method{#buildreviewscollection-site-method}

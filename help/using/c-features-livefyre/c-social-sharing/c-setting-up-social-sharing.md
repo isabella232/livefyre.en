@@ -4,9 +4,7 @@ seo-description: The Social Sharing panel allows you to add your social media ne
 seo-title: Setting up Social Sharing
 title: Setting up Social Sharing
 uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Setting up Social Sharing{#setting-up-social-sharing}

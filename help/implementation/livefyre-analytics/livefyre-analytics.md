@@ -5,9 +5,7 @@ seo-title: Analytics
 solution: Experience Manager
 title: Analytics
 uuid: b022aa77-59b9-422a-8d9f-fb9d8a1b0478
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Analytics{#analytics}

@@ -4,9 +4,7 @@ seo-description: null
 seo-title: Sidenotes Custom Strings
 title: Sidenotes Custom Strings
 uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sidenotes Custom Strings{#sidenotes-custom-strings}

@@ -5,9 +5,7 @@ seo-title: Collection and Content Tags
 solution: Experience Manager
 title: Collection and Content Tags
 uuid: 1f6900ac-40ff-41ec-ac26-25ff476cd820
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Collection and Content Tags{#collection-and-content-tags}

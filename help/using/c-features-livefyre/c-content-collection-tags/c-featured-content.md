@@ -5,9 +5,7 @@ seo-title: Featured Content
 solution: Experience Manager
 title: Featured Content
 uuid: 2204a989-69b3-440d-beae-7e9c6e9d5698
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Featured Content{#featured-content}

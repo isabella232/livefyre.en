@@ -5,9 +5,7 @@ seo-title: Sidenotes Configuration Options
 solution: Experience Manager
 title: Sidenotes Configuration Options
 uuid: 067e51e6-9720-4226-a805-c7a07c8cdaa0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sidenotes Configuration Options{#sidenotes-configuration-options}

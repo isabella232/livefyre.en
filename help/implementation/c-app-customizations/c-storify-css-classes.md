@@ -5,9 +5,7 @@ seo-title: Storify CSS Classes
 solution: Experience Manager
 title: Storify CSS Classes
 uuid: 168a0db0-a209-417a-ba91-a33b4d411c8d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Storify CSS Classes{#storify-css-classes}

@@ -5,9 +5,7 @@ seo-title: Throttle Content
 solution: Experience Manager
 title: Throttle Content
 uuid: 1f2833ca-37d6-4db1-8800-dc5f35e02ff1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Throttle Content{#throttle-content}

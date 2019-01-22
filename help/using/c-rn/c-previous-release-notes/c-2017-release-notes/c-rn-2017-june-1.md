@@ -4,9 +4,7 @@ seo-description: Release Notes for the June 1, 2017 release.
 seo-title: June 1, 2017
 title: June 1, 2017
 uuid: 70c39b30-896d-437a-9852-80eb47c08892
-index: y
-internal: n
-snippet: y
+
 ---
 
 # June 1, 2017{#june}

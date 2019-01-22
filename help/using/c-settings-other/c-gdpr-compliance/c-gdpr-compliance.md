@@ -5,9 +5,7 @@ seo-title: Privacy Requests (GDPR-Ready)
 solution: Experience Manager
 title: Privacy Requests (GDPR-Ready)
 uuid: 8c8b2001-f94d-4afc-8acd-ff4c096dc2f9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Privacy Requests (GDPR-Ready){#privacy-requests-gdpr-ready}

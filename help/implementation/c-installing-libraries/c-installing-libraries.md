@@ -5,9 +5,7 @@ seo-title: Installation
 solution: Experience Manager
 title: Installation
 uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Installation{#installation}

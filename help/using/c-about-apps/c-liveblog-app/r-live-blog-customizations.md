@@ -5,9 +5,7 @@ seo-title: Live Blog Customizations
 solution: Experience Manager
 title: Live Blog Customizations
 uuid: f07d4c33-4aef-4d69-b9dd-3fd3c27ffd6d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Live Blog Customizations{#live-blog-customizations}

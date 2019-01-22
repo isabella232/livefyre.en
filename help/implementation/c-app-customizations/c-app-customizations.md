@@ -5,9 +5,7 @@ seo-title: App Customizations
 solution: Experience Manager
 title: App Customizations
 uuid: 6f27654d-c2b4-45b5-aae7-6fbf312fb829
-index: y
-internal: n
-snippet: y
+
 ---
 
 # App Customizations{#app-customizations}

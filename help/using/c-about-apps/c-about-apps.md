@@ -5,9 +5,7 @@ seo-title: Apps
 solution: Experience Manager
 title: Apps
 uuid: 672db3b6-722a-4eca-97e5-b877b926b5f6
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Apps{#apps}

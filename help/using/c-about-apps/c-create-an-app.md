@@ -5,9 +5,7 @@ seo-title: Create an App
 solution: Experience Manager
 title: Create an App
 uuid: 8c2c07fb-a951-47d9-b498-4c487ee83a18
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create an App {#create-an-app}

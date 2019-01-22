@@ -5,9 +5,7 @@ seo-title: Manage Studio Permissions for Users
 solution: Experience Manager
 title: Manage Studio Permissions for Users
 uuid: 15c395c8-a9bb-4b0b-9586-61ac36810730
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Manage Studio Permissions for Users{#manage-studio-permissions-for-users}

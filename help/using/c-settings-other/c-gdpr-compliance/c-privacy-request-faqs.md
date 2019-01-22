@@ -5,9 +5,7 @@ seo-title: Privacy Request FAQs
 solution: Experience Manager
 title: Privacy Request FAQs
 uuid: 0cd6f0d2-504d-46e9-ac46-070536cda086
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Privacy Request FAQs{#privacy-request-faqs}

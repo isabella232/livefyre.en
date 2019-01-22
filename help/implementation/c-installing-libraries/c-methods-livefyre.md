@@ -5,9 +5,7 @@ seo-title: Classes and Methods
 solution: Experience Manager
 title: Classes and Methods
 uuid: 2e7327d8-0f92-485c-b607-a566894b3561
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Classes and Methods{#classes-and-methods}

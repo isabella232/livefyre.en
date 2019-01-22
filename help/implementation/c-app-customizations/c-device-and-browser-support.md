@@ -4,9 +4,7 @@ seo-description: A list of browsers and devices supported by the Livefyre App su
 seo-title: Device and Browser Support
 title: Device and Browser Support
 uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Device and Browser Support{#device-and-browser-support}

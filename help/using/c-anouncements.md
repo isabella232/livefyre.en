@@ -5,9 +5,7 @@ seo-title: Announcements
 solution: Experience Manager
 title: Announcements
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Announcements{#announcements}

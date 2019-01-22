@@ -5,9 +5,7 @@ seo-title: Set up Credentials
 solution: Experience Manager
 title: Set up Credentials
 uuid: 688af27e-97ba-4bff-8edd-6be82f48e6c7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Set up Credentials{#set-up-credentials}

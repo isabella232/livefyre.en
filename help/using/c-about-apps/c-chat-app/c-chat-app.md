@@ -5,9 +5,7 @@ seo-title: Chat
 solution: Experience Manager
 title: Chat
 uuid: 1da65e9a-736c-46d3-87e1-371b77f94661
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Chat{#chat}

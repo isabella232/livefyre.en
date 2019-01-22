@@ -5,9 +5,7 @@ seo-title: setSSL Network Method
 solution: Experience Manager
 title: setSSL Network Method
 uuid: 8d989e63-c859-456a-99ca-8d87933913ba
-index: y
-internal: n
-snippet: y
+
 ---
 
 # setSSL Network Method{#setssl-network-method}

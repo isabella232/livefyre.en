@@ -5,9 +5,7 @@ seo-title: Tumblr Rules
 solution: Experience Manager
 title: Tumblr Rules
 uuid: fe9601ab-aa5e-48c6-a5bf-5543c179cb90
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Tumblr Rules{#tumblr-rules}

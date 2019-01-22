@@ -5,9 +5,7 @@ seo-title: Applying Custom Styles
 solution: Experience Manager
 title: Applying Custom Styles
 uuid: 0556aa2f-4fcd-4bde-abb5-479ec682f573
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Applying Custom Styles{#applying-custom-styles}

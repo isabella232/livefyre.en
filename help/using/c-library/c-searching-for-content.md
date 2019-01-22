@@ -5,9 +5,7 @@ seo-title: Search by URL
 solution: Experience Manager
 title: Search by URL
 uuid: 45be6a85-e615-46c6-9601-82df02839315
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Search by URL{#search-by-url}

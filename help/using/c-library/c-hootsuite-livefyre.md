@@ -4,9 +4,7 @@ seo-description: Learn how to use Experience Manager Livefyre with Hootsuite, al
 seo-title: Use Adobe Experience Manager Livefyre with Hootsuite
 title: Use Adobe Experience Manager Livefyre with Hootsuite
 uuid: ebf2ba17-1622-4bbe-a374-fb325357ef9f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Use Adobe Experience Manager Livefyre with Hootsuite{#use-adobe-experience-manager-livefyre-with-hootsuite}

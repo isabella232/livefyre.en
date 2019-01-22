@@ -5,9 +5,7 @@ seo-title: App Content Tab
 solution: Experience Manager
 title: App Content Tab
 uuid: 65b23085-2b79-4a6f-96c9-44b421805312
-index: y
-internal: n
-snippet: y
+
 ---
 
 # App Content Tab{#app-content-tab}

@@ -5,9 +5,7 @@ seo-title: Build the Pull Endpoint
 solution: Experience Manager
 title: Build the Pull Endpoint
 uuid: 1703152f-aaa7-4a88-aa33-d9f8957ad42b
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Build the Pull Endpoint{#build-the-pull-endpoint}

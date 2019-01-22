@@ -5,9 +5,7 @@ seo-title: Sidenotes Text Strings
 solution: Experience Manager
 title: Sidenotes Text Strings
 uuid: a3735237-e55d-4bc0-b88d-8a323980ee09
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sidenotes Text Strings{#sidenotes-text-strings}

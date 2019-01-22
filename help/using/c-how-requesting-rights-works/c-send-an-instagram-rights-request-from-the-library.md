@@ -5,9 +5,7 @@ seo-title: Send a Partially-Automated Instagram Rights Request
 solution: Experience Manager
 title: Send a Partially-Automated Instagram Rights Request
 uuid: 18cf88ab-af0d-4a40-93d2-adfbdbdd21d5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Send a Partially-Automated Instagram Rights Request{#send-a-partially-automated-instagram-rights-request}

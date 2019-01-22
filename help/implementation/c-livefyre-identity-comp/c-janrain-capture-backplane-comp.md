@@ -5,9 +5,7 @@ seo-title: Janrain Capture/Backplane
 solution: Experience Manager
 title: Janrain Capture/Backplane
 uuid: 776e9626-db04-4c34-adfe-681a71b552c5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Janrain Capture/Backplane{#janrain-capture-backplane}

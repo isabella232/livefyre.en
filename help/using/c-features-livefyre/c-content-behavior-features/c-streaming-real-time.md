@@ -5,9 +5,7 @@ seo-title: Streaming Real Time
 solution: Experience Manager
 title: Streaming Real Time
 uuid: 7a440cc2-99c5-4737-8c35-aac1183b1a2c
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Streaming Real Time{#streaming-real-time}

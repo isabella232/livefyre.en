@@ -5,9 +5,7 @@ seo-title: Managing Rights Requests
 solution: Experience Manager
 title: Managing Rights Requests
 uuid: e8f7f73e-da8a-43dc-b5d2-63485872cdca
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Managing Rights Requests{#managing-rights-requests}

@@ -4,9 +4,7 @@ seo-description: Custom styles are applied through an object injected into the S
 seo-title: Sidenotes Custom Styles
 title: Sidenotes Custom Styles
 uuid: 0f6d7ad6-1f6a-4ed2-b86a-0d03782e591e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sidenotes Custom Styles{#sidenotes-custom-styles}

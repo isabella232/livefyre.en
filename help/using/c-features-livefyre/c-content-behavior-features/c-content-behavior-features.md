@@ -5,9 +5,7 @@ seo-title: Content Behavior Features
 solution: Experience Manager
 title: Content Behavior Features
 uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Content Behavior Features{#content-behavior-features}

@@ -5,9 +5,7 @@ seo-title: Livefyre.js
 solution: Experience Manager
 title: Livefyre.js
 uuid: 7b3eca57-d5e8-416d-badf-a9c51d10dadd
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Livefyre.js {#livefyre-js}

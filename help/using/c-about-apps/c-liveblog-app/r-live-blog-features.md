@@ -5,9 +5,7 @@ seo-title: Live Blog Features
 solution: Experience Manager
 title: Live Blog Features
 uuid: 5a9fede3-e150-4655-b5e1-3ddaee9a6ba1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Live Blog Features{#live-blog-features}

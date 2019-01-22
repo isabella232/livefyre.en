@@ -5,9 +5,7 @@ seo-title: Style User Group Content
 solution: Experience Manager
 title: Style User Group Content
 uuid: 2205d2c9-1892-427d-a289-bab0bf1dfe19
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Style User Group Content{#style-user-group-content}

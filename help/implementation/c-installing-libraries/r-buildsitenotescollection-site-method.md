@@ -5,9 +5,7 @@ seo-title: buildSitenotesCollection Site Method
 solution: Experience Manager
 title: buildSitenotesCollection Site Method
 uuid: 2bfbc032-4c0c-48d2-8ce6-02460b38bd6c
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildSitenotesCollection Site Method{#buildsitenotescollection-site-method}

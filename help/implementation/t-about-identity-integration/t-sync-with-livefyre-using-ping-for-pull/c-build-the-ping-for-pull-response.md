@@ -5,9 +5,7 @@ seo-title: Build the Ping for Pull Response
 solution: Experience Manager
 title: Build the Ping for Pull Response
 uuid: f90871d5-601f-40dc-b3d2-ab78635e4a88
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Build the Ping for Pull Response{#build-the-ping-for-pull-response}

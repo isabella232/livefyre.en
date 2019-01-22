@@ -5,9 +5,7 @@ seo-title: createOrUpdate Collection Method
 solution: Experience Manager
 title: createOrUpdate Collection Method
 uuid: 1fff82d3-4b05-46a0-95ca-3eb4a6256cf8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # createOrUpdate Collection Method{#createorupdate-collection-method}

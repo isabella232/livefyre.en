@@ -5,9 +5,7 @@ seo-title: Chat Features
 solution: Experience Manager
 title: Chat Features
 uuid: 8773a8f9-96cd-41db-80dd-261af749e4b1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Chat Features{#chat-features}

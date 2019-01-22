@@ -5,9 +5,7 @@ seo-title: Aggregated Featured Content using the Featured APIs
 solution: Experience Manager
 title: Aggregated Featured Content using the Featured APIs
 uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Aggregated Featured Content using the Featured APIs{#aggregated-featured-content-using-the-featured-apis}

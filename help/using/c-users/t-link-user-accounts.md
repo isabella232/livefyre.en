@@ -5,9 +5,7 @@ seo-title: Link User Accounts
 solution: Experience Manager
 title: Link User Accounts
 uuid: f1106367-64f9-4304-aa04-f931f79ffd6d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Link User Accounts{#link-user-accounts}

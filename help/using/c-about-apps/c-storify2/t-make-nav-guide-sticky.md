@@ -5,9 +5,7 @@ seo-title: Make the Navigation Guide Sticky
 solution: Experience Manager
 title: Make the Navigation Guide Sticky
 uuid: baa74ecb-d6eb-4191-ac15-9a878f70bd96
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Make the Navigation Guide Sticky{#make-the-navigation-guide-sticky}

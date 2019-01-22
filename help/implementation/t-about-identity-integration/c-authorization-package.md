@@ -5,9 +5,7 @@ seo-title: Authentication Package
 solution: Experience Manager
 title: Authentication Package
 uuid: 4eec30cf-66b6-408d-985d-3e23b8b70d01
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Authentication Package{#authentication-package}

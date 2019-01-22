@@ -5,9 +5,7 @@ seo-title: Publish a Story
 solution: Experience Manager
 title: Publish a Story
 uuid: 2fbf0ab3-ae59-4dac-8a4d-e076bb5e477a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Publish a Story{#publish-a-story}

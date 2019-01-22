@@ -5,9 +5,7 @@ seo-title: CMS App Integrations
 solution: Experience Manager
 title: CMS App Integrations
 uuid: 14fd7e36-0e50-4ae3-97f0-2de731c184f5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # CMS App Integrations{#cms-app-integrations}

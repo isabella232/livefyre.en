@@ -5,9 +5,7 @@ seo-title: Upload Button Customizations
 solution: Experience Manager
 title: Upload Button Customizations
 uuid: d820bbec-8c76-4864-9e70-55394010c35d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Upload Button Customizations{#upload-button-customizations}

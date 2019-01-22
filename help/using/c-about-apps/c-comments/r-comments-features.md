@@ -5,9 +5,7 @@ seo-title: Comments Features
 solution: Experience Manager
 title: Comments Features
 uuid: ec00fcc9-1b5e-4d0b-b1da-95f9f26b4cc1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Comments Features{#comments-features}

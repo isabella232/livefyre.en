@@ -5,9 +5,7 @@ seo-title: Social Counter
 solution: Experience Manager
 title: Social Counter
 uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Social Counter{#social-counter}

@@ -5,9 +5,7 @@ seo-title: Preview a Story
 solution: Experience Manager
 title: Preview a Story
 uuid: 3b5321c3-1fab-4439-86ab-efa2ffc24f41
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Preview a Story{#preview-a-story}

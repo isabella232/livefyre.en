@@ -4,9 +4,7 @@ seo-description: l
 seo-title: Top Comments
 title: Top Comments
 uuid: 23c4a766-b3e8-4fab-a7f9-78cdb601652a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Top Comments{#top-comments}

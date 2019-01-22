@@ -5,9 +5,7 @@ seo-title: Collection Class Methods
 solution: Experience Manager
 title: Collection Class Methods
 uuid: fd3163c6-981f-44b3-a7ba-6b4e85b0830d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Collection Class Methods{#collection-class-methods}

@@ -5,9 +5,7 @@ seo-title: Localize Strings
 solution: Experience Manager
 title: Localize Strings
 uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Localize Strings{#localize-strings}

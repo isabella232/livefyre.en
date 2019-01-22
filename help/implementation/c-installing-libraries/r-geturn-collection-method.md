@@ -5,9 +5,7 @@ seo-title: getUrn Collection Method
 solution: Experience Manager
 title: getUrn Collection Method
 uuid: 2f4d7796-2ae5-4b74-a958-40825c6bff16
-index: y
-internal: n
-snippet: y
+
 ---
 
 # getUrn Collection Method{#geturn-collection-method}

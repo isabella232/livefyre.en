@@ -5,9 +5,7 @@ seo-title: Setting Up Moderation
 solution: Experience Manager
 title: Setting Up Moderation
 uuid: 0ec53fdb-08c2-4058-88cb-2f6f4b56a95b
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Setting Up Moderation{#setting-up-moderation}

@@ -5,9 +5,7 @@ seo-title: Chat Customizations
 solution: Experience Manager
 title: Chat Customizations
 uuid: eac7be2f-2dcd-4a6b-ac84-e5e650af82e0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Chat Customizations{#chat-customizations}

@@ -5,9 +5,7 @@ seo-title: Miscellaneous Features
 solution: Experience Manager
 title: Miscellaneous Features
 uuid: 76ac2102-622d-48d3-8b1d-6ca6c90c806a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Miscellaneous Features{#miscellaneous-features}

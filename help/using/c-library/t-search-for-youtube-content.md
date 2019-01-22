@@ -4,9 +4,7 @@ seo-description: Use Social Search to search for YouTube content to include in y
 seo-title: Search for YouTube Content
 title: Search for YouTube Content
 uuid: a99c2c0d-4647-4432-8f67-8c2fc29fe245
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Search for YouTube Content{#search-for-youtube-content}

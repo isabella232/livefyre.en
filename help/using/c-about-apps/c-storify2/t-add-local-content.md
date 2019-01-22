@@ -5,9 +5,7 @@ seo-title: Add Text
 solution: Experience Manager
 title: Add Text
 uuid: 01dba567-daf9-4cfa-9671-b85f3d132ddc
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add Text{#add-text}

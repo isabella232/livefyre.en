@@ -5,9 +5,7 @@ seo-title: Use Livefyre with Adobe Analytics And Dynamic Tag Manager (DTM)
 solution: Experience Manager
 title: Use Livefyre with Adobe Analytics And Dynamic Tag Manager (DTM)
 uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Use Livefyre with Adobe Analytics And Dynamic Tag Manager (DTM){#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}

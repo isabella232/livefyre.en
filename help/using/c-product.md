@@ -5,9 +5,7 @@ seo-title: About Livefyre
 solution: Experience Manager
 title: About Livefyre
 uuid: b864afe0-9ccb-4607-b735-69ce42cd8199
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Livefyre{#about-livefyre}

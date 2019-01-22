@@ -5,9 +5,7 @@ seo-title: Search for Instagram Content
 solution: Experience Manager
 title: Search for Instagram Content
 uuid: 38a7185d-9936-4eaa-97e9-5b23b3566496
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Search for Instagram Content{#search-for-instagram-content}

@@ -4,9 +4,7 @@ seo-description: Livefyre.require provides a plugin that enables auth to listen 
 seo-title: Connecting Janrain to Livefyre using AuthDelegate
 title: Connecting Janrain to Livefyre using AuthDelegate
 uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Connecting Janrain to Livefyre using AuthDelegate{#connecting-janrain-to-livefyre-using-authdelegate}

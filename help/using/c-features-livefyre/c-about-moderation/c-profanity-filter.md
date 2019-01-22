@@ -5,9 +5,7 @@ seo-title: Using the Profanity Filter
 solution: Experience Manager
 title: Using the Profanity Filter
 uuid: b0b1fbae-c88c-403c-9b91-df6620675f39
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Using the Profanity Filter{#using-the-profanity-filter}

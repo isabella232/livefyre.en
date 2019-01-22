@@ -4,9 +4,7 @@ seo-description: The App Content tab in your Library allows you to moderate cont
 seo-title: Moderate Content using App Content
 title: Moderate Content using App Content
 uuid: 1c648128-e7ef-4836-afe5-eff52de30e7e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Moderate Content using App Content{#moderate-content-using-app-content}

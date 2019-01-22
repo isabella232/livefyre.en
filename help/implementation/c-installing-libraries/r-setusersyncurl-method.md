@@ -5,9 +5,7 @@ seo-title: setUserSyncUrl Network Method
 solution: Experience Manager
 title: setUserSyncUrl Network Method
 uuid: cd067e90-a2da-4e3d-8e60-7eabfd86fc7f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # setUserSyncUrl Network Method{#setusersyncurl-network-method}

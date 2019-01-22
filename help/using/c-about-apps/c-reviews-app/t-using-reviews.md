@@ -5,9 +5,7 @@ seo-title: Post a Review
 solution: Experience Manager
 title: Post a Review
 uuid: b5744b06-9e6b-425b-9a49-a919d32dfe1d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Post a Review{#post-a-review}

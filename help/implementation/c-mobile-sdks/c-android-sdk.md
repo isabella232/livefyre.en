@@ -5,9 +5,7 @@ seo-title: Android SDK
 solution: Experience Manager
 title: Android SDK
 uuid: 68793fa9-3ea1-4890-b36d-b631f1c6f7de
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Android SDK{#android-sdk}

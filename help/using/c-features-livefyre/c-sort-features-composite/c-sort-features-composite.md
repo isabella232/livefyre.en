@@ -5,9 +5,7 @@ seo-title: Sort Features
 solution: Experience Manager
 title: Sort Features
 uuid: e40f5877-acdc-48c2-a2c3-8a8d253cdb93
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sort Features{#sort-features}

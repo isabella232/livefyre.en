@@ -5,9 +5,7 @@ seo-title: Accessibility Features
 solution: Experience Manager
 title: Accessibility Features
 uuid: e04970d5-f45d-40e0-807e-ae88a9386ef7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Accessibility Features{#accessibility-features}

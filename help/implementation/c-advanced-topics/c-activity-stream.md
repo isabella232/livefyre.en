@@ -5,9 +5,7 @@ seo-title: Activity Stream
 solution: Experience Manager
 title: Activity Stream
 uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Activity Stream {#activity-stream}

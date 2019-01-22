@@ -5,9 +5,7 @@ seo-title: Move the Livefyre Logo
 solution: Experience Manager
 title: Move the Livefyre Logo
 uuid: 807304ae-6070-4505-87db-169a925f714c
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Move the Livefyre Logo{#move-the-livefyre-logo}

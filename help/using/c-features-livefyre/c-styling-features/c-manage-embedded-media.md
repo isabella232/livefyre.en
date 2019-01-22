@@ -4,9 +4,7 @@ seo-description: Define the sources from which users may post media, and those f
 seo-title: Manage Embedded Media
 title: Manage Embedded Media
 uuid: d8621be1-dcfb-429f-954e-b21fdcf02715
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Manage Embedded Media{#manage-embedded-media}

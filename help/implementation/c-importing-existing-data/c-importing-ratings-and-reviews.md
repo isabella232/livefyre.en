@@ -5,9 +5,7 @@ seo-title: Importing Ratings and Reviews
 solution: Experience Manager
 title: Importing Ratings and Reviews
 uuid: 5c3386e6-7622-41f3-ac25-92bc6ab846f7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Importing Ratings and Reviews{#importing-ratings-and-reviews}

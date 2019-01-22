@@ -5,9 +5,7 @@ seo-title: Publish Assets to Apps
 solution: Experience Manager
 title: Publish Assets to Apps
 uuid: 42d39142-b047-4055-b946-15bcc91d5a95
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Publish Assets to Apps{#publish-assets-to-apps}

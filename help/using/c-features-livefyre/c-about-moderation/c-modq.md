@@ -4,9 +4,7 @@ seo-description: Moderate content from a single, intelligent interface.
 seo-title: Moderate Content Using ModQ
 title: Moderate Content Using ModQ
 uuid: c630fb85-7bd0-4da0-ac7e-080e970fb4f9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Moderate Content Using ModQ{#moderate-content-using-modq}

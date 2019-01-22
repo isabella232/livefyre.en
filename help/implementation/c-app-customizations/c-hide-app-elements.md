@@ -5,9 +5,7 @@ seo-title: Hide App Elements
 solution: Experience Manager
 title: Hide App Elements
 uuid: ea090b6e-99f5-4bd7-aa9e-d39a4dff1543
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Hide App Elements{#hide-app-elements}

@@ -5,9 +5,7 @@ seo-title: Manage Asset Folders
 solution: Experience Manager
 title: Manage Asset Folders
 uuid: 9ce510df-4f7a-4178-b2c4-7d59e4868add
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Manage Asset Folders{#manage-asset-folders}

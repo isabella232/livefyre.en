@@ -5,9 +5,7 @@ seo-title: Importing Existing Data
 solution: Experience Manager
 title: Importing Existing Data
 uuid: 2ac4ad48-d30e-455b-859e-879123db1a3e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Importing Existing Data{#importing-existing-data}

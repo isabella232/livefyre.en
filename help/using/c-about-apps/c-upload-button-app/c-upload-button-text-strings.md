@@ -5,9 +5,7 @@ seo-title: Upload Button Text Strings
 solution: Experience Manager
 title: Upload Button Text Strings
 uuid: f4d24af3-c7cb-468d-96b9-b5360047b5dc
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Upload Button Text Strings{#upload-button-text-strings}

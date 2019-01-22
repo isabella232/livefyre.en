@@ -5,9 +5,7 @@ seo-title: Moderate Users
 solution: Experience Manager
 title: Moderate Users
 uuid: b801cdfe-05ea-4c29-bb9b-0f6a33cb11d1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Moderate Users{#moderate-users}

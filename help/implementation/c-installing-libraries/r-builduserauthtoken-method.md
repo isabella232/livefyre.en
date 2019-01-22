@@ -5,9 +5,7 @@ seo-title: buildUserAuthToken Network Method
 solution: Experience Manager
 title: buildUserAuthToken Network Method
 uuid: 8828d356-c3c6-46a6-91bf-83bd59e35050
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildUserAuthToken Network Method{#builduserauthtoken-network-method}

@@ -5,9 +5,7 @@ seo-title: getNetworkName Network Method
 solution: Experience Manager
 title: getNetworkName Network Method
 uuid: 3523e5a4-11f4-458d-91e7-a149d3afe5e9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # getNetworkName Network Method{#getnetworkname-network-method}

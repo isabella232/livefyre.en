@@ -5,9 +5,7 @@ seo-title: Upload Button
 solution: Experience Manager
 title: Upload Button
 uuid: 6f51057b-040b-413e-a9b0-b20440acff08
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Upload Button{#upload-button}

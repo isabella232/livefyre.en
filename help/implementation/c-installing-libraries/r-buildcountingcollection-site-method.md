@@ -4,9 +4,7 @@ seo-description: Returns a Collection object instantiated as a Counting type. Ru
 seo-title: buildCountingCollection Site Method
 title: buildCountingCollection Site Method
 uuid: e293d66a-0025-4230-997e-295ce4625713
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildCountingCollection Site Method{#buildcountingcollection-site-method}

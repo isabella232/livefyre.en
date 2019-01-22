@@ -5,9 +5,7 @@ seo-title: Create a Microsoft Live Identity App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Microsoft Live Identity App for Use with Livefyre Identity
 uuid: 0c13e1bc-817f-43ed-85d5-09c9e95b6234
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a Microsoft Live Identity App for Use with Livefyre Identity{#create-a-microsoft-live-identity-app-for-use-with-livefyre-identity}

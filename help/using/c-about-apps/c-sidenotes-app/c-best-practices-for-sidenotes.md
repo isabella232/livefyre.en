@@ -5,9 +5,7 @@ seo-title: Best Practices for Sidenotes
 solution: Experience Manager
 title: Best Practices for Sidenotes
 uuid: 0f511fff-275a-436f-a81f-dbdf0bd39900
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Best Practices for Sidenotes{#best-practices-for-sidenotes}

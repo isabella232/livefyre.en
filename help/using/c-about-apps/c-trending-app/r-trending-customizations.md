@@ -5,9 +5,7 @@ seo-title: Trending Customizations
 solution: Experience Manager
 title: Trending Customizations
 uuid: 4dc58d90-8924-4c89-8f2a-650ac6e0538a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Trending Customizations{#trending-customizations}

@@ -5,9 +5,7 @@ seo-title: JavaScript Events Definitions and Examples
 solution: Experience Manager
 title: JavaScript Events Definitions and Examples
 uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
-index: y
-internal: n
-snippet: y
+
 ---
 
 # JavaScript Events Definitions and Examples{#javascript-events-definitions-and-examples}

@@ -5,9 +5,7 @@ seo-title: Users Switching Networks
 solution: Experience Manager
 title: Users Switching Networks
 uuid: 1f1f172b-6444-4161-9396-8f6b6d738593
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Users Switching Networks{#users-switching-networks}

@@ -5,9 +5,7 @@ seo-title: User Posts
 solution: Experience Manager
 title: User Posts
 uuid: 41242f4d-614c-4737-a1f6-6f0a914f5f7f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # User Posts{#user-posts}

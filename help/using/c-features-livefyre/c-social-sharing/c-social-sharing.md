@@ -5,9 +5,7 @@ seo-title: Social Sharing
 solution: Experience Manager
 title: Social Sharing
 uuid: 3fd8a628-2414-45b5-b91c-2ad33aad2634
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Social Sharing{#social-sharing}

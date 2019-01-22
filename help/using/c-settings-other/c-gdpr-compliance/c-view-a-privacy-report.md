@@ -5,9 +5,7 @@ seo-title: View a Privacy Report
 solution: Experience Manager
 title: View a Privacy Report
 uuid: 70d9f614-5f5b-40da-ada6-78e9ffebcc28
-index: y
-internal: n
-snippet: y
+
 ---
 
 # View a Privacy Report{#view-a-privacy-report}
