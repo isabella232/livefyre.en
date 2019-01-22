@@ -5,9 +5,7 @@ seo-title: Custom HTML
 solution: Experience Manager
 title: Custom HTML
 uuid: 1d0041bc-f45f-4f36-a377-e3bcff3f2eb4
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Custom HTML{#custom-html}

@@ -5,9 +5,7 @@ seo-title: Posting User Permissions to External Systems (Optional)
 solution: Experience Manager
 title: Posting User Permissions to External Systems (Optional)
 uuid: 9c18b20d-3b93-4666-b7de-1ec60318cf88
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Posting User Permissions to External Systems (Optional){#posting-user-permissions-to-external-systems-optional}

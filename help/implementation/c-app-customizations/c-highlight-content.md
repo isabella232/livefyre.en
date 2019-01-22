@@ -5,9 +5,7 @@ seo-title: Highlight Content
 solution: Experience Manager
 title: Highlight Content
 uuid: 89876b89-3ee2-40cd-9431-377e43ea1e89
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Highlight Content{#highlight-content}

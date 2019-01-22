@@ -5,9 +5,7 @@ seo-title: Add Social Content
 solution: Experience Manager
 title: Add Social Content
 uuid: 0bd6579e-ac55-4201-a403-4fcb19e8684b
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add Social Content{#add-social-content}

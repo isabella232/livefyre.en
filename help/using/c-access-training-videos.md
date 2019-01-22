@@ -3,9 +3,7 @@ seo-title: Access Training Videos
 solution: Experience Manager
 title: Access Training Videos
 uuid: 64438e2f-dd51-4c10-98ff-e1b62db1b0ca
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Access Training Videos{#access-training-videos}

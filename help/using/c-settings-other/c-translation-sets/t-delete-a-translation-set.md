@@ -5,9 +5,7 @@ seo-title: Delete a Translation Set
 solution: Experience Manager
 title: Delete a Translation Set
 uuid: 8a098100-e51e-4554-83b8-a91fdb204a49
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Delete a Translation Set{#delete-a-translation-set}

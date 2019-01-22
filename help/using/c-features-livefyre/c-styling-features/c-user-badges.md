@@ -4,9 +4,7 @@ seo-description: Use CSS with User Tags to create User Badges for members of you
 seo-title: User Badges
 title: User Badges
 uuid: ff1451e1-7eb3-45dc-8c5a-1a6d1313e344
-index: y
-internal: n
-snippet: y
+
 ---
 
 # User Badges{#user-badges}

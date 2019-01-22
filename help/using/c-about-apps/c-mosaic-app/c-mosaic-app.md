@@ -5,9 +5,7 @@ seo-title: Mosaic
 solution: Experience Manager
 title: Mosaic
 uuid: 331c5f80-7440-4b91-8ac6-4f56a8a5befe
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Mosaic{#mosaic}

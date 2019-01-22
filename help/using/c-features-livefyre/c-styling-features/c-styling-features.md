@@ -4,9 +4,7 @@ seo-description: You can style your Livefyre Apps to behave in various ways or c
 seo-title: Styling Features
 title: Styling Features
 uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Styling Features{#styling-features}

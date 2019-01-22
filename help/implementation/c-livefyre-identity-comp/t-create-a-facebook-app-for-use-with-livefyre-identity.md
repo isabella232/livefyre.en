@@ -5,9 +5,7 @@ seo-title: Create a Facebook App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Facebook App for Use with Livefyre Identity
 uuid: a7f7be4e-8986-4e79-831a-0bb0ae555599
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a Facebook App for Use with Livefyre Identity{#create-a-facebook-app-for-use-with-livefyre-identity}

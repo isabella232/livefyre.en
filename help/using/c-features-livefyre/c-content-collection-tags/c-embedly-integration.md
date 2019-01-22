@@ -5,9 +5,7 @@ seo-title: Embedly Integration
 solution: Experience Manager
 title: Embedly Integration
 uuid: 1f27e32c-c2c3-4f7c-93de-c9c7bf783d6a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Embedly Integration{#embedly-integration}

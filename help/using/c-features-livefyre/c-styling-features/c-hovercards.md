@@ -4,9 +4,7 @@ seo-description: Enable or disable user hovercards across your site.
 seo-title: Hovercards
 title: Hovercards
 uuid: a7336a4d-b92f-4b3b-a3de-713aa388b58a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Hovercards{#hovercards}

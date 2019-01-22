@@ -5,9 +5,7 @@ seo-title: Use Streams to Add Social Content to your Story
 solution: Experience Manager
 title: Use Streams to Add Social Content to your Story
 uuid: 4999c880-a896-4ad2-bf8f-3fd9736a64d6
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Use Streams to Add Social Content to your Story{#use-streams-to-add-social-content-to-your-story}

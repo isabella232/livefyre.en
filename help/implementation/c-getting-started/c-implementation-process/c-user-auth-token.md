@@ -5,9 +5,7 @@ seo-title: User Auth Token
 solution: Experience Manager
 title: User Auth Token
 uuid: 6483debd-453c-4780-b19c-1d8041693617
-index: y
-internal: n
-snippet: y
+
 ---
 
 # User Auth Token{#user-auth-token}

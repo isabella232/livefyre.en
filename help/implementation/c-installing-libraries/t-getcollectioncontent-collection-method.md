@@ -5,9 +5,7 @@ seo-title: getCollectionContent Collection Method
 solution: Experience Manager
 title: getCollectionContent Collection Method
 uuid: 270dcea5-4de5-4d3b-a751-79e6b9c4fd93
-index: y
-internal: n
-snippet: y
+
 ---
 
 # getCollectionContent Collection Method{#getcollectioncontent-collection-method}

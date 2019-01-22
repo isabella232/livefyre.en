@@ -5,9 +5,7 @@ seo-title: Twitter Rules
 solution: Experience Manager
 title: Twitter Rules
 uuid: a7fd2398-fd6b-4c24-92b2-7471176d7648
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Twitter Rules{#twitter-rules}

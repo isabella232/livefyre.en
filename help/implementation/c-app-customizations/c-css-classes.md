@@ -5,9 +5,7 @@ seo-title: CSS Classes
 solution: Experience Manager
 title: CSS Classes
 uuid: 8714e7e5-3858-458f-a464-de87fd2f0ff0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # CSS Classes{#css-classes}

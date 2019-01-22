@@ -5,9 +5,7 @@ seo-title: Add a Title to the Navigation Guide
 solution: Experience Manager
 title: Add a Title to the Navigation Guide
 uuid: 9b8de96d-76c3-46d0-97ce-338b01f49ca7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add a Title to the Navigation Guide{#add-a-title-to-the-navigation-guide}

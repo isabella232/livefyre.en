@@ -5,9 +5,7 @@ seo-title: Media Wall Customizations
 solution: Experience Manager
 title: Media Wall Customizations
 uuid: 79aecd92-3937-4bb4-a1a6-b090fb39afb0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Media Wall Customizations{#media-wall-customizations}

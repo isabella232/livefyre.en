@@ -5,9 +5,7 @@ seo-title: Polls Customizations
 solution: Experience Manager
 title: Polls Customizations
 uuid: 788a4fa7-aafb-4508-b9c0-cd54e4cd9b86
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Polls Customizations{#polls-customizations}

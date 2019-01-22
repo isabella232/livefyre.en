@@ -5,9 +5,7 @@ seo-title: Network Class Methods
 solution: Experience Manager
 title: Network Class Methods
 uuid: 4130beda-dd09-49ae-aafb-f6b956e30b51
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Network Class Methods{#network-class-methods}

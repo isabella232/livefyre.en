@@ -5,9 +5,7 @@ seo-title: UGC Commerce
 solution: Experience Manager
 title: UGC Commerce
 uuid: 71e64901-a2b6-4957-ba88-058e4eaca537
-index: y
-internal: n
-snippet: y
+
 ---
 
 # UGC Commerce{#ugc-commerce}

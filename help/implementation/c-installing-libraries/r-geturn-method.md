@@ -5,9 +5,7 @@ seo-title: getUrn Network Method
 solution: Experience Manager
 title: getUrn Network Method
 uuid: e525bc54-d4df-490f-bd6a-f524f7eff211
-index: y
-internal: n
-snippet: y
+
 ---
 
 # getUrn Network Method{#geturn-network-method}

@@ -5,9 +5,7 @@ seo-title: Review Text Strings
 solution: Experience Manager
 title: Review Text Strings
 uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Review Text Strings{#review-text-strings}

@@ -5,9 +5,7 @@ seo-title: Restrict Media
 solution: Experience Manager
 title: Restrict Media
 uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Restrict Media{#restrict-media}

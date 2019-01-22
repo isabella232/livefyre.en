@@ -5,9 +5,7 @@ seo-title: buildChecksum Collection Method
 solution: Experience Manager
 title: buildChecksum Collection Method
 uuid: 692e8e13-6218-4e38-abc8-7cf49bebde9c
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildChecksum Collection Method{#buildchecksum-collection-method}

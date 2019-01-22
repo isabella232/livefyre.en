@@ -5,9 +5,7 @@ seo-title: Mobile SDKs
 solution: Experience Manager
 title: Mobile SDKs
 uuid: 84c7ca1c-3401-492a-bfa5-62b996947a44
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Mobile SDKs{#mobile-sdks}

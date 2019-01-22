@@ -5,9 +5,7 @@ seo-title: buildCollectionMetaToken Collection Method
 solution: Experience Manager
 title: buildCollectionMetaToken Collection Method
 uuid: 533c68c3-c014-4fc3-8114-a57af0e44d85
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildCollectionMetaToken Collection Method{#buildcollectionmetatoken-collection-method}

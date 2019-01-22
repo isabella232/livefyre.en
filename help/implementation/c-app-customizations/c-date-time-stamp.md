@@ -5,9 +5,7 @@ seo-title: Customize the Date and Time Stamp
 solution: Experience Manager
 title: Customize the Date and Time Stamp
 uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Customize the Date and Time Stamp{#customize-the-date-and-time-stamp}

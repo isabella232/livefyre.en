@@ -5,9 +5,7 @@ seo-title: Use CSS to Style Featured Content
 solution: Experience Manager
 title: Use CSS to Style Featured Content
 uuid: c4ab648c-d81f-41b9-9773-ef919649cc46
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Use CSS to Style Featured Content{#use-css-to-style-featured-content}

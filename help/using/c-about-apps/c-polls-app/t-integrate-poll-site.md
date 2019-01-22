@@ -5,9 +5,7 @@ seo-title: Add a Poll to a Comments or Live Blog App
 solution: Experience Manager
 title: Add a Poll to a Comments or Live Blog App
 uuid: eedb63c1-7d31-40d9-ab3e-b15765cbe804
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add a Poll to a Comments or Live Blog App{#add-a-poll-to-a-comments-or-live-blog-app}

@@ -4,9 +4,7 @@ seo-description: Automate the process using the Feature APIs
 seo-title: Feature APIs
 title: Feature APIs
 uuid: eac3a156-0b60-4ffa-8b6f-e451eb03da77
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Feature APIs{#feature-apis}

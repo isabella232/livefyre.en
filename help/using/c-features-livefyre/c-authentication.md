@@ -5,9 +5,7 @@ seo-title: Authentication Features
 solution: Experience Manager
 title: Authentication Features
 uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Authentication Features{#authentication-features}

@@ -5,9 +5,7 @@ seo-title: Feature Content
 solution: Experience Manager
 title: Feature Content
 uuid: 0e347703-f119-4778-9609-2d6500844d6e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Feature Content{#feature-content}

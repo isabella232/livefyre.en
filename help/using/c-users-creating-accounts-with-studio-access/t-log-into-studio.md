@@ -5,9 +5,7 @@ seo-title: Log into Studio
 solution: Experience Manager
 title: Log into Studio
 uuid: b2e565c0-895e-402d-a9dd-d407571d18c9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Log into Studio{#log-into-studio}

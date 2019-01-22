@@ -5,9 +5,7 @@ seo-title: Search Saved Assets in the Library
 solution: Experience Manager
 title: Search Saved Assets in the Library
 uuid: 2fee5ba4-fe69-487e-8d9c-0fd2af97179c
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Search Saved Assets in the Library{#search-saved-assets-in-the-library}

@@ -5,9 +5,7 @@ seo-title: Storify 2
 solution: Experience Manager
 title: Storify 2
 uuid: 8250fe3e-afb1-418d-905c-a1fdb59dfed9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Storify 2{#storify}

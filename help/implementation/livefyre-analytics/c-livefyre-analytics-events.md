@@ -5,9 +5,7 @@ seo-title: Livefyre Analytics Events
 solution: Experience Manager
 title: Livefyre Analytics Events
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Livefyre Analytics Events {#livefyre-analytics-events}

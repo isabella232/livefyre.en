@@ -5,9 +5,7 @@ seo-title: Select Content to Feature From Studio
 solution: Experience Manager
 title: Select Content to Feature From Studio
 uuid: 50cb620c-ef45-4ccb-829f-f5b2e3c521dd
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Select Content to Feature From Studio{#select-content-to-feature-from-studio}

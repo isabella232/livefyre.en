@@ -5,9 +5,7 @@ seo-title: buildLivefyreToken Network Method
 solution: Experience Manager
 title: buildLivefyreToken Network Method
 uuid: 7c72a05f-669b-4df3-8117-aa4af2f7a179
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildLivefyreToken Network Method{#buildlivefyretoken-network-method}

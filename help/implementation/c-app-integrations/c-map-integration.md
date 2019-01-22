@@ -5,9 +5,7 @@ seo-title: Map
 solution: Experience Manager
 title: Map
 uuid: 1c3e399d-a610-4b80-a3b2-a5502b31480d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Map{#map}

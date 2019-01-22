@@ -5,9 +5,7 @@ seo-title: Use Google AMP with Storify 2
 solution: Experience Manager
 title: Use Google AMP with Storify 2
 uuid: 40c9f083-7284-43ba-ae27-53b1ff9e3954
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Use Google AMP with Storify 2{#use-google-amp-with-storify}

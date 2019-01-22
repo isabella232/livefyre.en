@@ -4,9 +4,7 @@ seo-description: The Livefyre Spam and Abuse Filtering Engine (SAFE), is a backg
 seo-title: SAFE Rules
 title: SAFE Rules
 uuid: 2f91d0d4-dffe-4651-88af-79bbb96c1b5c
-index: y
-internal: n
-snippet: y
+
 ---
 
 # SAFE Rules{#safe-rules}

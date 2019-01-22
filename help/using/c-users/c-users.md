@@ -5,9 +5,7 @@ seo-title: Users  Managing Studio and Livefyre Network Users
 solution: Experience Manager
 title: Users  Managing Studio and Livefyre Network Users
 uuid: e9f5c0f3-4a10-4e81-9267-112541f7dd46
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Users: Managing Studio and Livefyre Network Users{#users-managing-studio-and-livefyre-network-users}

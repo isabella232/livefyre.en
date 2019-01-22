@@ -5,9 +5,7 @@ seo-title: Reviews
 solution: Experience Manager
 title: Reviews
 uuid: 5386fc74-7a3b-4b2a-91fd-cfe5300e602d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Reviews{#reviews}

@@ -5,9 +5,7 @@ seo-title: Ban IP Addresses
 solution: Experience Manager
 title: Ban IP Addresses
 uuid: 4d21b53e-4cf7-4da3-8910-9716709721f5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Ban IP Addresses{#ban-ip-addresses}

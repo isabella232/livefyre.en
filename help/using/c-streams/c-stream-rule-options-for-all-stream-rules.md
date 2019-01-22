@@ -5,9 +5,7 @@ seo-title: Stream Rule Options for All Stream Rules
 solution: Experience Manager
 title: Stream Rule Options for All Stream Rules
 uuid: 4072ee83-31e7-4de6-918c-134b8b8032e1
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Stream Rule Options for All Stream Rules{#stream-rule-options-for-all-stream-rules}

@@ -5,9 +5,7 @@ seo-title: Create a Twitter App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Twitter App for Use with Livefyre Identity
 uuid: 841cce7c-618d-4154-85a3-1de96d04bb69
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a Twitter App for Use with Livefyre Identity{#create-a-twitter-app-for-use-with-livefyre-identity}

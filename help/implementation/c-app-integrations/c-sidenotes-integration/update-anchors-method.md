@@ -5,9 +5,7 @@ seo-title: updateAnchors Method
 solution: Experience Manager
 title: Livefyre.js
 uuid: 
-index: y
-internal: n
-snippet: y
+
 ---
 
 # updateAnchors Method {#updateAnchorsMethod}

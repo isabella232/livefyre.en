@@ -4,9 +4,7 @@ seo-description: Learn how rights requests work. When you bring user-generated c
 seo-title: Requesting Rights
 title: Requesting Rights
 uuid: d3194afa-f3c6-44ed-b03f-9b1ecb50c1d3
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Requesting Rights{#requesting-rights}

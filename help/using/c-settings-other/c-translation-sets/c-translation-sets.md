@@ -5,9 +5,7 @@ seo-title: Translation Sets
 solution: Experience Manager
 title: Translation Sets
 uuid: 88b705e5-57c8-4065-8a41-a73546bd929a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Translation Sets{#translation-sets}

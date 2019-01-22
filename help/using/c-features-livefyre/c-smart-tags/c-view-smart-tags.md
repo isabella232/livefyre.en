@@ -4,9 +4,7 @@ seo-description: View tags added automatically to images by Sensei-driven image 
 seo-title: View Smart Tags
 title: View Smart Tags
 uuid: 787c7d86-2c68-4c4c-b687-cf2390bcf233
-index: y
-internal: n
-snippet: y
+
 ---
 
 # View Smart Tags{#view-smart-tags}

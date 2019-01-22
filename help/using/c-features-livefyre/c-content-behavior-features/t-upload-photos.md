@@ -5,9 +5,7 @@ seo-title: Upload Photos
 solution: Experience Manager
 title: Upload Photos
 uuid: bec7e088-8b19-4839-977d-03fc1cadaeb9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Upload Photos{#upload-photos}

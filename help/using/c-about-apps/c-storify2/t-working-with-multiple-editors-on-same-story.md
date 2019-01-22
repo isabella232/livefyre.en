@@ -5,9 +5,7 @@ seo-title: Working with Multiple Editors on the Same Story
 solution: Experience Manager
 title: Working with Multiple Editors on the Same Story
 uuid: c9b8bf70-84c3-4e58-bbd0-f3d0ea74fc68
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Working with Multiple Editors on the Same Story{#working-with-multiple-editors-on-the-same-story}

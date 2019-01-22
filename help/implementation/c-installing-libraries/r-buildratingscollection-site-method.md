@@ -4,9 +4,7 @@ seo-description: Returns a Collection object instantiated as a Ratings type. Run
 seo-title: buildRatingsCollection Site Method
 title: buildRatingsCollection Site Method
 uuid: 5eea2ba3-48e1-4cd2-aa73-ea81788af1df
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildRatingsCollection Site Method{#buildratingscollection-site-method}

@@ -5,9 +5,7 @@ seo-title: Enable Featuring Content in Studio
 solution: Experience Manager
 title: Enable Featuring Content in Studio
 uuid: 6c599525-4c48-4536-9300-add384ba1051
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Enable Featuring Content in Studio{#enable-featuring-content-in-studio}

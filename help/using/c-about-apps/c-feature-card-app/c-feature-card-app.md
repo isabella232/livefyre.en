@@ -5,9 +5,7 @@ seo-title: Feature Card
 solution: Experience Manager
 title: Feature Card
 uuid: 8c44edad-d8a5-452e-952c-5d6818e5c0b0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Feature Card{#feature-card}

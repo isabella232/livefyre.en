@@ -5,9 +5,7 @@ seo-title: Throttling and Frequency of Tweets
 solution: Experience Manager
 title: Throttling and Frequency of Tweets
 uuid: b9edfb1e-e6cf-4a48-8756-05f5f18d8799
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Throttling and Frequency of Tweets{#throttling-and-frequency-of-tweets}

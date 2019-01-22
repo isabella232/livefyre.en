@@ -4,9 +4,7 @@ seo-description: Associate products with content from the Library to keep your c
 seo-title: Associate Products with Content Using the Library
 title: Associate Products with Content Using the Library
 uuid: 63520f34-c5fe-4cbd-937a-33d707bbcc5f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Associate Products with Content Using the Library{#associate-products-with-content-using-the-library}

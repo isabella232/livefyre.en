@@ -5,9 +5,7 @@ seo-title: Filter Search by Content Tag
 solution: Experience Manager
 title: Filter Search by Content Tag
 uuid: 093429f4-276e-4e98-ab39-87a059290c86
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Filter Search by Content Tag{#filter-search-by-content-tag}

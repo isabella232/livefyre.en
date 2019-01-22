@@ -5,9 +5,7 @@ seo-title: Livefyre Identity
 solution: Experience Manager
 title: Livefyre Identity
 uuid: 5e9219b4-fbd7-40c6-9d57-129bb0649714
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Use Livefyre Identity{#livefyre-identity}

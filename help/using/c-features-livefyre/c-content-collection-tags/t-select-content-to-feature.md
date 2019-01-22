@@ -5,9 +5,7 @@ seo-title: Select Content to Feature from an App
 solution: Experience Manager
 title: Select Content to Feature from an App
 uuid: 48d2f7b2-c3bf-4a9a-b368-a195fabadb50
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Select Content to Feature from an App{#select-content-to-feature-from-an-app}

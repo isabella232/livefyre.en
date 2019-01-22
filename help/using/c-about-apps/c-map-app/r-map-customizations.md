@@ -5,9 +5,7 @@ seo-title: Map Customizations
 solution: Experience Manager
 title: Map Customizations
 uuid: 3a3bffde-5d1b-41da-9aa8-d25b43d0df76
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Map Customizations{#map-customizations}

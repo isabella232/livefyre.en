@@ -5,9 +5,7 @@ seo-title: Invite a User to Create a Studio Account
 solution: Experience Manager
 title: Invite a User to Create a Studio Account
 uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Invite a User to Create a Studio Account{#invite-a-user-to-create-a-studio-account}

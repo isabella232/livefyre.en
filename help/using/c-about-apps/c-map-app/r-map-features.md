@@ -5,9 +5,7 @@ seo-title: Map Features
 solution: Experience Manager
 title: Map Features
 uuid: fdad5f0c-8292-4f59-bac1-c96c01e96ff5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Map Features{#map-features}

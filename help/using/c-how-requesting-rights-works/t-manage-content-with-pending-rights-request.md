@@ -5,9 +5,7 @@ seo-title: Manage Content With a Pending Rights Requests from the Asset Library
 solution: Experience Manager
 title: Manage Content With a Pending Rights Requests from the Asset Library
 uuid: fab285af-de09-4061-a946-5bede91603de
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Manage Content With a Pending Rights Requests from the Asset Library{#manage-content-with-a-pending-rights-requests-from-the-asset-library}

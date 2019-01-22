@@ -5,9 +5,7 @@ seo-title: Javascript Events for Media Wall
 solution: Experience Manager
 title: Javascript Events for Media Wall
 uuid: 8afc0529-4640-476a-b207-91b2c70101f0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Javascript Events for Media Wall{#javascript-events-for-media-wall}

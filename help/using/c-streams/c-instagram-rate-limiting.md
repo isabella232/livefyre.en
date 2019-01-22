@@ -4,9 +4,7 @@ seo-description: Instagram has changed the number of requests that any company u
 seo-title: Instagram Rate Limiting
 title: Instagram Rate Limiting
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Troubleshooting: Limits on Instagram Content {#instagram-rate-limiting}

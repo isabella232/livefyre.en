@@ -5,9 +5,7 @@ seo-title: Release Notes
 solution: Experience Manager
 title: Release Notes
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Release Notes{#release-notes}

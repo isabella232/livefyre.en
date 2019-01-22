@@ -5,9 +5,7 @@ seo-title: Create a Google Project for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Google Project for Use with Livefyre Identity
 uuid: b0a6bb8a-abea-4f5c-92ed-026e60183e1d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a Google Project for Use with Livefyre Identity{#create-a-google-project-for-use-with-livefyre-identity}

@@ -5,9 +5,7 @@ seo-title: Create a New Stream
 solution: Experience Manager
 title: Create a New Stream
 uuid: 2874660b-d26b-4e21-b24e-484744e2303a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a New Stream{#create-a-new-stream}

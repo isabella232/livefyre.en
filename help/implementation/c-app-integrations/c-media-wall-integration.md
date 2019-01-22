@@ -5,9 +5,7 @@ seo-title: Media Wall
 solution: Experience Manager
 title: Media Wall
 uuid: c6087c80-a35b-44d2-9dd4-ba9cd471172d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Media Wall{#media-wall}

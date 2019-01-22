@@ -5,9 +5,7 @@ seo-title: Set up Rights Management
 solution: Experience Manager
 title: Set up Rights Management
 uuid: 3ffcbc95-484f-4eba-b817-658c1d658bf8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Set up Rights Management{#set-up-rights-management}

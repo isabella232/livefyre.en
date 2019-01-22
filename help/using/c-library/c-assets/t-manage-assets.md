@@ -5,9 +5,7 @@ seo-title: View Asset Details
 solution: Experience Manager
 title: View Asset Details
 uuid: 06a19bca-d7b9-431b-abc4-9d6f154901b9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # View Asset Details{#view-asset-details}

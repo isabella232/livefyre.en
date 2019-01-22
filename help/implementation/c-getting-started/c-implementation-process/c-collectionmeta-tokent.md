@@ -5,9 +5,7 @@ seo-title: CollectionMeta Token
 solution: Experience Manager
 title: CollectionMeta Token
 uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
-index: y
-internal: n
-snippet: y
+
 ---
 
 # CollectionMeta Token{#collectionmeta-token}

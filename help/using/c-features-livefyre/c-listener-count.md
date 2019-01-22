@@ -5,9 +5,7 @@ seo-title: Listener Count
 solution: Experience Manager
 title: Listener Count
 uuid: fdd7cfe4-ae69-4d31-baa2-8978368fc3e8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Listener Count{#listener-count}

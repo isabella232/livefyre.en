@@ -5,9 +5,7 @@ seo-title: Facebook Page Rules
 solution: Experience Manager
 title: Facebook Page Rules
 uuid: 2be63476-1a92-409d-a22f-e1ec66b6dcc8
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Facebook Page Rules{#facebook-page-rules}

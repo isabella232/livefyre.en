@@ -5,9 +5,7 @@ seo-title: Add Rules for your Stream
 solution: Experience Manager
 title: Add Rules for your Stream
 uuid: 7a3fb400-95e4-49f9-ae39-90654df14665
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add Rules for your Stream{#add-rules-for-your-stream}

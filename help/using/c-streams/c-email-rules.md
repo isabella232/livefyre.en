@@ -5,9 +5,7 @@ seo-title: Email Rules
 solution: Experience Manager
 title: Email Rules
 uuid: 3cd27d28-b7c0-4cbc-bae3-e2ef7beacba9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Email Rules{#email-rules}

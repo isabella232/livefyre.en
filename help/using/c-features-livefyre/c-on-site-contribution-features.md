@@ -5,9 +5,7 @@ seo-title: On-Site Contribution Features
 solution: Experience Manager
 title: On-Site Contribution Features
 uuid: 1f441490-28eb-4fc4-9fe8-0879c62c4b4a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # On-Site Contribution Features{#on-site-contribution-features}

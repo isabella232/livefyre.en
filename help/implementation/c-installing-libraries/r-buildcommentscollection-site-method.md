@@ -5,9 +5,7 @@ seo-title: buildCommentsCollection Site Method
 solution: Experience Manager
 title: buildCommentsCollection Site Method
 uuid: 0e5c062e-960d-4ab0-ba32-0965731a1571
-index: y
-internal: n
-snippet: y
+
 ---
 
 # buildCommentsCollection Site Method{#buildcommentscollection-site-method}

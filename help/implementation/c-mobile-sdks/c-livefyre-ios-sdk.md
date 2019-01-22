@@ -5,9 +5,7 @@ seo-title: Livefyre iOS SDK
 solution: Experience Manager
 title: Livefyre iOS SDK
 uuid: bfdef31a-49fc-4b25-b0c5-300f27067302
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Livefyre iOS SDK{#livefyre-ios-sdk}

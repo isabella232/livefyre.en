@@ -5,9 +5,7 @@ seo-title: getSite Network Method
 solution: Experience Manager
 title: getSite Network Method
 uuid: 67de781e-5240-4be5-9e93-c614828e0bb5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # getSite Network Method{#getsite-network-method}

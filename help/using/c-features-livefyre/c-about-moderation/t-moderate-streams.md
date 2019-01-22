@@ -5,9 +5,7 @@ seo-title: Restrict Content from Twitter Users
 solution: Experience Manager
 title: Restrict Content from Twitter Users
 uuid: 692dd9c0-487d-4ea8-b87e-58bea22522db
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Restrict Content from Twitter Users{#restrict-content-from-twitter-users}

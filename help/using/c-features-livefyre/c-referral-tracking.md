@@ -5,9 +5,7 @@ seo-title: Referral Tracking
 solution: Experience Manager
 title: Referral Tracking
 uuid: 7daf615d-0c07-49d1-adb2-1ac67ea563e7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Referral Tracking{#referral-tracking}

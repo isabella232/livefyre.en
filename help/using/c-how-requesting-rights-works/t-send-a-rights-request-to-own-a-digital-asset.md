@@ -5,9 +5,7 @@ seo-title: Send a Twitter Rights Request
 solution: Experience Manager
 title: Send a Twitter Rights Request
 uuid: bf3e84a6-dc67-47bc-9707-bd30882cbbf0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Send a Twitter Rights Request{#send-a-twitter-rights-request}

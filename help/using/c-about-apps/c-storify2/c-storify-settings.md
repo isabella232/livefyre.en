@@ -5,9 +5,7 @@ seo-title: Storify Settings
 solution: Experience Manager
 title: Storify Settings
 uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Storify Settings{#storify-settings}

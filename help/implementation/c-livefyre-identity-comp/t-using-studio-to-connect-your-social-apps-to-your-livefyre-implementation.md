@@ -4,9 +4,7 @@ seo-description: To enable a social login, use Studio to add your social apps’
 seo-title: Using Studio to Connect Your Social Apps to Your Livefyre Implementation
 title: Using Studio to Connect Your Social Apps to Your Livefyre Implementation
 uuid: be14869c-e0df-48cd-a1f3-99eb953dd9ce
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Using Studio to Connect Your Social Apps to Your Livefyre Implementation{#using-studio-to-connect-your-social-apps-to-your-livefyre-implementation}

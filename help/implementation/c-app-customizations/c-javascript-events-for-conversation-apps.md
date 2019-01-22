@@ -5,9 +5,7 @@ seo-title: Javascript Events for Conversation Apps
 solution: Experience Manager
 title: Javascript Events for Conversation Apps
 uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Javascript Events for Conversation Apps{#javascript-events-for-conversation-apps}

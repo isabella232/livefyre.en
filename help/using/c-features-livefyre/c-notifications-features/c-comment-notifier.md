@@ -5,9 +5,7 @@ seo-title: Comment Notifier
 solution: Experience Manager
 title: Comment Notifier
 uuid: 36907977-8233-4978-9413-232c7b2fae20
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Comment Notifier{#comment-notifier}

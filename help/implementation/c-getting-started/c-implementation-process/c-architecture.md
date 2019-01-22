@@ -5,9 +5,7 @@ seo-title: Architecture
 solution: Experience Manager
 title: Architecture
 uuid: 94358e6c-954a-4a52-9bb2-d800b2933130
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Architecture{#architecture}

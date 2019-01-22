@@ -5,9 +5,7 @@ seo-title: Create a Yahoo! App for Use with Livefyre Identity
 solution: Experience Manager
 title: Create a Yahoo! App for Use with Livefyre Identity
 uuid: 6863cd2e-eb0d-465b-b706-88ecaccf41bc
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Create a Yahoo! App for Use with Livefyre Identity{#create-a-yahoo-app-for-use-with-livefyre-identity}

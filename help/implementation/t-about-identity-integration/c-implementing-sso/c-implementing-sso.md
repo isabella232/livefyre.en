@@ -5,9 +5,7 @@ seo-title: Implementing SSO
 solution: Experience Manager
 title: Implementing SSO
 uuid: c96d456c-b1ac-40e0-8d18-224652b9697f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Implementing SSO{#implementing-sso}

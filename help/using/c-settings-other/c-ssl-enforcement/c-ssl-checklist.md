@@ -4,9 +4,7 @@ seo-description: Follow the steps in the checklist to ensure you will successful
 seo-title: SSL Checklist
 title: SSL Checklist
 uuid: 2b176c73-8a6a-4835-88b3-047c6661cba9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # SSL Checklist{#ssl-checklist}

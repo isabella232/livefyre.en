@@ -5,9 +5,7 @@ seo-title: Add Authetication to an App using Livefyre.js
 solution: Experience Manager
 title: Add Authetication to an App using Livefyre.js
 uuid: b7c61e07-e341-45d7-9112-c50155e38f1d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add Authetication to an App using Livefyre.js{#add-authetication-to-an-app-using-livefyre-js}

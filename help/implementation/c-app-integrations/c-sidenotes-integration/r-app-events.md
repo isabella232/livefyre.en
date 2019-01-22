@@ -5,9 +5,7 @@ seo-title: Sidenotes App Events
 solution: Experience Manager
 title: Sidenotes App Events
 uuid: afca4b03-c370-41ca-aa12-45bc357517ca
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Sidenotes App Events{#sidenotes-app-events}

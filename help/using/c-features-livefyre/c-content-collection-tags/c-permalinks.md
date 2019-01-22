@@ -5,9 +5,7 @@ seo-title: Permalinks
 solution: Experience Manager
 title: Permalinks
 uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Permalinks{#permalinks}

@@ -5,9 +5,7 @@ seo-title: RSS Rules
 solution: Experience Manager
 title: RSS Rules
 uuid: 3c9e2069-bb85-41dc-8b35-6237642a538a
-index: y
-internal: n
-snippet: y
+
 ---
 
 # RSS Rules{#rss-rules}

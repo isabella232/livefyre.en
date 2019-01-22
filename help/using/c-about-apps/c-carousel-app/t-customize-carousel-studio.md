@@ -5,9 +5,7 @@ seo-title: Customize a Carousel Using Studio
 solution: Experience Manager
 title: Customize a Carousel Using Studio
 uuid: 24f080fc-37bf-40d4-8c1a-a502ee8ac978
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Customize a Carousel Using Studio{#customize-a-carousel-using-studio}

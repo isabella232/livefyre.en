@@ -5,9 +5,7 @@ seo-title: View Rights Activity History
 solution: Experience Manager
 title: View Rights Activity History
 uuid: daa0587d-8d7f-431d-bae2-cd73c0de15f0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # View Rights Activity History{#view-rights-activity-history}

@@ -4,9 +4,7 @@ seo-description: The following keyboard shortcuts are available to moderators in
 seo-title: ModQ Keyboard Shortcuts
 title: ModQ Keyboard Shortcuts
 uuid: fc4e7796-b6b5-4782-a0fc-b2326ca56d66
-index: y
-internal: n
-snippet: y
+
 ---
 
 # ModQ Keyboard Shortcuts{#modq-keyboard-shortcuts}

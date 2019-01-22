@@ -5,9 +5,7 @@ seo-title: Embed Custom HTML in Comments
 solution: Experience Manager
 title: Embed Custom HTML in Comments
 uuid: f7d07286-b3b3-447d-8281-51735f24ddd9
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Embed Custom HTML in Comments{#embed-custom-html-in-comments}

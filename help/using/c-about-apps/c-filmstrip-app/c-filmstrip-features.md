@@ -5,9 +5,7 @@ seo-title: Filmstrip Features
 solution: Experience Manager
 title: Filmstrip Features
 uuid: 0d7d59dc-0465-44d3-8348-b59e51312aab
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Filmstrip Features{#filmstrip-features}

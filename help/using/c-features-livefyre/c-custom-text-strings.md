@@ -5,9 +5,7 @@ seo-title: Translation and Custom Text Strings
 solution: Experience Manager
 title: Translation and Custom Text Strings
 uuid: 3c79b8ea-37a0-465d-8fb0-30e13e0cd7f7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Translation and Custom Text Strings{#translation-and-custom-text-strings}

@@ -5,9 +5,7 @@ seo-title: Twitter Display Requirements
 solution: Experience Manager
 title: Twitter Display Requirements
 uuid: 705c25b8-4a25-4640-9843-074f50ebae4f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Twitter Display Requirements{#twitter-display-requirements}

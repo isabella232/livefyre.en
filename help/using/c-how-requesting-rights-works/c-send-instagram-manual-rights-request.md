@@ -4,9 +4,7 @@ seo-description: You can request the right to reuse an Instagram asset you obtai
 seo-title: Send Instagram Rights Request Manually
 title: Send Instagram Rights Request Manually
 uuid: c07b3f6f-c14c-4e62-b18b-25934ebe45bf
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Send Instagram Rights Request Manually{#send-instagram-rights-request-manually}

@@ -4,9 +4,7 @@ seo-description: Add a User Tag to the account to apply User Badges.
 seo-title: Add User Tags to an Account
 title: Add User Tags to an Account
 uuid: 737907ff-4958-489d-acef-fab531ebd526
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add User Tags to an Account{#add-user-tags-to-an-account}

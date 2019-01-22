@@ -5,9 +5,7 @@ seo-title: Pin a Post to Storify 2
 solution: Experience Manager
 title: Pin a Post to Storify 2
 uuid: c4043ea6-8763-4afb-bc1b-d69e1c8eca61
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Pin a Post to Storify 2{#pin-a-post-to-storify}

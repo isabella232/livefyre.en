@@ -4,9 +4,7 @@ seo-description: Livefyre.js is a small base library that provides authenticatio
 seo-title: Add Livefyre.js to the Page
 title: Add Livefyre.js to the Page
 uuid: fe52446e-4911-4160-a68c-7413e9bc6222
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add Livefyre.js to the Page{#add-livefyre-js-to-the-page}

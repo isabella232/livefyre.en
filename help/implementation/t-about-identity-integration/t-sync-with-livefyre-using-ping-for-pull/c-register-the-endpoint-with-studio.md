@@ -5,9 +5,7 @@ seo-title: Register the Endpoint with Studio
 solution: Experience Manager
 title: Register the Endpoint with Studio
 uuid: 4eb816ee-d743-43bf-bfee-d9b9fd98b482
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Register the Endpoint with Studio{#register-the-endpoint-with-studio}

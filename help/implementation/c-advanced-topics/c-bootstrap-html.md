@@ -5,12 +5,10 @@ seo-title: Bootstrap HTML
 solution: Experience Manager
 title: Bootstrap HTML
 uuid: 137e4382-4e7b-4124-9d35-1d872a497bc7
-index: y
-internal: n
-snippet: y
+
 ---
 
-# Bootstrap HTML {#bootstrap-html}
+# Bootstrap HTML
 
 Make community content available to search engine crawlers.
 
@@ -22,7 +20,7 @@ Livefyre Apps require that you execute JavaScript on your page to display conten
 >
 >This API is available only for Comments and Live Blog Collection types.
 
-## Integration {#section_ryy_fqj_11b}
+## Integration
 
 Livefyre’s Bootstrap HTML API will return an HTML fragment of your user content, that may be included in the page’s HTTP response. This response will be readable by search engine crawlers without executing any JavaScript. Once the page is live in a user’s browser, the HTML fragment will be replaced with the full, interactive widget, and the user will be able to post content.
 
@@ -38,27 +36,27 @@ To implement the Bootstrap HTML API:
 1. Insert the Bootstrap HTML string into your webpage where you’d like the content to appear.
 1. Serve your webpage to the browser (or search engine crawler).
 
-## Resource {#section_ezj_2qj_11b}
+## Resource
 
 ```
 GET https://{networkName}.bootstrap.fyre.co/bs3/{networkName}.fyre.co/{siteId}/{base64 encoded article ID}/bootstrap.html 
 
 ```
 
-## Parameters {#section_y34_dqj_11b}
+## Parameters
 
 * **networkName** Your Livefyre provided network name. For example: *labs* in `labs.fyre.co`.
 * **siteId** The Site ID of the Collection.
 * **b64articleId** The Article ID of the Collection using the base64url encoding.
 
-## Example {#section_k5z_bqj_11b}
+## Example
 
 ```
 https://labs.bootstrap.fyre.co/bs3/labs.fyre.com/4/NTg0/bootstrap.html 
 
 ```
 
-## Response {#section_e5t_zpj_11b}
+## Response
 
 ```
 https://gist.github.com/ec5c2457322faf9cf515 

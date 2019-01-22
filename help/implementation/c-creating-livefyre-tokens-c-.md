@@ -5,9 +5,7 @@ seo-title: Creating Livefyre Tokens `C#`
 solution: Experience Manager
 title: Creating Livefyre Tokens `C#`
 uuid: c5e05625-8550-4b51-9211-134600e20ec7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Creating Livefyre Tokens C\# {#creating-livefyre-tokens-c}

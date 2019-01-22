@@ -5,9 +5,7 @@ seo-title: Pagination
 solution: Experience Manager
 title: Pagination
 uuid: 104ecf13-7054-45f7-9751-755591c5617e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Pagination{#pagination}

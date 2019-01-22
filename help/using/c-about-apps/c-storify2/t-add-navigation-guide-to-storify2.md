@@ -5,9 +5,7 @@ seo-title: Add a Navigation Guide to a Storify 2
 solution: Experience Manager
 title: Add a Navigation Guide to a Storify 2
 uuid: 2db131b2-54b8-4409-a947-b86169656cad
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Add a Navigation Guide to a Storify 2{#add-a-navigation-guide-to-a-storify}

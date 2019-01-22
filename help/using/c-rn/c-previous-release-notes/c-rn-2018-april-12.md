@@ -5,9 +5,7 @@ seo-title: April 12, 2018
 solution: Experience Manager
 title: April 12, 2018
 uuid: f6c3f1f1-d716-4da3-9ba9-3f3623d8d9f5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # April 12, 2018{#april}

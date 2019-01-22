@@ -5,9 +5,7 @@ seo-title: userPrivacyVideoWhitelist
 solution: Experience Manager
 title: userPrivacyVideoWhitelist
 uuid: adfead18-b73b-4ac4-97a0-d39f528b7606
-index: y
-internal: n
-snippet: y
+
 ---
 
 # userPrivacyVideoWhitelist{#userprivacyvideowhitelist}
