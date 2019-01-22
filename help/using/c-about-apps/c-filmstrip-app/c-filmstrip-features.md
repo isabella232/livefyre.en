@@ -23,4 +23,4 @@ The Filmstrip App has the following features:
 * [Twitter Action Buttons](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b) 
 * [Date and Timestamp](../../c-features-livefyre/c-styling-features/c-date-and-timestamp.md#c_date_and_timestamp)
 * Default styling
-* * [UGC Commerce](../../c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)
+* [UGC Commerce](../../c-features-livefyre/c-ugc-commerce.md#c_ugc_commerce)

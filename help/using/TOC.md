@@ -16,7 +16,6 @@ user-guide-title: Experience Manager Livefyre User Guide
   + Carousel {#carousel}
     + [Carousel](c-about-apps/c-carousel-app/c-carousel-app.md)
     + [Carousel Features](c-about-apps/c-carousel-app/r-carousel-features.md)
-    + [Create a Carousel Using Studio](c-about-apps/c-carousel-app/t-create-carousel-using-studio.md)
     + [Customize a Carousel Using Studio](c-about-apps/c-carousel-app/t-customize-carousel-studio.md)
     + [Localize a Carousel](c-about-apps/c-carousel-app/t-localize-carousel.md)
   + Chat {#chat}
@@ -100,13 +99,7 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Custom Call-to-Action Button](c-features-livefyre/c-call-to-action-button.md)
   + Content Behavior Features {#content-behavior-features}
     + [Content Behavior Features](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
-    + [Streaming Real Time](c-features-livefyre/c-content-behavior-features/c-streaming-real-time.md)
-    + [Pagination](c-features-livefyre/c-content-behavior-features/c-pagination.md)
-    + [Items to Load](c-features-livefyre/c-content-behavior-features/c-items-to-load.md)
-    + [Queue Comments](c-features-livefyre/c-content-behavior-features/c-queue-comments.md)
-    + [Throttle Content](c-features-livefyre/c-content-behavior-features/c-throttle-content.md)
     + [Photo Upload](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
-    + [Upload Photos](c-features-livefyre/c-content-behavior-features/t-upload-photos.md)
     + [User Posts](c-features-livefyre/c-content-behavior-features/c-user-posts.md)
   + Collection and Content Tags {#collection-content-tags}
     + [Collection and Content Tags](c-features-livefyre/c-content-collection-tags/c-content-collection-tags.md)
@@ -175,6 +168,7 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [View Asset Details](c-library/c-assets/t-manage-assets.md)
     + [Publish Assets to Apps](c-library/c-assets/t-publish-assets-to-apps.md)
     + [Search Saved Assets in the Library](c-library/c-assets/t-search-for-assets.md)
+    + [Upload Photos](c-features-livefyre/c-content-behavior-features/t-upload-photos.md)
   + [Search by URL](c-library/c-searching-for-content.md)
   + [Search for YouTube Content](c-library/t-search-for-youtube-content.md)
   + [Search for Instagram Content](c-library/t-search-for-content.md)

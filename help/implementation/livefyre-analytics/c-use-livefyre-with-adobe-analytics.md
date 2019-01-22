@@ -172,7 +172,7 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
 
    ```
 
-  * Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
+* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
 
   ```
  
