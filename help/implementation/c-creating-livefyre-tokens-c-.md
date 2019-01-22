@@ -12,9 +12,9 @@ uuid: c5e05625-8550-4b51-9211-134600e20ec7
 
 Learn how to generate Livefyre tokens using the ``C#`` language.
 
-You can leverage legacy documentation and sample code to use ``C#` .NET` to write methods to create tokens.
+You can leverage legacy documentation and sample code to use `C#.NET` to write methods to create tokens.
 
-To reference Livefyre’s official libraries, use the [Java Library](https://github.com/Livefyre/livefyre-java-utils) as a starting point for ``C#`` developers.
+To reference Livefyre’s official libraries, use the [Java Library](https://github.com/Livefyre/livefyre-java-utils) as a starting point for `C#` developers.
 
 You may also consider using the [Node.js Library](https://github.com/Livefyre/livefyre-nodejs-utils) from the command line to generate reference tokens for yourself, and to get familiar with the method structure.
 
@@ -52,10 +52,10 @@ See also:
 
    ```
 
-    * **title:** *required* The title of the collection, typically the title of your article. Max length is 255 characters. Does not support html entities. Please encode special characters using UTF-8.
-    * **url:** *required* The canonical url of your article. This is used by the comment sharing and social sync features, and links to your article from the Admin dashboard. If testing locally, please note that Livefyre will not accept ‘localhost’ as a domain.
-    * **tags:** *optional* A comma-separated list of tags you would like to add to the collection in the Livefyre dashboard. Tags cannot contain spaces. Use underscores if you wish a space to appear in the Admin dashboard.
-    * **type:** *optional* A string indicating what type of collection to create. Valid values are:
+    * **title** *required*:  The title of the collection, typically the title of your article. Max length is 255 characters. Does not support html entities. Please encode special characters using UTF-8.
+    * **url** *required*:  The canonical url of your article. This is used by the comment sharing and social sync features, and links to your article from the Admin dashboard. If testing locally, please note that Livefyre will not accept ‘localhost’ as a domain.
+    * **tags** *optional*:  A comma-separated list of tags you would like to add to the collection in the Livefyre dashboard. Tags cannot contain spaces. Use underscores if you wish a space to appear in the Admin dashboard.
+    * **type** *optional*:  A string indicating what type of collection to create. Valid values are:
 
         * `reviews`
         * `sidenotes`
@@ -96,7 +96,7 @@ See also:
    
    ```
 
-    * **articleId:** *required* A unique identifer for your collection within your Livefyre site. Typically, the unique articleId used in your CMS. (e.g. your WordPress post ID) This value should never change. Livefyre identifies unique collections by the combination of siteId and articleId.
+    * **articleId** *required*:  A unique identifer for your collection within your Livefyre site. Typically, the unique articleId used in your CMS. (e.g. your WordPress post ID) This value should never change. Livefyre identifies unique collections by the combination of siteId and articleId.
 
 1. Generate a signed JWT Token of the Dictionary, using the Site Key provided to you by Livefyre. Please note that you must specify the correct hash algorithm, as the JWT package does not use HS256 by default.
 

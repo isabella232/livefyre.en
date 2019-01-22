@@ -7,8 +7,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 # Experience Manager Livefyre Implementation Guide {#implementation}
 
 + [Livefyre Implementation Guide](home.md)
-+ Getting Started with Livefyre Integration {#getting-started-integration}
-  + [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
++ [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
   + Implementation {#implementation-process}
     + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
     + [App Integration Types](c-getting-started/c-implementation-process/c-app-integration-types.md)

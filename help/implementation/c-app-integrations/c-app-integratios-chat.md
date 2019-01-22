@@ -17,7 +17,7 @@ Current Version: Chat uses `fyre.conv v3.0.0.`
 
 ## Integration {#concept_0A99792A7E89403F95D082D52D600F17}
 
-Embedding the Chat App follows the process for embedding a Core App described in Getting Started > [Embedding an App](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps)
+Embedding the Chat App follows the process for embedding a Core App described in Getting Started > [Embedding an App](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps).
 
 Example:
 

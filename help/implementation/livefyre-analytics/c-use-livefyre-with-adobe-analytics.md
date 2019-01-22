@@ -132,61 +132,62 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
      TwitterRetweetClick: 'event82',  
      TwitterUserFollow: 'event82' 
    }; 
-   
-   ```
 
-   ```
-
-  function trackLivefyreEvent(data) {  
-   var event = eventMap[data.type]; 
-   console.log('Track:', data.type, event); 
-    
-   if (!event) { 
-     console.warn(data.type, 'is not mapped to an event in AA');  
-     return; 
-   } 
-   var vars = ['events'];  
-   switch (event) { 
-     case 'event82': s.eVar83 = data.type;  
-       vars.push('eVar83');  
-       break; 
-     default: 
-   } 
-     ['generator', 'evars'].forEach(function (type) {  
-     var obj = data[type]; 
-     for (var d in obj) { 
-       if (obj.hasOwnProperty(d) && evarMap[d]) {  
-         s[evarMap[d]] = obj[d];  
-         vars.push(evarMap[d]); 
-       } 
+    function trackLivefyreEvent(data) {  
+     var event = eventMap[data.type]; 
+     console.log('Track:', data.type, event); 
+     
+     if (!event) { 
+       console.warn(data.type, 'is not mapped   to an event in AA');  
+       return; 
      } 
-   }); 
-   s.linkTrackVars = vars.join(',');  
-   s.linkTrackEvents = event;  
-   s.events = event; 
-      
-   console.log('linkTrackVars:', s.linkTrackVars);  
-   console.log('linkTrackEvents:', s.linkTrackEvents);  
-   console.log('events:', s.events); 
-   s.tl(); 
- } 
-]
-
- /** 
-* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
-
-*/ 
- function addAnalyticsHandler() {  
-   Livefyre.analytics.addHandler(function (events) { 
-     (events || []).forEach(function (data) {  
-       console.log('Event handled:', data.type);  
-       trackLivefyreEvent(data); 
+     var vars = ['events'];  
+     switch (event) { 
+       case 'event82': s.eVar83 = data.type;  
+         vars.push('eVar83');  
+         break; 
+       default: 
+     } 
+       ['generator', 'evars'].forEach(function (type) {  
+       var obj = data[type]; 
+       for (var d in obj) { 
+         if (obj.hasOwnProperty(d) && evarMap[d]) {  
+           s[evarMap[d]] = obj[d];  
+           vars.push(evarMap[d]); 
+         } 
+       } 
      }); 
-   }); 
- } 
- addAnalyticsHandler(); 
-   
+     s.linkTrackVars = vars.join(',');  
+     s.linkTrackEvents = event;  
+     s.events = event; 
+      
+     console.log('linkTrackVars:',  s.linkTrackVars);  
+     console.log('linkTrackEvents:',  s.linkTrackEvents);  
+     console.log('events:', s.events); 
+     s.tl(); 
+    } 
+   ]
+
+   /** 
+
    ```
+
+  * Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
+
+  ```
+ 
+  */ 
+   function addAnalyticsHandler() {  
+     Livefyre.analytics.addHandler(function (events) { 
+       (events || []).forEach(function (data) {  
+         console.log('Event handled:', data.type);  
+         trackLivefyreEvent(data); 
+       }); 
+     }); 
+   } 
+   addAnalyticsHandler(); 
+   
+ ```
 
 1. Click on **Save Rule**.
 
@@ -204,6 +205,7 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
 
 The following sample code maps the specific eVars to available Livefyre eVars. The Livefyre conversion variable ( `eVar`) name (for example, `appId`) maps to the name you set up in the Report Suite Manager (for example, `eVar81`). Change the `eVar` names in this script to the custom conversion variables.
 
+
 ```
 
 var s = _satellite.getToolsByType`('sc')[0]`.getS(); 
@@ -217,6 +219,7 @@ var evarMap = {
 The following sample code maps the specific events you set up in the Report Suite Manager with available Livefyre events. In this example, `event82` is set up as any user interaction event without differentiating which kind of user interaction event (for example, liking or sharing content). This is an efficient way to record all user interaction information in a block. You can also map the events in the DTM Analytics UI with Data Element referencing.
 
 ```
+
 var eventMap = { 
   FlagCancel: 'event82',  
   FlagClick: 'event82',  
@@ -238,11 +241,13 @@ var eventMap = {
   TwitterRetweetClick: 'event82',  
   TwitterUserFollow: 'event82' 
 };
+
 ```
 
 The following sample states that if there isn't an event in this list, don't do anything. You do not need to modify this section of code.
 
 ```
+
 function trackLivefyreEvent(data) {  
   var event = eventMap[data.type]; 
   console.log('Track:', data.type, event); 
@@ -251,11 +256,13 @@ function trackLivefyreEvent(data) {
     console.warn(data.type, 'is not mapped to an event in AA');  
     return; 
   }
+
 ```
 
 The following code differentiates the event types that `event82` records. The conversion variable, `eVar83` records the type of user interaction, and the script sets up `eVar83` to separate the user interaction data by type. So `eVar83` allows you to break out the recorded data into specific types of user interactions.
 
 ```
+
   var vars = ['events'];  
   switch (event) { 
     case 'event82': s.eVar83 = data.type;  
@@ -284,11 +291,13 @@ The following code differentiates the event types that `event82` records. The co
    
   s.tl(); 
 }
+
 ```
 
 The following code sample adds a handler to listen to all the events that happen. It uses the page load rule on load, waits for events to exist, then sets up handler for all events from the App and tracks them. You do not need to modify this code.
 
 ```
+
 /** 
 * Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
 
@@ -301,6 +310,7 @@ function addAnalyticsHandler() {
     }); 
   }); 
 }
+
 ```
 
 ## More Info

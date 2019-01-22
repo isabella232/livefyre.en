@@ -34,8 +34,8 @@ The User Profile [JSON schema](https://json-schema.org/) is described in this Li
 
 If you choose to import users from your existing user profile system, required fields include:
 
-* **id:** your system’s user ID. 
-* **display_name**:user’s display name or pseudonym which will be displayed on your public-facing site.
+* **id**: your system’s user ID. 
+* **display_name**: user’s display name or pseudonym which will be displayed on your public-facing site.
 * **email**: required for Livefyre’s email notifications, this address is not visible on your public-facing site.
 
 Use Livefyre’s Ping for Pull to update user fields after import. Ping Livefyre when one of your users updates their profile, then Livefyre will Pull down the requested user’s updated profile.
@@ -50,31 +50,31 @@ The following parameters are used in the User Profile import process.
 
 **Required fields**
 
-* **id:** *required string* The user ID of the user in your profile system. This must be unique across all users in your Network, and must never change.
+* **id**  *required string*: The user ID of the user in your profile system. This must be unique across all users in your Network, and must never change.
 
-* **display_name:** *required string* The display name of the user. This will be rendered with Livefyre Content posted by the user.
+* **display_name**  *required string*:  The display name of the user. This will be rendered with Livefyre Content posted by the user.
 
 **Optional fields**
 
-* **name:** *(optional) object* Strings to define the user’s formatted, first, middle, and last names.
+* **name**  *(optional) object*:  Strings to define the user’s formatted, first, middle, and last names.
 
-* **email:** *(optional) string* User’s email address. Used to send email notifications.
+* **email**  *(optional) string*:  User’s email address. Used to send email notifications.
 
-* **tags:** *(optional) array* Used to assign users to user groups. Tags may include 1-63 alphanumeric and underscore characters.
+* **tags**  *(optional) array*:  Used to assign users to user groups. Tags may include 1-63 alphanumeric and underscore characters.
 
-* **profile_url:** *(optional) string* URL to the user’s profile page on your site.
+* **profile_url**  *(optional) string*:  URL to the user’s profile page on your site.
 
-* **settings_url:** *(optional) string* URL to a page where users may configure the user’s profile settings for your site.
+* **settings_url**  *(optional) string*:  URL to a page where users may configure the user’s profile settings for your site.
 
-* **websites:** *(optional) array* An array of user-submitted sites. Max = 2.
+* **websites**  *(optional) array*:  An array of user-submitted sites. Max = 2.
 
-* **location:** *(optional) string* A user-submitted location.
+* **location**  *(optional) string*:  A user-submitted location.
 
-* **bio:** *(optional) string* A user-submitted autobiography.
+* **bio**  *(optional) string*:  A user-submitted autobiography.
 
-* **autofollow_conversations:** *(optional) Boolean* Defines whether a user wishes to automatically follow a Collection after posting to it. When following a Collection, users receive email notifications when other users participate. May be true or false. Defaults to true.
+* **autofollow_conversations**  *(optional) Boolean*:  Defines whether a user wishes to automatically follow a Collection after posting to it. When following a Collection, users receive email notifications when other users participate. May be true or false. Defaults to true.
 
-* **email_notifications:** *(optional) object* Defines the frequency of available Livefyre email notifications. Different frequencies may be set for each notification type.By default, no notifications will be sent.immediately issues notifications immediately upon the listed event.often issues notifications in batches.never will not send email notification for the activity.
+* **email_notifications** *(optional) object*:  Defines the frequency of available Livefyre email notifications. Different frequencies may be set for each notification type.By default, no notifications will be sent.immediately issues notifications immediately upon the listed event.often issues notifications in batches.never will not send email notification for the activity.
   * **comments:** Defines when notifications are sent when other users post content into Collections that this user is following.
   * **replies:** Defines when notifications are sent when another user replies to this user’s content.
   * **likes:** Defines when notifications are sent when another user likes this user’s content.

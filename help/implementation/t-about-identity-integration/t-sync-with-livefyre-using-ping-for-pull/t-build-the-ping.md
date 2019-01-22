@@ -20,12 +20,14 @@ When Livefyre receives an update notification with the `networkName` and `user_i
 
 1. Add code to your page that pings Livefyre when users update their profile. Construct the URL this way:
 
-       ```    
-       POSThttps://{networkName}.quill.fyre.co/api/v3.0/user/{user_id}/refresh?lftoken={token}
-       ```
+```  
 
-    * **[!UICONTROL networkName:]** Your Livefyre provided network name.
-    * **[!UICONTROL user_id:]** Your user’s ID.
-    * **[!UICONTROL token:]** Valid system token.
+ POSThttps://{networkName}.quill.fyre.co/api/v3.0/user/{user_id}/refresh?lftoken={token}
+
+ ```
+
+* **[!UICONTROL networkName:]** Your Livefyre provided network name.
+* **[!UICONTROL user_id:]** Your user’s ID.
+* **[!UICONTROL token:]** Valid system token.
 
 1. Pull the request structure.

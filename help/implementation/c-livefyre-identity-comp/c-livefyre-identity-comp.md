@@ -18,10 +18,10 @@ The Livefyre Identity package contains information necessary to delegate authent
 
 To add social sign on to your Livefyre integration:
 
-1. Create your social apps
-1. Connect your apps to Livefyre
-1. Add Livefyre.js to the page
-1. Initialize Livefyre Identity
+1. Create your social apps.
+1. Connect your apps to Livefyre.
+1. Add Livefyre.js to the page.
+1. Initialize Livefyre Identity.
 
 >[!NOTE]
 >

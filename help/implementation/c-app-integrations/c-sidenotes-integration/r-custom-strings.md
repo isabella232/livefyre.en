@@ -22,7 +22,7 @@ new Livefyre.Sidenotes({
 
 |  Key  | Default  |
 |---|---|
-|  appName`  | Sidenotes  |
+|  appName  | Sidenotes  |
 |  commentModeratorTag  | Mod  |
 |  commentPendingTag  | Pending  |
 |  commentReadMoreLink  | Read More  |
@@ -45,7 +45,7 @@ new Livefyre.Sidenotes({
 |  errorServer  | Something went wrong with our server. Try that again?  |
 |  facebookShareCaption  | SideNotes on “{title}”  |
 |  menuAuthSignedInMsg  | You must be signed in to {action}  |
-|  menuAuthSignInBtn`  | Sign in  |
+|  menuAuthSignInBtn  | Sign in  |
 |  menuBackBtn  | Back  |
 |  menuConfirmAccept  | Yes, {action}  |
 |  menuConfirmCancel  | Cancel  |

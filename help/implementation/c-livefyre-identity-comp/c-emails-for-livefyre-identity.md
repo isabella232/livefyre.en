@@ -40,7 +40,7 @@ If you requested this, please click the following link to choose a new password:
 
 ## Verification Email {#section_ak5_xhs_p1b}
 
-You can send an email verifying the email address of a user. To send verification emails, you must turn on the option in **Integration Settings **> **Livefyre Identity**.
+You can send an email verifying the email address of a user. To send verification emails, you must turn on the option in **Integration Settings > Livefyre Identity**.
 
 The verification email looks like this:
 
@@ -65,7 +65,7 @@ The *&lt;customer name&gt;* Team
 You can send an email to a user to verify the email address they use to sign up for an account. To send a verification email:
 
 1. In Studio, click on the gear icon to modify network settings.
-1. Click **Integration Settings **> **Livefyre Identity.**
+1. Click **Integration Settings > Livefyre Identity.**
 
 1. Navigate to **Login Types**.
 1. Click **Require Email Verification** to send an email to users that verifies the email address they use to sign up for an account.

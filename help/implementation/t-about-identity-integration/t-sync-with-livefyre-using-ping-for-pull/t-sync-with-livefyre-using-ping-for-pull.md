@@ -38,12 +38,12 @@ Updated Profile information will appear in your Livefyre Apps after two events:
 
 To implement Ping for Pull for your User Profile system:
 
-1. [Build the Pull endpoint.](#t_build_the_pull_endpoint)
+1. [Build the Pull endpoint](#t_build_the_pull_endpoint).
 
    >[!NOTE]
    >
    >The Livefyre library includes a syncUser method for keeping your user profiles up to date. Skip the next two steps if you use the Livefyre library.
 
-1. [Register the Pull endpoint in Studio.](#register_the_endpoint_with_studio)
-1. [Build the Ping](#t_build_the_ping)
-1. [Build the Ping for Pull Response](#reference_n3x_pzb_mz)
+1. [Register the Pull endpoint in Studio](#register_the_endpoint_with_studio).
+1. [Build the Ping](#t_build_the_ping).
+1. [Build the Ping for Pull Response].(#reference_n3x_pzb_mz)
