@@ -6,7 +6,7 @@ uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 
 ---
 
-# Livefyre User Guide {#livefyre-help}
+# Experience Manager Livefyre User Guide {#livefyre-help}
 
 Use Livefyre Studio to create Apps, gather user-generated content, and moderate content.
 
