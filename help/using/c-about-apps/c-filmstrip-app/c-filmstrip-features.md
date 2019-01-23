@@ -14,7 +14,7 @@ Learn the features in a Filmstrip App.
 
 The Filmstrip App has the following features:
 
-* [Real-Time Streaming](../../c-features-livefyre/c-content-behavior-features/c-streaming-real-time.md#c_streaming_real_time)
+* [Real-Time Streaming](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_emd_syl_d1b)
 * [SAFE Filter](../../c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation) 
 * [Social Sharing](../../c-features-livefyre/c-social-sharing/c-social-sharing.md#c_social_sharing)
 * [Media Expansion](/help/using/c-features-livefyre/c-enagement-features.md#section_pmq_ycm_d1b)

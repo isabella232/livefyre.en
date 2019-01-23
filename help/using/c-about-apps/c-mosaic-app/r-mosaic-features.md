@@ -25,7 +25,7 @@ The Mosaic App has the following features:
 * [Permalinks](../../c-features-livefyre/c-content-collection-tags/c-permalinks.md#c_permalinks)
 * [SAFE](../../c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
 * [Social Sharing](../../c-features-livefyre/c-social-sharing/c-social-sharing.md#c_social_sharing)
-* [Streaming Real Time](../../c-features-livefyre/c-content-behavior-features/c-streaming-real-time.md#c_streaming_real_time)
+* [Streaming Real Time](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_emd_syl_d1b)
 * [Styling Features](../../c-features-livefyre/c-styling-features/c-styling-features.md#c_styling_features)
 * [Translation Sets](../../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
 * [Twitter Action Buttons](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b) 
