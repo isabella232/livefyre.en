@@ -60,36 +60,36 @@ As noted in the Building `CollectionMeta` section, `CollectionMeta` is an encode
 
 If you’ve already completed the Getting Started section you should be familiar with convConfig object. To enable Reviews, update the convConfig with the following fields: 
 
-* **alwaysShowEditor:** *(optional)* **Boolean** By default, the reviews editor appears only after the user presses the “write review” button. Set this parameter to true to always display the editor.
+* **alwaysShowEditor** *optional* boolean: By default, the reviews editor appears only after the user presses the “write review” button. Set this parameter to true to always display the editor.
 
-* **app:** *required* **string** The App name to use for reviews. Must be “reviews“.
+* **app** *required* string: The App name to use for reviews. Must be “reviews“.
 
-* **defaultSort:** *(optional)* **string** Allows you to select the default sort option for Reviews. Possible values are: mostHelpful, highestRated, lowestRated, newest, and oldest.
+* **defaultSort** *optional* string: Allows you to select the default sort option for Reviews. Possible values are: mostHelpful, highestRated, lowestRated, newest, and oldest.
 
-* **disableTitle:** *(optional)* **Boolean** Disables and hides the title field in the reviews editor, which is required and visible by default. Default is true.
+* **disableTitle** *optional* boolean: Disables and hides the title field in the reviews editor, which is required and visible by default. Default is true.
 
-* **enableHalfRating:** *(optional)* **Boolean** Used to enable half ratings on the default star selection module. Default is true.
+* **enableHalfRating** *optional* boolean: Used to enable half ratings on the default star selection module. Default is true.
 
-* **hideShowReviewButton:** *(optional)* **Boolean** Controls whether the [!UICONTROL Show My Review] button will be displayed. Set to true to allow your users to select whether to show or display their own reviews.
+* **hideShowReviewButton** *optional* boolean: Controls whether the [!UICONTROL Show My Review] button will be displayed. Set to true to allow your users to select whether to show or display their own reviews.
 
-* **maxRating:** *(optional) integer* Used to set the number of stars that are shown on the default star selection module. Default is 5. This can be configured up to 100.
+* **maxRating** *optional* integer Used to set the number of stars that are shown on the default star selection module. Default is 5. This can be configured up to 100.
 
-* **ratingSummaryEnabled:** *(optional)* **Boolean** Used to show the rating summary view above the Reviews App. This must be enabled to use the ratingSummaryDelegate. Default is true.
+* **ratingSummaryEnabled** *optional* boolean: Used to show the rating summary view above the Reviews App. This must be enabled to use the ratingSummaryDelegate. Default is true.
 
 ## Review Collection Metadata {#section_k1s_sqb_c1b}
 
-* **type:** *required* **string** Defines the Collection type. Must be `reviews`.
+* **type:** *required* string: Defines the Collection type. Must be `reviews`.
 
-* **ratingDimensions:** *(optional)* **array** An array of strings for each type of dimension that this Collection will use. If this is not specified, only 1 dimension will be allowed.
+* **ratingDimensions** *optional* array: An array of strings for each type of dimension that this Collection will use. If this is not specified, only 1 dimension will be allowed.
 
   For example, to allow users to rate your product on ‘design’, ‘features’, and ‘performance’, set the array to: `ratingDimensions: [‘design’, ‘features’, ‘performance’]`
 
-* **ratingSubparts:** *(optional)* **integer** Number of partitions to display in the review’s text box. The subpart labels are passed in with the parameter as illustrated below.
+* **ratingSubparts** *optional* integer: Number of partitions to display in the review’s text box. The subpart labels are passed in with the parameter as illustrated below.
 
   >[!NOTE]
   >You must define labels for each subpart.
 
-* **ratingSubpartsIds:** *(optional)* **array** Allows you to define an ID for each subpart in your Ratings Collection, which may be used to target these subpart elements in your CSS and JavaScript. When users post reviews, each `ratingSubpart` will have the “ `data-lf-subpart-id`” attribute on it, populated with this ID.
+* **ratingSubpartsIds** *optional* array: Allows you to define an ID for each subpart in your Ratings Collection, which may be used to target these subpart elements in your CSS and JavaScript. When users post reviews, each `ratingSubpart` will have the “ `data-lf-subpart-id`” attribute on it, populated with this ID.
 
 >[!NOTE]
 >
