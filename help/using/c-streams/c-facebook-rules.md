@@ -24,7 +24,7 @@ To create Facebook Rules to pull public content from Facebook feeds into your Ap
 
 * **[!UICONTROL Contains]**
 
-    * Enter **[!UICONTROL Keywords]** and/or **[!UICONTROL Hashtags]**to be included in, or excluded from your Facebook stream. Specifying values for both the **[!UICONTROL Any]** and **[!UICONTROL Does not contain]** fields will return posts which contain the first, and do not contain the second.
+    * Enter **[!UICONTROL Keywords]** and/or **[!UICONTROL Hashtags]** to be included in, or excluded from your Facebook stream. Specifying values for both the **[!UICONTROL Any]** and **[!UICONTROL Does not contain]** fields will return posts which contain the first, and do not contain the second.
     
     * **[!UICONTROL For example:]** Entering **[!UICONTROL Contains]** keywords Giants, Posey, and **[!UICONTROL Does not contain]** keyword Dodger, will return all posts which include the word Giants or Posey, and do not include the word Dodger.
 

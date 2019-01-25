@@ -14,7 +14,7 @@ Create a new Stream in Livefyre to add content to an app or folder.
 
 1. To create a new Stream, click **[!UICONTROL Streams > Create Stream.]**
 1. Enter a **[!UICONTROL Stream Name]**.
-1. Select a **[!UICONTROL Stream Destination]**:** [!UICONTROL App]** or **[!UICONTROL Folder]** to select a destination for the stream.
+1. Select a **[!UICONTROL Stream Destination]**: **[!UICONTROL App]** or **[!UICONTROL Folder]** to select a destination for the stream.
 
     * Select an App to push all content included in the Stream to the selected App when you click Publish.
     * Select a Folder to continuously push all content included in the Stream to the selected folder.

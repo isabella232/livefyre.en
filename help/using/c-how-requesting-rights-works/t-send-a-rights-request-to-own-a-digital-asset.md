@@ -14,8 +14,8 @@ You can request the right to reuse the item for your commercial purposes from th
 
  Before you can send a rights request you must:
 
-* Add a Twitter social account. For more information on how to configure a social account, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
-* Set up Rights Management. For more information on how to set up rights management, see [](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
+* Add a Twitter social account. For more information on how to configure a social account, see [Add a Social Account](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
+* Set up Rights Management. For more information on how to set up rights management, see [Requesting Rights](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
 
 You can send rights requests from the Library, App Content, or the ModQ. In the Library and in App Content, you must save a Twitter asset before you can request rights for that asset. Click on the details for an asset to request rights.
 

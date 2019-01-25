@@ -16,4 +16,4 @@ Whitelisting Users allows them to post directly to your Apps. Content posted by 
 
 1. Click **[!UICONTROL +Add]** for **[!UICONTROL Whitelists]**.
 1. A popup will appear that allows you to whitelist the user for the entire network, or for a specific site. (Use the CTR or Command key to select multiple sites.)
-1. Click **[!UICONTROL Whitelist]**to complete the process.
+1. Click **[!UICONTROL Whitelist]** to complete the process.

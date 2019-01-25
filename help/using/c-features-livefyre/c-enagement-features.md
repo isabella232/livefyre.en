@@ -12,15 +12,6 @@ uuid: 5841a183-62c0-40ae-9cef-884bffb7c39b
 
 Engage your site visitors with features that keep them coming back to your site when they discover your content.
 
-On this page:
-
-* [Custom Buttons](#c_enagement_features/section_jdv_vcm_d1b) 
-* [Like](#c_enagement_features/section_q4j_ycm_d1b) 
-* [Media Expansion](#c_enagement_features/section_pmq_ycm_d1b) 
-* [Friend Mentions](#c_enagement_features/section_yw5_fdm_d1b) 
-* [Action Buttons](#c_enagement_features/section_uzm_ldm_d1b) 
-* [Follow Conversation](#c_enagement_features/section_bw3_ndm_d1b)
-
 ## Custom Buttons {#section_jdv_vcm_d1b}
 
 Custom action buttons, and the associated action, can be added to any user or piece of content in any Livefyre App, alongside the existing Flag, Share, Delete buttons. Examples could be enabling a user to hide content from another user, or to follow a user.

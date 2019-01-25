@@ -20,9 +20,9 @@ Once the rule is created, any email containing an image or video file sent to th
 
 Once sent, the email’s fields will be used to populate the following items for the piece of content:
 
-* **[!UICONTROL From:]**Used as the content’s author, if the user account exists. If no account exists for the sender, the author is listed as anonymous.
-* **[!UICONTROL Subject:]**Used for the content’s title.
-* **[!UICONTROL Body:]**Used to populate content details within Studio.
+* **[!UICONTROL From:]** Used as the content’s author, if the user account exists. If no account exists for the sender, the author is listed as anonymous.
+* **[!UICONTROL Subject:]** Used for the content’s title.
+* **[!UICONTROL Body:]** Used to populate content details within Studio.
 * **[!UICONTROL Attachments:]** Media files must be attached, or the email will be ignored. Supported file types include 3GP, ASF, AVI, DV, GIF, JPG, MOV, MP4, MPEG, MPG, PNG, QT, and WMV. The total of all attachments must be below 25MB file size.
 
 For additional Stream rule options for all Stream rules, see [Stream Rule Options for All Stream Rules](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules). 

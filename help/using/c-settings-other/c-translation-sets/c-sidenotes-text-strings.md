@@ -78,7 +78,7 @@ Stings available for author and individual content information.
 |  | commentVoteCount  | votes  |
 |  | commentVoteCountSing  | vote  |
 |  | datetimeMinutePrefix  | m  |
-|  | datetimeMonths  |An array. Default =[ ‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’ ]  |
+|  | datetimeMonths  |An array. Default =`[‘January’, ‘February’, ‘March’, ‘April’, ‘May’, ‘June’, ‘July’, ‘August’, ‘September’, ‘October’, ‘November’, ‘December’]`  |
 |  | questionExplanation  | You can now read and write comments directly on sentences, paragraphs, images and quotes.<br><br><span class=”lf-highlight-text”>Highlight text</span> and click the <span class=”fycon-write”></span> icon or click the <span class=”fycon-action-view”></span> icon at the end of each paragraph.  |
 |  | questionMockText  | What is “familiarly known” is not properly known, just for the reason that it is “familiar”.  |
 |  | questionTitle  | What is a Sidenote?  |

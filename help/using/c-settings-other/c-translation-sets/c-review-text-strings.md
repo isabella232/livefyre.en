@@ -52,8 +52,8 @@ Strings available for the Review and Rating user interface.
 ||follow|I’m interested|
 ||shareText|I just wrote a review. Check it out!|
 |Rating tooltips|ratingValues|An array. Default = `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; <br>Note: Values in the array must be duplicated to assign both the left and the right half of each star the same name.|
-|Rating subparts|ratingSubpartPlaceholders|An array. Default = []|
-||ratingSubpartTitles|An array. Default = []|
+|Rating subparts|ratingSubpartPlaceholders|An array. Default = `[]`|
+||ratingSubpartTitles|An array. Default = `[]`|
 ||reviewStreamTitle|Blank by default. Title of the summary section of the review.|
 |Misc|averageRating|[Average User Rating](https://d.pr/i/QscA)|
 ||breakdownHeader|[Rating Breakdown](https://d.pr/i/QscA)|

@@ -12,14 +12,6 @@ uuid: 1f441490-28eb-4fc4-9fe8-0879c62c4b4a
 
 Choose how site visitors interact with Apps and in what ways they can interact with the content.
 
-On this page:
-
-* [Poll Contribution](#c_on_site_contribution_features/section_tdg_zsr_d1b) 
-* [Text Upload](#c_on_site_contribution_features/section_pwy_m2s_d1b) 
-* [Video Upload](#c_on_site_contribution_features/section_mlm_42s_d1b) 
-* [Upload Button](#c_on_site_contribution_features/section_vzs_t2s_d1b) 
-* [User Results](#c_on_site_contribution_features/section_azw_dx4_h1b)
-
 ## Poll Contribution {#section_tdg_zsr_d1b}
 
 You can add the ability for end users to vote in a poll. Embed the poll on a page for site visitors to contribute and cast a vote.

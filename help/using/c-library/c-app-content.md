@@ -12,19 +12,6 @@ uuid: 65b23085-2b79-4a6f-96c9-44b421805312
 
 Managing content across your Livefyre network.
 
-On this page:
-
-* [](#c_app_content/section_jvr_ntm_zz) 
-* [](#c_app_content/section_fw1_mtm_zz) 
-* [](#c_app_content/section_aqn_xqm_zz) 
-* [](#c_app_content/section_afl_vqm_zz) 
-* [](#c_app_content/section_ayz_tqm_zz) 
-* [](#c_app_content/section_xb4_mxr_rdb) 
-* [](#c_app_content/section_ls2_v4k_ybb) 
-* [](#c_app_content/section_emb_kqm_zz) 
-* [](#c_app_content/section_ojx_3qm_zz) 
-* [](#c_app_content/section_pyw_hqm_zz)
-
 The App Content tab in your Library allows you to search and moderate content published across your Apps. The **[!UICONTROL App Content]** tab enables several search filters with wildcard search, to allow you to more quickly and easily define your search parameters.
 
 Use the App Content tab to:

@@ -12,14 +12,6 @@ uuid: bace558f-ade8-49d6-abda-9ee754ce4ac0
 
 Click on any user to view details about the account.
 
-On this page:
-
-* [](#c_viewing_account_details/section_mpn_ttp_vz) 
-* [](#c_viewing_account_details/section_vk2_stp_vz) 
-* [](#c_viewing_account_details/section_yhn_rtp_vz) 
-* [](#c_viewing_account_details/section_l5b_5gr_vdb) 
-* [](#c_viewing_account_details/section_kr4_ptp_vz)
-
 ## Profile {#section_mpn_ttp_vz}
 
 The Profile page provides user account information, including the date the account was created, the User ID and email address associated with it, a list of all user activity for the account, and a list of any associated User Tags, Bans, or Whitelists.

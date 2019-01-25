@@ -13,7 +13,7 @@ You can create Stream rules that pull content from Instagram.
 
 >[!NOTE]
 >
->Before you create an Instagram stream, you must add at least one Instagram business account to the **[!UICONTROL Social Accounts]** section in **[!UICONTROL Network Settings]**. For more information on how to configure an Instagram account, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+>Before you create an Instagram stream, you must add at least one Instagram business account to the **[!UICONTROL Social Accounts]** section in **[!UICONTROL Network Settings]**. For more information on how to configure an Instagram account, see [About Instagram Accounts](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 Create Instagram Rules based on @mentions or hashtag.
 
@@ -41,7 +41,7 @@ To create Instagram rules to pull content from Instagram feeds into your App or 
 
   >[!NOTE]
   >
-  >You must have an Instagram business account set up in Livefyre to use the Author search in an Instagram Stream rule. For more information on setting up Instagram business accounts in Livefyre, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+  >You must have an Instagram business account set up in Livefyre to use the Author search in an Instagram Stream rule. For more information on setting up Instagram business accounts in Livefyre, see [About Instagram Accounts](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
     * Enter **[!UICONTROL @usernames]** to pull into the stream. The account associated with the **@username** must be an Instagram business account.
     

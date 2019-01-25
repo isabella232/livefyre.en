@@ -14,7 +14,7 @@ When curating content from Instagram, you must follow their guidelines and best 
 
 You must configure an *Instagram business account* to create Instagram streams from another specific Instagram business account by using the **[!UICONTROL By Author]** field. The user account you identify in the **[!UICONTROL By Author]** field, must be a business account.
 
-For more information on how to set up an Instagram business account in Livefyre, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).]
+For more information on how to set up an Instagram business account in Livefyre, see [About Instagram Accounts](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).]
 
 Instagram enforces the following rules for getting content from their platform:
 

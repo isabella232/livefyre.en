@@ -12,7 +12,7 @@ uuid: 3ffcbc95-484f-4eba-b817-658c1d658bf8
 
 Define the settings for requesting rights for Instagram and Twitter posts.
 
-Before you can define Rights Request Settings, you must configure one or more social accounts for Instagram or Twitter. For more information on how to configure a social account, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
+Before you can define Rights Request Settings, you must configure one or more social accounts for Instagram or Twitter. For more information on how to configure a social account, see [Add a Social Account](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Before you can define Rights Request Settings, you must configure one or more so
 
    >[!NOTE]
    >
-   >For Instagram accounts, you must have an Instagram business account to request rights with partial automation. For more information on the different kinds of Instagram accounts and how to use them, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+   >For Instagram accounts, you must have an Instagram business account to request rights with partial automation. For more information on the different kinds of Instagram accounts and how to use them, see [About Instagram Accounts](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 1. Fill in the displayed fields. All fields are required.
 

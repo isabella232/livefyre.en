@@ -30,5 +30,5 @@ You can only use this functionality for content you obtained from a search or st
 
 >[!NOTE]
 >
->For more information on the different kinds of Instagram accounts and how to use them, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts). For information on how to request rights for Instagram accounts, see [](../c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md#c_send_instagram_manual_rights_request) and [](../c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md#c_send_an_instagram_rights_request_from_the_library).
+>For more information on the different kinds of Instagram accounts and how to use them, see [About Instagram Accounts](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts). For information on how to request rights for Instagram accounts, see [Send Manual Rights Requests](../c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md#c_send_instagram_manual_rights_request) and [Send Partially-Automated Rights Requests](../c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md#c_send_an_instagram_rights_request_from_the_library).
 

@@ -14,8 +14,8 @@ You can request the right to reuse an Instagram asset you obtained from a search
 
 Before you can send a partially-automated rights request you must:
 
-* Add an Instagram business account. For more information on how to configure an Instagram business account, see [](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
-* Set up Rights Management. For more information on how to set up rights management, see [](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
+* Add an Instagram business account. For more information on how to configure an Instagram business account, see [About Instagram Accounts](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+* Set up Rights Management. For more information on how to set up rights management, see [Requesting Rights](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
 
 To request rights from Instagram for a search or stream by business account author using a partially-automated workfrlow:
 
