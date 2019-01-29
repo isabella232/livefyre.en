@@ -171,6 +171,7 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [Upload Photos](c-features-livefyre/c-content-behavior-features/t-upload-photos.md)
   + [Search by URL](c-library/c-searching-for-content.md)
   + [Search for YouTube Content](c-library/t-search-for-youtube-content.md)
+  + [Search for Twitter Content](c-streams/c-youtube-rules/t-search-for-twitter-content.md)
   + [Search for Instagram Content](c-library/t-search-for-content.md)
   + [View Content Details](c-library/c-view-content-details.md)
   + [Save Content to Asset Library](c-library/t-save-content-to-asset-library.md)
@@ -189,13 +190,11 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Instagram Rules](c-streams/c-instagram-rules.md)
   + [Instagram Content Guidelines](c-streams/c-instagram-content-guidelines.md)
   + [Instagram Rate Limiting](c-streams/c-instagram-rate-limiting.md)
+  + [RSS Rules](c-streams/c-rss-rules-streams.md)
   + [Tumblr Rules](c-streams/c-tumblr-rules.md)
   + [Twitter Rules](c-streams/c-twitter-rules.md)
   + [Throttling and Frequency of Tweets](c-streams/c-throttling-and-frequency-of-tweets.md)
-  + YouTube Rules {#youtube-rules}
-    + [YouTube Rules](c-streams/c-youtube-rules/c-youtube-rules.md)
-    + [Search for Twitter Content](c-streams/c-youtube-rules/t-search-for-twitter-content.md)
-  + [RSS Rules](c-streams/c-rss-rules-streams.md)
+  + [YouTube Rules](c-streams/c-youtube-rules/c-youtube-rules.md)
 + Rights Requests {#rights-requests}
   + [Requesting Rights](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
   + [Managing Rights Requests](c-how-requesting-rights-works/c-managing-rights-requests.md)
