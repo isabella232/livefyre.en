@@ -10,7 +10,7 @@ uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 
 Use Livefyre Studio to create Apps, gather user-generated content, and moderate content.
 
-For information on how to implement and customize Livefyre Apps on your site using developer tools, see the [Adobe Experience Manager Livefyre Implementation Guide](/help/implementation/home.md).
+For information on how to implement and customize Livefyre Apps on your site using developer tools, see the [*Adobe Experience Manager Livefyre Implementation Guide*](/help/implementation/home.md).
 
 ## Popular Topics
 

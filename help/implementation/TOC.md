@@ -164,4 +164,4 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Multiple Collections](c-advanced-topics/c-multiple-collections.md)
     + [Switch Core App Types](c-advanced-topics/c-switch-core-app-types.md)
     + [Social Counter](c-advanced-topics/c-social-counter.md)
-    + [Use Bootsrap and Stream API with Livefyre Apps](c-advanced-topics/c-bootstrap-html.md)
+    + [Use Bootsrap and Stream API with Livefyre Apps](c-advanced-topics/bootstrap-stream-api.md)
