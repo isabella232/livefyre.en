@@ -47,7 +47,9 @@ The request to Stream API should be ~30 seconds (long-polling) with expected tim
 
 API Reference: [https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get](https://api.livefyre.com/docs/apis/by-category/collections#operation=urn:livefyre:apis:stream1:operations:v3.1:collection:updates:method=get)
 
-Example request: [https://dharam.stream1.fyre.co/v3.1/collection/216689802/1520289057042029/?multi=true](https://dharam.stream1.fyre.co/v3.1/collection/216689802/1520289057042029/?multi=true)
+Example request: 
+
+`{"timeout":true,"parked":true,"h":"ct245.dsr.livefyre.com"}`
 
 Please note: The `maxEventId` in a Stream API response is the highest Event ID of the updates in this response. Use this value as `lastEventId` path parameter when building the URL of your next Stream API request to get updates occurring after all the updates in this response.
 
@@ -55,10 +57,14 @@ The example below is based on a Comments App:
 
 Comment "First comment" was posted first. "Second Comment" was posted after.
 
-First Comment Stream API response: [https://dharam.stream1.fyre.co/v3.1/collection/216689802/1520289136771588/?multi=true](https://dharam.stream1.fyre.co/v3.1/collection/216689802/1520289136771588/?multi=true)
+First Comment Stream API response: 
 
-The `maxEventId` in the above response is "1520289700953369" which will be used as `lastEventId` to poll the endpoint to get updates (i.e. Second Comment) occurring after all the updates in this response.
+`{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
 
-Second Comment Stream API response: [https://dharam.stream1.fyre.co/v3.1/collection/216689802/1520289700953369/?multi=true](https://dharam.stream1.fyre.co/v3.1/collection/216689802/1520289700953369/?multi=true)
+The `maxEventId` in the response is "1520289700953369" which will be used as `lastEventId` to poll the endpoint to get updates (i.e. Second Comment) occurring after all the updates in this response.
 
-The `maxEventID` "1520289700953369" in the above response should in turn be used as the `lastEventID` to build the Stream API response for the next update.
+Second Comment Stream API response: 
+
+`{"timeout":true,"parked":true,"h":"ct239.dsr.livefyre.com"}`
+
+The `maxEventID` "1520289700953369" in the response should in turn be used as the `lastEventID` to build the Stream API response for the next update.
