@@ -7,7 +7,7 @@ title: App Implementation
 uuid: 
 
 ---
-## App Implementation {#appimplementation}
+# App Implementation {#appimplementation}
 
 Use Case: As a customer, I want to integrate Livefyre into my 3rd party CMS using the Livefyre.js method.
 
@@ -16,22 +16,30 @@ There are three ways to implement Livefyre in to a custom AEM component or other
 ## Designer App Implementation {#designerapp}
 
 What: Simplest and fastest way of integrating a Livefyre App. You can design, configure, and generate a customized Javascript embed code to integrate a Liveyfre App on a page in minutes.
-How: Create, Preview, Publish, and Embed a Livefyre App
-Example: https://codepen.io/dharafyre/pen/bvGrLo
+
+How: [Create, Preview, Publish, and Embed a Livefyre App](/help/using/c-about-apps/c-create-an-app.md)
+
+Example: [https://codepen.io/dharafyre/pen/bvGrLo](https://codepen.io/dharafyre/pen/bvGrLo)
 
 ### Livefyre.js Implementation {#livefyrejsimp}
 
-What: Livefyre.js is the core library that powers Apps and Auth on a site. It defines the global window.Livefyre object and a single public method, Livefyre.require, which can be used to load other Livefyre JavaScript libraries that help with embedding Livefyre Apps and integrating with third party User Auth platforms.
+What: [Livefyre.js](/help/implementation/c-livefyre.js.md) is the core library that powers Apps and Auth on a site. It defines the global `window.Livefyre` object and a single public method, Livefyre.require, which can be used to load other Livefyre JavaScript libraries that help with embedding Livefyre Apps and integrating with third party User Auth platforms.
 
 How:
-Create a Collection Using the CollectionMeta Token
-Integrate Apps into third part CMS using App Integrations.
-Example:
 
-Comments App: [https://codepen.io/dharafyre/pen/oYoJdP](https://codepen.io/dharafyre/pen/oYoJdP)
-Reviews App: [https://codepen.io/dharafyre/pen/GXgvvd](https://codepen.io/dharafyre/pen/GXgvvd)
-Media Wall: [https://codepen.io/dharafyre/pen/dNMPvM](https://codepen.io/dharafyre/pen/dNMPvM)
-For advanced customizations using the SDK, please see StreamHub SDKs.
+* [Create a Collection Using the CollectionMeta Token](/help/implementation/t-create-a-collectionmeta-token.md)
+
+* Integrate Apps into third party CMS using App Integrations
+
+Examples:
+
+* Comments App: [https://codepen.io/dharafyre/pen/oYoJdP](https://codepen.io/dharafyre/pen/oYoJdP)
+
+* Reviews App: [https://codepen.io/dharafyre/pen/GXgvvd](https://codepen.io/dharafyre/pen/GXgvvd)
+
+* Media Wall: [https://codepen.io/dharafyre/pen/dNMPvM](https://codepen.io/dharafyre/pen/dNMPvM)
+
+* For advanced customizations using the SDK, see StreamHub SDKs.
 
 ## API Implementation {#apiimplementation}
 
@@ -39,11 +47,12 @@ For creating customized experiences and data visualizations, Livefyre Apps can b
 
 ## Third Party Authentication Integration {#thirdpartyauth}
 
-For Livefyre Apps requiring authentication, please see Identity Integration for third party authentication platforms.
+For Livefyre Apps requiring authentication, see [Identity Integration](/help/implementation/t-about-identity-integration/t-about-identity-integration.md) for third party authentication platforms.
 
 ## Customer Examples {#customerexamples}
 
 The following customers implemented Livefyre with Third Party CMS Integrations:
 
-PGA Tour Media Wall
-TimeOut
+* [PGA Tour Media Wall](https://www.pgatour.com/social-hub.html)
+
+* [TimeOut](https://www.timeout.com/london/restaurants/forest-bar-kitchen#tab_panel_3)
