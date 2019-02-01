@@ -160,7 +160,7 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [Add User Tags to an Account](c-features-livefyre/c-styling-features/t-add-user-tags.md)
   + [Translation and Custom Text Strings](c-features-livefyre/c-custom-text-strings.md)
   + [UGC Commerce](c-features-livefyre/c-ugc-commerce.md)
-  + [Curate and Display UGC](/c-features-livefyre/curate-display-ugc.md)
+  + [Curate and Display UGC](c-features-livefyre/curate-display-ugc.md)
 + Library {#library}
   + Assets {#assets}
     + [Assets](c-library/c-assets/c-assets.md)
