@@ -26,7 +26,7 @@ You can request rights for assets you obtained from Twitter and Instagram. You m
 
 You must configure an *Instagram business account* to request rights for assets from Instagram using a partially-automated workflow.
 
-You can only use this functionality for content you obtained from a search or stream searching by a business account author, not for content you obtained from searches and streams from Instagram based on hashtag, URL or location. To request rights for content you obtained from an Instagram hashtag, URL, or location search or stream, you must send rights requests manually.
+You can only use this functionality for content you obtained from a search or stream searching by a business account. To request rights for content you obtained from a personal Instagram account, you must send rights requests manually.
 
 >[!NOTE]
 >
