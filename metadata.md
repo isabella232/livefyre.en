@@ -8,7 +8,7 @@ getting-started-url: https://docs.adobe.com/content/help/en/livefyre/implementat
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.en
+git-repo: https://github.com/AdobeDocs/livefyre.en
 ---
 
 # Metadata for internal use
