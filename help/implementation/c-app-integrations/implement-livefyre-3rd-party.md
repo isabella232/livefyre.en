@@ -34,7 +34,7 @@ To implement Conversation Apps (Comments, Chat, Live Blog, Sidenotes):
 
 1. Perform authentication integration.
   a. Create User Auth tokens to pass and store user data in Livefyre.
-  b. Integrate third party user and authentication platforms. For a list of supported platforms, see [Identity Integration](help/implementation/t-about-identity-integration/t-about-identity-integration.md).
+  b. Integrate third party user and authentication platforms. For a list of supported platforms, see [Identity Integration](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 1. Perform App customizations. App Customizations options to match your branding and style and add custom functionality.
 
