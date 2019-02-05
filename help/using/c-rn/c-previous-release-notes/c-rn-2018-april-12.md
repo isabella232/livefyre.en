@@ -22,7 +22,7 @@ You can now choose the confidence threshold for smart tags in streams. Setting t
 
 The issues in the following tables were resolved in this release.
 
-## Production Release
+### Production Release
 
 |Issue Type|Component|Release Note|
 |--- |--- |--- |
@@ -47,7 +47,7 @@ The issues in the following tables were resolved in this release.
 
 
 
-## UAT Release
+### UAT Release
 
 |  **Issue Type** | **Component** | **Release Note** |
 |---|---|---|

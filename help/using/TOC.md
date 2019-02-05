@@ -42,7 +42,7 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [Map Features](c-about-apps/c-map-app/r-map-features.md)
     + [Map Customizations](c-about-apps/c-map-app/r-map-customizations.md)
   + Media Wall {#mediawall}
-    + [Media Wall](c-about-apps/c-media-wall-app/c-media-wall-app.md)
+    + [Media Wall](c-about-apps/c-media-wall-app/c-media-wall-app.md) 
     + [Media Wall Features](c-about-apps/c-media-wall-app/r-media-wall-features.md)
     + [Media Wall Customizations](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
   + Mosaic {#mosaic}
@@ -249,10 +249,10 @@ user-guide-title: Experience Manager Livefyre User Guide
 + Release Notes {#release-notes}
   + [Release Notes](c-rn/c-rn.md)
     + Previous Release Notes {#previous-release-notes}
-      + [Previous Release Notes](c-rn/c-previous-release-notes/c-previous-release-notes.md)
+      + [November 15, 2018](/help/using/c-rn/c-previous-release-notes/c-rn-2018-november-15.md)
       + [November 1, 2018](c-rn/c-previous-release-notes/c-rn-2018-november-1.md)
       + [October 11, 2018](c-rn/c-previous-release-notes/c-rn-2018-october-11.md)
-      + [September 27, 2018](c-rn/c-previous-release-notes/c-rn-2018-septemer-27.md)
+      + [September 27, 2018](c-rn/c-previous-release-notes/c-rn-2018-Septemer-27.md)
       + [September 6, 2018](c-rn/c-previous-release-notes/c-rn-2018-september-6.md)
       + [August 23, 2018](c-rn/c-previous-release-notes/c-rn-2018-august-23.md)
       + [August 9, 2018](c-rn/c-previous-release-notes/c-rn-2018-august-9.md)
