@@ -52,7 +52,7 @@ To create a visualization App (Map, Media Wall, Trending, Carousel, Filmstrip, S
 
 1. Perform authentication integration.
  a. Create User Auth tokens to pass and store user data in to Livefyre.
- b. Integrate third party user and authentication platforms. For a list of supported platforms, see [Identity Integration](help/implementation/t-about-identity-integration/t-about-identity-integration.md).
+ b. Integrate third party user and authentication platforms. For a list of supported platforms, see [Identity Integration](/help/implementation/t-about-identity-integration/t-about-identity-integration.md).
 
 >[!NOTE]
 >

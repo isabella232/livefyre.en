@@ -12,7 +12,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
     + [App Integration Types](c-getting-started/c-implementation-process/c-app-integration-types.md)
     + [App Implementation](c-getting-started/designer-app-implementation.md)
-    + [Implement Livefyre with Third Party Integration](/help/implementation/c-app-integrations/implement-livefyre-3rd-party.md)
+    + [Implement Livefyre with Third Party Integration](c-app-integrations/implement-livefyre-3rd-party.md)
     + [Architecture](c-getting-started/c-implementation-process/c-architecture.md)
     + [Embed an App](c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md) 
     + [Add Authetication to an App using Livefyre.js](c-getting-started/c-implementation-process/c-add-authetication-to-an-app-using-livefyre.js.md)

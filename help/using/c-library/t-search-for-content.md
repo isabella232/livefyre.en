@@ -25,7 +25,7 @@ When you add new assets to the library, assets that are already included in your
 1. Select **[!UICONTROL Instagram]** to search Instagram content.
 1. Enter your search criteria, click **[!UICONTROL Show Filter]** to refine your search.
 
-    * **[!UICONTROL Business User Search:]**searches for Instagram posts by the input author.    
+    * **[!UICONTROL Business User Search:]** Searches for Instagram posts by the input author.    
     
       >[!NOTE]
       >
