@@ -50,10 +50,8 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-To tag a product, replace `<product 1>` in the `data-lf-attr-product` attribute with the desired product
-ID. You can tag one product or more by adding additional comma-separated product IDs. Products must be
-contained within the top-level product folder or folders selected in Step 5.
-| Filter UGC by product ID | 2
+To tag a product, replace `<product 1>` in the `data-lf-attr-product` attribute with the desired product ID. You can tag one product or more by adding additional comma-separated product IDs. Products must be contained within the top-level product folder or folders selected in Step 5.
+
 The modified code segment would appear as:
 
 ```
