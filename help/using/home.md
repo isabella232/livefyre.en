@@ -26,5 +26,10 @@ For information on how to implement and customize Livefyre Apps on your site usi
 
 * [Use Livefyre Apps with Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
     
+
+* [Use Livefyre with Adobe Target](/help/using/c-library/livefyre-target.md)
+
+* [Use Livefyre with Adobe Launch Livefyre Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
+
 * [Release Notes](c-rn/c-rn.md#c_rn)
 

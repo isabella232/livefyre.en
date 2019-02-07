@@ -161,6 +161,7 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Translation and Custom Text Strings](c-features-livefyre/c-custom-text-strings.md)
   + [UGC Commerce](c-features-livefyre/c-ugc-commerce.md)
   + [Curate and Display UGC](c-features-livefyre/curate-display-ugc.md)
+  + [Filter UGC by Product ID](c-features-livefyre/filter-ugc-product-id.md)
 + Library {#library}
   + Assets {#assets}
     + [Assets](c-library/c-assets/c-assets.md)
@@ -180,6 +181,8 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Publish Content](c-library/t-publish-content.md)
   + [App Content Tab](c-library/c-app-content.md)
   + [Use Adobe Experience Manager Livefyre with Hootsuite](c-library/c-hootsuite-livefyre.md)
+  + [Use Adobe Experience Manager Livefyre with Adobe Target](c-library/livefyre-target.md)
+  + [Use Adobe Launch Livefyre Extension](c-library/launch-extension.md)
 + Streams {#streams}      
   + [Streams](c-streams/c-streams.md)
   + [Create a New Stream](c-streams/t-create-a-new-stream.md)

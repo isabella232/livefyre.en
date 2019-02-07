@@ -12,7 +12,7 @@ uuid: 70d9f614-5f5b-40da-ada6-78e9ffebcc28
 
 View a privacy report in Livefyre to see what information is recorded in Livefyre for a user.
 
-1. Go to **[!UICONTROL Settings > Privacy]**.
+1. Go to **[!UICONTROL Settings > Privacy]**.  
 1. Click on a privacy report from the list to view it.
 
 ![](assets/privacypage5.png)
