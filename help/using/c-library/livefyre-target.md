@@ -40,7 +40,7 @@ Share an App created in Livefyre Studio directly with Adobe Target.
 
 1. In the Publish Settings, click the Adobe Target switch.
 
-A list of Livefyre Instances will appear.
+A list of Livefyre Instances appears.
 
 1. Select the Target instance in which you want to share the App.
 
@@ -48,4 +48,4 @@ A list of Livefyre Instances will appear.
 
 1. Click  **[!UICONTROL Publish]**.
 
-The Livefyre App is now available to use in your Target Offers Library. For more information on publishing Apps, see [Publish Content](c-library/t-publish-content.md) and [Offers](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html) in the Target documentation.
+The Livefyre App is now available to use in your Target Offers Library. For more information on publishing Apps, see [Publish Content](/help/using/c-library/t-publish-content.md) and [Offers](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html) in the Target documentation.
