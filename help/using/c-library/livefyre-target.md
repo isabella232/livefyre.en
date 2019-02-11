@@ -22,7 +22,7 @@ Connect a Livefyre instance with Adobe Target by linking your Adobe IMS account 
 
 1. Enter your IMS credentials.
 
-The Livefyre Instances your Adobe IMS account has access to display in the Adobe IMS Integration window.
+The product instances your Adobe IMS account has access to display in the Adobe IMS Integration window.
 
 ![](assets/livefyre-target-connect.png)
 
@@ -40,7 +40,7 @@ Share an App created in Livefyre Studio directly with Adobe Target.
 
 1. In the Publish Settings, click the Adobe Target switch.
 
-A list of Livefyre Instances appears.
+A list of Target Instances appears.
 
 1. Select the Target instance in which you want to share the App.
 
