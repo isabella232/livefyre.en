@@ -251,6 +251,7 @@ user-guide-title: Experience Manager Livefyre User Guide
 + Release Notes {#release-notes}
   + [Release Notes](c-rn/c-rn.md)
   + Previous Release Notes {#previous-release-notes}
+    + [December 13, 2018](help/using/c-rn/c-previous-release-notes/c-rn-2018-Dec-13.md)
     + [November 15, 2018](/help/using/c-rn/c-previous-release-notes/c-rn-2018-november-15.md)
     + [November 1, 2018](c-rn/c-previous-release-notes/c-rn-2018-november-1.md)
     + [October 11, 2018](c-rn/c-previous-release-notes/c-rn-2018-october-11.md)
