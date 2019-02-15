@@ -1,21 +1,22 @@
 ---
-description: Latest release notes for Adobe Livefyre.
-seo-description: Latest release notes for Adobe Livefyre.
-seo-title: Latest Release Notes for Adobe Livefyre
-title: Latest Release Notes for Livefyre
-
+description: Release Notes for the Livefyre Feb 7, 2019 release.
+seo-description: Release Notes for the Livefyre Feb 7, 2019 release.
+seo-title: Release Notes
+solution: Experience Manager
+title: Release Notes
+uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 
 ---
 
-# Current Release Notes {#current-release-notes}
+# Release Notes - Feb 7, 2019 {#rn020719}
 
-Release Notes for the February 20, 2019 release.
+Release Notes for the February 7, 2019 release.
 
 ## New Features
 
 The following new features were released in the production version of this release:
 
-* **Updates to Instagram search and stream**
+* **Updates to Instagram search and stream.** 
 
 You can:
 
@@ -30,9 +31,10 @@ You can:
   >[!NOTE]
   >
   >To search Instagram by business user, both you and the Instagram content author must have an Instagram business account. For information on how to set up an Instagram business account in Adobe Livefyre Studio, see [Creating accounts with Studio Access](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+
 * You can now search Instagram by hashtag in the Library using the following functionality:
 
-  * **[!UICONTROL Top Tags Search]**: Search for the most popular media tagged with a specific hashtag. Top tags are determined by the criteria outlined here: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media) 
+  * **[!UICONTROL Top Tags Search]**: Search for the most popular media tagged with a specific hashtag. Top tags are determined by the criteria outlined here: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
     
   * **[!UICONTROL Recent Tags Search]**: Search the most recent posts with the hashtag.
 
