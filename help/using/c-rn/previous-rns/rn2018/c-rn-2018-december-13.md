@@ -20,10 +20,10 @@ The following new features were released in the production version of this relea
 
 You can:
 
-  * No longer perform an Instagram search for a location.
-  * Only connect business accounts with business accounts.
-  * Search by Top Tags or by Recent Posts.
-  * Search up to 30 unique hashtags per Instagram business account every 7 days.
+* No longer perform an Instagram search for a location.
+* Only connect business accounts with business accounts.
+* Search by Top Tags or by Recent Posts.
+* Search up to 30 unique hashtags per Instagram business account every 7 days.
 
 * Livefyre will delete Instagram stream rules with location based filters to avoid failures.
 * **[!UICONTROL Business User Search]**: searches for Instagram posts by the input author.
@@ -35,7 +35,6 @@ You can:
 * You can now search Instagram by hashtag in the Library using the following functionality:
 
   * **[!UICONTROL Top Tags Search]**: Search for the most popular media tagged with a specific hashtag. Top tags are determined by the criteria outlined here: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
-    
   * **[!UICONTROL Recent Tags Search]**: Search the most recent posts with the hashtag.
 
 For more about the updated Instagram functionality, [see the video of a webinar explaining the features here](https://youtu.be/wRkGc3obaOA).
