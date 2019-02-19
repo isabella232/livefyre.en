@@ -9,6 +9,6 @@ title: Latest Release Notes for Livefyre
 
 **Release Notes for the February 20, 2019 update.**
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Livefyre will be ending support of HTTP and TLS 1.1 (and earlier) in compliance with Adobe Security Standards.  Please consult future release notes for date of final deprecation.
