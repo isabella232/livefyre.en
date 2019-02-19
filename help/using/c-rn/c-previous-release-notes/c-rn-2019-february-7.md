@@ -10,32 +10,12 @@ uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 
 # Release Notes - Feb 7, 2019 {#rn020719}
 
-Release Notes for the February 7, 2019 release.
+**Release Notes for the February 7, 2019 update.**
 
-## New Features
+## Enhancement
 
-The following new features were released in the production version of this release:
+* Remove Facebook stream rule option from the UI.
 
-* **Updates to Instagram search and stream.** 
+## Bug Fixes
 
-You can:
-
-  * No longer perform an Instagram search for a location.
-  * Only connect business accounts with business accounts.
-  * Search by Top Tags or by Recent Posts.
-  * Search up to 30 unique hashtags per Instagram business account every 7 days.
-
-* Livefyre will delete Instagram stream rules with location based filters to avoid failures.
-* **[!UICONTROL Business User Search]**: searches for Instagram posts by the input author.
-
-  >[!NOTE]
-  >
-  >To search Instagram by business user, both you and the Instagram content author must have an Instagram business account. For information on how to set up an Instagram business account in Adobe Livefyre Studio, see [Creating accounts with Studio Access](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
-
-* You can now search Instagram by hashtag in the Library using the following functionality:
-
-  * **[!UICONTROL Top Tags Search]**: Search for the most popular media tagged with a specific hashtag. Top tags are determined by the criteria outlined here: [](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
-    
-  * **[!UICONTROL Recent Tags Search]**: Search the most recent posts with the hashtag.
-
-For more about the updated Instagram functionality, [see the video of a webinar explaining the features here](https://youtu.be/wRkGc3obaOA).
+* Fixed an issue where content marked by Moderation Recommendations as *trashed*, didn't display when trying to view all content including trashed content.
