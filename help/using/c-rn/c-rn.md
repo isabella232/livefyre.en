@@ -20,5 +20,6 @@ title: Latest Release Notes for Livefyre
 * Fixed an issue where updating apps in Designer........(continue editing)
 * Fixed an issue where Instagram content displayed from URL search shows the thumbnail properly in the search results but clicking "View Details" or publishing to an app results in no thumbnail display.
 * Fixed an issue where clicking Load More results in an error for some product IDs.
+* 
 
 
