@@ -31,8 +31,8 @@ Clicking **[!UICONTROL View Full Profile]** will take the user to the full profi
 
 Apps that use this feature:
 
-* [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
+* [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
-* [Reviews](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidenotes](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Reviews](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
+* [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 

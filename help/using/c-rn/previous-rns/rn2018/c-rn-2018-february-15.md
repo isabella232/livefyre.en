@@ -24,7 +24,7 @@ The following features are new in the production version of this release:
   * Search saved images for precise content based on the image content, rather than only text
   * Collect content in streams based on precise search terms that analyze the image, rather than only text
 
-  For more information about Smart Tags, see [Smart Tags](../../c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags).
+  For more information about Smart Tags, see [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags).
 
 * **In-product messages.** Now when you log in to Livefyre Studio, an announcements window pops up to display updates about new features. 
 * **UGC for Carousel.** You can now use all the functions of UGC Commerce in the Livefyre Carousel App. You can create a Call-to-Action Button and connect your product catalog to the App to create a shoppable experience from Carousel.

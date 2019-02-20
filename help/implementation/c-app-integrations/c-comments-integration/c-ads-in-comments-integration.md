@@ -72,7 +72,7 @@ The delegate object supports both synchronous and asynchronous ad invocations. T
 * **networkId:** **string** - The network ID for the Collection. 
 * **siteId:** **int** - The site ID for the Collection.
 
-These items are passed in through the convConfig object in our example and are explained in more detail in our [Getting Started](../../c-app-integrations/c-comments-integration/c-comments-integration.md#section_656AAC97903F485084650269A6C7EBCE) section.
+These items are passed in through the convConfig object in our example and are explained in more detail in our [Getting Started](/help/implementation/c-app-integrations/c-comments-integration/c-comments-integration.md#section_656AAC97903F485084650269A6C7EBCE) section.
 
 ### Synchronous
 

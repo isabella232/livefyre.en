@@ -32,4 +32,4 @@ The following information displays (if available) for each of your registered Li
 * **[!UICONTROL Bans]**: lists sites for which the user has been banned or Bozo’d.
 * **[!UICONTROL Whitelists]**: lists sites for which the user has been whitelisted.
 
-For more on how you can moderate users in the App Content tab, see [Moderate Using App Content](../../c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content). 
+For more on how you can moderate users in the App Content tab, see [Moderate Using App Content](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content). 

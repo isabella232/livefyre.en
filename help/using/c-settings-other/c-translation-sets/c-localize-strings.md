@@ -36,8 +36,8 @@ The text strings for most HTML elements in any Livefyre App may be customized. T
 * [Poll](#c-localize-strings/section_pdg_fwh_xz)
 * [Livefyre Identity](#c-localize-strings/section_zc3_xvh_xz)
 * More:
-  * [Review Text Strings](../../c-settings-other/c-translation-sets/c-review-text-strings.md#c_review_text_strings)
-  * [Sidenotes](../../c-settings-other/c-translation-sets/c-sidenotes-text-strings.md#c_sidenotes_text_strings)
+  * [Review Text Strings](/help/using/c-settings-other/c-translation-sets/c-review-text-strings.md#c_review_text_strings)
+  * [Sidenotes](/help/using/c-settings-other/c-translation-sets/c-sidenotes-text-strings.md#c_sidenotes_text_strings)
 
 ## Implementation {#section_im4_224_xz}
 

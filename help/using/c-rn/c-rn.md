@@ -1,35 +1,24 @@
 ---
-description: Release Notes for the  February 14, 2019 release.
-seo-description: Release Notes for the February 14, 2019 release.
-seo-title: Release Notes
-solution: Experience Manager
-title: Release Notes
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 
+description: Latest release notes for Adobe Livefyre.
+seo-description: Latest release notes for Adobe Livefyre.
+seo-title: Latest Release Notes for Adobe Livefyre
+title: Latest Release Notes for Livefyre
 ---
 
-# Release Notes{#release-notes}
+# Current Release Notes {#current-release-notes}
 
-Release Notes for the February 14, 2019 release.
+**Release Notes for the February 21, 2019 update.**
 
-<!--- remove the carets and the quotes and fill in with actual values--->
+>[!NOTE]
+>
+>Livefyre will be ending support of HTTP and TLS 1.1 (and earlier) in compliance with Adobe Security Standards.  Please consult future release notes for date of final deprecation.
 
-## Issues {#section_ehw_ndt_wcb}
+## Bug Fixes
 
-The issues in the following tables were resolved in this release.
-
-## Production Release
-
-|  **Issue Type** | **Component** | **Release Note** |
-|---|---|---|
-|  Enhancement |  Studio | Internal - release management - HRK|
-|  `<bug/enhancement>` | `<component>` | `<description>` |
+* Fixed an issue where refreshing the Instagram Business Account token resulted in a "duplicate account" error.
+* Fixed an issue where updating apps in Designer........(continue editing)
+* Fixed an issue where Instagram content displayed from URL search shows the thumbnail properly in the search results but clicking "View Details" or publishing to an app results in no thumbnail display.
+* Fixed an issue where clicking Load More results in an error for some product IDs.
 
 
-## UAT Release
-
-
-|  **Issue Type** | **Component** | **Release Note** |
-|---|---|---|
-|  `<bug/enhancement>` | `<component>` | `<description>` |
-|  `<bug/enhancement>` | `<component>` | `<description>` |
