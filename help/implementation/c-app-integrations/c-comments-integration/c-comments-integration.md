@@ -73,7 +73,7 @@ The `NetworkConfig` object is a JSON object containing the following parameters:
 |---|---|---|
 |  **authDelegate** | *required*  object | Used to customize the authentication system for custom network users.  |
 |  **network** | String *required*  | A Livefyre-provided network name. For example: *yourname.fyre.co.* |
-|  **attachmentDelegate** |  *optional* object | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](../../c-app-customizations/c-restrict-media.md#c_restrict_media).  |
+|  **attachmentDelegate** |  *optional* object | Used to specify the types of media attachments visible in the App stream. For more information, see [Restricting Media](/help/implementation/c-app-customizations/c-restrict-media.md#c_restrict_media).  |
 |  **strings** |  *optional* object | Used to customize text strings of the HTML elements in any of the Livefyre Core Apps. For more information, see [String Customizations](/help/using/c-settings-other/c-translation-sets/c-localize-strings.md).  |
 
 ## ConvConfig Object {#c-convconfig-object}

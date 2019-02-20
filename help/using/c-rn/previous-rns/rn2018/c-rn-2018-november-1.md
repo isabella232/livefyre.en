@@ -27,7 +27,7 @@ The following new features were released in the production version of this relea
     * Tags videos up to 60 seconds or 50MB
     * Two categories of smart tags apply to videos: features ( animals, objects, places, etc) and actions (running, walking, singing, etc.)
 
-  For more information see [Smart Tags](../../c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
+  For more information see [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
 
 * Instagram Rate Limiting
 
@@ -39,7 +39,7 @@ The following new features were released in the production version of this relea
 
     * Search
     * Preview
-    * Import 
+    * Import
     * Filter by audio files
     * Drag and drop files into the designer
 

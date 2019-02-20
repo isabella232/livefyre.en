@@ -21,7 +21,7 @@ You may prevent certain attachments from being embedded into comments when embed
 
 Apps that use this feature:
 
-* [Feature Card](../../c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app) 
-* [Map](../../c-about-apps/c-map-app/c-map-app.md#c_map_app) 
-* [Media Wall](../../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
+* [Feature Card](/help/using/c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app) 
+* [Map](/help/using/c-about-apps/c-map-app/c-map-app.md#c_map_app) 
+* [Media Wall](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 

@@ -30,7 +30,7 @@ You can:
 
   >[!NOTE]
   >
-  >To search Instagram by business user, both you and the Instagram content author must have an Instagram business account. For information on how to set up an Instagram business account in Adobe Livefyre Studio, see [Creating accounts with Studio Access](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+  >To search Instagram by business user, both you and the Instagram content author must have an Instagram business account. For information on how to set up an Instagram business account in Adobe Livefyre Studio, see [Creating accounts with Studio Access](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 * You can now search Instagram by hashtag in the Library using the following functionality:
 

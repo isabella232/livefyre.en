@@ -16,7 +16,7 @@ Livefyre uses Twitter and Instagram social accounts to enable you to perform a s
 
 You must configure an account in Twitter in order to use the Twitter social search in the Library.
 
-Instagram has different rules for social accounts, depending on how you use Adobe Livefyre. For information on what type of social accounts you can use with Livefyre, see [About Instagram Accounts](../../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
+Instagram has different rules for social accounts, depending on how you use Adobe Livefyre. For information on what type of social accounts you can use with Livefyre, see [About Instagram Accounts](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts).
 
 To configure a social account:
 

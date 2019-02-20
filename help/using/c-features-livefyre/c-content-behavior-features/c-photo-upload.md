@@ -20,8 +20,8 @@ This photo upload feature can be used in conjunction with the “Premoderate Med
 
 Apps that use this feature:
 
-* [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
+* [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
-* [Reviews](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Upload Button](../../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
+* [Reviews](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
+* [Upload Button](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 

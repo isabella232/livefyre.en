@@ -34,7 +34,7 @@ You can automatically premoderate content in the following ways:
 * Create a list of words that you consider profanity in the Profanity List under **[!UICONTROL Settings > Moderation > Rules]** for your Network or Site.
 * Whitelist users (always allow content from these users to display) by using or turning off filters for specific streams, sites, or networks.
 
-After you have set up your profanity lists, SAFE filters, and rules, you can choose whether to premoderate content and apply the SAFE filters in streams. For more information, see [Stream Rule Options for All Stream Rules](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
+After you have set up your profanity lists, SAFE filters, and rules, you can choose whether to premoderate content and apply the SAFE filters in streams. For more information, see [Stream Rule Options for All Stream Rules](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
 Livefyre marks content as **[!UICONTROL Approved]**, **[!UICONTROL Pending]**, **[!UICONTROL Junk]**, etc. depending on where the content comes from, where it will be published, and what rules you have set up in your system. The following table describes the actions Livefyre takes, depending on these factors, in detail.
 
@@ -113,7 +113,7 @@ You can use moderation recommendations to help you determine how to moderate con
 
    ![](assets/image_mod_reco_trash.png)
 
-1. Set up a SAFE rule to tell Livefyre what to do with content that the moderation recommendation identifies as content that is likely to be trashed. For more information on how to set up a SAFE rule for the **[!UICONTROL Livefyre Recommends Trash]** option, see [Moderation](../../c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
+1. Set up a SAFE rule to tell Livefyre what to do with content that the moderation recommendation identifies as content that is likely to be trashed. For more information on how to set up a SAFE rule for the **[!UICONTROL Livefyre Recommends Trash]** option, see [Moderation](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation).
 
    ![](assets/modreco4.png)
 
@@ -121,8 +121,8 @@ You can use moderation recommendations to help you determine how to moderate con
 
    In ModQ, the indicator looks like this:  ![](assets/mod_reco1.png)
 
-   For more information on how to use Moderation Recommendations to moderate content in ModQ, see [ModQ](../../c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
+   For more information on how to use Moderation Recommendations to moderate content in ModQ, see [ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq).
 
    In App Content, moderation recommendations look like this:  ![](assets/modreco3.png)
 
-   For more information on how to use Moderation Recommendations in App Content, see [Moderate Content Using App Content](../../c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
+   For more information on how to use Moderation Recommendations in App Content, see [Moderate Content Using App Content](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content).
