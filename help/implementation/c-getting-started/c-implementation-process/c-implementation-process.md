@@ -34,11 +34,11 @@ There are three main steps to integrating Livefyre:
 
 * App Integration
 
-  When you implement Livefyre, the style of implementation depends on your use case. For [more on each implementation type](../../c-getting-started/c-implementation-process/c-app-integration-types.md#c_app_integration_types).
+  When you implement Livefyre, the style of implementation depends on your use case. For [more on each implementation type](/help/implementation/c-getting-started/c-implementation-process/c-app-integration-types.md#c_app_integration_types).
 
 * Authentication Integration
 
-  You must integrate your existing user management system with Livefyre for conversation Apps and any other Apps that require end-user authentication on your site. If you do not currently use a user management tool, you can use Livefyre Identity. For [more information about Livefyre Identity, what it is, and how to set it up](../../c-livefyre-identity-comp/c-livefyre-identity-comp.md#c_livefyre_identity).
+  You must integrate your existing user management system with Livefyre for conversation Apps and any other Apps that require end-user authentication on your site. If you do not currently use a user management tool, you can use Livefyre Identity. For [more information about Livefyre Identity, what it is, and how to set it up](/help/implementation/c-livefyre-identity-comp/c-livefyre-identity-comp.md#c_livefyre_identity).
 
 * Customization
 

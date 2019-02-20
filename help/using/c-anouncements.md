@@ -44,7 +44,7 @@ Please read the latest updates on the status of functionality related to the Ins
 
 Part one of two updates to the usage rights request workflow for Instagram content is now available. From App Content and the Library, you are now able to copy the request rights message from Livefyre Studio and paste it to the exact Instagram post you are seeking approval to use. The ability to do this in ModQ will be delivered in a future release. By June 14, 2018, we will restore the functionality that automatically monitors the response to your rights request and updates the activity history.
 
-Please read the [May 24, 2018, release notes](c-rn/c-previous-release-notes/c-rn-2018-may-24.md#c_rn) for more information and instructions on how to use this capability.
+Please read the [May 24, 2018, release notes](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) for more information and instructions on how to use this capability.
 
 ## May 17, 2018 {#section_hwb_1qz_wdb}
 

@@ -127,7 +127,7 @@ Select one of the following options:
 
 >[!NOTE]
 >
->Once you trash a piece of content, the piece of content and all replies to the piece of content are removed from ModQ permanently. To put a trashed piece of content in an App, see [Add a Trashed Item Back Into an App](../../c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
+>Once you trash a piece of content, the piece of content and all replies to the piece of content are removed from ModQ permanently. To put a trashed piece of content in an App, see [Add a Trashed Item Back Into an App](/help/using/c-features-livefyre/c-about-moderation/t-add-trashed-item-back-into-app.md#t_add_trashed_item_back_into_app).
 
 If content is already in the desired state, choosing Trash, Bozo, or Approve will confirm the state and remove the item from the list. Moderating a piece of content will immediately remove it from your queueand will deactivate it in other moderators’ queues.
 
@@ -159,10 +159,10 @@ Click the **[!UICONTROL User actions]** button from the User Summary panel to Mu
 
 Apps that use ModQ:
 
-* [Chat](../../c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
+* [Chat](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [Comments](/help/using/c-about-apps/c-comments/c-comments.md)
-* [Reviews](../../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidenotes](../../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
-* [Storify 2](../../c-about-apps/c-storify2/c-storify2.md#c_storify2)
-* [Upload Button](../../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
+* [Reviews](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
+* [Sidenotes](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
+* [Upload Button](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 

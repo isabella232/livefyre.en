@@ -16,7 +16,7 @@ Release Notes for the September 6, 2018 release.
 
 The following new features were released in the production version of this release:
 
-* [Custom call-to-action (CTA) buttons](../../c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) in Experience Manager Livefyre
+* [Custom call-to-action (CTA) buttons](/help/using/c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) in Experience Manager Livefyre
 
   New custom call-to-action buttons in Experience Manager Livefyre turn the UGC on your website into actionable experiences that drive your business forward. Use custom CTA buttons to increase sales, capture leads, drive deeper engagement—or inspire any action you want your audience to take. Custom CTA buttons enable you to:
 
@@ -25,7 +25,7 @@ The following new features were released in the production version of this relea
     * Create, manage, and repurpose custom call-to-actions from within Settings and the Library. 
     * Use Adobe Analytics to measure click-through rates.
 
-* [Smart Tags](../../c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags) Enhancements
+* [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags) Enhancements
 
     * Smart Tags for uploaded files: We've added the ability to Smart Tag images uploaded to the library via the upload functionality in "All Assets", such as files from Google Drive, Drop-Box, Flickr, and more. 
     * Safe for work (SFW) and not safe for work (NSFW) Smart Tags: Images curated through Livefyre are now tagged by an AI-powered nudity detection system and gives you the flexibility to automatically filter NSFW images, improving the safety of your streams and UGC library.
