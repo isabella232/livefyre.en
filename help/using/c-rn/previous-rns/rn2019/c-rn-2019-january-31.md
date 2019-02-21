@@ -22,5 +22,5 @@ Release Notes for the January 31, 2019 release.
 * Fixed an issue in Mosaics where there are descriptions displayed incorrectly behind tiles for some Twitter content using the *click* interaction option.
 * Fixed an issue where deleted Instagram content shows up in some apps.
 * Fixed an issue where after viewing some video posts, the modal turns from horizontal to vertical view.
-* Fixed an issue where accessing sections of Studio as a user who does not have the correct permissions, displays a malformed page.
+* Fixed an issue where accessing sections of Studio as a user who does not have the correct permissions displays a malformed page.
 * Fixed an issue in Internet Explorer v11 where Instagram videos did not play in Mosaic.
