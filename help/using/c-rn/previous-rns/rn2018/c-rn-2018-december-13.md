@@ -16,7 +16,7 @@ Release Notes for the December 13, 2018 release.
 
 The following new features were released in the production version of this release:
 
-* **Updates to Instagram search and stream.** 
+* **Updates to Instagram search and stream.**
 
 You can:
 

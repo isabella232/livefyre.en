@@ -20,5 +20,3 @@ title: Latest Release Notes for Livefyre
 * Fixed an issue where updating apps using a custom script created duplicate apps in error.
 * Fixed an issue where Instagram content displayed from URL search shows the thumbnail properly in the search results but not in "View Details" or published to an app.
 * Fixed an issue where clicking Load More results in an error for some product IDs.
-
-
