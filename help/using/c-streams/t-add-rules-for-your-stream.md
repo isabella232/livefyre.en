@@ -28,7 +28,6 @@ Add Stream rules to your stream from one or more of the following social network
 1. Select the rule type.
 1. Fill in the information. The kind of information you complete depends on what website or method from which you pull content. For more information on stream rule options, see [Stream Rule Options for All Stream Rules](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)and the documentation for each individual network.
 
-    * [Facebook](../c-streams/c-facebook-rules.md#c_facebook_rules)
     * [Facebook Pages](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules)
     * [Email](../c-streams/c-email-rules.md#c_email_rules)
     * [Instagram](../c-streams/c-instagram-rules.md#c_instagram_rules)

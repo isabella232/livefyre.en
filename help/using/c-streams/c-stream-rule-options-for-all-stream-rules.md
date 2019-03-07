@@ -44,7 +44,6 @@ Search features for text and keyword fields:
 
 For Stream rule options specific to a social network or content type, see the following documentation for the respective social network or content type:
 
-* [Facebook](../c-streams/c-facebook-rules.md#c_facebook_rules) 
 * [Facebook Pages](../c-streams/c-facebook-page-rules.md#c_facebook_page_rules) 
 * [Email](../c-streams/c-email-rules.md#c_email_rules) 
 * [Instagram](../c-streams/c-instagram-rules.md#c_instagram_rules) 

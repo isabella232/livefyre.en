@@ -188,7 +188,6 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Create a New Stream](c-streams/t-create-a-new-stream.md)
   + [Add Rules for your Stream](c-streams/t-add-rules-for-your-stream.md)
   + [Stream Rule Options for All Stream Rules](c-streams/c-stream-rule-options-for-all-stream-rules.md)
-  + [Facebook Rules](c-streams/c-facebook-rules.md)
   + [Facebook Page Rules](c-streams/c-facebook-page-rules.md)
   + [Email Rules](c-streams/c-email-rules.md)
   + [Instagram Rules](c-streams/c-instagram-rules.md)
