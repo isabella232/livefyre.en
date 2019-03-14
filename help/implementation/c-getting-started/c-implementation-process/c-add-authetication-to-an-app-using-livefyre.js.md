@@ -8,7 +8,7 @@ uuid: b7c61e07-e341-45d7-9112-c50155e38f1d
 
 ---
 
-# Add Authetication to an App using Livefyre.js{#add-authetication-to-an-app-using-livefyre-js}
+# Add Authentication to an App using Livefyre.js{#add-authetication-to-an-app-using-livefyre-js}
 
 Use Livefyre.js to add page-wide authentication for your Livefyre Apps.
 
