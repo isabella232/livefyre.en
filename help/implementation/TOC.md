@@ -53,11 +53,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
   + [Initialize Livefyre Identity](c-livefyre-identity-comp/t-initialize-livefyre-identity.md)
   + [Emails for Livefyre Identity](c-livefyre-identity-comp/c-emails-for-livefyre-identity.md)
   + [Janrain Capture/Backplane](c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)
-  + Import Data {#importing-existing-data}
-    + [Importing Existing Data](c-importing-existing-data/c-importing-existing-data.md)
-    + [Importing User Profiles](c-importing-existing-data/c-importing-user-profiles.md)
-    + [Importing Content](c-importing-existing-data/c-importing-content.md)
-    + [Importing Ratings and Reviews](c-importing-existing-data/c-importing-ratings-and-reviews.md)
   + Installation {#installation}
     + [Installing Libraries](c-installing-libraries/c-installing-libraries.md)
     + [Classes and Methods](c-installing-libraries/c-methods-livefyre.md)
