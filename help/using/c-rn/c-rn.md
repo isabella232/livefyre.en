@@ -15,6 +15,7 @@ title: Latest Release Notes for Livefyre
 >Livefyre will be ending support of HTTP and TLS 1.1 (and earlier) in compliance with Adobe Security Standards.  Please consult future release notes for date of final deprecation.
 
 ## Enhancements
+
 * Implemented support for Call to Action and Commerce (Products) with Instagram native embeds.
 * To address deprecations made by Instagram, Content Detail for applications was modified to render Instagram Native Embeds. 
 
