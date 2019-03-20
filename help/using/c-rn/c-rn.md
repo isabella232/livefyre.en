@@ -8,15 +8,20 @@ title: Latest Release Notes for Livefyre
 
 # Current Release Notes {#current-release-notes}
 
-**Release Notes for the February 21, 2019 update.**
+**Release Notes for the March 14, 2019 update.**
 
 >[!NOTE]
 >
 >Livefyre will be ending support of HTTP and TLS 1.1 (and earlier) in compliance with Adobe Security Standards.  Please consult future release notes for date of final deprecation.
 
+## Enhancements
+
+
+
 ## Bug Fixes
 
-* Fixed an issue where refreshing the Instagram Business Account token resulted in a "duplicate account" error.
-* Fixed an issue where updating apps using a custom script created duplicate apps in error.
-* Fixed an issue where Instagram content displayed from URL search shows the thumbnail properly in the search results but not in "View Details" or published to an app.
-* Fixed an issue where clicking Load More results in an error for some product IDs.
+* Fixed an issue where Disabled Twitter rights request accounts could be selected in Advanced modal.
+* Fixed an issue where in certain circumstances there was an undefined HTML tag in Media Wall.
+* Fixed an issue where in some circumstances, Instagram social search displayed Video/Image Not Found message incorrectly.
+* Fixed an issue where Instagram and Facebook albums in Media Walls and Mosaics were displaying the same image multiple times.
+Fixed an issue where non existent accounts appear in Rights Request drop down.
