@@ -8,22 +8,17 @@ title: Latest Release Notes for Livefyre
 
 # Current Release Notes {#current-release-notes}
 
-**Release Notes for the March 14, 2019 update.**
+**Release Notes for the March 21, 2019 update.**
 
 >[!NOTE]
 >
->Livefyre will be ending support of HTTP and TLS 1.1 (and earlier) in compliance with Adobe Security Standards.  Please consult future release notes for date of final deprecation.
+>Livefyre will be ending support of TLS 1.1 (and earlier) in compliance with Adobe Security Standards on April 11, 2019. Please contact prioritysupport@livefyre.com if you experience any issues with your integration. Please consult future release notes for date of final http deprecation.
 
 ## Enhancements
 
-* Implemented support for Call to Action and Commerce (Products) with Instagram native embeds.
-* To address deprecations made by Instagram, Content Detail for applications was modified to render Instagram Native Embeds. 
+* Implemented the enablement of Call to Action button by default.
 
 
 ## Bug Fixes
 
-* Fixed an issue where Disabled Twitter rights request accounts could be selected in Advanced modal.
-* Fixed an issue where in certain circumstances there was an undefined HTML tag in Media Wall.
-* Fixed an issue where in some circumstances, Instagram social search displayed Video/Image Not Found message incorrectly.
-* Fixed an issue where Instagram and Facebook albums in Media Walls and Mosaics were displaying the same image multiple times.
-Fixed an issue where non existent accounts appear in Rights Request drop down.
+* Fixed an issue where "Undefined" Instagram posts in ModQ can't be removed. 
