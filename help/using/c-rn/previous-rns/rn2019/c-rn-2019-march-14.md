@@ -8,8 +8,7 @@ title: Livefyre Release Notes for March 14, 2019
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 ---
 
-
-**Release Notes for the March 14, 2019 update.**
+# Release Notes - March 14, 2019
 
 >[!NOTE]
 >
