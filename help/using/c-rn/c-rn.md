@@ -1,5 +1,4 @@
 ---
-
 description: Latest release notes for Adobe Livefyre.
 seo-description: Latest release notes for Adobe Livefyre.
 seo-title: Latest Release Notes for Adobe Livefyre
