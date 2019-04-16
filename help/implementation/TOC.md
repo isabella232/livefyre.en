@@ -9,7 +9,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 + [Livefyre Implementation Guide](home.md)
 + Getting Started {#getting-started}
   + [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
-  + Implementation {#implementation-process}
+  + Implementation Process {#implementation-process}
     + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
     + [App Integration Types](c-getting-started/c-implementation-process/c-app-integration-types.md)
     + [App Implementation](c-getting-started/designer-app-implementation.md)
@@ -40,7 +40,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 + Livefyre Identity {#livefyre-identity}
   + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
   + [Enable Livefyre Identity](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-  + Use Social Apps with Livefyre Identity {#social-apps-livefyre-identity}
+  + Use Social Apps with Livefyre Identity {#use-social-apps-with-livefyre-identity}
     + [Create Your Social Apps](c-livefyre-identity-comp/t-create-your-social-apps.md)
     + [Create a Facebook App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
     + [Create a Google Project for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
