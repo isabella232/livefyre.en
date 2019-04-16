@@ -40,7 +40,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 + Livefyre Identity {#livefyre-identity}
   + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
   + [Enable Livefyre Identity](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-  + Use Social Apps with Livefyre Identity
+  + Use Social Apps with Livefyre Identity {#social-apps-livefyre-identity}
     + [Create Your Social Apps](c-livefyre-identity-comp/t-create-your-social-apps.md)
     + [Create a Facebook App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
     + [Create a Google Project for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
