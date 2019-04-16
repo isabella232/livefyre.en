@@ -7,7 +7,8 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
 # Experience Manager Livefyre Implementation Guide {#implementation}
 
 + [Livefyre Implementation Guide](home.md)
-+ [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
++ Getting Started {#getting-started}
+  + [Getting Started with Livefyre Integration](c-getting-started/c-getting-started.md)
   + Implementation {#implementation-process}
     + [Implementation Process](c-getting-started/c-implementation-process/c-implementation-process.md)
     + [App Integration Types](c-getting-started/c-implementation-process/c-app-integration-types.md)
@@ -21,7 +22,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [User Auth Token](c-getting-started/c-implementation-process/c-user-auth-token.md)
     + [Create a Collection Using the CollectionMeta Token](t-create-a-collectionmeta-token.md)
     + [Creating a Checksum](c-creating-a-checksum.md)
-+ Identity Integration
++ Identity Integration {#identity-integration}
   + [Identity Integration](t-about-identity-integration/t-about-identity-integration.md)
   + [Authentication Package](t-about-identity-integration/c-authorization-package.md)
   + [AuthDelegate Object](t-about-identity-integration/c-building-an-auth-delegate.md)
@@ -109,7 +110,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
   + [Map](c-app-integrations/c-map-integration.md)
   + [Media Wall](c-app-integrations/c-media-wall-integration.md)
   + [Trending](c-app-integrations/c-trending-integration.md)
-+ App Customizations {#app-customtizations}
++ App Customizations {#app-customizations}
   + [App Customizations](c-app-customizations/c-app-customizations.md)
   + [Change Display Options](c-app-customizations/c-change-display-options.md)
   + [CSS Classes](c-app-customizations/c-css-classes.md)
@@ -121,7 +122,7 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
   + [Change @mention Icon](c-app-customizations/c-change-mention-icon.md)
   + [Highlight Content](c-app-customizations/c-highlight-content.md)
   + [Customize the Date and Time Stamp](c-app-customizations/c-date-time-stamp.md)
-  + Feature Content
+  + Feature Content {#feature-content}
     + [Feature Content](c-app-customizations/t-feature-content.md)
     + [Enable Featuring Content in Studio](c-app-customizations/t-enable-featuring-content-in-studio.md)
     + [Select Content to Feature from an App](c-app-customizations/t-select-content-to-feature.md)
@@ -130,13 +131,13 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
     + [Feature APIs](c-app-customizations/c-feature-apis.md)
   + [Connecting Janrain to Livefyre using AuthDelegate](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
   + [Aggregated Featured Content using the Featured APIs](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-  + Style Content  
+  + Style Content {#style-content}
     + [Style User Group Content](c-app-customizations/c-style-user-group-content.md)
     + [Adding Users to Groups](c-app-customizations/c-adding-users-to-groups.md)
-  + Apply Custom Styles 
+  + Apply Custom Styles {#apply-custom-styles}
     + [Applying Custom Styles](c-app-customizations/c-applying-custom-styles-.md)
     + [Add Custom Buttons](c-app-customizations/t-add-custom-buttons.md)
-  + Javascript Events  
+  + Javascript Events {#javascript-events}
     + [JavaScript Events Definitions and Examples](c-app-customizations/c-javascript-events.md)
     + [Javascript Events for Visualization Apps](c-app-customizations/c-javascript-events-for-visualization-apps.md)
     + [Javascript Events for Media Wall](c-app-customizations/c-javascript-events-media-wall.md)
