@@ -199,11 +199,12 @@ user-guide-title: Experience Manager Livefyre User Guide
   + [Throttling and Frequency of Tweets](c-streams/c-throttling-and-frequency-of-tweets.md)
   + [YouTube Rules](c-streams/c-youtube-rules/c-youtube-rules.md)
 + Rights Requests {#rights-requests}
-  + [Requesting Rights](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
+  + [Requesting Rights](c-how-requesting-rights-works/c-how-requesting-rights-works.md) 
   + [Managing Rights Requests](c-how-requesting-rights-works/c-managing-rights-requests.md)
   + [Set up Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
   + [Send a Twitter Rights Request](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
   + [Send a Partially-Automated Instagram Rights Request](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
+  + [Send Instagram Rights Request Manually](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
   + [View Rights Activity History](c-how-requesting-rights-works/c-view-rights-activity-history.md)
   + [Manage Content With a Pending Rights Requests from the Asset Library](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
   + [Manually Grant or Revoke Rights for an Asset from the Asset Library](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
@@ -247,6 +248,7 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [Privacy Request FAQs](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
     + [Create a Privacy Request](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
     + [View a Privacy Report](c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md)
+    + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + Release Notes {#release-notes}
   + [Latest Release Notes](c-rn/c-rn.md)
   + Release Notes 2019 {#rn2019}

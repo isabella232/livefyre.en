@@ -15,7 +15,7 @@ Before you can send a rights request you must:
 
 * Add an Instagram social account. For more information on how to configure a social account, see [Add a Social Account](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram). To send a manual or partially-automated rights request, you must set up an Instagram business account. For more information about Instagram accounts, see [About Instagram Accounts](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
 
-* Set up Rights Management. For more information on how to set up rights management, see [Requesting Rights](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works).
+* Set up Rights Management. For more information on how to set up rights management, see [Requesting Rights](../c-how-requesting-rights-works/c-how-requesting-rights-works.md).
 
 To send a manual rights request for Instagram content:
 
