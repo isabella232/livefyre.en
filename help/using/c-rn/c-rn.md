@@ -11,7 +11,7 @@ title: Latest Release Notes for Livefyre
 
 >[!NOTE]
 >
->Livefyre will be disabling HTTP (port 80) in our Production environment on Thursday May 23rd.  This will complete the security updates in compliance with Adobe Security Standards.  Please contact [prioritysupport@livefyre.com](prioritysupport@livefyre.com) if you experience any issues with your integration.
+>Livefyre will be disabling HTTP (port 80) in our Production environment on Thursday May 23rd.  This will complete the security updates in compliance with Adobe Security Standards.  Please contact [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) if you experience any issues with your integration.
 
 ## Enhancements
 
