@@ -18,7 +18,7 @@ Livefyre supports the following devices, operating systems and browsers.
 | **Desktop Browsers** | | | | |
 |  Chrome | ✓ | ✓ | ✓ | ✓ |
 |  Edge | ✓ | ✓ | ✓ | ✓ |
-|  IE 11 | ✓ | ✓ | ✓ | ✓ |
+|  IE 11 | ✓ | ✓ | X | ✓ |
 |  Firefox 14+ | ✓ | ✓ | ✓ | ✓ |
 |  Safari 7.x | ✓ | ✓ | ✓ | ✓ |
 |  | | | | |
