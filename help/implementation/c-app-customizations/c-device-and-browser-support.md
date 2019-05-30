@@ -19,14 +19,14 @@ Livefyre supports the following devices, operating systems and browsers.
 |  Chrome | ✓ | ✓ | ✓ | ✓ |
 |  Edge | ✓ | ✓ | ✓ | ✓ |
 |  IE 11 | Limited | Limited | Limited | Limited |
-|  Firefox 14+ | ✓ | ✓ | ✓ | ✓ |
-|  Safari 7.x | ✓ | ✓ | ✓ | ✓ |
+|  Firefox | ✓ | ✓ | ✓ | ✓ |
+|  Safari | ✓ | ✓ | ✓ | ✓ |
 |  | | | | |
 | **Devices** | | | | |
 |  Android Browser 2.3+ | Limited | Limited | N/A | Limited |
 |  Google Chrome on Android 4.1+ | Limited | Limited | N/A | Limited |
-|  iOS previous versions (iPhone 4S+ / iPad 2+) | Limited | Limited | N/A | Limited |
-|  iOS current version (iPhone 4S+ / iPad 2+) | ✓ | ✓ | N/A | ✓ |
+|  iOS previous versions | Limited | Limited | N/A | Limited |
+|  iOS current version | Limited | Limited | N/A | Limited |
 
 >[!NOTE]
 >
