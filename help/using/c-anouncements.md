@@ -13,6 +13,7 @@ uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 Announcements for Livefyre and Livefyre Studio. Current as of June 5, 2019.
 
 ## June 5, 2019
+
 While Facebook generally provides advanced notice of changes whenever possible, they made a swift decision yesterday to disable access to Facebook and Instagram content within Livefyre. Due to this change, you will not be able to stream, search, or share Facebook or Instagram content.  We sincerely apologize for not being unable to provide you with a heads up on this change.
  
 Please keep in mind that there are still ways to access Facebook and Instagram content at this time:
@@ -25,6 +26,7 @@ We are working closely with Facebook to reinstate this functionality and we hope
 
 
 ## November 15, 2018 {#section_yx3_hnp_5fb}
+
 Two additional features that address the Instagram API deprecations from early May are now live:
 
 * **Search and stream content from business accounts**
