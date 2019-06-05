@@ -16,7 +16,7 @@ To ensure your data remains secure, we are deprecating HTTP in favor of HTTPS. A
 
 This could impact Livefyre customers who have:
 
-* Server-to-server calls from their CRM, CMS, Wordpress, or other Client.
+* Server-to-server calls from their CRM, CMS, WordPress, or other Client.
 * Mobile Integrations (Android and iOS Apps)
 * Custom applications or custom code
 
@@ -24,7 +24,7 @@ This could impact Livefyre customers who have:
 
 1. All Livefyre customers must communicate with all APIs via HTTPS for all traffic, including:
 
-    * Server to Server Integrations (CRM, CMS, Wordpress, etc.)
+    * Server to Server Integrations (CRM, CMS, WordPress, etc.)
     * Mobile Integrations (Android and iOS Apps)
     * Custom Applications (Streamhub SDK or directly coded).
 

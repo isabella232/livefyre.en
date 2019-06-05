@@ -27,15 +27,6 @@ Avatars are loaded asynchronously in Livefyre. When a user first signs into the 
 
 Livefyre supports the use of Gravatars. If a user does not have a custom avatar as part of their user profile, Livefyre will check for a Gravatar for that user. If no Gravatar exists, the default avatar will be used.
 
-If Comments has been embedded using the Livefyre WordPress Plugin, the user’s Gravatar will be used if the following conditions are met:
-
-* Gravatar has been activated in the WordPress admin panel, and
-* the user has a Gravatar account, and
-* a custom avatar is not provided.
-
-For more information, see the WordPress Gravatar documentation.
-
-
 
 Apps that use this feature:
 
