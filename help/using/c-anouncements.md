@@ -12,6 +12,18 @@ uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 
 Announcements for Livefyre and Livefyre Studio. Current as of June 5, 2019.
 
+## June 7, 2019
+
+We are happy to report that Instagram streams and search have been restored in Livefyre. You can resume using Social Search for Instagram content and resume streaming Instagram content into folders and apps. In order to start streaming content again, you will need to take the following steps:
+* Login to Livefyre
+* Visit Settings to re-authorize and refresh your access tokens tied to your Instagram Business Account
+* Wait one to two hours for content to start streaming again
+* Contact support If you encounter any issues
+
+Facebook streams have not yet been restored, but we are still actively working with Facebook to reinstate this capability and will update you as soon as we know more.
+ 
+Thank you for your continued patience with this unexpected interruption in service.
+
 ## June 5, 2019
 
 While Facebook generally provides advanced notice of changes whenever possible, they made a swift decision yesterday to disable access to Facebook and Instagram content within Livefyre. Due to this change, you will not be able to stream, search, or share Facebook or Instagram content.  We sincerely apologize for not being able to provide you with a heads up on this change.
