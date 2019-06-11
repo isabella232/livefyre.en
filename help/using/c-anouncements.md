@@ -10,7 +10,11 @@ uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 
 # Announcements{#announcements}
 
-Announcements for Livefyre and Livefyre Studio. Current as of June 5, 2019.
+## June 11, 2019
+
+We’re happy to inform you that Facebook Fanpage content has resumed streaming into folders and apps within Livefyre. There are no actions required on your part to enable the flow of this content.
+ 
+We greatly appreciate your patience during this unexpected outage.
 
 ## June 7, 2019
 
