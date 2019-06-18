@@ -43,7 +43,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
   + Use Social Apps with Livefyre Identity {#use-social-apps-with-livefyre-identity}
     + [Create Your Social Apps](c-livefyre-identity-comp/t-create-your-social-apps.md)
     + [Create a Facebook App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
-    + [Create a Google Project for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
     + [Create a Twitter App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
     + [Create a Yahoo! App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
     + [Create a Microsoft Live Identity App for Use with Livefyre Identity](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
