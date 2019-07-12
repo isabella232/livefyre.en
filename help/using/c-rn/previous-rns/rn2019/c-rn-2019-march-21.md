@@ -7,7 +7,7 @@ solution: Experience Manager
 title: Livefyre Release Notes for March 21, 2019
 ---
 
-**Release Notes for the March 21, 2019 update.**
+# Release Notes for the March 21, 2019 update
 
 >[!NOTE]
 >
