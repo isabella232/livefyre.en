@@ -251,7 +251,8 @@ user-guide-title: Experience Manager Livefyre User Guide
     + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + Release Notes {#release-notes}
   + [Latest Release Notes](c-rn/c-rn.md)
-  + Release Notes 2019 {#rn2019}
+  + Release Notes 2019 {#rn2019} 
+    + [March 21, 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
     + [March 14, 2019](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
     + [February 21, 2019](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
     + [February 7, 2019](c-rn/previous-rns/rn2019/c-rn-2019-february-7.md)
