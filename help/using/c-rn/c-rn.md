@@ -7,17 +7,18 @@ title: Latest Release Notes for Livefyre
 
 # Current Release Notes {#current-release-notes}
 
-**Release Notes for the March 21, 2019 update.**
-
->[!NOTE]
->
->Livefyre will be disabling HTTP (port 80) in our Production environment on Thursday May 23rd.  This will complete the security updates in compliance with Adobe Security Standards.  Please contact [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) if you experience any issues with your integration.
+**Release Notes for the July 11, 2019 update.**
 
 ## Enhancements
 
-* Implemented the enablement of Call to Action button by default.
-
+* Updated Autotagger model from v7 to v7.1.
 
 ## Bug Fixes
 
-* Fixed an issue where "Undefined" Instagram posts in ModQ can't be removed. 
+* Fixed an issue where user encounters a "401 Unauthorized" error when searching for Instagram content beyond the 30 hashtag search per 7 day limit.
+* Fixed an issue where 'Load More' on Media Walls with product-filtered content puts content at top rather than below existing content as expected.
+* Fixed an issue where Instagram posts are being removed due to expired CDN links.
+* Fixed an issue where Polls App displays poll question and answer options using incorrect formatting.
+* Removed documentation for Facebook content import, which is no longer supported.
+* Fixed an issue where users were unable to approve Twitter streams premod content.
+* Fixed an issue where videos uploaded via Upload Media API were being converted from .mp4 to .undefined.
