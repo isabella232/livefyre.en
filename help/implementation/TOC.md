@@ -95,7 +95,6 @@ user-guide-title: Experience Manager Livefyre Implementation Guide
   + [Chat](c-app-integrations/c-app-integratios-chat.md)
   + Comments {#comments}
     + [Comments](c-app-integrations/c-comments-integration/c-comments-integration.md)
-    + [Ads in Comments](c-app-integrations/c-comments-integration/c-ads-in-comments-integration.md)
   + [Live Blog](c-app-integrations/c-live-blog-integration.md)
   + [Reviews](c-app-integrations/c-reviews-integration.md)
   + Sidenotes {#sidenotes}
