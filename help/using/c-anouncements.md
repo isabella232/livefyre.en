@@ -10,10 +10,16 @@ uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 
 # Announcements{#announcements}
 
+## October 25, 2019
+
+On September 4, 2019, Facebook unexpectedly removed access to certain permissions and features from the Livefyre workflow which has interrupted the ability to search or stream Facebook content. If your app needs access to publish_pages, user_friends or page public content access, please request them through the existing app review process. We have formally requested restored access to these permissions and are waiting for approval from Facebook. We will inform you as soon as approval has been granted and content is once again available.
+
+Content that is already published on your website(s) will not be impacted.
+
 ## June 11, 2019
 
 We’re happy to inform you that Facebook Fanpage content has resumed streaming into folders and apps within Livefyre. There are no actions required on your part to enable the flow of this content.
- 
+
 We greatly appreciate your patience during this unexpected outage.
 
 ## June 7, 2019
