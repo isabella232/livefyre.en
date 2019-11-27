@@ -43,9 +43,10 @@ You do not need to perform this step if you already have a property or tool set 
 1. Create or edit an existing Adobe Analytics tool. 
 1. If an existing Adobe Analytics Tool does not exist, click the **[!UICONTROL Add a Tool]** button.
 Set the following parameters for the tool:
-* Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
-* Enable **[!UICONTROL Automatic Configuration]**.
-* Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
+
+   * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
+   * Enable **[!UICONTROL Automatic Configuration]**.
+   * Enable **[!UICONTROL Authenticate via Marketing Cloud]**.
 1. Add or confirm the name of the report suite with Livefyre events to the **[!UICONTROL Report Suites]** field.
 
 ## Step 4: Set up a Page Load Rule to Set Up Analytics Handling {#section_jfj_j3d_4cb}
@@ -65,24 +66,24 @@ Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you t
 1. Under **[!UICONTROL Javascript/ Third Party Tags]**, click the **[!UICONTROL Non-sequential]** tab, then click **[!UICONTROL Add New Script]**.
 1. Select **[!UICONTROL Sequential HTML]** as the script type.
 1. Add the following script into the code editor and click **[!UICONTROL Save Code]**.
-  The following script calls the `livefyre_analytics` direct call rule after the Livefyre JavaScript loads. The following script example checks every 400ms to see if `livefyre.analytics` is on the page. After the page loads, livefyre.analytics sends out tracking information.
 
-  ```
-  /** 
-  * Poll for Livefyre.analytics object to exist since it gets loaded via the 
-  * Livefyre.js JavaScript file. Depending on the timing, this could already 
-  * exist or need a little time. 
-  */ 
- function pollForAnalytics() {  
+   The following script calls the `livefyre_analytics` direct call rule after the Livefyre JavaScript loads. The following script example checks every 400ms to see if `livefyre.analytics` is on the page. After the page loads, livefyre.analytics sends out tracking information.
+
+   ```
+   /** 
+   * Poll for Livefyre.analytics object to exist since it gets loaded via the 
+   * Livefyre.js JavaScript file. Depending on the timing, this could already 
+   * exist or need a little time. 
+   */ 
+   function pollForAnalytics() {  
    if (Livefyre.analytics) { 
      _satellite.track('livefyre_analytics'); 
        return true; 
      } 
      setTimeout(pollForAnalytics, 400); 
- } 
-    
- setTimeout(pollForAnalytics, 400);
- ```
+   } 
+   setTimeout(pollForAnalytics, 400);
+   ```
 
 1. Click **[!UICONTROL Save Code]**.
 1. Click **[!UICONTROL Save Rule]**.
@@ -130,7 +131,7 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
      TwitterRetweetClick: 'event82',  
      TwitterUserFollow: 'event82' 
    }; 
-
+     
     function trackLivefyreEvent(data) {  
      var event = eventMap[data.type]; 
      console.log('Track:', data.type, event); 
@@ -163,18 +164,17 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
      console.log('linkTrackEvents:',  s.linkTrackEvents);  
      console.log('events:', s.events); 
      s.tl(); 
-    } 
-   ]
+     } 
+     ]
 
-   /** 
+     /** 
 
    ```
 
-* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
+   * Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
 
-  ```
- 
-  */ 
+   ```
+   */ 
    function addAnalyticsHandler() {  
      Livefyre.analytics.addHandler(function (events) { 
        (events || []).forEach(function (data) {  
@@ -183,9 +183,8 @@ There are other ways to implement Livefyre with DTM by using custom events, Adob
        }); 
      }); 
    } 
-   addAnalyticsHandler(); 
-   
- ```
+   addAnalyticsHandler();  
+   ```
 
 1. Click on **Save Rule**.
 
@@ -217,7 +216,6 @@ var evarMap = {
 The following sample code maps the specific events you set up in the Report Suite Manager with available Livefyre events. In this example, `event82` is set up as any user interaction event without differentiating which kind of user interaction event (for example, liking or sharing content). This is an efficient way to record all user interaction information in a block. You can also map the events in the DTM Analytics UI with Data Element referencing.
 
 ```
-
 var eventMap = { 
   FlagCancel: 'event82',  
   FlagClick: 'event82',  
@@ -239,13 +237,11 @@ var eventMap = {
   TwitterRetweetClick: 'event82',  
   TwitterUserFollow: 'event82' 
 };
-
 ```
 
 The following sample states that if there isn't an event in this list, don't do anything. You do not need to modify this section of code.
 
 ```
-
 function trackLivefyreEvent(data) {  
   var event = eventMap[data.type]; 
   console.log('Track:', data.type, event); 
@@ -254,13 +250,11 @@ function trackLivefyreEvent(data) {
     console.warn(data.type, 'is not mapped to an event in AA');  
     return; 
   }
-
 ```
 
 The following code differentiates the event types that `event82` records. The conversion variable, `eVar83` records the type of user interaction, and the script sets up `eVar83` to separate the user interaction data by type. So `eVar83` allows you to break out the recorded data into specific types of user interactions.
 
 ```
-
   var vars = ['events'];  
   switch (event) { 
     case 'event82': s.eVar83 = data.type;  
@@ -289,16 +283,13 @@ The following code differentiates the event types that `event82` records. The co
    
   s.tl(); 
 }
-
 ```
 
 The following code sample adds a handler to listen to all the events that happen. It uses the page load rule on load, waits for events to exist, then sets up handler for all events from the App and tracks them. You do not need to modify this code.
 
 ```
-
 /** 
 * Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
-
 */ 
 function addAnalyticsHandler() { 
   Livefyre.analytics.addHandler(function (events) { 
@@ -308,7 +299,6 @@ function addAnalyticsHandler() {
     }); 
   }); 
 }
-
 ```
 
 ## More Info
