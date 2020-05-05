@@ -14,7 +14,7 @@ Set up Adobe Analytics and Dynamic Tag Manager (DTM) to collect data for Livefyr
 
 Map Livefyre events to one or more Custom Success Events in Adobe Analytics Report Suite Manager.
 
-For more information on Report Suite Manager, see [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html).
+For more information on Report Suite Manager, see [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html).
 
 1. Log in to Adobe Analytics as an Administrator User.
 1. Open Adobe Analytics Admin Report Suite Manager.
@@ -35,7 +35,7 @@ Map Livefyre conversion variables (eVars) to conversion variables in Adobe Analy
 
 ## Step 3: Use DTM to Add your Report Suite with Livefyre Events {#section_t15_2hd_4cb}
 
-Add Adobe Analytics to DTM to get Analytics working. To do this, create a new property and tool and add the new report suite with Livefyre events to the property. For more information on DTM, see [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html).
+Add Adobe Analytics to DTM to get Analytics working. To do this, create a new property and tool and add the new report suite with Livefyre events to the property. For more information on DTM, see [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html).
 
 You do not need to perform this step if you already have a property or tool set up for the report suite you set up with Livefyre events.
 
@@ -62,7 +62,7 @@ Set up a Page Load Rule to pull in all the data. The Page Load Rule allows you t
 1. Click on the **[!UICONTROL Create New Rule]** button.
 1. Open the **[!UICONTROL Conditions]** section by clicking on the **[!UICONTROL Plus]** button.
 1. Trigger the rule. Choose **[!UICONTROL DOM Ready]** or **[!UICONTROL Onload]** trigger types if you want to delay or implement the rule asynchronously.
-1. (Optional) Add additional parameters to limit the pages that display Livefyre Apps. For more information about additional configuration options, see [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html).
+1. (Optional) Add additional parameters to limit the pages that display Livefyre Apps. For more information about additional configuration options, see [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html).
 1. Under **[!UICONTROL Javascript/ Third Party Tags]**, click the **[!UICONTROL Non-sequential]** tab, then click **[!UICONTROL Add New Script]**.
 1. Select **[!UICONTROL Sequential HTML]** as the script type.
 1. Add the following script into the code editor and click **[!UICONTROL Save Code]**.
@@ -305,7 +305,7 @@ function addAnalyticsHandler() {
 
 For more information on the topics discussed on this page, see:
 
-* [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
-* [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html)
-* [Rules](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)
+* [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)
+* [Rules](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

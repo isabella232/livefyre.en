@@ -30,7 +30,7 @@ The following new features were released in the production version of this relea
 
 For more information on how to request rights for Instagram accounts, see [Send Instagram Rights Request Manually](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md) and [Send a Partially-Automated Instagram Rights Request](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md).
 
-* **Adobe Target integration.** Added integration with Adobe Target allowing you to share Livefyre Apps directly to your Adobe Target Offers Library. For more information about using Livefyre with Adobe Target, see [Target documentation](https://marketing.adobe.com/resources/help/en_US/livefyre/livefyre-target.html).
+* **Adobe Target integration.** Added integration with Adobe Target allowing you to share Livefyre Apps directly to your Adobe Target Offers Library. For more information about using Livefyre with Adobe Target, see [Target documentation](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html).
 
 ## Issues {#section_ehw_ndt_wcb}
 

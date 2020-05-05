@@ -42,7 +42,7 @@ The following code defines the fields in the event object that get received by t
 
 ## Livefyre Analytics Events and eVars {#section_u3k_tft_mcb}
 
-The following Livefyre events to map to custom events to use in reports using the Report Suite Manager. For more information about Report Suites in Adobe Analytics, see [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html). For more on how to use Livefyre events with Report Suite Manager, see [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
+The following Livefyre events to map to custom events to use in reports using the Report Suite Manager. For more information about Report Suites in Adobe Analytics, see [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html). For more on how to use Livefyre events with Report Suite Manager, see [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb).
 
 ## Livefyre Analytics Events
 
@@ -95,7 +95,7 @@ The following is a list of conversion variables (eVars) that Livefyre provides.
 
 For more information on the topics discussed on this page, see:
 
-* [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[DTM](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
+* [Report Suite Manager](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[DTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
-* [Rules](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [Rules](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)

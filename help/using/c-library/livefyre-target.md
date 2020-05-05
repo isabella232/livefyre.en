@@ -48,4 +48,4 @@ A list of Target Instances appears.
 
 1. Click  **[!UICONTROL Publish]**.
 
-The Livefyre App is now available to use in your Target Offers Library. For more information on publishing Apps, see [Publish Content](/help/using/c-library/t-publish-content.md) and [Offers](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html) in the Target documentation.
+The Livefyre App is now available to use in your Target Offers Library. For more information on publishing Apps, see [Publish Content](/help/using/c-library/t-publish-content.md) and [Offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/manage-content.html) in the Target documentation.
