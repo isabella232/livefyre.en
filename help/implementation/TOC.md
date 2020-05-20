@@ -1,10 +1,10 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Experience Manager Livefyre Implementation Guide
+user-guide-title: Livefyre Implementation Guide
 ---
  
-# Experience Manager Livefyre Implementation Guide {#implementation}
+# Livefyre Implementation Guide {#implementation}
 
 + [Livefyre Implementation Guide](home.md)
 + Getting Started {#getting-started}

@@ -1,10 +1,10 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Experience Manager Livefyre User Guide
+user-guide-title: Livefyre Documentation
 ---
 
-# Experience Manager Livefyre User Guide {#using} 
+# Livefyre Documentation {#using} 
 
 + [Livefyre Help](home.md)
 + [Announcements](c-anouncements.md)

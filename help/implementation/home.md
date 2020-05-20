@@ -3,10 +3,9 @@ seo-title: Livefyre Help
 solution: Experience Manager
 title: Livefyre Implementation Help
 uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
-
 ---
 
-# Experience Manager Livefyre Implementation Guide {#livefyre-help}
+# Livefyre Implementation Guide {#livefyre-help}
 
 Implement Livefyre Studio and Livefyre Apps on your website using developer tools to customize your experience.
 
