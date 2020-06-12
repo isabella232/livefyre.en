@@ -149,11 +149,11 @@ Use the settings section to select options available when content is marked as T
 
 ## Change User Status in ModQ {#section_tmw_lg1_z1b}
 
-Click the **[!UICONTROL User actions]** button from the User Summary panel to Mute, Ban, or Whitelist the user.
+Click the **[!UICONTROL User actions]** button from the User Summary panel to Mute, Ban, or Allow-list the user.
 
 * **[!UICONTROL Mute:]** allows you to Mute Flags from the user who flagged the listed piece of content. Use this option to exclude the user’s flags from your premoderation filters. Content they flag will not enter ModQ as a result of the flag, and their flags will not be included in Flag Rules.
 * **[!UICONTROL Ban:]** allows you to ban the listed user from your site or network. (Only Studio Administrators or User Managers may network ban a user.)
-* **[!UICONTROL Whitelist:]** allows you to whitelist the listed user for your site or network. (Only Studio Administrators or User Managers may network whitelist a user.)
+* **[!UICONTROL Whitelist:]** allows you to allow-list the listed user for your site or network. (Only Studio Administrators or User Managers may network allow-list a user.)
 
 
 

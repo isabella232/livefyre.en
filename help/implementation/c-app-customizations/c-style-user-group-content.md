@@ -26,4 +26,4 @@ To add custom styling for specific User Groups:
 
 User Groups and User Tags are equivalent in Studio. Adding a user to a User Group appends a User Tag to their account, which you can style using the Livefyre CSS customizations.
 
-All users who have posted content into a Collection may be added to one or more User Groups through Studio. This includes both banned and whitelisted users, and content originating with SocialSync and Curate.
+All users who have posted content into a Collection may be added to one or more User Groups through Studio. This includes both banned and allow-listed users, and content originating with SocialSync and Curate.

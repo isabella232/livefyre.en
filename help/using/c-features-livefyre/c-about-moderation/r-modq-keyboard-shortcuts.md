@@ -21,6 +21,6 @@ The following keyboard shortcuts are available to moderators in ModQ.
 |  Top of queue | Jump to the first item at the top of the queue | l | |
 |  Mute or unmute flags | Mute or unmute flags from the selected user | Shift + M | |
 |  Ban user | Ban the selected user for that site only | Shift + B | |
-|  Whitelist user | Whitelist the selected user for that site only | Shift + W | |
+|  Whitelist user | Allow-list the selected user for that site only | Shift + W | |
 |  Clear site filter | Display all items in the network | Shift + Q | |
 

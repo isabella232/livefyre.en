@@ -36,7 +36,7 @@ The following user roles and listed access privileges are available within Studi
 
 * **User Manager**
   * View and edit end user Account details
-  * Ban or Whitelist end users
+  * Ban or allow-list end users
 
 * **Data Manager:** grants access to use the Livefyre Analytics dashboard.
 * **App Manager**

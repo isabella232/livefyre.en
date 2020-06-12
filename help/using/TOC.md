@@ -213,7 +213,7 @@ user-guide-title: Livefyre Documentation
   + [Search for Users](c-users/t-search-for-users.md)
   + [Viewing Account Details](c-users/c-viewing-account-details.md)
   + [Ban a User](c-users/t-ban-a-user.md)
-  + [Whitelist a User](c-users/t-whitelist-a-user.md)
+  + [Allow-list a User](c-users/allow-list-a-user.md)
   + [Link User Accounts](c-users/t-link-user-accounts.md)
   + [Users Switching Networks](c-users/c-users-switching-networks.md)
   + [User Sync](c-users/t-set-up-user-sync.md)

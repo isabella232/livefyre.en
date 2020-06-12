@@ -19,7 +19,7 @@ You can moderate content in the following ways:
 * Automatically premoderate content to filter out undesired content based on rules you set up before you publish the content.
 * Manually delete or approve content that was flagged using the automatic premoderation using the ModQ or App Content in the Library.
 * Identify site visitors that repeatedly post offensive content to keep them from posting by banning specific Livefyre users, social users, or IP addresses. 
-* Identify people and content that can always display by whitelisting users or turning off filters for specific streams, sites, or networks.
+* Identify people and content that can always display by allow-listing users or turning off filters for specific streams, sites, or networks.
 
 You can automatically premoderate content in the following ways:
 
@@ -32,7 +32,7 @@ You can automatically premoderate content in the following ways:
   * Ban IP regions by country code by request. Banned content will be marked as SPAM.
 
 * Create a list of words that you consider profanity in the Profanity List under **[!UICONTROL Settings > Moderation > Rules]** for your Network or Site.
-* Whitelist users (always allow content from these users to display) by using or turning off filters for specific streams, sites, or networks.
+* Allow-list users (always allow content from these users to display) by using or turning off filters for specific streams, sites, or networks.
 
 After you have set up your profanity lists, SAFE filters, and rules, you can choose whether to premoderate content and apply the SAFE filters in streams. For more information, see [Stream Rule Options for All Stream Rules](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules).
 
