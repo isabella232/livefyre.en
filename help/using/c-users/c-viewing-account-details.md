@@ -44,6 +44,6 @@ Because their content is now Bozo’d, banned users may continue to post inappro
 
 For more information, please see **[!UICONTROL Studio > App Content > Bozo Content]**.
 
-## Whitelisting Users {#section_kr4_ptp_vz}
+## Allow-listing Users {#section_kr4_ptp_vz}
 
-Whitelisting Users allows them to post directly to your Apps. Content posted by whitelisted users will not pass through Livefyre’s SAFE, profanity, or premoderation filters, and will be automatically approved and added to the App.
+Allow-listing Users allows them to post directly to your Apps. Content posted by allow-listed users will not pass through Livefyre’s SAFE, profanity, or premoderation filters, and will be automatically approved and added to the App.

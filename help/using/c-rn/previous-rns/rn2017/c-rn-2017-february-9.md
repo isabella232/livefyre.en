@@ -28,7 +28,7 @@ SocialSync for Twitter has been a part of our core functionality for several yea
 |Bug|Streams|Fixed a bug that prevented Tumblr stream rules from saving.|
 |Bug|Streams|Fixed a bug that produced incorrect Generator Ids in the Collection JSON for RSS Feeds.|
 |Enhancement|Streams|Made an adjustment to the setting of "Verified accounts only" option to be disabled by default.|
-|Enhancement|Streams|Added a new feature to allow categories of content (via a Stream Rule) to be whitelisted and bypass moderation.|
+|Enhancement|Streams|Added a new feature to allow categories of content (via a Stream Rule) to be allow-listed and bypass moderation.|
 |Bug|Streams|Fixed a bug that caused "Premoderate" and "Media Premoderate" settings to carry over to a newly created Stream rule.|
 
 ## UAT Release {#section_dyx_yl2_wy}

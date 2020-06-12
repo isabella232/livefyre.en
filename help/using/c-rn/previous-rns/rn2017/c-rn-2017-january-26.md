@@ -35,5 +35,5 @@ Release Notes for January 26, 2017 release.
 |Bug|Streams|Enhanced content (images and videos) from Email Stream Rules to be available via HTTPS.|
 |Enhancement|Streams|Made an adjustment to the setting of “Verified accounts only” option to be disabled by default.|
 |Bug|Streams|Fixed a bug that caused “Premoderate” and “Media Premoderate” settings to carry over to a newly created Stream rule.|
-|Enhancement|Streams|Added a new feature to allow categories of content (via a Stream Rule) to be whitelisted and bypass moderation.|
+|Enhancement|Streams|Added a new feature to allow categories of content (via a Stream Rule) to be allow-listed and bypass moderation.|
 

@@ -18,7 +18,7 @@ Livefyre uses a PUSH interface to send an external system information about chan
 |--- |--- |
 |owner|This user is an owner, and can both moderate content, and assign new moderators.|
 |admin|This user is a moderator, and can moderate content.|
-|member|This user is whitelisted. Posted content does not pass through spam or profanity filters, and does not require approval in pre-moderated streams.|
+|member|This user is allow-listed. Posted content does not pass through spam or profanity filters, and does not require approval in pre-moderated streams.|
 |none|This user is a standard user, and has no special permissions.|
 |outcast|This user has been banned from participating in any conversations.|
 
