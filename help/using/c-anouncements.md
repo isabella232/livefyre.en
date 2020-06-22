@@ -10,6 +10,24 @@ uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 
 # Announcements{#announcements}
 
+## June 22, 2020
+
+We want to provide you with an update on the changing dynamics of user generated content (UGC) and the impact this is having on Facebook and Twitter content in the product.
+
+Last year, Facebook deprecated the Public Feed API. We have been in conversations to try to find a path forward. We have been asked to remove Facebook data from the Livefyre product. We are complying with Facebook’s request, and Adobe is working expeditiously to ensure that we are protecting our customers.
+
+Please be aware that access to new and saved Facebook content will be removed over the course of the next several weeks.
+
+* June 22, 2020: the ability to search for new Facebook content in Livefyre will end.
+* July 7, 2020: access to saved content within the Livefyre assets library and app content will end.
+* August 10, 2020: Facebook content published on websites that resides in Livefyre visualizations like media walls, feature cards, mosaics, carousels and more will be removed.
+
+This change does not impact Instagram content which will continue to be accessible in Livefyre.
+
+We also want to share that due to limited customer demand for Twitter content, access to Twitter will be removed from Livefyre next year on May 3, 2021. You will continue to have full access to new and saved Twitter content until this date.
+
+Beyond this, all other features including Ratings & Reviews, Commenting, Sidenotes and Live Blogging will continue to be available. Adobe will also continue to provide ongoing support for bug fixes and OS and security updates.
+
 ## October 25, 2019
 
 On September 4, 2019, Facebook unexpectedly removed access to certain permissions and features from the Livefyre workflow which has interrupted the ability to search or stream Facebook content. If your app needs access to publish_pages, user_friends or page public content access, please request them through the existing app review process. We have formally requested restored access to these permissions and are waiting for approval from Facebook. We will inform you as soon as approval has been granted and content is once again available.
