@@ -97,7 +97,6 @@ collection_meta_token = collection.build_collection_meta_token
 
 ```
 
->[!NOTE] {importance="high"}
+>[!NOTE]
 >
 >Livefyre receives the collectionMeta token you build and determines uniqueness by combining siteId (Livefyre provided) and articleId (customer specified).
-
