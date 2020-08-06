@@ -35,5 +35,4 @@ When you add new assets to the library, assets that are already included in your
     
     * **[!UICONTROL Recent Tags Search]**: Search the most recent posts with the hashtag.
 
->Items display that match your search. Mouse over an item to **[!UICONTROL View Details]**, add it to your Asset Library, or **[!UICONTROL Publish]** to an App.
-
+Items display that match your search. Mouse over an item to **[!UICONTROL View Details]**, add it to your Asset Library, or **[!UICONTROL Publish]** to an App.

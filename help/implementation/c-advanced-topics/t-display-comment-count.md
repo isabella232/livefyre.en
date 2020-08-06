@@ -38,7 +38,7 @@ Livefyre’s `CommentCount.js` allows you to fetch the content counts for collec
    </span>
    ```
 
-   >[!NOTE] {importance="high"}
+   >[!NOTE]
    >
    >The `CommentCount.js` code checks for a numeric value to update with the actual count. Be certain to include a numeric value between the tags.
 
