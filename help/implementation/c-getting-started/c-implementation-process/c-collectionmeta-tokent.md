@@ -18,10 +18,10 @@ Livefyre assigns a unique identifier to every Collection you create. Livefyre as
 
 |Parameter|Type|Description|
 |--- |--- |--- |
-|networkName|String (optional)|The name of the Livefyre network (available from {!UICONTROL Studio > Settings > Integration Settings > Credentials] ). This is optional when using the library to create a collectionMeta token.|
+|networkName|String (optional)|The name of the Livefyre network (available from [!UICONTROL Studio] > [!UICONTROL Settings] > [!UICONTROL Integration Settings] > [!UICONTROL Credentials] ). This is optional when using the library to create a collectionMeta token.|
 |networkKey|String (optional)|The secret key for the specific network (available from  Studio > Settings > Integration Settings > Credentials ). This is optional when using the library to create a collectionMeta token.|
 |siteId|String (optional)|The ID for the site (available from [!UICONTROL Studio > Settings > Integration Settings > Credentials] ). Optional when using the library to create a collectionMeta token.|
-|siteKey|String (optional)|The secret key for the site (available from  {!UICONTROL Studio > Settings > Integration Settings > Credentials] ).|
+|siteKey|String (optional)|The secret key for the site (available from [!UICONTROL Studio > Settings > Integration Settings > Credentials] ).|
 |articleId|String (optional)|A unique ID for the Collection.|
 |title|String (optional)|The title you wish to apply to the Collection. Usually, this corresponds to the title of the page that displays the App. <br>For example: “Integration is So Much Fun!” <br>Note:  The max character length for the title is 255 characters. The title field does not support HTML entities. Please encode special characters using UTF-8.|
 |url|String (optional)|The canonical absolute URL you wish to attach to this Collection. This URL will be used to generate links back to the App from content shared on Facebook and Twitter, email notifications, and Livefyre Studio. <br>Note:  If testing locally, use a valid base URL domain (For example: valid: `https://customer.com`; invalid: `https://localhost:5995`).|
