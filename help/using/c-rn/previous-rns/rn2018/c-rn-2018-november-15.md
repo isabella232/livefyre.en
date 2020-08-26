@@ -40,7 +40,7 @@ The issues in the following tables were resolved in this release.
 
 |Issue Type|Component|Release Note|
 |--- |--- |--- |
-|Issue|AppService: Livefyre Identity|Fixed an issue where clicking on [! UICONTROL Reset to Default] did not reset the logo under Login Modal in Studio > Integration Settings > Livefyre Identity to the default image.|
+|Issue|AppService: Livefyre Identity|Fixed an issue where clicking on [!UICONTROL Reset to Default] did not reset the logo under Login Modal in Studio > Integration Settings > Livefyre Identity to the default image.|
 |Issue|Library|Fixed an issue where a video uploaded to the Library, then viewed in asset detail did not display correctly.|
 |Issue|Streams|Fixed an issue that prevented products from displaying in a stream rule.|
 |Issue|Streams|Fixed an issue where product tags were not available for a stream rule.|
