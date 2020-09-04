@@ -25,7 +25,7 @@ To use Google AMP with Storify 2:
    1. [amp-iframe](https://www.ampproject.org/docs/reference/components/amp-iframe) to customize the Storify 2 display
    1. [amp-live-list](https://www.ampproject.org/docs/reference/components/amp-live-list) to customize the time interval for updates
    1. [amp-social-share](https://www.ampproject.org/docs/reference/components/amp-social-share) to add a social sharing button
-1. Include the contents of the following Storify 2 AMP page into the CSS for your Storify 2 page within the <style amp-custom> tag: [https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css](https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css)
+1. Include the contents of the following Storify 2 AMP page into the CSS for your Storify 2 page within the `<style amp-custom>` tag: [https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css](https://cdn.livefyre.com/libs/liveblog-v2-component/amp.min.css)
 1. Include the contents of the following Storify 2 AMP markup API into your Google AMP template: `https://api.livefyre.com/app-service/v4/bootstrap/{{APP_ID}}/amp` where {{APP_ID}} is the App ID for the Storify 2 App in Livefyre Studio.
    1. The only query parameter is **pollInterval**, which is the interval in which the app will check for updates (set in milliseconds).
    1. The URL includes content from the most recent posts (including Tweets, videos, etc.)
