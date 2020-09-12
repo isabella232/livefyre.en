@@ -1,10 +1,10 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyre Documentation
+user-guide-title: Livefyre Guide
 ---
 
-# Livefyre Documentation {#using} 
+# Livefyre Guide {#using} 
 
 + [Livefyre Help](home.md)
 + [Announcements](c-anouncements.md)
